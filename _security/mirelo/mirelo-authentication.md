@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirelo/refs/he
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Audio
 - Sound Effects
 - Generative AI

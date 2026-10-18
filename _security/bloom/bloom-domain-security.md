@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloom/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Identity
 - Verifiable Credentials
 - Decentralized Identity

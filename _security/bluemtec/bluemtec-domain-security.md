@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Healthcare
-- Big Data
+- BigData
 - Distribution
 - South Korea
 ---

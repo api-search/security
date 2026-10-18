@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: chronogg-openapi-generated.yml
+- filename: chronogg-attributions-api-openapi.yml
   format: yaml
-  label: Chronogg API
-  slug: chronogg-api
+  label: Chronogg Attributions API
+  slug: chronogg-attributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/_ae-authored/chronogg-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-attributions-api-openapi.yml
+- filename: chronogg-bounties-api-openapi.yml
+  format: yaml
+  label: Chronogg Bounties API
+  slug: chronogg-bounties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-bounties-api-openapi.yml
+- filename: chronogg-chronogg-api-api-openapi.yml
+  format: yaml
+  label: Chronogg Chronogg API
+  slug: chronogg-chronogg-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-chronogg-api-api-openapi.yml
+- filename: chronogg-code-api-openapi.yml
+  format: yaml
+  label: Chronogg Code API
+  slug: chronogg-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-code-api-openapi.yml
+- filename: chronogg-complete-reward-api-openapi.yml
+  format: yaml
+  label: Chronogg Complete Reward API
+  slug: chronogg-complete-reward-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-complete-reward-api-openapi.yml
+- filename: chronogg-event-api-openapi.yml
+  format: yaml
+  label: Chronogg Event API
+  slug: chronogg-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-event-api-openapi.yml
+- filename: chronogg-manage-api-openapi.yml
+  format: yaml
+  label: Chronogg Manage API
+  slug: chronogg-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-manage-api-openapi.yml
+- filename: chronogg-member-api-openapi.yml
+  format: yaml
+  label: Chronogg Member API
+  slug: chronogg-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-member-api-openapi.yml
+- filename: chronogg-player-api-openapi.yml
+  format: yaml
+  label: Chronogg Player API
+  slug: chronogg-player-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-player-api-openapi.yml
+- filename: chronogg-rewards-api-openapi.yml
+  format: yaml
+  label: Chronogg Rewards API
+  slug: chronogg-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronogg/refs/heads/main/openapi/chronogg-rewards-api-openapi.yml
 description: ''
 domains:
 - caa: []

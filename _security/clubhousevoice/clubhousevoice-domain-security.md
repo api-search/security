@@ -33,6 +33,6 @@ tags:
 - Company
 - Voice
 - Audio
-- Communication
+- Communications
 - Platform
 ---

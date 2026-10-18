@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transparent-sy
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Fintech
 - Payments
 - Settlement

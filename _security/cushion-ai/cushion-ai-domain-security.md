@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cushion-ai/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- AI
+- Artificial Intelligence
 - ConsumerFinance
 - FeeNegotiation
 - Acquired

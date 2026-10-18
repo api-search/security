@@ -92,7 +92,7 @@ summary_line: http · 1 scheme
 tags:
 - Crawling
 - Data Extraction
-- Scraping
+- Web Scraping
 - URLs
 - Artificial Intelligence
 - Markdown

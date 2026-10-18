@@ -84,7 +84,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/security/drchrono-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

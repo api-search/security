@@ -77,7 +77,7 @@ tags:
 - Healthcare
 - Compliance
 - Credentialing
-- Learning Management
+- LMS
 - Provider Directory
 - FHIR
 - HL7

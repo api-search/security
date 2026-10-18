@@ -412,7 +412,7 @@ summary_line: http · 1 scheme
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - CIAM
 - B2B SaaS
 - Multi-Tenancy

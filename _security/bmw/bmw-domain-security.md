@@ -48,5 +48,5 @@ tags:
 - Cars
 - Vehicles
 - Automotive
-- Connected Car
+- Connected Vehicles
 ---

@@ -38,5 +38,4 @@ tags:
 - Health
 - E-Commerce
 - Sustainability
-- Portfolio Company
 ---

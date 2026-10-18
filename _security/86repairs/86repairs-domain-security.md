@@ -35,7 +35,7 @@ tags:
 - Food Service
 - Facilities Management
 - Maintenance
-- Field Service Management
+- Field Service
 - Equipment
 - Asset Management
 - Hospitality

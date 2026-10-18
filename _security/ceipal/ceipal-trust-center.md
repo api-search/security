@@ -23,7 +23,7 @@ tags:
 - Company
 - Staffing
 - Recruiting
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 trust_url: https://www.ceipal.com/legal/security
 ---

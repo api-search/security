@@ -35,6 +35,6 @@ tags:
 - Banking
 - United States
 - Super-Regional Bank
-- Retail Banking
+- Consumer Banking
 - Open Finance
 ---

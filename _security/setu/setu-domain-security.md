@@ -46,7 +46,7 @@ tags:
 - BBPS
 - Account Aggregator
 - KYC
-- eSign
+- E-Signature
 - India
 - Fintech
 ---

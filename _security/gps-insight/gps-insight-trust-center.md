@@ -23,6 +23,6 @@ tags:
 - Fleet Management
 - GPS Tracking
 - Telematics
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.gpsinsight.com/
 ---

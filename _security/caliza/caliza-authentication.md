@@ -1,6 +1,73 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: caliza-beneficiary-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Beneficiary V1 API
+  slug: caliza-beneficiary-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-beneficiary-v1-api-openapi.yml
+- filename: caliza-integrator-capabilities-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Integrator Capabilities V1 API
+  slug: caliza-integrator-capabilities-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
+- filename: caliza-integrator-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Integrator V1 API
+  slug: caliza-integrator-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-v1-api-openapi.yml
+- filename: caliza-kyc-kyb-v1-api-openapi.yml
+  format: yaml
+  label: Caliza KYC/KYB V1 API
+  slug: caliza-kyc-kyb-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-kyc-kyb-v1-api-openapi.yml
+- filename: caliza-payment-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Payment V1 API
+  slug: caliza-payment-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-payment-v1-api-openapi.yml
+- filename: caliza-recipient-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Recipient V1 API
+  slug: caliza-recipient-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-recipient-v1-api-openapi.yml
+- filename: caliza-related-person-api-openapi.yml
+  format: yaml
+  label: Caliza Related Person API
+  slug: caliza-related-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-related-person-api-openapi.yml
+- filename: caliza-terms-and-conditions-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Terms and Conditions V1 API
+  slug: caliza-terms-and-conditions-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
+- filename: caliza-transaction-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Transaction V1 API
+  slug: caliza-transaction-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-api-openapi.yml
+- filename: caliza-transaction-v1-sandbox-api-openapi.yml
+  format: yaml
+  label: Caliza Transaction V1 Sandbox API
+  slug: caliza-transaction-v1-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
+- filename: caliza-travel-rule-v1-api-openapi.yml
+  format: yaml
+  label: Caliza Travel Rule V1 API
+  slug: caliza-travel-rule-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-travel-rule-v1-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

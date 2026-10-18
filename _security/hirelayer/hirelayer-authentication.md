@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: hirelayer-openapi-generated.yml
+- filename: hirelayer-hirelayer-api-api-openapi.yml
   format: yaml
-  label: HireLayer API
-  slug: hirelayer-api
+  label: HireLayer HireLayer API
+  slug: hirelayer-hirelayer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/_ae-authored/hirelayer-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-hirelayer-api-api-openapi.yml
+- filename: hirelayer-jobs-api-openapi.yml
+  format: yaml
+  label: HireLayer Jobs API
+  slug: hirelayer-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-jobs-api-openapi.yml
+- filename: hirelayer-matching-api-openapi.yml
+  format: yaml
+  label: HireLayer Matching API
+  slug: hirelayer-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-matching-api-openapi.yml
+- filename: hirelayer-parser-api-openapi.yml
+  format: yaml
+  label: HireLayer Parser API
+  slug: hirelayer-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-parser-api-openapi.yml
+- filename: hirelayer-skills-api-openapi.yml
+  format: yaml
+  label: HireLayer Skills API
+  slug: hirelayer-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hirelayer/refs/heads/main/openapi/hirelayer-skills-api-openapi.yml
 auth_types: []
 description: Authenticate every request with an X-API-Key header.
 kind: authentication
@@ -38,7 +62,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Recruiting
-- API
 - ResumeParsing
 - CandidateMatching
 ---

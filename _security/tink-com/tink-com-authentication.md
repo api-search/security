@@ -170,21 +170,39 @@ schemes:
 - name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/tink-account-check-api-openapi.yml
-  - openapi/tink-connector-api-openapi.yml
-  - openapi/tink-data-api-openapi.yml
-  - openapi/tink-data-enrichment-api-openapi.yml
-  - openapi/tink-money-manager-api-openapi.yml
-  - openapi/tink-oauth-api-openapi.yml
-  - openapi/tink-payments-api-openapi.yml
-  - openapi/tink-risk-reports-api-openapi.yml
-  - openapi/tink-webhooks-api-openapi.yml
+  - openapi/tink-com-accounts-api-openapi.yml
+  - openapi/tink-com-accountverificationreports-api-openapi.yml
+  - openapi/tink-com-balancerefresh-api-openapi.yml
+  - openapi/tink-com-budgets-api-openapi.yml
+  - openapi/tink-com-businessaccountverificationreports-api-openapi.yml
+  - openapi/tink-com-cash-flow-api-openapi.yml
+  - openapi/tink-com-categories-api-openapi.yml
+  - openapi/tink-com-connectoraccounts-api-openapi.yml
+  - openapi/tink-com-connectortransactions-api-openapi.yml
+  - openapi/tink-com-enrichedtransactions-api-openapi.yml
+  - openapi/tink-com-expensechecks-api-openapi.yml
+  - openapi/tink-com-financialcalendar-api-openapi.yml
+  - openapi/tink-com-identities-api-openapi.yml
+  - openapi/tink-com-incomechecks-api-openapi.yml
+  - openapi/tink-com-investments-api-openapi.yml
+  - openapi/tink-com-loans-api-openapi.yml
+  - openapi/tink-com-mandates-api-openapi.yml
+  - openapi/tink-com-oauth-api-openapi.yml
+  - openapi/tink-com-payments-api-openapi.yml
+  - openapi/tink-com-recurringtransactions-api-openapi.yml
+  - openapi/tink-com-riskcategorisation-api-openapi.yml
+  - openapi/tink-com-riskinsights-api-openapi.yml
+  - openapi/tink-com-transactions-api-openapi.yml
+  - openapi/tink-com-user-api-openapi.yml
+  - openapi/tink-com-webhook-endpoints-api-openapi.yml
   type: http
 slug: tink-com-authentication
 source_filename: tink-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tink-account-check-api-openapi.yml, openapi/tink-connector-api-openapi.yml,\n  openapi/tink-data-api-openapi.yml, openapi/tink-data-enrichment-api-openapi.yml, openapi/tink-money-manager-api-openapi.yml,\n  openapi/tink-oauth-api-openapi.yml, openapi/tink-payments-api-openapi.yml, openapi/tink-risk-reports-api-openapi.yml,\n  openapi/tink-webhooks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/tink-account-check-api-openapi.yml\n  - openapi/tink-connector-api-openapi.yml\n  - openapi/tink-data-api-openapi.yml\n  - openapi/tink-data-enrichment-api-openapi.yml\n  - openapi/tink-money-manager-api-openapi.yml\n  - openapi/tink-oauth-api-openapi.yml\n  - openapi/tink-payments-api-openapi.yml\n  - openapi/tink-risk-reports-api-openapi.yml\n  - openapi/tink-webhooks-api-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/tink-com-accounts-api-openapi.yml, openapi/tink-com-accountverificationreports-api-openapi.yml,\n  openapi/tink-com-balancerefresh-api-openapi.yml, openapi/tink-com-budgets-api-openapi.yml,\n  openapi/tink-com-businessaccountverificationreports-api-openapi.yml, openapi/tink-com-cash-flow-api-openapi.yml,\n  openapi/tink-com-categories-api-openapi.yml, openapi/tink-com-connectoraccounts-api-openapi.yml,\n  openapi/tink-com-connectortransactions-api-openapi.yml, openapi/tink-com-enrichedtransactions-api-openapi.yml,\n  openapi/tink-com-expensechecks-api-openapi.yml, openapi/tink-com-financialcalendar-api-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/tink-com-accounts-api-openapi.yml\n  - openapi/tink-com-accountverificationreports-api-openapi.yml\n  - openapi/tink-com-balancerefresh-api-openapi.yml\n  - openapi/tink-com-budgets-api-openapi.yml\n\
+  \  - openapi/tink-com-businessaccountverificationreports-api-openapi.yml\n  - openapi/tink-com-cash-flow-api-openapi.yml\n  - openapi/tink-com-categories-api-openapi.yml\n  - openapi/tink-com-connectoraccounts-api-openapi.yml\n  - openapi/tink-com-connectortransactions-api-openapi.yml\n  - openapi/tink-com-enrichedtransactions-api-openapi.yml\n  - openapi/tink-com-expensechecks-api-openapi.yml\n  - openapi/tink-com-financialcalendar-api-openapi.yml\n  - openapi/tink-com-identities-api-openapi.yml\n  - openapi/tink-com-incomechecks-api-openapi.yml\n  - openapi/tink-com-investments-api-openapi.yml\n  - openapi/tink-com-loans-api-openapi.yml\n  - openapi/tink-com-mandates-api-openapi.yml\n  - openapi/tink-com-oauth-api-openapi.yml\n  - openapi/tink-com-payments-api-openapi.yml\n  - openapi/tink-com-recurringtransactions-api-openapi.yml\n  - openapi/tink-com-riskcategorisation-api-openapi.yml\n  - openapi/tink-com-riskinsights-api-openapi.yml\n  - openapi/tink-com-transactions-api-openapi.yml\n\
+  \  - openapi/tink-com-user-api-openapi.yml\n  - openapi/tink-com-webhook-endpoints-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/authentication/tink-com-authentication.yml
 summary_line: http · 1 scheme
 tags:

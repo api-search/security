@@ -26,7 +26,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unto-labs/refs
 summary_line: signature-based · 0 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Layer 1
 - RISC-V

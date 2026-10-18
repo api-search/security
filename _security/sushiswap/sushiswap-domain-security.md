@@ -93,7 +93,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DeFi
 - Decentralized Exchange
-- DEX
 - Cryptocurrency
 - Web3
 - Blockchain

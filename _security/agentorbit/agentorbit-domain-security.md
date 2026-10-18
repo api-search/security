@@ -29,8 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentorbit/ref
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- API
-- SaaS
+- Software-as-a-Service
 - Automation
 - Integration
 - Marketing

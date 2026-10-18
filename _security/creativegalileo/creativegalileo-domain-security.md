@@ -34,5 +34,5 @@ tags:
 - EdTech
 - EarlyLearning
 - India
-- Startup
+- Startups
 ---

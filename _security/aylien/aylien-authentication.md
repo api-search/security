@@ -159,10 +159,9 @@ summary_line: apiKey · 4 schemes
 tags:
 - News Intelligence
 - Text Analysis
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Recognition
-- Natural Language Processing
 - News API
 - Article Extraction
 - Summarization

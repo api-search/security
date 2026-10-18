@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Energy
-- CleanTech
+- Cleantech
 - Biofuel
-- Renewable
-- Startup
+- Renewables
+- Startups
 ---

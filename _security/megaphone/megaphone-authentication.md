@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/megaphon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/authentication/megaphone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Advertising
 - Ad Monetization

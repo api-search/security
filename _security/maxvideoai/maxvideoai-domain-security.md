@@ -48,7 +48,6 @@ tags:
 - Image Generation
 - MCP
 - Agent-Native
-- Text-to-Video
 - Image-to-Video
 - Creative Production
 - Pay As You Go

@@ -33,7 +33,7 @@ tags:
 - Depaneling
 - Placement
 - Automation
-- Laser
+- Lasers
 - Test Handling
 - Electronics Manufacturing
 ---

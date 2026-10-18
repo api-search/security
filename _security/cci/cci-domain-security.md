@@ -33,6 +33,6 @@ tags:
 - Healthcare
 - Credentialing
 - Certification
-- Non-profit
+- Non-Profit
 - Cardiovascular
 ---

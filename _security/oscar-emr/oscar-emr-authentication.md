@@ -45,8 +45,7 @@ summary_line: oauth1a/oauth2 · 2 schemes
 tags:
 - Healthcare
 - Canada
-- EHR
-- EMR
+- Electronic Health Records
 - Primary Care
 - Open Source
 - FHIR

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: dexio-openapi-generated.yml
+- filename: dexio-dexio-api-api-openapi.yml
   format: yaml
-  label: Dexio API
-  slug: dexio-api
+  label: Dexio Dexio API
+  slug: dexio-dexio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/_ae-authored/dexio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-dexio-api-api-openapi.yml
+- filename: dexio-install-api-openapi.yml
+  format: yaml
+  label: Dexio Install API
+  slug: dexio-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-install-api-openapi.yml
+- filename: dexio-mcp-api-openapi.yml
+  format: yaml
+  label: Dexio MCP API
+  slug: dexio-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +50,9 @@ source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/security/dexio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Wiki
-- Knowledge-Management
+- Knowledge Management
 - Agent-Integration
-- Open-Source
+- Open Source
 ---

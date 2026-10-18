@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/authentication/microsoft-azure-cache-for-redis-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Azure
+- Microsoft Azure
 - Cache
 - Cloud Infrastructure
 - Datastore

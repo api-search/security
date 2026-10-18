@@ -51,6 +51,6 @@ tags:
 - SAML
 - eduGAIN
 - LTI
-- Learning Management System
+- LMS
 - Course Catalog
 ---

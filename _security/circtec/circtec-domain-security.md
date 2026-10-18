@@ -35,5 +35,5 @@ tags:
 - Sustainability
 - Pyrolysis
 - RenewableEnergy
-- CircularEconomy
+- Circular Economy
 ---

@@ -73,7 +73,7 @@ tags:
 - Conversational AI
 - Chatbots
 - Voice Assistant
-- NLU
+- Natural Language Understanding
 - LLM
 - Machine Learning
 - Agents

@@ -36,7 +36,7 @@ tags:
 - Nurse Practitioners
 - Independent Practice
 - Practice Management
-- EHR
+- Electronic Health Records
 - Medical Billing
 - Insurance Credentialing
 - Compliance

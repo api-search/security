@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
 - Integration
-- API
 - Data-Integration
 - Enterprise
 ---

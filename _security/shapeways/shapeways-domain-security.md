@@ -58,7 +58,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Prototyping
 - Hardware

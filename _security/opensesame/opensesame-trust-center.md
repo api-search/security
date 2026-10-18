@@ -22,7 +22,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - E-Learning
-- Learning Management
+- LMS
 - Online Training
 - Course Marketplace
 - Corporate Training

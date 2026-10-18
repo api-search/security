@@ -51,7 +51,7 @@ tags:
 - OAI-PMH
 - Identity
 - SSO
-- Learning Management
+- LMS
 - Library
 - API Gateway
 - Identity Federation

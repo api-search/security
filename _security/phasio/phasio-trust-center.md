@@ -214,7 +214,6 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - CNC Machining
 - Quoting

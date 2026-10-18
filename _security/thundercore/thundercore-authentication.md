@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thundercore/re
 summary_line: none/cryptographic-signature · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - EVM
 - JSON-RPC

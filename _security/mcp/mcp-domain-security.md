@@ -57,4 +57,5 @@ tags:
 - Anthropic
 - Standards
 - Topic
+- A2A
 ---

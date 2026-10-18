@@ -29,5 +29,4 @@ tags:
 - Company
 - Fintech
 - Financial Services
-- Venture Backed
 ---

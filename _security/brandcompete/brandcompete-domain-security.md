@@ -34,6 +34,6 @@ tags:
 - Data Intelligence
 - Process Automation
 - Enterprise Software
-- AI/ML
+- Artificial Intelligence
 - GDPR Compliance
 ---

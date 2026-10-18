@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tofu/refs/head
 summary_line: http/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Marketing
 - Go-To-Market
 - Sales

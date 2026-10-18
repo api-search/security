@@ -12,78 +12,60 @@ api_specs:
   slug: concur-expenses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expenses-api-openapi.yml
-- filename: sap-concur-allocations-api-openapi.yml
+- filename: concur-allocations-api-openapi.yml
   format: yaml
   label: SAP Concur Allocations API
-  slug: sap-concur-allocations-api
+  slug: concur-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-allocations-api-openapi.yml
-- filename: sap-concur-comments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-allocations-api-openapi.yml
+- filename: concur-comments-api-openapi.yml
   format: yaml
   label: SAP Concur Comments API
-  slug: sap-concur-comments-api
+  slug: concur-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-comments-api-openapi.yml
-- filename: sap-concur-expenses-api-openapi.yml
-  format: yaml
-  label: SAP Concur Expenses API
-  slug: sap-concur-expenses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expenses-api-openapi.yml
-- filename: sap-concur-reports-api-openapi.yml
-  format: yaml
-  label: SAP Concur Reports API
-  slug: sap-concur-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-reports-api-openapi.yml
-- filename: sap-concur-workflows-api-openapi.yml
-  format: yaml
-  label: SAP Concur Workflows API
-  slug: sap-concur-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-workflows-api-openapi.yml
-- filename: sap-concur-expense-allocations-api-openapi.yml
-  format: yaml
-  label: SAP Concur Expense Allocations API
-  slug: sap-concur-expense-allocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-allocations-api-openapi.yml
-- filename: sap-concur-expense-expense-entries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-comments-api-openapi.yml
+- filename: concur-expense-entries-api-openapi.yml
   format: yaml
   label: SAP Concur Expense Entries API
-  slug: sap-concur-expense-expense-entries-api
+  slug: concur-expense-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-expense-entries-api-openapi.yml
-- filename: sap-concur-expense-expense-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-expense-entries-api-openapi.yml
+- filename: concur-group-configurations-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Reports API
-  slug: sap-concur-expense-expense-reports-api
+  label: SAP Concur Group Configurations API
+  slug: concur-group-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-expense-reports-api-openapi.yml
-- filename: sap-concur-expense-group-configurations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-group-configurations-api-openapi.yml
+- filename: concur-payment-batches-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Group Configurations API
-  slug: sap-concur-expense-group-configurations-api
+  label: SAP Concur Payment Batches API
+  slug: concur-payment-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-group-configurations-api-openapi.yml
-- filename: sap-concur-expense-payment-batches-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-payment-batches-api-openapi.yml
+- filename: concur-quick-expenses-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Payment Batches API
-  slug: sap-concur-expense-payment-batches-api
+  label: SAP Concur Quick Expenses API
+  slug: concur-quick-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-payment-batches-api-openapi.yml
-- filename: sap-concur-expense-quick-expenses-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-quick-expenses-api-openapi.yml
+- filename: concur-receipt-images-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Quick Expenses API
-  slug: sap-concur-expense-quick-expenses-api
+  label: SAP Concur Receipt Images API
+  slug: concur-receipt-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-quick-expenses-api-openapi.yml
-- filename: sap-concur-expense-receipt-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-receipt-images-api-openapi.yml
+- filename: concur-reports-api-openapi.yml
   format: yaml
-  label: SAP Concur Expense Receipt Images API
-  slug: sap-concur-expense-receipt-images-api
+  label: SAP Concur Reports API
+  slug: concur-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/sap-concur-expense-receipt-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-reports-api-openapi.yml
+- filename: concur-workflows-api-openapi.yml
+  format: yaml
+  label: SAP Concur Workflows API
+  slug: concur-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/openapi/concur-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

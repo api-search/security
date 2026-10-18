@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: cloud9trader-openapi-generated.yml
+- filename: cloud9trader-cloud9trader-api-api-openapi.yml
   format: yaml
-  label: Cloud9trader API
-  slug: cloud9trader-api
+  label: Cloud9trader Cloud9trader API
+  slug: cloud9trader-cloud9trader-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud9trader/refs/heads/main/openapi/_ae-authored/cloud9trader-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloud9trader/refs/heads/main/openapi/cloud9trader-cloud9trader-api-api-openapi.yml
+- filename: cloud9trader-currency-api-openapi.yml
+  format: yaml
+  label: Cloud9trader Currency API
+  slug: cloud9trader-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud9trader/refs/heads/main/openapi/cloud9trader-currency-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,8 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud9trader/r
 summary_line: TLSv1.3
 tags:
 - Company
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Trading
-- API
 ---

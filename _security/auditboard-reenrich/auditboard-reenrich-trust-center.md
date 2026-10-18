@@ -25,7 +25,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Company
 - GRC
-- AI
+- Artificial Intelligence
 - Enterprise
 - Compliance
 trust_url: https://trust.optro.ai/

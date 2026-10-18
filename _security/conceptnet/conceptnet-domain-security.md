@@ -78,7 +78,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conceptnet/ref
 summary_line: TLSv1.2
 tags:
 - Knowledge Graph
-- NLP
+- Natural Language Processing
 - Semantic Web
 - Common Sense
 - Multilingual

@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3
 - Solana
-- DEX
+- Decentralized Exchange
 - AMM
 - Liquidity
 - CLMM

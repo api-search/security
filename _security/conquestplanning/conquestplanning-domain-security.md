@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Financial-Planning
-- AI
-- Wealth-Management
-- SaaS
+- Artificial Intelligence
+- Wealth Management
+- Software-as-a-Service
 ---

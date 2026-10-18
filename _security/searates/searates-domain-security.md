@@ -35,5 +35,5 @@ tags:
 - Logistics
 - Freight
 - Shipping
-- SupplyChain
+- Supply Chain
 ---

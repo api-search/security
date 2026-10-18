@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Telehealth
 - Digital Health
-- EHR
+- Electronic Health Records
 - Clinician Network
 - Revenue Cycle Management
 - White Label

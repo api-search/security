@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/internet-archi
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Digital Library
-- Nonprofit
+- Non-Profit
 - Archival
 - Open Access
 - Research

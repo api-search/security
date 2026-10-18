@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardiointellig
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - Cardiology
 - Japan
 ---

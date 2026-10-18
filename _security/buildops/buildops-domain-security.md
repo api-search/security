@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Construction Software
-- Field Service Management
+- Field Service
 - Contractor Management
 - Commercial Services
 - HVAC

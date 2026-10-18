@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Text Messaging
 - Patient Engagement
-- Telemedicine
+- Telehealth
 - EMR Integration
 - Call Center
 - Healthcare Communication

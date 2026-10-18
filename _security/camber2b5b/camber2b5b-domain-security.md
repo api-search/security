@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camber2b5b/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Technology
-- Service
+- Services
 ---

@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: contentful-global-designsystemimport-api-openapi.yml
+  format: yaml
+  label: Contentful Global Design System Import API
+  slug: contentful-global-designsystemimport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-designsystemimport-api-openapi.yml
+- filename: contentful-global-designsystemsource-api-openapi.yml
+  format: yaml
+  label: Contentful Global Design System Source API
+  slug: contentful-global-designsystemsource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-designsystemsource-api-openapi.yml
+- filename: contentful-global-githubinstallationrepositories-api-openapi.yml
+  format: yaml
+  label: Contentful Global Git Hub Installation Repositories API
+  slug: contentful-global-githubinstallationrepositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallationrepositories-api-openapi.yml
+- filename: contentful-global-githubinstallations-api-openapi.yml
+  format: yaml
+  label: Contentful Global Git Hub Installations API
+  slug: contentful-global-githubinstallations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallations-api-openapi.yml
+- filename: contentful-global-githubinstallationstatus-api-openapi.yml
+  format: yaml
+  label: Contentful Global Git Hub Installation Status API
+  slug: contentful-global-githubinstallationstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubinstallationstatus-api-openapi.yml
+- filename: contentful-global-githubrepositorybranches-api-openapi.yml
+  format: yaml
+  label: Contentful Global Git Hub Repository Branches API
+  slug: contentful-global-githubrepositorybranches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful-global/refs/heads/main/openapi/contentful-global-githubrepositorybranches-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -31,8 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful-glo
 summary_line: TLSv1.3 · DMARC
 tags:
 - Content Management
-- API
-- SaaS
+- Software-as-a-Service
 - Cloud
 - Salesforce
 ---

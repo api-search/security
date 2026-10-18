@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rangers-protoc
 summary_line: DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - EVM

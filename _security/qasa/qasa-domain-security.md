@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qasa/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- RealEstate
+- Real Estate
 - Rentals
 - Marketplace
 - Sweden

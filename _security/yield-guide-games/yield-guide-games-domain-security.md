@@ -38,5 +38,5 @@ tags:
 - DAO
 - NFT
 - Play-to-Earn
-- Crypto
+- Cryptocurrency
 ---

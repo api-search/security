@@ -34,6 +34,6 @@ tags:
 - Company
 - Bathroom
 - Wellness
-- Home
+- Homes
 - Filtration
 ---

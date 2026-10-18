@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: nextbillion-ai-openapi-generated.yml
+- filename: nextbillion-ai-directions-api-openapi.yml
   format: yaml
-  label: NextBillion.ai API
-  slug: nextbillion-ai-api
+  label: NextBillion.ai Directions API
+  slug: nextbillion-ai-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/_ae-authored/nextbillion-ai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-directions-api-openapi.yml
+- filename: nextbillion-ai-distancematrix-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Distancematrix API
+  slug: nextbillion-ai-distancematrix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-distancematrix-api-openapi.yml
+- filename: nextbillion-ai-hos-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Hos API
+  slug: nextbillion-ai-hos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-hos-api-openapi.yml
+- filename: nextbillion-ai-isochrone-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Isochrone API
+  slug: nextbillion-ai-isochrone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-isochrone-api-openapi.yml
+- filename: nextbillion-ai-mdm-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Mdm API
+  slug: nextbillion-ai-mdm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-mdm-api-openapi.yml
+- filename: nextbillion-ai-navigation-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Navigation API
+  slug: nextbillion-ai-navigation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-navigation-api-openapi.yml
+- filename: nextbillion-ai-optimization-api-openapi.yml
+  format: yaml
+  label: NextBillion.ai Optimization API
+  slug: nextbillion-ai-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai/refs/heads/main/openapi/nextbillion-ai-optimization-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,9 +75,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextbillion-ai
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Routing
 - Logistics
-- AI
+- Artificial Intelligence
 - Mapping
 ---

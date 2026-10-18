@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: smklog-com-agent-api-openapi.yml
+- filename: smklog-com-checkout-api-openapi.yml
   format: yaml
-  label: SMKlog Agent API
-  slug: smklog-com-agent-api
+  label: SMKlog Checkout API
+  slug: smklog-com-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-agent-api-openapi.yml
-- filename: smklog-com-quote-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-checkout-api-openapi.yml
+- filename: smklog-com-operations-api-openapi.yml
   format: yaml
-  label: SMKlog Quote API
-  slug: smklog-com-quote-api
+  label: SMKlog Operations API
+  slug: smklog-com-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quote-api-openapi.yml
-- filename: smklog-com-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-operations-api-openapi.yml
+- filename: smklog-com-quotes-api-openapi.yml
   format: yaml
-  label: SMKlog Status API
-  slug: smklog-com-status-api
+  label: SMKlog Quotes API
+  slug: smklog-com-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []

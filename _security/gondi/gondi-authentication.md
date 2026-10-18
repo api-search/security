@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gondi/refs/hea
 summary_line: siwe/apiKey · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - NFT
 - DeFi
 - Lending

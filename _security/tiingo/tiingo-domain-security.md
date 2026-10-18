@@ -117,8 +117,8 @@ tags:
 - Fintech
 - Market Data
 - Stocks
-- Crypto
-- FX
+- Cryptocurrency
+- Foreign Exchange
 - News
 - Fundamentals
 - WebSocket

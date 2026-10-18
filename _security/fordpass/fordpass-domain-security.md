@@ -41,7 +41,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
 - Connected Vehicles
-- Connected Car
 - Telematics
 - Fleet
 - Fleet Management

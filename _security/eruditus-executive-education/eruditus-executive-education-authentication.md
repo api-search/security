@@ -56,7 +56,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Executive Education
 - EdTech
 - Higher Education

@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byborre/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data
-- API
 - Business-Intelligence
 - Analytics
 - Integration

@@ -24,8 +24,7 @@ tags:
 - Privileged Access Management
 - Identity Security
 - Zero Trust
-- Access Management
+- Identity and Access Management
 - Cybersecurity
-- PAM
 trust_url: https://trust.venice.io/
 ---

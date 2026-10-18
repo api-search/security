@@ -35,5 +35,4 @@ tags:
 - Retail Technology
 - IoT
 - Connected Retail
-- Portfolio Company
 ---

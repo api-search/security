@@ -37,6 +37,5 @@ tags:
 - Company
 - Finance
 - Trading
-- Investments
-- API
+- Investment
 ---

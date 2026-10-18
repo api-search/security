@@ -71,8 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/1forge-f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/authentication/1forge-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Currency Exchange
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Market Data
 - Financial Data

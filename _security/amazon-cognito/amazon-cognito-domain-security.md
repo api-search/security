@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - User Management
 - Federated Identity

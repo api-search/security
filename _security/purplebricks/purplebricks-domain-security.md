@@ -398,5 +398,5 @@ tags:
 - OpenAPI
 - Microservices
 - Swagger
-- Azure
+- Microsoft Azure
 ---

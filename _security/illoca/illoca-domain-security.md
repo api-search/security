@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/illoca/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Architecture
 - Design
 - Generative AI

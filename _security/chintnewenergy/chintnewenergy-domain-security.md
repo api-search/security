@@ -33,7 +33,7 @@ tags:
 - Company
 - Energy
 - Solar
-- CleanTech
+- Cleantech
 - China
-- Renewable
+- Renewables
 ---

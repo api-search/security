@@ -34,7 +34,7 @@ tags:
 - Company
 - Help Desk
 - Ticketing
-- Customer Support
+- Customer Service
 - Slack
 - Microsoft Teams
 - Acquired

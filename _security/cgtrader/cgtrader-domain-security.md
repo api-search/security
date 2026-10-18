@@ -34,6 +34,6 @@ tags:
 - Company
 - Marketplace
 - 3DModels
-- AI
+- Artificial Intelligence
 - Community
 ---

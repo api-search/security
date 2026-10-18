@@ -81,5 +81,5 @@ tags:
 - Threat Protection
 - Compliance
 - Vulnerability Management
-- Azure
+- Microsoft Azure
 ---

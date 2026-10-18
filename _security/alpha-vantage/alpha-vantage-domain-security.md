@@ -39,8 +39,8 @@ tags:
 - Fintech
 - Market Data
 - Stocks
-- FX
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - Commodities
 - Economic Indicators
 - Technical Indicators

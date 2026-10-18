@@ -56,6 +56,5 @@ tags:
 - Company
 - Healthcare
 - Clinical Audits
-- API
 - Automation
 ---

@@ -2,12 +2,96 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: pinch-openapi-generated.yml
+- filename: pinch-calculate-fees-api-openapi.yml
   format: yaml
-  label: Pinch API
-  slug: pinch-api
+  label: Pinch Calculate Fees API
+  slug: pinch-calculate-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/_ae-authored/pinch-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-calculate-fees-api-openapi.yml
+- filename: pinch-connect-api-openapi.yml
+  format: yaml
+  label: Pinch Connect API
+  slug: pinch-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-connect-api-openapi.yml
+- filename: pinch-fees-api-openapi.yml
+  format: yaml
+  label: Pinch Fees API
+  slug: pinch-fees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-fees-api-openapi.yml
+- filename: pinch-merchants-api-openapi.yml
+  format: yaml
+  label: Pinch Merchants API
+  slug: pinch-merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-merchants-api-openapi.yml
+- filename: pinch-payers-api-openapi.yml
+  format: yaml
+  label: Pinch Payers API
+  slug: pinch-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payers-api-openapi.yml
+- filename: pinch-payment-links-api-openapi.yml
+  format: yaml
+  label: Pinch Payment Links API
+  slug: pinch-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payment-links-api-openapi.yml
+- filename: pinch-payments-api-openapi.yml
+  format: yaml
+  label: Pinch Payments API
+  slug: pinch-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-payments-api-openapi.yml
+- filename: pinch-plans-api-openapi.yml
+  format: yaml
+  label: Pinch Plans API
+  slug: pinch-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-plans-api-openapi.yml
+- filename: pinch-refund-api-openapi.yml
+  format: yaml
+  label: Pinch Refund API
+  slug: pinch-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-refund-api-openapi.yml
+- filename: pinch-refunds-api-openapi.yml
+  format: yaml
+  label: Pinch Refunds API
+  slug: pinch-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-refunds-api-openapi.yml
+- filename: pinch-sources-api-openapi.yml
+  format: yaml
+  label: Pinch Sources API
+  slug: pinch-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-sources-api-openapi.yml
+- filename: pinch-subscriptions-api-openapi.yml
+  format: yaml
+  label: Pinch Subscriptions API
+  slug: pinch-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-subscriptions-api-openapi.yml
+- filename: pinch-test-api-openapi.yml
+  format: yaml
+  label: Pinch Test API
+  slug: pinch-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-test-api-openapi.yml
+- filename: pinch-transfers-api-openapi.yml
+  format: yaml
+  label: Pinch Transfers API
+  slug: pinch-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-transfers-api-openapi.yml
+- filename: pinch-webhooks-api-openapi.yml
+  format: yaml
+  label: Pinch Webhooks API
+  slug: pinch-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinch/refs/heads/main/openapi/pinch-webhooks-api-openapi.yml
 auth_types: []
 description: Pinch API authentication
 kind: authentication
@@ -49,6 +133,5 @@ tags:
 - Company
 - Payments
 - MedicalSpa
-- API
-- HealthTech
+- Health Tech
 ---

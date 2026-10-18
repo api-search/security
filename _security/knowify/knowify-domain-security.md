@@ -35,7 +35,7 @@ tags:
 - Job Costing
 - Project Management
 - Trade Contractors
-- Field Service Management
+- Field Service
 - Service Dispatch
 - Estimating
 - AIA Billing

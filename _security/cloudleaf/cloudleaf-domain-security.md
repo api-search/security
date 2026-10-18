@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cloudleaf-openapi-generated.yml
+- filename: cloudleaf-token-api-openapi.yml
   format: yaml
-  label: ParkourSC API
-  slug: cloudleaf-api
+  label: ParkourSC Token API
+  slug: cloudleaf-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudleaf/refs/heads/main/openapi/_ae-authored/cloudleaf-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudleaf/refs/heads/main/openapi/cloudleaf-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,8 +37,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudleaf/refs/heads/main/security/cloudleaf-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- SupplyChain
-- AI
+- Supply Chain
+- Artificial Intelligence
 - DigitalTwin
 - DecisionIntelligence
 - Logistics

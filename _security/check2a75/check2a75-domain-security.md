@@ -31,8 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/check2a75/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Technology
-- Stub
 ---

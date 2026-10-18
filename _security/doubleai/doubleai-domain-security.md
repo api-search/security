@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubleai/refs/
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning

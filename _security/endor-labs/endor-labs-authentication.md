@@ -76,7 +76,7 @@ summary_line: http · 1 scheme
 tags:
 - Security
 - Software Supply Chain
-- SCA
+- Software Composition Analysis
 - Reachability
 - AppSec
 - AI Security

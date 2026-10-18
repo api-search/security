@@ -33,5 +33,5 @@ tags:
 - Crowdfunding
 - Investment
 - Multi-family
-- FinTech
+- Fintech
 ---

@@ -40,7 +40,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - English Language Learning
 - Early Childhood Development
 - Professional Development

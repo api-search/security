@@ -67,5 +67,5 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Course Catalog
-- Learning Management
+- LMS
 ---

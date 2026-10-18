@@ -47,8 +47,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Canada
-- EHR
-- EMR
+- Electronic Health Records
 - Primary Care
 - Open Source
 - FHIR

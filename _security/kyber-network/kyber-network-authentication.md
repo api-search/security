@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyber-network/
 summary_line: 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Blockchain
 - Decentralized Exchange

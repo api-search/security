@@ -26,7 +26,7 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - LLM
-- NLP
+- Natural Language Processing
 - Data Annotation
 - GraphQL
 trust_url: https://datasaur.ai/studio/security

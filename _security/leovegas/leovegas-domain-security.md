@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leovegas/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Gaming
-- Casino
+- Casinos
 - Sports Betting
 - Mobile
 - Responsible Gambling

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chemsqure/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - chemical
-- sourcing
-- procurement
+- Sourcing
+- Procurement
 - B2B
-- marketplace
+- Marketplace
 ---

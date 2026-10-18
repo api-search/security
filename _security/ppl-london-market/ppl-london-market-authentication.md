@@ -161,7 +161,7 @@ tags:
 - Lloyd's of London
 - Reinsurance
 - Commercial Insurance
-- Brokers
+- Brokerage
 - Underwriting
 - Placement
 - Market Infrastructure

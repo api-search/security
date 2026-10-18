@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/directtap/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant
-- SaaS
+- Software-as-a-Service
 - Marketplace
 - Zero-Commission
 - Ordering

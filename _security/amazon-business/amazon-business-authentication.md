@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: amazon-business-openapi-generated.yml
+- filename: amazon-business-ab-invoice-api-openapi.yml
   format: yaml
-  label: Amazon Business API
-  slug: amazon-business-api
+  label: Amazon Business Ab Invoice API
+  slug: amazon-business-ab-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/_ae-authored/amazon-business-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-ab-invoice-api-openapi.yml
+- filename: amazon-business-cart-api-openapi.yml
+  format: yaml
+  label: Amazon Business Cart API
+  slug: amazon-business-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-cart-api-openapi.yml
+- filename: amazon-business-ordering-api-openapi.yml
+  format: yaml
+  label: Amazon Business Ordering API
+  slug: amazon-business-ordering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-ordering-api-openapi.yml
+- filename: amazon-business-products-api-openapi.yml
+  format: yaml
+  label: Amazon Business Products API
+  slug: amazon-business-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-products-api-openapi.yml
+- filename: amazon-business-reports-api-openapi.yml
+  format: yaml
+  label: Amazon Business Reports API
+  slug: amazon-business-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-business/refs/heads/main/openapi/amazon-business-reports-api-openapi.yml
 auth_types: []
 description: Amazon Business uses Login with Amazon (LWA) OAuth2 for authentication.
 kind: authentication

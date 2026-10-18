@@ -42,6 +42,6 @@ tags:
 - Artificial Intelligence
 - Clinical Decision Support
 - Medical
-- EHR
+- Electronic Health Records
 - Health Tech
 ---

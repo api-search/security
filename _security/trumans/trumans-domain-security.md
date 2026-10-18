@@ -32,6 +32,6 @@ tags:
 - Company
 - Venture
 - Portfolio
-- Startup
+- Startups
 - Technology
 ---

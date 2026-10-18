@@ -3,12 +3,36 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: fellow-webhooks-asyncapi.yml
+- filename: fellow-action-items-api-openapi.yml
   format: yaml
-  label: Fellow Developer API
-  slug: fellow-developer-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/asyncapi/fellow-webhooks-asyncapi.yml
+  label: Fellow Action Items API
+  slug: fellow-action-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-action-items-api-openapi.yml
+- filename: fellow-notes-api-openapi.yml
+  format: yaml
+  label: Fellow Notes API
+  slug: fellow-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-notes-api-openapi.yml
+- filename: fellow-recordings-api-openapi.yml
+  format: yaml
+  label: Fellow Recordings API
+  slug: fellow-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-recordings-api-openapi.yml
+- filename: fellow-users-api-openapi.yml
+  format: yaml
+  label: Fellow Users API
+  slug: fellow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-users-api-openapi.yml
+- filename: fellow-webhooks-api-openapi.yml
+  format: yaml
+  label: Fellow Webhooks API
+  slug: fellow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

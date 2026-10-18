@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: axflow-openapi-generated.yml
+- filename: axflow-chat-api-openapi.yml
   format: yaml
-  label: Axflow API
-  slug: axflow-api
+  label: Axflow Chat API
+  slug: axflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axflow/refs/heads/main/openapi/_ae-authored/axflow-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/axflow/refs/heads/main/openapi/axflow-chat-api-openapi.yml
+- filename: axflow-openai-api-openapi.yml
+  format: yaml
+  label: Axflow Openai API
+  slug: axflow-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axflow/refs/heads/main/openapi/axflow-openai-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axflow/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tooling
 - Platform
 - LLM

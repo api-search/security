@@ -35,5 +35,4 @@ tags:
 - Social Media
 - Microblogging
 - China
-- API
 ---

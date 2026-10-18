@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/security/digio-trust-center.yml
 summary_line: ISO 27001, SOC 2
 tags:
-- eSign
+- E-Signature
 - KYC
 - eNACH
 - eMandate

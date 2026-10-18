@@ -35,5 +35,5 @@ tags:
 - Venture
 - Fintech
 - CapitalMarkets
-- NewYork
+- New York
 ---

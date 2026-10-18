@@ -34,6 +34,6 @@ tags:
 - Company
 - Fashion
 - Activewear
-- E‑commerce
+- E-Commerce
 - Apparel
 ---

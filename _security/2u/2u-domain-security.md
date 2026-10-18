@@ -35,7 +35,7 @@ tags:
 - Consumer
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Universities
 - EDX
 ---

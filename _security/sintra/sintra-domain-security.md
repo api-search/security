@@ -43,7 +43,7 @@ tags:
 - Automation
 - No-Code
 - Productivity
-- Customer Support
+- Customer Service
 - Marketing
 - Software-as-a-Service
 - Small Business

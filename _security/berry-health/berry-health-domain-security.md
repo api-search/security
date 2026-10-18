@@ -39,7 +39,6 @@ tags:
 - Pharmacy Delivery
 - Africa
 - Ghana
-- Venture Backed
 - General Catalyst
 - Lightspeed Venture Partners
 ---

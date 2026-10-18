@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: yepapi-openapi-generated.yml
+- filename: yepapi-email-api-openapi.yml
   format: yaml
-  label: YepAPI API
-  slug: yepapi-api
+  label: YepAPI Email API
+  slug: yepapi-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/_ae-authored/yepapi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/yepapi-email-api-openapi.yml
+- filename: yepapi-maps-api-openapi.yml
+  format: yaml
+  label: YepAPI Maps API
+  slug: yepapi-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/yepapi-maps-api-openapi.yml
+- filename: yepapi-seo-api-openapi.yml
+  format: yaml
+  label: YepAPI Seo API
+  slug: yepapi-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/yepapi-seo-api-openapi.yml
+- filename: yepapi-serp-api-openapi.yml
+  format: yaml
+  label: YepAPI Serp API
+  slug: yepapi-serp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/yepapi-serp-api-openapi.yml
+- filename: yepapi-tiktok-api-openapi.yml
+  format: yaml
+  label: YepAPI Tiktok API
+  slug: yepapi-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yepapi/refs/heads/main/openapi/yepapi-tiktok-api-openapi.yml
 auth_types: []
 description: Authentication using an API key passed in the request header.
 kind: authentication

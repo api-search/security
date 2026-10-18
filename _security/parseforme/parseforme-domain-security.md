@@ -71,7 +71,7 @@ tags:
 - OCR
 - Data Extraction
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Invoices
 - Bank Statements
 - Receipts

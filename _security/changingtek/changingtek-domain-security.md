@@ -34,5 +34,5 @@ tags:
 - Robotics
 - Automation
 - Manufacturing
-- AI
+- Artificial Intelligence
 ---

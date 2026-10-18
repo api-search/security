@@ -28,7 +28,7 @@ summary_line: ISO 27001:2013, SAS 70 / SOC 2, ISO 27001:2013, SAS 70 / SSAE 16, 
 tags:
 - Company
 - Document Automation
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Sales Enablement
 - Workflow Automation

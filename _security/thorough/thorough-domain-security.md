@@ -30,5 +30,4 @@ tags:
 - Company
 - China
 - Qiming
-- Venture Backed
 ---

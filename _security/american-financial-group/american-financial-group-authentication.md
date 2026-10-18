@@ -627,7 +627,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-finan
 summary_line: 1 scheme
 tags:
 - Insurance
-- Property Casualty
+- Property and Casualty
 - Specialty Insurance
 - Annuities
 - Financial Services

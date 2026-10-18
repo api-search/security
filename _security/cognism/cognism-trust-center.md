@@ -58,7 +58,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - GDPR
 - Intent Data

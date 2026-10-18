@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Food Distribution
 - AI Platform
-- Ecommerce
+- E-Commerce
 - CRM
 - Sales Tools
 - ERP Integration

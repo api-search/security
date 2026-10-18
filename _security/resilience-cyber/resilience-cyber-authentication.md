@@ -68,6 +68,6 @@ tags:
 - Claims
 - Risk Data
 - Technology Errors and Omissions
-- Brokers
+- Brokerage
 - Specialty Insurance
 ---

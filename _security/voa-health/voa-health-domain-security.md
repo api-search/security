@@ -48,7 +48,7 @@ tags:
 - Health
 - Healthcare
 - Clinical Documentation
-- EHR
+- Electronic Health Records
 - FHIR
 - RNDS
 - Artificial Intelligence

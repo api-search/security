@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitstar/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Influencer Marketing
-- Video Creators
+- InfluencerMarketing
+- VideoCreators
 - Tokyo
 - Software-as-a-Service
 ---

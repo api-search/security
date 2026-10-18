@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - Corporate Training
 - E-Learning
 - Design Systems

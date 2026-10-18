@@ -101,19 +101,31 @@ provider_name: commercetools
 provider_slug: commercetools
 scheme_count: 1
 schemes:
-- description: OAuth 2.0 Bearer token obtained from the commercetools authentication service using client credentials flow. Requires the view_audit_log scope.
+- description: OAuth 2.0 Bearer token obtained from the commercetools authentication service at https://auth.{region}.commercetools.com/oauth/token using client credentials flow.
   name: bearerAuth
   scheme: bearer
   sources:
+  - openapi/commercetools-carts-api-openapi.yml
+  - openapi/commercetools-categories-api-openapi.yml
   - openapi/commercetools-change-history-api-openapi.yml
-  - openapi/commercetools-http-api-openapi.yml
-  - openapi/commercetools-import-api-openapi.yml
+  - openapi/commercetools-customers-api-openapi.yml
+  - openapi/commercetools-importcontainers-api-openapi.yml
+  - openapi/commercetools-importoperations-api-openapi.yml
+  - openapi/commercetools-inventory-api-openapi.yml
+  - openapi/commercetools-orders-api-openapi.yml
+  - openapi/commercetools-payments-api-openapi.yml
+  - openapi/commercetools-product-variants-api-openapi.yml
+  - openapi/commercetools-products-api-openapi.yml
+  - openapi/commercetools-project-api-openapi.yml
+  - openapi/commercetools-standaloneprices-api-openapi.yml
+  - openapi/commercetools-subscriptions-api-openapi.yml
   type: http
 slug: commercetools-authentication
 source_filename: commercetools-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/commercetools-change-history-api-openapi.yml, openapi/commercetools-http-api-openapi.yml,\n  openapi/commercetools-import-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained from the commercetools authentication service\n    using client credentials flow. Requires the view_audit_log scope.\n  sources:\n  - openapi/commercetools-change-history-api-openapi.yml\n  - openapi/commercetools-http-api-openapi.yml\n  - openapi/commercetools-import-api-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/commercetools-carts-api-openapi.yml, openapi/commercetools-categories-api-openapi.yml,\n  openapi/commercetools-change-history-api-openapi.yml, openapi/commercetools-customers-api-openapi.yml,\n  openapi/commercetools-importcontainers-api-openapi.yml, openapi/commercetools-importoperations-api-openapi.yml,\n  openapi/commercetools-inventory-api-openapi.yml, openapi/commercetools-orders-api-openapi.yml,\n  openapi/commercetools-payments-api-openapi.yml, openapi/commercetools-product-variants-api-openapi.yml,\n  openapi/commercetools-products-api-openapi.yml, openapi/commercetools-project-api-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 Bearer token obtained from the commercetools authentication service\n    at https://auth.{region}.commercetools.com/oauth/token using client credentials flow.\n  sources:\n  - openapi/commercetools-carts-api-openapi.yml\n\
+  \  - openapi/commercetools-categories-api-openapi.yml\n  - openapi/commercetools-change-history-api-openapi.yml\n  - openapi/commercetools-customers-api-openapi.yml\n  - openapi/commercetools-importcontainers-api-openapi.yml\n  - openapi/commercetools-importoperations-api-openapi.yml\n  - openapi/commercetools-inventory-api-openapi.yml\n  - openapi/commercetools-orders-api-openapi.yml\n  - openapi/commercetools-payments-api-openapi.yml\n  - openapi/commercetools-product-variants-api-openapi.yml\n  - openapi/commercetools-products-api-openapi.yml\n  - openapi/commercetools-project-api-openapi.yml\n  - openapi/commercetools-standaloneprices-api-openapi.yml\n  - openapi/commercetools-subscriptions-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/authentication/commercetools-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -93,8 +93,6 @@ tags:
 - Creative Workspace
 - Image Generation
 - Video Generation
-- Text-to-Image
-- Text-to-Video
 - AI Agents
 - Multimodal AI
 - Design Tools

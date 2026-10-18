@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cequr/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- MedicalDevice
+- Medical Devices
 - Diabetes
 - WearableTech
 - InsulinPatch

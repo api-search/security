@@ -190,7 +190,7 @@ summary_line: apiKey · 3 schemes
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - Prospecting
 - Intents

@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1token/refs/he
 summary_line: SOC 2 Type II
 tags:
 - Digital Assets
-- Crypto
+- Cryptocurrency
 - Portfolio Management
 - Risk Management
 - Fund Administration

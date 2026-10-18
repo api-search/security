@@ -129,8 +129,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Behavioral Health
-- EMR
-- EHR
+- Electronic Health Records
 - Healthcare
 - Practice Management
 - HIPAA
@@ -142,6 +141,5 @@ tags:
 - Behavioral Health API
 - Substance Use Treatment
 - 42 CFR Part 2
-- Electronic Health Records
 - Mental Health
 ---

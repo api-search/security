@@ -102,7 +102,7 @@ tags:
 - Payments
 - Dining
 - Membership
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 ---

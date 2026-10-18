@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schemaextract/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Data Extraction
 - PDF/OCR-to-JSON
 - Invoice & AP automation

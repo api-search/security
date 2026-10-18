@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/head
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Banking
 - Payments
 - Stablecoins

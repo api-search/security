@@ -197,7 +197,7 @@ tags:
 - Stock Options
 - Stocks
 - ETFs
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Fundamentals
 - News

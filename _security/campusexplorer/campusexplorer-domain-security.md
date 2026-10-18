@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Education
 - CollegeSearch
-- OnlineLearning
+- E-Learning
 - HigherEd
 - StudentResources
 ---

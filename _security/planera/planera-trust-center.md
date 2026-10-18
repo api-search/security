@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planera/refs/h
 summary_line: SOC 2 Type 1, SOC 2 Type 2, SOC 3
 tags:
 - Company
-- Construction Tech
+- Construction Technology
 - Construction
 - Scheduling
 - Project Management

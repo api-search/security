@@ -51,7 +51,7 @@ tags:
 - Event-Driven
 - Event Streaming
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - CloudEvents
 - AsyncAPI
 - Topic

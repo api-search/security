@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health
 - Beauty
-- E‑commerce
+- E-Commerce
 - Skincare
 - Weight‑loss
 - Vitamins

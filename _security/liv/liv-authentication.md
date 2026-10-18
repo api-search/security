@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liv/refs/heads
 summary_line: tracking-id/device-login · 2 schemes
 tags:
 - Company
-- XR
+- Extended Reality
 - Virtual Reality
 - Mixed Reality
 - Video Capture

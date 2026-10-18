@@ -29,7 +29,6 @@ summary_line: DNSSEC
 tags:
 - Company
 - Contacts
-- API
 - Legacy
 - Social
 ---

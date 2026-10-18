@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Reveal
 - HubSpot
 - Marketing

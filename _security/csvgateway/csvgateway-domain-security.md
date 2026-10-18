@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/csvgateway/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Data Integration
-- No-code
+- No-Code
 - API Generation
 - CSV
 - REST
-- SaaS
+- Software-as-a-Service
 ---

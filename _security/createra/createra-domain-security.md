@@ -32,5 +32,4 @@ tags:
 - User Generated Content
 - 3D
 - Game Development
-- Venture Backed
 ---

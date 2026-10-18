@@ -1249,7 +1249,7 @@ tags:
 - Robotics
 - Drones
 - Inspection
-- Field Service Management
+- Field Service
 - Asset Management
 - Industrial
 - Energy

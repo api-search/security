@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buyersight/ref
 summary_line: TLSv1.3
 tags:
 - Sales
-- AI
+- Artificial Intelligence
 - Outbound
 - B2B
 - Marketing

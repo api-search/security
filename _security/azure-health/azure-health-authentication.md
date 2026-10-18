@@ -132,6 +132,6 @@ tags:
 - HIPAA
 - HITRUST
 - Cloud
-- Azure
+- Microsoft Azure
 - Microsoft
 ---

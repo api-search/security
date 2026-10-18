@@ -254,27 +254,27 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-workflows-api-openapi.yml
 certification_count: 4
 certifications:
-- source
-- statement
-- named
-- report_access
+- ISO/IEC 27001
+- ISO/IEC 27701
+- SOC 2 Type II
+- TRUSTe
 description: ZoomInfo's published security and compliance posture. Certifications are quoted from ZoomInfo's own public security page; the branded trust center itself is bot-protected and could not be read.
 kind: trust-center
 layout: security
 name: Zoominfo Trust Center
 name_suffix: Trust Center
-overview: ZoomInfo maintains a public trust center documenting source, statement, named, and report_access compliance.
+overview: ZoomInfo maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, and TRUSTe compliance.
 provider_name: ZoomInfo
 provider_slug: zoominfo
 slug: zoominfo-trust-center
 source_filename: zoominfo-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.zoominfo.com/about/security\nprovider: ZoomInfo\nproviderId: zoominfo\ndescription: >-\n  ZoomInfo's published security and compliance posture. Certifications are quoted from ZoomInfo's own\n  public security page; the branded trust center itself is bot-protected and could not be read.\n\ntrust_center:\n  url: https://www.zoominfo.com/trust-center\n  http_status: 403\n  readable: false\n  note: >-\n    Returns \"Access to this page has been denied\" to non-browser requests. ZoomInfo discloses this bot\n    protection in its own llms.txt and instructs agents to send users to the page in a browser instead of\n    inferring its contents. Nothing below is taken from this page.\n  readable_alternative: https://www.zoominfo.com/about/security\n\ncertifications:\n  source: 'https://www.zoominfo.com/about/security (section 10.2, Certifications and Attestations)'\n  statement: 'ZoomInfo is ISO 27001, ISO 27701, TRUSTe, and\
-  \ SOC 2 Type II certified.'\n  named:\n    - {name: ISO/IEC 27001, scope: Information Security Management System, claimed: true}\n    - {name: ISO/IEC 27701, scope: Privacy Information Management System, claimed: true}\n    - {name: SOC 2 Type II, scope: 'Security, availability and confidentiality controls (AICPA attestation)', claimed: true}\n    - {name: TRUSTe, scope: Privacy certification, claimed: true}\n  report_access: Not published — no self-serve trust portal document download was reachable.\n\nprivacy_and_data_regimes:\n  source: https://www.zoominfo.com/llms.txt\n  claimed: [GDPR, CCPA, 'SOC 2 Type II']\n  note: >-\n    ZoomInfo's own llms.txt states \"Compliance: GDPR, CCPA, SOC 2 Type II\". As a B2B contact-data company\n    its privacy posture is a product concern, not just an infrastructure one — the API surface includes a\n    dedicated Compliance API for opt-out and data-subject handling.\n  compliance_api:\n    legacy_spec: openapi/zoominfo-compliance-api-api-openapi.yml\n\
-  \    endpoint: POST /compliance\n    purpose: Data privacy and opt-out compliance for contacts stored in the ZoomInfo database.\n\nthird_party_risk:\n  source: https://www.zoominfo.com/about/security\n  statement: >-\n    Service providers are required to hold appropriate certifications which may include SOC 2 Type II,\n    ISO 27001, PCI DSS, HIPAA and CSA-STAR.\n  note: >-\n    These are certifications ZoomInfo REQUIRES OF ITS VENDORS, not certifications ZoomInfo holds. Recorded\n    separately so the two are never conflated.\n\nincident_response:\n  source: https://www.zoominfo.com/about/security\n  claims:\n    - Documented incident response playbooks for production service impact.\n    - A Global Crisis Management process for impact beyond a defined incident.\n  status_page: https://status.zoominfo.com\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.zoominfo.com/about/security\nprovider: ZoomInfo\nproviderId: zoominfo\ndescription: ZoomInfo's published security and compliance posture. Certifications are quoted from ZoomInfo's own public security page; the branded trust center itself is bot-protected and could not be read.\ntrust_center:\n  url: https://www.zoominfo.com/trust-center\n  http_status: 403\n  readable: false\n  note: Returns \"Access to this page has been denied\" to non-browser requests. ZoomInfo discloses this bot protection in its own llms.txt and instructs agents to send users to the page in a browser instead\n    of inferring its contents. Nothing below is taken from this page.\n  readable_alternative: https://www.zoominfo.com/about/security\ncertifications:\n- ISO/IEC 27001\n- ISO/IEC 27701\n- SOC 2 Type II\n- TRUSTe\nprivacy_and_data_regimes:\n  source: https://www.zoominfo.com/llms.txt\n  claimed:\n  - GDPR\n  - CCPA\n  - SOC 2 Type II\n\
+  \  note: 'ZoomInfo''s own llms.txt states \"Compliance: GDPR, CCPA, SOC 2 Type II\". As a B2B contact-data company its privacy posture is a product concern, not just an infrastructure one — the API surface\n    includes a dedicated Compliance API for opt-out and data-subject handling.'\n  compliance_api:\n    legacy_spec: openapi/zoominfo-compliance-api-api-openapi.yml\n    endpoint: POST /compliance\n    purpose: Data privacy and opt-out compliance for contacts stored in the ZoomInfo database.\nthird_party_risk:\n  source: https://www.zoominfo.com/about/security\n  statement: Service providers are required to hold appropriate certifications which may include SOC 2 Type II, ISO 27001, PCI DSS, HIPAA and CSA-STAR.\n  note: These are certifications ZoomInfo REQUIRES OF ITS VENDORS, not certifications ZoomInfo holds. Recorded separately so the two are never conflated.\nincident_response:\n  source: https://www.zoominfo.com/about/security\n  claims:\n  - Documented incident response playbooks\
+  \ for production service impact.\n  - A Global Crisis Management process for impact beyond a defined incident.\n  status_page: https://status.zoominfo.com\ncertifications_detail:\n  source: https://www.zoominfo.com/about/security (section 10.2, Certifications and Attestations)\n  statement: ZoomInfo is ISO 27001, ISO 27701, TRUSTe, and SOC 2 Type II certified.\n  named:\n  - name: ISO/IEC 27001\n    scope: Information Security Management System\n    claimed: true\n  - name: ISO/IEC 27701\n    scope: Privacy Information Management System\n    claimed: true\n  - name: SOC 2 Type II\n    scope: Security, availability and confidentiality controls (AICPA attestation)\n    claimed: true\n  - name: TRUSTe\n    scope: Privacy certification\n    claimed: true\n  report_access: Not published — no self-serve trust portal document download was reachable.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/security/zoominfo-trust-center.yml
-summary_line: source, statement, named, report_access
+summary_line: ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, TRUSTe
 tags:
 - B2B
 - B2B Data

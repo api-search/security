@@ -93,7 +93,6 @@ summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Healthcare
 - Electronic Health Records
-- EHR
 - Clinical Decision Support
 - FHIR
 - HL7

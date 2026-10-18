@@ -188,7 +188,7 @@ tags:
 - Fintech
 - Web3 Security
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Fraud Prevention
 - Transaction Scanning
 - Wallet Security

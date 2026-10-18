@@ -71,6 +71,6 @@ tags:
 - Company
 - People Search
 - Email Lookup
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

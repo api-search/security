@@ -33,8 +33,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copilot/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding
-- DeveloperTools
+- Developer Tools
 - GitHub
 ---

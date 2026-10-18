@@ -35,7 +35,7 @@ tags:
 - EdTech
 - Tutoring
 - Homeschooling
-- Online Learning
+- E-Learning
 - Chile
 - Latin America
 - K-12

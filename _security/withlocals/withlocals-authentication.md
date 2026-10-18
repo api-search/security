@@ -65,7 +65,7 @@ tags:
 - Company
 - Travel
 - Tours
-- Experiences
+- Experience
 - Tourism
 - Marketplace
 - Partner API

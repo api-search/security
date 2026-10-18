@@ -63,9 +63,8 @@ summary_line: ISO/IEC 27001:2022, eIDAS, ZertES, GDPR, revFADP, UETA, ESIGN
 tags:
 - Company
 - Ai Enterprise Software
-- Electronic Signature
+- E-Signature
 - Digital Signature
-- Document Signing
 - Qualified Electronic Signature
 - eIDAS
 - Privacy

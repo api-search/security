@@ -60,9 +60,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/
 summary_line: SOC 2 Type 2, SOC 1, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701, CSA STAR, HIPAA, FedRAMP Certified Class C
 tags:
 - Company
-- Ai Ml
-- AI Agents
 - Artificial Intelligence
+- AI Agents
 - Enterprise Software
 - Human Resources
 - ITSM

@@ -50,7 +50,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Fintech
 - Digital Assets

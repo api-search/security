@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Voice-of-Customer
-- AI
+- Artificial Intelligence
 - Feedback
 - Sentiment
 ---

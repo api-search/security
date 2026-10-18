@@ -86,10 +86,8 @@ source_yaml: "generated: '2026-08-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/security/jurisign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Electronic Signature
 - E-Signature
 - eIDAS
-- Document Signing
 - PDF
 - Webhook
 - OTP

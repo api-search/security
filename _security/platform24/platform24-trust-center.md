@@ -45,9 +45,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform24/ref
 summary_line: ISO 27001, GDPR
 tags:
 - Healthcare
-- DigitalHealth
+- Digital Health
 - Platform
-- PatientEngagement
+- Patient Engagement
 - Company
 trust_url: https://platform24.com/products/compliance/
 ---

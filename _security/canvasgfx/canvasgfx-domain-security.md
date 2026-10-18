@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Manufacturing
-- AI
-- Knowledge-Management
+- Artificial Intelligence
+- Knowledge Management
 - Cloud
 ---

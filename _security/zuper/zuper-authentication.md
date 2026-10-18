@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zuper-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/authentication/zuper-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Scheduling
 - Dispatching
 - Invoicing

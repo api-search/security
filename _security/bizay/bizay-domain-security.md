@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - E-Commerce
-- Print on Demand
+- Print-on-demand
 - Marketing
 - Customization
 ---

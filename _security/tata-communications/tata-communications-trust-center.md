@@ -82,6 +82,5 @@ tags:
 - Number Intelligence
 - Connectivity
 - Subsea Cable
-- Partner Gated
 trust_url: https://www.tatacommunications.com/cloud/cloud-compliance
 ---

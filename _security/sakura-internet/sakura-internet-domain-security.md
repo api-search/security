@@ -291,9 +291,9 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Cloud Computing
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Hosting
-- Data Centers
+- Data Center
 - Japan
 - Object Storage
 - GPU

@@ -58,7 +58,7 @@ summary_line: apiKey/openIdConnect · 2 schemes
 tags:
 - Company
 - Payments
-- Digital Wallets
+- Digital Wallet
 - Open Banking
 - QR Code Payments
 - Loyalty

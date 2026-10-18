@@ -36,5 +36,5 @@ tags:
 - E-Commerce
 - Clothing
 - Accessories
-- Home Goods
+- HomeGoods
 ---

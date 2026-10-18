@@ -241,10 +241,9 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/canvas-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/authentication/canvas-medical-authentication.yml
 summary_line: oauth2/http/openIdConnect · 3 schemes
 tags:
-- EHR
+- Electronic Health Records
 - FHIR
 - Healthcare
-- Electronic Health Records
 - Virtual Care
 - Clinical Workflows
 - Patient Management

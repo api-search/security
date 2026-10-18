@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance
 - Supervision
-- Regulation
+- Regulations
 - Sweden
 - Government
 ---

@@ -35,5 +35,5 @@ tags:
 - eHealth
 - Sweden
 - Government
-- DigitalHealth
+- Digital Health
 ---

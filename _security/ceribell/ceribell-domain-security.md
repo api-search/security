@@ -34,5 +34,5 @@ tags:
 - MedicalTechnology
 - EEG
 - PointOfCare
-- HealthTech
+- Health Tech
 ---

@@ -99,8 +99,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- HR
-- SaaS
+- Human Resources
+- Software-as-a-Service
 - Payroll
 - Talent Management
 ---

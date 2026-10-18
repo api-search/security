@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
+- 3D Printing
 - Thermal Management
 - Data Center Cooling
 - Liquid Cooling

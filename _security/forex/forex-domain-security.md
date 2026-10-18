@@ -69,6 +69,6 @@ tags:
 - Currency
 - Exchange Rates
 - Financial Data
-- Forex
+- Foreign Exchange
 - Trading
 ---

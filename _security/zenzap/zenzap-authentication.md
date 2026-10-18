@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/he
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Messaging
 - Team Communication
 - Collaboration

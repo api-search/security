@@ -123,7 +123,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Real-Time
 - WebSocket
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Streaming
 - Push Notifications

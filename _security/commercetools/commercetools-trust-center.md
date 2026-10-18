@@ -104,7 +104,7 @@ slug: commercetools-trust-center
 source_filename: commercetools-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.commercetools.com/\nurl: https://trust.commercetools.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.commercetools.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n  - csa star\n"
+source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://trust.commercetools.com/\nurl: https://trust.commercetools.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.commercetools.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - pci-dss\n  - hipaa\n  - trust center\n  - gdpr\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/security/commercetools-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, CSA STAR
 tags:

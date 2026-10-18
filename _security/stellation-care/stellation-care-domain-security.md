@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stellation-car
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
-- AI
+- Artificial Intelligence
 - ProviderAnalytics
 - NetworkOptimization
 - Medicare

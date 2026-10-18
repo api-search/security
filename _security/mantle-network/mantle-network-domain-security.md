@@ -55,7 +55,7 @@ tags:
 - EigenDA
 - Liquid Staking
 - JSON-RPC
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 ---

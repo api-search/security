@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: deeplead-api-openapi.json
-  format: json
-  label: Deeplead API
-  slug: deeplead-api
+- filename: deeplead-account-api-openapi.yml
+  format: yaml
+  label: Deeplead Account API
+  slug: deeplead-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-account-api-openapi.yml
+- filename: deeplead-businesses-api-openapi.yml
+  format: yaml
+  label: Deeplead Businesses API
+  slug: deeplead-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-businesses-api-openapi.yml
+- filename: deeplead-contacts-api-openapi.yml
+  format: yaml
+  label: Deeplead Contacts API
+  slug: deeplead-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-contacts-api-openapi.yml
+- filename: deeplead-deliverability-api-openapi.yml
+  format: yaml
+  label: Deeplead Deliverability API
+  slug: deeplead-deliverability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-deliverability-api-openapi.yml
+- filename: deeplead-organizations-api-openapi.yml
+  format: yaml
+  label: Deeplead Organizations API
+  slug: deeplead-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-organizations-api-openapi.yml
+- filename: deeplead-persons-api-openapi.yml
+  format: yaml
+  label: Deeplead Persons API
+  slug: deeplead-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deeplead/refs/heads/main/openapi/deeplead-persons-api-openapi.yml
 description: ''
 domains:
 - caa: []

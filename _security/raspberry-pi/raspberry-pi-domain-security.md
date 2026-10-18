@@ -33,6 +33,6 @@ tags:
 - Company
 - Hardware
 - Education
-- OpenSource
+- Open Source
 - Community
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altius-labs/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Infrastructure
 - Execution Layer

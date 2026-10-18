@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mathwallet/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptocurrency
 - Wallets
 - Blockchain
-- Web3
 - DApps
 - Multi-Chain
 ---

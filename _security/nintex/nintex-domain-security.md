@@ -34,6 +34,6 @@ tags:
 - Company
 - Automation
 - Low-code
-- Workflow
+- Workflows
 - Document Generation
 ---

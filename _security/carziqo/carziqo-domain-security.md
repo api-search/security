@@ -33,6 +33,6 @@ tags:
 - Company
 - AutonomousDriving
 - Mobility
-- AI
-- FleetManagement
+- Artificial Intelligence
+- Fleet Management
 ---

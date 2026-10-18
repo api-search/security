@@ -115,7 +115,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastrouter/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - API Gateway
 - LLM
 - Enterprise

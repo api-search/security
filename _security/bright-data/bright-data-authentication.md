@@ -92,6 +92,12 @@ api_specs:
   slug: bright-data-ips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-ips-api-openapi.yml
+- filename: bright-data-scraping-browser-asyncapi.yml
+  format: yaml
+  label: Bright Data Scraping Browser (Browser API) CDP WebSocket
+  slug: bright-data-scraping-browser-cdp
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/asyncapi/bright-data-scraping-browser-asyncapi.yml
 auth_types:
 - http
 description: ''

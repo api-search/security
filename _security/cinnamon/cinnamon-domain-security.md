@@ -34,6 +34,6 @@ tags:
 - Company
 - Private-Market
 - Investment
-- Secondary-Market
+- Secondary Market
 - Accredited-Investors
 ---

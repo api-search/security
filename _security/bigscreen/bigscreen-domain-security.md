@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Virtual Reality
-- VR
 - Hardware
 - Consumer Electronics
 - Entertainment

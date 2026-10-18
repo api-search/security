@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbit/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Personal Servers
 - Decentralized Identity
 - Peer-to-Peer

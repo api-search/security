@@ -52,6 +52,6 @@ tags:
 - CI/CD
 - Collaboration
 - DevOps
-- Source Control
+- Version Control
 trust_url: https://aws.amazon.com/compliance/
 ---

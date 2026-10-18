@@ -63,6 +63,6 @@ tags:
 - Conversational AI
 - Dialogflow
 - Google Cloud
-- NLU
+- Natural Language Understanding
 - Virtual Agents
 ---

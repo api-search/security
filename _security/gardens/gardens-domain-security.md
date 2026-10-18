@@ -33,7 +33,6 @@ tags:
 - Gaming
 - Game Studio
 - Video Games
-- Interactive Entertainment
 - Multiplayer
 - Indie Games
 - Lightspeed Portfolio

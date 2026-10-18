@@ -33,6 +33,5 @@ tags:
 - Company
 - Hospitality
 - Property Management
-- SaaS
-- API
+- Software-as-a-Service
 ---

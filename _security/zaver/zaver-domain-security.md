@@ -31,9 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zaver/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Payments
-- FinTech
-- API
-- E‑commerce
-- SaaS
+- Fintech
+- E-Commerce
+- Software-as-a-Service
 - Company
 ---

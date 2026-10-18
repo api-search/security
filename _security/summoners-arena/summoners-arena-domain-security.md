@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/summoners-aren
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Gaming
 - Web3
 - NFT

@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Enterprise Software
-- Field Service Management
+- Field Service
 - Asset Management
 - Salesforce
 - Maintenance

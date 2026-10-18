@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bumo/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - childcare
-- platform
-- AI
-- booking
+- Platform
+- Artificial Intelligence
+- Booking
 - families
 - Company
 ---

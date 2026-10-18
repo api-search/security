@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: llms.txt
+- filename: inscribe-bank-accounts-api-openapi.yml
   format: yaml
-  label: Inscribe Document Fraud Detection API
-  slug: document-fraud-detection-api
+  label: Inscribe Bank Accounts API
+  slug: inscribe-bank-accounts-api
   spec_type: OpenAPI
-  url: https://docs.inscribe.ai/llms.txt
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-bank-accounts-api-openapi.yml
+- filename: inscribe-collect-sessions-api-openapi.yml
+  format: yaml
+  label: Inscribe Collect Sessions API
+  slug: inscribe-collect-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-collect-sessions-api-openapi.yml
+- filename: inscribe-credit-insights-api-openapi.yml
+  format: yaml
+  label: Inscribe Credit Insights API
+  slug: inscribe-credit-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-credit-insights-api-openapi.yml
+- filename: inscribe-customers-api-openapi.yml
+  format: yaml
+  label: Inscribe Customers API
+  slug: inscribe-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-customers-api-openapi.yml
+- filename: inscribe-documents-api-openapi.yml
+  format: yaml
+  label: Inscribe Documents API
+  slug: inscribe-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-documents-api-openapi.yml
+- filename: inscribe-open-banking-api-openapi.yml
+  format: yaml
+  label: Inscribe Open Banking API
+  slug: inscribe-open-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-open-banking-api-openapi.yml
+- filename: inscribe-reachability-check-api-openapi.yml
+  format: yaml
+  label: Inscribe Reachability Check API
+  slug: inscribe-reachability-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-reachability-check-api-openapi.yml
+- filename: inscribe-transactions-api-openapi.yml
+  format: yaml
+  label: Inscribe Transactions API
+  slug: inscribe-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:

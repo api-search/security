@@ -42,7 +42,7 @@ tags:
 - Education
 - EdTech
 - Executive Education
-- Online Learning
+- E-Learning
 - Professional Development
 - Corporate Training
 ---

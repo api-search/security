@@ -1,23 +1,65 @@
 ---
 api_specs:
-- filename: cosmonic-core-openapi-generated.yml
+- filename: cosmonic-cosmonic-api-api-openapi.yml
   format: yaml
-  label: Cosmonic core API
-  slug: core-api
+  label: Cosmonic Cosmonic API
+  slug: cosmonic-cosmonic-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/_ae-authored/cosmonic-core-openapi-generated.yml
-- filename: cosmonic-desktop-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-cosmonic-api-api-openapi.yml
+- filename: cosmonic-cosmonic-labs-api-openapi.yml
   format: yaml
-  label: Cosmonic Get Started API
-  slug: desktop-api
+  label: Cosmonic Cosmonic Labs API
+  slug: cosmonic-cosmonic-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/_ae-authored/cosmonic-desktop-openapi-generated.yml
-- filename: cosmonic-template-catalog-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-cosmonic-labs-api-openapi.yml
+- filename: cosmonic-detect-api-openapi.yml
   format: yaml
-  label: Cosmonic Template Catalog API
-  slug: template-catalog-api
+  label: Cosmonic Detect API
+  slug: cosmonic-detect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/_ae-authored/cosmonic-template-catalog-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-detect-api-openapi.yml
+- filename: cosmonic-error-api-openapi.yml
+  format: yaml
+  label: Cosmonic Error API
+  slug: cosmonic-error-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-error-api-openapi.yml
+- filename: cosmonic-form-api-openapi.yml
+  format: yaml
+  label: Cosmonic Form API
+  slug: cosmonic-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-form-api-openapi.yml
+- filename: cosmonic-headers-api-openapi.yml
+  format: yaml
+  label: Cosmonic Headers API
+  slug: cosmonic-headers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-headers-api-openapi.yml
+- filename: cosmonic-myfile-api-openapi.yml
+  format: yaml
+  label: Cosmonic Myfile API
+  slug: cosmonic-myfile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-myfile-api-openapi.yml
+- filename: cosmonic-pkiops-api-openapi.yml
+  format: yaml
+  label: Cosmonic Pkiops API
+  slug: cosmonic-pkiops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-pkiops-api-openapi.yml
+- filename: cosmonic-post-api-openapi.yml
+  format: yaml
+  label: Cosmonic Post API
+  slug: cosmonic-post-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-post-api-openapi.yml
+- filename: cosmonic-workloads-api-openapi.yml
+  format: yaml
+  label: Cosmonic Workloads API
+  slug: cosmonic-workloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/openapi/cosmonic-workloads-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +98,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmonic/refs/heads/main/security/cosmonic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Sandbox
 - Cloud
 - Platform

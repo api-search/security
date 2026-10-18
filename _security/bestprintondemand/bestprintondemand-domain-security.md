@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: bestprintondemand-account-api-openapi.yml
+- filename: bestprintondemand-print-on-demand-costs-api-openapi.yml
   format: yaml
-  label: BestPrintOnDemand Account API
-  slug: bestprintondemand-account-api
+  label: BestPrintOnDemand API
+  slug: bestprintondemand-print-on-demand-costs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bestprintondemand/refs/heads/main/openapi/bestprintondemand-account-api-openapi.yml
-- filename: bestprintondemand-batches-api-openapi.yml
-  format: yaml
-  label: BestPrintOnDemand Batches API
-  slug: bestprintondemand-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bestprintondemand/refs/heads/main/openapi/bestprintondemand-batches-api-openapi.yml
-- filename: bestprintondemand-gender-api-openapi.yml
-  format: yaml
-  label: BestPrintOnDemand Gender API
-  slug: bestprintondemand-gender-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bestprintondemand/refs/heads/main/openapi/bestprintondemand-gender-api-openapi.yml
-- filename: bestprintondemand-webhooks-api-openapi.yml
-  format: yaml
-  label: BestPrintOnDemand Webhooks API
-  slug: bestprintondemand-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bestprintondemand/refs/heads/main/openapi/bestprintondemand-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bestprintondemand/refs/heads/main/openapi/bestprintondemand-print-on-demand-costs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,8 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bestprintondem
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
-- Print-on-Demand
+- Print on Demand
 - Pricing
 - OpenAPI
 ---

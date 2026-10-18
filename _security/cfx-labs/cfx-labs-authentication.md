@@ -112,10 +112,9 @@ source_yaml: "generated: '2026-10-08'\nmethod: derived\nsource: openapi/cash-dep
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/authentication/cfx-labs-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- fintech
-- banking
-- payments
-- API
+- Fintech
+- Banking
+- Payments
 - programmable
-- company
+- Company
 ---

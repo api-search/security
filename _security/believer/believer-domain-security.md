@@ -34,7 +34,6 @@ tags:
 - Games
 - Gaming
 - Video Games
-- Interactive Entertainment
 - Game Development
 - Los Angeles
 ---

@@ -21,8 +21,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cityinnovate/r
 summary_line: HIPAA, FedRAMP, FIPS 140
 tags:
 - Government
-- No-code
-- AI
+- No-Code
+- Artificial Intelligence
 - Platform
 - Public-benefit
 trust_url: https://authorium.com/security-and-compliance/

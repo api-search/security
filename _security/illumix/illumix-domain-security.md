@@ -39,5 +39,5 @@ tags:
 - Edge AI
 - Robotics
 - Wearables
-- XR
+- Extended Reality
 ---

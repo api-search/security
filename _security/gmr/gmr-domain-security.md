@@ -31,9 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gmr/refs/heads
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Mining
 - Research
 - Blockchain
-- Web3
 ---

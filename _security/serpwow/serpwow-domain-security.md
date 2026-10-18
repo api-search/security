@@ -51,7 +51,7 @@ tags:
 - Search
 - SERP
 - Web Data
-- Scraping
+- Web Scraping
 - SEO
 - Search Engines
 - Google

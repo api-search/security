@@ -40,4 +40,5 @@ tags:
 - Decentralized Clinical Trials
 - Backend-as-a-Service
 - AI Agents
+- Clinical Research
 ---

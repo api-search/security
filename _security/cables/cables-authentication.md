@@ -38,7 +38,7 @@ tags:
 - pay-per-call
 - Machine Learning
 - tensorflow-js
-- NLP
+- Natural Language Processing
 - Computer Vision
 - Social Media Analytics
 - OpenAPI

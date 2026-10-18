@@ -62,11 +62,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spindl/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Attribution
 - Analytics
 - Marketing
 - Growth
 - SDK
-- Web3
 ---

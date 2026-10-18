@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: azuqua-account-api-openapi.yml
+  format: yaml
+  label: Azuqua Account API
+  slug: azuqua-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-account-api-openapi.yml
+- filename: azuqua-accounts-api-openapi.yml
+  format: yaml
+  label: Azuqua Accounts API
+  slug: azuqua-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-accounts-api-openapi.yml
+- filename: azuqua-connectors-api-openapi.yml
+  format: yaml
+  label: Azuqua Connectors API
+  slug: azuqua-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-connectors-api-openapi.yml
+- filename: azuqua-flo-api-openapi.yml
+  format: yaml
+  label: Azuqua Flo API
+  slug: azuqua-flo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-flo-api-openapi.yml
+- filename: azuqua-folder-api-openapi.yml
+  format: yaml
+  label: Azuqua Folder API
+  slug: azuqua-folder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-folder-api-openapi.yml
+- filename: azuqua-folders-api-openapi.yml
+  format: yaml
+  label: Azuqua Folders API
+  slug: azuqua-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-folders-api-openapi.yml
+- filename: azuqua-org-api-openapi.yml
+  format: yaml
+  label: Azuqua Org API
+  slug: azuqua-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-org-api-openapi.yml
+- filename: azuqua-user-api-openapi.yml
+  format: yaml
+  label: Azuqua User API
+  slug: azuqua-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

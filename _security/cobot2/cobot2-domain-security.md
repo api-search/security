@@ -38,8 +38,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobot2/refs/heads/main/security/cobot2-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- Coworking
-- SaaS
+- Co-Working
+- Software-as-a-Service
 - Management
 - Software
 - Collaboration

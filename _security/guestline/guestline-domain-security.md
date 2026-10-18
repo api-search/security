@@ -33,6 +33,6 @@ tags:
 - Company
 - Hospitality
 - Software
-- SaaS
+- Software-as-a-Service
 - Travel
 ---

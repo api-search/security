@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/censia/refs/heads/main/security/censia-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Workforce Intelligence
 - Talent Analytics
 - Talent Mobility

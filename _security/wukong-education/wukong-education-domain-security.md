@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Language Learning
 - Tutoring
 ---

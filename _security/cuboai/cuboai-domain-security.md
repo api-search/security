@@ -34,6 +34,6 @@ tags:
 - Company
 - Baby
 - Monitoring
-- AI
+- Artificial Intelligence
 - Health
 ---

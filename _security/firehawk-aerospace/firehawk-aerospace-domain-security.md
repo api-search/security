@@ -34,7 +34,7 @@ tags:
 - Aerospace
 - Defense
 - Rocket Propulsion
-- Additive Manufacturing
+- 3D Printing
 - Energetics
 - Manufacturing
 - Space

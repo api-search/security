@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koinex/refs/he
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Cryptocurrency Exchange
 - Digital Assets
 - Trading

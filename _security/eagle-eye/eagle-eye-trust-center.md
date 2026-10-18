@@ -23,8 +23,8 @@ tags:
 - Personalization
 - Promotions
 - Retail
-- AI
+- Artificial Intelligence
 - Omnichannel
-- GiftCards
+- Gift Cards
 trust_url: https://eagleeye.com/legal/security-compliance
 ---

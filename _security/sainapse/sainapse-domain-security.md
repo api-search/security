@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Customer Experience
 - Support Automation
 - Explainable AI

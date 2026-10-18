@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: commandplusk-openapi-generated.yml
+- filename: commandplusk-cmdk-api-openapi.yml
   format: yaml
-  label: CMD+K API
-  slug: commandplusk-api
+  label: CMD+K Cmdk API
+  slug: commandplusk-cmdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/_ae-authored/commandplusk-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-cmdk-api-openapi.yml
+- filename: commandplusk-models-api-openapi.yml
+  format: yaml
+  label: CMD+K Models API
+  slug: commandplusk-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-models-api-openapi.yml
+- filename: commandplusk-public-api-openapi.yml
+  format: yaml
+  label: CMD+K Public API
+  slug: commandplusk-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/openapi/commandplusk-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,9 +49,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commandplusk/refs/heads/main/security/commandplusk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Assistant
 - Platform
-- SaaS
-- Developer
+- Software-as-a-Service
+- Developers
 ---

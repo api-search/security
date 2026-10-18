@@ -33,8 +33,8 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, GDPR
 tags:
 - Security
 - XDR
-- EDR
-- Endpoint Protection
+- Endpoint Detection and Response
+- Endpoint Security
 - Threat Detection
 - Incident Response
 - Cloud Security

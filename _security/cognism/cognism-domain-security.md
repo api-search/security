@@ -87,7 +87,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - GDPR
 - Intent Data

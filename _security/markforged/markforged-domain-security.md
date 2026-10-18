@@ -88,7 +88,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markforged/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - 3D Printing
-- Additive Manufacturing
 - Industrial
 - Eiger
 - Fleet Management

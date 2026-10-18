@@ -143,11 +143,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hummingbot/ref
 summary_line: http-basic/passphrase/mtls-optional · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Trading
 - Blockchain
 - DeFi
-- DEX
+- Decentralized Exchange
 - Open Source
 - Market Making
 - Algorithmic Trading

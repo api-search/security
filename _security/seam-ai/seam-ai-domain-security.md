@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Account Based Marketing
 - Sales Intelligence
 - Marketing

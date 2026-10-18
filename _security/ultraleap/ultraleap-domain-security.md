@@ -48,7 +48,7 @@ tags:
 - Haptics
 - Augmented Reality
 - Virtual Reality
-- XR
+- Extended Reality
 - Gesture Recognition
 - OpenXR
 - SDK

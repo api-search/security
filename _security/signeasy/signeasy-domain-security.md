@@ -74,7 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature
-- Electronic Signature
 - Documents
 - Contract Management
 - Embedded Signing

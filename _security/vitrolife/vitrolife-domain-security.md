@@ -39,5 +39,5 @@ tags:
 - Healthcare
 - IVF
 - ReproductiveTechnology
-- MedicalDevices
+- Medical Devices
 ---

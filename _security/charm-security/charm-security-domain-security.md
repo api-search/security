@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charm-security
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Fraud Prevention
-- AI
+- Artificial Intelligence
 - Financial Services
 - Cybersecurity
 - Customer Interaction

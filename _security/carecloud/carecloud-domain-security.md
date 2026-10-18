@@ -35,7 +35,6 @@ tags:
 - Healthcare
 - Health IT
 - Electronic Health Records
-- EHR
 - Revenue Cycle Management
 - Practice Management
 - Interoperability

@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: comunix-openapi-generated.yml
+- filename: comunix-comunix-api-api-openapi.yml
   format: yaml
-  label: Comunix API
-  slug: comunix-api
+  label: Comunix Comunix API
+  slug: comunix-comunix-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/_ae-authored/comunix-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-comunix-api-api-openapi.yml
+- filename: comunix-incidents-api-openapi.yml
+  format: yaml
+  label: Comunix Incidents API
+  slug: comunix-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-incidents-api-openapi.yml
+- filename: comunix-register-api-openapi.yml
+  format: yaml
+  label: Comunix Register API
+  slug: comunix-register-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-register-api-openapi.yml
+- filename: comunix-sunshine-api-openapi.yml
+  format: yaml
+  label: Comunix Sunshine API
+  slug: comunix-sunshine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-sunshine-api-openapi.yml
+- filename: comunix-tickets-api-openapi.yml
+  format: yaml
+  label: Comunix Tickets API
+  slug: comunix-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-tickets-api-openapi.yml
+- filename: comunix-user-profiles-api-openapi.yml
+  format: yaml
+  label: Comunix User Profiles API
+  slug: comunix-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-user-profiles-api-openapi.yml
+- filename: comunix-users-api-openapi.yml
+  format: yaml
+  label: Comunix Users API
+  slug: comunix-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/comunix/refs/heads/main/openapi/comunix-users-api-openapi.yml
 auth_types: []
 description: Authentication methods published on the Zendesk developer pages.
 kind: authentication

@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: ollama-systemone-decision-api-openapi.yml
+  format: yaml
+  label: Ollama System One Decision API
+  slug: ollama-systemone-decision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/openapi/_ae-authored/ollama-systemone-decision-api-openapi.yml
 - filename: ollama-blobs-api-openapi.yml
   format: yaml
   label: Ollama Blobs API

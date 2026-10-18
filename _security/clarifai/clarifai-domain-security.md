@@ -259,7 +259,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Artificial Intelligence
 - Computer Vision
-- NLP
+- Natural Language Processing
 - Image Recognition
 - Object Detection
 - Text Analysis

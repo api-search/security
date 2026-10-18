@@ -151,7 +151,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Human Data
 - Research
 - Participant Recruitment

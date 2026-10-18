@@ -414,5 +414,5 @@ tags:
 - NFT
 - Tokens
 - Staking
-- Crypto
+- Cryptocurrency
 ---

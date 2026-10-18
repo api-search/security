@@ -34,5 +34,5 @@ tags:
 - Cleantech
 - Emission Reduction
 - India
-- Startup
+- Startups
 ---

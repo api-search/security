@@ -34,5 +34,5 @@ tags:
 - Technology
 - Finance
 - Marketplace
-- Startup
+- Startups
 ---

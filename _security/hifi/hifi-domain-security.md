@@ -148,7 +148,7 @@ tags:
 - Money Movement
 - On-Ramp
 - Off-Ramp
-- Crypto
+- Cryptocurrency
 - Fintech
 - KYC
 - Virtual Accounts

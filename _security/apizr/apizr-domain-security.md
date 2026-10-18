@@ -1,23 +1,47 @@
 ---
 api_specs:
-- filename: apizr-best-practices-openapi-generated.yml
+- filename: apizr-apizr-api-api-openapi.yml
   format: yaml
-  label: APIZR best practices API
-  slug: best-practices-api
+  label: APIZR APIZR API
+  slug: apizr-apizr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/_ae-authored/apizr-best-practices-openapi-generated.yml
-- filename: apizr-core-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-apizr-api-api-openapi.yml
+- filename: apizr-events-api-openapi.yml
   format: yaml
-  label: APIZR core API
-  slug: core-api
+  label: APIZR Events API
+  slug: apizr-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/_ae-authored/apizr-core-openapi-generated.yml
-- filename: apizr-triggers-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-events-api-openapi.yml
+- filename: apizr-flux-test-api-openapi.yml
   format: yaml
-  label: APIZR triggers API
-  slug: triggers-api
+  label: APIZR Flux Test API
+  slug: apizr-flux-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/_ae-authored/apizr-triggers-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-flux-test-api-openapi.yml
+- filename: apizr-oauth-api-openapi.yml
+  format: yaml
+  label: APIZR OAuth API
+  slug: apizr-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-oauth-api-openapi.yml
+- filename: apizr-order-api-openapi.yml
+  format: yaml
+  label: APIZR Order API
+  slug: apizr-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-order-api-openapi.yml
+- filename: apizr-orders-api-openapi.yml
+  format: yaml
+  label: APIZR Orders API
+  slug: apizr-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-orders-api-openapi.yml
+- filename: apizr-webhooks-api-openapi.yml
+  format: yaml
+  label: APIZR Webhooks API
+  slug: apizr-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/heads/main/openapi/apizr-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apizr/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - iPaaS
-- AI
+- Artificial Intelligence
 - Integration
 - Automation
 - French

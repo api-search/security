@@ -35,10 +35,9 @@ tags:
 - Dental
 - Healthcare
 - Health Tech
-- Electronic Signature
+- E-Signature
 - Patient Engagement
 - Software-as-a-Service
 - France
 - Practice Management
-- Document Signing
 ---

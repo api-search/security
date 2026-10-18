@@ -60,7 +60,7 @@ tags:
 - Shibboleth
 - SAML
 - OAI-PMH
-- Learning Management
+- LMS
 - DataCite
 - Crossref
 - Metadata

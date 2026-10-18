@@ -459,12 +459,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Machine Learning
 - Data Science
 - Competitions
 - Collective Intelligence
 - Quantitative Finance
 - Predictions
-- Web3
 ---

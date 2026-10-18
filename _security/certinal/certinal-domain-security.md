@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: certinal-openapi-generated.yml
+- filename: certinal-auth-api-openapi.yml
   format: yaml
-  label: Certinal API
-  slug: certinal-api
+  label: Certinal Auth API
+  slug: certinal-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/_ae-authored/certinal-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-auth-api-openapi.yml
+- filename: certinal-rssp-api-openapi.yml
+  format: yaml
+  label: Certinal Rssp API
+  slug: certinal-rssp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certinal/refs/heads/main/openapi/certinal-rssp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +46,7 @@ tags:
 - Healthcare
 - Consent
 - Compliance
-- eSignature
+- E-Signature
 - EHR Integration
 - Regulatory
 ---

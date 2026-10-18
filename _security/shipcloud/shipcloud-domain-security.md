@@ -115,7 +115,7 @@ tags:
 - Company
 - Shipping
 - Logistics
-- Carriers
+- Carrier
 - Labels
 - Tracking
 - E-Commerce

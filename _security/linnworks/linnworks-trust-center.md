@@ -20,9 +20,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linnworks/refs
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- E-commerce
-- SaaS
-- Inventory Management
+- E-Commerce
+- Software-as-a-Service
+- Inventory
 - Order Management
 trust_url: https://www.linnworks.com/security
 ---

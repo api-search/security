@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/head
 summary_line: apiKey/bearerToken · 2 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Identity
 - KYC
 - KYB
@@ -93,5 +93,4 @@ tags:
 - Decentralized Identity
 - Anti-Sybil
 - Transaction Monitoring
-- Web3
 ---

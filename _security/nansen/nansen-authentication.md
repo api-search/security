@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Onchain
 - Wallet Labels
 - Smart Money

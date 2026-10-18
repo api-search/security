@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcrypts/re
 summary_line: HIPAA
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Identity
 - Verification

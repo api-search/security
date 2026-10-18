@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Audio
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Consumer Electronics
 - Enterprise
 - Fortune 500

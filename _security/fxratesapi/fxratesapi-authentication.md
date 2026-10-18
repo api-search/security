@@ -73,10 +73,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/ref
 summary_line: apiKey/http · 2 schemes
 tags:
 - Foreign Exchange
-- FX
 - Currency
 - Exchange Rates
-- Forex
 - Currency Conversion
 - Historical Rates
 - Financial Data

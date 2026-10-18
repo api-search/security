@@ -109,6 +109,5 @@ tags:
 - Document Management
 - Form Builder
 - PDF Editing
-- Electronic Signature
 - Document Workflow
 ---

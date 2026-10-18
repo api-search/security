@@ -34,6 +34,6 @@ tags:
 - Company
 - Data
 - Aggregator
-- PrivateEquity
-- VentureCapital
+- Private Equity
+- Venture Capital
 ---

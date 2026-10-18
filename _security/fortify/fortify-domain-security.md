@@ -307,7 +307,7 @@ tags:
 - DAST
 - DevSecOps
 - SAST
-- SCA
+- Software Composition Analysis
 - Security Testing
 - Vulnerability Scanning
 ---

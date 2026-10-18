@@ -40,5 +40,5 @@ tags:
 - Health
 - Sweden
 - Pharmaceuticals
-- Regulation
+- Regulations
 ---

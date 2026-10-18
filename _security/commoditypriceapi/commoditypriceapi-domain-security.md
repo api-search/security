@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: commoditypriceapi-openapi-generated.yml
+- filename: commoditypriceapi-commoditypriceapi-api-api-openapi.yml
   format: yaml
-  label: CommodityPriceAPI API
-  slug: commoditypriceapi-api
+  label: CommodityPriceAPI CommodityPriceAPI API
+  slug: commoditypriceapi-commoditypriceapi-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/openapi/_ae-authored/commoditypriceapi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/openapi/commoditypriceapi-commoditypriceapi-api-api-openapi.yml
+- filename: commoditypriceapi-rates-api-openapi.yml
+  format: yaml
+  label: CommodityPriceAPI Rates API
+  slug: commoditypriceapi-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commoditypriceapi/refs/heads/main/openapi/commoditypriceapi-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +44,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commodityprice
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- API
 - Commodities
 - Finance
 - Real-Time

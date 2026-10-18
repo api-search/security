@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: stamps-com-openapi-generated.yml
+- filename: stamps-com-account-api-openapi.yml
   format: yaml
-  label: Stamps.com API
-  slug: stamps-com-api
+  label: Stamps.com Account API
+  slug: stamps-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/_ae-authored/stamps-com-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-account-api-openapi.yml
+- filename: stamps-com-addresses-api-openapi.yml
+  format: yaml
+  label: Stamps.com Addresses API
+  slug: stamps-com-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-addresses-api-openapi.yml
+- filename: stamps-com-balance-api-openapi.yml
+  format: yaml
+  label: Stamps.com Balance API
+  slug: stamps-com-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-balance-api-openapi.yml
+- filename: stamps-com-labels-api-openapi.yml
+  format: yaml
+  label: Stamps.com Labels API
+  slug: stamps-com-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-labels-api-openapi.yml
+- filename: stamps-com-stamps-com-api-api-openapi.yml
+  format: yaml
+  label: Stamps.com Stamps.com API
+  slug: stamps-com-stamps-com-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-stamps-com-api-api-openapi.yml
+- filename: stamps-com-tracking-api-openapi.yml
+  format: yaml
+  label: Stamps.com Tracking API
+  slug: stamps-com-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stamps-com/refs/heads/main/openapi/stamps-com-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +70,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Shipping
-- E-commerce
-- API
+- E-Commerce
 - Logistics
 ---

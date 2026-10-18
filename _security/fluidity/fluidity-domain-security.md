@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluidity/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - GraphQL
 - Ethereum
@@ -47,6 +47,5 @@ tags:
 - Tokenization
 - Rewards
 - Defunct
-- Web3
 - Cryptocurrency
 ---

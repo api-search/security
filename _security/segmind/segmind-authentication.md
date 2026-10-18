@@ -147,8 +147,6 @@ tags:
 - Inference
 - Image Generation
 - Video Generation
-- Text-to-Image
-- Text-to-Video
 - Serverless
 - GPU
 - Workflows

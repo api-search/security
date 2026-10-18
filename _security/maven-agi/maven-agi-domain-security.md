@@ -103,7 +103,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - Agents
-- Customer Support
+- Customer Service
 - Customer Experience
 - Conversational AI
 - Knowledge

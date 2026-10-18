@@ -34,7 +34,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Test Preparation
 - Math Education

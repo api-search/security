@@ -34,6 +34,6 @@ tags:
 - Finance
 - Investment
 - Tax-Optimization
-- Wealth-Management
+- Wealth Management
 - Platform
 ---

@@ -33,9 +33,8 @@ tags:
 - Company
 - EdTech
 - Education
-- Online Learning
+- E-Learning
 - Streaming
 - Video
-- E-Learning
 - Professional Development
 ---

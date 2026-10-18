@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
 - Connected Vehicles
-- Connected Car
 - Telematics
 - Mobility
 - Mobility Services

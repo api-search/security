@@ -49,7 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Git
 - Mercurial
-- Source Control
+- Version Control
 - Continuous Integration
 - Mailing Lists
 - Issue Tracking

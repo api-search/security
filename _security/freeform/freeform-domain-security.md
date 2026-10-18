@@ -34,7 +34,7 @@ tags:
 - Company
 - Advanced Manufacturing
 - Metal 3D Printing
-- Additive Manufacturing
+- 3D Printing
 - Physical AI
 - Autonomous Factories
 - Aerospace

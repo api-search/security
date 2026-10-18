@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zama/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptography
 - Fully Homomorphic Encryption
 - FHE
@@ -41,5 +41,4 @@ tags:
 - Machine Learning
 - Open Source
 - SDK
-- Web3
 ---

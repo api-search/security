@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/injective/refs
 summary_line: none-public/signature-based-transactions · 4 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - DeFi
 - Trading

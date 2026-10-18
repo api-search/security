@@ -182,7 +182,7 @@ tags:
 - Vertical Software
 - Construction
 - Project Management
-- Construction Tech
+- Construction Technology
 - Field Management
 - Buildings
 - DACH

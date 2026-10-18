@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: validio-openapi-generated.yml
+- filename: validio-export-api-openapi.yml
   format: yaml
-  label: Validio API
-  slug: validio-api
+  label: Validio Export API
+  slug: validio-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validio/refs/heads/main/openapi/_ae-authored/validio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/validio/refs/heads/main/openapi/validio-export-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -32,6 +32,6 @@ tags:
 - Data Quality
 - Observability
 - Lineage
-- AI
+- Artificial Intelligence
 trust_url: https://validio.io/security
 ---

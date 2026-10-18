@@ -74,7 +74,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Derivatives
 - Futures

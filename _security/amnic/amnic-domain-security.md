@@ -48,6 +48,6 @@ tags:
 - Cloud Cost Management
 - Cost Optimization
 - Kubernetes
-- Azure
+- Microsoft Azure
 - Google Cloud
 ---

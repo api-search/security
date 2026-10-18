@@ -38,7 +38,7 @@ tags:
 - Microscopy
 - Microstructure
 - Batteries
-- Additive Manufacturing
+- 3D Printing
 - Deep Tech
 - Simulation
 ---

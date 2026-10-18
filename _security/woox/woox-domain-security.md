@@ -75,7 +75,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Cryptocurrency
-- Exchanges
+- Exchange
 - Trading
 - Derivatives
 ---

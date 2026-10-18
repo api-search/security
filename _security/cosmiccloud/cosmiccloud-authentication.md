@@ -36,6 +36,6 @@ tags:
 - DevOps
 - Automation
 - Deployment
-- Startup
+- Startups
 - Company
 ---

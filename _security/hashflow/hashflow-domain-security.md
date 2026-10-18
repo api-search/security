@@ -33,10 +33,10 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - DeFi
-- DEX
+- Decentralized Exchange
 - RFQ
 - Trading
-- Crypto
+- Cryptocurrency
 - Market Making
 - Cross-Chain
 - Blockchain

@@ -35,5 +35,5 @@ tags:
 - Biotechnology
 - Regenerative Medicine
 - Cell Therapy
-- AI
+- Artificial Intelligence
 ---

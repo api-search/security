@@ -123,7 +123,7 @@ summary_line: http · 1 scheme
 tags:
 - Finance
 - Expense Management
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - Travel
 ---

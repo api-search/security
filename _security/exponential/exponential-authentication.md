@@ -88,7 +88,7 @@ tags:
 - ERC-4626
 - Cross-Chain
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Risk Management
 - Risk Ratings
 - Agents

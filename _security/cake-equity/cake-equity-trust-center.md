@@ -21,8 +21,8 @@ tags:
 - Company
 - Equity
 - CapTable
-- Startup
-- SaaS
+- Startups
+- Software-as-a-Service
 - Finance
 trust_url: https://trust.cakeequity.com/
 ---

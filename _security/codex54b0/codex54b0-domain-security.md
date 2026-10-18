@@ -31,8 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codex54b0/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Stub
 - Placeholder
-- API
 - Data
 ---

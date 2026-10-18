@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradium/refs/h
 summary_line: apiKey/bearer-token · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Voice AI
 - Text-to-Speech
 - Speech-to-Text

@@ -50,7 +50,7 @@ summary_line: TLSv1.3
 tags:
 - Blockchain
 - Compliance
-- Crypto
+- Cryptocurrency
 - Security
 - Risk Management
 - Sanctions Screening

@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: coincover-openapi-generated.yml
+- filename: coincover-backup-api-openapi.yml
   format: yaml
-  label: Coincover API
-  slug: coincover-api
+  label: Coincover Backup API
+  slug: coincover-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_ae-authored/coincover-openapi-generated.yml
-- filename: coincover-institutional-openapi-openapi.json
-  format: json
-  label: Coincover Institutional.Openapi API
-  slug: coincover-institutional-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-backup-api-openapi.yml
+- filename: coincover-backups-api-openapi.yml
+  format: yaml
+  label: Coincover Backups API
+  slug: coincover-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-institutional-openapi-openapi.json
-- filename: coincover-retail-openapi-openapi.json
-  format: json
-  label: Coincover Retail.Openapi API
-  slug: coincover-retail-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-backups-api-openapi.yml
+- filename: coincover-key-api-openapi.yml
+  format: yaml
+  label: Coincover Key API
+  slug: coincover-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-retail-openapi-openapi.json
-- filename: coincover-wallet-provider-openapi-openapi.json
-  format: json
-  label: Coincover Wallet Provider.Openapi API
-  slug: coincover-wallet-provider-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-key-api-openapi.yml
+- filename: coincover-keys-api-openapi.yml
+  format: yaml
+  label: Coincover Keys API
+  slug: coincover-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-wallet-provider-openapi-openapi.json
-- filename: coincover-institutional-openapi-openapi.json
-  format: json
-  label: Coincover Institutional.Openapi API
-  slug: coincover-institutional-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-keys-api-openapi.yml
+- filename: coincover-partner-api-openapi.yml
+  format: yaml
+  label: Coincover Partner API
+  slug: coincover-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-institutional-openapi-openapi.json
-- filename: coincover-retail-openapi-openapi.json
-  format: json
-  label: Coincover Retail.Openapi API
-  slug: coincover-retail-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-partner-api-openapi.yml
+- filename: coincover-secure-api-openapi.yml
+  format: yaml
+  label: Coincover Secure API
+  slug: coincover-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-retail-openapi-openapi.json
-- filename: coincover-wallet-provider-openapi-openapi.json
-  format: json
-  label: Coincover Wallet Provider.Openapi API
-  slug: coincover-wallet-provider-openapi-api
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-secure-api-openapi.yml
+- filename: coincover-verification-api-openapi.yml
+  format: yaml
+  label: Coincover Verification API
+  slug: coincover-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/_original/coincover-wallet-provider-openapi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coincover/refs/heads/main/openapi/coincover-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,9 +75,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coincover/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Security
 - Recovery
-- FinTech
-- API
+- Fintech
 ---

@@ -41,6 +41,6 @@ tags:
 - Hybrid Cloud
 - Data Management
 - Enterprise Storage
-- Azure
+- Microsoft Azure
 - Acquired
 ---

@@ -26,7 +26,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powertrade/ref
 summary_line: jwt-bearer · 0 schemes
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Derivatives
 - Options

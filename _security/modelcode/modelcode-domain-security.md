@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelcode/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Code Modernization
 - Legacy Migration
 - Developer Tools

@@ -36,6 +36,6 @@ tags:
 - AI Recommendations
 - Messaging
 - Analytics
-- Automations
+- Automation
 - Client Management
 ---

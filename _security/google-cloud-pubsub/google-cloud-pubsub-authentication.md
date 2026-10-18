@@ -56,5 +56,5 @@ tags:
 - Event-Driven
 - Google Cloud
 - Messaging
-- Pub-Sub
+- Pub/Sub
 ---

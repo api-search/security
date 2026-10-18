@@ -52,7 +52,7 @@ tags:
 - Education
 - Higher Education
 - EdTech
-- Online Learning
+- E-Learning
 - Competency-Based Education
 - Defunct
 ---

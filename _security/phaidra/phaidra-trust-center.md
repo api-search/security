@@ -20,12 +20,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/h
 summary_line: SOC 2 Type 2, ISO/IEC 27001:2013
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Data Center
 - Industrial Automation
 - Reinforcement Learning
 - Energy Efficiency
 - Autonomous Control
-- Artificial Intelligence
 trust_url: https://www.phaidra.ai/security
 ---

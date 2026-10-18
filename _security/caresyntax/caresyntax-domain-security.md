@@ -42,7 +42,7 @@ tags:
 - Surgical Intelligence
 - Operating Room
 - Medical Devices
-- MedTech
+- Medical Technology
 - Analytics
 - Artificial Intelligence
 - Health Data

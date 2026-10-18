@@ -32,7 +32,7 @@ tags:
 - Science Education
 - STEM
 - Simulation
-- Learning Management System
+- LMS
 - LTI
 - Higher Education
 trust_url: https://trustcenter.labster.com/?product=labster

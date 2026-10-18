@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modelcode/refs
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Code Modernization
 - Legacy Migration
 - Developer Tools

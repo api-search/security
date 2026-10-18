@@ -84,7 +84,6 @@ tags:
 - Legal
 - Legal Tech
 - Legal Documents
-- Electronic Signature
 - E-Signature
 - Document Creation
 - Document Management

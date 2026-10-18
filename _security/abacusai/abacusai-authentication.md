@@ -35,7 +35,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacusai/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Machine Learning
 - Generative AI

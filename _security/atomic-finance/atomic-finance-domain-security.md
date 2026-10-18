@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomic-finance
 summary_line: DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Bitcoin
 - Discreet Log Contracts
 - DLC

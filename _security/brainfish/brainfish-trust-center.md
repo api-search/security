@@ -76,7 +76,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Knowledge Base
 - Help Desk
 - Agents

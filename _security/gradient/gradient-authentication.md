@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Artificial Intelligence
 - Machine Learning
 - Inference
@@ -58,5 +58,4 @@ tags:
 - Distributed Computing
 - Edge Computing
 - Developer Tools
-- Web3
 ---

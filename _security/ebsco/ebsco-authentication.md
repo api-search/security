@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ebsco-openapi-generated.yml
+- filename: ebsco-content-api-openapi.yml
   format: yaml
-  label: EBSCO API
-  slug: ebsco-api
+  label: EBSCO Content API
+  slug: ebsco-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/_ae-authored/ebsco-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-content-api-openapi.yml
+- filename: ebsco-publishers-api-openapi.yml
+  format: yaml
+  label: EBSCO Publishers API
+  slug: ebsco-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ebsco/refs/heads/main/openapi/ebsco-publishers-api-openapi.yml
 auth_types: []
 description: Authentication methods for EBSCO APIs
 kind: authentication
@@ -46,7 +52,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Research
-- Libraries
+- Library
 - Education
 - Information
 ---

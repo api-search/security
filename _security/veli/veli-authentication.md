@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/veli-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/authentication/veli-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Crypto
+- Cryptocurrency
 - DeFi
 - Finance
 - Investment

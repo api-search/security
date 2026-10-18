@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halesis/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Language Model Platform
-- API
 - Developers
 - AI Integration
-- Chat Completion
+- Chat Completions
 ---

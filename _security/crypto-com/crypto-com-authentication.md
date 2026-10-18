@@ -155,7 +155,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crypto-com/ref
 summary_line: apiKey/http/custom-hmac · 6 schemes
 tags:
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Derivatives
 - Market Data

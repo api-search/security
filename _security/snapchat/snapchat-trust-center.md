@@ -40,7 +40,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/
 summary_line: trust center published
 tags:
 - Advertising
-- AR
 - Augmented Reality
 - Marketing
 - Messaging

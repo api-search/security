@@ -33,6 +33,6 @@ tags:
 - Company
 - Luxury
 - Watches
-- E‑commerce
+- E-Commerce
 - Germany
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Data
 - Integration
-- Enrichment
+- Data Enrichment
 - Spreadsheets
 - Data Services
 - Retired

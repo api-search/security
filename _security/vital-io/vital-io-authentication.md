@@ -111,6 +111,18 @@ api_specs:
   slug: vital-io-lab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
+- filename: vital-io-checkout-api-openapi.yml
+  format: yaml
+  label: Vital Checkout API
+  slug: vital-io-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-checkout-api-openapi.yml
+- filename: vital-io-unmatched-api-openapi.yml
+  format: yaml
+  label: Vital Unmatched API
+  slug: vital-io-unmatched-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-unmatched-api-openapi.yml
 - filename: vital-io-time-series-api-openapi.yml
   format: yaml
   label: Vital Time Series API
@@ -137,21 +149,32 @@ schemes:
   name: apiKeyAuth
   parameter: x-vital-api-key
   sources:
-  - openapi/vital-lab-report-parser-api-openapi.yml
-  - openapi/vital-lab-testing-api-openapi.yml
-  - openapi/vital-link-api-openapi.yml
-  - openapi/vital-openapi-original.json
-  - openapi/vital-openapi-original.yml
-  - openapi/vital-sense-api-openapi.yml
-  - openapi/vital-team-api-openapi.yml
-  - openapi/vital-users-api-openapi.yml
-  - openapi/vital-wearables-api-openapi.yml
+  - openapi/vital-io-aggregate-api-openapi.yml
+  - openapi/vital-io-aggregation-api-openapi.yml
+  - openapi/vital-io-compendium-api-openapi.yml
+  - openapi/vital-io-insurance-api-openapi.yml
+  - openapi/vital-io-introspect-api-openapi.yml
+  - openapi/vital-io-lab-account-api-openapi.yml
+  - openapi/vital-io-lab-report-api-openapi.yml
+  - openapi/vital-io-lab-testing-api-openapi.yml
+  - openapi/vital-io-lab-tests-api-openapi.yml
+  - openapi/vital-io-link-api-openapi.yml
+  - openapi/vital-io-order-api-openapi.yml
+  - openapi/vital-io-order-transaction-api-openapi.yml
+  - openapi/vital-io-orders-api-openapi.yml
+  - openapi/vital-io-payor-api-openapi.yml
+  - openapi/vital-io-providers-api-openapi.yml
+  - openapi/vital-io-summary-api-openapi.yml
+  - openapi/vital-io-team-api-openapi.yml
+  - openapi/vital-io-time-series-api-openapi.yml
+  - openapi/vital-io-user-api-openapi.yml
   type: apiKey
 slug: vital-io-authentication
 source_filename: vital-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vital-lab-report-parser-api-openapi.yml, openapi/vital-lab-testing-api-openapi.yml,\n  openapi/vital-link-api-openapi.yml, openapi/vital-openapi-original.json, openapi/vital-openapi-original.yml,\n  openapi/vital-sense-api-openapi.yml, openapi/vital-team-api-openapi.yml, openapi/vital-users-api-openapi.yml,\n  openapi/vital-wearables-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-vital-api-key\n  description: Vital Team API Key\n  sources:\n  - openapi/vital-lab-report-parser-api-openapi.yml\n  - openapi/vital-lab-testing-api-openapi.yml\n  - openapi/vital-link-api-openapi.yml\n  - openapi/vital-openapi-original.json\n  - openapi/vital-openapi-original.yml\n  - openapi/vital-sense-api-openapi.yml\n  - openapi/vital-team-api-openapi.yml\n  - openapi/vital-users-api-openapi.yml\n  - openapi/vital-wearables-api-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/vital-io-aggregate-api-openapi.yml, openapi/vital-io-aggregation-api-openapi.yml,\n  openapi/vital-io-compendium-api-openapi.yml, openapi/vital-io-insurance-api-openapi.yml, openapi/vital-io-introspect-api-openapi.yml,\n  openapi/vital-io-lab-account-api-openapi.yml, openapi/vital-io-lab-report-api-openapi.yml,\n  openapi/vital-io-lab-testing-api-openapi.yml, openapi/vital-io-lab-tests-api-openapi.yml,\n  openapi/vital-io-link-api-openapi.yml, openapi/vital-io-order-api-openapi.yml, openapi/vital-io-order-transaction-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-vital-api-key\n  description: Vital Team API Key\n  sources:\n  - openapi/vital-io-aggregate-api-openapi.yml\n  - openapi/vital-io-aggregation-api-openapi.yml\n  - openapi/vital-io-compendium-api-openapi.yml\n  - openapi/vital-io-insurance-api-openapi.yml\n\
+  \  - openapi/vital-io-introspect-api-openapi.yml\n  - openapi/vital-io-lab-account-api-openapi.yml\n  - openapi/vital-io-lab-report-api-openapi.yml\n  - openapi/vital-io-lab-testing-api-openapi.yml\n  - openapi/vital-io-lab-tests-api-openapi.yml\n  - openapi/vital-io-link-api-openapi.yml\n  - openapi/vital-io-order-api-openapi.yml\n  - openapi/vital-io-order-transaction-api-openapi.yml\n  - openapi/vital-io-orders-api-openapi.yml\n  - openapi/vital-io-payor-api-openapi.yml\n  - openapi/vital-io-providers-api-openapi.yml\n  - openapi/vital-io-summary-api-openapi.yml\n  - openapi/vital-io-team-api-openapi.yml\n  - openapi/vital-io-time-series-api-openapi.yml\n  - openapi/vital-io-user-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/authentication/vital-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
@@ -164,8 +187,7 @@ tags:
 - HIPAA
 - HealthKit
 - Health Connect
-- EHR
-- EMR
+- Electronic Health Records
 - Biomarkers
 - Diagnostics
 - Continuous Glucose Monitoring

@@ -34,7 +34,6 @@ tags:
 - Company
 - Construction
 - Construction Technology
-- ConTech
 - Vertical SaaS
 - Invoicing
 - Cash Flow Management

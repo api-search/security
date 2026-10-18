@@ -124,8 +124,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charmhea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/authentication/charmhealth-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Healthcare
 - HL7

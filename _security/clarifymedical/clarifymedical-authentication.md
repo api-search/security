@@ -171,7 +171,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Healthcare
-- DataAnalytics
-- HealthTech
-- API
+- Data Analytics
+- Health Tech
 ---

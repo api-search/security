@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creator-cabins
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Co-Living
 - Community
 - DAO
 - Network City
 - Real Estate
-- Web3
 ---

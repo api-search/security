@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-ai/r
 summary_line: apiKey · 3 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Machine Learning
 - GPU Cloud
 - Model Inference

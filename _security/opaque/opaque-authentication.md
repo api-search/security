@@ -131,7 +131,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opaque/refs/he
 summary_line: apiKey/http · 4 schemes
 tags:
 - Confidential Computing
-- confidential-ai
+- Confidential AI
 - AI Governance
 - Privacy
 - Trusted Execution Environment

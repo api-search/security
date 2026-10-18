@@ -94,7 +94,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Real-Time
 - WebSocket
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Streaming
 - Push Notifications

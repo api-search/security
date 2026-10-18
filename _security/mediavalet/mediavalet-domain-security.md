@@ -228,5 +228,5 @@ tags:
 - Video
 - Image
 - Webhook
-- Azure
+- Microsoft Azure
 ---

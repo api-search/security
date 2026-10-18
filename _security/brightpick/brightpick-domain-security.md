@@ -34,6 +34,5 @@ tags:
 - Finance
 - Data
 - Marketplace
-- Private-Equity
-- API
+- Private Equity
 ---

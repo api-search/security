@@ -48,7 +48,7 @@ tags:
 - AI Search
 - Summarization
 - FastGPT
-- Enrichment
+- Data Enrichment
 - OpenAPI
 - Pay-Per-Use
 - Privacy

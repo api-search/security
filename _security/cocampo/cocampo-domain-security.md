@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cocampo/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- RealEstate
+- Real Estate
 - Marketplace
 - Property
 - Agriculture

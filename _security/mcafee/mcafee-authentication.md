@@ -201,7 +201,7 @@ summary_line: apiKey/http · 4 schemes
 tags:
 - Antivirus
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - Threat Intelligence
 ---

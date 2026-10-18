@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: float16-openapi-generated.yml
+- filename: float16-chat-api-openapi.yml
   format: yaml
-  label: Float16 API
-  slug: float16-api
+  label: Float16 Chat API
+  slug: float16-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/_ae-authored/float16-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-chat-api-openapi.yml
+- filename: float16-fact-api-openapi.yml
+  format: yaml
+  label: Float16 Fact API
+  slug: float16-fact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-fact-api-openapi.yml
+- filename: float16-float16-api-api-openapi.yml
+  format: yaml
+  label: Float16 Float16 API
+  slug: float16-float16-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-float16-api-api-openapi.yml
+- filename: float16-ocr-api-openapi.yml
+  format: yaml
+  label: Float16 Ocr API
+  slug: float16-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-ocr-api-openapi.yml
+- filename: float16-task-api-openapi.yml
+  format: yaml
+  label: Float16 Task API
+  slug: float16-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/float16/refs/heads/main/openapi/float16-task-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -28,8 +52,7 @@ summary_line: SOC 2, PCI DSS
 tags:
 - Company
 - Cloud
-- API
-- High-Performance Computing
-- AI
+- High Performance Computing
+- Artificial Intelligence
 trust_url: https://float16.cloud/security/
 ---

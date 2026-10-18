@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/
 summary_line: http · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Compliance
 - Sanctions

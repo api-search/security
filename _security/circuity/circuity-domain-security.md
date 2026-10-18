@@ -33,5 +33,5 @@ tags:
 - Private-Market
 - Equity
 - Liquidity
-- FinTech
+- Fintech
 ---

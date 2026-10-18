@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Investment
 - Healthcare
-- MedTech
+- Medical Technology
 - Venture Capital
 - Company
 ---

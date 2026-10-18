@@ -19,7 +19,7 @@ summary_line: trust center published
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Trading
 - Liquidity

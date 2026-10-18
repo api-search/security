@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: cfengine-openapi-generated.yml
+- filename: cfengine-ai-api-openapi.yml
   format: yaml
-  label: Cfengine API
-  slug: cfengine-api
+  label: Cfengine AI API
+  slug: cfengine-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/_ae-authored/cfengine-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-ai-api-openapi.yml
+- filename: cfengine-build-api-openapi.yml
+  format: yaml
+  label: Cfengine Build API
+  slug: cfengine-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-build-api-openapi.yml
+- filename: cfengine-cfengine-api-api-openapi.yml
+  format: yaml
+  label: Cfengine Cfengine API
+  slug: cfengine-cfengine-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-cfengine-api-api-openapi.yml
+- filename: cfengine-cmdb-api-openapi.yml
+  format: yaml
+  label: Cfengine Cmdb API
+  slug: cfengine-cmdb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-cmdb-api-openapi.yml
+- filename: cfengine-hosts-api-openapi.yml
+  format: yaml
+  label: Cfengine Hosts API
+  slug: cfengine-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-hosts-api-openapi.yml
+- filename: cfengine-inventory-api-openapi.yml
+  format: yaml
+  label: Cfengine Inventory API
+  slug: cfengine-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-inventory-api-openapi.yml
+- filename: cfengine-rbac-api-openapi.yml
+  format: yaml
+  label: Cfengine Rbac API
+  slug: cfengine-rbac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-rbac-api-openapi.yml
+- filename: cfengine-role-api-openapi.yml
+  format: yaml
+  label: Cfengine Role API
+  slug: cfengine-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-role-api-openapi.yml
+- filename: cfengine-user-api-openapi.yml
+  format: yaml
+  label: Cfengine User API
+  slug: cfengine-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cfengine/refs/heads/main/openapi/cfengine-user-api-openapi.yml
 certification_count: 2
 certifications:
 - HIPAA

@@ -180,7 +180,7 @@ tags:
 - Fintech
 - Trading
 - Stocks
-- Crypto
+- Cryptocurrency
 - Brokerage
 - Market Data
 - Options

@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cascadeec3e/refs/heads/main/security/cascadeec3e-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Drug Discovery
 - Metabolic Disorders

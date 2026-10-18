@@ -40,7 +40,7 @@ summary_line: workspace-token/hmac-signature · 2 schemes
 tags:
 - Company
 - AI Agents
-- Customer Support
+- Customer Service
 - Onboarding
 - User Activation
 - Screen Sharing

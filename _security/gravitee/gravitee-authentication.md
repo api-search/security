@@ -327,7 +327,7 @@ summary_line: apiKey/http · 4 schemes
 tags:
 - API Gateway
 - API Management
-- Access Management
+- Identity and Access Management
 - Identity
 - Event-Driven
 - Kafka Gateway

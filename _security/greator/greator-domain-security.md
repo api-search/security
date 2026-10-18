@@ -38,7 +38,6 @@ tags:
 - Consumer
 - Personal Development
 - Coaching
-- Online Learning
 - E-Learning
 - Wellness
 - Event

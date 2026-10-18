@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/he
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Messaging
 - Team Communication
 - Collaboration

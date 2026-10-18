@@ -62,7 +62,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/
 summary_line: http · 1 scheme
 tags:
 - E-Signature
-- Electronic Signature
 - Documents
 - Contract Management
 - Embedded Signing

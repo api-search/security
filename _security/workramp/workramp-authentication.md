@@ -212,12 +212,11 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/workram
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/authentication/workramp-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Learning Management
+- LMS
 - Revenue Enablement
 - Sales Enablement
 - Training
 - Onboarding
-- LMS
 - Assessment
 - Certification
 - Coaching

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ultralytics-openapi-generated.yml
+- filename: ultralytics-assets-api-openapi.yml
   format: yaml
-  label: Ultralytics API
-  slug: ultralytics-api
+  label: Ultralytics Assets API
+  slug: ultralytics-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/_ae-authored/ultralytics-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/ultralytics-assets-api-openapi.yml
+- filename: ultralytics-ultralytics-api-openapi.yml
+  format: yaml
+  label: Ultralytics Ultralytics API
+  slug: ultralytics-ultralytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/ultralytics-ultralytics-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -29,9 +35,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultralytics/re
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Computer Vision
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Open Source
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.ultralytics.com/security
 ---

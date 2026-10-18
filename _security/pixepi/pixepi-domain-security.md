@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: pixepi-v1-openapi.json
-  format: json
-  label: Pixepi API V1 API
-  slug: pixepi-api-v1-api
+- filename: pixepi-apps-api-openapi.yml
+  format: yaml
+  label: Pixepi Apps API
+  slug: pixepi-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/_original/pixepi-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-apps-api-openapi.yml
+- filename: pixepi-jobs-api-openapi.yml
+  format: yaml
+  label: Pixepi Jobs API
+  slug: pixepi-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-jobs-api-openapi.yml
+- filename: pixepi-usage-api-openapi.yml
+  format: yaml
+  label: Pixepi Usage API
+  slug: pixepi-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixepi/refs/heads/main/openapi/pixepi-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +54,4 @@ tags:
 - Tools
 - PDF
 - Image
-- API
 ---

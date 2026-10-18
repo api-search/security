@@ -65,7 +65,7 @@ tags:
 - Mobile Vehicle Service
 - Dealership Software
 - Fleet Management
-- Field Service Management
+- Field Service
 - Vehicle Inspection
 - Scheduling and Dispatch
 - B2B SaaS

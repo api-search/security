@@ -61,7 +61,7 @@ tags:
 - telegram-stars
 - telegram-premium
 - Payments
-- Crypto
+- Cryptocurrency
 - TON
 - gram
 - USDT

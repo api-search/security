@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: allwhere-openapi-generated.yml
+- filename: allwhere-beta-api-openapi.yml
   format: yaml
-  label: allwhere API
-  slug: allwhere-api
+  label: allwhere Beta API
+  slug: allwhere-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allwhere/refs/heads/main/openapi/_ae-authored/allwhere-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allwhere/refs/heads/main/openapi/allwhere-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mina-protocol/
 summary_line: signature · 2 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Zero-Knowledge Proofs
 - zk-SNARKs
@@ -45,6 +45,5 @@ tags:
 - GraphQL
 - Rosetta API
 - Developer Tools
-- Web3
 - Cryptocurrency
 ---

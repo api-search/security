@@ -36,5 +36,5 @@ tags:
 - Platform
 - Consulting
 - Ventures
-- AI
+- Artificial Intelligence
 ---

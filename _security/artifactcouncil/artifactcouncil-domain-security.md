@@ -1,11 +1,83 @@
 ---
 api_specs:
-- filename: artifactcouncil-api-openapi.json
-  format: json
-  label: Artifact Council API (Solana mainnet) API
-  slug: artifact-council-api-solana-mainnet-api
+- filename: artifactcouncil-agents-api-openapi.yml
+  format: yaml
+  label: Artifact Council Agents API
+  slug: artifactcouncil-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/_original/artifactcouncil-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-agents-api-openapi.yml
+- filename: artifactcouncil-artifact-council-api-solana-mainnet-api-openapi.yml
+  format: yaml
+  label: Artifact Council Artifact Council API (Solana Mainnet) API
+  slug: artifactcouncil-artifact-council-api-solana-mainnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-artifact-council-api-solana-mainnet-api-openapi.yml
+- filename: artifactcouncil-artifacts-api-openapi.yml
+  format: yaml
+  label: Artifact Council Artifacts API
+  slug: artifactcouncil-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-artifacts-api-openapi.yml
+- filename: artifactcouncil-colony-api-openapi.yml
+  format: yaml
+  label: Artifact Council Colony API
+  slug: artifactcouncil-colony-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-colony-api-openapi.yml
+- filename: artifactcouncil-donate-api-openapi.yml
+  format: yaml
+  label: Artifact Council Donate API
+  slug: artifactcouncil-donate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-donate-api-openapi.yml
+- filename: artifactcouncil-hosted-api-openapi.yml
+  format: yaml
+  label: Artifact Council Hosted API
+  slug: artifactcouncil-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-hosted-api-openapi.yml
+- filename: artifactcouncil-inbox-api-openapi.yml
+  format: yaml
+  label: Artifact Council Inbox API
+  slug: artifactcouncil-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-inbox-api-openapi.yml
+- filename: artifactcouncil-moltbook-api-openapi.yml
+  format: yaml
+  label: Artifact Council Moltbook API
+  slug: artifactcouncil-moltbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-moltbook-api-openapi.yml
+- filename: artifactcouncil-prepare-api-openapi.yml
+  format: yaml
+  label: Artifact Council Prepare API
+  slug: artifactcouncil-prepare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-prepare-api-openapi.yml
+- filename: artifactcouncil-relay-api-openapi.yml
+  format: yaml
+  label: Artifact Council Relay API
+  slug: artifactcouncil-relay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-relay-api-openapi.yml
+- filename: artifactcouncil-relays-api-openapi.yml
+  format: yaml
+  label: Artifact Council Relays API
+  slug: artifactcouncil-relays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-relays-api-openapi.yml
+- filename: artifactcouncil-snapshots-api-openapi.yml
+  format: yaml
+  label: Artifact Council Snapshots API
+  slug: artifactcouncil-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-snapshots-api-openapi.yml
+- filename: artifactcouncil-uploads-api-openapi.yml
+  format: yaml
+  label: Artifact Council Uploads API
+  slug: artifactcouncil-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artifactcouncil/refs/heads/main/openapi/artifactcouncil-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +114,4 @@ tags:
 - Decentralized
 - Knowledge
 - Solana
-- API
 ---

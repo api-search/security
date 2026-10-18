@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: tryrook-io-openapi-generated.yml
+- filename: tryrook-io-client-uuid-api-openapi.yml
   format: yaml
-  label: ROOK API
-  slug: tryrook-io-api
+  label: ROOK Client Uuid API
+  slug: tryrook-io-client-uuid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/_ae-authored/tryrook-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/tryrook-io-client-uuid-api-openapi.yml
+- filename: tryrook-io-extraction-app-api-openapi.yml
+  format: yaml
+  label: ROOK Extraction App API
+  slug: tryrook-io-extraction-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/tryrook-io-extraction-app-api-openapi.yml
+- filename: tryrook-io-user-id-api-openapi.yml
+  format: yaml
+  label: ROOK User Id API
+  slug: tryrook-io-user-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/tryrook-io-user-id-api-openapi.yml
+- filename: tryrook-io-user-profile-api-openapi.yml
+  format: yaml
+  label: ROOK User Profile API
+  slug: tryrook-io-user-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/tryrook-io-user-profile-api-openapi.yml
+- filename: tryrook-io-webhooks-api-openapi.yml
+  format: yaml
+  label: ROOK Webhooks API
+  slug: tryrook-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/refs/heads/main/openapi/tryrook-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +63,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tryrook-io/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Health
-- API
 - Data Integration
 - Wearables
 - Healthcare

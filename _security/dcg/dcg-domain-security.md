@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dcg/refs/heads
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Blockchain
 - Digital Assets

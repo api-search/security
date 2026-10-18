@@ -56,8 +56,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform24/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
-- DigitalHealth
+- Digital Health
 - Platform
-- PatientEngagement
+- Patient Engagement
 - Company
 ---

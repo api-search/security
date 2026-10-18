@@ -30,7 +30,7 @@ tags:
 - Healthcare
 - Primary Care
 - Value-Based Care
-- EHR
+- Electronic Health Records
 - Artificial Intelligence
 - AI Agents
 - Workflow Automation

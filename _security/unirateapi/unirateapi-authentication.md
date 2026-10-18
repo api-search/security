@@ -60,7 +60,6 @@ tags:
 - Currency
 - Exchange Rates
 - Foreign Exchange
-- Forex
 - Currency Conversion
 - VAT
 - Finance

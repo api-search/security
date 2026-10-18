@@ -43,9 +43,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Access Management
+- Identity and Access Management
 - Identity Governance
-- IGA
 - AI Agents
 - Security
 - Access Control

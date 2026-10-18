@@ -34,6 +34,6 @@ tags:
 - Company
 - Alcohol
 - Spirits
-- Beverage
+- Beverages
 - Global
 ---

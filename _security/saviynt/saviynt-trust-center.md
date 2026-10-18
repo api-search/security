@@ -6,12 +6,6 @@ api_specs:
   slug: saviynt-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
-- filename: saviynt-connections-api-openapi.yml
-  format: yaml
-  label: Saviynt Connections API
-  slug: saviynt-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-connections-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -38,10 +32,9 @@ summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, FedRAMP, FIPS 140
 tags:
 - Identity Governance
 - Identity Administration
-- Access Management
+- Identity and Access Management
 - Privileged Access Management
 - Segregation of Duties
-- IGA
 - Security
 trust_url: https://trust.saviynt.com/
 ---

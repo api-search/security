@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carsaver/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- e-commerce
-- automotive
-- fintech
-- marketplace
+- E-Commerce
+- Automotive
+- Fintech
+- Marketplace
 - car-buying
 ---

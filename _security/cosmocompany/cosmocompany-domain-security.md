@@ -34,5 +34,4 @@ tags:
 - Satellite
 - IoT
 - Connectivity
-- APIs
 ---

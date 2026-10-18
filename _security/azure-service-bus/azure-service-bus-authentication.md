@@ -64,12 +64,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-se
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/authentication/azure-service-bus-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Azure
+- Microsoft Azure
 - Cloud
 - Enterprise
 - Message Broker
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Queues
 - Real-Time
 ---

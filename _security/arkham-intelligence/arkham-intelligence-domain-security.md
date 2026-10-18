@@ -55,10 +55,10 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Onchain Intelligence
 - Entity Resolution
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Market Data
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 ---

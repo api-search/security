@@ -34,6 +34,6 @@ tags:
 - Company
 - Agency Management
 - Professional Services Automation
-- SaaS
+- Software-as-a-Service
 - Resource Planning
 ---

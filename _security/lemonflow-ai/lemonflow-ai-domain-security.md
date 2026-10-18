@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer Support
+- Customer Service
 - EV Charging
 - E-Mobility
 - OCPP

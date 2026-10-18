@@ -41,6 +41,6 @@ tags:
 - Playwright
 - Puppeteer
 - Python
-- Scraping
+- Web Scraping
 - Web
 ---

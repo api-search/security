@@ -105,5 +105,5 @@ tags:
 - Imaging
 - Rendering
 - Currency
-- FX
+- Foreign Exchange
 ---

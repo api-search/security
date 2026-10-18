@@ -81,7 +81,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark-ident
 summary_line: http · 2 schemes
 tags:
 - Identity
-- Access Management
 - Identity and Access Management
 - SSO
 - Multi-Factor Authentication

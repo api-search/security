@@ -41,7 +41,7 @@ tags:
 - Cars
 - Vehicles
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Identity
 - Design Systems
 - Open Source

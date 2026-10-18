@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cybersecurity
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Intelligence
 - Cloud Security
 - Identity Protection

@@ -29,7 +29,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Art
 - Children
 - Consumer

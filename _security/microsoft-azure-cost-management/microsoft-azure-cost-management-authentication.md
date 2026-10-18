@@ -153,6 +153,6 @@ tags:
 - Forecasting
 - Chargebacks
 - Focus
-- Azure
+- Microsoft Azure
 - Reserved Instances
 ---

@@ -72,6 +72,6 @@ tags:
 - Audio
 - Generative AI
 - Voice Cloning
-- Text-to-Video
+- Video Generation
 - A2A
 ---

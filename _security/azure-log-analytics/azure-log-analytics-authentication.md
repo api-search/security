@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-log-anal
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Analytics
-- Azure
+- Microsoft Azure
 - Cloud
 - Logging
 - Monitoring

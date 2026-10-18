@@ -58,6 +58,5 @@ tags:
 - Company
 - Pharmaceuticals
 - Health
-- Venture Backed
 - Dormant
 ---

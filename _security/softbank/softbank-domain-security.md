@@ -35,6 +35,6 @@ tags:
 - Telecommunications
 - Technology
 - Investment
-- AI
+- Artificial Intelligence
 - Robotics
 ---

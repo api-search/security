@@ -30,9 +30,8 @@ source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintract/refs/heads/main/security/fintract-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial
+- Finance
 - OCR
 - Document-Processing
-- API
 - Fintech
 ---

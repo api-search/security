@@ -38,7 +38,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Library Services
-- SaaS
+- Software-as-a-Service
 - Education
 - Open Source
 ---

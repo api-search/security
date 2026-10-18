@@ -40,9 +40,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DEX
 - Decentralized Exchange
 - Blockchain
 - Trading

@@ -92,11 +92,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Automation
 - Workflow Automation
 - Finance Automation
 - Accounts Payable
-- Neurosymbolic AI
+- Neuro-Symbolic AI
 - Enterprise
 ---

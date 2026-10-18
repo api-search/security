@@ -35,5 +35,5 @@ tags:
 - Cybersecurity
 - Fraud Prevention
 - Banking
-- AI
+- Artificial Intelligence
 ---

@@ -35,5 +35,5 @@ tags:
 - Portfolio
 - Investment
 - Analytics
-- Dashboard
+- Dashboards
 ---

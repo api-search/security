@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amalgamrx/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - SaMD
 - Healthcare
 ---

@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosemitech/refs/heads/main/security/cosemitech-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
-- Semiconductor
+- Semiconductors
 - IC
 - Automotive
 - Industrial

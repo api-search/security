@@ -32,6 +32,5 @@ tags:
 - Company
 - Revenue
 - Payments
-- API
-- FinTech
+- Fintech
 ---

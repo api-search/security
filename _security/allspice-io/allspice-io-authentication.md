@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: allspice-io-openapi-generated.yml
+- filename: allspice-io-repos-api-openapi.yml
   format: yaml
-  label: AllSpice.io API
-  slug: allspice-io-api
+  label: AllSpice.io Repos API
+  slug: allspice-io-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allspice-io/refs/heads/main/openapi/_ae-authored/allspice-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allspice-io/refs/heads/main/openapi/allspice-io-repos-api-openapi.yml
 auth_types: []
 description: Authentication methods for AllSpice Git operations
 kind: authentication
@@ -37,6 +37,6 @@ tags:
 - Company
 - Hardware
 - Collaboration
-- AI
+- Artificial Intelligence
 - Design
 ---

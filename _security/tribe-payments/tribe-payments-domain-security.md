@@ -222,12 +222,12 @@ api_specs:
   slug: tribe-payments-user-actions-trigger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-user-actions-trigger-api-openapi.yml
-- filename: tribe-payments-p2-p-api-openapi.yml
+- filename: tribe-payments-p2p-api-openapi.yml
   format: yaml
-  label: Tribe Payments P2 P API
-  slug: tribe-payments-p2-p-api
+  label: Tribe Payments P2P API
+  slug: tribe-payments-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-p2-p-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-p2p-api-openapi.yml
 description: ''
 domains:
 - caa: []

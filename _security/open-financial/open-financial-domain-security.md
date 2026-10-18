@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: open-financial-accounts-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Accounts API
+  slug: open-financial-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-accounts-api-openapi.yml
+- filename: open-financial-constants-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Constants API
+  slug: open-financial-constants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-constants-api-openapi.yml
+- filename: open-financial-events-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Events API
+  slug: open-financial-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-events-api-openapi.yml
+- filename: open-financial-icp-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Icp API
+  slug: open-financial-icp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-icp-api-openapi.yml
+- filename: open-financial-kycs-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Kycs API
+  slug: open-financial-kycs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-kycs-api-openapi.yml
+- filename: open-financial-pg-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Pg API
+  slug: open-financial-pg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-pg-api-openapi.yml
+- filename: open-financial-pg-settlements-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Pg Settlements API
+  slug: open-financial-pg-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-pg-settlements-api-openapi.yml
+- filename: open-financial-refund-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Refund API
+  slug: open-financial-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-refund-api-openapi.yml
+- filename: open-financial-transfers-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Transfers API
+  slug: open-financial-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-transfers-api-openapi.yml
+- filename: open-financial-verifications-api-openapi.yml
+  format: yaml
+  label: Open (open.money) Verifications API
+  slug: open-financial-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-verifications-api-openapi.yml
 description: ''
 domains:
 - caa: []

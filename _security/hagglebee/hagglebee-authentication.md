@@ -26,6 +26,12 @@ api_specs:
   slug: hagglebee-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-webhooks-api-openapi.yml
+- filename: hagglebee-oauth-api-openapi.yml
+  format: yaml
+  label: Hagglebee OAuth API
+  slug: hagglebee-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hagglebee/refs/heads/main/openapi/hagglebee-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

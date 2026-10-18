@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/converseon/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- NLP
+- Artificial Intelligence
+- Natural Language Processing
 - Analytics
 - Enterprise
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: gust-openapi-generated.yml
+- filename: gust-accounts-api-openapi.yml
   format: yaml
-  label: Gust API
-  slug: gust-api
+  label: Gust Accounts API
+  slug: gust-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gust/refs/heads/main/openapi/_ae-authored/gust-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gust/refs/heads/main/openapi/gust-accounts-api-openapi.yml
 description: ''
 domains:
 - caa:

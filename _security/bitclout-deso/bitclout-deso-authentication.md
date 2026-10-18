@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/
 summary_line: derived-keys/message-signing · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Decentralized Social
 - Web3

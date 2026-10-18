@@ -74,7 +74,7 @@ tags:
 - Financial Services
 - Open Banking
 - Commercial Banking
-- Personal Banking
+- Consumer Banking
 - Payments
 - Account
 - Transaction

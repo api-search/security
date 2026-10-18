@@ -34,5 +34,5 @@ tags:
 - Pharma
 - Metalloenzyme
 - Drug Discovery
-- San Diego
+- SanDiego
 ---

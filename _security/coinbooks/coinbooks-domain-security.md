@@ -30,9 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinbooks/refs
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Cryptocurrency
 - Bookkeeping
-- Web3
 ---

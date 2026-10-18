@@ -21,6 +21,5 @@ summary_line: ISO 27001, FedRAMP
 tags:
 - EdTech
 - LMS
-- Learning Management
 trust_url: https://www.blackboard.com/trust-center
 ---

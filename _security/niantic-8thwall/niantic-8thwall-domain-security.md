@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Augmented Reality
 - WebAR
-- XR
 - Extended Reality
 - 3D
 - SLAM

@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netsmart/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare IT
-- EHR
+- Electronic Health Records
 - FHIR
 - Behavioral Health
 - Post-Acute Care

@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kissflow/refs/heads/main/security/kissflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- low-code
-- workflow-automation
+- Low-Code
+- Workflow Automation
 - enterprise-apps
-- integration
+- Integration
 - digital-transformation
 - Company
 ---

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: viberate-openapi-generated.yml
+- filename: viberate-artist-api-openapi.yml
   format: yaml
-  label: Viberate API
-  slug: viberate-api
+  label: Viberate Artist API
+  slug: viberate-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viberate/refs/heads/main/openapi/_ae-authored/viberate-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viberate/refs/heads/main/openapi/viberate-artist-api-openapi.yml
+- filename: viberate-rate-limit-api-openapi.yml
+  format: yaml
+  label: Viberate Rate Limit API
+  slug: viberate-rate-limit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viberate/refs/heads/main/openapi/viberate-rate-limit-api-openapi.yml
+- filename: viberate-share-api-openapi.yml
+  format: yaml
+  label: Viberate Share API
+  slug: viberate-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viberate/refs/heads/main/openapi/viberate-share-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,6 +59,5 @@ tags:
 - Music
 - Analytics
 - Data
-- API
 - Platform
 ---

@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entrino/refs/heads/main/security/entrino-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AccessControl
+- Access Control
 - EventManagement
 - Security
-- SaaS
+- Software-as-a-Service
 - Entrino
 ---

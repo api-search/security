@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonbounce/ref
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Content Moderation
 - Trust and Safety
 - AI Governance

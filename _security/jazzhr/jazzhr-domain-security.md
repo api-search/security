@@ -38,9 +38,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jazzhr/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Recruiting
-- ATS
+- Applicant Tracking
 - Small Business
 - Hiring
-- SaaS
+- Software-as-a-Service
 - Company
 ---

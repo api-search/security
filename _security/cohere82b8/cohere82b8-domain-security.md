@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cohere82b8/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Language-Model
-- NLP
-- Startup
+- Natural Language Processing
+- Startups
 ---

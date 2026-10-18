@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relatableio/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- MedTech
+- Medical Technology
 - Medical Devices
 - Healthcare
 - Product Relationship Management

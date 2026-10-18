@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: form-bio-openapi-generated.yml
+- filename: form-bio-form-bio-api-api-openapi.yml
   format: yaml
-  label: Form Bio API
-  slug: form-bio-api
+  label: Form Bio Form Bio API
+  slug: form-bio-form-bio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/openapi/_ae-authored/form-bio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/openapi/form-bio-form-bio-api-api-openapi.yml
+- filename: form-bio-public-api-openapi.yml
+  format: yaml
+  label: Form Bio Public API
+  slug: form-bio-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/form-bio/refs/heads/main/openapi/form-bio-public-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -28,7 +34,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Biotechnology
-- AI
+- Artificial Intelligence
 - Genetic Medicine
 - Genome Engineering
 trust_url: https://trust.formbio.com/

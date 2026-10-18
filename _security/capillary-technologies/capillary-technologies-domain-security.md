@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: capillary-technologies-openapi-generated.yml
+- filename: capillary-technologies-events-api-openapi.yml
   format: yaml
-  label: Capillary Technologies API
-  slug: capillary-technologies-api
+  label: Capillary Technologies Events API
+  slug: capillary-technologies-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/_ae-authored/capillary-technologies-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-events-api-openapi.yml
+- filename: capillary-technologies-simulation-api-openapi.yml
+  format: yaml
+  label: Capillary Technologies Simulation API
+  slug: capillary-technologies-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-simulation-api-openapi.yml
+- filename: capillary-technologies-webhooks-api-openapi.yml
+  format: yaml
+  label: Capillary Technologies Webhooks API
+  slug: capillary-technologies-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-webhooks-api-openapi.yml
+- filename: capillary-technologies-x-api-openapi.yml
+  format: yaml
+  label: Capillary Technologies X API
+  slug: capillary-technologies-x-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capillary-technologies/refs/heads/main/openapi/capillary-technologies-x-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +57,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Loyalty
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - Customer-Engagement
 ---

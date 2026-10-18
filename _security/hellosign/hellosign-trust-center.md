@@ -102,7 +102,6 @@ summary_line: HIPAA, ISO 9001, SOC (CPA/AICPA attestation), Skyhigh Enterprise-R
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: allfly-openapi-generated.yml
+- filename: allfly-connect-api-openapi.yml
   format: yaml
-  label: AllFly API
-  slug: allfly-api
+  label: AllFly Connect API
+  slug: allfly-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/openapi/_ae-authored/allfly-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/openapi/allfly-connect-api-openapi.yml
+- filename: allfly-events-api-openapi.yml
+  format: yaml
+  label: AllFly Events API
+  slug: allfly-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allfly/refs/heads/main/openapi/allfly-events-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +48,5 @@ tags:
 - CorporateTravel
 - Marketplace
 - Booking
-- SaaS
+- Software-as-a-Service
 ---

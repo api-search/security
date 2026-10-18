@@ -34,9 +34,7 @@ tags:
 - Company
 - Construction
 - Construction Technology
-- ConTech
 - 3D Printing
-- Additive Manufacturing
 - Advanced Manufacturing
 - Prefabrication
 - Modular Housing

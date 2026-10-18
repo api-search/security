@@ -106,7 +106,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - CRM
-- SaaS
+- Software-as-a-Service
 - Sales
 - Marketing
 ---

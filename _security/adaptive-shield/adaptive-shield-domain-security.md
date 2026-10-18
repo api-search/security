@@ -36,6 +36,6 @@ tags:
 - Security Posture Management
 - Cybersecurity
 - Cloud Security
-- Identity Management
+- Identity and Access Management
 - Compliance
 ---

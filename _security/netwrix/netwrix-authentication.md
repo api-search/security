@@ -50,5 +50,5 @@ tags:
 - Data Security
 - Governance
 - Compliance
-- Privileged Access
+- Privileged Access Management
 ---

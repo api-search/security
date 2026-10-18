@@ -35,6 +35,6 @@ tags:
 - Snacks
 - Food
 - Health
-- E-commerce
+- E-Commerce
 - Nutrition
 ---

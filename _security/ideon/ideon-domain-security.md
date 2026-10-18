@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: ideon-openapi-generated.yml
+- filename: ideon-ideon-api-api-openapi.yml
   format: yaml
-  label: Ideon API
-  slug: ideon-api
+  label: Ideon Ideon API
+  slug: ideon-ideon-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideon/refs/heads/main/openapi/_ae-authored/ideon-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ideon/refs/heads/main/openapi/ideon-ideon-api-api-openapi.yml
+- filename: ideon-networks-api-openapi.yml
+  format: yaml
+  label: Ideon Networks API
+  slug: ideon-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ideon/refs/heads/main/openapi/ideon-networks-api-openapi.yml
+- filename: ideon-providers-api-openapi.yml
+  format: yaml
+  label: Ideon Providers API
+  slug: ideon-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ideon/refs/heads/main/openapi/ideon-providers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +52,5 @@ tags:
 - Company
 - Benefits
 - Data
-- APIs
-- HealthTech
+- Health Tech
 ---

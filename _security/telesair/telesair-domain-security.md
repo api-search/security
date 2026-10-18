@@ -35,7 +35,7 @@ tags:
 - Medical Devices
 - Healthcare
 - Respiratory Care
-- MedTech
+- Medical Technology
 - Hardware
 - Oxygen Therapy
 - Hospitals

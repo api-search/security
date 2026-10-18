@@ -63,7 +63,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classic/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - DEX Aggregator
 - Swap

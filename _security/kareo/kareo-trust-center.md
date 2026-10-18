@@ -58,7 +58,7 @@ summary_line: PCI DSS, HIPAA
 tags:
 - Healthcare
 - Medical Software
-- EHR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - Patient Scheduling

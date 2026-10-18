@@ -36,7 +36,7 @@ tags:
 - DevOps
 - Mobile
 - Cross-Platform
-- Dotnet
+- .NET
 - SDK
 - Microsoft
 ---

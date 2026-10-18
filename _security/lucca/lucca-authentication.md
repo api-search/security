@@ -98,8 +98,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/hea
 summary_line: 1 scheme
 tags:
 - Company
-- HR
-- SaaS
+- Human Resources
+- Software-as-a-Service
 - Payroll
 - Talent Management
 ---

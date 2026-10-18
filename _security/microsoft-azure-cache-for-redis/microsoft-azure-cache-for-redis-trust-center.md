@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/security/microsoft-azure-cache-for-redis-trust-center.yml
 summary_line: GDPR
 tags:
-- Azure
+- Microsoft Azure
 - Cache
 - Cloud Infrastructure
 - Datastore

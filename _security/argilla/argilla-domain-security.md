@@ -129,7 +129,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Annotation
 - LLM
-- NLP
+- Natural Language Processing
 - RLHF
 - Machine Learning
 - Datasets

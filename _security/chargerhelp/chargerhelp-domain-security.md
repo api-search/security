@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargerhelp/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- EV
-- SaaS
+- Electric Vehicles
+- Software-as-a-Service
 - Reliability
 - Monitoring
 ---

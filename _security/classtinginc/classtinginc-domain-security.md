@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classtinginc/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education
-- AI
+- Artificial Intelligence
 - K-12
 - PersonalizedLearning
 - EdTech

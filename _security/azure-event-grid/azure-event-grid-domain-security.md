@@ -64,10 +64,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Eventing
 - Event-Driven
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Webhook
 - CloudEvents
 - Cloud
-- Azure
+- Microsoft Azure
 ---

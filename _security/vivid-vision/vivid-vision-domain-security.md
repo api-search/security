@@ -37,5 +37,5 @@ tags:
 - Ophthalmology
 - Vision Therapy
 - Clinical Trials
-- MedTech
+- Medical Technology
 ---

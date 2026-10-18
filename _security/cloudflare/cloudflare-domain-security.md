@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: cloudflare-workers-ai-clef-openapi.yml
+  format: yaml
+  label: Cloudflare Workers AI Clef Decision Models API
+  slug: cloudflare-workers-ai-clef-decision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/_ae-authored/cloudflare-workers-ai-clef-openapi.yml
 - filename: cloudflare-waiting-room-api-openapi.yml
   format: yaml
   label: Cloudflare Waiting Room API

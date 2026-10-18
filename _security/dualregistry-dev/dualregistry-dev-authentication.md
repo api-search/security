@@ -140,7 +140,7 @@ tags:
 - x402
 - A2A
 - DeFi
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Intent Trading

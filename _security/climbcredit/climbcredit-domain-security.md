@@ -40,6 +40,6 @@ tags:
 - Finance
 - Education
 - Loans
-- Student
-- Career
+- Students
+- Careers
 ---

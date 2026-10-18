@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Customer Success
 - Customer Data
 - Churn

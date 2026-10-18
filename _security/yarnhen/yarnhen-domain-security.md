@@ -24,6 +24,12 @@ api_specs:
   slug: yarnhen-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-webhooks-api-openapi.yml
+- filename: yarnhen-oauth-api-openapi.yml
+  format: yaml
+  label: Yarnhen OAuth API
+  slug: yarnhen-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

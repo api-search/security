@@ -35,5 +35,5 @@ tags:
 - Quantum Security
 - Encryption
 - Enterprise
-- Crypto
+- Cryptocurrency
 ---

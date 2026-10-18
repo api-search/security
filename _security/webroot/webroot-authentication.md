@@ -36,7 +36,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Threat Intelligence
 - Security
 - Antivirus

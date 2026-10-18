@@ -32,7 +32,7 @@ tags:
 - ABA Therapy
 - Autism
 - IDD
-- EMR
+- Electronic Health Records
 - Practice Management
 - Behavioral Health
 - Special Education

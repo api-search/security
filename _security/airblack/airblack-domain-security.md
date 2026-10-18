@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Skilling
 - Beauty
 - Makeup

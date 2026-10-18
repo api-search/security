@@ -83,10 +83,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/security/fixer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Currency Exchange
 - Foreign Exchange
-- FX
-- Forex
 - ECB
 - Conversion
 - Historical Rates

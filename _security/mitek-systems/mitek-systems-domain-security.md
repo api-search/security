@@ -34,6 +34,5 @@ tags:
 - Company
 - IdentityVerification
 - FraudDetection
-- FinancialServices
-- APIs
+- Financial Services
 ---

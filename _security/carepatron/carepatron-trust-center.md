@@ -23,7 +23,7 @@ summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Therapy
 - Telehealth
 - Scheduling

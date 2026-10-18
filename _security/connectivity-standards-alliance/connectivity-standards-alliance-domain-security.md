@@ -34,5 +34,5 @@ tags:
 - IoT
 - Standards
 - Consortium
-- Open-Source
+- Open Source
 ---

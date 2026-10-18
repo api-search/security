@@ -39,6 +39,6 @@ tags:
 - Quote and Bind
 - Small Business
 - API Partner
-- Brokers
+- Brokerage
 - Financial Services
 ---

@@ -170,7 +170,7 @@ tags:
 - SMART on FHIR
 - Health Data
 - e-Prescribing
-- EHR
+- Electronic Health Records
 - Clinical
 - Demographics
 - Government

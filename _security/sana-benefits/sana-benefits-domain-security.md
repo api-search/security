@@ -62,6 +62,6 @@ tags:
 - Small Business
 - Level-Funded Plans
 - Insurtech
-- Brokers
+- Brokerage
 - Virtual Primary Care
 ---

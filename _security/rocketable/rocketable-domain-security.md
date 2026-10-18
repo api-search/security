@@ -37,5 +37,4 @@ tags:
 - AI Agents
 - Software Acquisition
 - Portfolio
-- Venture Backed
 ---

@@ -35,5 +35,5 @@ tags:
 - Advertising
 - Marketing
 - Video
-- SaaS
+- Software-as-a-Service
 ---

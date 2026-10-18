@@ -45,6 +45,6 @@ tags:
 - Library Catalog
 - Koha
 - Identity Federation
-- Learning Management
+- LMS
 - Registry
 ---

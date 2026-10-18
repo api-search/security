@@ -31,13 +31,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arch-network/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Bitcoin
 - Blockchain
 - DeFi
 - Smart Contracts
 - JSON-RPC
 - Web3 SDK
-- Web3
 - Cryptocurrency
 ---

@@ -100,7 +100,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Sports Betting
-- Real-time Data
-- API
+- Real-Time Data
 - Gambling
 ---

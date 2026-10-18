@@ -34,7 +34,7 @@ tags:
 - Access Governance
 - Cost Optimization
 - Deprovisioning
-- Identity Access Management
+- Identity and Access Management
 - License Management
 - Provisioning
 - SaaS Management

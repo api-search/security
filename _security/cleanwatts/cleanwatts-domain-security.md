@@ -33,6 +33,6 @@ tags:
 - Company
 - Energy
 - Solar
-- Renewable
-- CleanTech
+- Renewables
+- Cleantech
 ---

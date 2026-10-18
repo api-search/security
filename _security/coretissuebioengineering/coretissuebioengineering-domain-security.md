@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coretissuebioe
 summary_line: TLSv1.3
 tags:
 - Company
-- MedicalDevice
+- Medical Devices
 - RegenerativeMedicine
 - Japan
-- DeepTech
+- Deep Tech
 ---

@@ -35,9 +35,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/he
 summary_line: 1 scheme
 tags:
 - Logistics
-- AI
+- Artificial Intelligence
 - Transportation
 - Warehouse
-- SaaS
+- Software-as-a-Service
 - Company
 ---

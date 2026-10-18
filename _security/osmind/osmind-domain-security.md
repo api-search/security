@@ -36,7 +36,6 @@ tags:
 - Mental Health
 - Psychiatry
 - Electronic Health Records
-- EHR
 - Behavioral Health
 - Digital Health
 - Health Tech

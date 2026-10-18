@@ -82,11 +82,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/eraser-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/authentication/eraser-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- Diagrams
+- Diagramming
 - Documentation
 - Artificial Intelligence
 - Technical Documentation
-- Diagramming
 - Architecture
 - Developer Tools
 ---

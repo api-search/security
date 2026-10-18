@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kintsugi-health-openapi-generated.yml
+- filename: kintsugi-health-feedback-api-openapi.yml
   format: yaml
-  label: Kintsugi Health API
-  slug: kintsugi-health-api
+  label: Kintsugi Health Feedback API
+  slug: kintsugi-health-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/_ae-authored/kintsugi-health-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-feedback-api-openapi.yml
+- filename: kintsugi-health-initiate-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Initiate API
+  slug: kintsugi-health-initiate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-initiate-api-openapi.yml
+- filename: kintsugi-health-kintsugi-health-api-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Kintsugi Health API
+  slug: kintsugi-health-kintsugi-health-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-kintsugi-health-api-api-openapi.yml
+- filename: kintsugi-health-predict-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Predict API
+  slug: kintsugi-health-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-predict-api-openapi.yml
+- filename: kintsugi-health-prediction-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Prediction API
+  slug: kintsugi-health-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-prediction-api-openapi.yml
 auth_types: []
 description: The KV API uses a unique API key that is provisioned specifically for your organization to authenticate your API requests.
 kind: authentication
@@ -34,9 +58,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/authentication/kintsugi-health-authentication.yml
 summary_line: 1 scheme
 tags:
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - VoiceAnalytics
-- MentalHealth
-- DigitalHealth
+- Mental Health
+- Digital Health
 ---

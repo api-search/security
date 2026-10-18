@@ -97,7 +97,7 @@ tags:
 - Go
 - Keyless
 - OCI
-- OIDC
+- OpenID Connect
 - Open Source
 - Rekor
 - Sigstore

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: connected2fiber-openapi-generated.yml
+- filename: connected2fiber-address-api-openapi.yml
   format: yaml
-  label: Connected2fiber API
-  slug: connected2fiber-api
+  label: Connected2fiber Address API
+  slug: connected2fiber-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connected2fiber/refs/heads/main/openapi/_ae-authored/connected2fiber-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connected2fiber/refs/heads/main/openapi/connected2fiber-address-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connected2fibe
 summary_line: TLSv1.3 · DMARC
 tags:
 - Connectivity
-- SaaS
+- Software-as-a-Service
 - B2B
 - Platform
-- Network
+- Networks
 ---

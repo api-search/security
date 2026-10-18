@@ -41,8 +41,8 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cellibre/refs/heads/main/security/cellibre-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- biotechnology
-- synthetic-biology
+- Biotechnology
+- Synthetic Biology
 - precision-fermentation
 - sustainable-manufacturing
 - microbial-engineering

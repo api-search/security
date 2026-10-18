@@ -297,7 +297,6 @@ summary_line: SOC 2
 tags:
 - Company
 - Identity
-- Access Management
 - Identity and Access Management
 - Identity Governance
 - Access Control

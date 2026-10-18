@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: burrow-openapi-generated.yml
+- filename: burrow-events-api-openapi.yml
   format: yaml
-  label: Burrow API
-  slug: burrow-api
+  label: Burrow Events API
+  slug: burrow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/openapi/_ae-authored/burrow-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/openapi/burrow-events-api-openapi.yml
+- filename: burrow-mcp-api-openapi.yml
+  format: yaml
+  label: Burrow MCP API
+  slug: burrow-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/openapi/burrow-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Reporting
 - Automation
-- API
 ---

@@ -93,7 +93,7 @@ tags:
 - Creators
 - Content Creation
 - Video Production
-- Podcasting
+- Podcasts
 - AI Music Supervisor
 - Stems
 ---

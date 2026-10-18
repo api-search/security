@@ -28,7 +28,7 @@ tags:
 - Company
 - Payments
 - Invoicing
-- Crypto
+- Cryptocurrency
 - Web3
 - Payroll
 - Stablecoins

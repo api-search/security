@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: sovos-openapi-generated.yml
+- filename: sovos-configurations-api-openapi.yml
   format: yaml
-  label: Sovos API
-  slug: sovos-api
+  label: Sovos Configurations API
+  slug: sovos-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/_ae-authored/sovos-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-configurations-api-openapi.yml
+- filename: sovos-documents-api-openapi.yml
+  format: yaml
+  label: Sovos Documents API
+  slug: sovos-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-documents-api-openapi.yml
+- filename: sovos-notifications-api-openapi.yml
+  format: yaml
+  label: Sovos Notifications API
+  slug: sovos-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-notifications-api-openapi.yml
+- filename: sovos-oauth-api-openapi.yml
+  format: yaml
+  label: Sovos OAuth API
+  slug: sovos-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-oauth-api-openapi.yml
+- filename: sovos-taxid-checks-api-openapi.yml
+  format: yaml
+  label: Sovos Taxid Checks API
+  slug: sovos-taxid-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sovos/refs/heads/main/openapi/sovos-taxid-checks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +65,5 @@ tags:
 - Tax
 - Compliance
 - Cloud
-- API
 - Global
 ---

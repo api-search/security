@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ev3/refs/heads
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Venture Capital
 - Blockchain
 - DePIN
 - Investment
-- Web3
 - Cryptocurrency
 ---

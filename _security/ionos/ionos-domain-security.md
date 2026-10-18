@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: ionos-openapi-generated.yml
-  format: yaml
-  label: IONOS API
-  slug: ionos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionos/refs/heads/main/openapi/_ae-authored/ionos-openapi-generated.yml
 description: ''
 domains:
 - caa:
@@ -48,5 +41,5 @@ tags:
 - Cloud
 - Hosting
 - Domains
-- AI
+- Artificial Intelligence
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commoncomputer
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IT Services
-- Managed Services
+- Managed Service
 - Cybersecurity
 - Cloud Migration
 - Small Business

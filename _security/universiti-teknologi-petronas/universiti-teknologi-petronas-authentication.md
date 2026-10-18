@@ -63,6 +63,6 @@ tags:
 - OAI-PMH
 - EPrints
 - Identity Federation
-- Learning Management
+- LMS
 - Scholarly Publishing
 ---

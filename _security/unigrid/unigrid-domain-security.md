@@ -36,5 +36,4 @@ tags:
 - Energy
 - Hardware
 - Data Center
-- Venture Backed
 ---

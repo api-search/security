@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commerceblock/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
-- FinTech
+- Fintech
 - Tokenization
 - Distributed Ledger
 - Securities

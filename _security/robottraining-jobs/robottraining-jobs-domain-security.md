@@ -53,5 +53,5 @@ tags:
 - JobBoard
 - Robotics
 - Employment
-- AI
+- Artificial Intelligence
 ---

@@ -614,8 +614,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looot/refs/hea
 summary_line: 2 schemes
 tags:
 - Marketplace
-- API
-- AI
+- Artificial Intelligence
 - Data
 - Integration
 ---

@@ -56,9 +56,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception/refs
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
-- LLM
 - Artificial Intelligence
+- LLM
 - Diffusion Models
 - Code Completion
 - Machine Learning

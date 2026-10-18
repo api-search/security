@@ -200,12 +200,11 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/security/workramp-trust-center.yml
 summary_line: SOC 2 Type 2, ISO/IEC 27001:2022, Cyber Essentials, GDPR, CCPA
 tags:
-- Learning Management
+- LMS
 - Revenue Enablement
 - Sales Enablement
 - Training
 - Onboarding
-- LMS
 - Assessment
 - Certification
 - Coaching

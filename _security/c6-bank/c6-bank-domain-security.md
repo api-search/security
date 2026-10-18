@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Banking
-- FinTech
-- DigitalBank
+- Fintech
+- Digital Bank
 - Brazil
 ---

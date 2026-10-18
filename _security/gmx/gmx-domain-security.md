@@ -156,7 +156,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - DeFi
 - Perpetual Exchange
-- DEX
+- Decentralized Exchange
 - Trading
 - Leverage
 - Liquidity Pools

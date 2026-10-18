@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: curios-openapi-generated.yml
+- filename: curios-collections-api-openapi.yml
   format: yaml
-  label: Curios API
-  slug: curios-api
+  label: Curios Collections API
+  slug: curios-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/_ae-authored/curios-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-collections-api-openapi.yml
+- filename: curios-contracts-api-openapi.yml
+  format: yaml
+  label: Curios Contracts API
+  slug: curios-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-contracts-api-openapi.yml
+- filename: curios-customers-api-openapi.yml
+  format: yaml
+  label: Curios Customers API
+  slug: curios-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-customers-api-openapi.yml
+- filename: curios-listings-api-openapi.yml
+  format: yaml
+  label: Curios Listings API
+  slug: curios-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-listings-api-openapi.yml
+- filename: curios-orders-api-openapi.yml
+  format: yaml
+  label: Curios Orders API
+  slug: curios-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-orders-api-openapi.yml
+- filename: curios-projects-api-openapi.yml
+  format: yaml
+  label: Curios Projects API
+  slug: curios-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-projects-api-openapi.yml
+- filename: curios-tokens-api-openapi.yml
+  format: yaml
+  label: Curios Tokens API
+  slug: curios-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curios/refs/heads/main/openapi/curios-tokens-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +76,5 @@ tags:
 - Company
 - Marketplace
 - Web3
-- API
-- Creator
+- Creators
 ---

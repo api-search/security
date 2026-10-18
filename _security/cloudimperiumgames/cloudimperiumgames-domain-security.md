@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Gaming
-- VideoGames
+- Video Games
 - StarCitizen
 - Squadron42
 - Community

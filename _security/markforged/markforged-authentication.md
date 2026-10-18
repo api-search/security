@@ -68,7 +68,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markforged/ref
 summary_line: http · 1 scheme
 tags:
 - 3D Printing
-- Additive Manufacturing
 - Industrial
 - Eiger
 - Fleet Management

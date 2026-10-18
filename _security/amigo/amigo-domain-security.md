@@ -482,6 +482,6 @@ tags:
 - Clinical
 - Conversational AI
 - FHIR
-- EHR
+- Electronic Health Records
 - HIPAA
 ---

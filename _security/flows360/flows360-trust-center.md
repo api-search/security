@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: flows360-openapi-generated.yml
+- filename: flows360-purchase-orders-api-openapi.yml
   format: yaml
-  label: Flows360 API
-  slug: flows360-api
+  label: Flows360 Purchase Orders API
+  slug: flows360-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/_ae-authored/flows360-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-purchase-orders-api-openapi.yml
+- filename: flows360-session-api-openapi.yml
+  format: yaml
+  label: Flows360 Session API
+  slug: flows360-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-session-api-openapi.yml
+- filename: flows360-suppliers-api-openapi.yml
+  format: yaml
+  label: Flows360 Suppliers API
+  slug: flows360-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flows360/refs/heads/main/openapi/flows360-suppliers-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -29,8 +41,8 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Automation
-- Workflow
+- Workflows
 - Integration
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.flows360.co/platform/security-governance/
 ---

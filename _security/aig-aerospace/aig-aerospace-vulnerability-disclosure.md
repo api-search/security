@@ -26,7 +26,7 @@ tags:
 - Aviation
 - Aerospace
 - Specialty Insurance
-- Property Casualty
+- Property and Casualty
 - Claims
 - Unmanned Aircraft
 - Enterprise

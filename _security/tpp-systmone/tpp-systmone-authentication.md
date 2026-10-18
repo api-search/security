@@ -50,8 +50,7 @@ summary_line: mutualTLS/nhs-jwt/approval-gated-socket · 3 schemes
 tags:
 - Healthcare
 - United Kingdom
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

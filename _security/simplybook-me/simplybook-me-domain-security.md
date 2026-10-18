@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: simplybook-me-openapi-generated.yml
+- filename: simplybook-me-admin-api-openapi.yml
   format: yaml
-  label: SimplyBook.me API
-  slug: simplybook-me-api
+  label: SimplyBook.me Admin API
+  slug: simplybook-me-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplybook-me/refs/heads/main/openapi/_ae-authored/simplybook-me-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simplybook-me/refs/heads/main/openapi/simplybook-me-admin-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplybook-me/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scheduling
-- SaaS
+- Software-as-a-Service
 - Booking
 - Integration
 - Automation

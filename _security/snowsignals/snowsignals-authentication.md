@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: derived\nsource: openapi/snowsign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/authentication/snowsignals-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Crypto
+- Cryptocurrency
 - Market Data
 - Bitcoin
 - Analytics

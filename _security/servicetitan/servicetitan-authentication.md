@@ -297,7 +297,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/authentication/servicetitan-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - HVAC
 - Plumbing

@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contraforce/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
-- SaaS
+- Software-as-a-Service
 - Cybersecurity
 - Microsoft
 - MSP

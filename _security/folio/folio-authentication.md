@@ -232,12 +232,6 @@ api_specs:
   slug: folio-checklist-items-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-checklist-items-api-openapi.yml
-- filename: folio-circulation-api-openapi.yml
-  format: yaml
-  label: FOLIO Circulation API
-  slug: folio-circulation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-circulation-api-openapi.yml
 - filename: folio-circulation-bff-api-openapi.yml
   format: yaml
   label: FOLIO Circulation Bff API
@@ -1348,12 +1342,6 @@ api_specs:
   slug: folio-refreshshadowlocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-refreshshadowlocations-api-openapi.yml
-- filename: folio-refreshtoken-api-openapi.yml
-  format: yaml
-  label: FOLIO Refreshtoken API
-  slug: folio-refreshtoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-refreshtoken-api-openapi.yml
 - filename: folio-reinstall-api-openapi.yml
   format: yaml
   label: FOLIO Reinstall API
@@ -1684,12 +1672,6 @@ api_specs:
   slug: folio-tlrsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-tlrsettings-api-openapi.yml
-- filename: folio-token-api-openapi.yml
-  format: yaml
-  label: FOLIO Token API
-  slug: folio-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folio/refs/heads/main/openapi/folio-token-api-openapi.yml
 - filename: folio-transactions-api-openapi.yml
   format: yaml
   label: FOLIO Transactions API
@@ -1876,7 +1858,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/folio/refs/hea
 summary_line: apiKey · 3 schemes
 tags:
 - Company
-- Libraries
+- Library
 - Library Services Platform
 - Open Source
 - Microservices

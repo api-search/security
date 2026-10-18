@@ -143,7 +143,7 @@ tags:
 - Cloud
 - Billing
 - Multi-Cloud
-- Azure
+- Microsoft Azure
 - GCP
 - gRPC
 - Cost Optimization

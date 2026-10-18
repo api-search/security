@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Health
-- DigitalHealth
+- Digital Health
 - Alcohol
 - Wellness
 ---

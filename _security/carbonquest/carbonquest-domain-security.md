@@ -34,6 +34,6 @@ tags:
 - Company
 - Carbon Capture
 - Sustainability
-- CleanTech
+- Cleantech
 - Energy
 ---

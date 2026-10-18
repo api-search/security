@@ -201,6 +201,6 @@ tags:
 - Company
 - Software
 - Club Management
-- SaaS
-- POS
+- Software-as-a-Service
+- Point-of-Sale
 ---

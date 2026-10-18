@@ -104,7 +104,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/100ms-li
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/authentication/100ms-live-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Live Video
 - Live Streaming
 - Video Conferencing
 - WebRTC

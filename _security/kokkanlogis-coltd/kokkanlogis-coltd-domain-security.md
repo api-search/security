@@ -33,7 +33,7 @@ tags:
 - Logistics
 - Self Storage
 - Warehousing
-- Storage as a Service
+- Storage As A Service
 - Consumer Services
 - Mobile App
 - South Korea

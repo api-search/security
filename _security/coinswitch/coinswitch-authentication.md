@@ -44,7 +44,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Fintech
 - Futures

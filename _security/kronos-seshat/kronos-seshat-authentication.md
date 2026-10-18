@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: derived\nsource: openapi/kronos-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/authentication/kronos-seshat-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Crypto
+- Cryptocurrency
 - Financial Forecast
 - Market Data
 - Auditing

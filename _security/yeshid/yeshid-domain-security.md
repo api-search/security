@@ -36,7 +36,6 @@ tags:
 - Identity and Access Management
 - Identity Governance
 - Workforce Identity
-- Access Management
 - Lifecycle Management
 - Non-Human Identity
 - Software-as-a-Service

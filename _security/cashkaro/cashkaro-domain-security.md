@@ -34,6 +34,6 @@ tags:
 - Company
 - Cashback
 - Coupons
-- E-commerce
+- E-Commerce
 - India
 ---

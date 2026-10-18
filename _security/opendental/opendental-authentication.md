@@ -114,7 +114,7 @@ tags:
 - Dental
 - Practice Management
 - Healthcare
-- EHR
+- Electronic Health Records
 - Patient Records
 - REST
 ---

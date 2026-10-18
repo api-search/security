@@ -32,7 +32,7 @@ tags:
 - Artificial Intelligence
 - Contract Management
 - Legal Operations
-- Electronic Signature
+- E-Signature
 - Business Intelligence
 - Brazil
 - Software-as-a-Service

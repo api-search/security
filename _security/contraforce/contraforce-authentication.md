@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contraforce/re
 summary_line: 1 scheme
 tags:
 - Security
-- SaaS
+- Software-as-a-Service
 - Cybersecurity
 - Microsoft
 - MSP

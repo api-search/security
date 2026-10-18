@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: datia-openapi-generated.yml
+- filename: datia-instruments-api-openapi.yml
   format: yaml
-  label: Datia API
-  slug: datia-api
+  label: Datia Instruments API
+  slug: datia-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/_ae-authored/datia-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-instruments-api-openapi.yml
+- filename: datia-portfolios-api-openapi.yml
+  format: yaml
+  label: Datia Portfolios API
+  slug: datia-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-portfolios-api-openapi.yml
+- filename: datia-reports-api-openapi.yml
+  format: yaml
+  label: Datia Reports API
+  slug: datia-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-reports-api-openapi.yml
+- filename: datia-sustainable-investments-api-openapi.yml
+  format: yaml
+  label: Datia Sustainable Investments API
+  slug: datia-sustainable-investments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-sustainable-investments-api-openapi.yml
+- filename: datia-taxonomy-api-openapi.yml
+  format: yaml
+  label: Datia Taxonomy API
+  slug: datia-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-taxonomy-api-openapi.yml
+- filename: datia-temperature-score-api-openapi.yml
+  format: yaml
+  label: Datia Temperature Score API
+  slug: datia-temperature-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datia/refs/heads/main/openapi/datia-temperature-score-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,6 +77,5 @@ tags:
 - Sustainable Finance
 - ESG
 - Data Platform
-- API
 - Finance
 ---

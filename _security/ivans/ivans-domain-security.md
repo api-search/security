@@ -1,0 +1,461 @@
+---
+api_specs:
+- filename: ivans-agencies-api-openapi.yml
+  format: yaml
+  label: IVANS Agencies API
+  slug: ivans-agencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-agencies-api-openapi.yml
+- filename: ivans-agents-api-openapi.yml
+  format: yaml
+  label: IVANS Agents API
+  slug: ivans-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-agents-api-openapi.yml
+- filename: ivans-all-markets-api-openapi.yml
+  format: yaml
+  label: IVANS All Markets API
+  slug: ivans-all-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-all-markets-api-openapi.yml
+- filename: ivans-amsproducts-api-openapi.yml
+  format: yaml
+  label: IVANS Ams Products API
+  slug: ivans-amsproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-amsproducts-api-openapi.yml
+- filename: ivans-amsproviders-api-openapi.yml
+  format: yaml
+  label: IVANS Ams Providers API
+  slug: ivans-amsproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-amsproviders-api-openapi.yml
+- filename: ivans-amsversions-api-openapi.yml
+  format: yaml
+  label: IVANS Ams Versions API
+  slug: ivans-amsversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-amsversions-api-openapi.yml
+- filename: ivans-auto-service-api-openapi.yml
+  format: yaml
+  label: IVANS Auto Service API
+  slug: ivans-auto-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-auto-service-api-openapi.yml
+- filename: ivans-base-question-set-flow-api-openapi.yml
+  format: yaml
+  label: IVANS Base Question Set Flow API
+  slug: ivans-base-question-set-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-base-question-set-flow-api-openapi.yml
+- filename: ivans-basic-appetite-api-openapi.yml
+  format: yaml
+  label: IVANS Basic Appetite API
+  slug: ivans-basic-appetite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-basic-appetite-api-openapi.yml
+- filename: ivans-basic-appetite-capture-api-openapi.yml
+  format: yaml
+  label: IVANS Basic Appetite Capture API
+  slug: ivans-basic-appetite-capture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-basic-appetite-capture-api-openapi.yml
+- filename: ivans-bookrolls-api-openapi.yml
+  format: yaml
+  label: IVANS Bookrolls API
+  slug: ivans-bookrolls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-bookrolls-api-openapi.yml
+- filename: ivans-claims-download-api-api-openapi.yml
+  format: yaml
+  label: IVANS Claims Download API
+  slug: ivans-claims-download-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-claims-download-api-api-openapi.yml
+- filename: ivans-classic-flow-api-openapi.yml
+  format: yaml
+  label: IVANS Classic Flow API
+  slug: ivans-classic-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-classic-flow-api-openapi.yml
+- filename: ivans-classification-codes-api-openapi.yml
+  format: yaml
+  label: IVANS Classification Codes API
+  slug: ivans-classification-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-classification-codes-api-openapi.yml
+- filename: ivans-classification-standards-api-openapi.yml
+  format: yaml
+  label: IVANS Classification Standards API
+  slug: ivans-classification-standards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-classification-standards-api-openapi.yml
+- filename: ivans-commission-download-api-api-openapi.yml
+  format: yaml
+  label: IVANS Commission Download API
+  slug: ivans-commission-download-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-commission-download-api-api-openapi.yml
+- filename: ivans-configuration-api-openapi.yml
+  format: yaml
+  label: IVANS Configuration API
+  slug: ivans-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-configuration-api-openapi.yml
+- filename: ivans-connectioncodes-api-openapi.yml
+  format: yaml
+  label: IVANS Connection Codes API
+  slug: ivans-connectioncodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-connectioncodes-api-openapi.yml
+- filename: ivans-connectionlobs-api-openapi.yml
+  format: yaml
+  label: IVANS Connection Lobs API
+  slug: ivans-connectionlobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-connectionlobs-api-openapi.yml
+- filename: ivans-connections-api-openapi.yml
+  format: yaml
+  label: IVANS Connections API
+  slug: ivans-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-connections-api-openapi.yml
+- filename: ivans-document-store-api-api-openapi.yml
+  format: yaml
+  label: IVANS Document Store API
+  slug: ivans-document-store-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-document-store-api-api-openapi.yml
+- filename: ivans-edoc-download-apis-api-openapi.yml
+  format: yaml
+  label: IVANS eDoc Download APIs API
+  slug: ivans-edoc-download-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-edoc-download-apis-api-openapi.yml
+- filename: ivans-enhanced-appetite-api-openapi.yml
+  format: yaml
+  label: IVANS Enhanced Appetite API
+  slug: ivans-enhanced-appetite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-enhanced-appetite-api-openapi.yml
+- filename: ivans-enhanced-appetite-capture-api-openapi.yml
+  format: yaml
+  label: IVANS Enhanced Appetite Capture API
+  slug: ivans-enhanced-appetite-capture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-enhanced-appetite-capture-api-openapi.yml
+- filename: ivans-fastpath-flow-api-openapi.yml
+  format: yaml
+  label: IVANS FastPath Flow API
+  slug: ivans-fastpath-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-fastpath-flow-api-openapi.yml
+- filename: ivans-file-id-retrieval-api-api-openapi.yml
+  format: yaml
+  label: IVANS File Id Retrieval API
+  slug: ivans-file-id-retrieval-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-file-id-retrieval-api-api-openapi.yml
+- filename: ivans-filecontents-api-openapi.yml
+  format: yaml
+  label: IVANS File Contents API
+  slug: ivans-filecontents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-filecontents-api-openapi.yml
+- filename: ivans-files-api-openapi.yml
+  format: yaml
+  label: IVANS Files API
+  slug: ivans-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-files-api-openapi.yml
+- filename: ivans-forms-api-openapi.yml
+  format: yaml
+  label: IVANS Forms API
+  slug: ivans-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-forms-api-openapi.yml
+- filename: ivans-geos-api-openapi.yml
+  format: yaml
+  label: IVANS Geos API
+  slug: ivans-geos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-geos-api-openapi.yml
+- filename: ivans-identity-api-openapi.yml
+  format: yaml
+  label: IVANS Identity API
+  slug: ivans-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-identity-api-openapi.yml
+- filename: ivans-integrated-application-control-api-openapi.yml
+  format: yaml
+  label: IVANS Integrated Application Control API
+  slug: ivans-integrated-application-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-integrated-application-control-api-openapi.yml
+- filename: ivans-internal-segments-api-openapi.yml
+  format: yaml
+  label: IVANS Internal Segments API
+  slug: ivans-internal-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-internal-segments-api-openapi.yml
+- filename: ivans-licenses-api-openapi.yml
+  format: yaml
+  label: IVANS Licenses API
+  slug: ivans-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-licenses-api-openapi.yml
+- filename: ivans-lobs-api-openapi.yml
+  format: yaml
+  label: IVANS Lobs API
+  slug: ivans-lobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-lobs-api-openapi.yml
+- filename: ivans-looker-api-openapi.yml
+  format: yaml
+  label: IVANS Looker API
+  slug: ivans-looker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-looker-api-openapi.yml
+- filename: ivans-mailboxes-api-openapi.yml
+  format: yaml
+  label: IVANS Mailboxes API
+  slug: ivans-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-mailboxes-api-openapi.yml
+- filename: ivans-market-bound-status-api-openapi.yml
+  format: yaml
+  label: IVANS Market Bound Status API
+  slug: ivans-market-bound-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-market-bound-status-api-openapi.yml
+- filename: ivans-market-configurations-api-openapi.yml
+  format: yaml
+  label: IVANS Market Configurations API
+  slug: ivans-market-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-market-configurations-api-openapi.yml
+- filename: ivans-market-contract-codes-api-openapi.yml
+  format: yaml
+  label: IVANS Market Contract Codes API
+  slug: ivans-market-contract-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-market-contract-codes-api-openapi.yml
+- filename: ivans-market-credentials-api-openapi.yml
+  format: yaml
+  label: IVANS Market Credentials API
+  slug: ivans-market-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-market-credentials-api-openapi.yml
+- filename: ivans-markets-api-openapi.yml
+  format: yaml
+  label: IVANS Markets API
+  slug: ivans-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-markets-api-openapi.yml
+- filename: ivans-naic-api-openapi.yml
+  format: yaml
+  label: IVANS NAIC API
+  slug: ivans-naic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-naic-api-openapi.yml
+- filename: ivans-naics-ak-api-openapi.yml
+  format: yaml
+  label: IVANS Naics Ak API
+  slug: ivans-naics-ak-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-naics-ak-api-openapi.yml
+- filename: ivans-naics-api-openapi.yml
+  format: yaml
+  label: IVANS Naics API
+  slug: ivans-naics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-naics-api-openapi.yml
+- filename: ivans-ncci-api-openapi.yml
+  format: yaml
+  label: IVANS Ncci API
+  slug: ivans-ncci-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-ncci-api-openapi.yml
+- filename: ivans-notify-configs-api-openapi.yml
+  format: yaml
+  label: IVANS Notify Configs API
+  slug: ivans-notify-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-notify-configs-api-openapi.yml
+- filename: ivans-policy-download-apis-api-openapi.yml
+  format: yaml
+  label: IVANS Policy Download APIs API
+  slug: ivans-policy-download-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-policy-download-apis-api-openapi.yml
+- filename: ivans-post-quote-flow-api-openapi.yml
+  format: yaml
+  label: IVANS Post Quote Flow API
+  slug: ivans-post-quote-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-post-quote-flow-api-openapi.yml
+- filename: ivans-producers-api-openapi.yml
+  format: yaml
+  label: IVANS Producers API
+  slug: ivans-producers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-producers-api-openapi.yml
+- filename: ivans-product-releases-api-openapi.yml
+  format: yaml
+  label: IVANS Product Releases API
+  slug: ivans-product-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-product-releases-api-openapi.yml
+- filename: ivans-risk-profiles-api-openapi.yml
+  format: yaml
+  label: IVANS Risk Profiles API
+  slug: ivans-risk-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-risk-profiles-api-openapi.yml
+- filename: ivans-routes-api-openapi.yml
+  format: yaml
+  label: IVANS Routes API
+  slug: ivans-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-routes-api-openapi.yml
+- filename: ivans-schema-api-openapi.yml
+  format: yaml
+  label: IVANS Schema API
+  slug: ivans-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-schema-api-openapi.yml
+- filename: ivans-structures-api-openapi.yml
+  format: yaml
+  label: IVANS Structures API
+  slug: ivans-structures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-structures-api-openapi.yml
+- filename: ivans-submission-api-openapi.yml
+  format: yaml
+  label: IVANS Submission API
+  slug: ivans-submission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-submission-api-openapi.yml
+- filename: ivans-support-api-openapi.yml
+  format: yaml
+  label: IVANS Support API
+  slug: ivans-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-support-api-openapi.yml
+- filename: ivans-token-api-api-openapi.yml
+  format: yaml
+  label: IVANS Token API
+  slug: ivans-token-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-token-api-api-openapi.yml
+- filename: ivans-token-api-openapi.yml
+  format: yaml
+  label: IVANS Token API
+  slug: ivans-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-token-api-openapi.yml
+- filename: ivans-trading-partners-api-openapi.yml
+  format: yaml
+  label: IVANS Trading Partners API
+  slug: ivans-trading-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-trading-partners-api-openapi.yml
+- filename: ivans-users-api-openapi.yml
+  format: yaml
+  label: IVANS Users API
+  slug: ivans-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-users-api-openapi.yml
+- filename: ivans-usertypes-api-openapi.yml
+  format: yaml
+  label: IVANS User Types API
+  slug: ivans-usertypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-usertypes-api-openapi.yml
+- filename: ivans-utils-api-openapi.yml
+  format: yaml
+  label: IVANS Utils API
+  slug: ivans-utils-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-utils-api-openapi.yml
+- filename: ivans-warpcarrierproduct-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Carrier Product API
+  slug: ivans-warpcarrierproduct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpcarrierproduct-api-openapi.yml
+- filename: ivans-warpclientcommand-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Client Command API
+  slug: ivans-warpclientcommand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpclientcommand-api-openapi.yml
+- filename: ivans-warpclients-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Clients API
+  slug: ivans-warpclients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpclients-api-openapi.yml
+- filename: ivans-warpcommand-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Command API
+  slug: ivans-warpcommand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpcommand-api-openapi.yml
+- filename: ivans-warpdebugs-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Debugs API
+  slug: ivans-warpdebugs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpdebugs-api-openapi.yml
+- filename: ivans-warpnaicproduct-api-openapi.yml
+  format: yaml
+  label: IVANS Warp NAIC Product API
+  slug: ivans-warpnaicproduct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warpnaicproduct-api-openapi.yml
+- filename: ivans-warptransaction-api-openapi.yml
+  format: yaml
+  label: IVANS Warp Transaction API
+  slug: ivans-warptransaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/openapi/ivans-warptransaction-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: ivans.com
+  spf: true
+hosts:
+- cert_expires: Nov 22 06:00:01 2026 GMT
+  host: www.ivans.com
+  hsts: true
+  hsts_max_age: 15768000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Ivans Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for IVANS, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: IVANS
+provider_slug: ivans
+slug: ivans-domain-security
+source_filename: ivans-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ivans.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 06:00:01 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: ivans.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ivans/refs/heads/main/security/ivans-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Company
+- Insurance
+- Data Exchange
+- Insurance Distribution
+- Agencies
+- Carrier
+---

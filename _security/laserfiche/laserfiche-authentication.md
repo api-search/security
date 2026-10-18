@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: laserfiche-api-openapi-generated.yml
+- filename: laserfiche-oauth-api-openapi.yml
   format: yaml
-  label: Laserfiche api API
-  slug: api-api
+  label: Laserfiche OAuth API
+  slug: laserfiche-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/_ae-authored/laserfiche-api-openapi-generated.yml
-- filename: laserfiche-core-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-oauth-api-openapi.yml
+- filename: laserfiche-odata4-api-openapi.yml
   format: yaml
-  label: Laserfiche core API
-  slug: core-api
+  label: Laserfiche Odata4 API
+  slug: laserfiche-odata4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/_ae-authored/laserfiche-core-openapi-generated.yml
-- filename: laserfiche-guides-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-odata4-api-openapi.yml
+- filename: laserfiche-repositories-api-openapi.yml
   format: yaml
-  label: Laserfiche Guides API
-  slug: guides-api
+  label: Laserfiche Repositories API
+  slug: laserfiche-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/_ae-authored/laserfiche-guides-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-repositories-api-openapi.yml
+- filename: laserfiche-repository-api-openapi.yml
+  format: yaml
+  label: Laserfiche Repository API
+  slug: laserfiche-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laserfiche/refs/heads/main/openapi/laserfiche-repository-api-openapi.yml
 auth_types: []
 description: Laserfiche APIs use OAuth 2.0 bearer tokens or Basic authentication.
 kind: authentication
@@ -50,7 +56,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - EnterpriseContentManagement
-- DocumentManagement
+- Document Management
 - ProcessAutomation
-- AI
+- Artificial Intelligence
 ---

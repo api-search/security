@@ -33,6 +33,6 @@ tags:
 - Company
 - Gaming
 - AR/VR
-- XR
-- AI
+- Extended Reality
+- Artificial Intelligence
 ---

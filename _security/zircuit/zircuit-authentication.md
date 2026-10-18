@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/h
 summary_line: http/none · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Layer 2
 - Rollup

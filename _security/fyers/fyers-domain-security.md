@@ -34,6 +34,5 @@ tags:
 - Company
 - Trading
 - Brokerage
-- API
-- FinTech
+- Fintech
 ---

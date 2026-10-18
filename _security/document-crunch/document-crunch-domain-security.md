@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/document-crunc
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Construction Tech
+- Construction Technology
 - Construction
 - Risk Intelligence
 - Artificial Intelligence

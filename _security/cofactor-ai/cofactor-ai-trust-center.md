@@ -22,7 +22,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Platform
 - Analytics
 trust_url: https://www.cofactorai.com/security-compliance

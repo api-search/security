@@ -596,8 +596,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looot/refs/hea
 summary_line: SOC 2
 tags:
 - Marketplace
-- API
-- AI
+- Artificial Intelligence
 - Data
 - Integration
 trust_url: https://looot.ai/security

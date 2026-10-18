@@ -24,7 +24,7 @@ tags:
 - Digital Mailroom
 - Digitization
 - Document Management
-- Electronic Signature
+- E-Signature
 - Forms
 trust_url: https://trust.docufree.com/
 ---

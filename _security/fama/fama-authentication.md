@@ -1,6 +1,25 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: fama-public-endpoints-api-openapi.yml
+  format: yaml
+  label: Fama Public Endpoints API
+  slug: fama-public-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-public-endpoints-api-openapi.yml
+- filename: fama-publicapi-api-openapi.yml
+  format: yaml
+  label: Fama Public API
+  slug: fama-publicapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-publicapi-api-openapi.yml
+- filename: fama-report-api-openapi.yml
+  format: yaml
+  label: Fama Report API
+  slug: fama-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/openapi/fama-report-api-openapi.yml
 auth_types:
 - http
 - oauth2

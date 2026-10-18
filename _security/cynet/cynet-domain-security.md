@@ -46,7 +46,7 @@ tags:
 - Cybersecurity
 - Security
 - XDR
-- EDR
+- Endpoint Detection and Response
 - MDR
 - SOAR
 - Endpoint Security

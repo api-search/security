@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-giving-blo
 summary_line: 1 scheme
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Donations
 - Fundraising
 - Non-Profit
@@ -41,5 +41,4 @@ tags:
 - Stock Donations
 - Webhook
 - Widgets
-- Web3
 ---

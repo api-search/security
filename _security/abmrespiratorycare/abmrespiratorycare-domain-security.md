@@ -33,7 +33,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medical Technology
 - Respiratory Care
 - Airway Clearance
 - Mechanical Ventilation

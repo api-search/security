@@ -34,6 +34,6 @@ tags:
 - Company
 - Energy
 - WavePower
-- Renewable
+- Renewables
 - Technology
 ---

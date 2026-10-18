@@ -63,7 +63,7 @@ tags:
 - Clinical Data
 - HIPAA
 - Interoperability
-- NLP
+- Natural Language Processing
 - Medical
 - HL7
 ---

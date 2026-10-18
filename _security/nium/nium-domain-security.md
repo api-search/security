@@ -39,7 +39,7 @@ tags:
 - Fintech
 - Cross-Border
 - Payments
-- FX
+- Foreign Exchange
 - Issuing
 - Cross-Border Payments
 ---

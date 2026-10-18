@@ -88,7 +88,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Notarization
 - Remote Online Notarization
-- Electronic Signature
+- E-Signature
 - Document Verification
 - Legal Tech
 - Real Estate

@@ -42,7 +42,7 @@ tags:
 - Commercial Insurance
 - Insurtech
 - Digital Insurance
-- Brokers
+- Brokerage
 - Managing General Agent
 - Cyber Insurance
 - Professional Liability

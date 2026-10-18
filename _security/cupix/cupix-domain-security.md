@@ -35,5 +35,5 @@ tags:
 - Construction
 - Spatial Intelligence
 - Digital Twin
-- AI
+- Artificial Intelligence
 ---

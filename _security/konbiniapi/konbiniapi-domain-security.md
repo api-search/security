@@ -73,7 +73,7 @@ tags:
 - Reddit
 - LinkedIn
 - ActivityStreams 2.0
-- Scraping
+- Web Scraping
 - Data Extraction
 - Public Data
 - Influencer Marketing

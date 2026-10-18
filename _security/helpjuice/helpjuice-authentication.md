@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: helpjuice-openapi-generated.yml
+- filename: helpjuice-categories-api-openapi.yml
   format: yaml
-  label: Helpjuice API
-  slug: helpjuice-api
+  label: Helpjuice Categories API
+  slug: helpjuice-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/openapi/_ae-authored/helpjuice-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/openapi/helpjuice-categories-api-openapi.yml
+- filename: helpjuice-questions-api-openapi.yml
+  format: yaml
+  label: Helpjuice Questions API
+  slug: helpjuice-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs/heads/main/openapi/helpjuice-questions-api-openapi.yml
 auth_types: []
 description: Authentication methods for Helpjuice as documented
 kind: authentication
@@ -46,8 +52,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpjuice/refs
 summary_line: 4 schemes
 tags:
 - Knowledge Base
-- SaaS
-- Customer Support
-- AI
+- Software-as-a-Service
+- Customer Service
+- Artificial Intelligence
 - Documentation
 ---

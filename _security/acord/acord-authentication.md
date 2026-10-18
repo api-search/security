@@ -75,7 +75,7 @@ tags:
 - Data Standards
 - Insurance
 - Policy
-- Property Casualty
+- Property and Casualty
 - Reinsurance
 - Standards
 - Underwriting

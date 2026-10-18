@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ankarai/refs/h
 summary_line: SOC 2 Type 2, ISO 27001:2022
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Patents
 - Intellectual Property
 - Legal Tech

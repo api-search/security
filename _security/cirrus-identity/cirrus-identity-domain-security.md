@@ -43,9 +43,9 @@ tags:
 - Authentication
 - SSO
 - SAML
-- OIDC
+- OpenID Connect
 - Higher Education
-- Identity Management
+- Identity and Access Management
 - Federation
 - Logs
 - Identity Federation

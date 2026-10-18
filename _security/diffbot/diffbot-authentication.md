@@ -199,7 +199,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Extraction
 - Harvesting
-- Scraping
+- Web Scraping
 - Web
 - Knowledge Graph
 - Crawling

@@ -41,7 +41,7 @@ tags:
 - Launch Services
 - Satellite
 - Manufacturing
-- Additive Manufacturing
+- 3D Printing
 - India
 - E-Commerce
 - Agentic Commerce

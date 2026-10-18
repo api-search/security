@@ -23,7 +23,7 @@ tags:
 - Global Payroll
 - Payments
 - Pay On-Demand
-- Managed Services
+- Managed Service
 - HCM Integrations
 - Cloud-based Payroll
 trust_url: https://trust.cloudpay.com/

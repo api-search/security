@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: translatemyimage-openapi-generated.yml
+- filename: translatemyimage-translate-api-openapi.yml
   format: yaml
-  label: TranslateMyImage API
-  slug: translatemyimage-api
+  label: TranslateMyImage Translate API
+  slug: translatemyimage-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/translatemyimage/refs/heads/main/openapi/_ae-authored/translatemyimage-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/translatemyimage/refs/heads/main/openapi/translatemyimage-translate-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/translatemyimage/refs/heads/main/security/translatemyimage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Image-Processing
+- Artificial Intelligence
+- Image Processing
 - Translation
 - REST
-- SaaS
+- Software-as-a-Service
 ---

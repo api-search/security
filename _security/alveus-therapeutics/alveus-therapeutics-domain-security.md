@@ -33,6 +33,6 @@ tags:
 - Biotechnology
 - Obesity
 - Metabolic Disease
-- Clinical-stage
+- Clinical Stage
 - Philadelphia
 ---

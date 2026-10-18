@@ -35,5 +35,4 @@ tags:
 - Social
 - Media
 - Mobile App
-- Portfolio Company
 ---

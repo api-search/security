@@ -34,6 +34,6 @@ tags:
 - Company
 - Sustainable
 - Regenerative
-- SmartCities
+- Smart Cities
 - Community
 ---

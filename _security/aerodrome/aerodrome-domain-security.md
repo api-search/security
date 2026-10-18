@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - DeFi
-- DEX
+- Decentralized Exchange
 - AMM
 - Base
 - Liquidity

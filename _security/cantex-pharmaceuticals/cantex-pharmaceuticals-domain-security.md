@@ -32,6 +32,6 @@ tags:
 - Biopharma
 - Healthcare
 - Florida
-- ClinicalTrials
+- Clinical Trials
 - Innovation
 ---

@@ -33,7 +33,7 @@ tags:
 - Education
 - EdTech
 - Exam Preparation
-- Online Learning
+- E-Learning
 - Mexico
 - Consumer
 ---

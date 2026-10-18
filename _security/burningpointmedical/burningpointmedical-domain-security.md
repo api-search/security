@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burningpointme
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Pharmaceutical
+- Pharmaceuticals
 - Healthcare
 - China
 - B2B

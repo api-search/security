@@ -35,7 +35,7 @@ tags:
 - Project Management
 - Skilled Trades
 - Construction
-- Field Service Management
+- Field Service
 - Software
 - Europe
 - Germany

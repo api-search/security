@@ -31,8 +31,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cipartnersd0aa
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Stub
 - Data
-- API
-- Unknown
 ---

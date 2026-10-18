@@ -37,7 +37,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Authentication
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - User Management
 - Federated Identity

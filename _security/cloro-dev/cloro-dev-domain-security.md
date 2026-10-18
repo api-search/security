@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Search
-- AI
+- Artificial Intelligence
 - Web Scraping
 - SERP
 - Generative Engine Optimization

@@ -31,7 +31,7 @@ tags:
 - Deep Learning
 - Threat Prevention
 - Data Security
-- EDR
+- Endpoint Detection and Response
 - SOC Automation
 - MCP
 trust_url: https://www.deepinstinct.com/compliance-certification-evaluation

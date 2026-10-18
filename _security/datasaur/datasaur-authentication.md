@@ -48,7 +48,7 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - LLM
-- NLP
+- Natural Language Processing
 - Data Annotation
 - GraphQL
 ---

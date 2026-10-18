@@ -38,6 +38,6 @@ tags:
 - Transportation
 - Ride Hailing
 - Chauffeur
-- Business Travel
+- BusinessTravel
 - Global
 ---

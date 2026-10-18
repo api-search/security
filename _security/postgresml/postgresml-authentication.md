@@ -33,7 +33,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postgresml/ref
 summary_line: connection-string · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Machine Learning
 - Vector Search
 - Embeddings

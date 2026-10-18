@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celer-network/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Interoperability
 - Cross-Chain

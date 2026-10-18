@@ -105,7 +105,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Crawling
 - Data Extraction
-- Scraping
+- Web Scraping
 - URLs
 - Artificial Intelligence
 - Markdown

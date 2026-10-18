@@ -63,8 +63,7 @@ tags:
 - Company
 - Consumer
 - Virtual Reality
-- VR
-- XR
+- Extended Reality
 - Gaming
 - App Store
 - Developers

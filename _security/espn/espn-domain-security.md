@@ -34,5 +34,4 @@ tags:
 - Sports
 - Media
 - Broadcasting
-- API
 ---

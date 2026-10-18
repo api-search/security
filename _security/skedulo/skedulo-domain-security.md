@@ -446,7 +446,7 @@ tags:
 - Company
 - Enterprise
 - Scheduling
-- Field Service Management
+- Field Service
 - Workforce Management
 - Deskless
 - Dispatch

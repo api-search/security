@@ -61,10 +61,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Market Data
 - Institutional
-- FX
+- Foreign Exchange
 - Indices
 - Onchain
 - Streaming

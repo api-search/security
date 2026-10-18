@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/hea
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Field Service Management
+- Field Service
 - Connected Operator
 - Field Operations
 - Industrial

@@ -27,8 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realy/refs/hea
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Crypto Web3
-- Blockchain
 - Web3
+- Blockchain
 - Cryptocurrency
 ---

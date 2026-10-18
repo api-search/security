@@ -53,11 +53,11 @@ tags:
 - Company
 - Defi Dex
 - DeFi
-- DEX
+- Decentralized Exchange
 - Solana
 - AMM
 - Liquidity
 - Concentrated Liquidity
 - Blockchain
-- Crypto
+- Cryptocurrency
 ---

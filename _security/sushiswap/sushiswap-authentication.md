@@ -77,7 +77,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - DeFi
 - Decentralized Exchange
-- DEX
 - Cryptocurrency
 - Web3
 - Blockchain

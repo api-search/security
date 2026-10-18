@@ -34,5 +34,5 @@ tags:
 - Finance
 - Marketplace
 - Investment
-- Secondary-Market
+- Secondary Market
 ---

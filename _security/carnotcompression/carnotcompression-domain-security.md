@@ -34,6 +34,6 @@ tags:
 - Company
 - Compression
 - Energy
-- CleanTech
+- Cleantech
 - Manufacturing
 ---

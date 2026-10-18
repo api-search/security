@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: clyde-openapi-generated.yml
+- filename: clyde-contract-sales-api-openapi.yml
   format: yaml
-  label: Clyde API
-  slug: clyde-api
+  label: Clyde Contract Sales API
+  slug: clyde-contract-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/_ae-authored/clyde-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-contract-sales-api-openapi.yml
+- filename: clyde-orders-api-openapi.yml
+  format: yaml
+  label: Clyde Orders API
+  slug: clyde-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-orders-api-openapi.yml
+- filename: clyde-products-api-openapi.yml
+  format: yaml
+  label: Clyde Products API
+  slug: clyde-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-products-api-openapi.yml
+- filename: clyde-taxonomies-api-openapi.yml
+  format: yaml
+  label: Clyde Taxonomies API
+  slug: clyde-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-taxonomies-api-openapi.yml
+- filename: clyde-vouchers-api-openapi.yml
+  format: yaml
+  label: Clyde Vouchers API
+  slug: clyde-vouchers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clyde/refs/heads/main/openapi/clyde-vouchers-api-openapi.yml
 description: ''
 domains:
 - caa: []

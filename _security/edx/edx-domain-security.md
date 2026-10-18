@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edx/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EdTech
-- Online Learning
+- E-Learning
 - Open Source
 - MOOC
 ---

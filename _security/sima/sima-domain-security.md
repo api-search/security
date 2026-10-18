@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sima/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Edge AI
 - Machine Learning
 - Semiconductors

@@ -34,6 +34,6 @@ tags:
 - AI Operations
 - Observability
 - Incident Management
-- IT Service Management
+- ITSM
 - Enterprise Infrastructure
 ---

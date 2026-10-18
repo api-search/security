@@ -75,7 +75,7 @@ tags:
 - Deep Learning
 - Threat Prevention
 - Data Security
-- EDR
+- Endpoint Detection and Response
 - SOC Automation
 - MCP
 ---

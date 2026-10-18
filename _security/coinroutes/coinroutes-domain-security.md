@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinroutes/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Algorithmic Trading
-- Crypto
+- Cryptocurrency
 - Institutional Trading
 - Portfolio Management
 - Risk Management

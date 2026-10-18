@@ -36,5 +36,5 @@ tags:
 - Airway Management
 - Video Laryngoscope
 - Medical Imaging
-- MedTech
+- Medical Technology
 ---

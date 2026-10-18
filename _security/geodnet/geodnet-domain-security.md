@@ -32,12 +32,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geodnet/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DePIN
 - GNSS
 - RTK
 - Positioning
 - Geospatial
 - Blockchain
-- Web3
 ---

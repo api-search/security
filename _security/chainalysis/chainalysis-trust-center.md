@@ -31,6 +31,6 @@ tags:
 - Investigations
 - Blockchain Analytics
 - Risk Management
-- Crypto
+- Cryptocurrency
 trust_url: ''
 ---

@@ -34,7 +34,7 @@ tags:
 - Consumer
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Live Classes
 - Older Adults
 - Health and Wellness

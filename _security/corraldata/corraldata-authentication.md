@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: corraldata-openapi-generated.yml
+- filename: corraldata-kb-api-openapi.yml
   format: yaml
-  label: CorralData API
-  slug: corraldata-api
+  label: CorralData Kb API
+  slug: corraldata-kb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corraldata/refs/heads/main/openapi/_ae-authored/corraldata-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corraldata/refs/heads/main/openapi/corraldata-kb-api-openapi.yml
 auth_types: []
 description: CorralData MCP uses OAuth 2.0 Authorization Code flow with PKCE.
 kind: authentication
@@ -40,6 +40,6 @@ tags:
 - Data
 - Analytics
 - Healthcare
-- AI
+- Artificial Intelligence
 - Platform
 ---

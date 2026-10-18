@@ -68,8 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
-- API
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - Media
 ---

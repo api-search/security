@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurtech
 - Business Insurance
-- SaaS
+- Software-as-a-Service
 - API Platform
 - Small Business
 ---

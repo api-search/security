@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caxetechnologi
 summary_line: TLSv1.3
 tags:
 - IT Staffing
-- Recruitment
+- Recruiting
 - Technology Services
 - Professional Services
 - Staffing Solutions

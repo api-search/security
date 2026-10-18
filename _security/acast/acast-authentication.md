@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acast-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/authentication/acast-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Publishing
 - Advertising

@@ -210,8 +210,8 @@ tags:
 - Generative Media
 - llms-txt
 - Media Processing
-- Text-to-Image
-- Text-to-Video
+- Image Generation
+- Video Generation
 - Upscaling
 - Credit
 - Model Aggregator

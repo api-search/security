@@ -250,7 +250,7 @@ tags:
 - Authentication
 - Authorization
 - Customer Identity
-- Identity Management
+- Identity and Access Management
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication

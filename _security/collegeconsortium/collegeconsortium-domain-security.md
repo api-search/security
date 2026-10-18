@@ -33,5 +33,5 @@ tags:
 - Education
 - Consulting
 - College Admissions
-- Nonprofit
+- Non-Profit
 ---

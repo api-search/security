@@ -42,6 +42,6 @@ tags:
 - Robotics
 - AI Factory
 - Opus Platform
-- Additive Manufacturing
+- 3D Printing
 - Hardware
 ---

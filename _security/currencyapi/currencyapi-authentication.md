@@ -80,7 +80,6 @@ tags:
 - Foreign Exchange
 - Currency
 - Exchange Rates
-- FX
 - Currency Conversion
 - Financial Data
 ---

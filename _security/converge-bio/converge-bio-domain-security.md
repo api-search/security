@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/converge-bio/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Drug Discovery
 - Generative AI
 - Biotechnology

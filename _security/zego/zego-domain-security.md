@@ -76,7 +76,7 @@ tags:
 - Company
 - Insurance
 - Insurtech
-- Motor Insurance
+- Auto Insurance
 - Gig Economy
 - Telematics
 - Fleet Insurance

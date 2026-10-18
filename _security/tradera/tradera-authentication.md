@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/h
 summary_line: apiKey · 4 schemes
 tags:
 - Marketplace
-- E-commerce
+- E-Commerce
 - Secondhand
 - Auctions
 - Sweden

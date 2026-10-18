@@ -48,7 +48,7 @@ tags:
 - Customer Intelligence
 - Product Analytics
 - Voice of Customer
-- NLP
+- Natural Language Processing
 - GraphQL
 - MCP
 ---

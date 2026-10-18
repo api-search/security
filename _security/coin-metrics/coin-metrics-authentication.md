@@ -169,7 +169,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Finance
 - Market Data
-- Crypto
+- Cryptocurrency
 - Blockchain
 - On-Chain Data
 - Index

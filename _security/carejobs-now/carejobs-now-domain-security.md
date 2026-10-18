@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: carejobs-now-openapi-generated.yml
+- filename: carejobs-now-pay-api-openapi.yml
   format: yaml
-  label: CareJobs.Now API
-  slug: carejobs-now-api
+  label: CareJobs.Now Pay API
+  slug: carejobs-now-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carejobs-now/refs/heads/main/openapi/_ae-authored/carejobs-now-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carejobs-now/refs/heads/main/openapi/carejobs-now-pay-api-openapi.yml
+- filename: carejobs-now-roles-api-openapi.yml
+  format: yaml
+  label: CareJobs.Now Roles API
+  slug: carejobs-now-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carejobs-now/refs/heads/main/openapi/carejobs-now-roles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carejobs-now/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
-- Jobs
+- Job
 - Data
 - Transparency
 - US

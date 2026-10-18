@@ -93,7 +93,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/he
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - E-Signature
-- Electronic Signing
 - Digital Identity
 - eID
 - BankID

@@ -119,6 +119,5 @@ tags:
 - Company
 - Government
 - Data
-- API
-- Open-Data
+- Open Data
 ---

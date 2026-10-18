@@ -36,7 +36,7 @@ tags:
 - Accounting
 - Workflow Automation
 - Document Management
-- Electronic Signature
+- E-Signature
 - Professional Services
 - Artificial Intelligence
 - MCP

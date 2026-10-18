@@ -25,7 +25,7 @@ tags:
 - Skilled Nursing
 - Home Health
 - Hospice
-- EHR
+- Electronic Health Records
 - Artificial Intelligence
 - Revenue Cycle
 trust_url: https://trust.exacare.com/

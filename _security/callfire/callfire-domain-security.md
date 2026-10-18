@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: callfire-openapi-generated.yml
+- filename: callfire-callfire-api-api-openapi.yml
   format: yaml
-  label: Callfire API
-  slug: callfire-api
+  label: Callfire Callfire API
+  slug: callfire-callfire-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/_ae-authored/callfire-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-callfire-api-api-openapi.yml
+- filename: callfire-callfirexml-api-openapi.yml
+  format: yaml
+  label: Callfire Callfirexml API
+  slug: callfire-callfirexml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-callfirexml-api-openapi.yml
+- filename: callfire-calls-api-openapi.yml
+  format: yaml
+  label: Callfire Calls API
+  slug: callfire-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-calls-api-openapi.yml
+- filename: callfire-campaign-api-openapi.yml
+  format: yaml
+  label: Callfire Campaign API
+  slug: callfire-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-campaign-api-openapi.yml
+- filename: callfire-contacts-api-openapi.yml
+  format: yaml
+  label: Callfire Contacts API
+  slug: callfire-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-contacts-api-openapi.yml
+- filename: callfire-files-api-openapi.yml
+  format: yaml
+  label: Callfire Files API
+  slug: callfire-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-files-api-openapi.yml
+- filename: callfire-inbound-api-openapi.yml
+  format: yaml
+  label: Callfire Inbound API
+  slug: callfire-inbound-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-inbound-api-openapi.yml
+- filename: callfire-me-api-openapi.yml
+  format: yaml
+  label: Callfire Me API
+  slug: callfire-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-me-api-openapi.yml
+- filename: callfire-reports-api-openapi.yml
+  format: yaml
+  label: Callfire Reports API
+  slug: callfire-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-reports-api-openapi.yml
+- filename: callfire-service-api-openapi.yml
+  format: yaml
+  label: Callfire Service API
+  slug: callfire-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-service-api-openapi.yml
+- filename: callfire-sms-api-openapi.yml
+  format: yaml
+  label: Callfire Sms API
+  slug: callfire-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-sms-api-openapi.yml
+- filename: callfire-utils-api-openapi.yml
+  format: yaml
+  label: Callfire Utils API
+  slug: callfire-utils-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/callfire/refs/heads/main/openapi/callfire-utils-api-openapi.yml
 description: ''
 domains:
 - caa: []

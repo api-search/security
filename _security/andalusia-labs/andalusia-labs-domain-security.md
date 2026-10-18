@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andalusia-labs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Stablecoins
 - Tokenization

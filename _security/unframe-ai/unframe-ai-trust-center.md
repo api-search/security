@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unframe-ai/ref
 summary_line: SOC 2 Type II, ISO 27001, ISO 42001, HIPAA
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Enterprise AI
 - AI Agents
 - Workflow Automation

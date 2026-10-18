@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmind/refs/
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Robotics
 - Robots
 - Artificial Intelligence

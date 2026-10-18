@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Web3
-- Crypto
+- Cryptocurrency
 - Wallets
 - Messaging
 - Social

@@ -43,7 +43,7 @@ tags:
 - Stocks
 - Futures
 - Options
-- FX
+- Foreign Exchange
 - Agency Brokerage
 - Bloomberg
 ---

@@ -91,7 +91,7 @@ summary_line: 2 schemes
 tags:
 - Fortune 1000
 - Insurance
-- Property and Casualty Insurance
+- Property and Casualty
 - Commercial Insurance
 - Workers Compensation
 - Auto Insurance

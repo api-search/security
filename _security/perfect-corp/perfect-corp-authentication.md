@@ -120,7 +120,7 @@ tags:
 - Image Editing
 - Generative AI
 - Computer Vision
-- AR
+- Augmented Reality
 - visual-commerce
 - Artificial Intelligence
 - Machine Learning

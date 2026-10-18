@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: kontainer-openapi-generated.yml
+- filename: kontainer-oauth-api-openapi.yml
   format: yaml
-  label: Kontainer DAM & PIM API
-  slug: kontainer-api
+  label: Kontainer DAM & PIM OAuth API
+  slug: kontainer-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kontainer/refs/heads/main/openapi/_ae-authored/kontainer-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kontainer/refs/heads/main/openapi/kontainer-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,8 +37,6 @@ source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kontainer/refs/heads/main/security/kontainer-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- DAM
-- PIM
 - Digital Asset Management
 - Product Information Management
 - Asset Management

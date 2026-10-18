@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: misp-openapi-generated.yml
+- filename: misp-agent-threat-rule-api-openapi.yml
   format: yaml
-  label: MISP API
-  slug: misp-api
+  label: MISP Agent Threat Rule API
+  slug: misp-agent-threat-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/misp/refs/heads/main/openapi/_ae-authored/misp-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/misp/refs/heads/main/openapi/misp-agent-threat-rule-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misp/refs/heads/main/security/misp-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- OpenSource
+- Open Source
 - ThreatIntelligence
 - Community
 - Security

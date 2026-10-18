@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celera-semicon
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Analog
-- AI
+- Artificial Intelligence
 - Automation
 ---

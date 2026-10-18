@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cin7/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Inventory Management
+- Inventory
 - ERP
 - Retail
 - Integration

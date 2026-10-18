@@ -36,7 +36,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edx-markets/re
 summary_line: mutualTLS/fix-session-logon · 2 schemes
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Digital Assets
 - Exchange

@@ -59,9 +59,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/authentication/google-cloud-iam-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Access Management
-- Google Cloud
 - Identity and Access Management
+- Google Cloud
 - Identity
 - Permissions
 - Security

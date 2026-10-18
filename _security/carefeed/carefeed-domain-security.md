@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carefeed/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - senior‑living
-- SaaS
-- healthcare
+- Software-as-a-Service
+- Healthcare
 - admissions
-- AI
+- Artificial Intelligence
 ---

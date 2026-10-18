@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Water
 - CarbonRemoval
-- ClimateTech
-- CleanTech
+- Climate Tech
+- Cleantech
 - Company
 ---

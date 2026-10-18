@@ -37,7 +37,6 @@ tags:
 - Git
 - Git Hosting
 - Version Control
-- Source Control
 - AI Agents
 - Agent Infrastructure
 - CLI

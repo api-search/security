@@ -34,6 +34,6 @@ tags:
 - Company
 - Security
 - Identity
-- Privileged-Access
+- Privileged Access Management
 - Cloud
 ---

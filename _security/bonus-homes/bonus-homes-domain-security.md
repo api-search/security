@@ -34,6 +34,6 @@ tags:
 - Company
 - Real Estate
 - Fintech
-- Home Equity
-- Homeownership
+- HomeEquity
+- HomeOwnership
 ---

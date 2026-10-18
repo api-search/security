@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/schemaextract/
 summary_line: http · 1 scheme
 tags:
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Data Extraction
 - PDF/OCR-to-JSON
 - Invoice & AP automation

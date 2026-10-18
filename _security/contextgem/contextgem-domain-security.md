@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: contextgem-openapi-generated.yml
+- filename: contextgem-systemone-api-openapi.yml
   format: yaml
-  label: ContextGem API
-  slug: contextgem-api
+  label: ContextGem Systemone API
+  slug: contextgem-systemone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextgem/refs/heads/main/openapi/_ae-authored/contextgem-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contextgem/refs/heads/main/openapi/contextgem-systemone-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextgem/refs/heads/main/security/contextgem-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
-- NLP
-- DataExtraction
+- Artificial Intelligence
+- Natural Language Processing
+- Data Extraction
 - LLM
 - Platform
 - Company

@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Address Validation
 - Data Quality
-- Email Validation
+- Email Verification
 - Phone Validation
 - Retail
 - Fintech

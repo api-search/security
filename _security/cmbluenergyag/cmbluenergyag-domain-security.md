@@ -39,7 +39,7 @@ tags:
 - Energy
 - Battery
 - Storage
-- CleanTech
+- Cleantech
 - Germany
 - Company
 ---

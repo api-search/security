@@ -49,7 +49,7 @@ tags:
 - Library
 - Library Catalog
 - Identity Federation
-- Learning Management
+- LMS
 - Research Data
 - Open Access
 - Repository

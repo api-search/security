@@ -37,5 +37,4 @@ tags:
 - Consumer Packaged Goods
 - Incubator
 - Accelerator
-- Venture Backed
 ---

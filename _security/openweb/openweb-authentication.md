@@ -2,6 +2,67 @@
 anonymous_access: false
 api_key_in:
 - body
+api_specs:
+- filename: openweb-export-api-openapi.yml
+  format: yaml
+  label: OpenWeb Export API
+  slug: openweb-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-export-api-openapi.yml
+- filename: openweb-top-comments-api-openapi.yml
+  format: yaml
+  label: OpenWeb top comments API
+  slug: openweb-top-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-top-comments-api-openapi.yml
+- filename: openweb-trending-articles-api-openapi.yml
+  format: yaml
+  label: OpenWeb trending articles API
+  slug: openweb-trending-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-trending-articles-api-openapi.yml
+- filename: openweb-article-api-openapi.yml
+  format: yaml
+  label: OpenWeb Article API
+  slug: openweb-article-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-article-api-openapi.yml
+- filename: openweb-comment-api-openapi.yml
+  format: yaml
+  label: OpenWeb Comment API
+  slug: openweb-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-comment-api-openapi.yml
+- filename: openweb-live-blog-api-openapi.yml
+  format: yaml
+  label: OpenWeb live blog API
+  slug: openweb-live-blog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-live-blog-api-openapi.yml
+- filename: openweb-moderation-policy-api-openapi.yml
+  format: yaml
+  label: OpenWeb moderation policy API
+  slug: openweb-moderation-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-moderation-policy-api-openapi.yml
+- filename: openweb-score-and-reviews-api-openapi.yml
+  format: yaml
+  label: OpenWeb score and reviews API
+  slug: openweb-score-and-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-score-and-reviews-api-openapi.yml
+- filename: openweb-sso-api-openapi.yml
+  format: yaml
+  label: OpenWeb SSO API
+  slug: openweb-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-sso-api-openapi.yml
+- filename: openweb-token-api-openapi.yml
+  format: yaml
+  label: OpenWeb Token API
+  slug: openweb-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/openapi/openweb-token-api-openapi.yml
 auth_types:
 - http
 - jwt

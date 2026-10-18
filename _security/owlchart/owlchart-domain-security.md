@@ -187,7 +187,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owlchart/refs/
 summary_line: TLSv1.3
 tags:
 - Finance
-- Crypto
+- Cryptocurrency
 - Stock Market
 - Data API
 - Charts

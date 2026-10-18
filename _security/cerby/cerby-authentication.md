@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerby/refs/hea
 summary_line: apiKey/http · 3 schemes
 tags:
 - Identity
-- Access Management
+- Identity and Access Management
 - Security
 - Password Management
 - Provisioning

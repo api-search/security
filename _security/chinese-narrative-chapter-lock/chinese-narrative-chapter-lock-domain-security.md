@@ -88,7 +88,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Localization
 - Translation
-- NLP
+- Natural Language Processing
 - terminology-management
 - Cat
 - MT-preprocessing

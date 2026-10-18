@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Marketplace
-- E-commerce
+- E-Commerce
 - Secondhand
 - Auctions
 - Sweden

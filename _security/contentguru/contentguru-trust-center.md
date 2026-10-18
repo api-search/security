@@ -22,9 +22,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentguru/re
 summary_line: SOC 2, ISO 27001, PCI DSS, FedRAMP
 tags:
 - Company
-- CX
+- Customer Experience
 - Cloud
-- AI
+- Artificial Intelligence
 - Communications
 trust_url: https://www.contentguru.com/en-us/
 ---

@@ -42,7 +42,7 @@ tags:
 - EdTech
 - Q&A
 - Collaboration
-- Learning Management
+- LMS
 - Higher Education
 - LTI
 ---

@@ -75,7 +75,7 @@ tags:
 - Industrial IoT
 - PLM
 - Augmented Reality
-- Field Service Management
+- Field Service
 - Manufacturing
 - CAD
 - Digital Transformation

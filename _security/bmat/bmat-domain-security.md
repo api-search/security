@@ -39,6 +39,6 @@ tags:
 - Music
 - Data
 - Analytics
-- Rights Management
+- RightsManagement
 - Platform
 ---

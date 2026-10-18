@@ -41,7 +41,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Identity
-- Access Management
+- Identity and Access Management
 - Authentication
 - SSO
 - Privileged Access Management

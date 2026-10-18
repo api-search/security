@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/security/joblogic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - Scheduling
 - Maintenance

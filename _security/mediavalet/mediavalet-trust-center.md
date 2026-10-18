@@ -207,6 +207,6 @@ tags:
 - Video
 - Image
 - Webhook
-- Azure
+- Microsoft Azure
 trust_url: https://www.mediavalet.com/why-mediavalet/security
 ---

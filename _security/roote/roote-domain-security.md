@@ -122,8 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roote/refs/hea
 summary_line: TLSv1.3 · HSTS
 tags:
 - Mobility
-- API
 - French
-- AI
+- Artificial Intelligence
 - Transportation
 ---

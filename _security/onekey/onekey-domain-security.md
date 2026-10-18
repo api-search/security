@@ -37,7 +37,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onekey/refs/he
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Hardware Wallet
 - Wallets

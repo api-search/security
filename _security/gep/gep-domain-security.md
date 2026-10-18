@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: gep-openapi-generated.yml
+- filename: gep-leo-gr-domaingateway-api-api-openapi.yml
   format: yaml
-  label: GEP API
-  slug: gep-api
+  label: GEP Leo Gr Domaingateway API
+  slug: gep-leo-gr-domaingateway-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gep/refs/heads/main/openapi/_ae-authored/gep-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gep/refs/heads/main/openapi/gep-leo-gr-domaingateway-api-api-openapi.yml
+- filename: gep-leo-order-aggregator-api-api-openapi.yml
+  format: yaml
+  label: GEP Leo Order Aggregator API
+  slug: gep-leo-order-aggregator-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gep/refs/heads/main/openapi/gep-leo-order-aggregator-api-api-openapi.yml
+- filename: gep-leo-sc-aggregator-api-api-openapi.yml
+  format: yaml
+  label: GEP Leo Sc Aggregator API
+  slug: gep-leo-sc-aggregator-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gep/refs/heads/main/openapi/gep-leo-sc-aggregator-api-api-openapi.yml
+- filename: gep-token-api-openapi.yml
+  format: yaml
+  label: GEP Token API
+  slug: gep-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gep/refs/heads/main/openapi/gep-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +59,6 @@ tags:
 - Company
 - Procurement
 - Supply Chain
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

@@ -38,6 +38,6 @@ tags:
 - Company
 - Education
 - Infrastructure
-- OpenSource
+- Open Source
 - Security
 ---

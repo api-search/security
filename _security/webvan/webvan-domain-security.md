@@ -30,7 +30,7 @@ tags:
 - Company
 - Grocery
 - Delivery
-- E-commerce
-- Startup
+- E-Commerce
+- Startups
 - Technology
 ---

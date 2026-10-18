@@ -80,7 +80,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Electronic Health Records
-- EHR
 - Clinical Decision Support
 - FHIR
 - HL7

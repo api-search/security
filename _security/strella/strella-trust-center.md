@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strella/refs/h
 summary_line: trust center published
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Customer Research
 - User Research
 - Market Research

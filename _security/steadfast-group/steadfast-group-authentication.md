@@ -118,7 +118,7 @@ summary_line: none/openIdConnect/oauth2 · 2 schemes
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty

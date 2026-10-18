@@ -68,9 +68,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai Ml
-- LLM
 - Artificial Intelligence
+- LLM
 - Diffusion Models
 - Code Completion
 - Machine Learning

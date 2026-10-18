@@ -35,7 +35,7 @@ tags:
 - Australia
 - Property and Casualty
 - General Insurance
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Business Insurance
 - Compulsory Third Party

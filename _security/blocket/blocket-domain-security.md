@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Marketplace
 - Classifieds
-- E-commerce
+- E-Commerce
 - Sweden
 - OnlineAds
 ---

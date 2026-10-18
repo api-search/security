@@ -39,5 +39,5 @@ tags:
 - Forums
 - Launchpad
 - Coordination
-- Crypto
+- Cryptocurrency
 ---

@@ -60,6 +60,6 @@ tags:
 - Identity Federation
 - Shibboleth
 - Library
-- Learning Management
+- LMS
 - Research Computing
 ---

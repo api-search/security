@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/troveo/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Data
-- AI
+- Artificial Intelligence
 - Marketplace
 - Licensing
 - Real-World Data

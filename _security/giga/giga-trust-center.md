@@ -26,7 +26,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Voice AI
-- Customer Support
+- Customer Service
 - Conversational AI
 - Contact Center
 - Enterprise

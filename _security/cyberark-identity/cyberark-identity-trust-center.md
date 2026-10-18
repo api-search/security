@@ -70,7 +70,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark-ident
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Identity
-- Access Management
 - Identity and Access Management
 - SSO
 - Multi-Factor Authentication

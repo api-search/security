@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: quartr-openapi-generated.yml
+- filename: quartr-public-api-openapi.yml
   format: yaml
-  label: Quartr API
-  slug: quartr-api
+  label: Quartr Public API
+  slug: quartr-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quartr/refs/heads/main/openapi/_ae-authored/quartr-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quartr/refs/heads/main/openapi/quartr-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartr/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Data
 - Research

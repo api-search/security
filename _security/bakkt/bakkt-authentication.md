@@ -141,7 +141,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/hea
 summary_line: http-token · 1 scheme
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptocurrency
 - Digital Assets
 - Trading
@@ -150,5 +150,4 @@ tags:
 - Custody
 - Webhook
 - FIX Protocol
-- Web3
 ---

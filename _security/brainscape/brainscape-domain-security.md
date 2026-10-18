@@ -33,6 +33,6 @@ tags:
 - Education
 - Flashcards
 - Learning
-- Study Tools
+- StudyTools
 - Mobile App
 ---

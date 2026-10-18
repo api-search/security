@@ -36,5 +36,5 @@ tags:
 - Customer Retention
 - Associations
 - B2B
-- B2C
+- Consumer
 ---

@@ -34,6 +34,5 @@ tags:
 - Company
 - Insurance
 - Data
-- AI
-- API
+- Artificial Intelligence
 ---

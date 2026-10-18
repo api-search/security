@@ -198,7 +198,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Field Service Management
+- Field Service
 - Service Management
 - Scheduling
 - Dispatch

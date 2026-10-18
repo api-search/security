@@ -22,7 +22,7 @@ summary_line: ISO 27001, PCI DSS, GDPR
 tags:
 - Healthcare
 - United Kingdom
-- EHR
+- Electronic Health Records
 - Practice Management
 - GraphQL
 - Patient Records

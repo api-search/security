@@ -75,7 +75,7 @@ summary_line: SOC 2
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

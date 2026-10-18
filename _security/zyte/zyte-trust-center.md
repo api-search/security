@@ -35,7 +35,6 @@ summary_line: ISO 27001
 tags:
 - Crawling
 - Data Extraction
-- Scraping
 - Web Scraping
 - Proxies
 - Browser Automation

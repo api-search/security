@@ -34,6 +34,6 @@ tags:
 - Company
 - Real Estate
 - Construction Finance
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 ---

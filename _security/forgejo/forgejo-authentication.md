@@ -123,7 +123,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/h
 summary_line: apiKey/http · 5 schemes
 tags:
 - Git
-- Source Code Management
+- Version Control
 - Self-Hosted
 - DevOps
 - CI/CD

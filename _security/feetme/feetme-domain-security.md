@@ -37,5 +37,5 @@ tags:
 - Gait Analysis
 - Rehabilitation
 - Connected Insoles
-- MedTech
+- Medical Technology
 ---

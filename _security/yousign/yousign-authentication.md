@@ -259,10 +259,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yousign/refs/h
 summary_line: http · 1 scheme
 tags:
 - E-Signature
-- Electronic Signature
 - eIDAS
 - Digital Signature
-- Document Signing
 - Europe
 - REST API
 - Signature Workflows

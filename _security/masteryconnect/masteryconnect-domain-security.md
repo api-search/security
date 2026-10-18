@@ -37,6 +37,6 @@ tags:
 - K-12 Education
 - Formative Assessment
 - Standards Mastery
-- Learning Management
+- LMS
 - Instructure
 ---

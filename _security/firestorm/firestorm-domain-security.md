@@ -36,7 +36,6 @@ tags:
 - Aerospace
 - Unmanned Aerial Systems
 - Drones
-- Additive Manufacturing
 - 3D Printing
 - Manufacturing
 - Hardware

@@ -21,7 +21,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Data
-- AI
+- Artificial Intelligence
 - Government
 - Cloud
 trust_url: https://trust.cloudwick.com/

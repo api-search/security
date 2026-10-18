@@ -37,5 +37,4 @@ tags:
 - Manufacturing
 - Infrastructure
 - California
-- Venture Backed
 ---

@@ -84,7 +84,7 @@ tags:
 - Perpetual Futures
 - Market Data
 - WebSocket
-- FX
+- Foreign Exchange
 - Commodities
 - Stocks
 - Financial Services

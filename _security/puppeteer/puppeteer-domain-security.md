@@ -32,5 +32,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Browser Automation
 - Headless Browser
-- Scraping
+- Web Scraping
 ---

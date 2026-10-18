@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: audiostack-openapi-generated.yml
+- filename: audiostack-content-api-openapi.yml
   format: yaml
-  label: AudioStack API
-  slug: audiostack-api
+  label: AudioStack Content API
+  slug: audiostack-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/audiostack/refs/heads/main/openapi/_ae-authored/audiostack-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/audiostack/refs/heads/main/openapi/audiostack-content-api-openapi.yml
+- filename: audiostack-creator-api-openapi.yml
+  format: yaml
+  label: AudioStack Creator API
+  slug: audiostack-creator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audiostack/refs/heads/main/openapi/audiostack-creator-api-openapi.yml
 auth_types: []
 description: AudioStack uses API keys and optionally JWT bearer tokens for authentication.
 kind: authentication
@@ -37,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/audiostack/ref
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Audio
 - Advertising
 - Platform

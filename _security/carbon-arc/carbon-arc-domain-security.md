@@ -122,9 +122,9 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/security/carbon-arc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- ai
-- infrastructure
-- platform
-- mlops
-- enterprise
+- Artificial Intelligence
+- Infrastructure
+- Platform
+- MLOps
+- Enterprise
 ---

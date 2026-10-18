@@ -33,7 +33,7 @@ tags:
 - Company
 - Advanced Materials
 - Manufacturing
-- Additive Manufacturing
+- 3D Printing
 - Metal Powders
 - Battery Materials
 - Plasma Technology

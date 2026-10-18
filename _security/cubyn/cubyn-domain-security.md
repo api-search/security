@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Logistics
 - Fulfillment
-- E-commerce
-- API
+- E-Commerce
 - Paris
 ---

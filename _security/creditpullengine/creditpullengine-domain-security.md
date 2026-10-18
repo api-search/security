@@ -32,6 +32,5 @@ tags:
 - Company
 - Fintech
 - Credit
-- API
 - Data
 ---

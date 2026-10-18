@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/digio-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/authentication/digio-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- eSign
+- E-Signature
 - KYC
 - eNACH
 - eMandate

@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circuit-chisel
 summary_line: TLSv1.3
 tags:
 - AI Platform
-- API
 - CLI
 - Frontier AI
 - Token Pricing

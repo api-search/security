@@ -42,7 +42,7 @@ tags:
 - Code Security
 - Vulnerability Management
 - SAST
-- SCA
+- Software Composition Analysis
 - Secrets Detection
 - AI SDLC
 ---

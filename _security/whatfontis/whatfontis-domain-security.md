@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Font Identification
-- AI
+- Artificial Intelligence
 - Design Tools
 - Typography
 ---

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-bl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/authentication/microsoft-azure-blob-storage-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- Azure
+- Microsoft Azure
 - Blobs
 - Cloud Storage
 - Microsoft

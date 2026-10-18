@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: cloudploy-openapi-generated.yml
+- filename: cloudploy-apps-api-openapi.yml
   format: yaml
-  label: CloudPloy API
-  slug: cloudploy-api
+  label: CloudPloy Apps API
+  slug: cloudploy-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudploy/refs/heads/main/openapi/_ae-authored/cloudploy-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudploy/refs/heads/main/openapi/cloudploy-apps-api-openapi.yml
+- filename: cloudploy-deployments-api-openapi.yml
+  format: yaml
+  label: CloudPloy Deployments API
+  slug: cloudploy-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudploy/refs/heads/main/openapi/cloudploy-deployments-api-openapi.yml
+- filename: cloudploy-rollback-api-openapi.yml
+  format: yaml
+  label: CloudPloy Rollback API
+  slug: cloudploy-rollback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudploy/refs/heads/main/openapi/cloudploy-rollback-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +50,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Deployment
-- AI
+- Artificial Intelligence
 - Cloud
 - Automation
 ---

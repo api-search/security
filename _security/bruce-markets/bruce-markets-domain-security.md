@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bruce-markets/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Secondary-Market
-- Private-Equity
+- Secondary Market
+- Private Equity
 - Liquidity
-- FinTech
+- Fintech
 ---

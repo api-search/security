@@ -128,5 +128,5 @@ tags:
 - Vector Database
 - Globally Distributed
 - Cloud
-- Azure
+- Microsoft Azure
 ---

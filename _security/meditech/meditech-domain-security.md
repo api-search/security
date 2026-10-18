@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- EHR
+- Electronic Health Records
 - Healthcare
 - FHIR
 - HL7

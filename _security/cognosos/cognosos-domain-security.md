@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognosos/refs/
 summary_line: DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Location Intelligence
 - Asset Tracking
 - Healthcare

@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: controlplane-openapi-generated.yml
+- filename: controlplane-about-api-openapi.yml
   format: yaml
-  label: ControlPlane API
-  slug: controlplane-api
+  label: ControlPlane About API
+  slug: controlplane-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/_ae-authored/controlplane-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-about-api-openapi.yml
+- filename: controlplane-artifacts-api-openapi.yml
+  format: yaml
+  label: ControlPlane Artifacts API
+  slug: controlplane-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-artifacts-api-openapi.yml
+- filename: controlplane-audit-api-openapi.yml
+  format: yaml
+  label: ControlPlane Audit API
+  slug: controlplane-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-audit-api-openapi.yml
+- filename: controlplane-controlplane-api-api-openapi.yml
+  format: yaml
+  label: ControlPlane ControlPlane API
+  slug: controlplane-controlplane-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-controlplane-api-api-openapi.yml
+- filename: controlplane-docker-api-openapi.yml
+  format: yaml
+  label: ControlPlane Docker API
+  slug: controlplane-docker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-docker-api-openapi.yml
+- filename: controlplane-health-api-openapi.yml
+  format: yaml
+  label: ControlPlane Health API
+  slug: controlplane-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-health-api-openapi.yml
+- filename: controlplane-helm-api-openapi.yml
+  format: yaml
+  label: ControlPlane Helm API
+  slug: controlplane-helm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-helm-api-openapi.yml
+- filename: controlplane-org-api-openapi.yml
+  format: yaml
+  label: ControlPlane Org API
+  slug: controlplane-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-org-api-openapi.yml
+- filename: controlplane-quota-catalog-api-openapi.yml
+  format: yaml
+  label: ControlPlane Quota Catalog API
+  slug: controlplane-quota-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-quota-catalog-api-openapi.yml
+- filename: controlplane-quota-increase-requests-api-openapi.yml
+  format: yaml
+  label: ControlPlane Quota Increase Requests API
+  slug: controlplane-quota-increase-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-quota-increase-requests-api-openapi.yml
+- filename: controlplane-resources-api-openapi.yml
+  format: yaml
+  label: ControlPlane Resources API
+  slug: controlplane-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-resources-api-openapi.yml
+- filename: controlplane-signups-api-openapi.yml
+  format: yaml
+  label: ControlPlane Signups API
+  slug: controlplane-signups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/controlplane/refs/heads/main/openapi/controlplane-signups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +107,6 @@ tags:
 - Company
 - Cloud
 - Virtualization
-- AI
+- Artificial Intelligence
 - DevOps
 ---

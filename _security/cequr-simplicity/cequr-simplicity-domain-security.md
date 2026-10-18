@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
 - Diabetes
-- Wearable
+- Wearables
 - Insulin Delivery
-- Medical Device
+- Medical Devices
 ---

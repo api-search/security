@@ -29,9 +29,8 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cari-health/refs/heads/main/security/cari-health-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- HealthTech
+- Health Tech
 - ClinicalData
 - OpioidTreatment
-- PersonalizedMedicine
-- API
+- Personalized Medicine
 ---

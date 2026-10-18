@@ -22,7 +22,7 @@ summary_line: SOC 2 Type I
 tags:
 - Company
 - Construction Software
-- Field Service Management
+- Field Service
 - Contractor Management
 - Commercial Services
 - HVAC

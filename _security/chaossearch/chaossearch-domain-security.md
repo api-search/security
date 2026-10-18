@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: chaossearch-openapi-generated.yml
+- filename: chaossearch-bulkexport-api-openapi.yml
   format: yaml
-  label: ChaosSearch API
-  slug: chaossearch-api
+  label: ChaosSearch Bulkexport API
+  slug: chaossearch-bulkexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/_ae-authored/chaossearch-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-bulkexport-api-openapi.yml
+- filename: chaossearch-chaossearch-api-api-openapi.yml
+  format: yaml
+  label: ChaosSearch ChaosSearch API
+  slug: chaossearch-chaossearch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-chaossearch-api-api-openapi.yml
+- filename: chaossearch-user-api-openapi.yml
+  format: yaml
+  label: ChaosSearch User API
+  slug: chaossearch-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaossearch/refs/heads/main/openapi/chaossearch-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

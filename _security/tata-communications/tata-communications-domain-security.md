@@ -97,5 +97,4 @@ tags:
 - Number Intelligence
 - Connectivity
 - Subsea Cable
-- Partner Gated
 ---

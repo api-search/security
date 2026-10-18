@@ -168,7 +168,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/re
 summary_line: 3 schemes
 tags:
 - Automotive
-- Connected Car
 - Connected Vehicles
 - Daimler
 - Fleet Management

@@ -55,6 +55,6 @@ tags:
 - Derivatives
 - Implied Volatility
 - Perpetuals
-- Crypto
+- Cryptocurrency
 - Finance
 ---

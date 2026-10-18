@@ -98,7 +98,7 @@ tags:
 - Access Control
 - Cloud Security
 - Cybersecurity
-- Identity Management
+- Identity and Access Management
 - Network Access
 - Network Security
 - Security

@@ -79,10 +79,8 @@ source_yaml: "generated: '2026-08-31'\nmethod: derived\nsource: openapi/jurisign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/authentication/jurisign-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Electronic Signature
 - E-Signature
 - eIDAS
-- Document Signing
 - PDF
 - Webhook
 - OTP

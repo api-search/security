@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automotive
 - Electric Vehicles
-- Connected Car
+- Connected Vehicles
 - Premium Vehicles
 - Sustainability
 - Battery Electric

@@ -33,7 +33,7 @@ tags:
 - Company
 - Parcel
 - Logistics
-- SaaS
+- Software-as-a-Service
 - Retail
 - 3PL
 ---

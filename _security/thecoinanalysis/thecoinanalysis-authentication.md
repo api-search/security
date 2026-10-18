@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysi
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - News
 - Data
 ---

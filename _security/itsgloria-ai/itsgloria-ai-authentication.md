@@ -107,7 +107,6 @@ summary_line: http/apiKey · 2 schemes
 tags:
 - Company
 - News
-- Crypto
 - Cryptocurrency
 - Market Intelligence
 - Sentiment Analysis

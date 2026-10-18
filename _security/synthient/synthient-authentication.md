@@ -74,7 +74,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - IP
-- Enrichment
+- Data Enrichment
 - Cybersecurity
 - Data
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
 - Drug Discovery
-- Small Molecules
+- Small Molecule
 - Therapeutics
 - Company
 ---

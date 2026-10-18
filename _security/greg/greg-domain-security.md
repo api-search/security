@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greg/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Plants
 - Plant Care
 - Gardening

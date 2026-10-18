@@ -42,7 +42,7 @@ tags:
 - Money Transfer
 - Payouts
 - Payment Processing
-- FX
+- Foreign Exchange
 - Remittances
 - Fintech
 - Cross-Border Payments

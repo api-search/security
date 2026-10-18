@@ -21,7 +21,7 @@ summary_line: SOC 2 Type 1
 tags:
 - Company
 - Healthcare
-- MedTech
+- Medical Technology
 - Medical Devices
 - Market Intelligence
 - Sales Intelligence

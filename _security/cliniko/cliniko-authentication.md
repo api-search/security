@@ -81,7 +81,7 @@ tags:
 - Appointments
 - Scheduling
 - Patients
-- EHR
+- Electronic Health Records
 - Clinics
 - Booking
 - Software-as-a-Service

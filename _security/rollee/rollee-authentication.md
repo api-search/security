@@ -2,6 +2,79 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: rollee-accounts-api-openapi.yml
+  format: yaml
+  label: Rollee Accounts API
+  slug: rollee-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-accounts-api-openapi.yml
+- filename: rollee-authentication-api-openapi.yml
+  format: yaml
+  label: Rollee Authentication API
+  slug: rollee-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-authentication-api-openapi.yml
+- filename: rollee-companies-api-openapi.yml
+  format: yaml
+  label: Rollee Companies API
+  slug: rollee-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-companies-api-openapi.yml
+- filename: rollee-company-accounts-api-openapi.yml
+  format: yaml
+  label: Rollee Company accounts API
+  slug: rollee-company-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-company-accounts-api-openapi.yml
+- filename: rollee-data-settings-api-openapi.yml
+  format: yaml
+  label: Rollee Data settings API
+  slug: rollee-data-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-data-settings-api-openapi.yml
+- filename: rollee-data-sources-api-openapi.yml
+  format: yaml
+  label: Rollee Data sources API
+  slug: rollee-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-data-sources-api-openapi.yml
+- filename: rollee-employer-endpoints-api-openapi.yml
+  format: yaml
+  label: Rollee Employer endpoints API
+  slug: rollee-employer-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-employer-endpoints-api-openapi.yml
+- filename: rollee-endpoints-api-openapi.yml
+  format: yaml
+  label: Rollee Endpoints API
+  slug: rollee-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-endpoints-api-openapi.yml
+- filename: rollee-fleet-endpoints-api-openapi.yml
+  format: yaml
+  label: Rollee Fleet endpoints API
+  slug: rollee-fleet-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-fleet-endpoints-api-openapi.yml
+- filename: rollee-sessions-api-openapi.yml
+  format: yaml
+  label: Rollee Sessions API
+  slug: rollee-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-sessions-api-openapi.yml
+- filename: rollee-users-api-openapi.yml
+  format: yaml
+  label: Rollee Users API
+  slug: rollee-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-users-api-openapi.yml
+- filename: rollee-webhooks-api-openapi.yml
+  format: yaml
+  label: Rollee Webhooks API
+  slug: rollee-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rollee/refs/heads/main/openapi/rollee-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''

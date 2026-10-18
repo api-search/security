@@ -191,7 +191,7 @@ tags:
 - Company Data
 - Beneficial Ownership
 - Case Management
-- Electronic Signature
+- E-Signature
 - Webhook
 trust_url: https://trust.dotfile.com/
 ---

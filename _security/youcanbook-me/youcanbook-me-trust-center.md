@@ -22,7 +22,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Scheduling
-- SaaS
+- Software-as-a-Service
 - Automation
 - Integration
 trust_url: https://youcanbook.me/security

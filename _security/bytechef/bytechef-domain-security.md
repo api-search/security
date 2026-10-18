@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytechef/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation
-- AI
-- Open-Source
-- Workflow
+- Artificial Intelligence
+- Open Source
+- Workflows
 - Integration
 - Company
 ---

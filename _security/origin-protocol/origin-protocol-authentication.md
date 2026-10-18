@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin-protoco
 summary_line: 0 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Analytics
 - Ethereum

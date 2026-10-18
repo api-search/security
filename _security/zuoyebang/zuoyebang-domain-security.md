@@ -30,7 +30,7 @@ tags:
 - Company
 - EdTech
 - Education
-- Online Learning
+- E-Learning
 - Tutoring
 - Consumer
 - China

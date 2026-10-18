@@ -34,6 +34,5 @@ tags:
 - Company
 - Music
 - Data
-- API
 - Platform
 ---

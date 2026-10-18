@@ -45,6 +45,6 @@ tags:
 - Company
 - Digital Mailbox
 - Sweden
-- FinTech
+- Fintech
 - Secure Communications
 ---

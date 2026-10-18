@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chefhero/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
-- FoodTech
-- SaaS
+- Food Tech
+- Software-as-a-Service
 - B2B
 ---

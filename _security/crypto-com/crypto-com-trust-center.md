@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crypto-com/ref
 summary_line: ISO 27001, PCI DSS
 tags:
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Derivatives
 - Market Data

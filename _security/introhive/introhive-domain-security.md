@@ -51,5 +51,5 @@ tags:
 - Data Quality
 - Professional Services
 - Sales
-- Enrichment
+- Data Enrichment
 ---

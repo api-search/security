@@ -77,6 +77,6 @@ tags:
 - Payments
 - Merchant Payments
 - Refunds
-- Webhooks
+- Webhook
 - Fintech
 ---

@@ -332,7 +332,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wise/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- FX
+- Foreign Exchange
 - Cross-Border
 - Banking
 - Multi-Currency

@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: echoapi-openapi-generated.yml
+- filename: echoapi-anything-api-openapi.yml
   format: yaml
-  label: EchoAPI API
-  slug: echoapi-api
+  label: EchoAPI Anything API
+  slug: echoapi-anything-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echoapi/refs/heads/main/openapi/_ae-authored/echoapi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/echoapi/refs/heads/main/openapi/echoapi-anything-api-openapi.yml
 auth_types: []
 description: Authentication methods as published on the page.
 kind: authentication

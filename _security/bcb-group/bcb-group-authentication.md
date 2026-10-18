@@ -91,7 +91,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Banking
 - Digital Assets

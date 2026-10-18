@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Therapy
 - Telehealth
 - Scheduling

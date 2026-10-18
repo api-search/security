@@ -69,5 +69,5 @@ tags:
 - Odds
 - Sports Data
 - Matched Betting
-- Data Feeds
+- Data Feed
 ---

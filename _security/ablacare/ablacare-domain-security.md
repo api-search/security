@@ -36,7 +36,7 @@ tags:
 - Fertility
 - Women's Health
 - Clinical Trials
-- MedTech
+- Medical Technology
 - France
 - Company
 ---

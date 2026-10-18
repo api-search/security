@@ -60,6 +60,6 @@ tags:
 - Digital Archives
 - IIIF
 - Identity Federation
-- Learning Management
+- LMS
 - Research Repository
 ---

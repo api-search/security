@@ -121,7 +121,7 @@ tags:
 - High Performance Computing
 - Cloud
 - Microsoft
-- Azure
+- Microsoft Azure
 - Parallel Processing
 - Scheduling
 - Infrastructure

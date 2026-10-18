@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: yoti-openapi-generated.yml
+- filename: yoti-accounts-api-openapi.yml
   format: yaml
-  label: Yoti API
-  slug: yoti-api
+  label: Yoti Accounts API
+  slug: yoti-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/_ae-authored/yoti-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-accounts-api-openapi.yml
+- filename: yoti-ai-api-openapi.yml
+  format: yaml
+  label: Yoti AI API
+  slug: yoti-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-ai-api-openapi.yml
+- filename: yoti-oauth-api-openapi.yml
+  format: yaml
+  label: Yoti OAuth API
+  slug: yoti-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-oauth-api-openapi.yml
+- filename: yoti-path-api-openapi.yml
+  format: yaml
+  label: Yoti Path API
+  slug: yoti-path-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-path-api-openapi.yml
+- filename: yoti-poa-api-openapi.yml
+  format: yaml
+  label: Yoti Poa API
+  slug: yoti-poa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-poa-api-openapi.yml
+- filename: yoti-sessions-api-openapi.yml
+  format: yaml
+  label: Yoti Sessions API
+  slug: yoti-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-sessions-api-openapi.yml
 auth_types: []
 description: Yoti uses OAuth2 client‑credentials flow with a JWT client assertion and also supports RSA‑signed request headers for certain APIs.
 kind: authentication

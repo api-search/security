@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: echorelay-openapi-generated.yml
+- filename: echorelay-keys-api-openapi.yml
   format: yaml
-  label: EchoRelay API
-  slug: echorelay-api
+  label: EchoRelay Keys API
+  slug: echorelay-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/openapi/_ae-authored/echorelay-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/openapi/echorelay-keys-api-openapi.yml
+- filename: echorelay-projects-api-openapi.yml
+  format: yaml
+  label: EchoRelay Projects API
+  slug: echorelay-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/openapi/echorelay-projects-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -28,11 +34,10 @@ source_yaml: "generated: '2026-10-16'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echorelay/refs/heads/main/security/echorelay-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR, CSA STAR
 tags:
-- API
 - Integration
 - Platform
 - Automation
-- NoCode
+- No-Code
 - Company
 trust_url: https://echorelay.dev/trust
 ---

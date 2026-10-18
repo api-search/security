@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Construction
-- Construction Tech
+- Construction Technology
 - Artificial Intelligence
 - Tenders
 - Procurement

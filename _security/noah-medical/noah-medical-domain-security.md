@@ -38,5 +38,5 @@ tags:
 - Robotics
 - Bronchoscopy
 - Interventional Pulmonology
-- MedTech
+- Medical Technology
 ---

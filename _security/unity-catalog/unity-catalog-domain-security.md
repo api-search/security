@@ -110,8 +110,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Data
-- AI
+- Artificial Intelligence
 - Catalog
 - Governance
-- Multimodal
+- Multi-Modal
 ---

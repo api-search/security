@@ -24,6 +24,12 @@ api_specs:
   slug: eventwren-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-webhooks-api-openapi.yml
+- filename: eventwren-oauth-api-openapi.yml
+  format: yaml
+  label: Eventwren OAuth API
+  slug: eventwren-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []

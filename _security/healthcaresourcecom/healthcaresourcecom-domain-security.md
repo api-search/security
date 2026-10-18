@@ -37,6 +37,6 @@ tags:
 - Applicant Tracking
 - Onboarding
 - Human Resources
-- Learning Management
+- LMS
 - Employee Performance
 ---

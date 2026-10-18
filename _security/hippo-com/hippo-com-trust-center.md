@@ -21,7 +21,6 @@ summary_line: SOC 2, CSA STAR
 tags:
 - Insurance
 - Home Insurance
-- Homeowners Insurance
 - Smart Home
 - Insurtech
 - Property Insurance

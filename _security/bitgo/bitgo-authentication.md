@@ -102,7 +102,7 @@ tags:
 - Custody
 - Wallets
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Staking
 - Settlement
 ---

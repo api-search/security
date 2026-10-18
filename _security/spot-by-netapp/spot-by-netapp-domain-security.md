@@ -112,7 +112,7 @@ tags:
 - Cloud Optimization
 - FinOps
 - Kubernetes
-- Azure
+- Microsoft Azure
 - GCP
 - Cost Optimization
 - Auto-Scaling

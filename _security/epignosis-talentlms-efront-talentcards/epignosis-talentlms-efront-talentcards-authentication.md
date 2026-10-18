@@ -130,7 +130,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Education
-- Learning Management System
 - LMS
 - Training
 - E-Learning

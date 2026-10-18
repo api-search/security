@@ -107,7 +107,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/
 summary_line: apiKey · 2 schemes
 tags:
 - E-Signature
-- Electronic Signature
 - Document Management
 - Embedded Signing
 - Webhook

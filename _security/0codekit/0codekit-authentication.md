@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: 0codekit-openapi-generated.yml
+- filename: 0codekit-ai-api-openapi.yml
   format: yaml
-  label: relyon API
-  slug: 0codekit-api
+  label: relyon AI API
+  slug: 0codekit-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/_ae-authored/0codekit-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-ai-api-openapi.yml
+- filename: 0codekit-docs-api-openapi.yml
+  format: yaml
+  label: relyon Docs API
+  slug: 0codekit-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-docs-api-openapi.yml
+- filename: 0codekit-image-api-openapi.yml
+  format: yaml
+  label: relyon Image API
+  slug: 0codekit-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-image-api-openapi.yml
+- filename: 0codekit-mcp-api-openapi.yml
+  format: yaml
+  label: relyon MCP API
+  slug: 0codekit-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-mcp-api-openapi.yml
+- filename: 0codekit-pdf-api-openapi.yml
+  format: yaml
+  label: relyon PDF API
+  slug: 0codekit-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/0codekit/refs/heads/main/openapi/0codekit-pdf-api-openapi.yml
 auth_types: []
 description: Authentication schemes for relyon
 kind: authentication

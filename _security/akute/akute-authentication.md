@@ -82,8 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akute/refs/hea
 summary_line: apiKey · 1 scheme
 tags:
 - Healthcare
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Digital Health
 - Telehealth

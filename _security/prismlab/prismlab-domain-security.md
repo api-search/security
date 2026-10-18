@@ -31,7 +31,6 @@ summary_line: TLSv1.2
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Hardware
 - Manufacturing
 - Dental

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Behavioral Health
 - Mental Health
-- EHR
+- Electronic Health Records
 - Practice Management
 - Healthcare
 - Scheduling

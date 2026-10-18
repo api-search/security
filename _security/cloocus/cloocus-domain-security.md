@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud
 - MSP
-- Azure
+- Microsoft Azure
 - Multi-Cloud
-- AI
+- Artificial Intelligence
 ---

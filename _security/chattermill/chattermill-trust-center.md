@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chattermill/re
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice of Customer
 - Feedback Analysis
 - Enterprise

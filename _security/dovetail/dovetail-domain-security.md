@@ -1,4 +1,143 @@
 ---
+api_specs:
+- filename: dovetail-authentication-api-openapi.yml
+  format: yaml
+  label: Dovetail Authentication API
+  slug: dovetail-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-authentication-api-openapi.yml
+- filename: dovetail-channels-api-openapi.yml
+  format: yaml
+  label: Dovetail Channels API
+  slug: dovetail-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-channels-api-openapi.yml
+- filename: dovetail-contacts-api-openapi.yml
+  format: yaml
+  label: Dovetail Contacts API
+  slug: dovetail-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-contacts-api-openapi.yml
+- filename: dovetail-data-api-openapi.yml
+  format: yaml
+  label: Dovetail Data API
+  slug: dovetail-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-data-api-openapi.yml
+- filename: dovetail-datasets-api-openapi.yml
+  format: yaml
+  label: Dovetail Datasets API
+  slug: dovetail-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-datasets-api-openapi.yml
+- filename: dovetail-doccomments-api-openapi.yml
+  format: yaml
+  label: Dovetail Doc Comments API
+  slug: dovetail-doccomments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-doccomments-api-openapi.yml
+- filename: dovetail-docs-api-openapi.yml
+  format: yaml
+  label: Dovetail Docs API
+  slug: dovetail-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-docs-api-openapi.yml
+- filename: dovetail-fields-api-openapi.yml
+  format: yaml
+  label: Dovetail Fields API
+  slug: dovetail-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-fields-api-openapi.yml
+- filename: dovetail-files-api-openapi.yml
+  format: yaml
+  label: Dovetail Files API
+  slug: dovetail-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-files-api-openapi.yml
+- filename: dovetail-filesv2-api-openapi.yml
+  format: yaml
+  label: Dovetail Files V2 API
+  slug: dovetail-filesv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-filesv2-api-openapi.yml
+- filename: dovetail-folders-api-openapi.yml
+  format: yaml
+  label: Dovetail Folders API
+  slug: dovetail-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-folders-api-openapi.yml
+- filename: dovetail-highlights-api-openapi.yml
+  format: yaml
+  label: Dovetail Highlights API
+  slug: dovetail-highlights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-highlights-api-openapi.yml
+- filename: dovetail-insightcomments-api-openapi.yml
+  format: yaml
+  label: Dovetail Insight Comments API
+  slug: dovetail-insightcomments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-insightcomments-api-openapi.yml
+- filename: dovetail-insights-api-openapi.yml
+  format: yaml
+  label: Dovetail Insights API
+  slug: dovetail-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-insights-api-openapi.yml
+- filename: dovetail-notes-api-openapi.yml
+  format: yaml
+  label: Dovetail Notes API
+  slug: dovetail-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-notes-api-openapi.yml
+- filename: dovetail-projects-api-openapi.yml
+  format: yaml
+  label: Dovetail Projects API
+  slug: dovetail-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-projects-api-openapi.yml
+- filename: dovetail-search-api-openapi.yml
+  format: yaml
+  label: Dovetail Search API
+  slug: dovetail-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-search-api-openapi.yml
+- filename: dovetail-searchv2-api-openapi.yml
+  format: yaml
+  label: Dovetail Search V2 API
+  slug: dovetail-searchv2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-searchv2-api-openapi.yml
+- filename: dovetail-summarize-api-openapi.yml
+  format: yaml
+  label: Dovetail Summarize API
+  slug: dovetail-summarize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-summarize-api-openapi.yml
+- filename: dovetail-tags-api-openapi.yml
+  format: yaml
+  label: Dovetail Tags API
+  slug: dovetail-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-tags-api-openapi.yml
+- filename: dovetail-transcripts-api-openapi.yml
+  format: yaml
+  label: Dovetail Transcripts API
+  slug: dovetail-transcripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-transcripts-api-openapi.yml
+- filename: dovetail-users-api-openapi.yml
+  format: yaml
+  label: Dovetail Users API
+  slug: dovetail-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-users-api-openapi.yml
+- filename: dovetail-workspace-api-openapi.yml
+  format: yaml
+  label: Dovetail Workspace API
+  slug: dovetail-workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

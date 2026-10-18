@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Data Platform
 ---

@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: prospectapis-openapi-generated.yml
+- filename: prospectapis-health-api-openapi.yml
   format: yaml
-  label: ProspectAPIs API
-  slug: prospectapis-api
+  label: ProspectAPIs Health API
+  slug: prospectapis-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prospectapis/refs/heads/main/openapi/_ae-authored/prospectapis-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prospectapis/refs/heads/main/openapi/prospectapis-health-api-openapi.yml
+- filename: prospectapis-pricing-api-openapi.yml
+  format: yaml
+  label: ProspectAPIs Pricing API
+  slug: prospectapis-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prospectapis/refs/heads/main/openapi/prospectapis-pricing-api-openapi.yml
+- filename: prospectapis-prospectapis-api-api-openapi.yml
+  format: yaml
+  label: ProspectAPIs ProspectAPIs API
+  slug: prospectapis-prospectapis-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prospectapis/refs/heads/main/openapi/prospectapis-prospectapis-api-api-openapi.yml
+- filename: prospectapis-watchlists-api-openapi.yml
+  format: yaml
+  label: ProspectAPIs Watchlists API
+  slug: prospectapis-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prospectapis/refs/heads/main/openapi/prospectapis-watchlists-api-openapi.yml
 auth_types: []
 description: Authentication Send the key in the Authorization header as a Bearer token on every /v1 request except GET /v1/version .
 kind: authentication
@@ -39,6 +57,5 @@ tags:
 - Company
 - Funding
 - Research
-- API
 - Data
 ---

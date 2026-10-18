@@ -64,5 +64,5 @@ tags:
 - Library
 - Research Repository
 - Research Computing
-- Learning Management
+- LMS
 ---

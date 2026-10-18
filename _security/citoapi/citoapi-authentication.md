@@ -2,12 +2,66 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: citoapi-v1-openapi.json
-  format: json
-  label: Cito API V1 API
-  slug: cito-api-v1-api
+- filename: citoapi-bkfc-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API BKFC API
+  slug: citoapi-bkfc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/_original/citoapi-v1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-bkfc-api-openapi.yml
+- filename: citoapi-call-of-duty-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API Call of Duty API
+  slug: citoapi-call-of-duty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-call-of-duty-api-openapi.yml
+- filename: citoapi-cs2-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API CS2 API
+  slug: citoapi-cs2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-cs2-api-openapi.yml
+- filename: citoapi-dota-2-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API Dota 2 API
+  slug: citoapi-dota-2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-dota-2-api-openapi.yml
+- filename: citoapi-fortnite-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API Fortnite API
+  slug: citoapi-fortnite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-fortnite-api-openapi.yml
+- filename: citoapi-qr-code-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API QR Code API
+  slug: citoapi-qr-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-qr-code-api-openapi.yml
+- filename: citoapi-raf-wrestling-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API RAF Wrestling API
+  slug: citoapi-raf-wrestling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-raf-wrestling-api-openapi.yml
+- filename: citoapi-tennis-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API Tennis API
+  slug: citoapi-tennis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-tennis-api-openapi.yml
+- filename: citoapi-ufc-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API UFC API
+  slug: citoapi-ufc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-ufc-api-openapi.yml
+- filename: citoapi-utility-api-openapi.yml
+  format: yaml
+  label: Cito CS2 API Utility API
+  slug: citoapi-utility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/heads/main/openapi/citoapi-utility-api-openapi.yml
 auth_types: []
 description: Cito API uses API keys to authenticate requests.
 kind: authentication
@@ -36,7 +90,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citoapi/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Esports
 - Gaming
 - Data

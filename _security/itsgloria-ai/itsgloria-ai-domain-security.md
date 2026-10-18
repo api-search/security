@@ -117,7 +117,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - News
-- Crypto
 - Cryptocurrency
 - Market Intelligence
 - Sentiment Analysis

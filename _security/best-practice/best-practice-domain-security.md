@@ -85,8 +85,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
 - Australia
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

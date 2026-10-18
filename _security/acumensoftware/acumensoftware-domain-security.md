@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: >-\n  live DNS/TL
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acumensoftware/refs/heads/main/security/acumensoftware-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Field Service Management
+- Field Service
 - Workforce Management
 - Asset Management
 - ERP

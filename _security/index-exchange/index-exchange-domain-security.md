@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising
 - Programmatic
-- SSP
+- Supply Side Platform
 - Real-time Bidding
 - Media Technology
 - Company

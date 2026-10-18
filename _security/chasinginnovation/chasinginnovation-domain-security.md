@@ -34,5 +34,5 @@ tags:
 - Technology
 - Marine
 - Drones
-- DataAnalytics
+- Data Analytics
 ---

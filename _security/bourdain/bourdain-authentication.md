@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bourdain-openapi-generated.yml
+- filename: bourdain-acp-checkout-api-openapi.yml
   format: yaml
-  label: Bourdain API
-  slug: bourdain-api
+  label: Bourdain Acp Checkout API
+  slug: bourdain-acp-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/_ae-authored/bourdain-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-acp-checkout-api-openapi.yml
+- filename: bourdain-acp-confirm-api-openapi.yml
+  format: yaml
+  label: Bourdain Acp Confirm API
+  slug: bourdain-acp-confirm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-acp-confirm-api-openapi.yml
+- filename: bourdain-acp-payment-api-openapi.yml
+  format: yaml
+  label: Bourdain Acp Payment API
+  slug: bourdain-acp-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-acp-payment-api-openapi.yml
+- filename: bourdain-acp-product-api-openapi.yml
+  format: yaml
+  label: Bourdain Acp Product API
+  slug: bourdain-acp-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-acp-product-api-openapi.yml
+- filename: bourdain-acp-products-api-openapi.yml
+  format: yaml
+  label: Bourdain Acp Products API
+  slug: bourdain-acp-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-acp-products-api-openapi.yml
+- filename: bourdain-mcp-server-api-openapi.yml
+  format: yaml
+  label: Bourdain Mcp Server API
+  slug: bourdain-mcp-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bourdain/refs/heads/main/openapi/bourdain-mcp-server-api-openapi.yml
 auth_types: []
 description: Bourdain uses API keys passed as a Bearer token in the Authorization header.
 kind: authentication
@@ -44,7 +74,7 @@ tags:
 - Company
 - Marketplace
 - Trading Cards
-- AI
-- E-commerce
+- Artificial Intelligence
+- E-Commerce
 - Collectibles
 ---

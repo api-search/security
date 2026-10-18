@@ -74,7 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mesh/refs/head
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Payments
 - Digital Assets

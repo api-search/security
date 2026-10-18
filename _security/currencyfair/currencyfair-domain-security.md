@@ -35,5 +35,5 @@ tags:
 - Fintech
 - Money Transfer
 - International Payments
-- Currency Exchange
+- Foreign Exchange
 ---

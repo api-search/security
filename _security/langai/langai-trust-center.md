@@ -39,7 +39,7 @@ tags:
 - Machine Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer Support
+- Customer Service
 - Text Classification
 - Analytics
 - Customer Experience

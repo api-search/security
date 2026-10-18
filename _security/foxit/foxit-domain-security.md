@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: foxit-openapi-generated.yml
+- filename: foxit-document-generation-api-openapi.yml
   format: yaml
-  label: Foxit eSign API
-  slug: foxit-api
+  label: Foxit eSign Document Generation API
+  slug: foxit-document-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/_ae-authored/foxit-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-document-generation-api-openapi.yml
+- filename: foxit-documents-api-openapi.yml
+  format: yaml
+  label: Foxit eSign Documents API
+  slug: foxit-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-documents-api-openapi.yml
+- filename: foxit-foxit-esign-api-api-openapi.yml
+  format: yaml
+  label: Foxit eSign Foxit ESign API
+  slug: foxit-foxit-esign-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-foxit-esign-api-api-openapi.yml
+- filename: foxit-pdf-services-api-openapi.yml
+  format: yaml
+  label: Foxit eSign Pdf Services API
+  slug: foxit-pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/openapi/foxit-pdf-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +56,7 @@ source_yaml: "generated: '2026-10-16'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foxit/refs/heads/main/security/foxit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- eSignature
+- E-Signature
 - Document Management
 - PDF
 - Cloud APIs

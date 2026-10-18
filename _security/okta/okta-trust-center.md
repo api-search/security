@@ -247,7 +247,7 @@ tags:
 - Authorization
 - Multi-Factor Authentication
 - Identity Governance
-- Privileged Access
+- Privileged Access Management
 - AI Agents
 - Cross-App Access
 - MCP

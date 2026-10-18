@@ -37,6 +37,6 @@ tags:
 - Brokerage
 - Trading
 - Capital Markets
-- Crypto
+- Cryptocurrency
 - Argentina
 ---

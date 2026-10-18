@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diligen/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - ContractAnalysis
 - Automation
 ---

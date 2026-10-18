@@ -149,7 +149,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Higher Education
 - Certification
 - Learning Analytics

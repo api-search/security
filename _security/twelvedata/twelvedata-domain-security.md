@@ -134,8 +134,8 @@ tags:
 - Market Data
 - Financial Data
 - Stocks
-- Forex
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - Real-Time Data
 - Technical Indicators
 - Fundamentals

@@ -32,13 +32,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saber/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Solana
 - Decentralized Finance
 - Stablecoins
 - Automated Market Maker
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 ---

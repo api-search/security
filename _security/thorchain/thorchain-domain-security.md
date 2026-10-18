@@ -434,7 +434,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thorchain/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - DeFi
 - Cross-Chain
@@ -442,6 +442,5 @@ tags:
 - Decentralized Exchange
 - Cosmos
 - Web3 Infrastructure
-- Web3
 - Cryptocurrency
 ---

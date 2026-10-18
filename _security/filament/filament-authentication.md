@@ -44,11 +44,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filament/refs/
 summary_line: signature · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Derivatives
 - Perpetuals
-- DEX
+- Decentralized Exchange
 - Trading
 - Blockchain
 - SEI

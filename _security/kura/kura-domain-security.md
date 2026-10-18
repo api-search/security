@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kura/refs/head
 summary_line: TLSv1.3
 tags:
 - Company
-- Portfolio Lead
 - 500 Global
 - Dormant
 - Parked Domain

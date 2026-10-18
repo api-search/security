@@ -30,13 +30,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01-exchange/re
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Decentralized Finance
 - Solana
 - Derivatives
 - Perpetual Futures
 - Decentralized Exchange
 - Blockchain
-- Web3
 - Cryptocurrency
 ---

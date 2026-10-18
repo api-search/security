@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: alium-openapi-generated.yml
+- filename: alium-alium-api-api-openapi.yml
   format: yaml
-  label: Alium API
-  slug: alium-api
+  label: Alium Alium API
+  slug: alium-alium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/_ae-authored/alium-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-alium-api-api-openapi.yml
+- filename: alium-vendors-api-openapi.yml
+  format: yaml
+  label: Alium Vendors API
+  slug: alium-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-vendors-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +46,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Vendor research
 - Marketing intelligence
-- E‑commerce
+- E-Commerce
 - Enterprise tech
 ---

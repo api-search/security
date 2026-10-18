@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: clay953f-credits-api-openapi.yml
+  format: yaml
+  label: Clay953f Credits API
+  slug: clay953f-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-credits-api-openapi.yml
+- filename: clay953f-me-api-openapi.yml
+  format: yaml
+  label: Clay953f Me API
+  slug: clay953f-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-me-api-openapi.yml
+- filename: clay953f-routines-api-openapi.yml
+  format: yaml
+  label: Clay953f Routines API
+  slug: clay953f-routines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-routines-api-openapi.yml
+- filename: clay953f-search-api-openapi.yml
+  format: yaml
+  label: Clay953f Search API
+  slug: clay953f-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-search-api-openapi.yml
+- filename: clay953f-tables-api-openapi.yml
+  format: yaml
+  label: Clay953f Tables API
+  slug: clay953f-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-tables-api-openapi.yml
+- filename: clay953f-workflowsruns-api-openapi.yml
+  format: yaml
+  label: Clay953f Workflows Runs API
+  slug: clay953f-workflowsruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay953f/refs/heads/main/openapi/clay953f-workflowsruns-api-openapi.yml
 description: ''
 domains:
 - caa: []

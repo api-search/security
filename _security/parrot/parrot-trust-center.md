@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parrot/refs/he
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Legal Tech
 - Court Reporting
 - Deposition

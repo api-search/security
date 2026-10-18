@@ -35,5 +35,5 @@ tags:
 - Antimicrobial Resistance
 - Oncology
 - Bangalore
-- Clinical-stage
+- Clinical Stage
 ---

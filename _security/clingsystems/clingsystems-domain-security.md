@@ -34,9 +34,9 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clingsystems/refs/heads/main/security/clingsystems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- battery
-- marketplace
+- Battery
+- Marketplace
 - circular-economy
-- sustainability
+- Sustainability
 - Sweden
 ---

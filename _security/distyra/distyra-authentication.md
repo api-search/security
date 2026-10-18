@@ -87,7 +87,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Banking
-- API
 - Fintech
 - European
 ---

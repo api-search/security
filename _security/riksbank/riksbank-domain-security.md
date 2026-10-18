@@ -36,5 +36,4 @@ tags:
 - CentralBank
 - Sweden
 - Economics
-- API
 ---

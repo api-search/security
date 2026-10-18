@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/simpro-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/authentication/simpro-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - Job Management
 - Project Management

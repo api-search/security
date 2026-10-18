@@ -133,7 +133,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/
 summary_line: oauth2/http/apiKey · 5 schemes
 tags:
 - Advertising
-- AR
 - Augmented Reality
 - Marketing
 - Messaging

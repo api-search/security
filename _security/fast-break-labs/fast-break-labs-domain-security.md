@@ -27,8 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fast-break-lab
 summary_line: DNSSEC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
-- Venture Backed
 ---

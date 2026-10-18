@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ruzuku/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Online Courses
-- Learning Management
+- LMS
 - Education
 - Course Platform
 - Zapier

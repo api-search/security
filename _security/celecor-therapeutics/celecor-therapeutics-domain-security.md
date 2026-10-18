@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Biopharma
 - Cardiovascular
-- ClinicalTrials
+- Clinical Trials
 - STEMI
 - Therapeutics
 ---

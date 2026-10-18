@@ -34,7 +34,6 @@ tags:
 - Healthcare
 - Health Tech
 - Electronic Health Records
-- EHR
 - Digital Health
 - Public Health
 - Africa

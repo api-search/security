@@ -97,7 +97,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Marketing
-- Customer Engagement
+- Customer-Engagement
 - Consumer
 trust_url: https://trust.blueshift.com/
 ---

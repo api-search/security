@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastlane/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - MEV
 - Liquid Staking
@@ -39,6 +39,5 @@ tags:
 - Monad
 - Staking
 - JSON-RPC
-- Web3
 - Cryptocurrency
 ---

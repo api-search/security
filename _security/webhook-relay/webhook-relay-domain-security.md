@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: webhook-relay-api-openapi.yml
+- filename: webhook-relay-buckets-api-openapi.yml
   format: yaml
-  label: Webhook Relay Api API
-  slug: webhook-relay-api-api
+  label: Webhook Relay Buckets API
+  slug: webhook-relay-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/_original/webhook-relay-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-buckets-api-openapi.yml
+- filename: webhook-relay-domains-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Domains API
+  slug: webhook-relay-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-domains-api-openapi.yml
+- filename: webhook-relay-functions-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Functions API
+  slug: webhook-relay-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-functions-api-openapi.yml
+- filename: webhook-relay-inputs-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Inputs API
+  slug: webhook-relay-inputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-inputs-api-openapi.yml
+- filename: webhook-relay-logs-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Logs API
+  slug: webhook-relay-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-logs-api-openapi.yml
+- filename: webhook-relay-outputs-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Outputs API
+  slug: webhook-relay-outputs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-outputs-api-openapi.yml
+- filename: webhook-relay-tokens-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Tokens API
+  slug: webhook-relay-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-tokens-api-openapi.yml
+- filename: webhook-relay-tunnels-api-openapi.yml
+  format: yaml
+  label: Webhook Relay Tunnels API
+  slug: webhook-relay-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/refs/heads/main/openapi/webhook-relay-tunnels-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webhook-relay/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Webhooks
+- Webhook
 - API Gateway
 - Integration
 - Developer Tools

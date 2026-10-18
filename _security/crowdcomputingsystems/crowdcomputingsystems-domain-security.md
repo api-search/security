@@ -33,6 +33,6 @@ tags:
 - Company
 - CrowdComputing
 - Research
-- AI
+- Artificial Intelligence
 - Human-Computer Interaction
 ---

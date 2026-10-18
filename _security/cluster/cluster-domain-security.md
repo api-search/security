@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data
-- API
-- eCommerce
+- E-Commerce
 - Product
 ---

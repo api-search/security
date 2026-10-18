@@ -420,7 +420,7 @@ summary_line: apiKey/oauth2/siwe · 4 schemes
 tags:
 - Market Data
 - Historical Data
-- Crypto
+- Cryptocurrency
 - DeFi
 - Perpetuals
 - Derivatives

@@ -108,7 +108,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enso/refs/head
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Cross-Chain
@@ -116,6 +116,5 @@ tags:
 - Transaction Routing
 - Web3 Infrastructure
 - Onchain
-- Web3
 - Cryptocurrency
 ---

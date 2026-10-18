@@ -51,6 +51,6 @@ tags:
 - FHIR
 - Clinical Documentation
 - Billing
-- EHR
+- Electronic Health Records
 - Home Care
 ---

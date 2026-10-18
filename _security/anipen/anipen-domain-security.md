@@ -28,8 +28,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anipen/refs/he
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- XR
-- AR
+- Extended Reality
+- Augmented Reality
 - Artificial Intelligence
 - Metaverse
 ---

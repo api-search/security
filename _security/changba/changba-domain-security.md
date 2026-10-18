@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Music
 - Karaoke
-- MobileApp
+- Mobile App
 - Community
 - Entertainment
 ---

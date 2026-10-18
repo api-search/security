@@ -136,7 +136,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Construction
 - Marketplace
-- AI
+- Artificial Intelligence
 - Tendering
 - Germany
 ---

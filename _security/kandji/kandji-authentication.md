@@ -152,7 +152,7 @@ tags:
 - Mobile Device Management
 - apple-management
 - Endpoint Security
-- endpoint-detection-response
+- Endpoint Detection and Response
 - Vulnerability Management
 - Compliance Automation
 - Workforce Identity

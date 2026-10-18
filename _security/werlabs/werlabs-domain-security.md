@@ -34,5 +34,5 @@ tags:
 - PreventiveCare
 - LabTesting
 - Sweden
-- DigitalHealth
+- Digital Health
 ---

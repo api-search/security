@@ -20,8 +20,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/security/openspace-trust-center.yml
 summary_line: SOC 2, GDPR, CSA STAR
 tags:
-- Construction Tech
-- ConTech
+- Construction Technology
 - Visual Intelligence
 - 360 Camera
 - Jobsite Documentation

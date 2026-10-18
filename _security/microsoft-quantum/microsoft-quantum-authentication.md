@@ -87,7 +87,7 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Quantum
 - Quantum Computing
-- Azure
+- Microsoft Azure
 - Microsoft
 - Q#
 - QDK

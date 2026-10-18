@@ -31,10 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solomon/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Tax
 - Accounting
-- Artificial Intelligence
 - Fintech
 - Automation
 ---

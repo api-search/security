@@ -36,5 +36,4 @@ tags:
 - Financial Inclusion
 - Capital Allocation
 - Artificial Intelligence
-- Venture Backed
 ---

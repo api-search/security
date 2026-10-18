@@ -70,7 +70,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Extraction
 - LLM
 - SenseML

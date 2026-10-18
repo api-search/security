@@ -21,8 +21,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dajiabao/refs/
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Venture Backed
 - Qiming
 - China
-- Portfolio Lead
 ---

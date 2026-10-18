@@ -32,7 +32,7 @@ tags:
 - Company
 - Customer Community
 - Customer Engagement
-- Customer Support
+- Customer Service
 - Community Platform
 - Social Media
 - Software-as-a-Service

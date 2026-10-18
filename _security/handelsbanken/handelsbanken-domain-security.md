@@ -36,6 +36,5 @@ tags:
 - Banking
 - Finance
 - Sweden
-- OpenBanking
-- API
+- Open Banking
 ---

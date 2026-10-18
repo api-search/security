@@ -34,6 +34,6 @@ tags:
 - Company
 - DirectAirCapture
 - CarbonRemoval
-- ClimateTech
+- Climate Tech
 - CleanEnergy
 ---

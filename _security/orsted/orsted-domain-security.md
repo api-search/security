@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orsted/refs/he
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Energy
-- Renewable
+- Renewables
 - OffshoreWind
 - Sustainability
 - Denmark

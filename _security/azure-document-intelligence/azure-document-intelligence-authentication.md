@@ -99,8 +99,8 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence
 - Document AI
-- Azure
-- IDP
+- Microsoft Azure
+- Intelligent Document Processing
 - OCR
 - Microsoft
 - REST

@@ -186,7 +186,7 @@ tags:
 - News Data
 - Media Monitoring
 - Search
-- Feeds
+- Feed
 - Adverse Media
 - Compliance
 - Financial Services

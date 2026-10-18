@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: loggi-authapi-api-openapi.yml
+  format: yaml
+  label: Loggi Auth API
+  slug: loggi-authapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-authapi-api-openapi.yml
+- filename: loggi-detailsapi-api-openapi.yml
+  format: yaml
+  label: Loggi Details API
+  slug: loggi-detailsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-detailsapi-api-openapi.yml
+- filename: loggi-dropofflocationsapi-api-openapi.yml
+  format: yaml
+  label: Loggi Dropoff Locations API
+  slug: loggi-dropofflocationsapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-dropofflocationsapi-api-openapi.yml
+- filename: loggi-integratorcompanyapi-api-openapi.yml
+  format: yaml
+  label: Loggi Integrator Company API
+  slug: loggi-integratorcompanyapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-integratorcompanyapi-api-openapi.yml
+- filename: loggi-labelapi-api-openapi.yml
+  format: yaml
+  label: Loggi Label API
+  slug: loggi-labelapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-labelapi-api-openapi.yml
+- filename: loggi-packagecancelapi-api-openapi.yml
+  format: yaml
+  label: Loggi Package Cancel API
+  slug: loggi-packagecancelapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packagecancelapi-api-openapi.yml
+- filename: loggi-packageupdateapi-api-openapi.yml
+  format: yaml
+  label: Loggi Package Update API
+  slug: loggi-packageupdateapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packageupdateapi-api-openapi.yml
+- filename: loggi-quotationapi-api-openapi.yml
+  format: yaml
+  label: Loggi Quotation API
+  slug: loggi-quotationapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-quotationapi-api-openapi.yml
+- filename: loggi-shipmentapi-api-openapi.yml
+  format: yaml
+  label: Loggi Shipment API
+  slug: loggi-shipmentapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-shipmentapi-api-openapi.yml
+- filename: loggi-trackingapi-api-openapi.yml
+  format: yaml
+  label: Loggi Tracking API
+  slug: loggi-trackingapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-trackingapi-api-openapi.yml
 description: ''
 domains:
 - caa: []

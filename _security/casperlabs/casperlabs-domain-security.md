@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: casperlabs-openapi-generated.yml
+- filename: casperlabs-casperlabs-api-api-openapi.yml
   format: yaml
-  label: Casperlabs API
-  slug: casperlabs-api
+  label: Casperlabs Casperlabs API
+  slug: casperlabs-casperlabs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casperlabs/refs/heads/main/openapi/_ae-authored/casperlabs-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/casperlabs/refs/heads/main/openapi/casperlabs-casperlabs-api-api-openapi.yml
+- filename: casperlabs-metrics-api-openapi.yml
+  format: yaml
+  label: Casperlabs Metrics API
+  slug: casperlabs-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casperlabs/refs/heads/main/openapi/casperlabs-metrics-api-openapi.yml
+- filename: casperlabs-status-api-openapi.yml
+  format: yaml
+  label: Casperlabs Status API
+  slug: casperlabs-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casperlabs/refs/heads/main/openapi/casperlabs-status-api-openapi.yml
 description: ''
 domains:
 - caa: []

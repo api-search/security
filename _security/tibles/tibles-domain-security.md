@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibles/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Digital Collectibles
 - NFT
 - Flow Blockchain
 - Trading Cards
 - Consumer App
-- Web3
 ---

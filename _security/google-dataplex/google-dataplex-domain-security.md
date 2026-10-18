@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: google-dataplex-openapi-generated.yml
+- filename: google-dataplex-apt-api-openapi.yml
   format: yaml
-  label: Google Dataplex API
-  slug: google-dataplex-api
+  label: Google Dataplex Apt API
+  slug: google-dataplex-apt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/_ae-authored/google-dataplex-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-apt-api-openapi.yml
+- filename: google-dataplex-auth-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Auth API
+  slug: google-dataplex-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-auth-api-openapi.yml
+- filename: google-dataplex-computemetadata-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Computemetadata API
+  slug: google-dataplex-computemetadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-computemetadata-api-openapi.yml
+- filename: google-dataplex-dl-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Dl API
+  slug: google-dataplex-dl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-dl-api-openapi.yml
+- filename: google-dataplex-documents-analyzeentities-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Documents Analyzeentities API
+  slug: google-dataplex-documents-analyzeentities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-documents-analyzeentities-api-openapi.yml
+- filename: google-dataplex-drive-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Drive API
+  slug: google-dataplex-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-drive-api-openapi.yml
+- filename: google-dataplex-google-dataplex-api-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Google Dataplex API
+  slug: google-dataplex-google-dataplex-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-google-dataplex-api-api-openapi.yml
+- filename: google-dataplex-instance-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Instance API
+  slug: google-dataplex-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-instance-api-openapi.yml
+- filename: google-dataplex-language-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Language API
+  slug: google-dataplex-language-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-language-api-openapi.yml
+- filename: google-dataplex-projects-api-openapi.yml
+  format: yaml
+  label: Google Dataplex Projects API
+  slug: google-dataplex-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-projects-api-openapi.yml
+- filename: google-dataplex-v1beta-api-openapi.yml
+  format: yaml
+  label: Google Dataplex V1Beta API
+  slug: google-dataplex-v1beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-dataplex/refs/heads/main/openapi/google-dataplex-v1beta-api-openapi.yml
 description: ''
 domains:
 - caa:

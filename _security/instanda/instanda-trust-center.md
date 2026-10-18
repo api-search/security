@@ -36,7 +36,7 @@ tags:
 - No-Code
 - Core Systems
 - MGA
-- Brokers
+- Brokerage
 - Webhook
 - Microsoft Azure
 - Embedded Insurance

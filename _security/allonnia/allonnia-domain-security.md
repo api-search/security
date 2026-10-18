@@ -35,6 +35,6 @@ tags:
 - Biotechnology
 - Materials
 - Sustainability
-- AI
+- Artificial Intelligence
 - Mining
 ---

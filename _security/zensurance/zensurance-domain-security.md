@@ -60,7 +60,7 @@ tags:
 - Insurance
 - Canada
 - Insurtech
-- Brokers
+- Brokerage
 - Property and Casualty
 - Commercial Insurance
 - Small Business Insurance

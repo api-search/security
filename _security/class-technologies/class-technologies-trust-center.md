@@ -25,7 +25,6 @@ tags:
 - Virtual Classroom
 - E-Learning
 - LMS
-- Online Learning
 - Corporate Training
 - Video Conferencing
 trust_url: https://trust.class.com/

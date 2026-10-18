@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: dynamic-yield-api-only-api-openapi.yml
+  format: yaml
+  label: Dynamic Yield API only API
+  slug: dynamic-yield-api-only-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-api-only-api-openapi.yml
+- filename: dynamic-yield-experience-apis-api-openapi.yml
+  format: yaml
+  label: Dynamic Yield Experience APIs API
+  slug: dynamic-yield-experience-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-experience-apis-api-openapi.yml
+- filename: dynamic-yield-product-data-api-openapi.yml
+  format: yaml
+  label: Dynamic Yield Product Data API
+  slug: dynamic-yield-product-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-product-data-api-openapi.yml
+- filename: dynamic-yield-profile-anywhere-api-openapi.yml
+  format: yaml
+  label: Dynamic Yield Profile Anywhere API
+  slug: dynamic-yield-profile-anywhere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-profile-anywhere-api-openapi.yml
+- filename: dynamic-yield-user-data-api-api-openapi.yml
+  format: yaml
+  label: Dynamic Yield User Data API
+  slug: dynamic-yield-user-data-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-user-data-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

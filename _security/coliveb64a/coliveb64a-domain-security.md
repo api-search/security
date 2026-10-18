@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - PropTech
 - CoLiving
-- RealEstate
+- Real Estate
 - India
 - Platform
 ---

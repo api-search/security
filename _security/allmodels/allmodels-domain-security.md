@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: allmodels-openapi-generated.yml
+- filename: allmodels-account-api-openapi.yml
   format: yaml
-  label: Allmodels API
-  slug: allmodels-api
+  label: Allmodels Account API
+  slug: allmodels-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/_ae-authored/allmodels-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-account-api-openapi.yml
+- filename: allmodels-allmodels-api-api-openapi.yml
+  format: yaml
+  label: Allmodels Allmodels API
+  slug: allmodels-allmodels-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-allmodels-api-api-openapi.yml
+- filename: allmodels-custom-voices-api-openapi.yml
+  format: yaml
+  label: Allmodels Custom Voices API
+  slug: allmodels-custom-voices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-custom-voices-api-openapi.yml
+- filename: allmodels-el-api-openapi.yml
+  format: yaml
+  label: Allmodels El API
+  slug: allmodels-el-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-el-api-openapi.yml
+- filename: allmodels-health-api-openapi.yml
+  format: yaml
+  label: Allmodels Health API
+  slug: allmodels-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-health-api-openapi.yml
+- filename: allmodels-oai-api-openapi.yml
+  format: yaml
+  label: Allmodels Oai API
+  slug: allmodels-oai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-oai-api-openapi.yml
+- filename: allmodels-realtime-api-openapi.yml
+  format: yaml
+  label: Allmodels Realtime API
+  slug: allmodels-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allmodels/refs/heads/main/openapi/allmodels-realtime-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,5 +77,5 @@ tags:
 - VoiceAI
 - TextToSpeech
 - SpeechToText
-- RealTime
+- Real-Time
 ---

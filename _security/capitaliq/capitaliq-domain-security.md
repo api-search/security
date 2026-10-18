@@ -34,6 +34,6 @@ tags:
 - Finance
 - Data
 - Analytics
-- Market-Intelligence
+- Market Intelligence
 - Research
 ---

@@ -236,22 +236,54 @@ scheme_count: 1
 schemes:
 - flows:
   - flow: clientCredentials
-    scopes: 0
-    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
-  name: oauth2ClientCredentials
+    scopes: 10
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
   sources:
-  - openapi/efi-cobrancas-openapi.yml
-  - openapi/efi-contas-openapi.yml
-  - openapi/efi-extratos-openapi.yml
-  - openapi/efi-openfinance-openapi.yml
-  - openapi/efi-pagamentos-openapi.yml
-  - openapi/efi-pix-openapi.yml
+  - openapi/gerencianet-account-api-openapi.yml
+  - openapi/gerencianet-accounts-api-openapi.yml
+  - openapi/gerencianet-authorization-api-openapi.yml
+  - openapi/gerencianet-automatic-charges-api-openapi.yml
+  - openapi/gerencianet-automatic-pix-api-openapi.yml
+  - openapi/gerencianet-bill-payments-api-openapi.yml
+  - openapi/gerencianet-biometric-pix-api-openapi.yml
+  - openapi/gerencianet-card-payments-api-openapi.yml
+  - openapi/gerencianet-carnets-api-openapi.yml
+  - openapi/gerencianet-charges-api-openapi.yml
+  - openapi/gerencianet-configuration-api-openapi.yml
+  - openapi/gerencianet-devolutions-api-openapi.yml
+  - openapi/gerencianet-due-charge-batches-api-openapi.yml
+  - openapi/gerencianet-due-charges-api-openapi.yml
+  - openapi/gerencianet-immediate-charges-api-openapi.yml
+  - openapi/gerencianet-immediate-pix-api-openapi.yml
+  - openapi/gerencianet-locations-api-openapi.yml
+  - openapi/gerencianet-med-infractions-api-openapi.yml
+  - openapi/gerencianet-notifications-api-openapi.yml
+  - openapi/gerencianet-participants-api-openapi.yml
+  - openapi/gerencianet-payment-links-api-openapi.yml
+  - openapi/gerencianet-pix-keys-api-openapi.yml
+  - openapi/gerencianet-pix-send-api-openapi.yml
+  - openapi/gerencianet-plans-api-openapi.yml
+  - openapi/gerencianet-qr-codes-api-openapi.yml
+  - openapi/gerencianet-receipts-api-openapi.yml
+  - openapi/gerencianet-received-pix-api-openapi.yml
+  - openapi/gerencianet-recurring-pix-api-openapi.yml
+  - openapi/gerencianet-reports-api-openapi.yml
+  - openapi/gerencianet-scheduled-pix-api-openapi.yml
+  - openapi/gerencianet-sftp-api-openapi.yml
+  - openapi/gerencianet-splits-api-openapi.yml
+  - openapi/gerencianet-statement-files-api-openapi.yml
+  - openapi/gerencianet-statement-schedules-api-openapi.yml
+  - openapi/gerencianet-subscriptions-api-openapi.yml
+  - openapi/gerencianet-webhooks-api-openapi.yml
   type: oauth2
 slug: gerencianet-authentication
 source_filename: gerencianet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/efi-cobrancas-openapi.yml, openapi/efi-contas-openapi.yml, openapi/efi-extratos-openapi.yml,\n  openapi/efi-openfinance-openapi.yml, openapi/efi-pagamentos-openapi.yml, openapi/efi-pix-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n    scopes: 0\n  sources:\n  - openapi/efi-cobrancas-openapi.yml\n  - openapi/efi-contas-openapi.yml\n  - openapi/efi-extratos-openapi.yml\n  - openapi/efi-openfinance-openapi.yml\n  - openapi/efi-pagamentos-openapi.yml\n  - openapi/efi-pix-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/gerencianet-account-api-openapi.yml, openapi/gerencianet-accounts-api-openapi.yml,\n  openapi/gerencianet-authorization-api-openapi.yml, openapi/gerencianet-automatic-charges-api-openapi.yml,\n  openapi/gerencianet-automatic-pix-api-openapi.yml, openapi/gerencianet-bill-payments-api-openapi.yml,\n  openapi/gerencianet-biometric-pix-api-openapi.yml, openapi/gerencianet-card-payments-api-openapi.yml,\n  openapi/gerencianet-carnets-api-openapi.yml, openapi/gerencianet-charges-api-openapi.yml,\n  openapi/gerencianet-configuration-api-openapi.yml, openapi/gerencianet-devolutions-api-openapi.yml\n  ...\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2Pix\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n    scopes: 10\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-accounts-api-openapi.yml\n\
+  \  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-automatic-pix-api-openapi.yml\n  - openapi/gerencianet-bill-payments-api-openapi.yml\n  - openapi/gerencianet-biometric-pix-api-openapi.yml\n  - openapi/gerencianet-card-payments-api-openapi.yml\n  - openapi/gerencianet-carnets-api-openapi.yml\n  - openapi/gerencianet-charges-api-openapi.yml\n  - openapi/gerencianet-configuration-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-pix-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-notifications-api-openapi.yml\n  - openapi/gerencianet-participants-api-openapi.yml\n  - openapi/gerencianet-payment-links-api-openapi.yml\n\
+  \  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-plans-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-scheduled-pix-api-openapi.yml\n  - openapi/gerencianet-sftp-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-statement-files-api-openapi.yml\n  - openapi/gerencianet-statement-schedules-api-openapi.yml\n  - openapi/gerencianet-subscriptions-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/authentication/gerencianet-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

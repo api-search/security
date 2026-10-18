@@ -133,7 +133,7 @@ tags:
 - Cloud Infrastructure
 - Networking
 - Web Performance
-- Azure
+- Microsoft Azure
 - Content Delivery
 - Web Application Firewall
 trust_url: https://www.microsoft.com/en-us/trust-center

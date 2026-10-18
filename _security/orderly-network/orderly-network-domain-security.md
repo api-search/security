@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-networ
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Perpetual Futures

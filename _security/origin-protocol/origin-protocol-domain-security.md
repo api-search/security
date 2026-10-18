@@ -134,7 +134,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin-protoco
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Analytics
 - Ethereum

@@ -36,7 +36,7 @@ tags:
 - Company
 - Classifieds
 - Marketplace
-- Jobs
+- Job
 - Housing
 - Community
 ---

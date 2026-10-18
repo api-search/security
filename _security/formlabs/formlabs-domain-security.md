@@ -80,7 +80,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - 3D Printing
-- Additive Manufacturing
 - SLA
 - SLS
 - Hardware

@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allocatec7c0/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Stub
 - Placeholder
 - Unverified
 - API-Evangelist

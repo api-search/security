@@ -34,5 +34,4 @@ tags:
 - Database
 - Platform
 - Cloud
-- API
 ---

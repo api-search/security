@@ -86,7 +86,7 @@ tags:
 - Blockchain
 - Wallets
 - Payments
-- Crypto
+- Cryptocurrency
 - Indexer
 - NFT
 - Developer Platform

@@ -66,8 +66,8 @@ tags:
 - Education
 - EdTech
 - Virtual Classroom
-- Learning Management
-- Online Learning
+- LMS
+- E-Learning
 - Training
 - Zoom
 - Microsoft Teams

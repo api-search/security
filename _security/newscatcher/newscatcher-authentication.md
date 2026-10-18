@@ -139,7 +139,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - News
 - Search
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Extraction
 - Clustering

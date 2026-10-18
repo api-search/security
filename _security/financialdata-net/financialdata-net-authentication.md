@@ -43,8 +43,8 @@ tags:
 - Market Data
 - Stocks
 - ETFs
-- Crypto
-- Forex
+- Cryptocurrency
+- Foreign Exchange
 - derivatives-options
 - Fundamentals
 - Insider Trading

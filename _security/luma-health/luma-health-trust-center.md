@@ -383,7 +383,7 @@ tags:
 - Intake
 - Messaging
 - Eligibility
-- EHR
+- Electronic Health Records
 - Interoperability
 - Clinical AI
 - Reputation Management

@@ -56,12 +56,12 @@ api_specs:
   slug: celestia-blobstream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-blobstream-api-openapi.yml
-- filename: celestia-p2-p-api-openapi.yml
+- filename: celestia-p2p-api-openapi.yml
   format: yaml
-  label: Celestia P2 P API
-  slug: celestia-p2-p-api
+  label: Celestia P2P API
+  slug: celestia-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2-p-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2p-api-openapi.yml
 auth_types:
 - http
 description: The Celestia Node API authenticates with a single HTTP bearer token, but the interesting part is not the scheme — it is who issues it and what it carries. The token is a JWT minted by the operator's own node through the `celestia <node_type> auth <level>` CLI (or node.AuthNew over an already-authorized connection), not by any Celestia Labs service. There is no vendor account, no API key to rotate in a dashboard, and no authorization server. Each token encodes one of four capability levels, and the provider declares the required level per method inside its OpenRPC document — which makes this a genuinely machine-readable permission model even though it is not OAuth.

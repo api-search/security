@@ -34,5 +34,4 @@ tags:
 - Finance
 - Investment
 - Directory
-- Stub
 ---

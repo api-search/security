@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: brokergenius-openapi-generated.yml
+- filename: brokergenius-brokergenius-api-api-openapi.yml
   format: yaml
-  label: Brokergenius API
-  slug: brokergenius-api
+  label: Brokergenius Brokergenius API
+  slug: brokergenius-brokergenius-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brokergenius/refs/heads/main/openapi/_ae-authored/brokergenius-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brokergenius/refs/heads/main/openapi/brokergenius-brokergenius-api-api-openapi.yml
+- filename: brokergenius-classify-api-openapi.yml
+  format: yaml
+  label: Brokergenius Classify API
+  slug: brokergenius-classify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brokergenius/refs/heads/main/openapi/brokergenius-classify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brokergenius/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Customs
-- AI
+- Artificial Intelligence
 - Automation
 - Brokerage
 - Logistics

@@ -2,12 +2,66 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: apiserpent-openapi-generated.yml
+- filename: apiserpent-ai-api-openapi.yml
   format: yaml
-  label: Contentladder Marketing API
-  slug: apiserpent-api
+  label: Contentladder Marketing AI API
+  slug: apiserpent-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/_ae-authored/apiserpent-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-ai-api-openapi.yml
+- filename: apiserpent-bulk-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Bulk API
+  slug: apiserpent-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-bulk-api-openapi.yml
+- filename: apiserpent-contentladder-marketing-api-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Contentladder Marketing API
+  slug: apiserpent-contentladder-marketing-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-contentladder-marketing-api-api-openapi.yml
+- filename: apiserpent-profile-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Profile API
+  slug: apiserpent-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-profile-api-openapi.yml
+- filename: apiserpent-reddit-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Reddit API
+  slug: apiserpent-reddit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-reddit-api-openapi.yml
+- filename: apiserpent-search-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Search API
+  slug: apiserpent-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-search-api-openapi.yml
+- filename: apiserpent-social-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Social API
+  slug: apiserpent-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-social-api-openapi.yml
+- filename: apiserpent-tiktok-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Tiktok API
+  slug: apiserpent-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-tiktok-api-openapi.yml
+- filename: apiserpent-x-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing X API
+  slug: apiserpent-x-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-x-api-openapi.yml
+- filename: apiserpent-linked-in-api-openapi.yml
+  format: yaml
+  label: Contentladder Marketing Linked In API
+  slug: apiserpent-linked-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiserpent/refs/heads/main/openapi/apiserpent-linked-in-api-openapi.yml
 auth_types: []
 description: Authentication uses a Serpent API key sent in the X-API-Key header.
 kind: authentication
@@ -38,7 +92,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - SERP
-- API
 - Search
 - Data
 ---

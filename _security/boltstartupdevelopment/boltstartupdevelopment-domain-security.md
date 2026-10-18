@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltstartupdev
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Startup
+- Startups
 - Technology
-- API
 - Development
 ---

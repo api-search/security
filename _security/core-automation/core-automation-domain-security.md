@@ -33,6 +33,6 @@ tags:
 - Automation
 - Integration
 - Low-code
-- SaaS
+- Software-as-a-Service
 - Enterprise
 ---

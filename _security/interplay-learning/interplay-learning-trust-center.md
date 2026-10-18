@@ -23,7 +23,7 @@ tags:
 - EdTech
 - Skilled Trades
 - Training
-- Learning Management
+- LMS
 - Workforce Development
 - HVAC
 - Simulation

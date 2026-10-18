@@ -59,7 +59,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Browser
 - Web Automation
-- Scraping
+- Web Scraping
 - AI Agents
 - Open Source
 - Browser Automation

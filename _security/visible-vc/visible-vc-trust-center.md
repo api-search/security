@@ -21,9 +21,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visible-vc/ref
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- FinTech
-- VentureCapital
-- PortfolioManagement
-- DataAnalytics
+- Fintech
+- Venture Capital
+- Portfolio Management
+- Data Analytics
 trust_url: https://visible.vc/security/
 ---

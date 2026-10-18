@@ -115,7 +115,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightspace/re
 summary_line: oauth2 · 1 scheme
 tags:
 - LMS
-- Learning Management System
 - EdTech
 - Education
 - Valence

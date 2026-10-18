@@ -37,7 +37,7 @@ tags:
 - Business Applications
 - ERP
 - Janitorial Services
-- Field Service Management
+- Field Service
 - Workforce Management
 - Facilities Maintenance
 - Payroll

@@ -75,6 +75,5 @@ summary_line: http · 1 scheme
 tags:
 - E-Signature
 - Document Management
-- Electronic Signature
 - Workflow Automation
 ---

@@ -48,6 +48,6 @@ tags:
 - NFT
 - Axie Infinity
 - JSON-RPC
-- Crypto
+- Cryptocurrency
 - Web3
 ---

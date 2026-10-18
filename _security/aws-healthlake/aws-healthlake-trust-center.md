@@ -53,7 +53,7 @@ tags:
 - Clinical Data
 - HIPAA
 - Interoperability
-- NLP
+- Natural Language Processing
 - Medical
 - HL7
 trust_url: https://aws.amazon.com/compliance/

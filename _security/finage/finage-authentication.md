@@ -108,7 +108,7 @@ tags:
 - Finance
 - Market Data
 - Stocks
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - ETFs
 - Indices

@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/security/lukka-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Market Data
 - Reference Data

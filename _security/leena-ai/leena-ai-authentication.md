@@ -99,9 +99,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/
 summary_line: 4 schemes
 tags:
 - Company
-- Ai Ml
-- AI Agents
 - Artificial Intelligence
+- AI Agents
 - Enterprise Software
 - Human Resources
 - ITSM

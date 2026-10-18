@@ -193,8 +193,7 @@ tags:
 - Payment Processing
 - Cross-Border
 - Money Transfer
-- Currency Exchange
-- FX
+- Foreign Exchange
 - Payouts
 - Real-Time Payments
 - ISO 20022

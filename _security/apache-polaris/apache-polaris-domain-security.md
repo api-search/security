@@ -40,6 +40,6 @@ tags:
 - Company
 - Data Platform
 - Open Source
-- Cloud Native
+- Cloud-Native
 - Apache
 ---

@@ -35,5 +35,5 @@ tags:
 - Gaming
 - Online Gambling
 - Sweden
-- Nasdaq
+- NASDAQ
 ---

@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: suzanne3d-openapi-generated.yml
+- filename: suzanne3d-generations-api-openapi.yml
   format: yaml
-  label: Suzanne API
-  slug: suzanne-api
+  label: Suzanne Generations API
+  slug: suzanne3d-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/_ae-authored/suzanne3d-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-generations-api-openapi.yml
+- filename: suzanne3d-jobs-api-openapi.yml
+  format: yaml
+  label: Suzanne Jobs API
+  slug: suzanne3d-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-jobs-api-openapi.yml
+- filename: suzanne3d-models-api-openapi.yml
+  format: yaml
+  label: Suzanne Models API
+  slug: suzanne3d-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-models-api-openapi.yml
+- filename: suzanne3d-uploads-api-openapi.yml
+  format: yaml
+  label: Suzanne Uploads API
+  slug: suzanne3d-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-uploads-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

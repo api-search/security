@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Artificial Intelligence
 - Functional Medicine
 - Integrative Medicine

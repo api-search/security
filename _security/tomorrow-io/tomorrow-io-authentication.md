@@ -63,6 +63,12 @@ api_specs:
   slug: tomorrow-io-timelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-timelines-api-openapi.yml
+- filename: tomorrow-io-climate-api-openapi.yml
+  format: yaml
+  label: Tomorrow.io Climate API
+  slug: tomorrow-io-climate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/openapi/tomorrow-io-climate-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

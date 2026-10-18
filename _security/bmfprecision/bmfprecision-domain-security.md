@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmfprecision/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - 3D Printing
-- Additive Manufacturing
 - Precision Electronics
 - Medical Devices
 - Microfluidics

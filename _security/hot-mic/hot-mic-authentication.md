@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: hot-mic-api-openapi-generated.yml
+- filename: hot-mic-presence-api-openapi.yml
   format: yaml
-  label: Hot Mic API Reference REST endpoints, webhooks, authentication, and tags. Build server-s API
-  slug: api-api
+  label: Hot Mic Presence API
+  slug: hot-mic-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/_ae-authored/hot-mic-api-openapi-generated.yml
-- filename: hot-mic-core-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/hot-mic-presence-api-openapi.yml
+- filename: hot-mic-streams-api-openapi.yml
   format: yaml
-  label: Hot Mic core API
-  slug: core-api
+  label: Hot Mic Streams API
+  slug: hot-mic-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/_ae-authored/hot-mic-core-openapi-generated.yml
-- filename: hot-mic-sdks-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/hot-mic-streams-api-openapi.yml
+- filename: hot-mic-studio-api-openapi.yml
   format: yaml
-  label: Hot Mic SDKs JavaScript, iOS, and Android client libraries — Player SDKs ship a drop-in API
-  slug: sdks-api
+  label: Hot Mic Studio API
+  slug: hot-mic-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/_ae-authored/hot-mic-sdks-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/hot-mic-studio-api-openapi.yml
+- filename: hot-mic-users-api-openapi.yml
+  format: yaml
+  label: Hot Mic Users API
+  slug: hot-mic-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hot-mic/refs/heads/main/openapi/hot-mic-users-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

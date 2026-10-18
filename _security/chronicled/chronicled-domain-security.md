@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronicled/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Supply Chain
 - Pharmaceuticals

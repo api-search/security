@@ -52,10 +52,4 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Integration
 - iPaaS
-- API Management
-- Workflow Automation
-- Enterprise Automation
-- AI Orchestration
-- Data Integration
-- Hybrid Deployment - Integration - iPaaS
 ---

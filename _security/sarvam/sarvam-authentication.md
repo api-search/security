@@ -87,7 +87,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Machine Learning
 - Speech-to-Text

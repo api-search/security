@@ -39,7 +39,7 @@ summary_line: SOC 2 Type II
 tags:
 - Blockchain
 - Compliance
-- Crypto
+- Cryptocurrency
 - Security
 - Risk Management
 - Sanctions Screening

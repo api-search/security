@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: checkout-openapi-generated.yml
+- filename: checkout-checkout-api-api-openapi.yml
   format: yaml
-  label: Checkout API
-  slug: checkout-api
+  label: Checkout Checkout API
+  slug: checkout-checkout-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/_ae-authored/checkout-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-checkout-api-api-openapi.yml
+- filename: checkout-connect-api-openapi.yml
+  format: yaml
+  label: Checkout Connect API
+  slug: checkout-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-connect-api-openapi.yml
+- filename: checkout-payments-api-openapi.yml
+  format: yaml
+  label: Checkout Payments API
+  slug: checkout-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkout/refs/heads/main/openapi/checkout-payments-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +57,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
 - Fintech
-- API
-- E-commerce
+- E-Commerce
 - Global
 ---

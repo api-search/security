@@ -66,7 +66,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Gaming
-- Crypto
 - Cryptocurrency
 - Payments
 - Withdrawals

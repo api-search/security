@@ -502,9 +502,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/authentication/archestra-authentication.yml
 summary_line: 5 schemes
 tags:
-- AI infrastructure
+- AI Infrastructure
 - MCP gateway
 - LLM proxy
 - Observability
-- Open source
+- Open Source
 ---

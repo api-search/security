@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: google-patents-openapi-generated.yml
+- filename: google-patents-repos-api-openapi.yml
   format: yaml
-  label: Google Patents API
-  slug: google-patents-api
+  label: Google Patents Repos API
+  slug: google-patents-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/openapi/_ae-authored/google-patents-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/openapi/google-patents-repos-api-openapi.yml
+- filename: google-patents-v1beta-api-openapi.yml
+  format: yaml
+  label: Google Patents V1Beta API
+  slug: google-patents-v1beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-patents/refs/heads/main/openapi/google-patents-v1beta-api-openapi.yml
 description: ''
 domains:
 - caa:

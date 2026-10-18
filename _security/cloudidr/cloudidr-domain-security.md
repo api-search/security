@@ -39,9 +39,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudidr/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- IAM
+- Identity and Access Management
 - Cloud
 - Security
-- AI
+- Artificial Intelligence
 - FinOps
 ---

@@ -85,7 +85,7 @@ tags:
 - Web3
 - DeFi
 - TVL
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Yield
 - Bridge

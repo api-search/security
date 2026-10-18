@@ -33,6 +33,5 @@ tags:
 - Company
 - Data
 - Integration
-- API
 - Technology
 ---

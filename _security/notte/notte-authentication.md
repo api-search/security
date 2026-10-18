@@ -77,5 +77,5 @@ tags:
 - Web Agents
 - Browser Automation
 - Sessions
-- Scraping
+- Web Scraping
 ---

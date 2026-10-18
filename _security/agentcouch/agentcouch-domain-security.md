@@ -35,7 +35,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Messaging
-- AI
+- Artificial Intelligence
 - Collaboration
 - MCP
 ---

@@ -250,7 +250,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/h
 summary_line: 2 schemes
 tags:
 - Compliance
-- AI
+- Artificial Intelligence
 - SOC 2
 - ISO 27001
 - HIPAA

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Finance
-- Secondary-Market
+- Secondary Market
 - Investment
 - Trading
 ---

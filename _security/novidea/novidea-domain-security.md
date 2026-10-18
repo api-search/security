@@ -36,7 +36,7 @@ tags:
 - Insurtech
 - Insurance Distribution
 - Insurance Software
-- Brokers
+- Brokerage
 - MGA
 - Salesforce
 - Claims

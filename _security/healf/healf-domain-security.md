@@ -37,5 +37,5 @@ tags:
 - Artificial Intelligence
 - Software-as-a-Service
 - Mexico
-- Brokers
+- Brokerage
 ---

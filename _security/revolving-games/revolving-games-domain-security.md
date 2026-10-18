@@ -36,5 +36,5 @@ tags:
 - Game Publisher
 - Strategy Games
 - Web3
-- Crypto
+- Cryptocurrency
 ---

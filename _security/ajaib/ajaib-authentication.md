@@ -75,7 +75,7 @@ tags:
 - Brokerage
 - Trading
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Stocks
 - Mutual Funds
 - Fintech

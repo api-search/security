@@ -48,10 +48,9 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/security/eclinicalworks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- EHR
+- Electronic Health Records
 - FHIR
 - Healthcare
-- Electronic Health Records
 - Practice Management
 - Clinical Data
 - Health Information Exchange

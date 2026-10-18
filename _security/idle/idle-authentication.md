@@ -52,7 +52,7 @@ tags:
 - DeFi
 - Yield Optimization
 - Finance
-- Crypto
+- Cryptocurrency
 - Staking
 - Governance
 - TVL

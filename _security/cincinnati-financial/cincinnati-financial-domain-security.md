@@ -42,6 +42,6 @@ tags:
 - Independent Agency
 - Insurance
 - Life Insurance
-- Property Casualty
+- Property and Casualty
 - Fortune 1000
 ---

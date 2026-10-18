@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Construction
 - Construction Technology
-- ConTech
 - Artificial Intelligence
 - Computer Vision
 - Reality Capture

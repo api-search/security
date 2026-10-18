@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guildfi/refs/h
 summary_line: DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Web3
 - Gaming
 - Blockchain

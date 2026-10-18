@@ -35,5 +35,5 @@ tags:
 - PublicTransit
 - Sweden
 - Stockholm
-- OpenData
+- Open Data
 ---

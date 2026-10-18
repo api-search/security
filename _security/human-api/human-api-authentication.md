@@ -89,7 +89,7 @@ tags:
 - Healthcare
 - United States
 - Health Data
-- EHR
+- Electronic Health Records
 - Interoperability
 - Remote Monitoring
 - Wearables

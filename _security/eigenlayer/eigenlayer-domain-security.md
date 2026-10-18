@@ -61,6 +61,6 @@ tags:
 - Ethereum
 - Data Availability
 - Verifiable Compute
-- Crypto
+- Cryptocurrency
 - Web3
 ---

@@ -34,7 +34,6 @@ tags:
 - Compliance Reporting
 - Sustainability
 - ERP Integration
-- API
 - European Suppliers
 - PPWR
 ---

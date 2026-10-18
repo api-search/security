@@ -96,7 +96,7 @@ tags:
 - Authentication
 - Authorization
 - Directory Services
-- Identity Management
+- Identity and Access Management
 - Microsoft Entra
 - Zero Trust
 ---

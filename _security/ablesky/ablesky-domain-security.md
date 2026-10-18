@@ -74,7 +74,7 @@ tags:
 - Education
 - E-Learning
 - Online Courses
-- Learning Management
+- LMS
 - Software-as-a-Service
 - Training
 - K-12

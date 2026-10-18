@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: https://api.bigc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/authentication/bigchange-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - Scheduling
 - Workforce Management

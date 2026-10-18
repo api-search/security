@@ -30,6 +30,6 @@ tags:
 - Mobility
 - Transportation
 - Europe
-- SaaS
+- Software-as-a-Service
 - Company
 ---

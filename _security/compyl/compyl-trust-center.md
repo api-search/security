@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Company
 - GRC
-- AI
+- Artificial Intelligence
 - Compliance
 - Risk Management
 trust_url: https://trust.compyl.com/

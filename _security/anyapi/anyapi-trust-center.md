@@ -501,11 +501,11 @@ tags:
 - Developer Tools
 - Data
 - Search
-- Scraping
+- Web Scraping
 - Social Media
 - E-Commerce
 - SEO
-- Enrichment
+- Data Enrichment
 - MCP
 - Agent-Native
 - Web Data

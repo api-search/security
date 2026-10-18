@@ -110,7 +110,7 @@ tags:
 - Web3
 - DeFi
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Portfolio Tracking
 - On-Chain Data
 - Wallets

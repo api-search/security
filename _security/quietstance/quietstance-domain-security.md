@@ -41,5 +41,4 @@ tags:
 - Infrastructure
 - Project Development
 - Collaboration
-- API
 ---

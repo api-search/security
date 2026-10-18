@@ -157,7 +157,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kamino/refs/he
 summary_line: trust center published
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Solana
 - Lending
@@ -166,7 +166,6 @@ tags:
 - Blockchain
 - Oracle
 - Vault
-- Web3
 - Cryptocurrency
 trust_url: https://kamino.com/security
 ---

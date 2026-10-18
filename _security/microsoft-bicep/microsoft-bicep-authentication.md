@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bice
 summary_line: oauth2 · 1 scheme
 tags:
 - ArmTemplates
-- Azure
+- Microsoft Azure
 - Cloud
 - Deployment
 - DevOps

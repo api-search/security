@@ -43,6 +43,6 @@ tags:
 - Company
 - Loyalty
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Rewards
 ---

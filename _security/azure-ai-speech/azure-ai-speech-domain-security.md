@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: azure-ai-speech-openapi-generated.yml
+- filename: azure-ai-speech-azure-ai-speech-api-api-openapi.yml
   format: yaml
-  label: Azure AI Speech API
-  slug: azure-ai-speech-api
+  label: Azure AI Speech Azure AI Speech API
+  slug: azure-ai-speech-azure-ai-speech-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/_ae-authored/azure-ai-speech-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-azure-ai-speech-api-api-openapi.yml
+- filename: azure-ai-speech-swagger-api-openapi.yml
+  format: yaml
+  label: Azure AI Speech Swagger API
+  slug: azure-ai-speech-swagger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-swagger-api-openapi.yml
+- filename: azure-ai-speech-todoitems-api-openapi.yml
+  format: yaml
+  label: Azure AI Speech Todoitems API
+  slug: azure-ai-speech-todoitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-todoitems-api-openapi.yml
+- filename: azure-ai-speech-weatherforecast-api-openapi.yml
+  format: yaml
+  label: Azure AI Speech Weatherforecast API
+  slug: azure-ai-speech-weatherforecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-weatherforecast-api-openapi.yml
+- filename: azure-ai-speech-to-dos-api-openapi.yml
+  format: yaml
+  label: Azure AI Speech To Dos API
+  slug: azure-ai-speech-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-to-dos-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -39,8 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud
-- AI
+- Artificial Intelligence
 - Speech
 - Microsoft
-- Service
+- Services
 ---

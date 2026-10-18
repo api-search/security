@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branch-messeng
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Mobile
-- Deep Linking
+- DeepLinking
 - Attribution
 - Marketing
 - Analytics

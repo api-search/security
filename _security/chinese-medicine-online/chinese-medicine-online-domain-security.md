@@ -31,7 +31,6 @@ tags:
 - Healthcare
 - Medical Education
 - Continuing Medical Education
-- Online Learning
 - E-Learning
 - Artificial Intelligence
 - China

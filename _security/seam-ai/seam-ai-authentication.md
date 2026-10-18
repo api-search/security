@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Account Based Marketing
 - Sales Intelligence
 - Marketing

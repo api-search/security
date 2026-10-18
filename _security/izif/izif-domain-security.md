@@ -33,7 +33,7 @@ tags:
 - Company
 - EdTech
 - Music Education
-- Online Learning
+- E-Learning
 - Video Courses
 - Arabic
 - Subscription

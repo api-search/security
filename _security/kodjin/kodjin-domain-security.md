@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: kodjin-openapi-generated.yml
+- filename: kodjin-auth-api-openapi.yml
   format: yaml
-  label: Kodjin API
-  slug: kodjin-api
+  label: Kodjin Auth API
+  slug: kodjin-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/_ae-authored/kodjin-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-auth-api-openapi.yml
+- filename: kodjin-fhir-api-openapi.yml
+  format: yaml
+  label: Kodjin Fhir API
+  slug: kodjin-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-fhir-api-openapi.yml
+- filename: kodjin-patient-api-openapi.yml
+  format: yaml
+  label: Kodjin Patient API
+  slug: kodjin-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-patient-api-openapi.yml
+- filename: kodjin-terminology-api-openapi.yml
+  format: yaml
+  label: Kodjin Terminology API
+  slug: kodjin-terminology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kodjin/refs/heads/main/openapi/kodjin-terminology-api-openapi.yml
 description: ''
 domains:
 - caa: []

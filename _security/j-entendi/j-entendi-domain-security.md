@@ -35,6 +35,5 @@ tags:
 - EdTech
 - Corporate Training
 - Video
-- Online Learning
 - Brazil
 ---

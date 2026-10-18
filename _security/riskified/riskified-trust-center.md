@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: riskified-automation-endpoints-api-openapi.yml
+  format: yaml
+  label: Riskified Automation Endpoints API
+  slug: riskified-automation-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-automation-endpoints-api-openapi.yml
+- filename: riskified-customer-actions-api-openapi.yml
+  format: yaml
+  label: Riskified Customer Actions API
+  slug: riskified-customer-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-customer-actions-api-openapi.yml
+- filename: riskified-customer-management-api-openapi.yml
+  format: yaml
+  label: Riskified Customer Management API
+  slug: riskified-customer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-customer-management-api-openapi.yml
+- filename: riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api-openapi.yml
+  format: yaml
+  label: Riskified Order Pre-Auth Review and PSD2/3DS/CVV Recommendations API
+  slug: riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-order-pre-auth-review-and-psd2-3ds-cvv-recommendations-api-openapi.yml
+- filename: riskified-otp-recover-sync-flow-api-openapi.yml
+  format: yaml
+  label: Riskified OTP Recover (Sync flow) API
+  slug: riskified-otp-recover-sync-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-otp-recover-sync-flow-api-openapi.yml
+- filename: riskified-post-authorization-flow-api-openapi.yml
+  format: yaml
+  label: Riskified Post-Authorization Flow API
+  slug: riskified-post-authorization-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-post-authorization-flow-api-openapi.yml
+- filename: riskified-pre-authorization-flow-api-openapi.yml
+  format: yaml
+  label: Riskified Pre-Authorization Flow API
+  slug: riskified-pre-authorization-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-pre-authorization-flow-api-openapi.yml
+- filename: riskified-refunds-api-openapi.yml
+  format: yaml
+  label: Riskified Refunds API
+  slug: riskified-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-refunds-api-openapi.yml
+- filename: riskified-returns-api-openapi.yml
+  format: yaml
+  label: Riskified Returns API
+  slug: riskified-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/openapi/riskified-returns-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

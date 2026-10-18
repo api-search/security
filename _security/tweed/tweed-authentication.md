@@ -109,7 +109,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Payments
-- Crypto
+- Cryptocurrency
 - Wallets
 - NFT
 - Blockchain

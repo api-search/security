@@ -32,6 +32,6 @@ tags:
 - Active Directory
 - Authentication
 - Directory Services
-- Identity Management
+- Identity and Access Management
 trust_url: https://aws.amazon.com/compliance/
 ---

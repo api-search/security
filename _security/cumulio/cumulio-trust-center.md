@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: cumulio-openapi-generated.yml
+- filename: cumulio-authorize-api-openapi.yml
   format: yaml
-  label: Cumulio API
-  slug: cumulio-api
+  label: Cumulio Authorize API
+  slug: cumulio-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/_ae-authored/cumulio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-authorize-api-openapi.yml
+- filename: cumulio-datasets-api-openapi.yml
+  format: yaml
+  label: Cumulio Datasets API
+  slug: cumulio-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-datasets-api-openapi.yml
+- filename: cumulio-exchange-api-openapi.yml
+  format: yaml
+  label: Cumulio Exchange API
+  slug: cumulio-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-exchange-api-openapi.yml
+- filename: cumulio-query-api-openapi.yml
+  format: yaml
+  label: Cumulio Query API
+  slug: cumulio-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cumulio/refs/heads/main/openapi/cumulio-query-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ergeon/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Construction Tech
+- Construction Technology
 - Home Improvement
 - Fencing
 - Home Services

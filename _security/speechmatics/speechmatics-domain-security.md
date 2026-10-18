@@ -76,7 +76,7 @@ tags:
 - Speaker Diarization
 - Text-to-Speech
 - Voice AI
-- NLP
+- Natural Language Processing
 - Audio Processing
 - WebSocket
 - REST

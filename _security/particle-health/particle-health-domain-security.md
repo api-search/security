@@ -153,7 +153,7 @@ tags:
 - CommonWell
 - Deltas
 - eHealth Exchange
-- EHR
+- Electronic Health Records
 - FHIR
 - Health Data
 - Health Information Exchange

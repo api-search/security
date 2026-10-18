@@ -117,7 +117,7 @@ tags:
 - Insurance
 - United Kingdom
 - Property and Casualty
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Pet Insurance
 - Travel Insurance

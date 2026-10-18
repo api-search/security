@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorsolution
 summary_line: apiKey · 1 scheme
 tags:
 - Training
-- Learning Management
+- LMS
 - Compliance
 - Public Safety
 - Workforce Management

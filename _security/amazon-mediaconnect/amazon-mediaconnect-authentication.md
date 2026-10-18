@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaco
 summary_line: apiKey · 1 scheme
 tags:
 - Broadcasting
-- Live Video
+- Live Streaming
 - Media
 - Media Transport
 ---

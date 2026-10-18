@@ -79,7 +79,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer Support
+- Customer Service
 - Customer Experience
 - Knowledge Management
 - Conversational AI

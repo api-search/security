@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: docupanda-analysis-api-openapi.yml
+  format: yaml
+  label: DocuPipe Analysis API
+  slug: docupanda-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+- filename: docupanda-account-api-openapi.yml
+  format: yaml
+  label: DocuPipe Account API
+  slug: docupanda-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+- filename: docupanda-account-api-openapi.yml
+  format: yaml
+  label: DocuPipe Account API
+  slug: docupanda-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-account-api-openapi.yml
+- filename: docupanda-analysis-api-openapi.yml
+  format: yaml
+  label: DocuPipe Analysis API
+  slug: docupanda-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-analysis-api-openapi.yml
+- filename: docupanda-classification-api-openapi.yml
+  format: yaml
+  label: DocuPipe Classification API
+  slug: docupanda-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-classification-api-openapi.yml
+- filename: docupanda-document-api-openapi.yml
+  format: yaml
+  label: DocuPipe Document API
+  slug: docupanda-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-document-api-openapi.yml
+- filename: docupanda-job-api-openapi.yml
+  format: yaml
+  label: DocuPipe Job API
+  slug: docupanda-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-job-api-openapi.yml
+- filename: docupanda-review-api-openapi.yml
+  format: yaml
+  label: DocuPipe Review API
+  slug: docupanda-review-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-review-api-openapi.yml
+- filename: docupanda-schema-api-openapi.yml
+  format: yaml
+  label: DocuPipe Schema API
+  slug: docupanda-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-schema-api-openapi.yml
+- filename: docupanda-standardization-api-openapi.yml
+  format: yaml
+  label: DocuPipe Standardization API
+  slug: docupanda-standardization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-standardization-api-openapi.yml
+- filename: docupanda-transformation-api-openapi.yml
+  format: yaml
+  label: DocuPipe Transformation API
+  slug: docupanda-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-transformation-api-openapi.yml
+- filename: docupanda-webhook-api-openapi.yml
+  format: yaml
+  label: DocuPipe Webhook API
+  slug: docupanda-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-webhook-api-openapi.yml
+- filename: docupanda-workflow-api-openapi.yml
+  format: yaml
+  label: DocuPipe Workflow API
+  slug: docupanda-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/openapi/docupanda-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +130,7 @@ tags:
 - Artificial Intelligence
 - Document Extraction
 - Document Intelligence
-- IDP
+- Intelligent Document Processing
 - OCR
 - Document AI
 ---

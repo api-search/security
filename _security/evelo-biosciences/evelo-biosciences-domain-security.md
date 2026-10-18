@@ -32,5 +32,4 @@ tags:
 - Microbiome
 - Pharmaceuticals
 - Dissolved
-- Venture Backed
 ---

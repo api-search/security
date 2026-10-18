@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: cloudhealthsystems-openapi-generated.yml
+- filename: cloudhealthsystems-aws-accounts-api-openapi.yml
   format: yaml
-  label: Cloudhealthsystems API
-  slug: cloudhealthsystems-api
+  label: Cloudhealthsystems Aws Accounts API
+  slug: cloudhealthsystems-aws-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/_ae-authored/cloudhealthsystems-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-aws-accounts-api-openapi.yml
+- filename: cloudhealthsystems-cloudhealthsystems-api-api-openapi.yml
+  format: yaml
+  label: Cloudhealthsystems Cloudhealthsystems API
+  slug: cloudhealthsystems-cloudhealthsystems-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-cloudhealthsystems-api-api-openapi.yml
+- filename: cloudhealthsystems-olap-reports-api-openapi.yml
+  format: yaml
+  label: Cloudhealthsystems Olap Reports API
+  slug: cloudhealthsystems-olap-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-olap-reports-api-openapi.yml
+- filename: cloudhealthsystems-perspective-schemas-api-openapi.yml
+  format: yaml
+  label: Cloudhealthsystems Perspective Schemas API
+  slug: cloudhealthsystems-perspective-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-perspective-schemas-api-openapi.yml
+- filename: cloudhealthsystems-rest-api-openapi.yml
+  format: yaml
+  label: Cloudhealthsystems Rest API
+  slug: cloudhealthsystems-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-rest-api-openapi.yml
+- filename: cloudhealthsystems-sso-api-openapi.yml
+  format: yaml
+  label: Cloudhealthsystems SSO API
+  slug: cloudhealthsystems-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudhealthsystems/refs/heads/main/openapi/cloudhealthsystems-sso-api-openapi.yml
 description: ''
 domains:
 - caa: []

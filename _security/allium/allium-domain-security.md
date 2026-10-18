@@ -64,7 +64,7 @@ tags:
 - Company
 - Data Analytics
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Web3
 - Data Infrastructure
 - Real-Time Data

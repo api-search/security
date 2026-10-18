@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spreaker
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/authentication/spreaker-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Media

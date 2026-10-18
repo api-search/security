@@ -52,7 +52,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Professional Education
 - Continuing Education
 - Certification

@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Agreements
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Invoicing
 - Billing

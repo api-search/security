@@ -31,7 +31,6 @@ tags:
 - EdTech
 - Education
 - E-Learning
-- Online Learning
 - Tutoring
 - Test Prep
 - India

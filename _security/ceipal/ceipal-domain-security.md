@@ -39,6 +39,6 @@ tags:
 - Company
 - Staffing
 - Recruiting
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 ---

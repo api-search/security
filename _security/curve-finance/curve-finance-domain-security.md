@@ -113,7 +113,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - AMM
 - Stablecoins
 - Pegged Assets

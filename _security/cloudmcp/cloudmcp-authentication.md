@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cloudmcp-openapi-generated.yml
+- filename: cloudmcp-cloud-mcp-api-api-openapi.yml
   format: yaml
-  label: Cloud MCP API
-  slug: cloudmcp-api
+  label: Cloud MCP Cloud MCP API
+  slug: cloudmcp-cloud-mcp-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/_ae-authored/cloudmcp-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-cloud-mcp-api-api-openapi.yml
+- filename: cloudmcp-credit-api-openapi.yml
+  format: yaml
+  label: Cloud MCP Credit API
+  slug: cloudmcp-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-credit-api-openapi.yml
+- filename: cloudmcp-dashboard-api-openapi.yml
+  format: yaml
+  label: Cloud MCP Dashboard API
+  slug: cloudmcp-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-dashboard-api-openapi.yml
+- filename: cloudmcp-orders-api-openapi.yml
+  format: yaml
+  label: Cloud MCP Orders API
+  slug: cloudmcp-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-orders-api-openapi.yml
+- filename: cloudmcp-plants-api-openapi.yml
+  format: yaml
+  label: Cloud MCP Plants API
+  slug: cloudmcp-plants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-plants-api-openapi.yml
+- filename: cloudmcp-user-api-openapi.yml
+  format: yaml
+  label: Cloud MCP User API
+  slug: cloudmcp-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-user-api-openapi.yml
+- filename: cloudmcp-users-api-openapi.yml
+  format: yaml
+  label: Cloud MCP Users API
+  slug: cloudmcp-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/heads/main/openapi/cloudmcp-users-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Cloud MCP
 kind: authentication
@@ -36,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmcp/refs/
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Integration
 - Tools
 - Automation

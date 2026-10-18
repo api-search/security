@@ -61,7 +61,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- Customer Support
 - Customer Service
 - Generative AI
 - SupportGPT

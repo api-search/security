@@ -104,7 +104,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/talentlm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/authentication/talentlms-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Learning Management System
 - LMS
 - E-Learning
 - Training

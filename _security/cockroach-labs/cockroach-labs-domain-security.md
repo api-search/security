@@ -264,6 +264,12 @@ api_specs:
   slug: cockroach-labs-private-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-private-endpoints-api-openapi.yml
+- filename: cockroach-labs-changefeed-asyncapi.yml
+  format: yaml
+  label: Cockroach Labs CockroachDB CHANGEFEED Sinks
+  slug: cockroach-labs-changefeed-sinks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/asyncapi/cockroach-labs-changefeed-asyncapi.yml
 description: ''
 domains:
 - caa: []

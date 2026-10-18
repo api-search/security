@@ -140,7 +140,7 @@ summary_line: apiKey/http · 7 schemes
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

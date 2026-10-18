@@ -96,7 +96,7 @@ summary_line: 3 schemes
 tags:
 - Insurance
 - Financial Services
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Enterprise
 - Fortune 100

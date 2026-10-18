@@ -172,7 +172,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://app.drc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/authentication/drchrono-authentication.yml
 summary_line: oauth2 · 4 schemes
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

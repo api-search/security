@@ -34,5 +34,5 @@ tags:
 - Finance
 - Belgium
 - BNP Paribas Group
-- Retail Banking
+- Consumer Banking
 ---

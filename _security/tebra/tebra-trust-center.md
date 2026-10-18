@@ -154,7 +154,7 @@ summary_line: PCI DSS, HIPAA
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Medical Billing
 - Patient Engagement
 - Kareo

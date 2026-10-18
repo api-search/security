@@ -202,7 +202,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ondo-finance/r
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Tokenization
 - Real World Assets
 - DeFi

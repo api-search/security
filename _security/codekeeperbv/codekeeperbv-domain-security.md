@@ -33,9 +33,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Software Escrow
 - Continuity
-- SaaS
+- Software-as-a-Service
 - Backup
-- AI
+- Artificial Intelligence
 - Compliance
 - Vendor Risk
 ---

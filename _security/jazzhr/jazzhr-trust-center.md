@@ -22,10 +22,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jazzhr/refs/he
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Recruiting
-- ATS
+- Applicant Tracking
 - Small Business
 - Hiring
-- SaaS
+- Software-as-a-Service
 - Company
 trust_url: https://www.jazzhr.com/security
 ---

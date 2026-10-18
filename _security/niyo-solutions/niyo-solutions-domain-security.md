@@ -42,7 +42,7 @@ tags:
 - Secured Credit Card
 - Savings Account
 - Outbound Remittance
-- Currency Exchange
+- Foreign Exchange
 - Travel eSIM
 - Travel Insurance
 - Flights

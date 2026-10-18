@@ -78,7 +78,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - GDPR
 - Intent Data

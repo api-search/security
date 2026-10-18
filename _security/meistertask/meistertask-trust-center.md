@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meistertask/re
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Project Management
 - Collaboration
 - Productivity

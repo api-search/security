@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: rotageek-openapi-generated.yml
+- filename: rotageek-auth-api-openapi.yml
   format: yaml
-  label: Rotageek API
-  slug: rotageek-api
+  label: Rotageek Auth API
+  slug: rotageek-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotageek/refs/heads/main/openapi/_ae-authored/rotageek-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rotageek/refs/heads/main/openapi/rotageek-auth-api-openapi.yml
+- filename: rotageek-rotageek-api-api-openapi.yml
+  format: yaml
+  label: Rotageek Rotageek API
+  slug: rotageek-rotageek-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotageek/refs/heads/main/openapi/rotageek-rotageek-api-api-openapi.yml
+- filename: rotageek-schedule-api-openapi.yml
+  format: yaml
+  label: Rotageek Schedule API
+  slug: rotageek-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotageek/refs/heads/main/openapi/rotageek-schedule-api-openapi.yml
 description: ''
 domains:
 - caa:

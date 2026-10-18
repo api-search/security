@@ -29,7 +29,6 @@ summary_line: DMARC
 tags:
 - Sports
 - Technology
-- API
 - Event Management
 - Analytics
 - Company

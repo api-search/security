@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: ckan-openapi-generated.yml
+- filename: ckan-action-api-openapi.yml
   format: yaml
-  label: CKAN API
-  slug: ckan-api
+  label: CKAN Action API
+  slug: ckan-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/_ae-authored/ckan-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-action-api-openapi.yml
+- filename: ckan-ckan-api-api-openapi.yml
+  format: yaml
+  label: CKAN CKAN API
+  slug: ckan-ckan-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-ckan-api-api-openapi.yml
+- filename: ckan-search-api-openapi.yml
+  format: yaml
+  label: CKAN Search API
+  slug: ckan-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-search-api-openapi.yml
+- filename: ckan-solr-api-openapi.yml
+  format: yaml
+  label: CKAN Solr API
+  slug: ckan-solr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/openapi/ckan-solr-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,9 +55,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ckan/refs/heads/main/security/ckan-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Open-Source
+- Open Source
 - Data-Management
-- API
 - Government
 - Community
 ---

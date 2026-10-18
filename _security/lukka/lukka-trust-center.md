@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nprobe: false\nurl: http
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/security/lukka-trust-center.yml
 summary_line: SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001
 tags:
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Market Data
 - Reference Data

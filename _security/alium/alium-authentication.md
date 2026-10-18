@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: alium-openapi-generated.yml
+- filename: alium-alium-api-api-openapi.yml
   format: yaml
-  label: Alium API
-  slug: alium-api
+  label: Alium Alium API
+  slug: alium-alium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/_ae-authored/alium-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-alium-api-api-openapi.yml
+- filename: alium-vendors-api-openapi.yml
+  format: yaml
+  label: Alium Vendors API
+  slug: alium-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alium/refs/heads/main/openapi/alium-vendors-api-openapi.yml
 auth_types: []
 description: 'All API requests authenticate with an API key, passed in the Authorization header as "Authorization: Token YOUR_API_KEY".'
 kind: authentication
@@ -38,6 +44,6 @@ summary_line: 1 scheme
 tags:
 - Vendor research
 - Marketing intelligence
-- E‑commerce
+- E-Commerce
 - Enterprise tech
 ---

@@ -34,6 +34,6 @@ tags:
 - Marketplace
 - Vintage
 - Furniture
-- E-commerce
+- E-Commerce
 - Art
 ---

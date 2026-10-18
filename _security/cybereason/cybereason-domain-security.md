@@ -106,7 +106,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity
 - XDR
-- EDR
+- Endpoint Detection and Response
 - NGAV
 - MDR
 - Endpoint Security

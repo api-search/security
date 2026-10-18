@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: veeqo-openapi-generated.yml
+- filename: veeqo-current-user-api-openapi.yml
   format: yaml
-  label: Veeqo API
-  slug: veeqo-api
+  label: Veeqo Current User API
+  slug: veeqo-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/_ae-authored/veeqo-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-current-user-api-openapi.yml
+- filename: veeqo-oauth-api-openapi.yml
+  format: yaml
+  label: Veeqo OAuth API
+  slug: veeqo-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-oauth-api-openapi.yml
+- filename: veeqo-orders-api-openapi.yml
+  format: yaml
+  label: Veeqo Orders API
+  slug: veeqo-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/heads/main/openapi/veeqo-orders-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,9 +53,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeqo/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- e-commerce
-- inventory-management
+- E-Commerce
+- Inventory
 - order-fulfillment
 - multi-channel
-- SaaS
+- Software-as-a-Service
 ---

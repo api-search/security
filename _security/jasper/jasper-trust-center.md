@@ -105,7 +105,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/he
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Content Generation
 - Marketing

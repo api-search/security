@@ -112,7 +112,7 @@ tags:
 - Cloud Storage
 - Data Lake
 - Multi-Cloud
-- Azure
+- Microsoft Azure
 - Google Cloud
 trust_url: https://trust.eon.io/
 ---

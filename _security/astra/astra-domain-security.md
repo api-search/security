@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: astra-accounts-api-openapi.yml
+  format: yaml
+  label: Astra Accounts API
+  slug: astra-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-accounts-api-openapi.yml
+- filename: astra-authorization-api-openapi.yml
+  format: yaml
+  label: Astra Authorization API
+  slug: astra-authorization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-authorization-api-openapi.yml
+- filename: astra-cards-api-openapi.yml
+  format: yaml
+  label: Astra Cards API
+  slug: astra-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-cards-api-openapi.yml
+- filename: astra-instant-payment-eligibility-api-openapi.yml
+  format: yaml
+  label: Astra Instant Payment Eligibility API
+  slug: astra-instant-payment-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-instant-payment-eligibility-api-openapi.yml
+- filename: astra-payment-instruments-api-openapi.yml
+  format: yaml
+  label: Astra Payment Instruments API
+  slug: astra-payment-instruments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-payment-instruments-api-openapi.yml
+- filename: astra-routines-api-openapi.yml
+  format: yaml
+  label: Astra Routines API
+  slug: astra-routines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-routines-api-openapi.yml
+- filename: astra-transfers-api-openapi.yml
+  format: yaml
+  label: Astra Transfers API
+  slug: astra-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-transfers-api-openapi.yml
+- filename: astra-user-api-openapi.yml
+  format: yaml
+  label: Astra User API
+  slug: astra-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-user-api-openapi.yml
 description: ''
 domains:
 - caa: []

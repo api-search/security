@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: acruxcore-openapi-generated.yml
+- filename: acruxcore-account-api-openapi.yml
   format: yaml
-  label: Acrux Core API
-  slug: acruxcore-api
+  label: Acrux Core Account API
+  slug: acruxcore-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/_ae-authored/acruxcore-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-account-api-openapi.yml
+- filename: acruxcore-acrux-core-api-api-openapi.yml
+  format: yaml
+  label: Acrux Core Acrux Core API
+  slug: acruxcore-acrux-core-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-acrux-core-api-api-openapi.yml
+- filename: acruxcore-prompts-api-openapi.yml
+  format: yaml
+  label: Acrux Core Prompts API
+  slug: acruxcore-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-prompts-api-openapi.yml
+- filename: acruxcore-tools-api-openapi.yml
+  format: yaml
+  label: Acrux Core Tools API
+  slug: acruxcore-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-tools-api-openapi.yml
+- filename: acruxcore-traces-api-openapi.yml
+  format: yaml
+  label: Acrux Core Traces API
+  slug: acruxcore-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-traces-api-openapi.yml
 auth_types: []
 description: Every endpoint authenticates with a Bearer API key in the Authorization header.
 kind: authentication
@@ -37,8 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs
 summary_line: 1 scheme
 tags:
 - LLMOps
-- OpenSource
+- Open Source
 - Platform
 - Engineering
-- AI
+- Artificial Intelligence
 ---

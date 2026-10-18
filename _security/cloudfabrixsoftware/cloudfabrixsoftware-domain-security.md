@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudfabrixsoftware/refs/heads/main/security/cloudfabrixsoftware-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 - Automation

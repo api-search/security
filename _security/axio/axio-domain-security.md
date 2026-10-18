@@ -33,7 +33,7 @@ tags:
 - Company
 - Manufacturing
 - Medical Devices
-- MedTech
+- Medical Technology
 - Healthcare
 - Wound Care
 - Hemostatic Dressings

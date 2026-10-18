@@ -83,5 +83,5 @@ tags:
 - Investigations
 - Blockchain Analytics
 - Risk Management
-- Crypto
+- Cryptocurrency
 ---

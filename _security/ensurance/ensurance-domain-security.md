@@ -50,7 +50,7 @@ tags:
 - Property and Casualty
 - Construction Insurance
 - Managing General Agent
-- Brokers
+- Brokerage
 - Wholesale Insurance
 - Insurtech
 ---

@@ -21,10 +21,9 @@ summary_line: ISO 27001, SOC 2 Type II
 tags:
 - Company
 - Artificial Intelligence
-- Field Service Management
+- Field Service
 - No-Code
 - Workflow Automation
-- Field Service
 - Enterprise Software
 trust_url: https://www.zinier.com/resources/security-compliance
 ---

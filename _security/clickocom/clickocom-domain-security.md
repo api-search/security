@@ -33,7 +33,6 @@ tags:
 - Advertising
 - Marketing
 - Analytics
-- API
 - Platform
 - Technology
 ---

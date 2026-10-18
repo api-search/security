@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Therapeutics
-- Inflammation
+- inflammation
 - Immunology
 ---

@@ -35,5 +35,5 @@ tags:
 - Agriculture
 - Automation
 - Industrial
-- AI
+- Artificial Intelligence
 ---

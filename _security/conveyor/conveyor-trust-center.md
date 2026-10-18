@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: conveyor-openapi-generated.yml
+- filename: conveyor-single-question-api-openapi.yml
   format: yaml
-  label: Conveyor API
-  slug: conveyor-api
+  label: Conveyor Single Question API
+  slug: conveyor-single-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/_ae-authored/conveyor-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/conveyor-single-question-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/security/conveyor-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
-- AI
+- Artificial Intelligence
 - Security Questionnaire Automation
 - RFP Automation
 - Trust Center

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mezo/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Bitcoin
 - DeFi
@@ -40,6 +40,5 @@ tags:
 - Stablecoins
 - JSON-RPC
 - Layer 2
-- Web3
 - Cryptocurrency
 ---

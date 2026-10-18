@@ -32,11 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datologyai/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Data Curation
 - Machine Learning
 - Training Data
 - Foundation Models
 - Data Optimization
-- Artificial Intelligence
 ---

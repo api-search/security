@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: sj-se-openapi-generated.yml
+- filename: sj-se-availabilities-api-openapi.yml
   format: yaml
-  label: SJ API
-  slug: sj-se-api
+  label: SJ Availabilities API
+  slug: sj-se-availabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/_ae-authored/sj-se-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-availabilities-api-openapi.yml
+- filename: sj-se-booking-api-openapi.yml
+  format: yaml
+  label: SJ Booking API
+  slug: sj-se-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-booking-api-openapi.yml
+- filename: sj-se-bookings-api-openapi.yml
+  format: yaml
+  label: SJ Bookings API
+  slug: sj-se-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-bookings-api-openapi.yml
+- filename: sj-se-contacts-api-openapi.yml
+  format: yaml
+  label: SJ Contacts API
+  slug: sj-se-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-contacts-api-openapi.yml
+- filename: sj-se-exchange-offers-api-openapi.yml
+  format: yaml
+  label: SJ Exchange Offers API
+  slug: sj-se-exchange-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-exchange-offers-api-openapi.yml
+- filename: sj-se-exchange-operations-api-openapi.yml
+  format: yaml
+  label: SJ Exchange Operations API
+  slug: sj-se-exchange-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-exchange-operations-api-openapi.yml
+- filename: sj-se-fulfillments-api-openapi.yml
+  format: yaml
+  label: SJ Fulfillments API
+  slug: sj-se-fulfillments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-fulfillments-api-openapi.yml
+- filename: sj-se-offers-api-openapi.yml
+  format: yaml
+  label: SJ Offers API
+  slug: sj-se-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-offers-api-openapi.yml
+- filename: sj-se-passenger-api-openapi.yml
+  format: yaml
+  label: SJ Passenger API
+  slug: sj-se-passenger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-passenger-api-openapi.yml
+- filename: sj-se-tenant-id-api-openapi.yml
+  format: yaml
+  label: SJ Tenant Id API
+  slug: sj-se-tenant-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sj-se/refs/heads/main/openapi/sj-se-tenant-id-api-openapi.yml
 description: ''
 domains:
 - caa: []

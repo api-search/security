@@ -77,7 +77,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Business Process
 - Collaboration
-- Diagrams
+- Diagramming
 - Enterprise
 - Flowcharts
 - Microsoft 365

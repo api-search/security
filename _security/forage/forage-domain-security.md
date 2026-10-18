@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: forage-payments-api-openapi.yml
+  format: yaml
+  label: Forage EBT SNAP Payments API
+  slug: forage-ebt-snap-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payments-api-openapi.yml
+- filename: forage-bearer-tokens-api-openapi.yml
+  format: yaml
+  label: Forage Bearer Tokens API
+  slug: forage-bearer-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-bearer-tokens-api-openapi.yml
+- filename: forage-card-details-api-openapi.yml
+  format: yaml
+  label: Forage Card Details API
+  slug: forage-card-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-card-details-api-openapi.yml
+- filename: forage-custom-sessions-api-openapi.yml
+  format: yaml
+  label: Forage Custom Sessions API
+  slug: forage-custom-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-custom-sessions-api-openapi.yml
+- filename: forage-deferred-capture-api-openapi.yml
+  format: yaml
+  label: Forage Deferred Capture API
+  slug: forage-deferred-capture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-deferred-capture-api-openapi.yml
+- filename: forage-fully-hosted-sessions-api-openapi.yml
+  format: yaml
+  label: Forage Fully Hosted Sessions API
+  slug: forage-fully-hosted-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-fully-hosted-sessions-api-openapi.yml
+- filename: forage-order-payments-api-openapi.yml
+  format: yaml
+  label: Forage Order Payments API
+  slug: forage-order-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-payments-api-openapi.yml
+- filename: forage-order-refunds-api-openapi.yml
+  format: yaml
+  label: Forage Order Refunds API
+  slug: forage-order-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-refunds-api-openapi.yml
+- filename: forage-orders-api-openapi.yml
+  format: yaml
+  label: Forage Orders API
+  slug: forage-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-orders-api-openapi.yml
+- filename: forage-payment-methods-api-openapi.yml
+  format: yaml
+  label: Forage Payment Methods API
+  slug: forage-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-methods-api-openapi.yml
+- filename: forage-payment-refunds-api-openapi.yml
+  format: yaml
+  label: Forage Payment Refunds API
+  slug: forage-payment-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-refunds-api-openapi.yml
+- filename: forage-reports-api-openapi.yml
+  format: yaml
+  label: Forage Reports API
+  slug: forage-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-reports-api-openapi.yml
+- filename: forage-sandbox-testing-api-openapi.yml
+  format: yaml
+  label: Forage Sandbox Testing API
+  slug: forage-sandbox-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-sandbox-testing-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -34,7 +34,7 @@ tags:
 - Insurance
 - United Kingdom
 - Ireland
-- Brokers
+- Brokerage
 - Agency Management
 - Policy Administration
 - Underwriting

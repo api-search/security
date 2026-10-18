@@ -34,7 +34,7 @@ tags:
 - Banking
 - Commercial Banking
 - Financial Services
-- Retail Banking
+- Consumer Banking
 - Wealth Management
 - Treasury Management
 - Open Banking

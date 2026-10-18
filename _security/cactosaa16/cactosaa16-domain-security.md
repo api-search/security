@@ -34,7 +34,7 @@ tags:
 - Energy
 - Storage
 - Finland
-- Startup
+- Startups
 - Battery
 - Company
 ---

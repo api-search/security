@@ -34,6 +34,5 @@ tags:
 - Company
 - Data
 - Technology
-- API
 - Platform
 ---

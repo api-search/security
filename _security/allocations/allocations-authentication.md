@@ -175,9 +175,9 @@ source_yaml: "generated: '2026-10-05'\nmethod: derived\nsource: openapi/allocati
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/authentication/allocations-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- FinTech
+- Fintech
 - FundAdministration
 - PrivateMarkets
-- SaaS
+- Software-as-a-Service
 - InvestmentPlatform
 ---

@@ -55,7 +55,7 @@ summary_line: TLSv1.3
 tags:
 - Currency
 - Exchange Rates
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Financial Data
 - Historical Rates

@@ -55,7 +55,7 @@ summary_line: 1 scheme
 tags:
 - Geospatial
 - AerialImagery
-- DataAnalytics
-- RealEstate
+- Data Analytics
+- Real Estate
 - Insurance
 ---

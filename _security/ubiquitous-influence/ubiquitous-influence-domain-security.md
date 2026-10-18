@@ -35,5 +35,5 @@ tags:
 - InfluencerMarketing
 - Advertising
 - DigitalMedia
-- SaaS
+- Software-as-a-Service
 ---

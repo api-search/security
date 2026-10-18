@@ -211,7 +211,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Payments
 - Bitcoin

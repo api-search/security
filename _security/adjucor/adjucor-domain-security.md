@@ -37,6 +37,6 @@ tags:
 - Heart Failure
 - Implantable Devices
 - Mechanical Circulatory Support
-- MedTech
+- Medical Technology
 - Germany
 ---

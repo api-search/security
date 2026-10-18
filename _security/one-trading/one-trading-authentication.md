@@ -69,7 +69,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Derivatives
 - Futures

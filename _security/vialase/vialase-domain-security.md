@@ -33,7 +33,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medical Technology
 - Ophthalmology
 - Glaucoma
 - Femtosecond Laser

@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contractpodai/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- LegalTech
+- Artificial Intelligence
+- Legal Tech
 - ContractManagement
 - Procurement
 ---

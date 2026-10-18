@@ -264,8 +264,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Behavioral Health
 - Electronic Health Records
-- EMR
-- EHR
 - Substance Use Disorder
 - Mental Health
 - Healthcare

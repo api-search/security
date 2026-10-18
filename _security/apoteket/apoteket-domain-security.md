@@ -35,5 +35,5 @@ tags:
 - Pharmacy
 - Healthcare
 - Sweden
-- E‑commerce
+- E-Commerce
 ---

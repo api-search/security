@@ -32,6 +32,6 @@ tags:
 - Company
 - Security
 - ITDR
-- SaaS
+- Software-as-a-Service
 - ThreatDetection
 ---

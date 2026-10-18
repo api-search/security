@@ -2,12 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cloudsek-openapi-generated.yml
+- filename: cloudsek-bulk-api-openapi.yml
   format: yaml
-  label: Cloudsek API
-  slug: cloudsek-api
+  label: Cloudsek Bulk API
+  slug: cloudsek-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/_ae-authored/cloudsek-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-bulk-api-openapi.yml
+- filename: cloudsek-comments-api-openapi.yml
+  format: yaml
+  label: Cloudsek Comments API
+  slug: cloudsek-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-comments-api-openapi.yml
+- filename: cloudsek-events-api-openapi.yml
+  format: yaml
+  label: Cloudsek Events API
+  slug: cloudsek-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-events-api-openapi.yml
+- filename: cloudsek-incidents-api-openapi.yml
+  format: yaml
+  label: Cloudsek Incidents API
+  slug: cloudsek-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-incidents-api-openapi.yml
+- filename: cloudsek-jobs-api-openapi.yml
+  format: yaml
+  label: Cloudsek Jobs API
+  slug: cloudsek-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-jobs-api-openapi.yml
+- filename: cloudsek-snapshot-api-openapi.yml
+  format: yaml
+  label: Cloudsek Snapshot API
+  slug: cloudsek-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsek/refs/heads/main/openapi/cloudsek-snapshot-api-openapi.yml
 auth_types: []
 description: Authentication schemes for CloudSEK API
 kind: authentication

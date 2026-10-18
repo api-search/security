@@ -42,7 +42,6 @@ tags:
 - Virtual Classroom
 - E-Learning
 - LMS
-- Online Learning
 - Corporate Training
 - Video Conferencing
 ---

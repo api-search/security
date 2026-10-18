@@ -34,6 +34,6 @@ tags:
 - Manufacturing
 - Carbon Fiber
 - Composites
-- Additive Manufacturing
+- 3D Printing
 - Aerospace
 ---

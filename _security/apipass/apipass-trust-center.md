@@ -159,9 +159,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apipass/refs/h
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketplace
-- API
 - Pricing
 trust_url: https://apipass.dev/trust
 ---

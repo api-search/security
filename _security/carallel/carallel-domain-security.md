@@ -34,7 +34,7 @@ tags:
 - Company
 - Healthcare
 - Caregiving
-- DigitalHealth
+- Digital Health
 - Platform
 - B2B
 ---

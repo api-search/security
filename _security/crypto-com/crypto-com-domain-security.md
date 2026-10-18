@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crypto-com/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Derivatives
 - Market Data

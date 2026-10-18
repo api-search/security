@@ -33,6 +33,6 @@ tags:
 - Company
 - Financial Services
 - Holding Company
-- Investments
+- Investment
 - Real Estate
 ---

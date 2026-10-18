@@ -159,13 +159,12 @@ tags:
 - Prospecting
 - Engagement
 - B2B Data
-- Enrichment
+- Data Enrichment
 - CRM
 - Sales Engagement
 - Conversation Intelligence
 - MCP
 - Software-as-a-Service
-- Data Enrichment
 - People Search
 - Company Search
 - Agents

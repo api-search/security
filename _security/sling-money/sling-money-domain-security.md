@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sling-money/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Money Transfer

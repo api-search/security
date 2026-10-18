@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Structural Heart
 - Cardiovascular
 - Heart Valves

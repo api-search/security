@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Transportation
-- Ridesharing
+- Ride Hailing
 - Mobility
 - Automotive
 - Defunct

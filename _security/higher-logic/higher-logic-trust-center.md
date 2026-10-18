@@ -24,6 +24,6 @@ tags:
 - Customer Retention
 - Associations
 - B2B
-- B2C
+- Consumer
 trust_url: https://trust.higherlogic.com/
 ---

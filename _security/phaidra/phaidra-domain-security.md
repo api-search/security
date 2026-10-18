@@ -35,11 +35,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phaidra/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Data Center
 - Industrial Automation
 - Reinforcement Learning
 - Energy Efficiency
 - Autonomous Control
-- Artificial Intelligence
 ---

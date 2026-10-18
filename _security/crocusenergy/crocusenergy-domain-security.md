@@ -35,5 +35,5 @@ tags:
 - Renewable Energy
 - Solar
 - Wind
-- CleanTech
+- Cleantech
 ---

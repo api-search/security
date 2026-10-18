@@ -30,12 +30,6 @@ api_specs:
   slug: customer-io-broadcasts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-broadcasts-api-openapi.yml
-- filename: customer-io-campaigns-api-openapi.yml
-  format: yaml
-  label: Customer.io Campaigns API
-  slug: customer-io-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-campaigns-api-openapi.yml
 - filename: customer-io-collections-api-openapi.yml
   format: yaml
   label: Customer.io Collections API
@@ -120,24 +114,12 @@ api_specs:
   slug: customer-io-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-assets-api-openapi.yml
-- filename: customer-io-customer-io-app-api-api-openapi.yml
-  format: yaml
-  label: Customer.io App API
-  slug: customer-io-customer-io-app-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customer-io-app-api-api-openapi.yml
 - filename: customer-io-data-index-api-openapi.yml
   format: yaml
   label: Customer.io Data Index API
   slug: customer-io-data-index-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-data-index-api-openapi.yml
-- filename: customer-io-design-studio-api-openapi.yml
-  format: yaml
-  label: Customer.io Design Studio API
-  slug: customer-io-design-studio-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-design-studio-api-openapi.yml
 - filename: customer-io-esp-suppression-api-openapi.yml
   format: yaml
   label: Customer.io ESP Suppression API
@@ -246,6 +228,60 @@ api_specs:
   slug: customer-io-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-workspaces-api-openapi.yml
+- filename: customer-io-automations-api-openapi.yml
+  format: yaml
+  label: Customer.io Automations API
+  slug: customer-io-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-automations-api-openapi.yml
+- filename: customer-io-components-api-openapi.yml
+  format: yaml
+  label: Customer.io Components API
+  slug: customer-io-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-components-api-openapi.yml
+- filename: customer-io-customer-io-journeys-api-reference-api-openapi.yml
+  format: yaml
+  label: Customer.io Customer.io Journeys API Reference API
+  slug: customer-io-customer-io-journeys-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-customer-io-journeys-api-reference-api-openapi.yml
+- filename: customer-io-email-link-and-publish-api-openapi.yml
+  format: yaml
+  label: Customer.io Email link and publish API
+  slug: customer-io-email-link-and-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-email-link-and-publish-api-openapi.yml
+- filename: customer-io-email-testing-api-openapi.yml
+  format: yaml
+  label: Customer.io Email testing API
+  slug: customer-io-email-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-email-testing-api-openapi.yml
+- filename: customer-io-emails-api-openapi.yml
+  format: yaml
+  label: Customer.io Emails API
+  slug: customer-io-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-emails-api-openapi.yml
+- filename: customer-io-folders-api-openapi.yml
+  format: yaml
+  label: Customer.io Folders API
+  slug: customer-io-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-folders-api-openapi.yml
+- filename: customer-io-sms-api-openapi.yml
+  format: yaml
+  label: Customer.io SMS API
+  slug: customer-io-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-sms-api-openapi.yml
+- filename: customer-io-sms-link-and-publish-api-openapi.yml
+  format: yaml
+  label: Customer.io SMS link and publish API
+  slug: customer-io-sms-link-and-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-sms-link-and-publish-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -255,19 +291,19 @@ domains:
   domain: customer.io
   spf: true
 hosts:
-- cert_expires: Sep 22 13:17:15 2026 GMT
+- cert_expires: Nov 22 23:52:30 2026 GMT
   host: customer.io
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 25 04:23:41 2026 GMT
+- cert_expires: Dec 24 03:33:42 2026 GMT
   host: docs.customer.io
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 28 11:51:05 2026 GMT
+- cert_expires: Dec 24 05:23:57 2026 GMT
   host: track.customer.io
   hsts: true
   hsts_max_age: 31536000
@@ -286,7 +322,7 @@ slug: customer-io-domain-security
 source_filename: customer-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 13:17:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 04:23:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: track.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 11:51:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: customer.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:52:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 03:33:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: track.customer.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 05:23:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: customer.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/security/customer-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

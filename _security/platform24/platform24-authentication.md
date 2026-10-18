@@ -61,8 +61,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform24/ref
 summary_line: 1 scheme
 tags:
 - Healthcare
-- DigitalHealth
+- Digital Health
 - Platform
-- PatientEngagement
+- Patient Engagement
 - Company
 ---

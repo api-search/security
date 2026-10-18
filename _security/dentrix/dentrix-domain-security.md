@@ -48,7 +48,7 @@ tags:
 - Healthcare
 - Dentistry
 - Patient Data
-- EHR
+- Electronic Health Records
 - Partner API
 - Henry Schein One
 ---

@@ -97,7 +97,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Cybersecurity
 - XDR
-- EDR
+- Endpoint Detection and Response
 - NGAV
 - MDR
 - Endpoint Security

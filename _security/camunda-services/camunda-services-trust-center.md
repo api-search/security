@@ -1,23 +1,113 @@
 ---
 api_specs:
-- filename: camunda-services-apis-tools-openapi-generated.yml
+- filename: camunda-services-actuator-api-openapi.yml
   format: yaml
-  label: Camunda Services apis tools API
-  slug: apis-tools-api
+  label: Camunda Services Actuator API
+  slug: camunda-services-actuator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/_ae-authored/camunda-services-apis-tools-openapi-generated.yml
-- filename: camunda-services-core-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-actuator-api-openapi.yml
+- filename: camunda-services-auth-api-openapi.yml
   format: yaml
-  label: Camunda Services core API
-  slug: core-api
+  label: Camunda Services Auth API
+  slug: camunda-services-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/_ae-authored/camunda-services-core-openapi-generated.yml
-- filename: camunda-services-self-managed-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-auth-api-openapi.yml
+- filename: camunda-services-camunda-services-api-api-openapi.yml
   format: yaml
-  label: Camunda Services self managed API
-  slug: self-managed-api
+  label: Camunda Services Camunda Services API
+  slug: camunda-services-camunda-services-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/_ae-authored/camunda-services-self-managed-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-camunda-services-api-api-openapi.yml
+- filename: camunda-services-cluster-api-openapi.yml
+  format: yaml
+  label: Camunda Services Cluster API
+  slug: camunda-services-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-cluster-api-openapi.yml
+- filename: camunda-services-cluster-id-api-openapi.yml
+  format: yaml
+  label: Camunda Services Cluster Id API
+  slug: camunda-services-cluster-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-cluster-id-api-openapi.yml
+- filename: camunda-services-deployments-api-openapi.yml
+  format: yaml
+  label: Camunda Services Deployments API
+  slug: camunda-services-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-deployments-api-openapi.yml
+- filename: camunda-services-info-api-openapi.yml
+  format: yaml
+  label: Camunda Services Info API
+  slug: camunda-services-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-info-api-openapi.yml
+- filename: camunda-services-ingestion-api-openapi.yml
+  format: yaml
+  label: Camunda Services Ingestion API
+  slug: camunda-services-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-ingestion-api-openapi.yml
+- filename: camunda-services-members-api-openapi.yml
+  format: yaml
+  label: Camunda Services Members API
+  slug: camunda-services-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-members-api-openapi.yml
+- filename: camunda-services-process-definitions-api-openapi.yml
+  format: yaml
+  label: Camunda Services Process Definitions API
+  slug: camunda-services-process-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-process-definitions-api-openapi.yml
+- filename: camunda-services-process-instances-api-openapi.yml
+  format: yaml
+  label: Camunda Services Process Instances API
+  slug: camunda-services-process-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-process-instances-api-openapi.yml
+- filename: camunda-services-public-api-openapi.yml
+  format: yaml
+  label: Camunda Services Public API
+  slug: camunda-services-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-public-api-openapi.yml
+- filename: camunda-services-readyz-api-openapi.yml
+  format: yaml
+  label: Camunda Services Readyz API
+  slug: camunda-services-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-readyz-api-openapi.yml
+- filename: camunda-services-resources-api-openapi.yml
+  format: yaml
+  label: Camunda Services Resources API
+  slug: camunda-services-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-resources-api-openapi.yml
+- filename: camunda-services-setup-api-openapi.yml
+  format: yaml
+  label: Camunda Services Setup API
+  slug: camunda-services-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-setup-api-openapi.yml
+- filename: camunda-services-topology-api-openapi.yml
+  format: yaml
+  label: Camunda Services Topology API
+  slug: camunda-services-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-topology-api-openapi.yml
+- filename: camunda-services-user-tasks-api-openapi.yml
+  format: yaml
+  label: Camunda Services User Tasks API
+  slug: camunda-services-user-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-user-tasks-api-openapi.yml
+- filename: camunda-services-chat-completions-api-openapi.yml
+  format: yaml
+  label: Camunda Services Chat Completions API
+  slug: camunda-services-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda-services/refs/heads/main/openapi/camunda-services-chat-completions-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -41,7 +131,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camunda-servic
 summary_line: SOC 2, ISO 27001, ISO 27018, GDPR
 tags:
 - Company
-- Workflow
+- Workflows
 - BPMN
 - DMN
 - Automation

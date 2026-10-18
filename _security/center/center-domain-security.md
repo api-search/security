@@ -34,6 +34,6 @@ tags:
 - PersonalAssistant
 - SMS
 - Messaging
-- AI
+- Artificial Intelligence
 - Privacy
 ---

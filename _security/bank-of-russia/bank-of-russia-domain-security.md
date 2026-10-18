@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-russia/refs/heads/main/security/bank-of-russia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Currency Exchange
+- Foreign Exchange
 - Public APIs
 - Exchange Rates
 ---

@@ -20,7 +20,7 @@ summary_line: ISO 27001
 tags:
 - Company
 - AI Agents
-- Customer Support
+- Customer Service
 - Onboarding
 - User Activation
 - Screen Sharing

@@ -163,7 +163,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty

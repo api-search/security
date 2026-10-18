@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omni-network/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Interoperability
 - Cross-Chain

@@ -86,7 +86,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - Aggregator
 - Swap
 - Multi-Chain

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - IT-Consulting
-- Digital-Transformation
+- Digital Transformation
 - AI-Services
 - Data-Platforms
 - Maryland

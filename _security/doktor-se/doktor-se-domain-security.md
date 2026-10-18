@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doktor-se/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
-- Telemedicine
+- Telehealth
 - Sweden
-- DigitalHealth
-- API
+- Digital Health
 ---

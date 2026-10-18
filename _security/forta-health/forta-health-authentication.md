@@ -244,6 +244,6 @@ tags:
 - Clinical Operations
 - Medicaid
 - Health Insurance
-- EHR
+- Electronic Health Records
 - Machine Learning
 ---

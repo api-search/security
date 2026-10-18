@@ -244,7 +244,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Security
 - Identity
-- Access Management
+- Identity and Access Management
 - Workload Identity
 - Non-Human Identity
 - Secrets Management

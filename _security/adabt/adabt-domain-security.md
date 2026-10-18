@@ -34,6 +34,5 @@ tags:
 - Data Integration
 - Transport
 - Logistics
-- SaaS
-- API
+- Software-as-a-Service
 ---

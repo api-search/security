@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Software
-- DeveloperTools
+- Developer Tools
 - Platform
-- API
 ---

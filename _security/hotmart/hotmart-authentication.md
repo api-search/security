@@ -56,6 +56,6 @@ tags:
 - Subscription
 - Affiliate Marketing
 - Webhook
-- Learning Management
+- LMS
 - Brazil
 ---

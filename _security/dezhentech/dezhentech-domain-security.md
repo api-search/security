@@ -34,7 +34,7 @@ tags:
 - Healthcare
 - Health IT
 - Hospital Information Systems
-- Electronic Medical Records
+- Electronic Health Records
 - Medical
 - Data Integration
 - China

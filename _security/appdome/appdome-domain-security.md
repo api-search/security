@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: appdome-api-account-maintenance-api-openapi.yml
+  format: yaml
+  label: Appdome API Account Maintenance API
+  slug: appdome-api-account-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-account-maintenance-api-openapi.yml
+- filename: appdome-api-team-management-api-openapi.yml
+  format: yaml
+  label: Appdome API Team Management API
+  slug: appdome-api-team-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-team-management-api-openapi.yml
+- filename: appdome-api-user-management-api-openapi.yml
+  format: yaml
+  label: Appdome API User Management API
+  slug: appdome-api-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-api-user-management-api-openapi.yml
+- filename: appdome-app-validation-api-openapi.yml
+  format: yaml
+  label: Appdome App Validation API
+  slug: appdome-app-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-app-validation-api-openapi.yml
+- filename: appdome-device-match-api-openapi.yml
+  format: yaml
+  label: Appdome Device Match API
+  slug: appdome-device-match-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-device-match-api-openapi.yml
+- filename: appdome-secure-certificate-api-openapi.yml
+  format: yaml
+  label: Appdome Secure Certificate API
+  slug: appdome-secure-certificate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-secure-certificate-api-openapi.yml
+- filename: appdome-tasks-api-openapi.yml
+  format: yaml
+  label: Appdome Tasks API
+  slug: appdome-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdome/refs/heads/main/openapi/appdome-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

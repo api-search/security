@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstory/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Media
 - Audio

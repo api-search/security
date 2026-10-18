@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: earningscall-openapi-generated.yml
+- filename: earningscall-audio-api-openapi.yml
   format: yaml
-  label: EarningsCall API
-  slug: earningscall-api
+  label: EarningsCall Audio API
+  slug: earningscall-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/_ae-authored/earningscall-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-audio-api-openapi.yml
+- filename: earningscall-calendar-api-openapi.yml
+  format: yaml
+  label: EarningsCall Calendar API
+  slug: earningscall-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-calendar-api-openapi.yml
+- filename: earningscall-events-api-openapi.yml
+  format: yaml
+  label: EarningsCall Events API
+  slug: earningscall-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-events-api-openapi.yml
+- filename: earningscall-live-api-openapi.yml
+  format: yaml
+  label: EarningsCall Live API
+  slug: earningscall-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-live-api-openapi.yml
+- filename: earningscall-slides-api-openapi.yml
+  format: yaml
+  label: EarningsCall Slides API
+  slug: earningscall-slides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-slides-api-openapi.yml
+- filename: earningscall-symbols-api-openapi.yml
+  format: yaml
+  label: EarningsCall Symbols API
+  slug: earningscall-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-symbols-api-openapi.yml
+- filename: earningscall-transcript-api-openapi.yml
+  format: yaml
+  label: EarningsCall Transcript API
+  slug: earningscall-transcript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/earningscall/refs/heads/main/openapi/earningscall-transcript-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +76,5 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - Earnings
 ---

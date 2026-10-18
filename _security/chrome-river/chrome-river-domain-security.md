@@ -124,7 +124,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Expense Management
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - Travel
 ---

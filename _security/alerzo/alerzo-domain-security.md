@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Technology
 - B2B
-- E-commerce
+- E-Commerce
 - Nigeria
 - Fintech
 ---

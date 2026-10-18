@@ -2,12 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: fused-openapi-generated.yml
+- filename: fused-fc-your-canvas-token-api-openapi.yml
   format: yaml
-  label: Fused API
-  slug: fused-api
+  label: Fused Fc Your Canvas Token API
+  slug: fused-fc-your-canvas-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/_ae-authored/fused-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-fc-your-canvas-token-api-openapi.yml
+- filename: fused-files-api-openapi.yml
+  format: yaml
+  label: Fused Files API
+  slug: fused-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-files-api-openapi.yml
+- filename: fused-secrets-api-openapi.yml
+  format: yaml
+  label: Fused Secrets API
+  slug: fused-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-secrets-api-openapi.yml
+- filename: fused-server-api-openapi.yml
+  format: yaml
+  label: Fused Server API
+  slug: fused-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-server-api-openapi.yml
+- filename: fused-session-token-api-openapi.yml
+  format: yaml
+  label: Fused Session Token API
+  slug: fused-session-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-session-token-api-openapi.yml
+- filename: fused-udf-api-openapi.yml
+  format: yaml
+  label: Fused Udf API
+  slug: fused-udf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-udf-api-openapi.yml
+- filename: fused-user-api-openapi.yml
+  format: yaml
+  label: Fused User API
+  slug: fused-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fused/refs/heads/main/openapi/fused-user-api-openapi.yml
 auth_types: []
 description: Authentication methods for Fused UDF API
 kind: authentication
@@ -44,8 +80,8 @@ summary_line: 2 schemes
 tags:
 - Company
 - Analytics
-- AI
-- DataPlatform
+- Artificial Intelligence
+- Data Platform
 - Python
 - LowCode
 ---

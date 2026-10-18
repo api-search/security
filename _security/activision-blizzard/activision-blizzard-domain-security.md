@@ -75,4 +75,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-bli
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Fortune 1000
+- Video Games
+- Gaming
+- Entertainment
+- Game Publisher
 ---

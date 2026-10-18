@@ -35,7 +35,7 @@ tags:
 - Continuing Professional Education
 - CPE
 - Compliance
-- Learning Management System
+- LMS
 - Accounting
 - Professional Development
 - Software-as-a-Service

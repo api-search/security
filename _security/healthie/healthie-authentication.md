@@ -79,8 +79,7 @@ tags:
 - Claims
 - Clinical
 - Digital Health
-- EHR
-- EMR
+- Electronic Health Records
 - Forms
 - GraphQL
 - Health Tech

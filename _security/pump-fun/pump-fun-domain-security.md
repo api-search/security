@@ -37,5 +37,5 @@ tags:
 - AMM
 - Live Streaming
 - DeFi
-- Crypto
+- Cryptocurrency
 ---

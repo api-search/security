@@ -76,6 +76,6 @@ tags:
 - Admissions
 - Tutoring
 - Students
-- Online Learning
+- E-Learning
 - Mentoring
 ---

@@ -943,53 +943,141 @@ schemes:
   name: X-Auth-Token
   parameter: X-Auth-Token
   sources:
-  - openapi/abandoned-cart-emails-openapi-original.yml
-  - openapi/abandoned-carts-openapi-original.yml
-  - openapi/accepted-payment-methods-openapi-original.yml
-  - openapi/accepted-payment-methods-openapi.yml
-  - openapi/carts-openapi-original.yml
-  - openapi/catalog-brands-openapi-original.yml
-  - openapi/catalog-categories-openapi-original.yml
-  - openapi/catalog-category-trees-openapi-original.yml
-  - openapi/catalog-product-modifiers-openapi-original.yml
-  - openapi/catalog-product-variant-options-openapi-original.yml
-  - openapi/catalog-product-variants-openapi-original.yml
-  - openapi/catalog-products-openapi-original.yml
-  - openapi/channels-openapi-original.yml
-  - openapi/checkouts-openapi-original.yml
-  - openapi/content-openapi-original.yml
-  - openapi/currencies-openapi-original.yml
-  - openapi/custom-template-associations-openapi-original.yml
-  - openapi/customers-openapi-original.yml
-  - openapi/email-templates-openapi-original.yml
-  - openapi/geography-openapi-original.yml
-  - openapi/marketing-openapi-original.yml
-  - openapi/orders-openapi-original.yml
-  - openapi/pages-openapi-original.yml
-  - openapi/payment-access-token-openapi-original.yml
-  - openapi/payment-access-token-openapi.yml
-  - openapi/payment-methods-deprecated-openapi-original.yml
-  - openapi/price-lists-openapi-original.yml
-  - openapi/pricing-openapi-original.yml
-  - openapi/redirects-openapi-original.yml
-  - openapi/scripts-openapi-original.yml
-  - openapi/settings-openapi-original.yml
-  - openapi/shipping-openapi-original.yml
-  - openapi/sites-openapi-original.yml
-  - openapi/store-information-openapi-original.yml
-  - openapi/store-logs-openapi-original.yml
-  - openapi/storefront-token-openapi-original.yml
-  - openapi/subscribers-openapi-original.yml
-  - openapi/tax-classes-openapi-original.yml
-  - openapi/tax-properties-openapi-original.yml
-  - openapi/tax-provider-connection-openapi-original.yml
-  - openapi/tax-rates-zones-openapi-original.yml
-  - openapi/tax-settings-openapi-original.yml
-  - openapi/tax-zone-check-openapi-original.yml
-  - openapi/themes-openapi-original.yml
-  - openapi/webhooks-v3-openapi-original.yml
-  - openapi/widgets-openapi-original.yml
-  - openapi/wishlist-openapi-original.yml
+  - openapi/bigcommerce-abandoned-cart-emails-api-openapi.yml
+  - openapi/bigcommerce-abandoned-cart-settings-api-openapi.yml
+  - openapi/bigcommerce-abandoned-carts-api-openapi.yml
+  - openapi/bigcommerce-abandoned-carts-settings-api-openapi.yml
+  - openapi/bigcommerce-active-theme-api-openapi.yml
+  - openapi/bigcommerce-addresses-api-openapi.yml
+  - openapi/bigcommerce-analytics-api-openapi.yml
+  - openapi/bigcommerce-api-token-api-openapi.yml
+  - openapi/bigcommerce-attribute-values-api-openapi.yml
+  - openapi/bigcommerce-attributes-api-openapi.yml
+  - openapi/bigcommerce-banners-api-openapi.yml
+  - openapi/bigcommerce-batch-metafields-api-openapi.yml
+  - openapi/bigcommerce-blog-posts-api-openapi.yml
+  - openapi/bigcommerce-blog-tags-api-openapi.yml
+  - openapi/bigcommerce-brands-api-openapi.yml
+  - openapi/bigcommerce-bulk-pricing-rules-api-openapi.yml
+  - openapi/bigcommerce-carts-single-api-openapi.yml
+  - openapi/bigcommerce-catalog-api-openapi.yml
+  - openapi/bigcommerce-categories-api-openapi.yml
+  - openapi/bigcommerce-categories-deprecated-api-openapi.yml
+  - openapi/bigcommerce-category-assignments-api-openapi.yml
+  - openapi/bigcommerce-category-trees-api-openapi.yml
+  - openapi/bigcommerce-channel-assignments-api-openapi.yml
+  - openapi/bigcommerce-channel-settings-api-openapi.yml
+  - openapi/bigcommerce-channels-api-openapi.yml
+  - openapi/bigcommerce-checkout-api-openapi.yml
+  - openapi/bigcommerce-checkout-billing-address-api-openapi.yml
+  - openapi/bigcommerce-checkout-consignments-api-openapi.yml
+  - openapi/bigcommerce-checkout-coupons-api-openapi.yml
+  - openapi/bigcommerce-checkout-discounts-api-openapi.yml
+  - openapi/bigcommerce-checkout-orders-api-openapi.yml
+  - openapi/bigcommerce-checkout-settings-api-openapi.yml
+  - openapi/bigcommerce-checkout-token-api-openapi.yml
+  - openapi/bigcommerce-complex-rules-api-openapi.yml
+  - openapi/bigcommerce-consent-api-openapi.yml
+  - openapi/bigcommerce-countries-api-openapi.yml
+  - openapi/bigcommerce-coupons-api-openapi.yml
+  - openapi/bigcommerce-currencies-bulk-api-openapi.yml
+  - openapi/bigcommerce-currencies-single-api-openapi.yml
+  - openapi/bigcommerce-currency-assignments-api-openapi.yml
+  - openapi/bigcommerce-custom-fields-api-openapi.yml
+  - openapi/bigcommerce-custom-template-associations-api-openapi.yml
+  - openapi/bigcommerce-customer-batch-metafields-api-openapi.yml
+  - openapi/bigcommerce-customer-impersonation-token-api-openapi.yml
+  - openapi/bigcommerce-customer-metafields-api-openapi.yml
+  - openapi/bigcommerce-customers-api-openapi.yml
+  - openapi/bigcommerce-customs-information-api-openapi.yml
+  - openapi/bigcommerce-email-statuses-api-openapi.yml
+  - openapi/bigcommerce-email-templates-api-openapi.yml
+  - openapi/bigcommerce-favicon-image-api-openapi.yml
+  - openapi/bigcommerce-form-field-values-api-openapi.yml
+  - openapi/bigcommerce-gift-certificates-api-openapi.yml
+  - openapi/bigcommerce-global-settings-api-openapi.yml
+  - openapi/bigcommerce-images-api-openapi.yml
+  - openapi/bigcommerce-import-export-api-openapi.yml
+  - openapi/bigcommerce-inventory-api-openapi.yml
+  - openapi/bigcommerce-inventory-notifications-api-openapi.yml
+  - openapi/bigcommerce-items-api-openapi.yml
+  - openapi/bigcommerce-listings-api-openapi.yml
+  - openapi/bigcommerce-logo-api-openapi.yml
+  - openapi/bigcommerce-logo-image-api-openapi.yml
+  - openapi/bigcommerce-manage-webhooks-bulk-api-openapi.yml
+  - openapi/bigcommerce-manage-webhooks-single-api-openapi.yml
+  - openapi/bigcommerce-menus-api-openapi.yml
+  - openapi/bigcommerce-meta-fields-api-openapi.yml
+  - openapi/bigcommerce-methods-api-openapi.yml
+  - openapi/bigcommerce-order-settings-api-openapi.yml
+  - openapi/bigcommerce-pages-api-openapi.yml
+  - openapi/bigcommerce-pages-bulk-api-openapi.yml
+  - openapi/bigcommerce-pages-single-api-openapi.yml
+  - openapi/bigcommerce-payment-actions-api-openapi.yml
+  - openapi/bigcommerce-placement-api-openapi.yml
+  - openapi/bigcommerce-price-lists-api-openapi.yml
+  - openapi/bigcommerce-price-lists-assignments-api-openapi.yml
+  - openapi/bigcommerce-price-lists-records-api-openapi.yml
+  - openapi/bigcommerce-product-modifiers-api-openapi.yml
+  - openapi/bigcommerce-product-tax-properties-api-openapi.yml
+  - openapi/bigcommerce-product-variant-options-api-openapi.yml
+  - openapi/bigcommerce-product-variants-api-openapi.yml
+  - openapi/bigcommerce-products-api-openapi.yml
+  - openapi/bigcommerce-redirects-api-openapi.yml
+  - openapi/bigcommerce-redirects-cart-redirect-urls-api-openapi.yml
+  - openapi/bigcommerce-regions-api-openapi.yml
+  - openapi/bigcommerce-reviews-api-openapi.yml
+  - openapi/bigcommerce-scripts-api-openapi.yml
+  - openapi/bigcommerce-search-filters-api-openapi.yml
+  - openapi/bigcommerce-settings-api-openapi.yml
+  - openapi/bigcommerce-site-api-openapi.yml
+  - openapi/bigcommerce-site-certificate-api-openapi.yml
+  - openapi/bigcommerce-site-checkout-url-api-openapi.yml
+  - openapi/bigcommerce-site-routes-api-openapi.yml
+  - openapi/bigcommerce-sites-api-openapi.yml
+  - openapi/bigcommerce-sort-order-api-openapi.yml
+  - openapi/bigcommerce-states-api-openapi.yml
+  - openapi/bigcommerce-store-information-api-openapi.yml
+  - openapi/bigcommerce-store-locale-api-openapi.yml
+  - openapi/bigcommerce-store-profile-api-openapi.yml
+  - openapi/bigcommerce-stored-instruments-api-openapi.yml
+  - openapi/bigcommerce-storefront-category-api-openapi.yml
+  - openapi/bigcommerce-storefront-product-api-openapi.yml
+  - openapi/bigcommerce-storefront-robotstxt-api-openapi.yml
+  - openapi/bigcommerce-storefront-search-api-openapi.yml
+  - openapi/bigcommerce-storefront-security-api-openapi.yml
+  - openapi/bigcommerce-storefront-seo-api-openapi.yml
+  - openapi/bigcommerce-storefront-status-api-openapi.yml
+  - openapi/bigcommerce-subscribers-api-openapi.yml
+  - openapi/bigcommerce-summary-api-openapi.yml
+  - openapi/bigcommerce-system-logs-api-openapi.yml
+  - openapi/bigcommerce-tax-properties-api-openapi.yml
+  - openapi/bigcommerce-tax-provider-connection-api-openapi.yml
+  - openapi/bigcommerce-tax-rates-api-openapi.yml
+  - openapi/bigcommerce-tax-settings-api-openapi.yml
+  - openapi/bigcommerce-tax-zone-check-api-openapi.yml
+  - openapi/bigcommerce-tax-zones-api-openapi.yml
+  - openapi/bigcommerce-taxes-api-openapi.yml
+  - openapi/bigcommerce-template-settings-api-openapi.yml
+  - openapi/bigcommerce-theme-actions-api-openapi.yml
+  - openapi/bigcommerce-theme-configurations-api-openapi.yml
+  - openapi/bigcommerce-theme-custom-templates-api-openapi.yml
+  - openapi/bigcommerce-theme-jobs-api-openapi.yml
+  - openapi/bigcommerce-themes-api-openapi.yml
+  - openapi/bigcommerce-timezone-api-openapi.yml
+  - openapi/bigcommerce-tokens-api-openapi.yml
+  - openapi/bigcommerce-transactions-api-openapi.yml
+  - openapi/bigcommerce-units-of-measurement-api-openapi.yml
+  - openapi/bigcommerce-validate-credentials-api-openapi.yml
+  - openapi/bigcommerce-values-api-openapi.yml
+  - openapi/bigcommerce-variants-batch-api-openapi.yml
+  - openapi/bigcommerce-videos-api-openapi.yml
+  - openapi/bigcommerce-webhook-events-api-openapi.yml
+  - openapi/bigcommerce-webhooks-admin-api-openapi.yml
+  - openapi/bigcommerce-widget-api-openapi.yml
+  - openapi/bigcommerce-widget-template-api-openapi.yml
+  - openapi/bigcommerce-wishlists-api-openapi.yml
+  - openapi/bigcommerce-wishlists-items-api-openapi.yml
   type: apiKey
 - bearerFormat: PAT {{PAYMENT_ACCESS_TOKEN}}
   description: '### OAuth scopes
@@ -1015,23 +1103,28 @@ schemes:
   name: BearerPAT
   scheme: bearer
   sources:
-  - openapi/payment-processing-openapi-original.yml
+  - openapi/bigcommerce-processing-api-openapi.yml
   type: http
 - description: The [HTTP Basic Authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) (developer.mozilla.org) credentials used to authenticate each API request to the Tax Provider from the associated store; set and update `username`, `password`, and optionally `profile`, using the [Update a Connection](/docs/rest-contracts/tax-app-connection#update-a-connection) request. `profile` is a
   name: Authorization
   scheme: basic
   sources:
-  - openapi/tax-provider-openapi-original.yml
+  - openapi/bigcommerce-tax-provider-api-openapi.yml
   type: http
 slug: bigcommerce-authentication
 source_filename: bigcommerce-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/abandoned-cart-emails-openapi-original.yml, openapi/abandoned-carts-openapi-original.yml,\n  openapi/accepted-payment-methods-openapi-original.yml, openapi/accepted-payment-methods-openapi.yml,\n  openapi/carts-openapi-original.yml, openapi/catalog-brands-openapi-original.yml, openapi/catalog-categories-openapi-original.yml,\n  openapi/catalog-category-trees-openapi-original.yml, openapi/catalog-product-modifiers-openapi-original.yml,\n  openapi/catalog-product-variant-options-openapi-original.yml, openapi/catalog-product-variants-openapi-original.yml,\n  openapi/catalog-products-openapi-original.yml ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: X-Auth-Token\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: |-\n    ### OAuth scopes\n\n    | UI Name | Permission | Parameter |\n    |:--|:--|:-|\n    | Information & Settings  | read-only  | `store_v2_information_read_only`|\n\
-  \    | Information & Settings  | modify     | `store_v2_information`          |\n\n    ### Authentication header\n\n    | Header | Argument | Description |\n    |:-|:|:|\n    | `X-Auth-Token` | `access_token` | For more about API accounts that generate `access_token`s, see our [Guide\n  sources:\n  - openapi/abandoned-cart-emails-openapi-original.yml\n  - openapi/abandoned-carts-openapi-original.yml\n  - openapi/accepted-payment-methods-openapi-original.yml\n  - openapi/accepted-payment-methods-openapi.yml\n  - openapi/carts-openapi-original.yml\n  - openapi/catalog-brands-openapi-original.yml\n  - openapi/catalog-categories-openapi-original.yml\n  - openapi/catalog-category-trees-openapi-original.yml\n  - openapi/catalog-product-modifiers-openapi-original.yml\n  - openapi/catalog-product-variant-options-openapi-original.yml\n  - openapi/catalog-product-variants-openapi-original.yml\n  - openapi/catalog-products-openapi-original.yml\n  - openapi/channels-openapi-original.yml\n  - openapi/checkouts-openapi-original.yml\n\
-  \  - openapi/content-openapi-original.yml\n  - openapi/currencies-openapi-original.yml\n  - openapi/custom-template-associations-openapi-original.yml\n  - openapi/customers-openapi-original.yml\n  - openapi/email-templates-openapi-original.yml\n  - openapi/geography-openapi-original.yml\n  - openapi/marketing-openapi-original.yml\n  - openapi/orders-openapi-original.yml\n  - openapi/pages-openapi-original.yml\n  - openapi/payment-access-token-openapi-original.yml\n  - openapi/payment-access-token-openapi.yml\n  - openapi/payment-methods-deprecated-openapi-original.yml\n  - openapi/price-lists-openapi-original.yml\n  - openapi/pricing-openapi-original.yml\n  - openapi/redirects-openapi-original.yml\n  - openapi/scripts-openapi-original.yml\n  - openapi/settings-openapi-original.yml\n  - openapi/shipping-openapi-original.yml\n  - openapi/sites-openapi-original.yml\n  - openapi/store-information-openapi-original.yml\n  - openapi/store-logs-openapi-original.yml\n  - openapi/storefront-token-openapi-original.yml\n\
-  \  - openapi/subscribers-openapi-original.yml\n  - openapi/tax-classes-openapi-original.yml\n  - openapi/tax-properties-openapi-original.yml\n  - openapi/tax-provider-connection-openapi-original.yml\n  - openapi/tax-rates-zones-openapi-original.yml\n  - openapi/tax-settings-openapi-original.yml\n  - openapi/tax-zone-check-openapi-original.yml\n  - openapi/themes-openapi-original.yml\n  - openapi/webhooks-v3-openapi-original.yml\n  - openapi/widgets-openapi-original.yml\n  - openapi/wishlist-openapi-original.yml\n- name: BearerPAT\n  type: http\n  scheme: bearer\n  bearerFormat: PAT {{PAYMENT_ACCESS_TOKEN}}\n  description: |-\n    ### OAuth scopes\n\n    The required scopes are granted to the `payment_access_token` upon generation.\n\n    ### Authentication header\n\n    | Header | Argument | Description |\n    |:-|:|:|\n    |`Authorization`|`PAT {{PAYMENT_ACCESS_TOKEN}}`| Obtained using the Create Access Token endpoint.|\n\n    ### Further reading\n\n    For an outline of the Process Payment\
-  \ API call flow and more information about authenticating, see [Authentic\n  sources:\n  - openapi/payment-processing-openapi-original.yml\n- name: Authorization\n  type: http\n  scheme: basic\n  description: The [HTTP Basic Authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)\n    (developer.mozilla.org) credentials used to authenticate each API request to the Tax Provider\n    from the associated store; set and update `username`, `password`, and optionally `profile`,\n    using the [Update a Connection](/docs/rest-contracts/tax-app-connection#update-a-connection)\n    request. `profile` is a\n  sources:\n  - openapi/tax-provider-openapi-original.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/bigcommerce-abandoned-cart-emails-api-openapi.yml, openapi/bigcommerce-abandoned-cart-settings-api-openapi.yml,\n  openapi/bigcommerce-abandoned-carts-api-openapi.yml, openapi/bigcommerce-abandoned-carts-settings-api-openapi.yml,\n  openapi/bigcommerce-active-theme-api-openapi.yml, openapi/bigcommerce-addresses-api-openapi.yml,\n  openapi/bigcommerce-analytics-api-openapi.yml, openapi/bigcommerce-api-token-api-openapi.yml,\n  openapi/bigcommerce-attribute-values-api-openapi.yml, openapi/bigcommerce-attributes-api-openapi.yml,\n  openapi/bigcommerce-banners-api-openapi.yml, openapi/bigcommerce-batch-metafields-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: X-Auth-Token\n  type: apiKey\n  in: header\n  parameter: X-Auth-Token\n  description: |-\n    ### OAuth scopes\n\n    | UI Name | Permission | Parameter |\n    |:--|:--|:-|\n    | Information & Settings\
+  \  | read-only  | `store_v2_information_read_only`|\n    | Information & Settings  | modify     | `store_v2_information`          |\n\n    ### Authentication header\n\n    | Header | Argument | Description |\n    |:-|:|:|\n    | `X-Auth-Token` | `access_token` | For more about API accounts that generate `access_token`s, see our [Guide\n  sources:\n  - openapi/bigcommerce-abandoned-cart-emails-api-openapi.yml\n  - openapi/bigcommerce-abandoned-cart-settings-api-openapi.yml\n  - openapi/bigcommerce-abandoned-carts-api-openapi.yml\n  - openapi/bigcommerce-abandoned-carts-settings-api-openapi.yml\n  - openapi/bigcommerce-active-theme-api-openapi.yml\n  - openapi/bigcommerce-addresses-api-openapi.yml\n  - openapi/bigcommerce-analytics-api-openapi.yml\n  - openapi/bigcommerce-api-token-api-openapi.yml\n  - openapi/bigcommerce-attribute-values-api-openapi.yml\n  - openapi/bigcommerce-attributes-api-openapi.yml\n  - openapi/bigcommerce-banners-api-openapi.yml\n  - openapi/bigcommerce-batch-metafields-api-openapi.yml\n\
+  \  - openapi/bigcommerce-blog-posts-api-openapi.yml\n  - openapi/bigcommerce-blog-tags-api-openapi.yml\n  - openapi/bigcommerce-brands-api-openapi.yml\n  - openapi/bigcommerce-bulk-pricing-rules-api-openapi.yml\n  - openapi/bigcommerce-carts-single-api-openapi.yml\n  - openapi/bigcommerce-catalog-api-openapi.yml\n  - openapi/bigcommerce-categories-api-openapi.yml\n  - openapi/bigcommerce-categories-deprecated-api-openapi.yml\n  - openapi/bigcommerce-category-assignments-api-openapi.yml\n  - openapi/bigcommerce-category-trees-api-openapi.yml\n  - openapi/bigcommerce-channel-assignments-api-openapi.yml\n  - openapi/bigcommerce-channel-settings-api-openapi.yml\n  - openapi/bigcommerce-channels-api-openapi.yml\n  - openapi/bigcommerce-checkout-api-openapi.yml\n  - openapi/bigcommerce-checkout-billing-address-api-openapi.yml\n  - openapi/bigcommerce-checkout-consignments-api-openapi.yml\n  - openapi/bigcommerce-checkout-coupons-api-openapi.yml\n  - openapi/bigcommerce-checkout-discounts-api-openapi.yml\n\
+  \  - openapi/bigcommerce-checkout-orders-api-openapi.yml\n  - openapi/bigcommerce-checkout-settings-api-openapi.yml\n  - openapi/bigcommerce-checkout-token-api-openapi.yml\n  - openapi/bigcommerce-complex-rules-api-openapi.yml\n  - openapi/bigcommerce-consent-api-openapi.yml\n  - openapi/bigcommerce-countries-api-openapi.yml\n  - openapi/bigcommerce-coupons-api-openapi.yml\n  - openapi/bigcommerce-currencies-bulk-api-openapi.yml\n  - openapi/bigcommerce-currencies-single-api-openapi.yml\n  - openapi/bigcommerce-currency-assignments-api-openapi.yml\n  - openapi/bigcommerce-custom-fields-api-openapi.yml\n  - openapi/bigcommerce-custom-template-associations-api-openapi.yml\n  - openapi/bigcommerce-customer-batch-metafields-api-openapi.yml\n  - openapi/bigcommerce-customer-impersonation-token-api-openapi.yml\n  - openapi/bigcommerce-customer-metafields-api-openapi.yml\n  - openapi/bigcommerce-customers-api-openapi.yml\n  - openapi/bigcommerce-customs-information-api-openapi.yml\n  - openapi/bigcommerce-email-statuses-api-openapi.yml\n\
+  \  - openapi/bigcommerce-email-templates-api-openapi.yml\n  - openapi/bigcommerce-favicon-image-api-openapi.yml\n  - openapi/bigcommerce-form-field-values-api-openapi.yml\n  - openapi/bigcommerce-gift-certificates-api-openapi.yml\n  - openapi/bigcommerce-global-settings-api-openapi.yml\n  - openapi/bigcommerce-images-api-openapi.yml\n  - openapi/bigcommerce-import-export-api-openapi.yml\n  - openapi/bigcommerce-inventory-api-openapi.yml\n  - openapi/bigcommerce-inventory-notifications-api-openapi.yml\n  - openapi/bigcommerce-items-api-openapi.yml\n  - openapi/bigcommerce-listings-api-openapi.yml\n  - openapi/bigcommerce-logo-api-openapi.yml\n  - openapi/bigcommerce-logo-image-api-openapi.yml\n  - openapi/bigcommerce-manage-webhooks-bulk-api-openapi.yml\n  - openapi/bigcommerce-manage-webhooks-single-api-openapi.yml\n  - openapi/bigcommerce-menus-api-openapi.yml\n  - openapi/bigcommerce-meta-fields-api-openapi.yml\n  - openapi/bigcommerce-methods-api-openapi.yml\n  - openapi/bigcommerce-order-settings-api-openapi.yml\n\
+  \  - openapi/bigcommerce-pages-api-openapi.yml\n  - openapi/bigcommerce-pages-bulk-api-openapi.yml\n  - openapi/bigcommerce-pages-single-api-openapi.yml\n  - openapi/bigcommerce-payment-actions-api-openapi.yml\n  - openapi/bigcommerce-placement-api-openapi.yml\n  - openapi/bigcommerce-price-lists-api-openapi.yml\n  - openapi/bigcommerce-price-lists-assignments-api-openapi.yml\n  - openapi/bigcommerce-price-lists-records-api-openapi.yml\n  - openapi/bigcommerce-product-modifiers-api-openapi.yml\n  - openapi/bigcommerce-product-tax-properties-api-openapi.yml\n  - openapi/bigcommerce-product-variant-options-api-openapi.yml\n  - openapi/bigcommerce-product-variants-api-openapi.yml\n  - openapi/bigcommerce-products-api-openapi.yml\n  - openapi/bigcommerce-redirects-api-openapi.yml\n  - openapi/bigcommerce-redirects-cart-redirect-urls-api-openapi.yml\n  - openapi/bigcommerce-regions-api-openapi.yml\n  - openapi/bigcommerce-reviews-api-openapi.yml\n  - openapi/bigcommerce-scripts-api-openapi.yml\n\
+  \  - openapi/bigcommerce-search-filters-api-openapi.yml\n  - openapi/bigcommerce-settings-api-openapi.yml\n  - openapi/bigcommerce-site-api-openapi.yml\n  - openapi/bigcommerce-site-certificate-api-openapi.yml\n  - openapi/bigcommerce-site-checkout-url-api-openapi.yml\n  - openapi/bigcommerce-site-routes-api-openapi.yml\n  - openapi/bigcommerce-sites-api-openapi.yml\n  - openapi/bigcommerce-sort-order-api-openapi.yml\n  - openapi/bigcommerce-states-api-openapi.yml\n  - openapi/bigcommerce-store-information-api-openapi.yml\n  - openapi/bigcommerce-store-locale-api-openapi.yml\n  - openapi/bigcommerce-store-profile-api-openapi.yml\n  - openapi/bigcommerce-stored-instruments-api-openapi.yml\n  - openapi/bigcommerce-storefront-category-api-openapi.yml\n  - openapi/bigcommerce-storefront-product-api-openapi.yml\n  - openapi/bigcommerce-storefront-robotstxt-api-openapi.yml\n  - openapi/bigcommerce-storefront-search-api-openapi.yml\n  - openapi/bigcommerce-storefront-security-api-openapi.yml\n\
+  \  - openapi/bigcommerce-storefront-seo-api-openapi.yml\n  - openapi/bigcommerce-storefront-status-api-openapi.yml\n  - openapi/bigcommerce-subscribers-api-openapi.yml\n  - openapi/bigcommerce-summary-api-openapi.yml\n  - openapi/bigcommerce-system-logs-api-openapi.yml\n  - openapi/bigcommerce-tax-properties-api-openapi.yml\n  - openapi/bigcommerce-tax-provider-connection-api-openapi.yml\n  - openapi/bigcommerce-tax-rates-api-openapi.yml\n  - openapi/bigcommerce-tax-settings-api-openapi.yml\n  - openapi/bigcommerce-tax-zone-check-api-openapi.yml\n  - openapi/bigcommerce-tax-zones-api-openapi.yml\n  - openapi/bigcommerce-taxes-api-openapi.yml\n  - openapi/bigcommerce-template-settings-api-openapi.yml\n  - openapi/bigcommerce-theme-actions-api-openapi.yml\n  - openapi/bigcommerce-theme-configurations-api-openapi.yml\n  - openapi/bigcommerce-theme-custom-templates-api-openapi.yml\n  - openapi/bigcommerce-theme-jobs-api-openapi.yml\n  - openapi/bigcommerce-themes-api-openapi.yml\n  - openapi/bigcommerce-timezone-api-openapi.yml\n\
+  \  - openapi/bigcommerce-tokens-api-openapi.yml\n  - openapi/bigcommerce-transactions-api-openapi.yml\n  - openapi/bigcommerce-units-of-measurement-api-openapi.yml\n  - openapi/bigcommerce-validate-credentials-api-openapi.yml\n  - openapi/bigcommerce-values-api-openapi.yml\n  - openapi/bigcommerce-variants-batch-api-openapi.yml\n  - openapi/bigcommerce-videos-api-openapi.yml\n  - openapi/bigcommerce-webhook-events-api-openapi.yml\n  - openapi/bigcommerce-webhooks-admin-api-openapi.yml\n  - openapi/bigcommerce-widget-api-openapi.yml\n  - openapi/bigcommerce-widget-template-api-openapi.yml\n  - openapi/bigcommerce-wishlists-api-openapi.yml\n  - openapi/bigcommerce-wishlists-items-api-openapi.yml\n- name: BearerPAT\n  type: http\n  scheme: bearer\n  bearerFormat: PAT {{PAYMENT_ACCESS_TOKEN}}\n  description: |-\n    ### OAuth scopes\n\n    The required scopes are granted to the `payment_access_token` upon generation.\n\n    ### Authentication header\n\n    | Header | Argument | Description\
+  \ |\n    |:-|:|:|\n    |`Authorization`|`PAT {{PAYMENT_ACCESS_TOKEN}}`| Obtained using the Create Access Token endpoint.|\n\n    ### Further reading\n\n    For an outline of the Process Payment API call flow and more information about authenticating, see [Authentic\n  sources:\n  - openapi/bigcommerce-processing-api-openapi.yml\n- name: Authorization\n  type: http\n  scheme: basic\n  description: The [HTTP Basic Authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)\n    (developer.mozilla.org) credentials used to authenticate each API request to the Tax Provider\n    from the associated store; set and update `username`, `password`, and optionally `profile`,\n    using the [Update a Connection](/docs/rest-contracts/tax-app-connection#update-a-connection)\n    request. `profile` is a\n  sources:\n  - openapi/bigcommerce-tax-provider-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/authentication/bigcommerce-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

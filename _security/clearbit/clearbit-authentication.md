@@ -51,7 +51,7 @@ summary_line: 2 schemes
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Reveal
 - HubSpot
 - Marketing

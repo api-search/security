@@ -35,5 +35,5 @@ tags:
 - Payments
 - Fintech
 - B2B
-- Commercial Cards
+- CommercialCards
 ---

@@ -69,7 +69,7 @@ summary_line: SOC 2
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Lookalike
 - Account Based Marketing
 - Prospecting

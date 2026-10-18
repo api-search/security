@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ancient8/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Ethereum
 - Layer 2

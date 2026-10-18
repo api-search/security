@@ -31,7 +31,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - API Design
-- AI
+- Artificial Intelligence
 - Collaboration
 - Documentation
 - Platform

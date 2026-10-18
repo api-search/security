@@ -123,8 +123,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roote/refs/hea
 summary_line: 1 scheme
 tags:
 - Mobility
-- API
 - French
-- AI
+- Artificial Intelligence
 - Transportation
 ---

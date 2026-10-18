@@ -59,5 +59,4 @@ tags:
 - Mobility
 - IoT
 - Location
-- Connected Car
 ---

@@ -96,7 +96,6 @@ tags:
 - Security Orchestration
 - SAST
 - DAST
-- SCA
 - Software Composition Analysis
 - Container Security
 - SBOM

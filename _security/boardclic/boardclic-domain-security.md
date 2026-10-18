@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boardclic/refs/heads/main/security/boardclic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Board
+- Boards
 - Governance
-- AI
+- Artificial Intelligence
 - Analytics
-- SaaS
+- Software-as-a-Service
 ---

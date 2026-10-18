@@ -38,6 +38,6 @@ tags:
 - Music
 - Live Events
 - Avatars
-- XR
+- Extended Reality
 - Media
 ---

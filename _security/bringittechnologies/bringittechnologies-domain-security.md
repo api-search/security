@@ -34,5 +34,4 @@ tags:
 - Technology
 - Services
 - Integration
-- API
 ---

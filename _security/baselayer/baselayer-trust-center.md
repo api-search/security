@@ -20,8 +20,7 @@ summary_line: SOC 2
 tags:
 - Business
 - IdentityVerification
-- RiskManagement
-- FinTech
-- API
+- Risk Management
+- Fintech
 trust_url: https://trust.baselayer.com/
 ---

@@ -33,7 +33,6 @@ tags:
 - Company
 - Hardtech
 - 3D Printing
-- Additive Manufacturing
 - Dental
 - Digital Dentistry
 - Clear Aligners

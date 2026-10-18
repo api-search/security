@@ -75,9 +75,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/signatur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/authentication/signaturely-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Electronic Signature
 - E-Signature
-- Document Signing
 - E-Signature API
 - Contracts
 - Signature Requests

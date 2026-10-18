@@ -41,7 +41,7 @@ tags:
 - Space
 - Satellite
 - Missile Defense
-- Additive Manufacturing
+- 3D Printing
 - Manufacturing
 - National Security
 - Colorado

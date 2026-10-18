@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbit/refs/hea
 summary_line: cookie-session · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Personal Servers
 - Decentralized Identity
 - Peer-to-Peer

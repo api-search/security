@@ -35,7 +35,7 @@ tags:
 - Company
 - AML
 - KYC
-- FinTech
+- Fintech
 - Compliance
-- AI
+- Artificial Intelligence
 ---

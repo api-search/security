@@ -60,7 +60,7 @@ tags:
 - Treasury
 - Money Movement
 - Cross-Border Payments
-- FX
+- Foreign Exchange
 - Stablecoins
 - Banking
 - Latin America

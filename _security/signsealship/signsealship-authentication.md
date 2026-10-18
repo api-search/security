@@ -110,7 +110,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Notarization
 - Remote Online Notarization
-- Electronic Signature
+- E-Signature
 - Document Verification
 - Legal Tech
 - Real Estate

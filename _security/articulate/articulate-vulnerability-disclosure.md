@@ -25,7 +25,7 @@ tags:
 - Company
 - EdTech
 - E-Learning
-- Learning Management
+- LMS
 - Training
 - Course Authoring
 - SSO

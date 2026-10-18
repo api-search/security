@@ -141,7 +141,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surf/refs/head
 summary_line: http/apiKey · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Market Data
 - On-Chain Analytics

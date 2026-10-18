@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-security/
 summary_line: ISO 27001, SOC 2
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Data Security
 - Endpoint Security
 - Data Loss Prevention

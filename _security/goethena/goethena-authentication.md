@@ -66,7 +66,7 @@ tags:
 - Training
 - Human Resources
 - Ethics
-- Learning Management
+- LMS
 - AI Agents
 - Governance
 - Workforce

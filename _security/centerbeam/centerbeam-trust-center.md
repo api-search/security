@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: centerbeam-openapi-generated.yml
+- filename: centerbeam-sessions-api-openapi.yml
   format: yaml
-  label: Centerbeam Voice AI SDK API
-  slug: centerbeam-api
+  label: Centerbeam Voice AI SDK Sessions API
+  slug: centerbeam-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centerbeam/refs/heads/main/openapi/_ae-authored/centerbeam-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centerbeam/refs/heads/main/openapi/centerbeam-sessions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -30,7 +30,7 @@ tags:
 - Company
 - VoiceAI
 - SDK
-- RealTime
+- Real-Time
 - Multilingual
 trust_url: https://centerbeam.ai/security
 ---

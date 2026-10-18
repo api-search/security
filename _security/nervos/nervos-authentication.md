@@ -26,13 +26,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nervos/refs/he
 summary_line: none · 0 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Layer 1
 - JSON-RPC
 - Smart Contracts
 - Web3 Infrastructure
 - Developer Tools
-- Web3
 - Cryptocurrency
 ---

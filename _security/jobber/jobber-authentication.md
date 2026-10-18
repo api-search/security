@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jobber-d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/authentication/jobber-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Home Service
 - Scheduling
 - Quoting

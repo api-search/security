@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postgresml/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Machine Learning
 - Vector Search
 - Embeddings

@@ -32,10 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/therapynotes/r
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Behavioral Health
-- EHR
+- Electronic Health Records
 - Practice Management
 - Mental Health
-- Electronic Health Records
 - Medical Billing
 - HIPAA
 ---

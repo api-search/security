@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextlogic2/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- E‑commerce
+- E-Commerce
 - Technology
 - Publicly‑traded
 - Investor‑relations

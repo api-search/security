@@ -34,6 +34,5 @@ tags:
 - Finance
 - Marketplace
 - Data
-- API
-- FinTech
+- Fintech
 ---

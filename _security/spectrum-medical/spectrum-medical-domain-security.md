@@ -35,7 +35,7 @@ tags:
 - Medical Devices
 - Healthcare
 - Health IT
-- Electronic Medical Records
+- Electronic Health Records
 - Perfusion
 - Extracorporeal Life Support
 - Clinical Information Systems

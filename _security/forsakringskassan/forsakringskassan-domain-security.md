@@ -42,5 +42,4 @@ tags:
 - SocialSecurity
 - Sweden
 - PublicSector
-- API
 ---

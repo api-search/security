@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Urantia Papers
-  slug: urantia-papers
-  spec_type: OpenAPI
-  url: https://api.urantia.dev/openapi.json
 - filename: urantia-papers-audio-api-openapi.yml
   format: yaml
   label: Urantia Papers Audio API

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognizer-ai/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Contract Intelligence
-- SaaS
-- LegalTech
+- Software-as-a-Service
+- Legal Tech
 ---

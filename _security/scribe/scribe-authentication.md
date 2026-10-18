@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/he
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Documentation
 - Knowledge Management
 - Search

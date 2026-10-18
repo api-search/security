@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bytefederal-openapi-generated.yml
+- filename: bytefederal-verifications-api-openapi.yml
   format: yaml
-  label: Bytefederal API
-  slug: bytefederal-api
+  label: Bytefederal Verifications API
+  slug: bytefederal-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytefederal/refs/heads/main/openapi/_ae-authored/bytefederal-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bytefederal/refs/heads/main/openapi/bytefederal-verifications-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +38,8 @@ source_yaml: "generated: '2026-10-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytefederal/refs/heads/main/security/bytefederal-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- finance
-- payments
-- banking
-- api
-- technology
+- Finance
+- Payments
+- Banking
+- Technology
 ---

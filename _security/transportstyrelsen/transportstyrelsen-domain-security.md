@@ -37,5 +37,5 @@ tags:
 - Transport
 - Government
 - Sweden
-- Regulation
+- Regulations
 ---

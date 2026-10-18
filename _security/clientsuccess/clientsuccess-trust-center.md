@@ -22,8 +22,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clientsuccess/
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Customer Success
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 - Analytics
 - Integration
 trust_url: https://www.clientsuccess.com/security-compliance

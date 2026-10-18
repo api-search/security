@@ -34,7 +34,7 @@ tags:
 - Company
 - Music
 - Royalties
-- Crypto
+- Cryptocurrency
 - Web3
 - NFT
 - Fan Engagement

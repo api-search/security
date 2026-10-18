@@ -89,7 +89,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classic/refs/h
 summary_line: siwe/http-bearer-jwt · 3 schemes
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - DEX Aggregator
 - Swap

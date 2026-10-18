@@ -32,13 +32,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fhenix/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Fully Homomorphic Encryption
 - Confidential Computing
 - Ethereum
 - Privacy
 - Smart Contracts
-- Web3
 - DeFi
 ---

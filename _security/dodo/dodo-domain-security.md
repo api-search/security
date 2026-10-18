@@ -39,9 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DEX
 - Decentralized Exchange
 - Blockchain
 - Trading

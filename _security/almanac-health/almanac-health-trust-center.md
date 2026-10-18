@@ -23,7 +23,7 @@ tags:
 - Artificial Intelligence
 - Clinical Decision Support
 - Medical
-- EHR
+- Electronic Health Records
 - Health Tech
 trust_url: https://trust.almanac.chat
 ---

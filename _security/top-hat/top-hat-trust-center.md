@@ -23,7 +23,7 @@ tags:
 - EdTech
 - Education
 - Higher Education
-- Learning Management
+- LMS
 - Student Engagement
 - Interactive Learning
 - Courseware

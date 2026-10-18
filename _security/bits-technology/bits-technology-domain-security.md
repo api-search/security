@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: bits-technology-openapi-generated.yml
+- filename: bits-technology-applications-api-openapi.yml
   format: yaml
-  label: Bits Technology API
-  slug: bits-technology-api
+  label: Bits Technology Applications API
+  slug: bits-technology-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bits-technology/refs/heads/main/openapi/_ae-authored/bits-technology-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bits-technology/refs/heads/main/openapi/bits-technology-applications-api-openapi.yml
+- filename: bits-technology-oauth2-api-openapi.yml
+  format: yaml
+  label: Bits Technology Oauth2 API
+  slug: bits-technology-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bits-technology/refs/heads/main/openapi/bits-technology-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa:

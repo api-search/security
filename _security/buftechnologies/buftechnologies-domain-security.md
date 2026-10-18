@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: buftechnologies-openapi-generated.yml
+- filename: buftechnologies-connectrpc-api-openapi.yml
   format: yaml
-  label: Buftechnologies API
-  slug: buftechnologies-api
+  label: Buftechnologies Connectrpc API
+  slug: buftechnologies-connectrpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/openapi/_ae-authored/buftechnologies-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/openapi/buftechnologies-connectrpc-api-openapi.yml
+- filename: buftechnologies-foo-api-openapi.yml
+  format: yaml
+  label: Buftechnologies Foo API
+  slug: buftechnologies-foo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buftechnologies/refs/heads/main/openapi/buftechnologies-foo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buftechnologie
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Protobuf
 - gRPC
-- DeveloperTools
+- Developer Tools
 ---

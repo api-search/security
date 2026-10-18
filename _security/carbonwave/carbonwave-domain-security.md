@@ -34,5 +34,5 @@ tags:
 - Biomaterials
 - Sustainability
 - Seaweed
-- ClimateTech
+- Climate Tech
 ---

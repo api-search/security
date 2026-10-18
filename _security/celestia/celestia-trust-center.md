@@ -54,12 +54,12 @@ api_specs:
   slug: celestia-blobstream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-blobstream-api-openapi.yml
-- filename: celestia-p2-p-api-openapi.yml
+- filename: celestia-p2p-api-openapi.yml
   format: yaml
-  label: Celestia P2 P API
-  slug: celestia-p2-p-api
+  label: Celestia P2P API
+  slug: celestia-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2-p-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2p-api-openapi.yml
 certification_count: 0
 certifications: []
 description: 'Celestia operates no trust centre in the SaaS sense — there is no trust.celestia.org, no SOC 2, ISO 27001, PCI or HIPAA attestation, and no compliance portal, because it is not a processor holding customer data under contract. What it publishes instead is the equivalent assurance surface for protocol software: a maintained public page listing every third-party security audit of the stack, each linked to its full report. Recorded here because that IS the provider''s published assurance evidence, and because saying "no trust centre" without it would misread the posture.'

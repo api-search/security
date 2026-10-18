@@ -84,7 +84,7 @@ summary_line: 2 schemes
 tags:
 - Localization
 - Translation
-- NLP
+- Natural Language Processing
 - terminology-management
 - Cat
 - MT-preprocessing

@@ -90,7 +90,7 @@ tags:
 - HL7
 - Interoperability
 - SMART on FHIR
-- EHR
+- Electronic Health Records
 - Health Data
 - FHIR Server
 - Bulk Data

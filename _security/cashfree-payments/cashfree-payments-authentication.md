@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cashfree-payments-openapi-generated.yml
+- filename: cashfree-payments-orders-api-openapi.yml
   format: yaml
-  label: Cashfree Payments API
-  slug: cashfree-payments-api
+  label: Cashfree Payments Orders API
+  slug: cashfree-payments-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashfree-payments/refs/heads/main/openapi/_ae-authored/cashfree-payments-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree-payments/refs/heads/main/openapi/cashfree-payments-orders-api-openapi.yml
+- filename: cashfree-payments-payout-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Payout API
+  slug: cashfree-payments-payout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree-payments/refs/heads/main/openapi/cashfree-payments-payout-api-openapi.yml
+- filename: cashfree-payments-pg-api-openapi.yml
+  format: yaml
+  label: Cashfree Payments Pg API
+  slug: cashfree-payments-pg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashfree-payments/refs/heads/main/openapi/cashfree-payments-pg-api-openapi.yml
 auth_types: []
 description: Cashfree uses API key based authentication via custom headers.
 kind: authentication
@@ -57,7 +69,6 @@ summary_line: 4 schemes
 tags:
 - Company
 - Payments
-- FinTech
-- API
-- Gateway
+- Fintech
+- Gateways
 ---

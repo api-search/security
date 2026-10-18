@@ -30,6 +30,5 @@ tags:
 - Fintech
 - Financial Services
 - Startups
-- Venture Backed
 - Matrix Partners
 ---

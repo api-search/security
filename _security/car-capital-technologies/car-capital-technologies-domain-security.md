@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/car-capital-te
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- automotive
+- Automotive
 - financing
-- SaaS
+- Software-as-a-Service
 - data-analytics
-- risk-management
+- Risk Management
 ---

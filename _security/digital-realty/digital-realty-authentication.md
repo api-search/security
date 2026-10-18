@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: digital-realty-openapi-generated.yml
+- filename: digital-realty-auth-api-openapi.yml
   format: yaml
-  label: Digital Realty API
-  slug: digital-realty-api
+  label: Digital Realty Auth API
+  slug: digital-realty-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/_ae-authored/digital-realty-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-auth-api-openapi.yml
+- filename: digital-realty-facility-access-api-openapi.yml
+  format: yaml
+  label: Digital Realty Facility Access API
+  slug: digital-realty-facility-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-facility-access-api-openapi.yml
+- filename: digital-realty-remotehands-tickets-api-openapi.yml
+  format: yaml
+  label: Digital Realty Remotehands Tickets API
+  slug: digital-realty-remotehands-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-remotehands-tickets-api-openapi.yml
 auth_types: []
 description: Authentication
 kind: authentication

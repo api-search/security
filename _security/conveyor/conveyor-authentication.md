@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: conveyor-openapi-generated.yml
+- filename: conveyor-single-question-api-openapi.yml
   format: yaml
-  label: Conveyor API
-  slug: conveyor-api
+  label: Conveyor Single Question API
+  slug: conveyor-single-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/_ae-authored/conveyor-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/conveyor-single-question-api-openapi.yml
 auth_types: []
 description: Conveyor authentication methods as documented
 kind: authentication
@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/authentication/conveyor-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Security Questionnaire Automation
 - RFP Automation
 - Trust Center

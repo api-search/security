@@ -40,7 +40,7 @@ tags:
 - Company
 - Money Transfer
 - Remittances
-- Currency Exchange
+- Foreign Exchange
 - Payments
 - Fintech
 - Cross-Border Payments

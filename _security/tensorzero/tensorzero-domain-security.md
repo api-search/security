@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorzero/ref
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - LLM
 - LLMOps
 - AI Gateway

@@ -259,6 +259,6 @@ tags:
 - Wallets
 - MPC
 - Onboarding
-- Crypto
+- Cryptocurrency
 trust_url: https://www.dynamic.xyz/security
 ---

@@ -31,12 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rohirrim/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Government
 - Procurement
 - Acquisition
 - Proposals
 - RFP
 - GovTech
-- Artificial Intelligence
 ---

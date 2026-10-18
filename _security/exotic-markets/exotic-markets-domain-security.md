@@ -36,13 +36,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exotic-markets
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Solana
 - Options
 - Structured Products
 - Derivatives
 - Blockchain
-- Web3
 - Cryptocurrency
 ---

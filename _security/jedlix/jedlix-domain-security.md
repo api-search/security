@@ -29,7 +29,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- EV
+- Electric Vehicles
 - Charging
 - Energy
 ---

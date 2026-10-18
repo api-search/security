@@ -97,7 +97,7 @@ tags:
 - Company
 - Sales Enablement
 - Sales Training
-- Learning Management
+- LMS
 - Revenue Operations
 - AI Coaching
 - Content Management

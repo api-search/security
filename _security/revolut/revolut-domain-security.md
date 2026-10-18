@@ -276,39 +276,39 @@ api_specs:
   slug: revolut-webhooks-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/openapi/revolut-webhooks-v2-api-openapi.yml
+- filename: revolut-wallet-partner-api-openapi.yml
+  format: yaml
+  label: Revolut Wallet Partner API
+  slug: revolut-wallet-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/openapi/revolut-wallet-partner-api-openapi.yml
 description: ''
 domains:
-- caa: []
-  dmarc: true
-  dmarc_policy: none
-  dnssec: false
-  domain: seedcamp.com
-  spf: true
 - caa:
-  - 0 iodef "mailto:security@revolut.com"
-  - 0 issue "pki.goog"
-  - 0 issue "sectigo.com"
-  - 0 issue "letsencrypt.org"
+  - 0 issue "e-szigno.hu"
+  - 0 issue "fnmt.es"
   - 0 issue "buypass.com"
-  - 0 issue "visa.com"
+  - 0 issue "amazon.com"
+  - 0 issue "sectigo.com"
+  - 0 issuewild "fnmt.es"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: revolut.com
   spf: true
 hosts:
-- cert_expires: Oct  5 21:34:34 2026 GMT
-  host: seedcamp.com
-  hsts: false
-  https: true
-  tls_version: TLSv1.3
 - cert_expires: Feb 14 23:59:59 2027 GMT
-  host: b2b.revolut.com
+  host: www.revolut.com
   hsts: null
   https: true
   tls_version: TLSv1.3
 - cert_expires: Feb 14 23:59:59 2027 GMT
-  host: sandbox-b2b.revolut.com
+  host: developer.revolut.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Feb 14 23:59:59 2027 GMT
+  host: b2b.revolut.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -318,14 +318,14 @@ layout: security
 method: probed
 name: Revolut Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Revolut, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Revolut, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Revolut
 provider_slug: revolut
 slug: revolut-domain-security
 source_filename: revolut-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seedcamp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:34:34 2026 GMT\n  hsts: false\n- host: b2b.revolut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\n- host: sandbox-b2b.revolut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: seedcamp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: revolut.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:security@revolut.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"buypass.com\"\n  - 0 issue \"visa.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.revolut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\n- host: developer.revolut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\n- host: b2b.revolut.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: revolut.com\n  dnssec: false\n  caa:\n  - 0 issue \"e-szigno.hu\"\n  - 0 issue \"fnmt.es\"\n  - 0 issue \"buypass.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"fnmt.es\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/security/revolut-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

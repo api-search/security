@@ -121,7 +121,6 @@ summary_line: ISO/IEC 27001:2022, ISO 9001:2015, GDPR, CSA STAR Level 1, EU Clou
 tags:
 - Company
 - Education
-- Learning Management System
 - LMS
 - Training
 - E-Learning

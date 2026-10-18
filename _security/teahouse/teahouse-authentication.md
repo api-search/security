@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Blockchain
 - Vault

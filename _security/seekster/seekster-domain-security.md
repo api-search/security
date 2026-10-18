@@ -33,7 +33,7 @@ tags:
 - Company
 - On-Demand Services
 - Home Services
-- Field Service Management
+- Field Service
 - Marketplace
 - Facility Management
 - Thailand

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chempower/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Manufacturing
 - SustainableTech
 - CMP

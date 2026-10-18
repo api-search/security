@@ -65,7 +65,7 @@ tags:
 - Conversational AI
 - Messaging
 - Chatbots
-- Customer Support
+- Customer Service
 - Sales Automation
 - WhatsApp
 - Telegram

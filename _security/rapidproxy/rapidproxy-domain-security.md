@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: rapidproxy-openapi-generated.yml
+- filename: rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml
   format: yaml
-  label: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
-  slug: rapidproxy-api
+  label: RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) RapidProxy (RAPID TERMINAL UK NETWORK LIMITED) API
+  slug: rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidproxy/refs/heads/main/openapi/_ae-authored/rapidproxy-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rapidproxy/refs/heads/main/openapi/rapidproxy-rapidproxy-rapid-terminal-uk-network-limited-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,6 @@ summary_line: TLSv1.3
 tags:
 - Proxy
 - Residential
-- Scraping
-- Data-Collection
-- API
+- Web Scraping
+- Data Collection
 ---

@@ -34,6 +34,5 @@ tags:
 - Company
 - Payments
 - Fleet Management
-- FinTech
-- API
+- Fintech
 ---

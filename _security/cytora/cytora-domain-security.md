@@ -78,7 +78,7 @@ tags:
 - Risk Data
 - Property and Casualty
 - Reinsurance
-- Brokers
+- Brokerage
 - Submission Intake
 - Document AI
 ---

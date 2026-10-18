@@ -111,8 +111,7 @@ summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Healthcare
 - United Kingdom
-- EHR
-- EMR
+- Electronic Health Records
 - Interoperability
 - HL7
 - FHIR

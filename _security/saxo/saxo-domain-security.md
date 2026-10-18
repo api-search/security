@@ -531,7 +531,7 @@ tags:
 - Investment Banking
 - Trading
 - Stocks
-- Forex
+- Foreign Exchange
 - Options
 - Futures
 - Market Data

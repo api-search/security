@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/r
 summary_line: 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Wallets
 - Data
 ---

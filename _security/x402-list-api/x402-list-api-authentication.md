@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x402-list-api/
 summary_line: 0 schemes
 tags:
 - x402
-- Crypto
+- Cryptocurrency
 - '402'
 - Agentic Payments
 - API Directory

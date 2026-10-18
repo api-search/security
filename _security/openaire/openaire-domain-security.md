@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: openaire-openapi-generated.yml
+- filename: openaire-broker-api-openapi.yml
   format: yaml
-  label: OpenAIRE API
-  slug: openaire-api
+  label: OpenAIRE Broker API
+  slug: openaire-broker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/_ae-authored/openaire-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-broker-api-openapi.yml
+- filename: openaire-oidc-api-openapi.yml
+  format: yaml
+  label: OpenAIRE Oidc API
+  slug: openaire-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-oidc-api-openapi.yml
+- filename: openaire-openaire-api-api-openapi.yml
+  format: yaml
+  label: OpenAIRE OpenAIRE API
+  slug: openaire-openaire-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-openaire-api-api-openapi.yml
+- filename: openaire-skg-if-api-openapi.yml
+  format: yaml
+  label: OpenAIRE Skg If API
+  slug: openaire-skg-if-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/heads/main/openapi/openaire-skg-if-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +57,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openaire/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- OpenScience
-- ResearchInfrastructure
+- Open Science
+- Research Infrastructure
 - Europe
 - Services
 ---

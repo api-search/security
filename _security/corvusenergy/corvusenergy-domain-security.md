@@ -35,6 +35,6 @@ tags:
 - Maritime
 - Battery
 - ZeroEmission
-- CleanTech
+- Cleantech
 - Company
 ---

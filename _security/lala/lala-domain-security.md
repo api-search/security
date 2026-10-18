@@ -38,5 +38,5 @@ tags:
 - Content Generation
 - Social Media
 - Transcription
-- Online Learning
+- E-Learning
 ---

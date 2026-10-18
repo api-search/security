@@ -38,5 +38,5 @@ tags:
 - Automation
 - Disinfection
 - Computer Vision
-- MedTech
+- Medical Technology
 ---

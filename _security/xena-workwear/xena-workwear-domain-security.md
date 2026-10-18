@@ -35,5 +35,5 @@ tags:
 - Footwear
 - Women
 - Safety
-- E‑commerce
+- E-Commerce
 ---

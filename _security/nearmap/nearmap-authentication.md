@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: nearmap-openapi-generated.yml
+- filename: nearmap-coverage-api-openapi.yml
   format: yaml
-  label: Nearmap API
-  slug: nearmap-api
+  label: Nearmap Coverage API
+  slug: nearmap-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nearmap/refs/heads/main/openapi/_ae-authored/nearmap-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nearmap/refs/heads/main/openapi/nearmap-coverage-api-openapi.yml
+- filename: nearmap-tiles-api-openapi.yml
+  format: yaml
+  label: Nearmap Tiles API
+  slug: nearmap-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nearmap/refs/heads/main/openapi/nearmap-tiles-api-openapi.yml
 auth_types: []
 description: Nearmap uses API Key authentication.
 kind: authentication
@@ -39,5 +45,4 @@ tags:
 - AerialImagery
 - Geospatial
 - PropertyIntelligence
-- APIs
 ---

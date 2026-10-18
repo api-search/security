@@ -281,8 +281,6 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Behavioral Health
 - Electronic Health Records
-- EMR
-- EHR
 - Substance Use Disorder
 - Mental Health
 - Healthcare

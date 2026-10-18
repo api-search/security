@@ -33,6 +33,6 @@ tags:
 - Biotechnology
 - Therapeutics
 - cAMP
-- DrugDiscovery
+- Drug Discovery
 - Company
 ---

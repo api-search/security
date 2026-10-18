@@ -29,7 +29,7 @@ tags:
 - Security Posture Management
 - Cybersecurity
 - Cloud Security
-- Identity Management
+- Identity and Access Management
 - Compliance
 trust_url: https://trust.crowdstrike.com/
 ---

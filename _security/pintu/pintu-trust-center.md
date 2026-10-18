@@ -21,7 +21,7 @@ summary_line: ISO/IEC 27001:2022
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Fintech
 - Digital Assets

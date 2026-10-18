@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: brink-commerce-openapi-generated.yml
+- filename: brink-commerce-custom-api-openapi.yml
   format: yaml
-  label: Brink Commerce API
-  slug: brink-commerce-api
+  label: Brink Commerce Custom API
+  slug: brink-commerce-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/_ae-authored/brink-commerce-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-custom-api-openapi.yml
+- filename: brink-commerce-deliveries-api-openapi.yml
+  format: yaml
+  label: Brink Commerce Deliveries API
+  slug: brink-commerce-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-deliveries-api-openapi.yml
+- filename: brink-commerce-orders-api-openapi.yml
+  format: yaml
+  label: Brink Commerce Orders API
+  slug: brink-commerce-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-orders-api-openapi.yml
+- filename: brink-commerce-products-api-openapi.yml
+  format: yaml
+  label: Brink Commerce Products API
+  slug: brink-commerce-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-products-api-openapi.yml
+- filename: brink-commerce-technical-api-openapi.yml
+  format: yaml
+  label: Brink Commerce Technical API
+  slug: brink-commerce-technical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-technical-api-openapi.yml
 auth_types: []
 description: Authentication methods for Brink Commerce APIs
 kind: authentication
@@ -53,8 +77,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/authentication/brink-commerce-authentication.yml
 summary_line: 2 schemes
 tags:
-- eCommerce
-- API
+- E-Commerce
 - Platform
 - Enterprise
 - Composable

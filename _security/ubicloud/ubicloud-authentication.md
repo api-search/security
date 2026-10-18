@@ -148,7 +148,7 @@ tags:
 - Company
 - Cloud Computing
 - Open Source
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - PostgreSQL
 - Kubernetes
 - Virtual Machines

@@ -34,7 +34,7 @@ tags:
 - Media
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Test Preparation
 - India

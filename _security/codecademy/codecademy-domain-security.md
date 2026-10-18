@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codecademy/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
-- Online Learning
+- E-Learning
 - Coding Tutorials
 - Bootcamps
 - Developer Education

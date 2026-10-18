@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cortex-applications-inc-openapi-generated.yml
+- filename: cortex-applications-inc-app-api-openapi.yml
   format: yaml
-  label: Cortex Applications, Inc. API
-  slug: cortex-applications-inc-api
+  label: Cortex Applications, Inc. App API
+  slug: cortex-applications-inc-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/_ae-authored/cortex-applications-inc-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/cortex-applications-inc-app-api-openapi.yml
+- filename: cortex-applications-inc-cities-api-openapi.yml
+  format: yaml
+  label: Cortex Applications, Inc. Cities API
+  slug: cortex-applications-inc-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/cortex-applications-inc-cities-api-openapi.yml
+- filename: cortex-applications-inc-meta-api-openapi.yml
+  format: yaml
+  label: Cortex Applications, Inc. Meta API
+  slug: cortex-applications-inc-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/cortex-applications-inc-meta-api-openapi.yml
+- filename: cortex-applications-inc-orgs-api-openapi.yml
+  format: yaml
+  label: Cortex Applications, Inc. Orgs API
+  slug: cortex-applications-inc-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/cortex-applications-inc-orgs-api-openapi.yml
+- filename: cortex-applications-inc-repos-api-openapi.yml
+  format: yaml
+  label: Cortex Applications, Inc. Repos API
+  slug: cortex-applications-inc-repos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-applications-inc/refs/heads/main/openapi/cortex-applications-inc-repos-api-openapi.yml
 auth_types: []
 description: Authentication schemes used in the documented Cortex workflows
 kind: authentication
@@ -46,6 +70,6 @@ tags:
 - Company
 - Engineering
 - Platform
-- AI
+- Artificial Intelligence
 - Developer Productivity
 ---

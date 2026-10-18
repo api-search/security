@@ -35,5 +35,5 @@ tags:
 - Risk Intelligence
 - Road Safety
 - Climate Impact
-- AI
+- Artificial Intelligence
 ---

@@ -34,7 +34,7 @@ tags:
 - Manufacturing
 - Advanced Manufacturing
 - Metal Casting
-- Additive Manufacturing
+- 3D Printing
 - Industrial
 - Materials
 - Hardware

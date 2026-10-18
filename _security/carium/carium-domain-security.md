@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: carium-openapi-generated.yml
+- filename: carium-caredb-api-openapi.yml
   format: yaml
-  label: Carium API
-  slug: carium-api
+  label: Carium Caredb API
+  slug: carium-caredb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/_ae-authored/carium-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-caredb-api-openapi.yml
+- filename: carium-carium-api-api-openapi.yml
+  format: yaml
+  label: Carium Carium API
+  slug: carium-carium-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-carium-api-api-openapi.yml
+- filename: carium-carium-inc-api-openapi.yml
+  format: yaml
+  label: Carium Carium Inc API
+  slug: carium-carium-inc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-carium-inc-api-openapi.yml
+- filename: carium-identity-api-openapi.yml
+  format: yaml
+  label: Carium Identity API
+  slug: carium-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-identity-api-openapi.yml
+- filename: carium-lachesis-api-openapi.yml
+  format: yaml
+  label: Carium Lachesis API
+  slug: carium-lachesis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-lachesis-api-openapi.yml
+- filename: carium-overlord-api-openapi.yml
+  format: yaml
+  label: Carium Overlord API
+  slug: carium-overlord-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-overlord-api-openapi.yml
+- filename: carium-showboat-api-openapi.yml
+  format: yaml
+  label: Carium Showboat API
+  slug: carium-showboat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carium/refs/heads/main/openapi/carium-showboat-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,8 +76,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - VirtualCare
-- RemoteMonitoring
-- PatientEngagement
-- HealthTech
+- Remote Monitoring
+- Patient Engagement
+- Health Tech
 - Company
 ---

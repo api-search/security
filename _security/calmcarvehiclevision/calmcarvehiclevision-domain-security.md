@@ -34,5 +34,5 @@ tags:
 - Automotive
 - Vision
 - Technology
-- AI
+- Artificial Intelligence
 ---

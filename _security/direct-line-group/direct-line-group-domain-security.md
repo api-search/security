@@ -174,7 +174,7 @@ tags:
 - United Kingdom
 - Property and Casualty
 - Personal Lines
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Carrier
 - Roadside Assistance

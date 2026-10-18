@@ -53,5 +53,5 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Scholarly Publishing
-- Learning Management
+- LMS
 ---

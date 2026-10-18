@@ -40,5 +40,5 @@ tags:
 - Artificial Intelligence
 - SaMD
 - Notified Body
-- MedTech
+- Medical Technology
 ---

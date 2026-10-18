@@ -36,5 +36,4 @@ tags:
 - Health
 - Healthcare
 - Digital Health
-- Venture Backed
 ---

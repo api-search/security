@@ -62,5 +62,5 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Library
-- Learning Management
+- LMS
 ---

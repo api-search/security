@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - EVCharging
-- FleetManagement
+- Fleet Management
 - Sustainability
 - Energy
 ---

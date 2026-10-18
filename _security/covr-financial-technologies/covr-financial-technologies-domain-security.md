@@ -33,6 +33,6 @@ tags:
 - Company
 - Insurtech
 - DigitalInsurance
-- FinancialServices
-- SaaS
+- Financial Services
+- Software-as-a-Service
 ---

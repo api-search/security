@@ -87,7 +87,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Process
 - Collaboration
-- Diagrams
+- Diagramming
 - Enterprise
 - Flowcharts
 - Microsoft 365

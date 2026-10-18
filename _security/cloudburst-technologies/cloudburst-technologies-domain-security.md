@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - IT Services
 - Cloud
-- SaaS
+- Software-as-a-Service
 - Unified Communications
 - Security
 ---

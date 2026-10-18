@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Biopharma
-- Rare Diseases
+- Rare Disease
 - Sweden
 - Healthcare
 ---

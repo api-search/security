@@ -34,7 +34,6 @@ tags:
 - Gaming
 - Video Games
 - Game Development
-- Interactive Entertainment
 - Multiplayer
 - Mobile Games
 - Consumer

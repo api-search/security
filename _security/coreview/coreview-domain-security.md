@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: coreview-openapi-generated.yml
+- filename: coreview-connect-api-openapi.yml
   format: yaml
-  label: CoreView API
-  slug: coreview-api
+  label: CoreView Connect API
+  slug: coreview-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coreview/refs/heads/main/openapi/_ae-authored/coreview-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coreview/refs/heads/main/openapi/coreview-connect-api-openapi.yml
+- filename: coreview-public-api-openapi.yml
+  format: yaml
+  label: CoreView Public API
+  slug: coreview-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coreview/refs/heads/main/openapi/coreview-public-api-openapi.yml
+- filename: coreview-teams-api-openapi.yml
+  format: yaml
+  label: CoreView Teams API
+  slug: coreview-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coreview/refs/heads/main/openapi/coreview-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,5 +56,5 @@ tags:
 - Identity Security
 - License Optimization
 - SharePoint Control
-- Enterprise SaaS
+- Enterprise Saas
 ---

@@ -69,7 +69,7 @@ tags:
 - Integration
 - iPaaS
 - Webhook
-- EHR
+- Electronic Health Records
 - Patient Communication
 - HIPAA
 - Workflows

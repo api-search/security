@@ -106,6 +106,6 @@ tags:
 - Cryptocurrency
 - Screenshots
 - DNS
-- Scraping
+- Web Scraping
 - AI Agents
 ---

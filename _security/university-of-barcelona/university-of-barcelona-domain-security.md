@@ -45,7 +45,7 @@ tags:
 - Shibboleth
 - eduGAIN
 - LTI
-- Learning Management
+- LMS
 - OAI-PMH
 - Repository
 - DSpace

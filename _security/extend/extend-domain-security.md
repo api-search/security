@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: extend-claims-management-api-openapi.yml
+  format: yaml
+  label: Extend Claims Management API
+  slug: extend-claims-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-claims-management-api-openapi.yml
+- filename: extend-contracts-api-openapi.yml
+  format: yaml
+  label: Extend Contracts API
+  slug: extend-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-contracts-api-openapi.yml
+- filename: extend-leads-api-openapi.yml
+  format: yaml
+  label: Extend Leads API
+  slug: extend-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-leads-api-openapi.yml
+- filename: extend-offers-api-openapi.yml
+  format: yaml
+  label: Extend Offers API
+  slug: extend-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-offers-api-openapi.yml
+- filename: extend-orders-api-openapi.yml
+  format: yaml
+  label: Extend Orders API
+  slug: extend-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-orders-api-openapi.yml
+- filename: extend-products-api-openapi.yml
+  format: yaml
+  label: Extend Products API
+  slug: extend-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-products-api-openapi.yml
+- filename: extend-refunds-api-openapi.yml
+  format: yaml
+  label: Extend Refunds API
+  slug: extend-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-refunds-api-openapi.yml
+- filename: extend-service-orders-api-openapi.yml
+  format: yaml
+  label: Extend Service Orders API
+  slug: extend-service-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-service-orders-api-openapi.yml
+- filename: extend-dynamic-return-policy-api-openapi.yml
+  format: yaml
+  label: Extend Dynamic Return Policy API
+  slug: extend-dynamic-return-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-dynamic-return-policy-api-openapi.yml
+- filename: extend-line-items-api-openapi.yml
+  format: yaml
+  label: Extend Line Items API
+  slug: extend-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-line-items-api-openapi.yml
+- filename: extend-shippingoffers-api-openapi.yml
+  format: yaml
+  label: Extend Shipping Offers API
+  slug: extend-shippingoffers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-shippingoffers-api-openapi.yml
+- filename: extend-webhooks-api-openapi.yml
+  format: yaml
+  label: Extend Webhooks API
+  slug: extend-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/openapi/extend-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []

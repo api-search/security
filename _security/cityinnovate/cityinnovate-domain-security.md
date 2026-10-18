@@ -34,8 +34,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cityinnovate/r
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Government
-- No-code
-- AI
+- No-Code
+- Artificial Intelligence
 - Platform
 - Public-benefit
 ---

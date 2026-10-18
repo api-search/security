@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Workforce Management
-- Customer Support
+- Customer Service
 - Contact Center
 - Scheduling
 - WFM

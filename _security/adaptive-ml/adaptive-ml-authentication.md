@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/re
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Reinforcement Learning

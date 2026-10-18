@@ -33,6 +33,6 @@ tags:
 - Company
 - Medical
 - Equipment
-- HomeCare
+- Home Care
 - Georgia
 ---

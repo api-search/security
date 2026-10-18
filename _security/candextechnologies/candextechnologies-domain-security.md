@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candextechnolo
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Integration
-- Digital-Transformation
+- Digital Transformation
 - Consulting
 ---

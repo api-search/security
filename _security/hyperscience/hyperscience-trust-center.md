@@ -79,7 +79,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Enterprise
 - Automation
 - Generative AI

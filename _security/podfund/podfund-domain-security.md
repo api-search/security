@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Venture Capital
-- Podcasting
+- Podcasts
 - Media
 - Funding
 - Investment

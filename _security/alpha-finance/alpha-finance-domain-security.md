@@ -32,13 +32,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpha-finance/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Smart Contracts
 - Yield Farming
 - DAO
 - Lending
-- Web3
 - Cryptocurrency
 ---

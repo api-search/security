@@ -87,5 +87,5 @@ tags:
 - Smart Contracts
 - Historical Data
 - DeFi
-- DEX
+- Decentralized Exchange
 ---

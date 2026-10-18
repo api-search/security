@@ -35,7 +35,7 @@ tags:
 - Banking
 - Canada
 - Schedule I Bank
-- Retail Banking
+- Consumer Banking
 - Quebec
 - Interac
 ---

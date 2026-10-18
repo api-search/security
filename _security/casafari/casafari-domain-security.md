@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: casafari-api-openapi.json
-  format: json
-  label: Casafari API API
-  slug: casafari-api-api
+- filename: casafari-alerts-api-feeds-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform Alerts API Feeds API
+  slug: casafari-alerts-api-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/_original/casafari-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-alerts-api-feeds-api-openapi.yml
+- filename: casafari-alerts-api-webhooks-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform Alerts API Webhooks API
+  slug: casafari-alerts-api-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-alerts-api-webhooks-api-openapi.yml
+- filename: casafari-api-alerts-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform API Alerts API
+  slug: casafari-api-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-alerts-api-openapi.yml
+- filename: casafari-api-comparables-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform API Comparables API
+  slug: casafari-api-comparables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-comparables-api-openapi.yml
+- filename: casafari-api-properties-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform API Properties API
+  slug: casafari-api-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-properties-api-openapi.yml
+- filename: casafari-api-references-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform API References API
+  slug: casafari-api-references-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-references-api-openapi.yml
+- filename: casafari-api-valuation-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform API Valuation API
+  slug: casafari-api-valuation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-api-valuation-api-openapi.yml
+- filename: casafari-market-analytics-api-analysis-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform Market Analytics API Analysis API
+  slug: casafari-market-analytics-api-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-analysis-api-openapi.yml
+- filename: casafari-market-analytics-api-distributions-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform Market Analytics API Distributions API
+  slug: casafari-market-analytics-api-distributions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-distributions-api-openapi.yml
+- filename: casafari-market-analytics-api-time-series-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform market-analytics-api---time series API
+  slug: casafari-market-analytics-api-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-market-analytics-api-time-series-api-openapi.yml
+- filename: casafari-user-management-authentication-api-openapi.yml
+  format: yaml
+  label: Casafari API and MCP Platform User Management Authentication API
+  slug: casafari-user-management-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casafari/refs/heads/main/openapi/casafari-user-management-authentication-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,7 +102,6 @@ tags:
 - Property Sourcing
 - Valuation
 - Market Analytics
-- API
 - CRM
 - Real Estate Software
 ---

@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holo/refs/head
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Advanced Manufacturing

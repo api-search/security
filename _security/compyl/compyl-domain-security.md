@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - GRC
-- AI
+- Artificial Intelligence
 - Compliance
 - Risk Management
 ---

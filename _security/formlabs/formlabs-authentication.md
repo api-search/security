@@ -66,7 +66,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/
 summary_line: oauth2 · 1 scheme
 tags:
 - 3D Printing
-- Additive Manufacturing
 - SLA
 - SLS
 - Hardware

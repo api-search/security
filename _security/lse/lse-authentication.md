@@ -41,7 +41,7 @@ tags:
 - Russell Group
 - Social Sciences
 - Identity Federation
-- Learning Management
+- LMS
 - Research Repository
 - Library
 - Open Research

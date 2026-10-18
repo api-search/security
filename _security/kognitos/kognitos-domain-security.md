@@ -91,11 +91,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Automation
 - Workflow Automation
 - Finance Automation
 - Accounts Payable
-- Neurosymbolic AI
+- Neuro-Symbolic AI
 - Enterprise
 ---

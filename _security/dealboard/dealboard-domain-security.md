@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: dealboard-openapi-generated.yml
+- filename: dealboard-boards-api-openapi.yml
   format: yaml
-  label: Dealboard API
-  slug: dealboard-api
+  label: Dealboard Boards API
+  slug: dealboard-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/_ae-authored/dealboard-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/dealboard-boards-api-openapi.yml
+- filename: dealboard-dealboard-api-api-openapi.yml
+  format: yaml
+  label: Dealboard Dealboard API
+  slug: dealboard-dealboard-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/dealboard-dealboard-api-api-openapi.yml
+- filename: dealboard-deals-api-openapi.yml
+  format: yaml
+  label: Dealboard Deals API
+  slug: dealboard-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/dealboard-deals-api-openapi.yml
+- filename: dealboard-reports-api-openapi.yml
+  format: yaml
+  label: Dealboard Reports API
+  slug: dealboard-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/dealboard-reports-api-openapi.yml
+- filename: dealboard-templates-api-openapi.yml
+  format: yaml
+  label: Dealboard Templates API
+  slug: dealboard-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dealboard/refs/heads/main/openapi/dealboard-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +64,6 @@ tags:
 - Company
 - CRM
 - Sales
-- API
-- AI
+- Artificial Intelligence
 - Integration
 ---

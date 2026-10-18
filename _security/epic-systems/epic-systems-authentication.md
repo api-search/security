@@ -27,8 +27,7 @@ summary_line: 0 schemes
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

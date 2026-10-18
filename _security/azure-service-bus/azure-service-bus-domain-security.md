@@ -74,12 +74,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/security/azure-service-bus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Azure
+- Microsoft Azure
 - Cloud
 - Enterprise
 - Message Broker
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Queues
 - Real-Time
 ---

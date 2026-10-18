@@ -318,7 +318,7 @@ tags:
 - Retail
 - Subscription
 - Team
-- Terminal
 - Webhook
 - Payment Processing
+- Payment Terminals
 ---

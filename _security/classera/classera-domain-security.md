@@ -39,7 +39,6 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management System
 - LMS
 - ERP
 - Fintech

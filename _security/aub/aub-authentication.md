@@ -40,5 +40,5 @@ tags:
 - Library
 - Institutional Repository
 - Identity Federation
-- Learning Management
+- LMS
 ---

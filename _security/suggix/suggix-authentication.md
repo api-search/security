@@ -66,9 +66,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/authentication/suggix-authentication.yml
 summary_line: 1 scheme
 tags:
-- SaaS
+- Software-as-a-Service
 - Feedback
-- Roadmap
+- Roadmaps
 - Changelog
 - Product Management
 ---

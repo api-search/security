@@ -39,5 +39,5 @@ tags:
 - Life Sciences
 - Surgery
 - Clinical Trials
-- MedTech
+- Medical Technology
 ---

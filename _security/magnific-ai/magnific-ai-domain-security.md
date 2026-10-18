@@ -55,7 +55,6 @@ tags:
 - Creative Tools
 - Relight
 - Style Transfer
-- Text-to-Image
 - Freepik
 - Spain
 ---

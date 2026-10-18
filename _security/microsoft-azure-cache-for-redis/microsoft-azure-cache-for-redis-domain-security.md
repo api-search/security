@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/security/microsoft-azure-cache-for-redis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Azure
+- Microsoft Azure
 - Cache
 - Cloud Infrastructure
 - Datastore

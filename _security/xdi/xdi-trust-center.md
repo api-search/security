@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xdi/refs/heads
 summary_line: ISO 27001
 tags:
 - Climate
-- Risk
+- Risk Management
 - Data
 - Analytics
 - Solutions

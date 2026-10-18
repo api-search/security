@@ -114,8 +114,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/
 summary_line: 1 scheme
 tags:
 - Data
-- AI
+- Artificial Intelligence
 - Catalog
 - Governance
-- Multimodal
+- Multi-Modal
 ---

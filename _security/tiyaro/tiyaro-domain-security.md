@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Customer Support
+- Customer Service
 - ITSM
 - Business Process Automation
 - Enterprise Software

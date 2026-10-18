@@ -93,10 +93,9 @@ tags:
 - Trading
 - RFQ
 - Solana
-- Crypto Web3
+- Web3
 - Market Data
 - Webhook
 - Real-Time
-- Web3
 - Cryptocurrency
 ---

@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/security/lumos-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Access Management
+- Identity and Access Management
 - Access Reviews
 - Deprovisioning
 - Identity Governance

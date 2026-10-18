@@ -36,12 +36,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uxd-protocol/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Stablecoins
 - DeFi
 - Solana
 - Blockchain
 - Digital Assets
-- Web3
 - Cryptocurrency
 ---

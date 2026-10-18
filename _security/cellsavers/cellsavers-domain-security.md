@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cellsavers/ref
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- HomeCare
+- Home Care
 - Repair
 - Handyman
-- SmartHome
+- Smart Home
 - Services
 ---

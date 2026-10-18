@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: zerodha-openapi-generated.yml
+- filename: zerodha-alerts-api-openapi.yml
   format: yaml
-  label: Zerodha API
-  slug: zerodha-api
+  label: Zerodha Alerts API
+  slug: zerodha-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/_ae-authored/zerodha-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-alerts-api-openapi.yml
+- filename: zerodha-gtt-api-openapi.yml
+  format: yaml
+  label: Zerodha Gtt API
+  slug: zerodha-gtt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-gtt-api-openapi.yml
+- filename: zerodha-orders-api-openapi.yml
+  format: yaml
+  label: Zerodha Orders API
+  slug: zerodha-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-orders-api-openapi.yml
+- filename: zerodha-portfolio-api-openapi.yml
+  format: yaml
+  label: Zerodha Portfolio API
+  slug: zerodha-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-portfolio-api-openapi.yml
+- filename: zerodha-session-api-openapi.yml
+  format: yaml
+  label: Zerodha Session API
+  slug: zerodha-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-session-api-openapi.yml
+- filename: zerodha-trades-api-openapi.yml
+  format: yaml
+  label: Zerodha Trades API
+  slug: zerodha-trades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-trades-api-openapi.yml
+- filename: zerodha-user-api-openapi.yml
+  format: yaml
+  label: Zerodha User API
+  slug: zerodha-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerodha/refs/heads/main/openapi/zerodha-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,6 +75,5 @@ tags:
 - Company
 - Finance
 - Trading
-- APIs
 - Fintech
 ---

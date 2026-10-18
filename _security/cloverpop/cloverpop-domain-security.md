@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloverpop/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Decision Intelligence
-- AI Assistants
+- AI Assistant
 - Business Analytics
 - Supply Chain
 - Sales & Marketing

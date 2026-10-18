@@ -215,4 +215,5 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
 - Banking
+- A2A
 ---

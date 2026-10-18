@@ -84,7 +84,6 @@ tags:
 - Video Generation
 - AI Video
 - Generative AI
-- Text-to-Video
 - Image-to-Video
 - Artificial Intelligence
 - Generative Video

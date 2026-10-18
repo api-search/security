@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cropconex/refs
 summary_line: TLSv1.3
 tags:
 - Agriculture
-- SupplyChain
+- Supply Chain
 - CommodityManagement
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

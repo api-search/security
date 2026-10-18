@@ -1,6 +1,37 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: billieio-authentication-api-openapi.yml
+  format: yaml
+  label: Billieio Authentication API
+  slug: billieio-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-authentication-api-openapi.yml
+- filename: billieio-back-end-order-creation-api-openapi.yml
+  format: yaml
+  label: Billieio Back-end Order Creation API
+  slug: billieio-back-end-order-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-back-end-order-creation-api-openapi.yml
+- filename: billieio-captures-api-openapi.yml
+  format: yaml
+  label: Billieio Captures API
+  slug: billieio-captures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-captures-api-openapi.yml
+- filename: billieio-front-end-order-creation-api-openapi.yml
+  format: yaml
+  label: Billieio Front-end Order Creation API
+  slug: billieio-front-end-order-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-front-end-order-creation-api-openapi.yml
+- filename: billieio-order-management-api-openapi.yml
+  format: yaml
+  label: Billieio Order Management API
+  slug: billieio-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-order-management-api-openapi.yml
 auth_types: []
 description: OAuth 2.0 client‑credentials flow with Bearer token in the Authorization header.
 kind: authentication

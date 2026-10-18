@@ -219,7 +219,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Home Services
-- Field Service Management
+- Field Service
 - Marketplace
 - Payments
 - Fintech

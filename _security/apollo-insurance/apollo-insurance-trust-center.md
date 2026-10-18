@@ -46,7 +46,7 @@ tags:
 - Insurance
 - Canada
 - Insurtech
-- Brokers
+- Brokerage
 - Embedded Insurance
 - Property and Casualty
 - Tenant Insurance

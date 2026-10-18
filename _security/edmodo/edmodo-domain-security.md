@@ -32,7 +32,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management System
+- LMS
 - Social Learning
 - K-12
 - Defunct

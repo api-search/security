@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cloudcheckr-openapi-generated.yml
+- filename: cloudcheckr-content-api-openapi.yml
   format: yaml
-  label: CloudCheckr API
-  slug: cloudcheckr-api
+  label: CloudCheckr Content API
+  slug: cloudcheckr-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudcheckr/refs/heads/main/openapi/_ae-authored/cloudcheckr-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudcheckr/refs/heads/main/openapi/cloudcheckr-content-api-openapi.yml
+- filename: cloudcheckr-iam-api-openapi.yml
+  format: yaml
+  label: CloudCheckr Iam API
+  slug: cloudcheckr-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudcheckr/refs/heads/main/openapi/cloudcheckr-iam-api-openapi.yml
+- filename: cloudcheckr-msp-api-openapi.yml
+  format: yaml
+  label: CloudCheckr Msp API
+  slug: cloudcheckr-msp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudcheckr/refs/heads/main/openapi/cloudcheckr-msp-api-openapi.yml
+- filename: cloudcheckr-oidc-api-openapi.yml
+  format: yaml
+  label: CloudCheckr Oidc API
+  slug: cloudcheckr-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudcheckr/refs/heads/main/openapi/cloudcheckr-oidc-api-openapi.yml
 auth_types: []
 description: Flexera One API authentication uses OAuth2 access tokens.
 kind: authentication

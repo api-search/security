@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Invoices
 - OCR
 - Workflows

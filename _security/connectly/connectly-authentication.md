@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: connectly-openapi-generated.yml
+- filename: connectly-businesses-api-openapi.yml
   format: yaml
-  label: Connectly API
-  slug: connectly-api
+  label: Connectly Businesses API
+  slug: connectly-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/openapi/_ae-authored/connectly-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/openapi/connectly-businesses-api-openapi.yml
 auth_types: []
 description: API keys authenticate your requests to the Connectly API.
 kind: authentication
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/authentication/connectly-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - CustomerEngagement
 - Enterprise

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing
 - IdentityResolution
-- DataEnrichment
-- SaaS
+- Data Enrichment
+- Software-as-a-Service
 - B2B
 ---

@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Company
 - Media
-- Fact-Checking
-- AI
+- Fact Checking
+- Artificial Intelligence
 - Disinformation
 ---

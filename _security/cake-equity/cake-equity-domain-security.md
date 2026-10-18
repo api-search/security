@@ -34,7 +34,7 @@ tags:
 - Company
 - Equity
 - CapTable
-- Startup
-- SaaS
+- Startups
+- Software-as-a-Service
 - Finance
 ---

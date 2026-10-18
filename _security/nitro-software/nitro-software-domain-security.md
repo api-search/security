@@ -71,7 +71,6 @@ tags:
 - PDF
 - Documents
 - E-Signature
-- Electronic Signature
 - Document Management
 - Document Intelligence
 - OCR

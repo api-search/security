@@ -29,6 +29,6 @@ tags:
 - Company
 - Medical Devices
 - Health
-- MedTech
+- Medical Technology
 - Medical
 ---

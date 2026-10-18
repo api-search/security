@@ -81,8 +81,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/
 summary_line: 3 schemes
 tags:
 - Audio
-- Podcasting
-- AI
+- Podcasts
+- Artificial Intelligence
 - Automation
 - Media
 ---

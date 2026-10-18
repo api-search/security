@@ -2,12 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: contasimples-openapi-generated.yml
+- filename: contasimples-accounts-api-openapi.yml
   format: yaml
-  label: Contasimples API
-  slug: contasimples-api
+  label: Contasimples Accounts API
+  slug: contasimples-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/_ae-authored/contasimples-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-accounts-api-openapi.yml
+- filename: contasimples-attachments-api-openapi.yml
+  format: yaml
+  label: Contasimples Attachments API
+  slug: contasimples-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-attachments-api-openapi.yml
+- filename: contasimples-categories-api-openapi.yml
+  format: yaml
+  label: Contasimples Categories API
+  slug: contasimples-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-categories-api-openapi.yml
+- filename: contasimples-cost-centers-api-openapi.yml
+  format: yaml
+  label: Contasimples Cost Centers API
+  slug: contasimples-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-cost-centers-api-openapi.yml
+- filename: contasimples-credit-cards-api-openapi.yml
+  format: yaml
+  label: Contasimples Credit Cards API
+  slug: contasimples-credit-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-credit-cards-api-openapi.yml
+- filename: contasimples-oauth-api-openapi.yml
+  format: yaml
+  label: Contasimples OAuth API
+  slug: contasimples-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-oauth-api-openapi.yml
+- filename: contasimples-statements-api-openapi.yml
+  format: yaml
+  label: Contasimples Statements API
+  slug: contasimples-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-statements-api-openapi.yml
+- filename: contasimples-suppliers-api-openapi.yml
+  format: yaml
+  label: Contasimples Suppliers API
+  slug: contasimples-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-suppliers-api-openapi.yml
+- filename: contasimples-users-api-openapi.yml
+  format: yaml
+  label: Contasimples Users API
+  slug: contasimples-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contasimples/refs/heads/main/openapi/contasimples-users-api-openapi.yml
 auth_types: []
 description: OAuth 2.0 Client Credentials flow
 kind: authentication

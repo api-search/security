@@ -36,6 +36,6 @@ tags:
 - Telecommunications
 - Postal Services
 - Sweden
-- Regulation
+- Regulations
 - Company
 ---

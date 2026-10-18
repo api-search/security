@@ -35,5 +35,5 @@ tags:
 - Artificial Intelligence
 - E-Commerce
 - Cross-Border
-- Agentic Commerce
+- AgenticCommerce
 ---

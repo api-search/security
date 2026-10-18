@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Conversational AI
-- Customer Support
+- Customer Service
 - Voice Agents
 - Chat Agents
 - Contact Center

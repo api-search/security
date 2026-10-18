@@ -35,8 +35,8 @@ tags:
 - Education
 - Higher Education
 - EdTech
-- Online Learning
+- E-Learning
 - Workforce Development
 - Career Services
-- Learning Management
+- LMS
 ---

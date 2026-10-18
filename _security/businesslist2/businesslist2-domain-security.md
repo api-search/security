@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate
 - Marketplace
-- AI
+- Artificial Intelligence
 - Pre-IPO
 - Investment
 ---

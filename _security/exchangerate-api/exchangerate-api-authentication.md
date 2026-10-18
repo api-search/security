@@ -93,10 +93,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/exchange
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/authentication/exchangerate-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Currency Exchange
 - Foreign Exchange
 - Financial Data
-- Forex
 - Currency Conversion
 - Public APIs
 ---

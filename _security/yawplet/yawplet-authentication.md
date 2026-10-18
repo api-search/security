@@ -26,6 +26,12 @@ api_specs:
   slug: yawplet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-webhooks-api-openapi.yml
+- filename: yawplet-oauth-api-openapi.yml
+  format: yaml
+  label: Yawplet OAuth API
+  slug: yawplet-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''

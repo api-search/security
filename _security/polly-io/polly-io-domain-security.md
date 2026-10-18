@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: polly-io-openapi-generated.yml
+- filename: polly-io-event-types-api-openapi.yml
   format: yaml
-  label: Polly API
-  slug: polly-io-api
+  label: Polly Event Types API
+  slug: polly-io-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/_ae-authored/polly-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-event-types-api-openapi.yml
+- filename: polly-io-lock-confirmation-documents-api-openapi.yml
+  format: yaml
+  label: Polly Lock Confirmation Documents API
+  slug: polly-io-lock-confirmation-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-lock-confirmation-documents-api-openapi.yml
+- filename: polly-io-mi-quotes-api-openapi.yml
+  format: yaml
+  label: Polly Mi Quotes API
+  slug: polly-io-mi-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-mi-quotes-api-openapi.yml
+- filename: polly-io-webhooks-api-openapi.yml
+  format: yaml
+  label: Polly Webhooks API
+  slug: polly-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/openapi/polly-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +56,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polly-io/refs/heads/main/security/polly-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- FinTech
+- Fintech
 - CapitalMarkets
 - Mortgage
 - APIPlatform
-- AI
+- Artificial Intelligence
 ---

@@ -32,11 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiplink/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Solana
 - Wallets
 - SDK
 - Payments
-- Web3
 - Cryptocurrency
 ---

@@ -31,10 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dev-agents/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Agents
 - Agent Operating System
 - Autonomous Agents
 - Developer Platform
-- Artificial Intelligence
 ---

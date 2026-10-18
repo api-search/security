@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: fastgpu-api-openapi.json
-  format: json
-  label: FastGPU API API
-  slug: fastgpu-api-api
+- filename: fastgpu-matching-api-openapi.yml
+  format: yaml
+  label: FastGPU Matching API
+  slug: fastgpu-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastgpu/refs/heads/main/openapi/_original/fastgpu-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fastgpu/refs/heads/main/openapi/fastgpu-matching-api-openapi.yml
+- filename: fastgpu-prices-api-openapi.yml
+  format: yaml
+  label: FastGPU Prices API
+  slug: fastgpu-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastgpu/refs/heads/main/openapi/fastgpu-prices-api-openapi.yml
+- filename: fastgpu-router-api-openapi.yml
+  format: yaml
+  label: FastGPU Router API
+  slug: fastgpu-router-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastgpu/refs/heads/main/openapi/fastgpu-router-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +54,5 @@ tags:
 - GPU
 - Cloud
 - Pricing
-- AI
+- Artificial Intelligence
 ---

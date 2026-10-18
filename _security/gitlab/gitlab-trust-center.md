@@ -125,7 +125,7 @@ tags:
 - Developer Tools
 - Platform
 - Software Development
-- Source Control
+- Version Control
 - GitLab
 trust_url: https://trust.gitlab.com/
 ---

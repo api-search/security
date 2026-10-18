@@ -31,7 +31,7 @@ summary_line: DMARC
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Urgent Care
 - Practice Management
 - Health IT

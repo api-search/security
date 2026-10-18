@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Business-Intelligence
-- Data-Analytics
+- Data Analytics
 - Poland
 - Wrocław
 ---

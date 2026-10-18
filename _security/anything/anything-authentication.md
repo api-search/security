@@ -116,7 +116,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anything/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - App Builder
 - Low-Code
 - No-Code

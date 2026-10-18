@@ -51,7 +51,7 @@ tags:
 - Underwriting
 - Claims
 - Delegated Authority
-- Brokers
+- Brokerage
 - Market Infrastructure
 - Standards
 - ACORD

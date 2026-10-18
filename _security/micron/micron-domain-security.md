@@ -40,7 +40,7 @@ tags:
 - Company
 - Memory
 - Storage
-- Semiconductor
+- Semiconductors
 - Technology
 - Hardware
 ---

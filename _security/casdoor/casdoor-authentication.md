@@ -91,7 +91,7 @@ tags:
 - LDAP
 - MCP
 - MFA
-- OIDC
+- OpenID Connect
 - Open Source
 - Passkeys
 - SAML

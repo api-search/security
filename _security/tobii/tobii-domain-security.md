@@ -38,7 +38,7 @@ tags:
 - SDK
 - Research
 - Hardware
-- XR
+- Extended Reality
 - Gaze Data
 - Behavioral Research
 - Sweden

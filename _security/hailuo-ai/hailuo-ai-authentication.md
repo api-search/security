@@ -65,7 +65,6 @@ tags:
 - Video Generation
 - AI Video
 - Generative AI
-- Text-to-Video
 - Image-to-Video
 - Text-to-Speech
 - LLM

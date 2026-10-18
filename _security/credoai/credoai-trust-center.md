@@ -32,9 +32,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/h
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
-- SaaS
+- Software-as-a-Service
 - PaloAlto
 trust_url: https://trust.credo.ai/
 ---

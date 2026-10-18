@@ -34,7 +34,7 @@ tags:
 - Education
 - Higher Education
 - EdTech
-- Online Learning
+- E-Learning
 - Student Analytics
 - Latin America
 ---

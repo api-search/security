@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Coffee
 - Retail
-- E‑commerce
+- E-Commerce
 - Sustainability
 - Direct‑Trade
 ---

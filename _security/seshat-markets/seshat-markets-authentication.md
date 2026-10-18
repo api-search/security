@@ -96,7 +96,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Finance
 - Fintech
-- Crypto
+- Cryptocurrency
 - Commodities
 - Forecasting
 - Predictions

@@ -1,6 +1,31 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: curbwaste-catalog-api-openapi.yml
+  format: yaml
+  label: Curbwaste Catalog API
+  slug: curbwaste-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-catalog-api-openapi.yml
+- filename: curbwaste-customers-api-openapi.yml
+  format: yaml
+  label: Curbwaste Customers API
+  slug: curbwaste-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-customers-api-openapi.yml
+- filename: curbwaste-locations-api-openapi.yml
+  format: yaml
+  label: Curbwaste Locations API
+  slug: curbwaste-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-locations-api-openapi.yml
+- filename: curbwaste-zones-api-openapi.yml
+  format: yaml
+  label: Curbwaste Zones API
+  slug: curbwaste-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-zones-api-openapi.yml
 auth_types: []
 description: CurbWaste authenticates partner API requests with company API keys passed as Bearer tokens in the Authorization header.
 kind: authentication
@@ -35,7 +60,7 @@ summary_line: 1 scheme
 tags:
 - Waste
 - Software
-- SaaS
+- Software-as-a-Service
 - Logistics
 - Haulers
 ---

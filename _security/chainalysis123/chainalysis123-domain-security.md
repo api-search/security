@@ -40,7 +40,7 @@ tags:
 - investigations
 - financial institutions
 - law enforcement
-- exchanges
-- security
+- Exchange
+- Security
 - data solutions
 ---

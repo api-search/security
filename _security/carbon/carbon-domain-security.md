@@ -34,7 +34,6 @@ tags:
 - Company
 - Frontier Tech
 - 3D Printing
-- Additive Manufacturing
 - Digital Manufacturing
 - Hardware
 - Materials Science

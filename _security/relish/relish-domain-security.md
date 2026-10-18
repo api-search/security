@@ -32,6 +32,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consumer
-- Venture Backed
 - Bullpen Capital
 ---

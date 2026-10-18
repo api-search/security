@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardinalityai/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Case Management
 - Government
 ---

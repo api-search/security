@@ -35,6 +35,5 @@ tags:
 - Generative AI
 - Machine Learning
 - Predictive Analytics
-- Venture Backed
 - North America
 ---

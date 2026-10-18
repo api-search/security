@@ -95,7 +95,7 @@ tags:
 - Identity Federation
 - Research Repository
 - Library
-- Learning Management
+- LMS
 - Research
 - Open Access
 ---

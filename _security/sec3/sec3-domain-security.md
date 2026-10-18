@@ -32,12 +32,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec3/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Security
 - Blockchain
 - Solana
 - Smart Contracts
 - Auditing
 - Formal Verification
-- Web3
 ---

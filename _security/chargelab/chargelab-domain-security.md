@@ -31,9 +31,8 @@ source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargelab/refs/heads/main/security/chargelab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- fintech
+- Fintech
 - ev-charging
-- api
-- startup
+- Startups
 - mobility
 ---

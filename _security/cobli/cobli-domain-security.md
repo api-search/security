@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cobli-openapi-generated.yml
+- filename: cobli-public-api-openapi.yml
   format: yaml
-  label: Cobli API
-  slug: cobli-api
+  label: Cobli Public API
+  slug: cobli-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobli/refs/heads/main/openapi/_ae-authored/cobli-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cobli/refs/heads/main/openapi/cobli-public-api-openapi.yml
 description: ''
 domains:
 - caa: []

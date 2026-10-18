@@ -61,7 +61,7 @@ tags:
 - IoT
 - 5G
 - Healthcare
-- Electronic Medical Records
+- Electronic Health Records
 - GraphQL
 - Webhook
 - Geospatial

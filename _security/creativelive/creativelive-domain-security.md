@@ -33,7 +33,7 @@ tags:
 - Company
 - Consumer
 - Education
-- Online Learning
+- E-Learning
 - Courses
 - Photography
 - Video

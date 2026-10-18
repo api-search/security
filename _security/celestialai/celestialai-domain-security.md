@@ -29,8 +29,8 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celestialai/refs/heads/main/security/celestialai-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI Content
-- Short-form Video
+- AI content
+- Short-Form Video
 - Content Calendar
 - Voice Cloning
 ---

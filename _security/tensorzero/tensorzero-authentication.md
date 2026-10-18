@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorzero/ref
 summary_line: http/apiKey · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - LLM
 - LLMOps
 - AI Gateway

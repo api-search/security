@@ -95,12 +95,12 @@ summary_line: http-bearer · 4 schemes
 tags:
 - Company
 - Identity
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Infrastructure
 - Kubernetes
-- OIDC
+- OpenID Connect
 - Security
 - Open Source
 ---

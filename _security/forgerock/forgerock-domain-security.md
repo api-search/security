@@ -271,11 +271,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/security/forgerock-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Identity Governance
-- Identity Management
 - OpenID Connect
 - Identity Federation
 ---

@@ -36,5 +36,4 @@ tags:
 - Reproductive Health
 - Fertility
 - Health
-- Venture Backed
 ---

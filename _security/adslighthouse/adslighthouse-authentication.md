@@ -118,6 +118,5 @@ tags:
 - Company
 - Advertising
 - Monitoring
-- BrandProtection
-- API
+- Brand Protection
 ---

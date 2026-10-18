@@ -526,7 +526,7 @@ summary_line: http/oauth2 · 3 schemes
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Customer Education
 - Training
 - Online Courses

@@ -36,6 +36,6 @@ tags:
 - Company
 - Banking
 - Finance
-- OpenBanking
+- Open Banking
 - Germany
 ---

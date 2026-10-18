@@ -43,7 +43,6 @@ tags:
 - Company
 - Bucketplace
 - Platform
-- Startup
+- Startups
 - Management
-- API
 ---

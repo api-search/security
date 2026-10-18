@@ -37,8 +37,8 @@ tags:
 - Stocks
 - Options
 - Futures
-- Forex
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - CFD
 - AI Assistant
 - llms-txt

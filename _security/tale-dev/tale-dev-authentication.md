@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Automation
 - Knowledge Management

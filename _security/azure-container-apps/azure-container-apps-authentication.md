@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/authentication/azure-container-apps-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Azure
+- Microsoft Azure
 - Containers
 - Dapr
 - Kubernetes

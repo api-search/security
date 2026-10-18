@@ -34,5 +34,4 @@ tags:
 - Booking
 - Flights
 - Hotels
-- API
 ---

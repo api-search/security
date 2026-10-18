@@ -110,7 +110,7 @@ tags:
 - E-Commerce
 - Subscription
 - Affiliate Marketing
-- Learning Management
+- LMS
 - Creator Economy
 - Webhook
 ---

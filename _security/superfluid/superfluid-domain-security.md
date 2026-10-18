@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superfluid/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - DeFi
 - Payments
@@ -57,6 +57,5 @@ tags:
 - Ethereum
 - GraphQL
 - Smart Contracts
-- Web3
 - Cryptocurrency
 ---

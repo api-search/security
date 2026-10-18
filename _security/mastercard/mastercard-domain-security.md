@@ -6,54 +6,6 @@ api_specs:
   slug: mastercard-business-payment-controls
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-business-payment-controls-openapi.yml
-- filename: mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa-openapi.yml
-  format: yaml
-  label: Mastercard Community Pass Digital Identity (CPDI) and Acceptance (CPA)
-  slug: mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa-openapi.yml
-- filename: mastercard-commerce-pass-cxp-openapi.yml
-  format: yaml
-  label: Mastercard Commerce Pass (CxP)
-  slug: mastercard-commerce-pass-cxp
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-commerce-pass-cxp-openapi.yml
-- filename: mastercard-in-control-for-commercial-payments-openapi.yml
-  format: yaml
-  label: Mastercard In Control for Commercial Payments
-  slug: mastercard-in-control-for-commercial-payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-in-control-for-commercial-payments-openapi.yml
-- filename: mastercard-priceless-platform-openapi.yml
-  format: yaml
-  label: Mastercard Priceless Platform
-  slug: mastercard-priceless-platform
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-priceless-platform-openapi.yml
-- filename: mastercard-cloud-commerce-openapi.yml
-  format: yaml
-  label: Mastercard Cloud Commerce
-  slug: mastercard-cloud-commerce
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-cloud-commerce-openapi.yml
-- filename: mastercard-contactless-reader-sdk-openapi.yml
-  format: yaml
-  label: Mastercard Contactless Reader SDK
-  slug: mastercard-contactless-reader-sdk
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-contactless-reader-sdk-openapi.yml
-- filename: mastercard-cross-border-services-openapi.yml
-  format: yaml
-  label: Mastercard Cross-Border Services
-  slug: mastercard-cross-border-services
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-cross-border-services-openapi.yml
-- filename: mastercard-direct-services-openapi.yml
-  format: yaml
-  label: Mastercard Direct Services
-  slug: mastercard-direct-services
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-direct-services-openapi.yml
 - filename: mastercard-access-api-openapi.yml
   format: yaml
   label: Mastercard Access API
@@ -603,19 +555,19 @@ domains:
   domain: mastercard.com
   spf: true
 hosts:
-- cert_expires: Sep 14 23:59:59 2026 GMT
+- cert_expires: Mar 26 23:59:59 2027 GMT
+  host: mastercard.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.2
+- cert_expires: Feb 14 23:59:59 2027 GMT
   host: developer.mastercard.com
   hsts: true
   hsts_max_age: 16070400
   https: true
   tls_version: TLSv1.2
-- cert_expires: Mar 22 23:59:59 2027 GMT
-  host: sandbox.api.mastercard.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 11 23:59:59 2026 GMT
-  host: mtf.services.mastercard.com
+- cert_expires: Jan 23 23:59:59 2027 GMT
+  host: api.mastercard.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -632,7 +584,7 @@ slug: mastercard-domain-security
 source_filename: mastercard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.mastercard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: sandbox.api.mastercard.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 22 23:59:59 2027 GMT\n  hsts: null\n- host: mtf.services.mastercard.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mastercard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mastercard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 26 23:59:59 2027 GMT\n  hsts: null\n- host: developer.mastercard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: api.mastercard.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mastercard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/security/mastercard-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/security/cloudchipr-trust-center.yml
 summary_line: SOC 2
 tags:
-- Azure
+- Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization
 - FinOps

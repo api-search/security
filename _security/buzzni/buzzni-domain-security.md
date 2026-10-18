@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buzzni/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
-- E-commerce
+- E-Commerce
 - Data
 ---

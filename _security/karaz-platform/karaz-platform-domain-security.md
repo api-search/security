@@ -33,7 +33,6 @@ tags:
 - Company
 - Healthcare
 - Electronic Health Records
-- EHR
 - Health
 - Remote Patient Monitoring
 - Appointments

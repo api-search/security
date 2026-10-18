@@ -34,5 +34,5 @@ tags:
 - Gas
 - Electricity
 - DistrictHeating
-- SouthKorea
+- South Korea
 ---

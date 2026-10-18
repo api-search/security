@@ -37,6 +37,6 @@ tags:
 - Government
 - Compliance
 - Real Estate
-- Construction Tech
+- Construction Technology
 - Artificial Intelligence
 ---

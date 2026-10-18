@@ -34,6 +34,5 @@ tags:
 - Hospitality
 - Vacation Rentals
 - Marketplace
-- Venture Backed
 - Acquired
 ---

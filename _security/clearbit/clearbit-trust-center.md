@@ -22,7 +22,7 @@ summary_line: trust center published
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Reveal
 - HubSpot
 - Marketing

@@ -34,7 +34,6 @@ tags:
 - EdTech
 - Tutoring
 - Education
-- Online Learning
 - E-Learning
 - Subscription
 - Europe

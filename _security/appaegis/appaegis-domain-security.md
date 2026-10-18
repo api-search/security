@@ -34,7 +34,7 @@ tags:
 - Security
 - Zero Trust
 - Enterprise Browser
-- Access Management
+- Identity and Access Management
 - Data Loss Prevention
 - GenAI Security
 - Identity

@@ -40,7 +40,7 @@ tags:
 - Sepsis
 - Patient Monitoring
 - Clinical Decision Support
-- EHR
+- Electronic Health Records
 - FHIR
 - Interoperability
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Grocery
 - Delivery
-- Startup
+- Startups
 - Bankruptcy
 ---

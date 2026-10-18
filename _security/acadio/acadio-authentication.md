@@ -115,7 +115,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Professional Education
 - Continuing Education
 - Certification

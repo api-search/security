@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/he
 summary_line: TLSv1.2 · DMARC
 tags:
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - SIEM
 - Threat Detection

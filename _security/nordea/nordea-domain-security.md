@@ -41,5 +41,4 @@ tags:
 - Banking
 - Finance
 - Nordic
-- API
 ---

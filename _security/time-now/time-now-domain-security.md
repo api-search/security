@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: time-now-openapi-generated.yml
+- filename: time-now-developer-api-openapi.yml
   format: yaml
-  label: Time.now API
-  slug: time-now-api
+  label: Time.now Developer API
+  slug: time-now-developer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/time-now/refs/heads/main/openapi/_ae-authored/time-now-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/time-now/refs/heads/main/openapi/time-now-developer-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +40,6 @@ tags:
 - Developer Tools
 - IoT
 - Web Applications
-- Timezones
+- Timezone
 - Geolocation
 ---

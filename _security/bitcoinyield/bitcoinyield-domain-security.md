@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: bitcoinyield-offers-api-openapi.yml
+  format: yaml
+  label: BitcoinYield Offers API
+  slug: bitcoinyield-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitcoinyield/refs/heads/main/openapi/bitcoinyield-offers-api-openapi.yml
+- filename: bitcoinyield-prices-api-openapi.yml
+  format: yaml
+  label: BitcoinYield Prices API
+  slug: bitcoinyield-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitcoinyield/refs/heads/main/openapi/bitcoinyield-prices-api-openapi.yml
+- filename: bitcoinyield-yields-api-openapi.yml
+  format: yaml
+  label: BitcoinYield Yields API
+  slug: bitcoinyield-yields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitcoinyield/refs/heads/main/openapi/bitcoinyield-yields-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,8 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcoinyield/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Yield
 - Finance
-- API
 ---

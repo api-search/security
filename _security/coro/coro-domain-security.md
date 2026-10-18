@@ -33,7 +33,7 @@ tags:
 - Company
 - Cybersecurity
 - Security
-- Endpoint Protection
+- Endpoint Security
 - Email Security
 - Cloud Security
 - Data Protection

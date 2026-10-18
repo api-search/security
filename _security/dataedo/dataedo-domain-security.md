@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: dataedo-openapi-generated.yml
+- filename: dataedo-public-api-openapi.yml
   format: yaml
-  label: Dataedo API
-  slug: dataedo-api
+  label: Dataedo Public API
+  slug: dataedo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/openapi/_ae-authored/dataedo-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/openapi/dataedo-public-api-openapi.yml
+- filename: dataedo-public-api-openapi.yml
+  format: yaml
+  label: Dataedo Public API
+  slug: dataedo-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dataedo/refs/heads/main/openapi/dataedo-public-api-openapi.yml
 description: ''
 domains:
 - caa: []

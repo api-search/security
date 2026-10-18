@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cannabis
 - Retail
-- E‑commerce
+- E-Commerce
 - California
 - Dispensary
 ---

@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Deep Tech
-- Additive Manufacturing
 - 3D Printing
 - Generative Design
 - Algorithmic Engineering

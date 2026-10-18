@@ -33,6 +33,5 @@ tags:
 - Gaming
 - Mobile Games
 - Social Games
-- Portfolio Company
 - 500 Global
 ---

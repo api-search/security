@@ -41,9 +41,8 @@ tags:
 - Security
 - Identity
 - Authorization
-- Access Management
+- Identity and Access Management
 - CAEP
 - Shared Signals
 - Zero Standing Privilege
-- Identity and Access Management
 ---

@@ -461,7 +461,7 @@ tags:
 - Community
 - Social Media
 - Customer Engagement
-- Customer Support
+- Customer Service
 - Chatbots
 - Messaging
 - Analytics

@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - OCR
 - Verification
 - GDPR

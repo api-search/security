@@ -91,7 +91,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Enterprise
 - Automation
 - Generative AI

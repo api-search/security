@@ -486,8 +486,8 @@ tags:
 - Market Data
 - Stocks
 - Options
-- Forex
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - Indices
 - Futures
 - WebSocket

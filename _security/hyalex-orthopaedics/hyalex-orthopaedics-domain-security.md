@@ -33,7 +33,7 @@ tags:
 - Company
 - Medical Devices
 - Orthopedics
-- MedTech
+- Medical Technology
 - Health
 - Biotechnology
 - Implants

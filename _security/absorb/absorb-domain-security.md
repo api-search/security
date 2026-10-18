@@ -36,7 +36,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absorb/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - LMS
-- Learning Management
 - E-Learning
 - Training
 - Courses

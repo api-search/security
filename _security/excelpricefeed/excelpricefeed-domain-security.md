@@ -33,6 +33,5 @@ tags:
 - Company
 - Finance
 - Excel
-- Real-time Data
-- APIs
+- Real-Time Data
 ---

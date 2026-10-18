@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: nexi-openapi-generated.yml
+- filename: nexi-build-api-openapi.yml
   format: yaml
-  label: Nexi API
-  slug: nexi-api
+  label: Nexi Build API
+  slug: nexi-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/_ae-authored/nexi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-build-api-openapi.yml
+- filename: nexi-contract-api-openapi.yml
+  format: yaml
+  label: Nexi Contract API
+  slug: nexi-contract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-contract-api-openapi.yml
+- filename: nexi-contracts-api-openapi.yml
+  format: yaml
+  label: Nexi Contracts API
+  slug: nexi-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-contracts-api-openapi.yml
+- filename: nexi-nexi-api-api-openapi.yml
+  format: yaml
+  label: Nexi Nexi API
+  slug: nexi-nexi-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-nexi-api-api-openapi.yml
+- filename: nexi-operations-api-openapi.yml
+  format: yaml
+  label: Nexi Operations API
+  slug: nexi-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-operations-api-openapi.yml
+- filename: nexi-orders-api-openapi.yml
+  format: yaml
+  label: Nexi Orders API
+  slug: nexi-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-orders-api-openapi.yml
+- filename: nexi-paybylink-api-openapi.yml
+  format: yaml
+  label: Nexi Paybylink API
+  slug: nexi-paybylink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-paybylink-api-openapi.yml
+- filename: nexi-payment-methods-api-openapi.yml
+  format: yaml
+  label: Nexi Payment Methods API
+  slug: nexi-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexi/refs/heads/main/openapi/nexi-payment-methods-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +81,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Europe
-- API
 ---

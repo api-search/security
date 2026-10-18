@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Healthcare Analytics
 - Clinical Data
-- Electronic Medical Records
+- Electronic Health Records
 - Hospital Operations
 - Quality Improvement
 - Business Intelligence

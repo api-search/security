@@ -39,6 +39,6 @@ tags:
 - On-Chain Data
 - Economic Security
 - Price Feeds
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 ---

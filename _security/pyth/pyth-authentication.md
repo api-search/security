@@ -71,13 +71,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pyth/refs/head
 summary_line: none/http · 3 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Oracle
 - Price Feeds
 - Market Data
 - DeFi
 - Blockchain
 - Financial Data
-- Web3
 - Cryptocurrency
 ---

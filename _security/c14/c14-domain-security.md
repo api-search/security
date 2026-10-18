@@ -29,7 +29,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Payments
 - On-Ramp
 - Digital Assets

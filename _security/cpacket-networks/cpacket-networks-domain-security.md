@@ -33,6 +33,6 @@ tags:
 - Company
 - Network Observability
 - Packet Broker
-- AI
+- Artificial Intelligence
 - Cloud
 ---

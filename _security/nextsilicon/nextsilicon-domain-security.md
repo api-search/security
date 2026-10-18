@@ -36,7 +36,7 @@ tags:
 - High Performance Computing
 - Semiconductors
 - Hardware
-- Accelerators
+- Accelerator
 - RISC-V
 - Artificial Intelligence
 ---

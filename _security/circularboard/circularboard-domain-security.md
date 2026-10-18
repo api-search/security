@@ -34,5 +34,5 @@ tags:
 - Sustainability
 - Circular-Economy
 - ESG
-- Startup
+- Startups
 ---

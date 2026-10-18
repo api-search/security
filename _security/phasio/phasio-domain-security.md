@@ -231,7 +231,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - CNC Machining
 - Quoting

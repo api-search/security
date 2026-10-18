@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ERP
 - Finance
-- SaaS
+- Software-as-a-Service
 - Brazil
-- SMB
+- Small Business
 ---

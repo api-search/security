@@ -220,6 +220,6 @@ tags:
 - Email Intelligence
 - Identity
 - Number Masking
-- Accounts
+- Account
 trust_url: https://www.telesign.com/security
 ---

@@ -38,6 +38,6 @@ tags:
 - Security
 - Identity Security
 - Authorization
-- Access Management
+- Identity and Access Management
 - Identity Governance
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Staffing
 - Recruiting
-- AI
+- Artificial Intelligence
 - TalentManagement
-- SaaS
+- Software-as-a-Service
 ---

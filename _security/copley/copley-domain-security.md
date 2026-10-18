@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copley/refs/heads/main/security/copley-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Demand Engineering
 - Platform
-- SaaS
+- Software-as-a-Service
 - Company
 ---

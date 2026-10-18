@@ -23,7 +23,7 @@ tags:
 - Company
 - Energy
 - Software
-- CleanTech
+- Cleantech
 - Modeling
 trust_url: https://security.gridcog.com/
 ---

@@ -47,7 +47,7 @@ summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Real-Time
 - WebSocket
-- Pub-Sub
+- Pub/Sub
 - Push Notifications
 - Messaging
 trust_url: https://pusher.com/security/

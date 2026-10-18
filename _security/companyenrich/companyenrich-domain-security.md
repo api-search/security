@@ -34,6 +34,6 @@ tags:
 - Company
 - B2B
 - Data
-- Enrichment
-- AI
+- Data Enrichment
+- Artificial Intelligence
 ---

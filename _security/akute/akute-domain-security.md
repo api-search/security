@@ -92,8 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akute/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Digital Health
 - Telehealth

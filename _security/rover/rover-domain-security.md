@@ -42,5 +42,4 @@ tags:
 - Pet Sitting
 - Marketplace
 - Consumer
-- Stub
 ---

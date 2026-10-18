@@ -71,4 +71,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-bli
 summary_line: oauth2 · 1 scheme
 tags:
 - Fortune 1000
+- Video Games
+- Gaming
+- Entertainment
+- Game Publisher
 ---

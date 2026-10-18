@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: horsetruth-openapi-generated.yml
+- filename: horsetruth-horses-api-openapi.yml
   format: yaml
-  label: Horse Truth API
-  slug: horsetruth-api
+  label: Horse Truth Horses API
+  slug: horsetruth-horses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/_ae-authored/horsetruth-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-horses-api-openapi.yml
+- filename: horsetruth-identity-api-openapi.yml
+  format: yaml
+  label: Horse Truth Identity API
+  slug: horsetruth-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-identity-api-openapi.yml
+- filename: horsetruth-machine-api-openapi.yml
+  format: yaml
+  label: Horse Truth Machine API
+  slug: horsetruth-machine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-machine-api-openapi.yml
+- filename: horsetruth-mcp-api-openapi.yml
+  format: yaml
+  label: Horse Truth MCP API
+  slug: horsetruth-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-mcp-api-openapi.yml
+- filename: horsetruth-sandbox-api-openapi.yml
+  format: yaml
+  label: Horse Truth Sandbox API
+  slug: horsetruth-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-sandbox-api-openapi.yml
+- filename: horsetruth-x402-api-openapi.yml
+  format: yaml
+  label: Horse Truth X402 API
+  slug: horsetruth-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horsetruth/refs/heads/main/openapi/horsetruth-x402-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +70,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Racehorse Intelligence
 - Horse Reports
-- API
 - Developers
 - Trainers
 ---

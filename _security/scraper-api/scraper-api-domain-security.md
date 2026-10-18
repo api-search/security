@@ -55,5 +55,5 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Data Extraction
 - Proxies
-- Scraping
+- Web Scraping
 ---

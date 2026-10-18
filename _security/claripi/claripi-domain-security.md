@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Medical Imaging
-- AI
+- Artificial Intelligence
 - Healthcare
 - Software
 ---

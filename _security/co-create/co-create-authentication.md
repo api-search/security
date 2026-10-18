@@ -47,6 +47,6 @@ tags:
 - Polygon
 - Tokens
 - Community
-- Crypto
+- Cryptocurrency
 - Loyalty & Incentives
 ---

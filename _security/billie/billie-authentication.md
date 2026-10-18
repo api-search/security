@@ -1,6 +1,37 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: billie-authentication-api-openapi.yml
+  format: yaml
+  label: Billie Authentication API
+  slug: billie-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-authentication-api-openapi.yml
+- filename: billie-back-end-order-creation-api-openapi.yml
+  format: yaml
+  label: Billie Back-end Order Creation API
+  slug: billie-back-end-order-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-back-end-order-creation-api-openapi.yml
+- filename: billie-captures-api-openapi.yml
+  format: yaml
+  label: Billie Captures API
+  slug: billie-captures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-captures-api-openapi.yml
+- filename: billie-front-end-order-creation-api-openapi.yml
+  format: yaml
+  label: Billie Front-end Order Creation API
+  slug: billie-front-end-order-creation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-front-end-order-creation-api-openapi.yml
+- filename: billie-order-management-api-openapi.yml
+  format: yaml
+  label: Billie Order Management API
+  slug: billie-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-order-management-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

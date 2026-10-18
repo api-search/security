@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: htx-websocket-asyncapi.yml
+  format: yaml
+  label: HTX Spot REST API
+  slug: htx-spot-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/asyncapi/htx-websocket-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +56,7 @@ tags:
 - Company
 - Technology
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Digital Assets
 - Blockchain

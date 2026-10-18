@@ -53,7 +53,6 @@ tags:
 - Software-as-a-Service
 - Education
 - EdTech
-- Learning Management System
 - LMS
 - LTI
 - Norway

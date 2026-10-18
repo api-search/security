@@ -137,7 +137,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - News
 - Search
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Extraction
 - Clustering

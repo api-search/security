@@ -38,7 +38,7 @@ tags:
 - Home Health
 - Hospice
 - Private Duty
-- EHR
+- Electronic Health Records
 - Healthcare
 - FHIR
 - OASIS

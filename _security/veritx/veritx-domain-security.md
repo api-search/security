@@ -37,7 +37,7 @@ tags:
 - Post-Quantum Cryptography
 - Supply Chain
 - Aerospace
-- Additive Manufacturing
+- 3D Printing
 - Provenance
 - Defense
 ---

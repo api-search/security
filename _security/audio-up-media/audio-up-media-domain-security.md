@@ -33,7 +33,7 @@ tags:
 - Company
 - Media
 - Entertainment
-- Podcasting
+- Podcasts
 - Audio
 - Music
 - Content Production

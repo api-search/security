@@ -80,6 +80,6 @@ tags:
 - EdTech
 - Qualifications
 - Testing
-- Learning Management
+- LMS
 - Workforce Skills
 ---

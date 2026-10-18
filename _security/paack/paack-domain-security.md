@@ -6,6 +6,48 @@ api_specs:
   slug: paack-api
   spec_type: Postman
   url: https://www.postman.com/paacklogistics/paack-apis/collection/p93tvmy/paack-api-systems
+- filename: paack-check-coverage-api-openapi.yml
+  format: yaml
+  label: Paack Check coverage API
+  slug: paack-check-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-check-coverage-api-openapi.yml
+- filename: paack-generate-labels-api-openapi.yml
+  format: yaml
+  label: Paack Generate labels API
+  slug: paack-generate-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-generate-labels-api-openapi.yml
+- filename: paack-get-access-token-api-openapi.yml
+  format: yaml
+  label: Paack Get access token API
+  slug: paack-get-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-get-access-token-api-openapi.yml
+- filename: paack-manage-orders-api-openapi.yml
+  format: yaml
+  label: Paack Manage orders API
+  slug: paack-manage-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-manage-orders-api-openapi.yml
+- filename: paack-retrieve-delivery-proof-api-openapi.yml
+  format: yaml
+  label: Paack Retrieve delivery proof API
+  slug: paack-retrieve-delivery-proof-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-delivery-proof-api-openapi.yml
+- filename: paack-retrieve-events-history-api-openapi.yml
+  format: yaml
+  label: Paack Retrieve events history API
+  slug: paack-retrieve-events-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-events-history-api-openapi.yml
+- filename: paack-retrieve-last-event-api-openapi.yml
+  format: yaml
+  label: Paack Retrieve last event API
+  slug: paack-retrieve-last-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-last-event-api-openapi.yml
 description: ''
 domains:
 - caa:

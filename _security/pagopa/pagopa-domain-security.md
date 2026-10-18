@@ -90,12 +90,6 @@ api_specs:
   slug: pagopa-debt-positions-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pagopa/refs/heads/main/openapi/pagopa-debt-positions-api-api-openapi.yml
-- filename: pagopa-debt-positions-api-installments-and-payment-options-manager-api-openapi.yml
-  format: yaml
-  label: 'PagoPA Debt Positions API: Installments and Payment Options Manager API'
-  slug: pagopa-debt-positions-api-installments-and-payment-options-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pagopa/refs/heads/main/openapi/pagopa-debt-positions-api-installments-and-payment-options-manager-api-openapi.yml
 - filename: pagopa-delegations-api-openapi.yml
   format: yaml
   label: PagoPA Delegations API
@@ -529,6 +523,6 @@ tags:
 - Public Sector
 - Digital Identity
 - Interoperability
-- Notifications
+- Notification
 - Italy
 ---

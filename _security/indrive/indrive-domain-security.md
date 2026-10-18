@@ -33,7 +33,6 @@ tags:
 - Company
 - Mobility
 - Ride Hailing
-- Ridesharing
 - Delivery
 - Freight
 - Transportation

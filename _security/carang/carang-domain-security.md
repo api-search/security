@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - MobilityTech
 - Automotive
-- FleetManagement
-- SouthKorea
+- Fleet Management
+- South Korea
 - Incheon
 ---

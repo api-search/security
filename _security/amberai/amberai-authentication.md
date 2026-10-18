@@ -593,8 +593,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/h
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - OperatingSystem
 - Automation
-- SupplyChain
+- Supply Chain
 ---

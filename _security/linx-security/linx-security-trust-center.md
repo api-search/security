@@ -22,11 +22,10 @@ tags:
 - Security
 - Identity
 - Identity Governance
-- Access Management
+- Identity and Access Management
 - Identity Security
 - Non-Human Identity
 - AI Agents
 - MCP
-- IGA
 trust_url: https://trust.linx.security
 ---

@@ -57,7 +57,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Geospatial
 - AerialImagery
-- DataAnalytics
-- RealEstate
+- Data Analytics
+- Real Estate
 - Insurance
 ---

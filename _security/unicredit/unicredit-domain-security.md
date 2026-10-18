@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: unicredit-openapi-generated.yml
+- filename: unicredit-hydrogen-api-openapi.yml
   format: yaml
-  label: UniCredit API
-  slug: unicredit-api
+  label: UniCredit Hydrogen API
+  slug: unicredit-hydrogen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicredit/refs/heads/main/openapi/_ae-authored/unicredit-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unicredit/refs/heads/main/openapi/unicredit-hydrogen-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -35,5 +35,5 @@ tags:
 - Robotics
 - Community
 - Sustainability
-- Open-Source
+- Open Source
 ---

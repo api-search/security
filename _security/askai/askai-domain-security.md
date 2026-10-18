@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: askai-openapi-generated.yml
+- filename: askai-gptfy-api-api-openapi.yml
   format: yaml
-  label: GPTfy API
-  slug: askai-api
+  label: GPTfy GPTfy API
+  slug: askai-gptfy-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/askai/refs/heads/main/openapi/_ae-authored/askai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/askai/refs/heads/main/openapi/askai-gptfy-api-api-openapi.yml
+- filename: askai-chat-completions-api-openapi.yml
+  format: yaml
+  label: GPTfy Chat Completions API
+  slug: askai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/askai/refs/heads/main/openapi/askai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/askai/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Language-Model
 - Platform
-- API
 ---

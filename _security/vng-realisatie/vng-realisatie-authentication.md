@@ -295,6 +295,6 @@ tags:
 - Netherlands
 - API Standards
 - Common Ground
-- Open Standards
+- Open Standard
 - Public Sector
 ---

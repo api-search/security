@@ -97,7 +97,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

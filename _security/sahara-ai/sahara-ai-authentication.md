@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Machine Learning
 - Agents

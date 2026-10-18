@@ -33,6 +33,5 @@ tags:
 - Holding Company
 - Saudi Arabia
 - Middle East
-- Venture Backed
 - 500 Global
 ---

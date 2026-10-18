@@ -34,5 +34,5 @@ tags:
 - MedicalTechnology
 - UltrasoundTherapy
 - Neuromodulation
-- ClinicalTrials
+- Clinical Trials
 ---

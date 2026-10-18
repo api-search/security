@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capconnect/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Fixed Income
 - Digital Platform
 - Issuance

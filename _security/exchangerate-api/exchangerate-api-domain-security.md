@@ -107,10 +107,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/security/exchangerate-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Currency Exchange
 - Foreign Exchange
 - Financial Data
-- Forex
 - Currency Conversion
 - Public APIs
 ---

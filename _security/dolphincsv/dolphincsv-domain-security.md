@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - CSV
-- SaaS
+- Software-as-a-Service
 - Integration
-- DeveloperTools
+- Developer Tools
 ---

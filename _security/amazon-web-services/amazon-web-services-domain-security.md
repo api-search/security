@@ -8934,6 +8934,18 @@ api_specs:
   slug: amazon-web-services-trafficpolicyinstances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-trafficpolicyinstances-api-openapi.yml
+- filename: amazon-web-services-health-api-openapi.yml
+  format: yaml
+  label: Amazon Web Services Health API
+  slug: amazon-web-services-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-health-api-openapi.yml
+- filename: amazon-web-services-systemone-api-openapi.yml
+  format: yaml
+  label: Amazon Web Services Systemone API
+  slug: amazon-web-services-systemone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-systemone-api-openapi.yml
 - filename: amazon-web-services-access-point-api-openapi.yml
   format: yaml
   label: Amazon Web Services Access Point API
@@ -10083,16 +10095,19 @@ domains:
   domain: amazonaws.com
   spf: true
 hosts:
-- cert_expires: Mar  4 23:59:59 2027 GMT
+- cert_expires: Oct 17 23:59:59 2026 GMT
   host: aws.amazon.com
   hsts: true
   hsts_max_age: 47304000
   https: true
   tls_version: TLSv1.3
-- host: bedrock.amazonaws.com
-  https: false
-- cert_expires: Mar 30 23:59:59 2027 GMT
+- cert_expires: Nov 12 23:59:59 2026 GMT
   host: ec2.amazonaws.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Nov  6 23:59:59 2026 GMT
+  host: s3.amazonaws.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -10102,14 +10117,14 @@ layout: security
 method: probed
 name: Amazon Web Services Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Amazon Web Services, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Amazon Web Services, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon Web Services
 provider_slug: amazon-web-services
 slug: amazon-web-services-domain-security
 source_filename: amazon-web-services-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: bedrock.amazonaws.com\n  https: false\n- host: ec2.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: ec2.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: null\n- host: s3.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/security/amazon-web-services-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

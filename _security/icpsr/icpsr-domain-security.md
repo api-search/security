@@ -35,5 +35,5 @@ tags:
 - Data
 - Research
 - SocialScience
-- Archive
+- Archives
 ---

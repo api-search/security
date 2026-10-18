@@ -43,7 +43,7 @@ tags:
 - Stocks
 - Indices
 - Currency
-- Crypto
+- Cryptocurrency
 - Commodities
 - Historical Data
 - Free

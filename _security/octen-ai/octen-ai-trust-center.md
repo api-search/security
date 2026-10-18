@@ -118,7 +118,7 @@ summary_line: SOC 2 Type II (Certified), HIPAA (In progress)
 tags:
 - Search
 - Web Search
-- AI
+- Artificial Intelligence
 - LLM
 - Embeddings
 - Content Extraction

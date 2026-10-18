@@ -80,7 +80,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Continuing Education
 - Licensing
 - Certification

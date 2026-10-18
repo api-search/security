@@ -29,7 +29,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Defunct
-- Venture Backed
 - 500 Global
 - Media
 ---

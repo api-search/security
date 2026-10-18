@@ -83,6 +83,6 @@ tags:
 - Event-Driven
 - Messaging
 - Open Source
-- Pub-Sub
+- Pub/Sub
 - Serverless
 ---

@@ -39,6 +39,6 @@ tags:
 - Gaming
 - Developer Platform
 - SDK
-- XR
+- Extended Reality
 - Meta
 ---

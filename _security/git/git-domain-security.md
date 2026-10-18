@@ -75,6 +75,5 @@ tags:
 - Distributed
 - Git
 - Open Source
-- Source Code Management
 - Version Control
 ---

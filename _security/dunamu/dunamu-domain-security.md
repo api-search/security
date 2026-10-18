@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: dunamu-exchange-api-openapi.yml
+  format: yaml
+  label: Dunamu Exchange API
+  slug: dunamu-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-exchange-api-openapi.yml
+- filename: dunamu-quotation-api-openapi.yml
+  format: yaml
+  label: Dunamu Quotation API
+  slug: dunamu-quotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dunamu/refs/heads/main/openapi/dunamu-quotation-api-openapi.yml
 description: ''
 domains:
 - caa: []

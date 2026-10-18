@@ -34,5 +34,5 @@ tags:
 - Document Management
 - Finance
 - Procurement
-- SaaS
+- Software-as-a-Service
 ---

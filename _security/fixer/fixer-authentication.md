@@ -63,10 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fixer-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/authentication/fixer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Currency Exchange
 - Foreign Exchange
-- FX
-- Forex
 - ECB
 - Conversion
 - Historical Rates

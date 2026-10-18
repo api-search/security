@@ -39,6 +39,6 @@ tags:
 - Company
 - Finance
 - Brokerage
-- Investments
+- Investment
 - Stock Trading
 ---

@@ -36,7 +36,7 @@ tags:
 - Card Issuing
 - Fintech
 - Cross-Border Payments
-- Crypto
+- Cryptocurrency
 - Wallets
 - Money Movement
 ---

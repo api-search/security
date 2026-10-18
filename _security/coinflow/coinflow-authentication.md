@@ -162,7 +162,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/
 summary_line: apiKey · 7 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Stablecoins
 - USDC

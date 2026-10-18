@@ -2,12 +2,96 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: convirza-openapi-generated.yml
+- filename: convirza-ad-source-api-openapi.yml
   format: yaml
-  label: Convirza API
-  slug: convirza-api
+  label: Convirza Ad Source API
+  slug: convirza-ad-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/_ae-authored/convirza-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-ad-source-api-openapi.yml
+- filename: convirza-ai-voice-agents-api-openapi.yml
+  format: yaml
+  label: Convirza Ai Voice Agents API
+  slug: convirza-ai-voice-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-ai-voice-agents-api-openapi.yml
+- filename: convirza-broadcast-api-openapi.yml
+  format: yaml
+  label: Convirza Broadcast API
+  slug: convirza-broadcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-broadcast-api-openapi.yml
+- filename: convirza-conversations-api-openapi.yml
+  format: yaml
+  label: Convirza Conversations API
+  slug: convirza-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-conversations-api-openapi.yml
+- filename: convirza-convirza-api-api-openapi.yml
+  format: yaml
+  label: Convirza Convirza API
+  slug: convirza-convirza-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-convirza-api-api-openapi.yml
+- filename: convirza-groups-api-openapi.yml
+  format: yaml
+  label: Convirza Groups API
+  slug: convirza-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-groups-api-openapi.yml
+- filename: convirza-industry-api-openapi.yml
+  format: yaml
+  label: Convirza Industry API
+  slug: convirza-industry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-industry-api-openapi.yml
+- filename: convirza-media-prompts-api-openapi.yml
+  format: yaml
+  label: Convirza Media Prompts API
+  slug: convirza-media-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-media-prompts-api-openapi.yml
+- filename: convirza-oauth-api-openapi.yml
+  format: yaml
+  label: Convirza OAuth API
+  slug: convirza-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-oauth-api-openapi.yml
+- filename: convirza-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Convirza Phone Numbers API
+  slug: convirza-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-phone-numbers-api-openapi.yml
+- filename: convirza-provisioned-routes-api-openapi.yml
+  format: yaml
+  label: Convirza Provisioned Routes API
+  slug: convirza-provisioned-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-provisioned-routes-api-openapi.yml
+- filename: convirza-tag-api-openapi.yml
+  format: yaml
+  label: Convirza Tag API
+  slug: convirza-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-tag-api-openapi.yml
+- filename: convirza-user-api-openapi.yml
+  format: yaml
+  label: Convirza User API
+  slug: convirza-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-user-api-openapi.yml
+- filename: convirza-users-api-openapi.yml
+  format: yaml
+  label: Convirza Users API
+  slug: convirza-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-users-api-openapi.yml
+- filename: convirza-webhooks-api-openapi.yml
+  format: yaml
+  label: Convirza Webhooks API
+  slug: convirza-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convirza/refs/heads/main/openapi/convirza-webhooks-api-openapi.yml
 auth_types: []
 description: Convirza uses encrypted Bearer token authentication and OAuth 2.0 flows.
 kind: authentication
@@ -39,7 +123,7 @@ summary_line: 1 scheme
 tags:
 - Conversation Analytics
 - Call Tracking
-- AI
+- Artificial Intelligence
 - Marketing
 - Sales Enablement
 ---

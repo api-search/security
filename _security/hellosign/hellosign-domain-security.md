@@ -114,7 +114,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

@@ -298,7 +298,7 @@ tags:
 - Ticketing
 - Data Synchronization
 - Marketing Automation
-- Enrichment
+- Data Enrichment
 - Webhook
 - Archived
 ---

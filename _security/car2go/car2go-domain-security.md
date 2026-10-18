@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/car2go/refs/heads/main/security/car2go-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- CarSharing
+- Car Sharing
 - Mobility
 - Daimler
 - ShareNow

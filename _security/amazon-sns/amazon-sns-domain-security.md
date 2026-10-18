@@ -71,7 +71,7 @@ tags:
 - Email
 - Messaging
 - Notification
-- Pub-Sub
+- Pub/Sub
 - Push Notifications
 - SMS
 ---

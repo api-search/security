@@ -40,8 +40,7 @@ tags:
 - npm
 - Open Source
 - Parser
-- Scraping
-- Server-Side
 - Web Scraping
+- Server-Side
 - XML
 ---

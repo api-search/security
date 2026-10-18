@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edugain/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Identity Federation
-- Single Sign-On
+- SSO
 - Education
 - Research
-- Access Management
+- Identity and Access Management
 ---

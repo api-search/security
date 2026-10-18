@@ -50,6 +50,6 @@ tags:
 - Russell Group
 - Identity Federation
 - Research Repository
-- Learning Management
+- LMS
 - Campus Life
 ---

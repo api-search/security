@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: mindtickle-openapi-generated.yml
+- filename: mindtickle-assethub-api-openapi.yml
   format: yaml
-  label: Mindtickle API
-  slug: mindtickle-api
+  label: Mindtickle Assethub API
+  slug: mindtickle-assethub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/_ae-authored/mindtickle-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-assethub-api-openapi.yml
+- filename: mindtickle-public-api-openapi.yml
+  format: yaml
+  label: Mindtickle Public API
+  slug: mindtickle-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-public-api-openapi.yml
+- filename: mindtickle-reports-api-openapi.yml
+  format: yaml
+  label: Mindtickle Reports API
+  slug: mindtickle-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-reports-api-openapi.yml
+- filename: mindtickle-services-api-openapi.yml
+  format: yaml
+  label: Mindtickle Services API
+  slug: mindtickle-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-services-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -108,7 +126,7 @@ tags:
 - Sales Readiness
 - Coaching
 - Conversation Intelligence
-- Learning Management
+- LMS
 - Content Management
 - Call AI
 - Revenue Intelligence

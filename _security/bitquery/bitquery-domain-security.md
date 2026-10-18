@@ -53,9 +53,9 @@ tags:
 - GraphQL
 - Streaming
 - Indexer
-- DEX
+- Decentralized Exchange
 - NFT
-- Crypto
+- Cryptocurrency
 - Web3
 - Real-Time
 - Ethereum

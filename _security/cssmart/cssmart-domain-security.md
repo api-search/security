@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Consulting
 - Analytics
-- Market-Intelligence
+- Market Intelligence
 - Strategy
 - Data-Driven
 ---

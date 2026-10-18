@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: chempirical-openapi-generated.yml
+- filename: chempirical-chempirical-nitramine-api-api-openapi.yml
   format: yaml
-  label: Chempirical (Nitramine) API
-  slug: chempirical-api
+  label: Chempirical Chempirical (Nitramine) API
+  slug: chempirical-chempirical-nitramine-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/_ae-authored/chempirical-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-chempirical-nitramine-api-api-openapi.yml
+- filename: chempirical-molecule-svg-api-openapi.yml
+  format: yaml
+  label: Chempirical Molecule Svg API
+  slug: chempirical-molecule-svg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-molecule-svg-api-openapi.yml
+- filename: chempirical-molecules-api-openapi.yml
+  format: yaml
+  label: Chempirical Molecules API
+  slug: chempirical-molecules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-molecules-api-openapi.yml
+- filename: chempirical-reactions-api-openapi.yml
+  format: yaml
+  label: Chempirical Reactions API
+  slug: chempirical-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chempirical/refs/heads/main/openapi/chempirical-reactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,5 +62,5 @@ tags:
 - Reactions
 - Science
 - Open Data
-- JSON API
+- JSON:API
 ---

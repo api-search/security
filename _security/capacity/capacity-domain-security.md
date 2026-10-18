@@ -37,9 +37,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capacity/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Customer Experience
 - Automation
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

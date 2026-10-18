@@ -36,5 +36,5 @@ tags:
 - AIoT
 - Cloud Platform
 - Wireless Connectivity
-- SDKs
+- SDK
 ---

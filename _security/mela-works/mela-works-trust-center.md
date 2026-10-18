@@ -21,7 +21,7 @@ summary_line: ISO/IEC 27001, GDPR
 tags:
 - Company
 - Construction
-- Construction Tech
+- Construction Technology
 - Field Service
 - Site Management
 - Project Management

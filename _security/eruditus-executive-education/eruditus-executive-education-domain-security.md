@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Executive Education
 - EdTech
 - Higher Education

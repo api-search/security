@@ -35,5 +35,5 @@ tags:
 - Medical Devices
 - Incontinence Management
 - Critical Care
-- MedTech
+- Medical Technology
 ---

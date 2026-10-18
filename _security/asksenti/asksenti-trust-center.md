@@ -23,7 +23,7 @@ tags:
 - Customer Experience
 - Voice of Customer
 - Sentiment Analysis
-- Customer Support
+- Customer Service
 - Analytics
 - Artificial Intelligence
 - Software-as-a-Service

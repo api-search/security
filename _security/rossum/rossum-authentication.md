@@ -67,7 +67,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Invoices
 - OCR
 - Workflows

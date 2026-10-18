@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: ugcagent-openapi-generated.yml
+- filename: ugcagent-messages-api-openapi.yml
   format: yaml
-  label: UGC Agent API
-  slug: ugcagent-api
+  label: UGC Agent Messages API
+  slug: ugcagent-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ugcagent/refs/heads/main/openapi/_ae-authored/ugcagent-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ugcagent/refs/heads/main/openapi/ugcagent-messages-api-openapi.yml
 description: ''
 domains:
 - caa: []

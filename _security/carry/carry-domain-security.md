@@ -34,6 +34,6 @@ tags:
 - Company
 - Finance
 - Marketplace
-- Private-Equity
-- Stock
+- Private Equity
+- Stocks
 ---

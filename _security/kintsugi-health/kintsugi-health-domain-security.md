@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: kintsugi-health-openapi-generated.yml
+- filename: kintsugi-health-feedback-api-openapi.yml
   format: yaml
-  label: Kintsugi Health API
-  slug: kintsugi-health-api
+  label: Kintsugi Health Feedback API
+  slug: kintsugi-health-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/_ae-authored/kintsugi-health-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-feedback-api-openapi.yml
+- filename: kintsugi-health-initiate-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Initiate API
+  slug: kintsugi-health-initiate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-initiate-api-openapi.yml
+- filename: kintsugi-health-kintsugi-health-api-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Kintsugi Health API
+  slug: kintsugi-health-kintsugi-health-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-kintsugi-health-api-api-openapi.yml
+- filename: kintsugi-health-predict-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Predict API
+  slug: kintsugi-health-predict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-predict-api-openapi.yml
+- filename: kintsugi-health-prediction-api-openapi.yml
+  format: yaml
+  label: Kintsugi Health Prediction API
+  slug: kintsugi-health-prediction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/openapi/kintsugi-health-prediction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +62,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kintsugi-health/refs/heads/main/security/kintsugi-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - VoiceAnalytics
-- MentalHealth
-- DigitalHealth
+- Mental Health
+- Digital Health
 ---

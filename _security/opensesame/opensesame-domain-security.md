@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - E-Learning
-- Learning Management
+- LMS
 - Online Training
 - Course Marketplace
 - Corporate Training

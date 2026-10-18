@@ -39,5 +39,5 @@ tags:
 - Biologics
 - Automation
 - Health IT
-- EHR
+- Electronic Health Records
 ---

@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaco
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Broadcasting
-- Live Video
+- Live Streaming
 - Media
 - Media Transport
 trust_url: https://aws.amazon.com/compliance/

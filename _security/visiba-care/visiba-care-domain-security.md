@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visiba-care/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
-- SaaS
-- Digital-Transformation
+- Software-as-a-Service
+- Digital Transformation
 - Telehealth
 - Sweden
 ---

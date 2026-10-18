@@ -64,5 +64,5 @@ tags:
 - Audio
 - Text-to-Speech
 - Voice Cloning
-- Podcasting
+- Podcasts
 ---

@@ -285,9 +285,4 @@ tags:
 - API Management
 - GraphQL
 - Open Source
-- Self‑Managed Deployment
-- Hybrid Cloud
-- Developer Portal
-- API Monetization
-- Observability
 ---

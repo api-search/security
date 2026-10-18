@@ -34,6 +34,6 @@ tags:
 - Company
 - Fashion
 - Retail
-- E-commerce
+- E-Commerce
 - Netherlands
 ---

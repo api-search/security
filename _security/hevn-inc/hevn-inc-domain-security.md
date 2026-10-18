@@ -182,7 +182,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-2-fa-api-openapi.yml
 - filename: hevn-inc-b2-b-api-openapi.yml
   format: yaml
-  label: Hevn B2 B API
+  label: Hevn B2B API
   slug: hevn-inc-b2-b-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/openapi/hevn-inc-b2-b-api-openapi.yml

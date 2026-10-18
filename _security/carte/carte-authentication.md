@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: carte-openapi-generated.yml
+- filename: carte-v1alpha1-api-openapi.yml
   format: yaml
-  label: Carte API
-  slug: carte-api
+  label: Carte V1Alpha1 API
+  slug: carte-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/openapi/_ae-authored/carte-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/openapi/carte-v1alpha1-api-openapi.yml
 auth_types: []
 description: Carta’s API uses OAuth 2.0 and supports the AUTHORIZATION_CODE and CLIENT_CREDENTIALS grant types.
 kind: authentication
@@ -38,5 +38,4 @@ tags:
 - Finance
 - Equity
 - FundManagement
-- API
 ---

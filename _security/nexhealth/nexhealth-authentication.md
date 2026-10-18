@@ -233,7 +233,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Practice Management
 - Scheduling
 - Appointments

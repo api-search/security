@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Energy
-- SmartHome
+- Smart Home
 - IoT
 - Monitoring
 ---

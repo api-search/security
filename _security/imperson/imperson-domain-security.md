@@ -33,7 +33,7 @@ tags:
 - Company
 - Conversational AI
 - Chatbots
-- Customer Support
+- Customer Service
 - Lead Generation
 - Sales Automation
 - Enterprise

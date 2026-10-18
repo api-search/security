@@ -415,7 +415,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - CIAM
 - B2B SaaS
 - Multi-Tenancy

@@ -72,7 +72,6 @@ summary_line: none/oauth2 · 3 schemes
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Electrochemical Additive Manufacturing

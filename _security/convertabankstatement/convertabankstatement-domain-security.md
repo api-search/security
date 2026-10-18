@@ -33,5 +33,4 @@ tags:
 - Fintech
 - Banking
 - DataTransformation
-- API
 ---

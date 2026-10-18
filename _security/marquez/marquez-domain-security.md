@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marquez/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- OpenSource
+- Open Source
 - DataLineage
 - Metadata
 - OpenLineage

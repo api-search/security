@@ -36,5 +36,4 @@ tags:
 - Transportation
 - Cities
 - Software
-- Operations
 ---

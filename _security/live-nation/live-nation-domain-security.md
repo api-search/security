@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: live-nation-openapi-generated.yml
+- filename: live-nation-bookings-api-openapi.yml
   format: yaml
-  label: Live Nation API
-  slug: live-nation-api
+  label: Live Nation Bookings API
+  slug: live-nation-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/_ae-authored/live-nation-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-bookings-api-openapi.yml
+- filename: live-nation-events-api-openapi.yml
+  format: yaml
+  label: Live Nation Events API
+  slug: live-nation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-events-api-openapi.yml
+- filename: live-nation-healhtcheck-api-openapi.yml
+  format: yaml
+  label: Live Nation Healhtcheck API
+  slug: live-nation-healhtcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-healhtcheck-api-openapi.yml
+- filename: live-nation-manifests-api-openapi.yml
+  format: yaml
+  label: Live Nation Manifests API
+  slug: live-nation-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-manifests-api-openapi.yml
+- filename: live-nation-mfxapi-api-openapi.yml
+  format: yaml
+  label: Live Nation Mfxapi API
+  slug: live-nation-mfxapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-mfxapi-api-openapi.yml
+- filename: live-nation-orders-api-openapi.yml
+  format: yaml
+  label: Live Nation Orders API
+  slug: live-nation-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-orders-api-openapi.yml
+- filename: live-nation-tm-3pi-api-api-openapi.yml
+  format: yaml
+  label: Live Nation Tm 3Pi API
+  slug: live-nation-tm-3pi-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-tm-3pi-api-api-openapi.yml
+- filename: live-nation-health-check-api-openapi.yml
+  format: yaml
+  label: Live Nation Health Check API
+  slug: live-nation-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation/refs/heads/main/openapi/live-nation-health-check-api-openapi.yml
 description: ''
 domains:
 - caa: []

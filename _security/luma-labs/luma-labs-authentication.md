@@ -71,7 +71,7 @@ tags:
 - Generative AI
 - Video
 - Image
-- Text-to-Video
+- Video Generation
 - Image-to-Video
 - Upscaling
 - Reframing

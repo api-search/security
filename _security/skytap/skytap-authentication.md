@@ -38,7 +38,7 @@ tags:
 - IBM Power
 - Infrastructure-as-a-Service
 - Application Modernization
-- Azure
+- Microsoft Azure
 - Virtual Machines
 - DevOps
 - REST API

@@ -83,6 +83,5 @@ tags:
 - Artificial Intelligence
 - Video Generation
 - Avatars
-- Text-to-Video
 - Learning and Development
 ---

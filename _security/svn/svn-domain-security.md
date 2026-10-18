@@ -81,8 +81,7 @@ tags:
 - Apache
 - Open Source
 - Repository
-- Source Control
-- Svn
 - Version Control
+- Svn
 - WebDAV
 ---

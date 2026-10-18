@@ -41,7 +41,6 @@ tags:
 - Shared Inbox
 - Email
 - Ticketing
-- Customer Support
 - Collaboration
 - Gmail
 - Google Workspace

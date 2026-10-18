@@ -35,5 +35,4 @@ tags:
 - Biotechnology
 - Life Sciences
 - Health
-- Venture Backed
 ---

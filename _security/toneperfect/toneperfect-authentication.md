@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toneperfect/re
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Speech
 - Language-Learning
 - Pronunciation

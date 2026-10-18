@@ -123,7 +123,6 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

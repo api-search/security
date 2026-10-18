@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  openapi/c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/authentication/cloudchipr-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- Azure
+- Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization
 - FinOps

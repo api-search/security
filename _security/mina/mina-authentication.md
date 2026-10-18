@@ -47,11 +47,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mina/refs/head
 summary_line: none/passphrase-unlock · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Zero Knowledge
 - zkApps
 - GraphQL
 - Web3
-- Cryptocurrency
 ---

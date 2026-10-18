@@ -31,9 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algotrader/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- fintech
+- Fintech
 - algorithmic-trading
-- APIs
-- developer-platform
-- finance
+- Developer Platform
+- Finance
 ---

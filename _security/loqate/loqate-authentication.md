@@ -37,7 +37,7 @@ summary_line: 1 scheme
 tags:
 - Address Validation
 - Data Quality
-- Email Validation
+- Email Verification
 - Phone Validation
 - Retail
 - Fintech

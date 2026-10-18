@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/security/derrick-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- b2b-data-enrichment
+- Data Enrichment
 - Email Finder
 - Phone Finder
 - company-firmographics
@@ -50,5 +50,4 @@ tags:
 - llms-txt
 - Google Sheets
 - gtm-tools
-- Data Enrichment
 ---

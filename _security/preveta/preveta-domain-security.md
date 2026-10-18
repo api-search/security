@@ -39,6 +39,6 @@ tags:
 - Care Navigation
 - Clinical Pathways
 - Health IT
-- EMR
+- Electronic Health Records
 - Patient Population Management
 ---

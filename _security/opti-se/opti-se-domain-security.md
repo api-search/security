@@ -40,6 +40,6 @@ tags:
 - Company
 - Fintech
 - Savings
-- Investments
+- Investment
 - Sweden
 ---

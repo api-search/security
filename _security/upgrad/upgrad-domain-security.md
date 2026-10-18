@@ -152,7 +152,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Higher Education
 - Certification
 - Learning Analytics

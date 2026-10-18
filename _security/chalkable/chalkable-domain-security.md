@@ -36,7 +36,7 @@ tags:
 - EdTech
 - K-12
 - Student Information System
-- Learning Management
+- LMS
 - Attendance
 - Grading
 - Schools

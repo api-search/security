@@ -37,6 +37,6 @@ tags:
 - Organization
 - Identity
 - Federation
-- OpenSource
+- Open Source
 - NonProfit
 ---

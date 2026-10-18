@@ -32,6 +32,6 @@ tags:
 - Company
 - IoT
 - Hardware
-- OpenSource
+- Open Source
 - Community
 ---

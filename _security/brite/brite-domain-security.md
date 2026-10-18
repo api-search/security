@@ -33,7 +33,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management System
+- LMS
 - STEM
 - Curriculum
 - Coding Education

@@ -150,7 +150,7 @@ tags:
 - Communications
 - CRM
 - Telegram
-- Customer Support
+- Customer Service
 - Ticketing
 - Sales
 - MCP

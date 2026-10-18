@@ -68,4 +68,6 @@ tags:
 - Agents
 - Machine Learning
 - Developer Tools
+- Open Source Models
+- Infrastructure
 ---

@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/high-mobility/
 summary_line: oauth2 · 1 scheme
 tags:
 - Automotive
-- Connected Car
+- Connected Vehicles
 - IoT
 - Vehicle Data
 - Mobility

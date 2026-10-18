@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: cesium-api-openapi.yml
+- filename: cesium-archives-api-openapi.yml
   format: yaml
-  label: Cesium ion Api API
-  slug: cesium-ion-api-api
+  label: Cesium Archives API
+  slug: cesium-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/_original/cesium-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-archives-api-openapi.yml
+- filename: cesium-asset-elements-api-openapi.yml
+  format: yaml
+  label: Cesium Asset Elements API
+  slug: cesium-asset-elements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-asset-elements-api-openapi.yml
+- filename: cesium-assets-api-openapi.yml
+  format: yaml
+  label: Cesium Assets API
+  slug: cesium-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-assets-api-openapi.yml
+- filename: cesium-experimental-api-openapi.yml
+  format: yaml
+  label: Cesium Experimental API
+  slug: cesium-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-experimental-api-openapi.yml
+- filename: cesium-exports-api-openapi.yml
+  format: yaml
+  label: Cesium Exports API
+  slug: cesium-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-exports-api-openapi.yml
+- filename: cesium-labels-api-openapi.yml
+  format: yaml
+  label: Cesium Labels API
+  slug: cesium-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-labels-api-openapi.yml
+- filename: cesium-oauth-api-openapi.yml
+  format: yaml
+  label: Cesium OAuth API
+  slug: cesium-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-oauth-api-openapi.yml
+- filename: cesium-tokens-api-openapi.yml
+  format: yaml
+  label: Cesium Tokens API
+  slug: cesium-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-tokens-api-openapi.yml
+- filename: cesium-user-api-openapi.yml
+  format: yaml
+  label: Cesium User API
+  slug: cesium-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cesium/refs/heads/main/openapi/cesium-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,5 +89,5 @@ tags:
 - Geospatial
 - 3D
 - Platform
-- OpenSource
+- Open Source
 ---

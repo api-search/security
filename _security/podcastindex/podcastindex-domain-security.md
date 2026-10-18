@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/security/podcastindex-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Podcasting
+- Podcasts
 - Podcast Index
 - Discovery
 - Open Data

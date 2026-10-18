@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubble-protoco
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Solana
 - Stablecoins
@@ -39,6 +39,5 @@ tags:
 - Borrowing
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 ---

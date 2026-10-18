@@ -78,6 +78,36 @@ api_specs:
   slug: axiom-co-virtual-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-virtual-fields-api-openapi.yml
+- filename: axiom-co-edge-api-openapi.yml
+  format: yaml
+  label: Axiom Edge API
+  slug: axiom-co-edge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-edge-api-openapi.yml
+- filename: axiom-co-groups-api-openapi.yml
+  format: yaml
+  label: Axiom Groups API
+  slug: axiom-co-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-groups-api-openapi.yml
+- filename: axiom-co-mapfields-api-openapi.yml
+  format: yaml
+  label: Axiom Mapfields API
+  slug: axiom-co-mapfields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-mapfields-api-openapi.yml
+- filename: axiom-co-roles-api-openapi.yml
+  format: yaml
+  label: Axiom Roles API
+  slug: axiom-co-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-roles-api-openapi.yml
+- filename: axiom-co-views-api-openapi.yml
+  format: yaml
+  label: Axiom Views API
+  slug: axiom-co-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axiom-co/refs/heads/main/openapi/axiom-co-views-api-openapi.yml
 description: ''
 domains:
 - caa: []

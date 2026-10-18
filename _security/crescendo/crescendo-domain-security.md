@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer Service
 - Artificial Intelligence
 - AI Agents
 - Contact Center

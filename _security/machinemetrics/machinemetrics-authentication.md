@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: machinemetrics-openapi-generated.yml
+- filename: machinemetrics-machinemetrics-api-api-openapi.yml
   format: yaml
-  label: MachineMetrics API
-  slug: machinemetrics-api
+  label: MachineMetrics MachineMetrics API
+  slug: machinemetrics-machinemetrics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/_ae-authored/machinemetrics-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/machinemetrics-machinemetrics-api-api-openapi.yml
+- filename: machinemetrics-mmdevcli-api-openapi.yml
+  format: yaml
+  label: MachineMetrics Mmdevcli API
+  slug: machinemetrics-mmdevcli-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/machinemetrics-mmdevcli-api-openapi.yml
+- filename: machinemetrics-ping-api-openapi.yml
+  format: yaml
+  label: MachineMetrics Ping API
+  slug: machinemetrics-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/machinemetrics-ping-api-openapi.yml
+- filename: machinemetrics-reports-api-openapi.yml
+  format: yaml
+  label: MachineMetrics Reports API
+  slug: machinemetrics-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/machinemetrics-reports-api-openapi.yml
+- filename: machinemetrics-graph-ql-api-openapi.yml
+  format: yaml
+  label: MachineMetrics Graph QL API
+  slug: machinemetrics-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/machinemetrics/refs/heads/main/openapi/machinemetrics-graph-ql-api-openapi.yml
 auth_types: []
 description: Authentication with API keys using Bearer tokens in the Authorization header.
 kind: authentication
@@ -39,8 +63,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Manufacturing
-- AI
+- Artificial Intelligence
 - MES
 - IoT
-- SaaS
+- Software-as-a-Service
 ---

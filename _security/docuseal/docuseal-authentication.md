@@ -50,9 +50,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docuseal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/authentication/docuseal-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Document Signing
 - E-Signature
-- Electronic Signature
 - Document Management
 - PDF
 - Templates

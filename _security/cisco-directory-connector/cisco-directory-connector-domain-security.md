@@ -84,7 +84,7 @@ tags:
 - Active Directory
 - Directory
 - Enterprise
-- Identity Management
+- Identity and Access Management
 - LDAP
 - Provisioning
 - SCIM

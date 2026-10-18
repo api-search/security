@@ -189,7 +189,7 @@ tags:
 - Fintech
 - KYC
 - Compliance
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Market Data
 - Embedded Finance
 - Travel Rule

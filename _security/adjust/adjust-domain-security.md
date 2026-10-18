@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: adjust-openapi-generated.yml
+- filename: adjust-cost-api-openapi.yml
   format: yaml
-  label: Adjust API
-  slug: adjust-api
+  label: Adjust Cost API
+  slug: adjust-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/_ae-authored/adjust-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/adjust-cost-api-openapi.yml
+- filename: adjust-dashboard-api-openapi.yml
+  format: yaml
+  label: Adjust Dashboard API
+  slug: adjust-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/adjust-dashboard-api-openapi.yml
+- filename: adjust-device-service-api-openapi.yml
+  format: yaml
+  label: Adjust Device Service API
+  slug: adjust-device-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/adjust-device-service-api-openapi.yml
+- filename: adjust-public-api-openapi.yml
+  format: yaml
+  label: Adjust Public API
+  slug: adjust-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/adjust-public-api-openapi.yml
+- filename: adjust-reports-service-api-openapi.yml
+  format: yaml
+  label: Adjust Reports Service API
+  slug: adjust-reports-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/openapi/adjust-reports-service-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,7 +61,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adjust/refs/heads/main/security/adjust-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Measurement
+- Measurements
 - Analytics
 - Attribution
 - Deep Linking

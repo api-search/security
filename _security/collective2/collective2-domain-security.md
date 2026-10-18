@@ -53,6 +53,5 @@ tags:
 - Finance
 - Trading
 - Marketplace
-- API
 - Investment
 ---

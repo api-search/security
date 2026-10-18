@@ -174,7 +174,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athenahealth/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
-- EHR
 - Electronic Health Records
 - Practice Management
 - Revenue Cycle Management

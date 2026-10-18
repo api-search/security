@@ -34,9 +34,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Language Learning
 - EdTech
-- E-Learning
 - Consumer
 ---

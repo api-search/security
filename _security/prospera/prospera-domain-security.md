@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prospera/refs/
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Agriculture
 - AgTech
 - Machine Learning

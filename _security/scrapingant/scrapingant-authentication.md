@@ -54,7 +54,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Data Extraction
 - Proxies
-- Scraping
 - Web Scraping
 - Headless Browser
 - AI Agents

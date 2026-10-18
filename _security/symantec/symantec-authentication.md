@@ -64,8 +64,7 @@ tags:
 - Broadcom
 - Cybersecurity
 - DLP
-- EDR
-- Endpoint Protection
+- Endpoint Detection and Response
 - Endpoint Security
 - Security
 - Symantec

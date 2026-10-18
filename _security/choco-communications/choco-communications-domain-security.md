@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Food Distribution
 - AI Platform
-- Ecommerce
+- E-Commerce
 - CRM
 - Sales Tools
 - ERP Integration

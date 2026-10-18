@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigchaindb/ref
 summary_line: none/payload-signature · 0 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Database
 - Decentralization

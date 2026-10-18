@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perp/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Derivatives
 - Perpetual Futures
@@ -64,6 +64,5 @@ tags:
 - GraphQL
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 ---

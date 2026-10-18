@@ -23,7 +23,7 @@ tags:
 - MCP
 - AI Agents
 - Identity
-- Access Management
+- Identity and Access Management
 - Governance
 - Security
 trust_url: https://natoma.ai/trust

@@ -33,6 +33,6 @@ tags:
 - Company
 - Technology
 - Innovation
-- Startup
+- Startups
 - Emerging
 ---

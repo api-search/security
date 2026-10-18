@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexspot/refs/h
 summary_line: TLSv1.3
 tags:
 - Company
-- Stub
 - Portfolio
 - 500 Global
 - Unverified

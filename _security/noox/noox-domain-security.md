@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noox/refs/head
 summary_line: TLSv1.2
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Web3
 - Blockchain
 - Ethereum

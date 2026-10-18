@@ -1,23 +1,59 @@
 ---
 api_specs:
-- filename: cube-dev-core-openapi-generated.yml
+- filename: cube-dev-audit-logs-api-openapi.yml
   format: yaml
-  label: Cube Dev core API
-  slug: core-api
+  label: Cube Dev Audit Logs API
+  slug: cube-dev-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/_ae-authored/cube-dev-core-openapi-generated.yml
-- filename: cube-dev-core-data-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-audit-logs-api-openapi.yml
+- filename: cube-dev-build-api-openapi.yml
   format: yaml
-  label: Cube Dev Overview API
-  slug: core-data-api
+  label: Cube Dev Build API
+  slug: cube-dev-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/_ae-authored/cube-dev-core-data-openapi-generated.yml
-- filename: cube-dev-embed-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-build-api-openapi.yml
+- filename: cube-dev-cube-dev-api-api-openapi.yml
   format: yaml
-  label: Cube Dev Overview API
-  slug: embed-api
+  label: Cube Dev Cube Dev API
+  slug: cube-dev-cube-dev-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/_ae-authored/cube-dev-embed-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-cube-dev-api-api-openapi.yml
+- filename: cube-dev-cube-js-api-openapi.yml
+  format: yaml
+  label: Cube Dev Cube Js API
+  slug: cube-dev-cube-js-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-cube-js-api-openapi.yml
+- filename: cube-dev-cubejs-api-api-openapi.yml
+  format: yaml
+  label: Cube Dev Cubejs API
+  slug: cube-dev-cubejs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-cubejs-api-api-openapi.yml
+- filename: cube-dev-dashboard-api-openapi.yml
+  format: yaml
+  label: Cube Dev Dashboard API
+  slug: cube-dev-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-dashboard-api-openapi.yml
+- filename: cube-dev-deployments-api-openapi.yml
+  format: yaml
+  label: Cube Dev Deployments API
+  slug: cube-dev-deployments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-deployments-api-openapi.yml
+- filename: cube-dev-embed-api-openapi.yml
+  format: yaml
+  label: Cube Dev Embed API
+  slug: cube-dev-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-embed-api-openapi.yml
+- filename: cube-dev-embed-tenants-api-openapi.yml
+  format: yaml
+  label: Cube Dev Embed Tenants API
+  slug: cube-dev-embed-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cube-dev/refs/heads/main/openapi/cube-dev-embed-tenants-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -41,7 +77,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
 - Analytics
-- AI
+- Artificial Intelligence
 - Business-Intelligence
 - Platform
 trust_url: https://cube.dev/security

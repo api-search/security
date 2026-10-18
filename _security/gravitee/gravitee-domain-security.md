@@ -322,7 +322,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Gateway
 - API Management
-- Access Management
+- Identity and Access Management
 - Identity
 - Event-Driven
 - Kafka Gateway

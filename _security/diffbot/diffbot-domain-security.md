@@ -173,7 +173,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Extraction
 - Harvesting
-- Scraping
+- Web Scraping
 - Web
 - Knowledge Graph
 - Crawling

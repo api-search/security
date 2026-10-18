@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Creative Technology
 - Experience Design
-- XR
+- Extended Reality
 - Artificial Intelligence
 - Projection Mapping
 - Sensors

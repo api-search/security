@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Healthcare
 - Cardiovascular
 - Medical Imaging

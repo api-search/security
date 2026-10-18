@@ -36,5 +36,4 @@ tags:
 - Web Games
 - Entertainment
 - China
-- Venture Backed
 ---

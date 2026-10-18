@@ -35,5 +35,4 @@ tags:
 - Brokerage
 - Investment
 - Sweden
-- API
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdbureau/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
-- DataAnalytics
-- AssetManagement
+- Fintech
+- Data Analytics
+- Asset Management
 - Crowdfunding
 ---

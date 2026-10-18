@@ -36,6 +36,5 @@ tags:
 - Game Development
 - Game Studio
 - Cooperative Multiplayer
-- Interactive Entertainment
 - Consumer
 ---

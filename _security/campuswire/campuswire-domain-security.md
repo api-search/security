@@ -35,5 +35,5 @@ tags:
 - Collaboration
 - Platform
 - LMS
-- Communication
+- Communications
 ---

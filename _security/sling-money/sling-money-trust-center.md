@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sling-money/re
 summary_line: ISO/IEC 27001:2022
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Money Transfer

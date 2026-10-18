@@ -29,7 +29,7 @@ summary_line: SOC 2, ISO 27001:2022, ISO 27701:2019, HIPAA, HITECH, NIST, Cyber 
 tags:
 - Company
 - Identity
-- Access Management
+- Identity and Access Management
 - Authentication
 - SSO
 - Privileged Access Management

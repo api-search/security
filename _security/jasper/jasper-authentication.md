@@ -150,7 +150,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/he
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Content Generation
 - Marketing

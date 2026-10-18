@@ -822,8 +822,7 @@ summary_line: http/oauth2 · 4 schemes
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

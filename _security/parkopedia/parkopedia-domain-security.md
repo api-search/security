@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parkopedia/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Parking
-- Connected Car
+- Connected Vehicles
 - Mobility
 - Mapping
 - Location Data

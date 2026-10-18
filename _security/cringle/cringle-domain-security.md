@@ -43,6 +43,6 @@ tags:
 - Company
 - Finance
 - Marketplace
-- Startup
+- Startups
 - Technology
 ---

@@ -1,0 +1,170 @@
+---
+anonymous_access: false
+api_key_in:
+- header
+api_specs:
+- filename: latoken-account-api-openapi.yml
+  format: yaml
+  label: LATOKEN Account API
+  slug: latoken-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-account-api-openapi.yml
+- filename: latoken-appealcontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN Appeal Controller API
+  slug: latoken-appealcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-appealcontroller-api-openapi.yml
+- filename: latoken-bulkorder-api-openapi.yml
+  format: yaml
+  label: LATOKEN Bulk Order API
+  slug: latoken-bulkorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-bulkorder-api-openapi.yml
+- filename: latoken-chart-api-openapi.yml
+  format: yaml
+  label: LATOKEN Chart API
+  slug: latoken-chart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-chart-api-openapi.yml
+- filename: latoken-chatcontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN Chat Controller API
+  slug: latoken-chatcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-chatcontroller-api-openapi.yml
+- filename: latoken-currency-api-openapi.yml
+  format: yaml
+  label: LATOKEN Currency API
+  slug: latoken-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-currency-api-openapi.yml
+- filename: latoken-offercontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN Offer Controller API
+  slug: latoken-offercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-offercontroller-api-openapi.yml
+- filename: latoken-order-api-openapi.yml
+  format: yaml
+  label: LATOKEN Order API
+  slug: latoken-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-order-api-openapi.yml
+- filename: latoken-ordercontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN Order Controller API
+  slug: latoken-ordercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-ordercontroller-api-openapi.yml
+- filename: latoken-pair-api-openapi.yml
+  format: yaml
+  label: LATOKEN Pair API
+  slug: latoken-pair-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-pair-api-openapi.yml
+- filename: latoken-paymentmethodcontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN Payment Method Controller API
+  slug: latoken-paymentmethodcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-paymentmethodcontroller-api-openapi.yml
+- filename: latoken-spot-api-openapi.yml
+  format: yaml
+  label: LATOKEN Spot API
+  slug: latoken-spot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-spot-api-openapi.yml
+- filename: latoken-stoporder-api-openapi.yml
+  format: yaml
+  label: LATOKEN Stop Order API
+  slug: latoken-stoporder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-stoporder-api-openapi.yml
+- filename: latoken-ticker-api-openapi.yml
+  format: yaml
+  label: LATOKEN Ticker API
+  slug: latoken-ticker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-ticker-api-openapi.yml
+- filename: latoken-time-api-openapi.yml
+  format: yaml
+  label: LATOKEN Time API
+  slug: latoken-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-time-api-openapi.yml
+- filename: latoken-trade-api-openapi.yml
+  format: yaml
+  label: LATOKEN Trade API
+  slug: latoken-trade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-trade-api-openapi.yml
+- filename: latoken-transaction-api-openapi.yml
+  format: yaml
+  label: LATOKEN Transaction API
+  slug: latoken-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-transaction-api-openapi.yml
+- filename: latoken-transfer-api-openapi.yml
+  format: yaml
+  label: LATOKEN Transfer API
+  slug: latoken-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-transfer-api-openapi.yml
+- filename: latoken-usercontroller-api-openapi.yml
+  format: yaml
+  label: LATOKEN User Controller API
+  slug: latoken-usercontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-usercontroller-api-openapi.yml
+- filename: latoken-orderbook-api-openapi.yml
+  format: yaml
+  label: LATOKEN Orderbook API
+  slug: latoken-orderbook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/openapi/latoken-orderbook-api-openapi.yml
+auth_types:
+- apiKey
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 1
+method: derived
+name: Latoken Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: LATOKEN secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: LATOKEN
+provider_slug: latoken
+scheme_count: 2
+schemes:
+- in: header
+  name: api_key
+  parameter: X-LA-APIKEY
+  sources:
+  - openapi/latoken-openapi.yml
+  - openapi/latoken-p2p-openapi.yml
+  type: apiKey
+- in: header
+  name: api_signature
+  parameter: X-LA-SIGNATURE
+  sources:
+  - openapi/latoken-openapi.yml
+  - openapi/latoken-p2p-openapi.yml
+  type: apiKey
+slug: latoken-authentication
+source_filename: latoken-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-10-13'\nmethod: derived\nsource: openapi/latoken-openapi.yml, openapi/latoken-p2p-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-LA-APIKEY\n  sources:\n  - openapi/latoken-openapi.yml\n  - openapi/latoken-p2p-openapi.yml\n- name: api_signature\n  type: apiKey\n  in: header\n  parameter: X-LA-SIGNATURE\n  sources:\n  - openapi/latoken-openapi.yml\n  - openapi/latoken-p2p-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/latoken/refs/heads/main/authentication/latoken-authentication.yml
+summary_line: apiKey · 2 schemes
+tags:
+- Company
+- Cryptocurrency
+- Exchange
+- Trading
+- Market Data
+- P2P
+- WebSocket
+---

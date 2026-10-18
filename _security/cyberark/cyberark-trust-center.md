@@ -79,8 +79,6 @@ tags:
 - Machine Identity
 - MFA
 - OpenAPI
-- PAM
-- Privileged Access
 - Privileged Access Management
 - Secrets Management
 - Session Management

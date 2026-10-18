@@ -34,6 +34,6 @@ tags:
 - Company
 - Finance
 - Data
-- AI
+- Artificial Intelligence
 - Marketplace
 ---

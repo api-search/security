@@ -39,6 +39,6 @@ tags:
 - Company
 - Energy
 - Utilities
-- Renewable
+- Renewables
 - SmartGrid
 ---

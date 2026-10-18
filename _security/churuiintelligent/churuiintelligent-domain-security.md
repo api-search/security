@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/churuiintellig
 summary_line: TLSv1.3 · DMARC
 tags:
 - Software
-- Artificial-Intelligence
+- Artificial Intelligence
 - Energy-Storage
-- Semiconductor
-- Data-Analytics
+- Semiconductors
+- Data Analytics
 ---

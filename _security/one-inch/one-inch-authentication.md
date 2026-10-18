@@ -77,7 +77,7 @@ summary_line: http · 1 scheme
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - Aggregator
 - Swap
 - Multi-Chain

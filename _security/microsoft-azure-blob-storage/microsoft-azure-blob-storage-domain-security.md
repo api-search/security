@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/security/microsoft-azure-blob-storage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Azure
+- Microsoft Azure
 - Blobs
 - Cloud Storage
 - Microsoft

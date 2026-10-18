@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Consumer
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Creator Tools

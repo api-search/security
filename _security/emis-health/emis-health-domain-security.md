@@ -111,8 +111,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare
 - United Kingdom
-- EHR
-- EMR
+- Electronic Health Records
 - Interoperability
 - HL7
 - FHIR

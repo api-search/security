@@ -41,7 +41,6 @@ tags:
 - Health Tech
 - Health
 - Electronic Health Records
-- EHR
 - Obstetrics
 - Women's Health
 - Prenatal

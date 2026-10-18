@@ -46,7 +46,7 @@ tags:
 - Research Repository
 - Identity Federation
 - Library
-- Learning Management
+- LMS
 - LTI
 - Research Computing
 ---

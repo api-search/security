@@ -59,5 +59,5 @@ tags:
 - Companies
 - Data
 - People
-- Scraping
+- Web Scraping
 ---

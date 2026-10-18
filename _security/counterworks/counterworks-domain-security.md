@@ -33,6 +33,6 @@ tags:
 - Company
 - Data Integration
 - Automation
-- SaaS
+- Software-as-a-Service
 - Enterprise
 ---

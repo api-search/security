@@ -191,7 +191,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Antivirus
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - Threat Intelligence
 ---

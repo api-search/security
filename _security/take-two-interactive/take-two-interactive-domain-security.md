@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming
 - Video Games
-- Interactive Entertainment
 - Entertainment
 - Publishing
 - Software

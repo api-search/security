@@ -109,5 +109,5 @@ tags:
 - Money Movement
 - Foreign Exchange
 - Virtual Accounts
-- Crypto
+- Cryptocurrency
 ---

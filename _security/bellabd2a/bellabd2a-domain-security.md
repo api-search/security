@@ -33,6 +33,5 @@ tags:
 - Company
 - Placeholder
 - Harvest
-- Stub
 - API-Evangelist
 ---

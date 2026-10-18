@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: >-\n  npm derri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/derrick/refs/heads/main/authentication/derrick-authentication.yml
 summary_line: 3 schemes
 tags:
-- b2b-data-enrichment
+- Data Enrichment
 - Email Finder
 - Phone Finder
 - company-firmographics
@@ -66,5 +66,4 @@ tags:
 - llms-txt
 - Google Sheets
 - gtm-tools
-- Data Enrichment
 ---

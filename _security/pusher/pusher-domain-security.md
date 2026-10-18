@@ -58,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Real-Time
 - WebSocket
-- Pub-Sub
+- Pub/Sub
 - Push Notifications
 - Messaging
 ---

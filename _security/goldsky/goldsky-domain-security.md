@@ -48,6 +48,6 @@ tags:
 - Change Data Capture
 - Streaming
 - RPC
-- Crypto
+- Cryptocurrency
 - Web3
 ---

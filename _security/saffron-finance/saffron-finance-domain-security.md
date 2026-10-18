@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saffron-financ
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Yield
 - Fixed Income
@@ -39,6 +39,5 @@ tags:
 - Ethereum
 - Smart Contracts
 - Governance
-- Web3
 - Cryptocurrency
 ---

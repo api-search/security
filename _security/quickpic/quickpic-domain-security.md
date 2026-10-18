@@ -34,5 +34,4 @@ tags:
 - Portfolio
 - Qiming
 - South Africa
-- Stub
 ---

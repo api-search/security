@@ -23,7 +23,7 @@ tags:
 - Practice Management
 - Healthcare
 - DSO
-- EHR
+- Electronic Health Records
 - Patient Data
 - Revenue Cycle Management
 - Partner API

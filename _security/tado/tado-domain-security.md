@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: tado-openapi-generated.yml
+- filename: tado-me-api-openapi.yml
   format: yaml
-  label: tado API
-  slug: tado-api
+  label: tado Me API
+  slug: tado-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/openapi/_ae-authored/tado-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/openapi/tado-me-api-openapi.yml
+- filename: tado-oauth2-api-openapi.yml
+  format: yaml
+  label: tado Oauth2 API
+  slug: tado-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tado/refs/heads/main/openapi/tado-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tado/refs/head
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - Heating
 - EnergySaving
 - IoT

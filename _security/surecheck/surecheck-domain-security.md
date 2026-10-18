@@ -40,5 +40,4 @@ tags:
 - Validation
 - Phone
 - Email
-- API
 ---

@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/h
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Platform

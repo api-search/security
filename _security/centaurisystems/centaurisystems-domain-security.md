@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: centaurisystems-openapi-generated.yml
+- filename: centaurisystems-oauth-api-openapi.yml
   format: yaml
-  label: Centauri Systems API
-  slug: centaurisystems-api
+  label: Centauri Systems OAuth API
+  slug: centaurisystems-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/_ae-authored/centaurisystems-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-oauth-api-openapi.yml
+- filename: centaurisystems-payments-api-openapi.yml
+  format: yaml
+  label: Centauri Systems Payments API
+  slug: centaurisystems-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-payments-api-openapi.yml
+- filename: centaurisystems-users-api-openapi.yml
+  format: yaml
+  label: Centauri Systems Users API
+  slug: centaurisystems-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centaurisystems/refs/heads/main/openapi/centaurisystems-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

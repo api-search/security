@@ -68,7 +68,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Browser
 - Web Automation
-- Scraping
+- Web Scraping
 - AI Agents
 - Open Source
 - Browser Automation

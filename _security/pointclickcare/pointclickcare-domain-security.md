@@ -85,7 +85,7 @@ tags:
 - Healthcare
 - Long-Term Care
 - Post-Acute Care
-- EHR
+- Electronic Health Records
 - FHIR
 - Senior Care
 - Interoperability

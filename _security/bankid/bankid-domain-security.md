@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: bankid-openapi-openapi.yml
+- filename: bankid-auth-api-openapi.yml
   format: yaml
-  label: Relying Party API Openapi API
-  slug: relying-party-api-openapi-api
+  label: BankID Auth API
+  slug: bankid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/_original/bankid-openapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-auth-api-openapi.yml
+- filename: bankid-cancel-api-openapi.yml
+  format: yaml
+  label: BankID Cancel API
+  slug: bankid-cancel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-cancel-api-openapi.yml
+- filename: bankid-collect-api-openapi.yml
+  format: yaml
+  label: BankID Collect API
+  slug: bankid-collect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-collect-api-openapi.yml
+- filename: bankid-other-api-openapi.yml
+  format: yaml
+  label: BankID Other API
+  slug: bankid-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-other-api-openapi.yml
+- filename: bankid-payment-api-openapi.yml
+  format: yaml
+  label: BankID Payment API
+  slug: bankid-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-payment-api-openapi.yml
+- filename: bankid-phone-api-openapi.yml
+  format: yaml
+  label: BankID Phone API
+  slug: bankid-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-phone-api-openapi.yml
+- filename: bankid-sign-api-openapi.yml
+  format: yaml
+  label: BankID Sign API
+  slug: bankid-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankid/refs/heads/main/openapi/bankid-sign-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -44,6 +80,6 @@ tags:
 - Company
 - Authentication
 - eIDAS
-- DigitalIdentity
+- Digital Identity
 - Sweden
 ---

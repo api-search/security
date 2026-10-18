@@ -36,7 +36,7 @@ tags:
 - Contact Center
 - Conversational AI
 - AI Agents
-- Customer Support
+- Customer Service
 - Speech Analytics
 - Automation
 ---

@@ -27,10 +27,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cutt/refs/head
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Venture Backed
 - Qiming Portfolio
 - China
-- Portfolio Lead
 - Unverified API Surface
 - Dormant
 ---

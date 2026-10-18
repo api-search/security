@@ -373,7 +373,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Market Data
 - Historical Data
-- Crypto
+- Cryptocurrency
 - DeFi
 - Perpetuals
 - Derivatives

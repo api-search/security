@@ -128,13 +128,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Solana
 - Yield
 - DeFi
 - Payments
 - Blockchain
 - AI Agents
-- Web3
 - Cryptocurrency
 ---

@@ -193,7 +193,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - E-Learning
 - Training
 - Collaborative Learning

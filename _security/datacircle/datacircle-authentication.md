@@ -20,6 +20,12 @@ api_specs:
   slug: datacircle-up2data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacircle/refs/heads/main/openapi/datacircle-up2data-api-openapi.yml
+- filename: datacircle-fetchin-api-openapi.yml
+  format: yaml
+  label: Datacircle Fetchin API
+  slug: datacircle-fetchin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacircle/refs/heads/main/openapi/datacircle-fetchin-api-openapi.yml
 auth_types:
 - http
 description: ''

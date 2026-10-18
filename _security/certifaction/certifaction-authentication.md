@@ -83,9 +83,8 @@ summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
 - Ai Enterprise Software
-- Electronic Signature
+- E-Signature
 - Digital Signature
-- Document Signing
 - Qualified Electronic Signature
 - eIDAS
 - Privacy

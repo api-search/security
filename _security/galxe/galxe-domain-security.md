@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galxe/refs/hea
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Digital Identity
 - Credentials
 - Quests
@@ -43,5 +43,4 @@ tags:
 - GraphQL
 - Authentication
 - Blockchain
-- Web3
 ---

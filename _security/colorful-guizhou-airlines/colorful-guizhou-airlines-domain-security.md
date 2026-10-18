@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colorful-guizh
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - airline
-- china
+- China
 - low-cost
 - regional
 - guizhou

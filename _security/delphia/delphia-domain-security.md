@@ -36,11 +36,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delphia/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Fintech
 - Investing
 - Artificial Intelligence
 - Data
 - Quantitative Finance
-- Web3
 ---

@@ -34,5 +34,4 @@ tags:
 - China
 - Portfolio
 - Qiming
-- Stub
 ---

@@ -36,7 +36,6 @@ tags:
 - gRPC
 - Identity Provider
 - LDAP
-- OIDC
 - OpenID Connect
 - SAML
 - SSO

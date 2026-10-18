@@ -25,7 +25,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
 tags:
 - Company
 - ELN
-- DataManagement
+- Data Management
 - Research
 - Collaboration
 trust_url: https://www.labarchives.com/security-compliance

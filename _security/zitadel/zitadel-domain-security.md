@@ -76,8 +76,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - Open Source
-- OIDC
+- OpenID Connect
 - Identity Federation
 ---

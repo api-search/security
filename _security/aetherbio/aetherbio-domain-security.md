@@ -37,7 +37,7 @@ tags:
 - Synthetic Biology
 - Advanced Materials
 - Advanced Manufacturing
-- Additive Manufacturing
+- 3D Printing
 - Critical Minerals
 - Machine Learning
 - Aerospace and Defense

@@ -68,7 +68,7 @@ tags:
 - Buyer Intent
 - Visitor Identification
 - De-anonymization
-- Enrichment
+- Data Enrichment
 - Go-To-Market
 - Sales Intelligence
 - B2B

@@ -36,5 +36,5 @@ tags:
 - IoT
 - SmartGrid
 - Australia
-- SaaS
+- Software-as-a-Service
 ---

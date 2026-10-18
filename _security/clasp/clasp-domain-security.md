@@ -31,9 +31,8 @@ source_yaml: "generated: '2026-10-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clasp/refs/heads/main/security/clasp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- API
 - Technology
 - Platform
-- Service
+- Services
 - Company
 ---

@@ -71,10 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/currency
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/authentication/currencylayer-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Currency Exchange
 - Foreign Exchange
-- FX
-- Forex
 - Conversion
 - Historical Rates
 - Time Frame

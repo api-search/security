@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Security
 - Cybersecurity
-- Executive Protection
+- ExecutiveProtection
 - PersonalSafety
 - Digital Identity
 trust_url: https://security.blackcloak.io/

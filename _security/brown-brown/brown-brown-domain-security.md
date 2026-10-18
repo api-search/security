@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - United States
-- Brokers
+- Brokerage
 - Property and Casualty
 - Employee Benefits
 - Wholesale Brokerage

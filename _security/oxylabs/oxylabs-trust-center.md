@@ -59,7 +59,7 @@ tags:
 - Residential Proxies
 - SERP
 - Scraper API
-- Scraping
+- Web Scraping
 - Web Data
 - Web Intelligence
 - Web Unblocker

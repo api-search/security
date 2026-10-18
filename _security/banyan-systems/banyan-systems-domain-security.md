@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: banyan-systems-authentication-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Authentication API
+  slug: banyan-systems-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-authentication-api-openapi.yml
+- filename: banyan-systems-card-linked-offer-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Card Linked Offer API
+  slug: banyan-systems-card-linked-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-card-linked-offer-api-openapi.yml
+- filename: banyan-systems-consent-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Consent API
+  slug: banyan-systems-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-consent-api-openapi.yml
+- filename: banyan-systems-enriched-data-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Enriched Data API
+  slug: banyan-systems-enriched-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-api-openapi.yml
+- filename: banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Enriched Data - Merchant Service Provider API
+  slug: banyan-systems-enriched-data-merchant-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
+- filename: banyan-systems-history-api-openapi.yml
+  format: yaml
+  label: Banyan Systems History API
+  slug: banyan-systems-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-history-api-openapi.yml
+- filename: banyan-systems-receipt-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Receipt API
+  slug: banyan-systems-receipt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-receipt-api-openapi.yml
+- filename: banyan-systems-tag-counter-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Tag Counter API
+  slug: banyan-systems-tag-counter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-tag-counter-api-openapi.yml
+- filename: banyan-systems-transaction-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Transaction API
+  slug: banyan-systems-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-transaction-api-openapi.yml
+- filename: banyan-systems-webhook-api-openapi.yml
+  format: yaml
+  label: Banyan Systems Webhook API
+  slug: banyan-systems-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Dental
 - Cloud
-- SaaS
+- Software-as-a-Service
 - Healthcare
 - Platform
 - Company

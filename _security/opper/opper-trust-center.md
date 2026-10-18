@@ -135,10 +135,10 @@ source_yaml: "generated: '2026-10-15'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/security/opper-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- AI
-- Gateway
+- Artificial Intelligence
+- Gateways
 - European
-- OpenAI-compatible
+- OpenAI-Compatible
 - GDPR
 trust_url: https://trust.opper.ai/
 ---

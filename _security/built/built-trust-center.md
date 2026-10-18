@@ -22,7 +22,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/built/refs/hea
 summary_line: SOC 1 Type II, SOC 2 Type II, NIST CSF, CCPA
 tags:
 - Company
-- Construction Tech
+- Construction Technology
 - Construction Finance
 - Real Estate Finance
 - Fintech

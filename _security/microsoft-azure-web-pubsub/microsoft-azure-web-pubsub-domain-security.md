@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 - Serverless
 - WebSocket

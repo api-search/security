@@ -35,5 +35,5 @@ tags:
 - Cookware
 - Sustainable
 - HomeGoods
-- ECommerce
+- E-Commerce
 ---

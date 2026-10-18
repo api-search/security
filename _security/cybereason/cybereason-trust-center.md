@@ -79,7 +79,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR
 tags:
 - Cybersecurity
 - XDR
-- EDR
+- Endpoint Detection and Response
 - NGAV
 - MDR
 - Endpoint Security

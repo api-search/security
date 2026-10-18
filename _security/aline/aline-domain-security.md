@@ -37,7 +37,7 @@ tags:
 - Legal AI
 - Contract Lifecycle Management
 - Contract Management
-- Electronic Signature
+- E-Signature
 - Artificial Intelligence
 - Workflow Automation
 ---

@@ -229,7 +229,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/h
 summary_line: trust center published
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Agent Enablement
 - Agentic Development
 - Developer Tools

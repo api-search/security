@@ -35,5 +35,5 @@ tags:
 - Precision Medicine
 - Genomics
 - Therapeutics
-- Startup
+- Startups
 ---

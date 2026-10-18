@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-helios/refs/heads/main/security/cloud-helios-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Identity Management
+- Identity and Access Management
 - IT Security
 - Cloud Services
 - Cloud Infrastructure

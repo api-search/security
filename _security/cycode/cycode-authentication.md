@@ -49,7 +49,7 @@ tags:
 - DevSecOps
 - Secrets Scanning
 - SAST
-- SCA
+- Software Composition Analysis
 - Developer Tools
 - MCP
 - CLI

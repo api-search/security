@@ -33,7 +33,7 @@ tags:
 - Banking
 - Neobank
 - Digital Bank
-- Retail Banking
+- Consumer Banking
 - Business Banking
 - Open Banking
 - Payments

@@ -107,7 +107,6 @@ tags:
 - Uptime Monitoring
 - Status Pages
 - Incident Management
-- API
 - DevOps
 - Monitoring Integrations
 ---

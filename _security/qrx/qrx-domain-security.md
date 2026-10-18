@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: qrx-openapi-generated.yml
+- filename: qrx-codes-api-openapi.yml
   format: yaml
-  label: QRX API
-  slug: qrx-api
+  label: QRX Codes API
+  slug: qrx-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qrx/refs/heads/main/openapi/_ae-authored/qrx-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qrx/refs/heads/main/openapi/qrx-codes-api-openapi.yml
+- filename: qrx-qrx-api-api-openapi.yml
+  format: yaml
+  label: QRX QRX API
+  slug: qrx-qrx-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qrx/refs/heads/main/openapi/qrx-qrx-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qrx/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- QR code
-- AI
+- QR Codes
+- Artificial Intelligence
 - Art
-- API
 ---

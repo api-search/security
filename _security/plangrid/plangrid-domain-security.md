@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: plangrid-batch-api-openapi.yml
+  format: yaml
+  label: PlanGrid Batch API
+  slug: plangrid-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-batch-api-openapi.yml
+- filename: plangrid-me-api-openapi.yml
+  format: yaml
+  label: PlanGrid Me API
+  slug: plangrid-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-me-api-openapi.yml
+- filename: plangrid-oauth-api-openapi.yml
+  format: yaml
+  label: PlanGrid OAuth API
+  slug: plangrid-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-oauth-api-openapi.yml
+- filename: plangrid-projects-api-openapi.yml
+  format: yaml
+  label: PlanGrid Projects API
+  slug: plangrid-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-projects-api-openapi.yml
+- filename: plangrid-rate-limits-api-openapi.yml
+  format: yaml
+  label: PlanGrid Rate Limits API
+  slug: plangrid-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa: []

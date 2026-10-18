@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: koha-openapi-generated.yml
+- filename: koha-patrons-api-openapi.yml
   format: yaml
-  label: Koha API
-  slug: koha-api
+  label: Koha Patrons API
+  slug: koha-patrons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koha/refs/heads/main/openapi/_ae-authored/koha-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koha/refs/heads/main/openapi/koha-patrons-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koha/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Library
-- OpenSource
+- Open Source
 - ILS
 - Community
 - Software

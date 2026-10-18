@@ -48,6 +48,5 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Machine Learning
 - Natural Language Processing
-- NLP
 - Text Analysis
 ---

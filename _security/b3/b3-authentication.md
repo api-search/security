@@ -490,7 +490,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/
 summary_line: apiKey/custom · 4 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - Workflow Automation

@@ -44,9 +44,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudidr/refs/
 summary_line: 2 schemes
 tags:
 - Company
-- IAM
+- Identity and Access Management
 - Cloud
 - Security
-- AI
+- Artificial Intelligence
 - FinOps
 ---

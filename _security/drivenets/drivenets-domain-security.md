@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drivenets/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Networking
 - Network Operating System
 - Network Automation

@@ -54,7 +54,7 @@ tags:
 - Help Desk
 - Workflow Automation
 - AI Agents
-- Access Management
+- Identity and Access Management
 - Employee Support
 - Ticketing
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Payments
 - Point-of-Sale
-- Card Terminals
+- Payment Terminals
 - Merchant Acquiring
 - Fintech
 - Online Payments

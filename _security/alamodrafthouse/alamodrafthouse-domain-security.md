@@ -33,5 +33,4 @@ tags:
 - Company
 - Arts
 - Entertainment
-- Stub
 ---

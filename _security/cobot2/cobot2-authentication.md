@@ -38,8 +38,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobot2/refs/heads/main/authentication/cobot2-authentication.yml
 summary_line: 1 scheme
 tags:
-- Coworking
-- SaaS
+- Co-Working
+- Software-as-a-Service
 - Management
 - Software
 - Collaboration

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cleaninglab-openapi-generated.yml
+- filename: cleaninglab-databricks-industry-solutions-api-openapi.yml
   format: yaml
-  label: Cleaninglab API
-  slug: cleaninglab-api
+  label: Cleaninglab Databricks Industry Solutions API
+  slug: cleaninglab-databricks-industry-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleaninglab/refs/heads/main/openapi/_ae-authored/cleaninglab-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cleaninglab/refs/heads/main/openapi/cleaninglab-databricks-industry-solutions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleaninglab/re
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Safety
 - Monitoring
 - Hallucination

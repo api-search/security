@@ -103,7 +103,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/re
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
-- Connected Car
 - Connected Vehicles
 - Daimler
 - Fleet Management

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: azure-ai-search-openapi-generated.yml
+- filename: azure-ai-search-azure-ai-search-api-api-openapi.yml
   format: yaml
-  label: Azure AI Search API
-  slug: azure-ai-search-api
+  label: Azure AI Search Azure AI Search API
+  slug: azure-ai-search-azure-ai-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/_ae-authored/azure-ai-search-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-azure-ai-search-api-api-openapi.yml
+- filename: azure-ai-search-indexes-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Indexes API
+  slug: azure-ai-search-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-indexes-api-openapi.yml
+- filename: azure-ai-search-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Subscriptions API
+  slug: azure-ai-search-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-subscriptions-api-openapi.yml
+- filename: azure-ai-search-swagger-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Swagger API
+  slug: azure-ai-search-swagger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-swagger-api-openapi.yml
+- filename: azure-ai-search-todoitems-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Todoitems API
+  slug: azure-ai-search-todoitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-todoitems-api-openapi.yml
+- filename: azure-ai-search-weatherforecast-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Weatherforecast API
+  slug: azure-ai-search-weatherforecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/openapi/azure-ai-search-weatherforecast-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,9 +68,9 @@ source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-search/refs/heads/main/security/azure-ai-search-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Search
-- Azure
+- Microsoft Azure
 - Cloud
-- Service
+- Services
 ---

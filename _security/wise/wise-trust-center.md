@@ -313,7 +313,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wise/refs/head
 summary_line: SOC 1 Type 2, SOC 2 Type 2, PCI DSS, ISO 27001, GDPR
 tags:
 - Payments
-- FX
+- Foreign Exchange
 - Cross-Border
 - Banking
 - Multi-Currency

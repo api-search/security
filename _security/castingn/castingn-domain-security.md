@@ -34,5 +34,4 @@ tags:
 - Casting
 - Technology
 - Platform
-- API
 ---

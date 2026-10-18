@@ -295,10 +295,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Entertainment
 - Gaming
-- Live Video
+- Live Streaming
 - Streaming
 - Video
 - Twitch
 - Real-Time
-- Live Streaming
 ---

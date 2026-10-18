@@ -33,7 +33,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Artificial Intelligence
 - Mobile App

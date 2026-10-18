@@ -35,5 +35,5 @@ tags:
 - Collaboration
 - Design
 - Project Management
-- AI
+- Artificial Intelligence
 ---

@@ -42,7 +42,7 @@ tags:
 - Audio Editing
 - Captions
 - Media
-- Podcasting
+- Podcasts
 - Transcription
 - Video Editing
 - Audio

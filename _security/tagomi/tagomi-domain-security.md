@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tagomi/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Prime Brokerage
 - Institutional Trading

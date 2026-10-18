@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 1000
 - Insurance
-- Property and Casualty Insurance
+- Property and Casualty
 - Commercial Insurance
 - Workers Compensation
 - Auto Insurance

@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: fareharbor-home-openapi.yml
+- filename: fareharbor-availabilities-endpoints-api-openapi.yml
   format: yaml
-  label: FareHarbor Integration Center Home API
-  slug: fareharbor-integration-center-home-api
+  label: FareHarbor Availabilities Endpoints API
+  slug: fareharbor-availabilities-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/_original/fareharbor-home-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-availabilities-endpoints-api-openapi.yml
+- filename: fareharbor-bookings-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Bookings Endpoints API
+  slug: fareharbor-bookings-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-bookings-endpoints-api-openapi.yml
+- filename: fareharbor-checkin-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Checkin Endpoints API
+  slug: fareharbor-checkin-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-checkin-endpoints-api-openapi.yml
+- filename: fareharbor-company-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Company Endpoints API
+  slug: fareharbor-company-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-company-endpoints-api-openapi.yml
+- filename: fareharbor-crew-members-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Crew Members Endpoints API
+  slug: fareharbor-crew-members-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-crew-members-endpoints-api-openapi.yml
+- filename: fareharbor-items-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Items Endpoints API
+  slug: fareharbor-items-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-items-endpoints-api-openapi.yml
+- filename: fareharbor-lodging-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Lodging Endpoints API
+  slug: fareharbor-lodging-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-lodging-endpoints-api-openapi.yml
+- filename: fareharbor-ping-api-openapi.yml
+  format: yaml
+  label: FareHarbor Ping API
+  slug: fareharbor-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-ping-api-openapi.yml
+- filename: fareharbor-roles-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Roles Endpoints API
+  slug: fareharbor-roles-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-roles-endpoints-api-openapi.yml
+- filename: fareharbor-users-endpoints-api-openapi.yml
+  format: yaml
+  label: FareHarbor Users Endpoints API
+  slug: fareharbor-users-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fareharbor/refs/heads/main/openapi/fareharbor-users-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +94,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel
 - Booking
-- SaaS
+- Software-as-a-Service
 - Tourism
 - Software
 ---

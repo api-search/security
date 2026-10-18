@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-build/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Additive Manufacturing
 - 3D Printing
 - Artificial Intelligence
 - Manufacturing

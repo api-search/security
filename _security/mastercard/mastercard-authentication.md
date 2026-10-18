@@ -9,54 +9,6 @@ api_specs:
   slug: mastercard-business-payment-controls
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-business-payment-controls-openapi.yml
-- filename: mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa-openapi.yml
-  format: yaml
-  label: Mastercard Community Pass Digital Identity (CPDI) and Acceptance (CPA)
-  slug: mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-community-pass-digital-identity-cpdi-and-acceptance-cpa-openapi.yml
-- filename: mastercard-commerce-pass-cxp-openapi.yml
-  format: yaml
-  label: Mastercard Commerce Pass (CxP)
-  slug: mastercard-commerce-pass-cxp
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-commerce-pass-cxp-openapi.yml
-- filename: mastercard-in-control-for-commercial-payments-openapi.yml
-  format: yaml
-  label: Mastercard In Control for Commercial Payments
-  slug: mastercard-in-control-for-commercial-payments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-in-control-for-commercial-payments-openapi.yml
-- filename: mastercard-priceless-platform-openapi.yml
-  format: yaml
-  label: Mastercard Priceless Platform
-  slug: mastercard-priceless-platform
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-priceless-platform-openapi.yml
-- filename: mastercard-cloud-commerce-openapi.yml
-  format: yaml
-  label: Mastercard Cloud Commerce
-  slug: mastercard-cloud-commerce
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-cloud-commerce-openapi.yml
-- filename: mastercard-contactless-reader-sdk-openapi.yml
-  format: yaml
-  label: Mastercard Contactless Reader SDK
-  slug: mastercard-contactless-reader-sdk
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-contactless-reader-sdk-openapi.yml
-- filename: mastercard-cross-border-services-openapi.yml
-  format: yaml
-  label: Mastercard Cross-Border Services
-  slug: mastercard-cross-border-services
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-cross-border-services-openapi.yml
-- filename: mastercard-direct-services-openapi.yml
-  format: yaml
-  label: Mastercard Direct Services
-  slug: mastercard-direct-services
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/openapi/mastercard-direct-services-openapi.yml
 - filename: mastercard-access-api-openapi.yml
   format: yaml
   label: Mastercard Access API
@@ -617,13 +569,13 @@ schemes:
   name: credit_analytics_auth
   parameter: api_key
   sources:
-  - openapi/mastercard-consumer-credit-analytics-openapi.yml
+  - openapi/mastercard-scores-api-openapi.yml
   type: apiKey
 slug: mastercard-authentication
 source_filename: mastercard-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mastercard-consumer-credit-analytics-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: credit_analytics_auth\n  type: apiKey\n  in: header\n  parameter: api_key\n  description: Mastercard uses one-legged OAuth1.0a to authenticate its APIs. See https://developer.mastercard.com/platform/documentation/security-and-authentication/using-oauth-1a-to-access-mastercard-apis/\n    for more details.\n  sources:\n  - openapi/mastercard-consumer-credit-analytics-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/mastercard-scores-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: credit_analytics_auth\n  type: apiKey\n  in: header\n  parameter: api_key\n  description: Mastercard uses one-legged OAuth1.0a to authenticate its APIs. See https://developer.mastercard.com/platform/documentation/security-and-authentication/using-oauth-1a-to-access-mastercard-apis/\n    for more details.\n  sources:\n  - openapi/mastercard-scores-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/authentication/mastercard-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

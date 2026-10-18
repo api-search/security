@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudhelixinc/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud Services
-- SaaS
+- Software-as-a-Service
 - API Platform
 - Enterprise Integration
 - Technology

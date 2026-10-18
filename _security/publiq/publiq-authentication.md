@@ -270,7 +270,7 @@ summary_line: apiKey/oauth2/openIdConnect · 4 schemes
 tags:
 - Company
 - Culture
-- Events
+- Event
 - Leisure
 - Belgium
 - Non-Profit

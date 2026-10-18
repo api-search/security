@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zkme/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Identity
 - KYC
 - KYB
@@ -89,5 +89,4 @@ tags:
 - Decentralized Identity
 - Anti-Sybil
 - Transaction Monitoring
-- Web3
 ---

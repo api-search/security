@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formality/refs
 summary_line: http · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Legal
 - Contract Management
 - Document Management

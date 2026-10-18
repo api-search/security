@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Identity
-- Access Management
+- Identity and Access Management
 - Authentication
 - SSO
 - Privileged Access Management

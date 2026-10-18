@@ -34,6 +34,6 @@ tags:
 - Company
 - LifeScience
 - Platform
-- AI
+- Artificial Intelligence
 - Research
 ---

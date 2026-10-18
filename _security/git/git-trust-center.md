@@ -40,7 +40,6 @@ tags:
 - Distributed
 - Git
 - Open Source
-- Source Code Management
 - Version Control
 trust_url: ''
 ---

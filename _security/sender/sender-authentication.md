@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sender/refs/he
 summary_line: wallet-connect · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Wallets
 - Web3
 - Blockchain

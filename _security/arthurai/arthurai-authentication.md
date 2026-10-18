@@ -451,7 +451,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Governance
 - AI Observability
 - LLM Evaluation

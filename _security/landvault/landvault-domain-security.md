@@ -38,8 +38,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landvault/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Portfolio Lead
 - Speedinvest
-- No API Surface
 - Parked Domain
 ---

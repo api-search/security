@@ -43,8 +43,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actava/refs/he
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
-- MachineLearning
+- Machine Learning
 - Platform
 ---

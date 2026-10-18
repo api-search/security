@@ -33,7 +33,7 @@ summary_line: trust center published
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer Service
 - Conversation Intelligence
 - Generative AI
 - Insights

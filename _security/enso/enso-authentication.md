@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enso/refs/head
 summary_line: http · 1 scheme
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Cross-Chain
@@ -98,6 +98,5 @@ tags:
 - Transaction Routing
 - Web3 Infrastructure
 - Onchain
-- Web3
 - Cryptocurrency
 ---

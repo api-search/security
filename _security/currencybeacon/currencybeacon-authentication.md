@@ -60,7 +60,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Currency
 - Exchange Rates
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Financial Data
 - Historical Rates

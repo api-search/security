@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perp/refs/head
 summary_line: apiKey/hmac · 3 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Derivatives
 - Perpetual Futures
@@ -78,6 +78,5 @@ tags:
 - GraphQL
 - Blockchain
 - SDK
-- Web3
 - Cryptocurrency
 ---

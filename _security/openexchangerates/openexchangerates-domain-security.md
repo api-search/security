@@ -77,8 +77,6 @@ tags:
 - Foreign Exchange
 - Currency
 - Exchange Rates
-- FX
 - Currency Conversion
-- Forex
 - Financial Data
 ---

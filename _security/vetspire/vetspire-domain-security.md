@@ -48,6 +48,6 @@ tags:
 - PIMS
 - Healthcare
 - GraphQL
-- Electronic Medical Records
+- Electronic Health Records
 - Scheduling
 ---

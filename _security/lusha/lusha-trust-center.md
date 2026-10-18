@@ -130,7 +130,7 @@ summary_line: SOC 2 Type II
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - Prospecting
 - Intents

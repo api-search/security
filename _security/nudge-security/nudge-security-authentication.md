@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nudge-se
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/authentication/nudge-security-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Access Management
+- Identity and Access Management
 - AI Security
 - Compliance
 - Governance

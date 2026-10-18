@@ -35,7 +35,7 @@ tags:
 - Healthcare
 - Physical Therapy
 - Rehabilitation
-- Electronic Medical Records
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - Patient Engagement

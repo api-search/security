@@ -76,6 +76,6 @@ tags:
 - Policy
 - Claims
 - Billing
-- P&C
+- Property and Casualty
 trust_url: ''
 ---

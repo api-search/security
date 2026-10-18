@@ -103,7 +103,7 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Search
-- AI
+- Artificial Intelligence
 - Web Scraping
 - SERP
 - Generative Engine Optimization

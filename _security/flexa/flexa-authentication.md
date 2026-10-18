@@ -57,10 +57,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/hea
 summary_line: http · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Digital Currency
-- Cryptocurrency
 - Fintech
 - Blockchain
 - Merchant Payments

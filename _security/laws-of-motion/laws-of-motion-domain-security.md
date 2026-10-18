@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fashion
-- AI
-- E-commerce
+- Artificial Intelligence
+- E-Commerce
 - Clothing
 ---

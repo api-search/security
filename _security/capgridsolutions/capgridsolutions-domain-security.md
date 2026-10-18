@@ -34,5 +34,5 @@ tags:
 - Cloud Services
 - B2B
 - Automotive
-- EV
+- Electric Vehicles
 ---

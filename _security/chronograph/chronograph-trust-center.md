@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronograph/re
 summary_line: SOC 2
 tags:
 - Company
-- Private-Equity
+- Private Equity
 - Portfolio-Monitoring
 - Analytics
 - Data-Management

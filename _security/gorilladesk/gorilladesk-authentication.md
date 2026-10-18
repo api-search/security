@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gorillad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/authentication/gorilladesk-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Pest Control
 - Lawn Care
 - Scheduling

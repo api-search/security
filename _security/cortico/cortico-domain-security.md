@@ -40,7 +40,7 @@ tags:
 - Healthcare
 - Canada
 - Patient Engagement
-- EMR
+- Electronic Health Records
 - OSCAR EMR
 - SMART on FHIR
 - Telehealth

@@ -160,7 +160,7 @@ summary_line: apiKey · 3 schemes
 tags:
 - Financial market data
 - Stocks/equities
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities

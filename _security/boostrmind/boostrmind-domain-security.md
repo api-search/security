@@ -33,6 +33,6 @@ tags:
 - Company
 - Artificial Intelligence
 - MindMapping
-- Knowledge Management
+- KnowledgeManagement
 - Productivity
 ---

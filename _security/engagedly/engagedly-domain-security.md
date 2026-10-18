@@ -94,7 +94,7 @@ tags:
 - Employee Engagement
 - Goal Tracking
 - 360 Feedback
-- Learning Management
+- LMS
 - Employee Recognition
 - Talent Management
 - OKRs

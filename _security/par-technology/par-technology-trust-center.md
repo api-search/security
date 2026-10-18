@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: par-technology-dev-portal-online-ordering-openapi-generated.yml
+- filename: par-technology-auth-api-openapi.yml
   format: yaml
-  label: PAR Technology Getting Started With Online Ordering API Integrations API
-  slug: dev-portal-online-ordering-api
+  label: PAR Technology Auth API
+  slug: par-technology-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/_ae-authored/par-technology-dev-portal-online-ordering-openapi-generated.yml
-- filename: par-technology-dev-portal-pos-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/par-technology-auth-api-openapi.yml
+- filename: par-technology-discounts-api-openapi.yml
   format: yaml
-  label: PAR Technology Getting Started With POS API Integrations API
-  slug: dev-portal-pos-api
+  label: PAR Technology Discounts API
+  slug: par-technology-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/_ae-authored/par-technology-dev-portal-pos-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/par-technology-discounts-api-openapi.yml
+- filename: par-technology-pos-api-openapi.yml
+  format: yaml
+  label: PAR Technology Pos API
+  slug: par-technology-pos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/par-technology-pos-api-openapi.yml
+- filename: par-technology-redemptions-api-openapi.yml
+  format: yaml
+  label: PAR Technology Redemptions API
+  slug: par-technology-redemptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/par-technology/refs/heads/main/openapi/par-technology-redemptions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -35,7 +47,7 @@ summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company
 - Hospitality
-- POS
+- Point-of-Sale
 - Loyalty
 - Retail
 trust_url: https://trust.partech.com/

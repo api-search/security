@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/document-crunc
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Construction Tech
+- Construction Technology
 - Construction
 - Risk Intelligence
 - Artificial Intelligence

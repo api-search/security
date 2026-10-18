@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-06'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calyxo/refs/heads/main/security/calyxo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Medical Device
+- Medical Devices
 - Kidney Stone Care
 - Healthcare
 - Innovation

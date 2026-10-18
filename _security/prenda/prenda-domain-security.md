@@ -53,7 +53,7 @@ tags:
 - Education Technology
 - Microschools
 - K-12
-- Learning Management
+- LMS
 - Curriculum
 - School Choice
 - Homeschooling

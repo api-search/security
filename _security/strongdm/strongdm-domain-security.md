@@ -59,7 +59,7 @@ tags:
 - Security
 - Privileged Access Management
 - Zero Trust
-- Access Management
+- Identity and Access Management
 - Identity
 - Infrastructure
 - Audit

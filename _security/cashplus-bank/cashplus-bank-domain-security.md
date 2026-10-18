@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Banking
 - ChallengerBank
-- UK
-- DigitalBanking
-- SME
+- United Kingdom
+- Digital Banking
+- Small Business
 ---

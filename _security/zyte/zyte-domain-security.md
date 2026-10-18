@@ -61,7 +61,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Crawling
 - Data Extraction
-- Scraping
 - Web Scraping
 - Proxies
 - Browser Automation

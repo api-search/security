@@ -149,8 +149,7 @@ summary_line: oauth2/http · 2 schemes
 tags:
 - Company
 - Behavioral Health
-- EMR
-- EHR
+- Electronic Health Records
 - Healthcare
 - Practice Management
 - HIPAA
@@ -162,6 +161,5 @@ tags:
 - Behavioral Health API
 - Substance Use Treatment
 - 42 CFR Part 2
-- Electronic Health Records
 - Mental Health
 ---

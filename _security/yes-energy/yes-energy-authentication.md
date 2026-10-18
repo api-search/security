@@ -42,7 +42,7 @@ tags:
 - Grid
 - Market Data
 - Wholesale Power
-- ISO RTO
+- ISO/RTO
 - Renewables
 - Trading
 ---

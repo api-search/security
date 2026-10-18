@@ -40,7 +40,6 @@ tags:
 - Company
 - Footwear
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Supply Chain
 - Sustainability

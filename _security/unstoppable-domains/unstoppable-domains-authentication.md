@@ -236,7 +236,7 @@ tags:
 - Blockchain
 - Domain Names
 - NFT Domains
-- Crypto
+- Cryptocurrency
 - Resolution
 - DNS
 - Decentralized

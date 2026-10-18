@@ -116,7 +116,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - E-Signature
-- Electronic Signature
 - Document Management
 - Embedded Signing
 - Webhook

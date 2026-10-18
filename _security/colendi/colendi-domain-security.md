@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Fintech
 - EmbeddedFinance
-- API
 - B2B
 - FinancialInclusion
 - Company

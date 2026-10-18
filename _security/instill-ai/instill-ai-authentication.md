@@ -78,7 +78,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Unstructured Data
-- Data Pipelines
+- Data Pipeline
 - RAG
 - Open Source
 - LLM

@@ -169,7 +169,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Compliance
 - AML
 - Transaction Screening

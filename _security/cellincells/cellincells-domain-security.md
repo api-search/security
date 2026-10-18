@@ -32,6 +32,6 @@ tags:
 - Biotechnology
 - Regenerative Medicine
 - Cell Therapy
-- AI
-- Korea
+- Artificial Intelligence
+- South Korea
 ---

@@ -35,6 +35,6 @@ tags:
 - Claims
 - Digital
 - Sweden
-- FinTech
+- Fintech
 - Health
 ---

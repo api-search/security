@@ -32,5 +32,5 @@ tags:
 - Loyalty
 - Rewards
 - Retail
-- MobileApp
+- Mobile App
 ---

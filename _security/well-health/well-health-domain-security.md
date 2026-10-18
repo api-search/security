@@ -43,8 +43,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare
 - Canada
-- EMR
-- EHR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

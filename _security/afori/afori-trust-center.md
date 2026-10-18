@@ -25,7 +25,7 @@ tags:
 - Insurance
 - Artificial Intelligence
 - AI Agents
-- Brokers
+- Brokerage
 - Back Office Automation
 - Germany
 trust_url: https://www.afori.com/en/plattform/sicherheit

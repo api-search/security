@@ -25,9 +25,9 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management System
+- LMS
 - K-12
-- Online Learning
+- E-Learning
 - Tutoring
 - Assessment
 - LTI

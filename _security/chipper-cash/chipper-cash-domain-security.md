@@ -41,7 +41,7 @@ tags:
 - Virtual Cards
 - Bill Pay
 - Airtime
-- Crypto
+- Cryptocurrency
 - Investing
 - Fractional Shares
 - Identity Verification

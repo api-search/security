@@ -28,7 +28,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docai/refs/hea
 summary_line: DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Health
 - Digital Health

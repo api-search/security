@@ -107,7 +107,6 @@ tags:
 - Company
 - Advertising
 - Monitoring
-- BrandProtection
-- API
+- Brand Protection
 trust_url: https://adslighthouse.com/security
 ---

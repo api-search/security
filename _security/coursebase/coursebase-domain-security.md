@@ -32,7 +32,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coursebase/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Learning Management System
 - LMS
 - Corporate Training
 - E-Learning

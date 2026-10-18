@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: igrant-io-openapi-generated.yml
+- filename: igrant-io-config-api-openapi.yml
   format: yaml
-  label: iGrant.io API
-  slug: igrant-io-api
+  label: iGrant.io Config API
+  slug: igrant-io-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/igrant-io/refs/heads/main/openapi/_ae-authored/igrant-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/igrant-io/refs/heads/main/openapi/igrant-io-config-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +45,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Identity
-- Wallet
+- Wallets
 - eIDAS
-- API
 ---

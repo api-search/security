@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Digital Marketing
 - Paid Media
-- Search Engine Optimization
+- SEO
 - Web Design
 - Content Creation
 - E‑commerce Marketing

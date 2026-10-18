@@ -25,7 +25,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formality/refs
 summary_line: SOC 2 Type II, ISO 27001, GDPR
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Legal
 - Contract Management
 - Document Management

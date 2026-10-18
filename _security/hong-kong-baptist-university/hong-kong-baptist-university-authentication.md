@@ -95,7 +95,7 @@ tags:
 - Shibboleth
 - SAML
 - eduGAIN
-- Learning Management
+- LMS
 - LTI
 - Artificial Intelligence
 - Research Information

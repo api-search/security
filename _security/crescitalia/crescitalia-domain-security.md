@@ -34,6 +34,6 @@ tags:
 - Finance
 - Investment
 - Technology
-- Startup
+- Startups
 - Europe
 ---

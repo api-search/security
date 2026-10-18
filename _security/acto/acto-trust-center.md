@@ -26,7 +26,7 @@ tags:
 - Life Sciences
 - Pharmaceuticals
 - Sales Enablement
-- Learning Management
+- LMS
 - Field Force Effectiveness
 - Medical Affairs
 - Commercial Excellence

@@ -218,18 +218,18 @@ api_specs:
   slug: ipfs-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-version-api-openapi.yml
+- filename: ipfs-p2p-api-openapi.yml
+  format: yaml
+  label: IPFS P2p API
+  slug: ipfs-p2p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-p2p-api-openapi.yml
 - filename: ipfs-file-store-api-openapi.yml
   format: yaml
   label: IPFS File Store API
   slug: ipfs-file-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-file-store-api-openapi.yml
-- filename: ipfs-p2-p-api-openapi.yml
-  format: yaml
-  label: IPFS P2 P API
-  slug: ipfs-p2-p-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-p2-p-api-openapi.yml
 auth_types:
 - http
 description: ''

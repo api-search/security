@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brilliant-org/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Learning
-- Online Learning
+- E-Learning
 - Education
 - STEM
 - Mathematics

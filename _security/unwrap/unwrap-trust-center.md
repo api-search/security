@@ -25,7 +25,7 @@ tags:
 - Customer Intelligence
 - Product Analytics
 - Voice of Customer
-- NLP
+- Natural Language Processing
 - GraphQL
 - MCP
 trust_url: https://www.unwrap.ai/#enterprise

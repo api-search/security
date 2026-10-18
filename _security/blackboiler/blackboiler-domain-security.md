@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Legal Tech
 - Artificial Intelligence
-- Contract Automation
+- ContractAutomation
 - Software-as-a-Service
 - Enterprise
 ---

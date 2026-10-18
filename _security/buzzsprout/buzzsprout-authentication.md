@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/buzzspro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/authentication/buzzsprout-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Media

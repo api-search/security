@@ -39,6 +39,6 @@ tags:
 - Cloud
 - Generative AI
 - Databricks
-- Azure
+- Microsoft Azure
 - Data Science
 ---

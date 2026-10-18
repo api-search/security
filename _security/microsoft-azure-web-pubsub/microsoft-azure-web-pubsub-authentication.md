@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: http · 1 scheme
 tags:
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 - Serverless
 - WebSocket

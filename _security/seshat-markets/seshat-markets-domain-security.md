@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Finance
 - Fintech
-- Crypto
+- Cryptocurrency
 - Commodities
 - Forecasting
 - Predictions

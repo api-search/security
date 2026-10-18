@@ -33,6 +33,5 @@ tags:
 - Company
 - Fintech
 - Blockchain
-- API
 - Integration
 ---

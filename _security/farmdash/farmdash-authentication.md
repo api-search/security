@@ -174,7 +174,7 @@ tags:
 - OpenAPI
 - x402
 - Blockchain
-- Crypto
+- Cryptocurrency
 - airdrop tracking
 - Developer Tools
 - Agent Readiness

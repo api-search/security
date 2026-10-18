@@ -25,7 +25,7 @@ tags:
 - Conversational AI
 - Enterprise Software
 - Compliance
-- Customer Support
+- Customer Service
 - Artificial Intelligence
 trust_url: https://talkabot.net/trust
 ---

@@ -40,7 +40,6 @@ tags:
 - Machine Learning
 - Image Generation
 - Generative AI
-- Text-to-Image
 - Image to Image
 - Developer Tools
 - SDK

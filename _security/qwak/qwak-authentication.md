@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwak/refs/head
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Machine Learning
 - MLOps
 - LLMOps

@@ -53,7 +53,7 @@ tags:
 - Crypto Tools
 - DeFi
 - Solana
-- DEX
+- Decentralized Exchange
 - Governance
 - Market Data
 - Futarchy

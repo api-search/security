@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Healthcare
 - Cardiovascular
 - Interventional Devices

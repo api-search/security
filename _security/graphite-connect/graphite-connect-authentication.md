@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: graphite-connect-openapi-generated.yml
+- filename: graphite-connect-oauth-api-openapi.yml
   format: yaml
-  label: Graphite Connect API
-  slug: graphite-connect-api
+  label: Graphite Connect OAuth API
+  slug: graphite-connect-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/_ae-authored/graphite-connect-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-oauth-api-openapi.yml
+- filename: graphite-connect-profile-api-openapi.yml
+  format: yaml
+  label: Graphite Connect Profile API
+  slug: graphite-connect-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-profile-api-openapi.yml
+- filename: graphite-connect-search-api-openapi.yml
+  format: yaml
+  label: Graphite Connect Search API
+  slug: graphite-connect-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-search-api-openapi.yml
 auth_types: []
 description: Graphite Connect Public API uses OAuth 2.0 client credentials flow to obtain a bearer token, which is then sent in the Authorization header.
 kind: authentication
@@ -46,6 +58,6 @@ tags:
 - Company
 - Supplier Management
 - Procurement
-- AI
+- Artificial Intelligence
 - Risk Management
 ---

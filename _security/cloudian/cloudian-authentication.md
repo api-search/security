@@ -31,6 +31,6 @@ tags:
 - Company
 - Storage
 - Object-Storage
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

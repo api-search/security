@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial market data
 - Stocks/equities
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities

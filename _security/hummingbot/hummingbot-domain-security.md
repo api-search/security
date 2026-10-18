@@ -140,11 +140,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hummingbot/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Trading
 - Blockchain
 - DeFi
-- DEX
+- Decentralized Exchange
 - Open Source
 - Market Making
 - Algorithmic Trading

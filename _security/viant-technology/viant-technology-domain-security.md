@@ -35,5 +35,5 @@ tags:
 - Marketing
 - Technology
 - DSP
-- AI
+- Artificial Intelligence
 ---

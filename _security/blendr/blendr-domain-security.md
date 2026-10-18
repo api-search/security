@@ -29,8 +29,7 @@ summary_line: DMARC
 tags:
 - Integration
 - Automation
-- API
-- Workflow
-- SaaS
+- Workflows
+- Software-as-a-Service
 - Data
 ---

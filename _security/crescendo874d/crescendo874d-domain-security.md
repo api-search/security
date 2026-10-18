@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crescendo874d/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Customer-Service
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Software-as-a-Service
 - Platform
 - San-Francisco
 ---

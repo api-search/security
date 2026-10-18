@@ -478,7 +478,7 @@ tags:
 - Authentication
 - Authorization
 - FGA
-- Identity Management
+- Identity and Access Management
 - MCP
 - Okta
 - OpenID Connect

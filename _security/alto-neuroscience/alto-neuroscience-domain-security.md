@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Neuroscience
-- MentalHealth
-- AI
-- PrecisionMedicine
+- Mental Health
+- Artificial Intelligence
+- Precision Medicine
 ---

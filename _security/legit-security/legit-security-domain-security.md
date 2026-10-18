@@ -39,7 +39,7 @@ tags:
 - Software Supply Chain Security
 - Secrets Detection
 - SAST
-- SCA
+- Software Composition Analysis
 - Compliance
 - AI Security
 - MCP

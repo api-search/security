@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: composabl-openapi-generated.yml
+- filename: composabl-reference-api-openapi.yml
   format: yaml
-  label: Composabl API
-  slug: composabl-api
+  label: Composabl Reference API
+  slug: composabl-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composabl/refs/heads/main/openapi/_ae-authored/composabl-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/composabl/refs/heads/main/openapi/composabl-reference-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/composabl/refs/heads/main/security/composabl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise
 - Automation
 - Agents

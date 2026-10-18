@@ -22,7 +22,7 @@ tags:
 - Company
 - AP Automation
 - Payments
-- AI
+- Artificial Intelligence
 - ERP Integration
 trust_url: https://trust.medius.com/
 ---

@@ -228,7 +228,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\ndocs: https://apidocs.l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/authentication/lukka-authentication.yml
 summary_line: oauth2/http · 4 schemes
 tags:
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Market Data
 - Reference Data

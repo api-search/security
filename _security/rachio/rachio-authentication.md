@@ -1,6 +1,55 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: rachio-public-api-openapi.yml
+  format: yaml
+  label: Rachio Public API
+  slug: rachio-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+- filename: rachio-lightingservice-api-openapi.yml
+  format: yaml
+  label: Rachio Lighting Service API
+  slug: rachio-lightingservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-lightingservice-api-openapi.yml
+- filename: rachio-programservice-api-openapi.yml
+  format: yaml
+  label: Rachio Program Service API
+  slug: rachio-programservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-programservice-api-openapi.yml
+- filename: rachio-propertyservice-api-openapi.yml
+  format: yaml
+  label: Rachio Property Service API
+  slug: rachio-propertyservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-propertyservice-api-openapi.yml
+- filename: rachio-public-api-openapi.yml
+  format: yaml
+  label: Rachio Public API
+  slug: rachio-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-public-api-openapi.yml
+- filename: rachio-summaryservice-api-openapi.yml
+  format: yaml
+  label: Rachio Summary Service API
+  slug: rachio-summaryservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-summaryservice-api-openapi.yml
+- filename: rachio-valveservice-api-openapi.yml
+  format: yaml
+  label: Rachio Valve Service API
+  slug: rachio-valveservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-valveservice-api-openapi.yml
+- filename: rachio-webhookservice-api-openapi.yml
+  format: yaml
+  label: Rachio Webhook Service API
+  slug: rachio-webhookservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rachio/refs/heads/main/openapi/rachio-webhookservice-api-openapi.yml
 auth_types:
 - oauth2
 - http

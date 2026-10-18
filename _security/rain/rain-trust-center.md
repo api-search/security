@@ -24,7 +24,7 @@ tags:
 - Card Issuing
 - Fintech
 - Cross-Border Payments
-- Crypto
+- Cryptocurrency
 - Wallets
 - Money Movement
 trust_url: https://trust.rain.xyz

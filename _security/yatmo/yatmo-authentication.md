@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yatmo/refs/hea
 summary_line: 2 schemes
 tags:
 - Company
-- RealEstate
+- Real Estate
 - LocationIntelligence
 - MappingAPI
 - POIData

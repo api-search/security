@@ -34,5 +34,4 @@ tags:
 - Marketplace
 - Sweden
 - Property Listings
-- API
 ---

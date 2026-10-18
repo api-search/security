@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: connectly-openapi-generated.yml
+- filename: connectly-businesses-api-openapi.yml
   format: yaml
-  label: Connectly API
-  slug: connectly-api
+  label: Connectly Businesses API
+  slug: connectly-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/openapi/_ae-authored/connectly-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/openapi/connectly-businesses-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connectly/refs/heads/main/security/connectly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - CustomerEngagement
 - Enterprise

@@ -34,5 +34,5 @@ tags:
 - EVCharging
 - SmartHardware
 - EnergyManagement
-- SaaS
+- Software-as-a-Service
 ---

@@ -120,7 +120,7 @@ tags:
 - Forecasting
 - Chargebacks
 - Focus
-- Azure
+- Microsoft Azure
 - Reserved Instances
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

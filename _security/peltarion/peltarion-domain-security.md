@@ -28,8 +28,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peltarion/refs
 summary_line: DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- Machine-Learning
+- Machine Learning
 - Deep-Learning
 ---

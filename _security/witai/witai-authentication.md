@@ -36,7 +36,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Natural Language Processing
-- NLP
 - Speech Recognition
 - Speech-to-Text
 - Text-to-Speech

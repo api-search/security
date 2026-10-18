@@ -220,7 +220,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Practice Management
 - Scheduling
 - Appointments

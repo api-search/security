@@ -34,5 +34,5 @@ tags:
 - Messaging
 - Automation
 - Integration
-- Communication
+- Communications
 ---

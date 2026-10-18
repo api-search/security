@@ -44,7 +44,7 @@ tags:
 - Company
 - Conversation Intelligence
 - Customer Experience
-- Customer Support
+- Customer Service
 - Artificial Intelligence
 - Analytics
 ---

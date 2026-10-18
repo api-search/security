@@ -69,5 +69,5 @@ tags:
 - Identity Federation
 - Research Repository
 - Research Data
-- Learning Management
+- LMS
 ---

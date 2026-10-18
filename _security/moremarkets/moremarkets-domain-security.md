@@ -37,5 +37,5 @@ tags:
 - XRP
 - Staking
 - Vault
-- Crypto
+- Cryptocurrency
 ---

@@ -195,7 +195,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athenahealth/r
 summary_line: oauth2 · 1 scheme
 tags:
 - Healthcare
-- EHR
 - Electronic Health Records
 - Practice Management
 - Revenue Cycle Management

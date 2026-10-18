@@ -1,11 +1,89 @@
 ---
 api_specs:
-- filename: apiposture-openapi-generated.yml
+- filename: apiposture-account-api-openapi.yml
   format: yaml
-  label: APIPosture API
-  slug: apiposture-api
+  label: APIPosture Account API
+  slug: apiposture-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/_ae-authored/apiposture-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-account-api-openapi.yml
+- filename: apiposture-admin-api-openapi.yml
+  format: yaml
+  label: APIPosture Admin API
+  slug: apiposture-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-admin-api-openapi.yml
+- filename: apiposture-apiposture-api-openapi.yml
+  format: yaml
+  label: APIPosture Apiposture API
+  slug: apiposture-apiposture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-apiposture-api-openapi.yml
+- filename: apiposture-blagoculjak-api-openapi.yml
+  format: yaml
+  label: APIPosture Blagoculjak API
+  slug: apiposture-blagoculjak-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-blagoculjak-api-openapi.yml
+- filename: apiposture-cart-api-openapi.yml
+  format: yaml
+  label: APIPosture Cart API
+  slug: apiposture-cart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-cart-api-openapi.yml
+- filename: apiposture-finalize-order-api-openapi.yml
+  format: yaml
+  label: APIPosture Finalize Order API
+  slug: apiposture-finalize-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-finalize-order-api-openapi.yml
+- filename: apiposture-install-api-openapi.yml
+  format: yaml
+  label: APIPosture Install API
+  slug: apiposture-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-install-api-openapi.yml
+- filename: apiposture-installer-api-openapi.yml
+  format: yaml
+  label: APIPosture Installer API
+  slug: apiposture-installer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-installer-api-openapi.yml
+- filename: apiposture-merchant-api-openapi.yml
+  format: yaml
+  label: APIPosture Merchant API
+  slug: apiposture-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-merchant-api-openapi.yml
+- filename: apiposture-payment-intent-api-openapi.yml
+  format: yaml
+  label: APIPosture Payment Intent API
+  slug: apiposture-payment-intent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-payment-intent-api-openapi.yml
+- filename: apiposture-resources-api-openapi.yml
+  format: yaml
+  label: APIPosture Resources API
+  slug: apiposture-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-resources-api-openapi.yml
+- filename: apiposture-status-api-openapi.yml
+  format: yaml
+  label: APIPosture Status API
+  slug: apiposture-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-status-api-openapi.yml
+- filename: apiposture-transactions-api-openapi.yml
+  format: yaml
+  label: APIPosture Transactions API
+  slug: apiposture-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-transactions-api-openapi.yml
+- filename: apiposture-users-api-openapi.yml
+  format: yaml
+  label: APIPosture Users API
+  slug: apiposture-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiposture/refs/heads/main/openapi/apiposture-users-api-openapi.yml
 description: ''
 domains:
 - caa: []

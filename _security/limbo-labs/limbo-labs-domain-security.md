@@ -32,6 +32,5 @@ tags:
 - Company
 - Defunct
 - San Francisco
-- Venture Backed
 - Software
 ---

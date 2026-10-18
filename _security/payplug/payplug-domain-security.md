@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: payplug-openapi-generated.yml
+- filename: payplug-cards-api-openapi.yml
   format: yaml
-  label: PayPlug API
-  slug: payplug-api
+  label: PayPlug Cards API
+  slug: payplug-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/_ae-authored/payplug-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-cards-api-openapi.yml
+- filename: payplug-installment-plans-api-openapi.yml
+  format: yaml
+  label: PayPlug Installment Plans API
+  slug: payplug-installment-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-installment-plans-api-openapi.yml
+- filename: payplug-payments-api-openapi.yml
+  format: yaml
+  label: PayPlug Payments API
+  slug: payplug-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-payments-api-openapi.yml
+- filename: payplug-payplug-api-api-openapi.yml
+  format: yaml
+  label: PayPlug PayPlug API
+  slug: payplug-payplug-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-payplug-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

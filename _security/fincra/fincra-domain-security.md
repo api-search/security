@@ -94,7 +94,7 @@ tags:
 - Cross-Border
 - Collection
 - Payouts
-- FX
+- Foreign Exchange
 - Fintech
 - Africa
 - Cross-Border Payments

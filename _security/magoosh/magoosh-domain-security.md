@@ -34,7 +34,6 @@ tags:
 - Education
 - EdTech
 - Test Preparation
-- Online Learning
 - E-Learning
 - Tutoring
 ---

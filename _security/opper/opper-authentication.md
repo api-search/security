@@ -150,9 +150,9 @@ source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/authentication/opper-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
-- Gateway
+- Artificial Intelligence
+- Gateways
 - European
-- OpenAI-compatible
+- OpenAI-Compatible
 - GDPR
 ---

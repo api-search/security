@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://blubrry
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/authentication/blubrry-api-restful-api-for-podcast-publishing-statistics-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Audio
 - Media
 - Publishing

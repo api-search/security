@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/authentication/amazon-iam-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Identity

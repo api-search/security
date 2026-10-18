@@ -33,6 +33,6 @@ tags:
 - Sportswear
 - Apparel
 - Performance
-- UK
-- E-commerce
+- United Kingdom
+- E-Commerce
 ---

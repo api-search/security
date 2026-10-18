@@ -33,7 +33,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Learning Management
+- LMS
 - School Management
 - Tuition Centre
 - Software-as-a-Service

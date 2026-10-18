@@ -576,7 +576,7 @@ tags:
 - RPC
 - Node Infrastructure
 - Web3
-- Crypto
+- Cryptocurrency
 - Ethereum
 - Solana
 - Bitcoin

@@ -75,7 +75,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Document Parsing
 - OCR
-- IDP
+- Intelligent Document Processing
 - Artificial Intelligence
 - Machine Learning
 - Invoices

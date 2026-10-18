@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Virtual Reality
-- VR
 - Gaming
 - Game Studio
 - Multiplayer

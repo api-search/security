@@ -211,9 +211,9 @@ source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickerinside/refs/heads/main/security/tickerinside-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- ETF
-- finance
-- open-data
+- ETFs
+- Finance
+- Open Data
 - SEC-filings
-- holdings
+- Holdings
 ---

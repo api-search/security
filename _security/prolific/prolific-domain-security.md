@@ -157,7 +157,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prolific/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Human Data
 - Research
 - Participant Recruitment

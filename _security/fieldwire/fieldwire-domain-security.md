@@ -151,7 +151,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Construction
 - Construction Technology
-- ConTech
 - Field Management
 - Punch List
 - Plans

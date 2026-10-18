@@ -155,7 +155,6 @@ summary_line: http · 1 scheme
 tags:
 - Construction
 - Construction Technology
-- ConTech
 - Field Management
 - Punch List
 - Plans

@@ -57,7 +57,7 @@ tags:
 - Research
 - Research Repository
 - Identity Federation
-- Learning Management
+- LMS
 - OAI-PMH
 - Open Data
 - Repository

@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: wagepoint-api-openapi.json
-  format: json
-  label: Wagepoint Public API API
-  slug: wagepoint-public-api-api
+- filename: wagepoint-companies-api-openapi.yml
+  format: yaml
+  label: Wagepoint Companies API
+  slug: wagepoint-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/_original/wagepoint-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-companies-api-openapi.yml
+- filename: wagepoint-health-api-openapi.yml
+  format: yaml
+  label: Wagepoint Health API
+  slug: wagepoint-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-health-api-openapi.yml
+- filename: wagepoint-mcp-api-openapi.yml
+  format: yaml
+  label: Wagepoint MCP API
+  slug: wagepoint-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-mcp-api-openapi.yml
+- filename: wagepoint-pay-groups-api-openapi.yml
+  format: yaml
+  label: Wagepoint Pay Groups API
+  slug: wagepoint-pay-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-pay-groups-api-openapi.yml
+- filename: wagepoint-persons-api-openapi.yml
+  format: yaml
+  label: Wagepoint Persons API
+  slug: wagepoint-persons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-persons-api-openapi.yml
+- filename: wagepoint-time-entries-api-openapi.yml
+  format: yaml
+  label: Wagepoint Time Entries API
+  slug: wagepoint-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wagepoint/refs/heads/main/openapi/wagepoint-time-entries-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -28,7 +58,7 @@ tags:
 - Company
 - Payroll
 - Canada
-- SaaS
+- Software-as-a-Service
 - Small Business
 trust_url: https://trust.wagepoint.com/
 ---

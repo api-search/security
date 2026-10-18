@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: haptik-openapi-generated.yml
+- filename: haptik-gccs-ws-api-openapi.yml
   format: yaml
-  label: Haptik API
-  slug: haptik-api
+  label: Haptik Gccs Ws API
+  slug: haptik-gccs-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/_ae-authored/haptik-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-gccs-ws-api-openapi.yml
+- filename: haptik-haptik-api-api-openapi.yml
+  format: yaml
+  label: Haptik Haptik API
+  slug: haptik-haptik-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-haptik-api-api-openapi.yml
+- filename: haptik-integration-api-openapi.yml
+  format: yaml
+  label: Haptik Integration API
+  slug: haptik-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-integration-api-openapi.yml
+- filename: haptik-log-file-from-user-api-openapi.yml
+  format: yaml
+  label: Haptik Log File From User API
+  slug: haptik-log-file-from-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-log-file-from-user-api-openapi.yml
+- filename: haptik-mogambo-api-api-openapi.yml
+  format: yaml
+  label: Haptik Mogambo API
+  slug: haptik-mogambo-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-mogambo-api-api-openapi.yml
+- filename: haptik-user-api-openapi.yml
+  format: yaml
+  label: Haptik User API
+  slug: haptik-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/heads/main/openapi/haptik-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haptik/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Conversational
+- Artificial Intelligence
+- Conversational AI
 - Messaging
 - Enterprise
 ---

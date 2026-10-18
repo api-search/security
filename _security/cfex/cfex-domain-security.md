@@ -34,7 +34,7 @@ tags:
 - Settlement
 - Energy
 - Compute
-- AI
-- Token
+- Artificial Intelligence
+- Tokens
 - Enterprise
 ---

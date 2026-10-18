@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: ultralytics-openapi-generated.yml
+- filename: ultralytics-assets-api-openapi.yml
   format: yaml
-  label: Ultralytics API
-  slug: ultralytics-api
+  label: Ultralytics Assets API
+  slug: ultralytics-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/_ae-authored/ultralytics-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/ultralytics-assets-api-openapi.yml
+- filename: ultralytics-ultralytics-api-openapi.yml
+  format: yaml
+  label: Ultralytics Ultralytics API
+  slug: ultralytics-ultralytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ultralytics/refs/heads/main/openapi/ultralytics-ultralytics-api-openapi.yml
 auth_types: []
 description: Ultralytics API authentication uses an API key passed as a Bearer token in the Authorization header.
 kind: authentication
@@ -36,8 +42,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ultralytics/re
 summary_line: 1 scheme
 tags:
 - Computer Vision
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Open Source
-- SaaS
+- Software-as-a-Service
 ---

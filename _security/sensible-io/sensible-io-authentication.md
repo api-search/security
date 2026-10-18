@@ -81,7 +81,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Extraction
 - LLM
 - SenseML

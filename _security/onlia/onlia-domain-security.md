@@ -40,7 +40,7 @@ tags:
 - Canada
 - Property and Casualty
 - Insurtech
-- Brokers
+- Brokerage
 - Personal Lines
 - Auto Insurance
 - Home Insurance

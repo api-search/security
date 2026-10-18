@@ -30,6 +30,6 @@ tags:
 - Accounting
 - Tax
 - Freelancers
-- MobileApp
+- Mobile App
 - Company
 ---

@@ -23,7 +23,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xapo/refs/head
 summary_line: SOC 2 Type II, SOC 3, PCI DSS, GDPR
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Bitcoin
 - Banking
 - Custody

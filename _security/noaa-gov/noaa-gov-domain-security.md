@@ -78,6 +78,18 @@ api_specs:
   slug: noaa-gov-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-zones-api-openapi.yml
+- filename: noaa-gov-navigational-data-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Navigational Data API
+  slug: noaa-gov-navigational-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-navigational-data-api-openapi.yml
+- filename: noaa-gov-weather-data-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Weather Data API
+  slug: noaa-gov-weather-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-weather-data-api-openapi.yml
 description: ''
 domains:
 - caa:

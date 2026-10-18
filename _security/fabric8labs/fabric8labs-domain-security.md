@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Electrochemical Additive Manufacturing

@@ -30,12 +30,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/satellite/refs
 summary_line: DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Decentralized
 - Messaging
 - Communications
 - End-to-End Encryption
 - IPFS
 - Peer-to-Peer
-- Web3
 ---

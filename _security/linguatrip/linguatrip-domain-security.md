@@ -35,7 +35,7 @@ tags:
 - Education
 - Language Learning
 - Travel
-- Online Learning
+- E-Learning
 - Test Preparation
 - Study Abroad
 - Marketplace

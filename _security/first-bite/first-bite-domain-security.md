@@ -35,7 +35,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-bite/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Foodservice
+- Food Service
 - SalesPlatform
 - CRM
 - Data

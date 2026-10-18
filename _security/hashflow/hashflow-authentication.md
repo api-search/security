@@ -34,10 +34,10 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - DeFi
-- DEX
+- Decentralized Exchange
 - RFQ
 - Trading
-- Crypto
+- Cryptocurrency
 - Market Making
 - Cross-Chain
 - Blockchain

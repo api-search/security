@@ -306,7 +306,7 @@ tags:
 - Identity Provider
 - SSO
 - SAML
-- OIDC
+- OpenID Connect
 - SCIM
 - Directory Sync
 - Authorization

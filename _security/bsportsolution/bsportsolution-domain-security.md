@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fitness
-- SaaS
+- Software-as-a-Service
 - Scheduling
 - Payments
 ---

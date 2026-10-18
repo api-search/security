@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - ConsumerRewards
 - Surveys
-- MarketResearch
-- MobileApp
-- GiftCards
+- Market Research
+- Mobile App
+- Gift Cards
 ---

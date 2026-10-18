@@ -35,5 +35,5 @@ tags:
 - Life Sciences
 - Innovation
 - Research
-- HealthTech
+- Health Tech
 ---

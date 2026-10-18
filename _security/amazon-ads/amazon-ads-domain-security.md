@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: amazon-ads-openapi-generated.yml
+- filename: amazon-ads-activategiftcard-api-openapi.yml
   format: yaml
-  label: Amazon Ads API
-  slug: amazon-ads-api
+  label: Amazon Ads Activategiftcard API
+  slug: amazon-ads-activategiftcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/_ae-authored/amazon-ads-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-activategiftcard-api-openapi.yml
+- filename: amazon-ads-activationstatuscheck-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Activationstatuscheck API
+  slug: amazon-ads-activationstatuscheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-activationstatuscheck-api-openapi.yml
+- filename: amazon-ads-amazon-ads-api-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Amazon Ads API
+  slug: amazon-ads-amazon-ads-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-amazon-ads-api-api-openapi.yml
+- filename: amazon-ads-cancelgiftcard-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Cancelgiftcard API
+  slug: amazon-ads-cancelgiftcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-cancelgiftcard-api-openapi.yml
+- filename: amazon-ads-creategiftcard-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Creategiftcard API
+  slug: amazon-ads-creategiftcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-creategiftcard-api-openapi.yml
+- filename: amazon-ads-deactivategiftcard-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Deactivategiftcard API
+  slug: amazon-ads-deactivategiftcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-deactivategiftcard-api-openapi.yml
+- filename: amazon-ads-getgiftcard-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Getgiftcard API
+  slug: amazon-ads-getgiftcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-getgiftcard-api-openapi.yml
+- filename: amazon-ads-install-api-openapi.yml
+  format: yaml
+  label: Amazon Ads Install API
+  slug: amazon-ads-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ads/refs/heads/main/openapi/amazon-ads-install-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +84,5 @@ tags:
 - Marketing
 - Amazon
 - Technology
-- SaaS
+- Software-as-a-Service
 ---

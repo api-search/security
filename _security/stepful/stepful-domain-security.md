@@ -88,7 +88,7 @@ tags:
 - Education
 - Healthcare
 - Workforce Development
-- Online Learning
+- E-Learning
 - Certification
 - Allied Health
 - Career Training

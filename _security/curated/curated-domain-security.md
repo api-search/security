@@ -33,7 +33,7 @@ tags:
 - Consumer
 - Lifestyle
 - Finance
-- Stock
+- Stocks
 - Funding
 - Company
 ---

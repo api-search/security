@@ -830,13 +830,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docusign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/authentication/docusign-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
-- Electronic Signature
+- E-Signature
 - DocuSign
 - Agreements
 - Contracts
 - Digital Transaction Management
 - Documents
-- E-Signature
 - Contract Lifecycle Management
 - Contract Management
 ---

@@ -249,7 +249,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Practice Management
 - Scheduling
 - Appointments

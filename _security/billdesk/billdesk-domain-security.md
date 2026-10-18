@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: billdesk-authentication-api-openapi.yml
+  format: yaml
+  label: BillDesk Authentication API
+  slug: billdesk-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-authentication-api-openapi.yml
+- filename: billdesk-card-account-api-openapi.yml
+  format: yaml
+  label: BillDesk Card Account API
+  slug: billdesk-card-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-card-account-api-openapi.yml
+- filename: billdesk-guest-checkout-altid-api-openapi.yml
+  format: yaml
+  label: BillDesk Guest Checkout (AltID) API
+  slug: billdesk-guest-checkout-altid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-guest-checkout-altid-api-openapi.yml
+- filename: billdesk-invoice-api-openapi.yml
+  format: yaml
+  label: BillDesk Invoice API
+  slug: billdesk-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-invoice-api-openapi.yml
+- filename: billdesk-mandate-api-openapi.yml
+  format: yaml
+  label: BillDesk Mandate API
+  slug: billdesk-mandate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-mandate-api-openapi.yml
+- filename: billdesk-order-api-openapi.yml
+  format: yaml
+  label: BillDesk Order API
+  slug: billdesk-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-order-api-openapi.yml
+- filename: billdesk-payment-links-api-openapi.yml
+  format: yaml
+  label: BillDesk Payment Links API
+  slug: billdesk-payment-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-payment-links-api-openapi.yml
+- filename: billdesk-penny-drop-api-openapi.yml
+  format: yaml
+  label: BillDesk Penny Drop API
+  slug: billdesk-penny-drop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-penny-drop-api-openapi.yml
+- filename: billdesk-refund-api-openapi.yml
+  format: yaml
+  label: BillDesk Refund API
+  slug: billdesk-refund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-refund-api-openapi.yml
+- filename: billdesk-settlement-api-openapi.yml
+  format: yaml
+  label: BillDesk Settlement API
+  slug: billdesk-settlement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-settlement-api-openapi.yml
+- filename: billdesk-transaction-api-openapi.yml
+  format: yaml
+  label: BillDesk Transaction API
+  slug: billdesk-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-transaction-api-openapi.yml
+- filename: billdesk-validate-vpa-api-openapi.yml
+  format: yaml
+  label: BillDesk Validate VPA API
+  slug: billdesk-validate-vpa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/openapi/billdesk-validate-vpa-api-openapi.yml
 description: ''
 domains:
 - caa: []

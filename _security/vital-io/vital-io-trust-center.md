@@ -108,6 +108,18 @@ api_specs:
   slug: vital-io-lab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
+- filename: vital-io-checkout-api-openapi.yml
+  format: yaml
+  label: Vital Checkout API
+  slug: vital-io-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-checkout-api-openapi.yml
+- filename: vital-io-unmatched-api-openapi.yml
+  format: yaml
+  label: Vital Unmatched API
+  slug: vital-io-unmatched-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-unmatched-api-openapi.yml
 - filename: vital-io-time-series-api-openapi.yml
   format: yaml
   label: Vital Time Series API
@@ -132,7 +144,7 @@ slug: vital-io-trust-center
 source_filename: vital-io-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://security.vital.io/\nurl: https://security.vital.io/\nplatform: SafeBase\ncertifications:\n- SOC 2\n- HITRUST CSF\n- HIPAA\n- NIST CSF\nevidence:\n- source: https://security.vital.io/\n  keywords:\n  - soc 2\n  - hitrust\n  - hipaa\n  - nist csf\n  - trust center\n"
+source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://security.vital.io/\nurl: https://security.vital.io/\nplatform: safebase\ncertifications:\n- SOC 2\n- HITRUST CSF\n- HIPAA\n- NIST CSF\nevidence:\n- source: https://security.vital.io/\n  keywords:\n  - soc 2\n  - hitrust\n  - hipaa\n  - nist csf\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/security/vital-io-trust-center.yml
 summary_line: SOC 2, HITRUST CSF, HIPAA, NIST CSF
 tags:
@@ -145,8 +157,7 @@ tags:
 - HIPAA
 - HealthKit
 - Health Connect
-- EHR
-- EMR
+- Electronic Health Records
 - Biomarkers
 - Diagnostics
 - Continuous Glucose Monitoring

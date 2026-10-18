@@ -48,6 +48,12 @@ api_specs:
   slug: perplexity-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-search-api-openapi.yml
+- filename: perplexity-decisions-api-openapi.yml
+  format: yaml
+  label: Perplexity Decisions API
+  slug: perplexity-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/openapi/perplexity-decisions-api-openapi.yml
 - filename: perplexity-sonar-api-openapi.yml
   format: yaml
   label: Perplexity Sonar API

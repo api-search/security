@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: endpointblank-openapi-generated.yml
+- filename: endpointblank-agent-oauth-api-openapi.yml
   format: yaml
-  label: Bengal Technologies API
-  slug: endpointblank-api
+  label: Bengal Technologies Agent Oauth API
+  slug: endpointblank-agent-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/_ae-authored/endpointblank-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-agent-oauth-api-openapi.yml
+- filename: endpointblank-api-packages-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Api Packages API
+  slug: endpointblank-api-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-api-packages-api-openapi.yml
+- filename: endpointblank-applications-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Applications API
+  slug: endpointblank-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-applications-api-openapi.yml
+- filename: endpointblank-authorize-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Authorize API
+  slug: endpointblank-authorize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-authorize-api-openapi.yml
+- filename: endpointblank-callback-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Callback API
+  slug: endpointblank-callback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-callback-api-openapi.yml
+- filename: endpointblank-clients-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Clients API
+  slug: endpointblank-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-clients-api-openapi.yml
+- filename: endpointblank-credentials-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Credentials API
+  slug: endpointblank-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-credentials-api-openapi.yml
+- filename: endpointblank-endpoints-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Endpoints API
+  slug: endpointblank-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-endpoints-api-openapi.yml
+- filename: endpointblank-environments-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Environments API
+  slug: endpointblank-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-environments-api-openapi.yml
+- filename: endpointblank-organization-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies Organization API
+  slug: endpointblank-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-organization-api-openapi.yml
+- filename: endpointblank-well-known-api-openapi.yml
+  format: yaml
+  label: Bengal Technologies .well Known API
+  slug: endpointblank-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endpointblank/refs/heads/main/openapi/endpointblank-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []

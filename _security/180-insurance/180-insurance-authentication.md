@@ -1,6 +1,49 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: 180-insurance-cota-es-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Cotações API
+  slug: 180-insurance-cota-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-cota-es-api-openapi.yml
+- filename: 180-insurance-produtos-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Produtos API
+  slug: 180-insurance-produtos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-produtos-api-openapi.yml
+- filename: 180-insurance-propostas-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Propostas API
+  slug: 180-insurance-propostas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-propostas-api-openapi.yml
+- filename: 180-insurance-renova-es-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Renovações API
+  slug: 180-insurance-renova-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-renova-es-api-openapi.yml
+- filename: 180-insurance-sinistros-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Sinistros API
+  slug: 180-insurance-sinistros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-sinistros-api-openapi.yml
+- filename: 180-insurance-vendas-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Vendas API
+  slug: 180-insurance-vendas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-vendas-api-openapi.yml
+- filename: 180-insurance-webhooks-api-openapi.yml
+  format: yaml
+  label: 180 Insurance Webhooks API
+  slug: 180-insurance-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: 'The 180 Seguros Sagas API is protected with OAuth2 using the client-credentials (machine-to-machine) grant, brokered by an Auth0 tenant. Clients exchange a client_id + client_secret for a bearer access token (default lifetime 43,200s / 12 hours) and send it on every request as `Authorization: Bearer {access_token}`. The docs advise reusing tokens while valid rather than minting a new one per call.'

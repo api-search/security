@@ -577,12 +577,11 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/security/gluu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Cedar
 - FIDO2
-- Identity and Access Management
 - Identities
 - Open Source
 - OpenID Connect

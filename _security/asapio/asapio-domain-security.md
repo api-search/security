@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: asapio-openapi-generated.yml
+- filename: asapio-connectionset-api-openapi.yml
   format: yaml
-  label: ASAPIO API
-  slug: asapio-api
+  label: ASAPIO Connectionset API
+  slug: asapio-connectionset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapio/refs/heads/main/openapi/_ae-authored/asapio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/asapio/refs/heads/main/openapi/asapio-connectionset-api-openapi.yml
+- filename: asapio-connectorset-api-openapi.yml
+  format: yaml
+  label: ASAPIO Connectorset API
+  slug: asapio-connectorset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asapio/refs/heads/main/openapi/asapio-connectorset-api-openapi.yml
+- filename: asapio-interfaceset-api-openapi.yml
+  format: yaml
+  label: ASAPIO Interfaceset API
+  slug: asapio-interfaceset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asapio/refs/heads/main/openapi/asapio-interfaceset-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +53,5 @@ tags:
 - SAP
 - Integration
 - Cloud
-- API
 - Enterprise
 ---

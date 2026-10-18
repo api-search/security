@@ -74,10 +74,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/ref
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Foreign Exchange
-- FX
 - Currency
 - Exchange Rates
-- Forex
 - Currency Conversion
 - Historical Rates
 - Financial Data

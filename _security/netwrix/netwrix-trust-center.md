@@ -42,6 +42,6 @@ tags:
 - Data Security
 - Governance
 - Compliance
-- Privileged Access
+- Privileged Access Management
 trust_url: https://trust.netwrix.com/
 ---

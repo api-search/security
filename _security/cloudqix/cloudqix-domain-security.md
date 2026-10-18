@@ -34,5 +34,4 @@ tags:
 - iPaaS
 - Integration
 - Automation
-- API
 ---

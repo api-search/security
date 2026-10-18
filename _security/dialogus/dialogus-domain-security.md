@@ -33,7 +33,7 @@ tags:
 - Voice Agents
 - AI Agents
 - Conversational AI
-- Customer Support
+- Customer Service
 - Contact Center
 - Collection
 - Compliance

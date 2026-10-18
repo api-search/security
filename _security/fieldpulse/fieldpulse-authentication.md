@@ -187,7 +187,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/ref
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Field Service Management
+- Field Service
 - Service Management
 - Scheduling
 - Dispatch

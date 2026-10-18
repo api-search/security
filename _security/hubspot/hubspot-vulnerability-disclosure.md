@@ -6,12 +6,6 @@ api_specs:
   slug: hubspot-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/asyncapi/hubspot-webhooks-asyncapi.yml
-- filename: hubspot-files-api-openapi.yml
-  format: yaml
-  label: HubSpot Files API
-  slug: hubspot-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/openapi/hubspot-files-api-openapi.yml
 - filename: hubspot-a-b-tests-api-openapi.yml
   format: yaml
   label: HubSpot A/B tests API

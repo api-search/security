@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: application-platform-openapi-generated.yml
+- filename: application-platform-doppelt-digital-api-api-openapi.yml
   format: yaml
-  label: doppelt.digital API
-  slug: application-platform-api
+  label: doppelt.digital Doppelt.digital API
+  slug: application-platform-doppelt-digital-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/openapi/_ae-authored/application-platform-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/openapi/application-platform-doppelt-digital-api-api-openapi.yml
+- filename: application-platform-install-api-openapi.yml
+  format: yaml
+  label: doppelt.digital Install API
+  slug: application-platform-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-platform/refs/heads/main/openapi/application-platform-install-api-openapi.yml
 auth_types: []
 description: Authentication schemes described in the provided pages for MainPath and its connections.
 kind: authentication

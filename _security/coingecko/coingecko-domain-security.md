@@ -187,7 +187,7 @@ tags:
 - Cryptocurrency
 - Decentralized Exchanges
 - DeFi
-- DEX
+- Decentralized Exchange
 - Liquidity Pools
 - Market Data
 - NFT

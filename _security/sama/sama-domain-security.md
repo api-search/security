@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data-Annotation
-- AI
+- Artificial Intelligence
 - B-Corp
 - Training-Data
 ---

@@ -176,6 +176,6 @@ tags:
 - Biotechnology
 - Research
 - Genomics
-- OpenScience
-- Nonprofit
+- Open Science
+- Non-Profit
 ---

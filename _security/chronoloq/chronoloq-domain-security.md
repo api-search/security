@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: chronoloq-openapi-generated.yml
+- filename: chronoloq-scans-api-openapi.yml
   format: yaml
-  label: Chronoloq API
-  slug: chronoloq-api
+  label: Chronoloq Scans API
+  slug: chronoloq-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs/heads/main/openapi/_ae-authored/chronoloq-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs/heads/main/openapi/chronoloq-scans-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - RiskAssessment
 - Enterprise

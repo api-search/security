@@ -49,7 +49,6 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/authentication/banuba-authentication.yml
 summary_line: 3 schemes
 tags:
-- AR
 - Augmented Reality
 - Beauty
 - Face Recognition

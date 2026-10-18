@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Home Insurance
-- Homeowners Insurance
 - Smart Home
 - Insurtech
 - Property Insurance

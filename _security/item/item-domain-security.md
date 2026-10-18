@@ -36,6 +36,6 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Sales
-- Customer Support
+- Customer Service
 - Y Combinator
 ---

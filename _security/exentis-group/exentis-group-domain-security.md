@@ -31,7 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exentis-group/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Additive Manufacturing
 - 3D Printing
 - Industrial Manufacturing
 - Advanced Materials

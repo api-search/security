@@ -36,5 +36,5 @@ tags:
 - Surgical Robotics
 - Robotics
 - Healthcare
-- MedTech
+- Medical Technology
 ---

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: breezy-hr-openapi-generated.yml
+- filename: breezy-hr-breezy-hr-api-api-openapi.yml
   format: yaml
-  label: Breezy HR API
-  slug: breezy-hr-api
+  label: Breezy HR Breezy HR API
+  slug: breezy-hr-breezy-hr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/_ae-authored/breezy-hr-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-breezy-hr-api-api-openapi.yml
+- filename: breezy-hr-sign-in-api-openapi.yml
+  format: yaml
+  label: Breezy HR Sign In API
+  slug: breezy-hr-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-sign-in-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -28,9 +34,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Hiring
-- ATS
-- Recruitment
-- SaaS
-- HRTech
+- Applicant Tracking
+- Recruiting
+- Software-as-a-Service
+- Human Resources
 trust_url: https://ltgplc.com/trust-center/
 ---

@@ -48,7 +48,7 @@ tags:
 - Open Data
 - Research Repository
 - Identity Federation
-- Learning Management
+- LMS
 - Saudi Arabia
 - Middle East
 ---

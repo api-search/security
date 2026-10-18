@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stride/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Liquid Staking
 - Cosmos
 - Blockchain
@@ -40,6 +40,5 @@ tags:
 - DeFi
 - IBC
 - SDK
-- Web3
 - Cryptocurrency
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Video
 - Streaming
-- API
 - Platform
 ---

@@ -42,7 +42,6 @@ summary_line: apiKey/http-basic · 2 schemes
 tags:
 - Company
 - DeFi
-- DEX
 - Decentralized Exchange
 - Cryptocurrency
 - Trading

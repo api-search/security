@@ -25,6 +25,6 @@ tags:
 - Crowdfunding
 - Private Markets
 - Startups
-- Crypto
+- Cryptocurrency
 trust_url: https://republic.com/security
 ---

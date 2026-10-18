@@ -50,7 +50,7 @@ tags:
 - Life Insurance
 - Travel Insurance
 - Health Insurance
-- Brokers
+- Brokerage
 - Digital Distribution
 - Managing General Agent
 - Mobile

@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aident/refs/he
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Integration
 - Automation
 - Platform

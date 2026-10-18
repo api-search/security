@@ -39,7 +39,7 @@ summary_line: oauth2 · 2 schemes
 tags:
 - Company
 - Document Automation
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Sales Enablement
 - Workflow Automation

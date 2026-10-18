@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Infotainment
 - IoT
 - Fortune 500

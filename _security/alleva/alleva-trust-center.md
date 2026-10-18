@@ -246,8 +246,6 @@ summary_line: SOC 2 Type II, HIPAA, ONC Certification (ONC Health IT Certificati
 tags:
 - Behavioral Health
 - Electronic Health Records
-- EMR
-- EHR
 - Substance Use Disorder
 - Mental Health
 - Healthcare

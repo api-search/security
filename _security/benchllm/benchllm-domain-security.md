@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchllm/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Benchmarking
 - LLM
 - Evaluation
-- SaaS
+- Software-as-a-Service
 ---

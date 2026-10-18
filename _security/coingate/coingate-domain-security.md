@@ -77,7 +77,6 @@ tags:
 - Cryptocurrency
 - Payments
 - Payment Gateway
-- Crypto
 - Fintech
 - Bitcoin
 - Ethereum

@@ -34,7 +34,7 @@ tags:
 - Learning
 - Education
 - Media
-- Podcasting
+- Podcasts
 - Online Courses
 - Consumer
 - Defunct

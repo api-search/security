@@ -40,6 +40,6 @@ tags:
 - Company
 - Energy
 - Software
-- CleanTech
+- Cleantech
 - Modeling
 ---

@@ -35,6 +35,6 @@ tags:
 - EdTech
 - Curriculum
 - Learning Platform
-- SaaS
+- Software-as-a-Service
 - Company
 ---

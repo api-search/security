@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collectivex/re
 summary_line: TLSv1.3
 tags:
 - Healthcare
-- AI
+- Artificial Intelligence
 - Diagnostics
 - Research
 - Platform

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: elastic-email-openapi-generated.yml
+- filename: elastic-email-elastic-email-api-api-openapi.yml
   format: yaml
-  label: Elastic Email API
-  slug: elastic-email-api
+  label: Elastic Email Elastic Email API
+  slug: elastic-email-elastic-email-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/openapi/_ae-authored/elastic-email-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/openapi/elastic-email-elastic-email-api-api-openapi.yml
+- filename: elastic-email-emails-api-openapi.yml
+  format: yaml
+  label: Elastic Email Emails API
+  slug: elastic-email-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/openapi/elastic-email-emails-api-openapi.yml
+- filename: elastic-email-hooks-api-openapi.yml
+  format: yaml
+  label: Elastic Email Hooks API
+  slug: elastic-email-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/openapi/elastic-email-hooks-api-openapi.yml
+- filename: elastic-email-webhook-api-openapi.yml
+  format: yaml
+  label: Elastic Email Webhook API
+  slug: elastic-email-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-email/refs/heads/main/openapi/elastic-email-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +59,5 @@ tags:
 - Company
 - Email
 - Marketing
-- API
-- SaaS
+- Software-as-a-Service
 ---

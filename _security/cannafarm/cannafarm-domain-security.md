@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Cannabis
 - Marketplace
-- SupplyChain
-- DataAnalytics
+- Supply Chain
+- Data Analytics
 - Compliance
 ---

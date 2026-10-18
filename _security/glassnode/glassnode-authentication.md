@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs
 summary_line: apiKey · 1 scheme
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Onchain
 - Analytics
 - Metrics

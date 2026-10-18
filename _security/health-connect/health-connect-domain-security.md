@@ -35,6 +35,5 @@ tags:
 - Company
 - Health
 - Android
-- API
 - Data
 ---

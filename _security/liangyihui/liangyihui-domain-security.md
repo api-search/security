@@ -37,7 +37,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - China
-- Venture Backed
 - Qiming Portfolio
 - Private API
 - No Public API Program

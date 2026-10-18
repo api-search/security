@@ -34,6 +34,5 @@ tags:
 - Media
 - FileHosting
 - DirectLinks
-- API
 - Upload
 ---

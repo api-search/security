@@ -212,7 +212,7 @@ tags:
 - Low-Code
 - Automation
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Enterprise Operations
 - Workflow Automation
 - Agent Governance

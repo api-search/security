@@ -64,7 +64,7 @@ tags:
 - B2B Data
 - Contact Data
 - Sales Intelligence
-- Enrichment
+- Data Enrichment
 - Lead Generation
 - CRM
 - Prospecting

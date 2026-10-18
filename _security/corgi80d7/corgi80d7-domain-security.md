@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Marketplace
-- Secondary-Market
-- Startup
+- Secondary Market
+- Startups
 ---

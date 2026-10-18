@@ -148,8 +148,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Healthcare
-- DataAnalytics
-- HealthTech
-- API
+- Data Analytics
+- Health Tech
 trust_url: https://trust.clarify.ai/
 ---

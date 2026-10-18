@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: crowdsmart-openapi-generated.yml
+- filename: crowdsmart-agents-api-openapi.yml
   format: yaml
-  label: CrowdSmart API
-  slug: crowdsmart-api
+  label: CrowdSmart Agents API
+  slug: crowdsmart-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowdsmart/refs/heads/main/openapi/_ae-authored/crowdsmart-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crowdsmart/refs/heads/main/openapi/crowdsmart-agents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowdsmart/refs/heads/main/security/crowdsmart-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - Governance
 - TrustLayer
 - CollectiveIntelligence

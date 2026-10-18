@@ -33,6 +33,5 @@ tags:
 - Company
 - Travel
 - Ticketing
-- API
 - Marketplace
 ---

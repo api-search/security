@@ -55,13 +55,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sommelier/refs
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Blockchain
 - Ethereum
 - Vault
 - Yield
 - Analytics
-- Web3
 - Cryptocurrency
 ---

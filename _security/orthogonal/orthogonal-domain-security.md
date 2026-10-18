@@ -419,7 +419,7 @@ tags:
 - Agentic Payments
 - MCP
 - Data Enrichment
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - A2A
 ---

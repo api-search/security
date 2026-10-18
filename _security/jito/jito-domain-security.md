@@ -90,7 +90,7 @@ tags:
 - Validator
 - Searcher
 - ShredStream
-- Crypto
+- Cryptocurrency
 - DeFi
 - Real-Time
 ---

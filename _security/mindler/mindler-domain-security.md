@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindler/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- MentalHealth
-- Telemedicine
+- Mental Health
+- Telehealth
 - Counseling
 - Sweden
 ---

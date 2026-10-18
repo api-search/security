@@ -35,5 +35,5 @@ tags:
 - MedicalTechnology
 - Healthcare
 - Devices
-- DigitalHealth
+- Digital Health
 ---

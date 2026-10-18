@@ -75,8 +75,8 @@ summary_line: http · 1 scheme
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - Open Source
-- OIDC
+- OpenID Connect
 - Identity Federation
 ---

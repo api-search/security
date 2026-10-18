@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: europe-pmc-openapi-generated.yml
+- filename: europe-pmc-europepmc-api-openapi.yml
   format: yaml
-  label: Europe PMC API
-  slug: europe-pmc-api
+  label: Europe PMC Europepmc API
+  slug: europe-pmc-europepmc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/europe-pmc/refs/heads/main/openapi/_ae-authored/europe-pmc-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/europe-pmc/refs/heads/main/openapi/europe-pmc-europepmc-api-openapi.yml
 description: ''
 domains:
 - caa: []

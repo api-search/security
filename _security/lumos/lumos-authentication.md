@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/authentication/lumos-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Access Management
+- Identity and Access Management
 - Access Reviews
 - Deprovisioning
 - Identity Governance

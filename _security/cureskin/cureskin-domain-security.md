@@ -35,8 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cureskin/refs/
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Dermatology
-- Skin Care
+- Skincare
 - Hair Care
 ---

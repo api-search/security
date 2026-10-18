@@ -193,7 +193,7 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Medical Billing
 - Patient Engagement
 - Kareo

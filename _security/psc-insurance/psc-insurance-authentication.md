@@ -140,7 +140,7 @@ summary_line: openIdConnect/oauth2/http · 3 schemes
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Brokerage
 - Property and Casualty
 - Commercial Insurance

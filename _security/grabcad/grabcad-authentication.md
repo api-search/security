@@ -34,7 +34,6 @@ tags:
 - Company
 - B2B
 - 3D Printing
-- Additive Manufacturing
 - CAD
 - Manufacturing
 - Hardware

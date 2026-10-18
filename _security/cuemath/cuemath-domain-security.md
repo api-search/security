@@ -33,7 +33,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Tutoring
 - Mathematics
 - K-12

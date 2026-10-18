@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/craftbank/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Construction
-- RealEstate
-- SaaS
+- Real Estate
+- Software-as-a-Service
 - Platform
 - Marketplace
 - Company

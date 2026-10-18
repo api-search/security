@@ -130,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Brazil

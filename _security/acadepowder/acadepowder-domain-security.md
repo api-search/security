@@ -31,7 +31,6 @@ tags:
 - Materials
 - Advanced Materials
 - Metal Powder
-- Additive Manufacturing
 - 3D Printing
 - Powder Metallurgy
 - Manufacturing

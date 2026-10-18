@@ -37,5 +37,5 @@ tags:
 - Stroke
 - Thrombectomy
 - Vascular
-- MedTech
+- Medical Technology
 ---

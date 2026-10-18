@@ -38,5 +38,4 @@ tags:
 - Beauty
 - Brand Incubator
 - Retail
-- Venture Backed
 ---

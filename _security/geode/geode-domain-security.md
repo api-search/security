@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geode/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Liquid Staking
 - Ethereum
@@ -39,6 +39,5 @@ tags:
 - Staking
 - Blockchain
 - Node Operators
-- Web3
 - Cryptocurrency
 ---

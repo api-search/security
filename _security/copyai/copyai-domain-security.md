@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: copyai-openapi-generated.yml
+- filename: copyai-copy-ai-api-api-openapi.yml
   format: yaml
-  label: Copy.ai API
-  slug: copyai-api
+  label: Copy.ai Copy.ai API
+  slug: copyai-copy-ai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copyai/refs/heads/main/openapi/_ae-authored/copyai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/copyai/refs/heads/main/openapi/copyai-copy-ai-api-api-openapi.yml
+- filename: copyai-webhook-api-openapi.yml
+  format: yaml
+  label: Copy.ai Webhook API
+  slug: copyai-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/copyai/refs/heads/main/openapi/copyai-webhook-api-openapi.yml
+- filename: copyai-workflow-api-openapi.yml
+  format: yaml
+  label: Copy.ai Workflow API
+  slug: copyai-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/copyai/refs/heads/main/openapi/copyai-workflow-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,10 +50,10 @@ source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copyai/refs/heads/main/security/copyai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Content Generation
 - Automation
-- SaaS
+- Software-as-a-Service
 - Company
 ---

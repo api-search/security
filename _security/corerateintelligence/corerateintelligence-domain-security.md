@@ -33,7 +33,7 @@ tags:
 - Data
 - Analytics
 - Corporate-Intelligence
-- Market-Research
+- Market Research
 - Risk-Assessment
 - Company
 ---

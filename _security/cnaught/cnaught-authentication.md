@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cnaught-openapi-generated.yml
+- filename: cnaught-cnaught-api-api-openapi.yml
   format: yaml
-  label: CNaught API
-  slug: cnaught-api
+  label: CNaught CNaught API
+  slug: cnaught-cnaught-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/_ae-authored/cnaught-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-cnaught-api-api-openapi.yml
+- filename: cnaught-orders-api-openapi.yml
+  format: yaml
+  label: CNaught Orders API
+  slug: cnaught-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-orders-api-openapi.yml
+- filename: cnaught-subaccounts-api-openapi.yml
+  format: yaml
+  label: CNaught Subaccounts API
+  slug: cnaught-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnaught/refs/heads/main/openapi/cnaught-subaccounts-api-openapi.yml
 auth_types: []
 description: Authentication uses an API key provided as a Bearer token in the Authorization header.
 kind: authentication
@@ -39,6 +51,5 @@ tags:
 - Company
 - Climate
 - CarbonCredits
-- API
 - Sustainability
 ---

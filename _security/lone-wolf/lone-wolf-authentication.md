@@ -500,5 +500,5 @@ tags:
 - CRM
 - MLS
 - Real Estate Agents
-- Brokers
+- Brokerage
 ---

@@ -35,6 +35,5 @@ tags:
 - Virtual Reality
 - Games
 - Entertainment
-- VR
 - Game Studio
 ---

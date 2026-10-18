@@ -66,7 +66,7 @@ tags:
 - Web3
 - Data
 - Analytics
-- Crypto
+- Cryptocurrency
 - Ethereum
 - Solana
 ---

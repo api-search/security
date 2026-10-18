@@ -50,5 +50,5 @@ tags:
 - Earnings
 - Historical Data
 - Screener
-- Crypto
+- Cryptocurrency
 ---

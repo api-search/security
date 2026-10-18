@@ -33,7 +33,7 @@ tags:
 - Company
 - Childcare
 - Transportation
-- Ridesharing
+- Ride Hailing
 - Family
 - Mobility
 - On-Demand

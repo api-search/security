@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linnworks/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
-- SaaS
-- Inventory Management
+- E-Commerce
+- Software-as-a-Service
+- Inventory
 - Order Management
 ---

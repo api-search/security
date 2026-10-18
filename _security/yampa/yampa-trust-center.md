@@ -21,7 +21,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yampa/refs/hea
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Agents
 - Customer Service
 - Contact Center

@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alien/refs/hea
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Identity
 - Authentication
 - OpenID Connect

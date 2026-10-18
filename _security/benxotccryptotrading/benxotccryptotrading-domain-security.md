@@ -34,5 +34,4 @@ tags:
 - Cryptocurrency
 - Trading
 - Finance
-- Stub
 ---

@@ -213,6 +213,6 @@ tags:
 - Company Data
 - Beneficial Ownership
 - Case Management
-- Electronic Signature
+- E-Signature
 - Webhook
 ---

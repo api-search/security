@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: invokely-openapi-generated.yml
+- filename: invokely-rank-api-openapi.yml
   format: yaml
-  label: Invokely API
-  slug: invokely-api
+  label: Invokely Rank API
+  slug: invokely-rank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invokely/refs/heads/main/openapi/_ae-authored/invokely-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/invokely/refs/heads/main/openapi/invokely-rank-api-openapi.yml
 description: ''
 domains:
 - caa: []

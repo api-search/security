@@ -33,6 +33,6 @@ tags:
 - Company
 - Energy
 - Utilities
-- Renewable
+- Renewables
 - Sustainability
 ---

@@ -32,6 +32,6 @@ tags:
 - Telehealth
 - Healthcare
 - RemoteCare
-- DigitalHealth
+- Digital Health
 - Platform
 ---

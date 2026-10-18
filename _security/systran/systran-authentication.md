@@ -91,7 +91,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Machine Translation
 - Translation
-- NLP
+- Natural Language Processing
 - Neural Machine Translation
 - Localization
 - Language Detection

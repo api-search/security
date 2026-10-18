@@ -113,7 +113,7 @@ tags:
 - Automobiles
 - Cars
 - Vehicles
-- Connected Car
+- Connected Vehicles
 - Telematics
 - Fleet Management
 - Electric Vehicles

@@ -132,7 +132,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/
 summary_line: TLSv1.3 · DMARC
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Compliance
 - AML
 - Transaction Screening

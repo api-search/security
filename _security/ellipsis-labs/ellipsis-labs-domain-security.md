@@ -35,7 +35,7 @@ tags:
 - DeFi
 - Solana
 - Blockchain
-- DEX
+- Decentralized Exchange
 - Perpetuals
 - Order Book
 - Trading

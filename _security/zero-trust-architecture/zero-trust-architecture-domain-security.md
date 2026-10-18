@@ -52,7 +52,7 @@ tags:
 - Authentication
 - Authorization
 - Cybersecurity
-- Identity Management
+- Identity and Access Management
 - Least Privilege
 - Network Security
 - NIST

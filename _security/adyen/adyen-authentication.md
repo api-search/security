@@ -852,94 +852,327 @@ schemes:
   name: ApiKeyAuth
   parameter: X-API-Key
   sources:
-  - openapi/accounting-notifications-openapi-original.yml
-  - openapi/accounts-openapi-original.yml
+  - openapi/adyen-acceptdispute-api-openapi.yml
   - openapi/adyen-account-api-openapi.yml
-  - openapi/adyen-balance-control-api-openapi.yml
-  - openapi/adyen-binlookup-api-openapi.yml
-  - openapi/adyen-checkout-api-openapi.yml
-  - openapi/adyen-configuration-api-openapi.yml
-  - openapi/adyen-data-protection-api-openapi.yml
-  - openapi/balance-control-openapi-original.yml
-  - openapi/binlookup-openapi-original.yml
-  - openapi/checkout-openapi-original.yml
-  - openapi/configuration-openapi-original.yml
-  - openapi/data-protection-openapi-original.yml
-  - openapi/disputes-openapi-original.yml
-  - openapi/funds-openapi-original.yml
-  - openapi/hosted-onboarding-openapi-original.yml
-  - openapi/legal-entity-openapi-original.yml
-  - openapi/management-openapi-original.yml
-  - openapi/notification-configurations-openapi-original.yml
-  - openapi/notification-webhooks-openapi-original.yml
-  - openapi/payments-openapi-original.yml
-  - openapi/payouts-openapi-original.yml
-  - openapi/pos-terminal-openapi-original.yml
-  - openapi/recurring-openapi-original.yml
-  - openapi/stored-value-openapi-original.yml
-  - openapi/terminal-openapi-original.yml
-  - openapi/test-cards-openapi-original.yml
-  - openapi/transfers-openapi-original.yml
+  - openapi/adyen-accountholderbalance-api-openapi.yml
+  - openapi/adyen-accountholdertransactionlist-api-openapi.yml
+  - openapi/adyen-accounts-api-openapi.yml
+  - openapi/adyen-adjustauthorisation-api-openapi.yml
+  - openapi/adyen-admin-api-openapi.yml
+  - openapi/adyen-amount-api-openapi.yml
+  - openapi/adyen-apple-api-openapi.yml
+  - openapi/adyen-assignterminals-api-openapi.yml
+  - openapi/adyen-authorise-api-openapi.yml
+  - openapi/adyen-authorise3d-api-openapi.yml
+  - openapi/adyen-authorise3ds2-api-openapi.yml
+  - openapi/adyen-availability-api-openapi.yml
+  - openapi/adyen-balance-api-openapi.yml
+  - openapi/adyen-balanceinquiry-api-openapi.yml
+  - openapi/adyen-businesslines-api-openapi.yml
+  - openapi/adyen-calculate-api-openapi.yml
+  - openapi/adyen-cancel-api-openapi.yml
+  - openapi/adyen-cancelorrefund-api-openapi.yml
+  - openapi/adyen-cancels-api-openapi.yml
+  - openapi/adyen-capture-api-openapi.yml
+  - openapi/adyen-captures-api-openapi.yml
+  - openapi/adyen-card-api-openapi.yml
+  - openapi/adyen-card-orders-api-openapi.yml
+  - openapi/adyen-cardacquisition-api-openapi.yml
+  - openapi/adyen-cardreaderapdu-api-openapi.yml
+  - openapi/adyen-changes-api-openapi.yml
+  - openapi/adyen-changestatus-api-openapi.yml
+  - openapi/adyen-check-balance-api-openapi.yml
+  - openapi/adyen-checkaccountholder-api-openapi.yml
+  - openapi/adyen-closeaccount-api-openapi.yml
+  - openapi/adyen-closeaccountholder-api-openapi.yml
+  - openapi/adyen-closestores-api-openapi.yml
+  - openapi/adyen-companies-api-openapi.yml
+  - openapi/adyen-confirmthirdparty-api-openapi.yml
+  - openapi/adyen-cost-api-openapi.yml
+  - openapi/adyen-createaccount-api-openapi.yml
+  - openapi/adyen-createaccountholder-api-openapi.yml
+  - openapi/adyen-createnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-createpermit-api-openapi.yml
+  - openapi/adyen-createtestcardranges-api-openapi.yml
+  - openapi/adyen-debitaccountholder-api-openapi.yml
+  - openapi/adyen-declinethirdparty-api-openapi.yml
+  - openapi/adyen-defenddispute-api-openapi.yml
+  - openapi/adyen-deletebankaccounts-api-openapi.yml
+  - openapi/adyen-deletedisputedefensedocument-api-openapi.yml
+  - openapi/adyen-deletelegalarrangements-api-openapi.yml
+  - openapi/adyen-deletenotificationconfigurations-api-openapi.yml
+  - openapi/adyen-deletepayoutmethods-api-openapi.yml
+  - openapi/adyen-deleteshareholders-api-openapi.yml
+  - openapi/adyen-deletesignatories-api-openapi.yml
+  - openapi/adyen-diagnosis-api-openapi.yml
+  - openapi/adyen-disable-api-openapi.yml
+  - openapi/adyen-disablepermit-api-openapi.yml
+  - openapi/adyen-display-api-openapi.yml
+  - openapi/adyen-documents-api-openapi.yml
+  - openapi/adyen-donate-api-openapi.yml
+  - openapi/adyen-donations-api-openapi.yml
+  - openapi/adyen-enableservice-api-openapi.yml
+  - openapi/adyen-erasure-api-openapi.yml
+  - openapi/adyen-findterminal-api-openapi.yml
+  - openapi/adyen-getaccountholder-api-openapi.yml
+  - openapi/adyen-getauthenticationresult-api-openapi.yml
+  - openapi/adyen-getnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-getnotificationconfigurationlist-api-openapi.yml
+  - openapi/adyen-getonboardingurl-api-openapi.yml
+  - openapi/adyen-getpciquestionnaireurl-api-openapi.yml
+  - openapi/adyen-getstoresunderaccount-api-openapi.yml
+  - openapi/adyen-gettaxform-api-openapi.yml
+  - openapi/adyen-getterminaldetails-api-openapi.yml
+  - openapi/adyen-getterminalsunderaccount-api-openapi.yml
+  - openapi/adyen-gettotals-api-openapi.yml
+  - openapi/adyen-getuploadeddocuments-api-openapi.yml
+  - openapi/adyen-grants-api-openapi.yml
+  - openapi/adyen-input-api-openapi.yml
+  - openapi/adyen-instruments-api-openapi.yml
+  - openapi/adyen-issue-api-openapi.yml
+  - openapi/adyen-keys-api-openapi.yml
+  - openapi/adyen-legal-entities-api-openapi.yml
+  - openapi/adyen-links-api-openapi.yml
+  - openapi/adyen-listrecurringdetails-api-openapi.yml
+  - openapi/adyen-load-api-openapi.yml
+  - openapi/adyen-login-api-openapi.yml
+  - openapi/adyen-logout-api-openapi.yml
+  - openapi/adyen-loyalty-api-openapi.yml
+  - openapi/adyen-me-api-openapi.yml
+  - openapi/adyen-merchants-api-openapi.yml
+  - openapi/adyen-mergebalance-api-openapi.yml
+  - openapi/adyen-method-api-openapi.yml
+  - openapi/adyen-methods-api-openapi.yml
+  - openapi/adyen-networks-api-openapi.yml
+  - openapi/adyen-notifyshopper-api-openapi.yml
+  - openapi/adyen-offer-api-openapi.yml
+  - openapi/adyen-offers-api-openapi.yml
+  - openapi/adyen-orders-api-openapi.yml
+  - openapi/adyen-payment-api-openapi.yml
+  - openapi/adyen-payments-api-openapi.yml
+  - openapi/adyen-payout-api-openapi.yml
+  - openapi/adyen-payoutaccountholder-api-openapi.yml
+  - openapi/adyen-pins-api-openapi.yml
+  - openapi/adyen-print-api-openapi.yml
+  - openapi/adyen-reconciliation-api-openapi.yml
+  - openapi/adyen-refund-api-openapi.yml
+  - openapi/adyen-refundfundstransfer-api-openapi.yml
+  - openapi/adyen-refundnotpaidouttransfers-api-openapi.yml
+  - openapi/adyen-retrieve3ds2result-api-openapi.yml
+  - openapi/adyen-retrieveapplicabledefensereasons-api-openapi.yml
+  - openapi/adyen-reversal-api-openapi.yml
+  - openapi/adyen-rules-api-openapi.yml
+  - openapi/adyen-scheduleaccountupdater-api-openapi.yml
+  - openapi/adyen-session-api-openapi.yml
+  - openapi/adyen-sessions-api-openapi.yml
+  - openapi/adyen-setupbeneficiary-api-openapi.yml
+  - openapi/adyen-storedetail-api-openapi.yml
+  - openapi/adyen-storedetailandsubmitthirdparty-api-openapi.yml
+  - openapi/adyen-storedvalue-api-openapi.yml
+  - openapi/adyen-stores-api-openapi.yml
+  - openapi/adyen-submitthirdparty-api-openapi.yml
+  - openapi/adyen-supplydefensedocument-api-openapi.yml
+  - openapi/adyen-suspendaccountholder-api-openapi.yml
+  - openapi/adyen-technicalcancel-api-openapi.yml
+  - openapi/adyen-terminals-api-openapi.yml
+  - openapi/adyen-testnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-themes-api-openapi.yml
+  - openapi/adyen-transaction-status-api-openapi.yml
+  - openapi/adyen-transactions-api-openapi.yml
+  - openapi/adyen-transferfunds-api-openapi.yml
+  - openapi/adyen-transferinstruments-api-openapi.yml
+  - openapi/adyen-transfers-api-openapi.yml
+  - openapi/adyen-unsuspendaccountholder-api-openapi.yml
+  - openapi/adyen-update-notification-configuration-api-openapi.yml
+  - openapi/adyen-updateaccount-api-openapi.yml
+  - openapi/adyen-updateaccountholder-api-openapi.yml
+  - openapi/adyen-updateaccountholderstate-api-openapi.yml
+  - openapi/adyen-uploaddocument-api-openapi.yml
+  - openapi/adyen-voidpendingrefund-api-openapi.yml
+  - openapi/adyen-voidtransaction-api-openapi.yml
   type: apiKey
 - name: BasicAuth
   scheme: basic
   sources:
-  - openapi/accounting-notifications-openapi-original.yml
-  - openapi/accounts-openapi-original.yml
+  - openapi/adyen-acceptdispute-api-openapi.yml
   - openapi/adyen-account-api-openapi.yml
-  - openapi/adyen-authentication-webhooks-api-openapi.yml
-  - openapi/adyen-balance-control-api-openapi.yml
-  - openapi/adyen-binlookup-api-openapi.yml
-  - openapi/adyen-checkout-api-openapi.yml
-  - openapi/adyen-configuration-api-openapi.yml
-  - openapi/adyen-configuration-webhooks-api-openapi.yml
-  - openapi/adyen-data-protection-api-openapi.yml
-  - openapi/authentication-webhooks-openapi-original.yml
-  - openapi/balance-control-openapi-original.yml
-  - openapi/binlookup-openapi-original.yml
-  - openapi/checkout-openapi-original.yml
-  - openapi/configuration-openapi-original.yml
-  - openapi/configuration-webhooks-openapi-original.yml
-  - openapi/data-protection-openapi-original.yml
-  - openapi/disputes-openapi-original.yml
-  - openapi/funds-openapi-original.yml
-  - openapi/hosted-onboarding-openapi-original.yml
-  - openapi/legal-entity-openapi-original.yml
-  - openapi/management-openapi-original.yml
-  - openapi/management-webhooks-openapi-original.yml
-  - openapi/notification-configurations-openapi-original.yml
-  - openapi/notification-webhooks-openapi-original.yml
-  - openapi/notifications-openapi-original.yml
-  - openapi/payments-openapi-original.yml
-  - openapi/payouts-openapi-original.yml
-  - openapi/pos-terminal-openapi-original.yml
-  - openapi/recurring-openapi-original.yml
-  - openapi/report-webhooks-openapi-original.yml
-  - openapi/stored-value-openapi-original.yml
-  - openapi/terminal-openapi-original.yml
-  - openapi/test-cards-openapi-original.yml
-  - openapi/transaction-webhooks-openapi-original.yml
-  - openapi/transfer-webhooks-openapi-original.yml
-  - openapi/transfers-openapi-original.yml
-  - openapi/webhooks-openapi-original.yml
+  - openapi/adyen-accountholderbalance-api-openapi.yml
+  - openapi/adyen-accountholdertransactionlist-api-openapi.yml
+  - openapi/adyen-accounts-api-openapi.yml
+  - openapi/adyen-adjustauthorisation-api-openapi.yml
+  - openapi/adyen-admin-api-openapi.yml
+  - openapi/adyen-amount-api-openapi.yml
+  - openapi/adyen-apple-api-openapi.yml
+  - openapi/adyen-assignterminals-api-openapi.yml
+  - openapi/adyen-authorise-api-openapi.yml
+  - openapi/adyen-authorise3d-api-openapi.yml
+  - openapi/adyen-authorise3ds2-api-openapi.yml
+  - openapi/adyen-availability-api-openapi.yml
+  - openapi/adyen-balance-api-openapi.yml
+  - openapi/adyen-balanceinquiry-api-openapi.yml
+  - openapi/adyen-businesslines-api-openapi.yml
+  - openapi/adyen-calculate-api-openapi.yml
+  - openapi/adyen-cancel-api-openapi.yml
+  - openapi/adyen-cancelorrefund-api-openapi.yml
+  - openapi/adyen-cancels-api-openapi.yml
+  - openapi/adyen-capture-api-openapi.yml
+  - openapi/adyen-captures-api-openapi.yml
+  - openapi/adyen-card-api-openapi.yml
+  - openapi/adyen-card-orders-api-openapi.yml
+  - openapi/adyen-cardacquisition-api-openapi.yml
+  - openapi/adyen-cardreaderapdu-api-openapi.yml
+  - openapi/adyen-changes-api-openapi.yml
+  - openapi/adyen-changestatus-api-openapi.yml
+  - openapi/adyen-check-balance-api-openapi.yml
+  - openapi/adyen-checkaccountholder-api-openapi.yml
+  - openapi/adyen-closeaccount-api-openapi.yml
+  - openapi/adyen-closeaccountholder-api-openapi.yml
+  - openapi/adyen-closestores-api-openapi.yml
+  - openapi/adyen-companies-api-openapi.yml
+  - openapi/adyen-confirmthirdparty-api-openapi.yml
+  - openapi/adyen-cost-api-openapi.yml
+  - openapi/adyen-createaccount-api-openapi.yml
+  - openapi/adyen-createaccountholder-api-openapi.yml
+  - openapi/adyen-createnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-createpermit-api-openapi.yml
+  - openapi/adyen-createtestcardranges-api-openapi.yml
+  - openapi/adyen-debitaccountholder-api-openapi.yml
+  - openapi/adyen-declinethirdparty-api-openapi.yml
+  - openapi/adyen-defenddispute-api-openapi.yml
+  - openapi/adyen-deletebankaccounts-api-openapi.yml
+  - openapi/adyen-deletedisputedefensedocument-api-openapi.yml
+  - openapi/adyen-deletelegalarrangements-api-openapi.yml
+  - openapi/adyen-deletenotificationconfigurations-api-openapi.yml
+  - openapi/adyen-deletepayoutmethods-api-openapi.yml
+  - openapi/adyen-deleteshareholders-api-openapi.yml
+  - openapi/adyen-deletesignatories-api-openapi.yml
+  - openapi/adyen-diagnosis-api-openapi.yml
+  - openapi/adyen-disable-api-openapi.yml
+  - openapi/adyen-disablepermit-api-openapi.yml
+  - openapi/adyen-display-api-openapi.yml
+  - openapi/adyen-documents-api-openapi.yml
+  - openapi/adyen-donate-api-openapi.yml
+  - openapi/adyen-donations-api-openapi.yml
+  - openapi/adyen-enableservice-api-openapi.yml
+  - openapi/adyen-erasure-api-openapi.yml
+  - openapi/adyen-findterminal-api-openapi.yml
+  - openapi/adyen-getaccountholder-api-openapi.yml
+  - openapi/adyen-getauthenticationresult-api-openapi.yml
+  - openapi/adyen-getnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-getnotificationconfigurationlist-api-openapi.yml
+  - openapi/adyen-getonboardingurl-api-openapi.yml
+  - openapi/adyen-getpciquestionnaireurl-api-openapi.yml
+  - openapi/adyen-getstoresunderaccount-api-openapi.yml
+  - openapi/adyen-gettaxform-api-openapi.yml
+  - openapi/adyen-getterminaldetails-api-openapi.yml
+  - openapi/adyen-getterminalsunderaccount-api-openapi.yml
+  - openapi/adyen-gettotals-api-openapi.yml
+  - openapi/adyen-getuploadeddocuments-api-openapi.yml
+  - openapi/adyen-grants-api-openapi.yml
+  - openapi/adyen-input-api-openapi.yml
+  - openapi/adyen-instruments-api-openapi.yml
+  - openapi/adyen-issue-api-openapi.yml
+  - openapi/adyen-keys-api-openapi.yml
+  - openapi/adyen-legal-entities-api-openapi.yml
+  - openapi/adyen-links-api-openapi.yml
+  - openapi/adyen-listrecurringdetails-api-openapi.yml
+  - openapi/adyen-load-api-openapi.yml
+  - openapi/adyen-login-api-openapi.yml
+  - openapi/adyen-logout-api-openapi.yml
+  - openapi/adyen-loyalty-api-openapi.yml
+  - openapi/adyen-me-api-openapi.yml
+  - openapi/adyen-merchants-api-openapi.yml
+  - openapi/adyen-mergebalance-api-openapi.yml
+  - openapi/adyen-method-api-openapi.yml
+  - openapi/adyen-methods-api-openapi.yml
+  - openapi/adyen-networks-api-openapi.yml
+  - openapi/adyen-notifyshopper-api-openapi.yml
+  - openapi/adyen-offer-api-openapi.yml
+  - openapi/adyen-offers-api-openapi.yml
+  - openapi/adyen-orders-api-openapi.yml
+  - openapi/adyen-payment-api-openapi.yml
+  - openapi/adyen-payments-api-openapi.yml
+  - openapi/adyen-payout-api-openapi.yml
+  - openapi/adyen-payoutaccountholder-api-openapi.yml
+  - openapi/adyen-pins-api-openapi.yml
+  - openapi/adyen-print-api-openapi.yml
+  - openapi/adyen-reconciliation-api-openapi.yml
+  - openapi/adyen-refund-api-openapi.yml
+  - openapi/adyen-refundfundstransfer-api-openapi.yml
+  - openapi/adyen-refundnotpaidouttransfers-api-openapi.yml
+  - openapi/adyen-retrieve3ds2result-api-openapi.yml
+  - openapi/adyen-retrieveapplicabledefensereasons-api-openapi.yml
+  - openapi/adyen-reversal-api-openapi.yml
+  - openapi/adyen-rules-api-openapi.yml
+  - openapi/adyen-scheduleaccountupdater-api-openapi.yml
+  - openapi/adyen-session-api-openapi.yml
+  - openapi/adyen-sessions-api-openapi.yml
+  - openapi/adyen-setupbeneficiary-api-openapi.yml
+  - openapi/adyen-storedetail-api-openapi.yml
+  - openapi/adyen-storedetailandsubmitthirdparty-api-openapi.yml
+  - openapi/adyen-storedvalue-api-openapi.yml
+  - openapi/adyen-stores-api-openapi.yml
+  - openapi/adyen-submitthirdparty-api-openapi.yml
+  - openapi/adyen-supplydefensedocument-api-openapi.yml
+  - openapi/adyen-suspendaccountholder-api-openapi.yml
+  - openapi/adyen-technicalcancel-api-openapi.yml
+  - openapi/adyen-terminals-api-openapi.yml
+  - openapi/adyen-testnotificationconfiguration-api-openapi.yml
+  - openapi/adyen-themes-api-openapi.yml
+  - openapi/adyen-transaction-status-api-openapi.yml
+  - openapi/adyen-transactions-api-openapi.yml
+  - openapi/adyen-transferfunds-api-openapi.yml
+  - openapi/adyen-transferinstruments-api-openapi.yml
+  - openapi/adyen-transfers-api-openapi.yml
+  - openapi/adyen-unsuspendaccountholder-api-openapi.yml
+  - openapi/adyen-update-notification-configuration-api-openapi.yml
+  - openapi/adyen-updateaccount-api-openapi.yml
+  - openapi/adyen-updateaccountholder-api-openapi.yml
+  - openapi/adyen-updateaccountholderstate-api-openapi.yml
+  - openapi/adyen-uploaddocument-api-openapi.yml
+  - openapi/adyen-voidpendingrefund-api-openapi.yml
+  - openapi/adyen-voidtransaction-api-openapi.yml
   type: http
 - in: query
   name: clientKey
   parameter: clientKey
   sources:
-  - openapi/adyen-configuration-api-openapi.yml
-  - openapi/configuration-openapi-original.yml
-  - openapi/transfers-openapi-original.yml
+  - openapi/adyen-account-api-openapi.yml
+  - openapi/adyen-accounts-api-openapi.yml
+  - openapi/adyen-balance-api-openapi.yml
+  - openapi/adyen-calculate-api-openapi.yml
+  - openapi/adyen-card-orders-api-openapi.yml
+  - openapi/adyen-changes-api-openapi.yml
+  - openapi/adyen-grants-api-openapi.yml
+  - openapi/adyen-instruments-api-openapi.yml
+  - openapi/adyen-keys-api-openapi.yml
+  - openapi/adyen-networks-api-openapi.yml
+  - openapi/adyen-offer-api-openapi.yml
+  - openapi/adyen-offers-api-openapi.yml
+  - openapi/adyen-pins-api-openapi.yml
+  - openapi/adyen-rules-api-openapi.yml
+  - openapi/adyen-transactions-api-openapi.yml
+  - openapi/adyen-transfers-api-openapi.yml
   type: apiKey
 slug: adyen-authentication
 source_filename: adyen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/accounting-notifications-openapi-original.yml, openapi/accounts-openapi-original.yml,\n  openapi/adyen-account-api-openapi.yml, openapi/adyen-authentication-webhooks-api-openapi.yml,\n  openapi/adyen-balance-control-api-openapi.yml, openapi/adyen-binlookup-api-openapi.yml, openapi/adyen-checkout-api-openapi.yml,\n  openapi/adyen-configuration-api-openapi.yml, openapi/adyen-configuration-webhooks-api-openapi.yml,\n  openapi/adyen-data-protection-api-openapi.yml, openapi/authentication-webhooks-openapi-original.yml,\n  openapi/balance-control-openapi-original.yml ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/accounting-notifications-openapi-original.yml\n  - openapi/accounts-openapi-original.yml\n  - openapi/adyen-account-api-openapi.yml\n  - openapi/adyen-balance-control-api-openapi.yml\n\
-  \  - openapi/adyen-binlookup-api-openapi.yml\n  - openapi/adyen-checkout-api-openapi.yml\n  - openapi/adyen-configuration-api-openapi.yml\n  - openapi/adyen-data-protection-api-openapi.yml\n  - openapi/balance-control-openapi-original.yml\n  - openapi/binlookup-openapi-original.yml\n  - openapi/checkout-openapi-original.yml\n  - openapi/configuration-openapi-original.yml\n  - openapi/data-protection-openapi-original.yml\n  - openapi/disputes-openapi-original.yml\n  - openapi/funds-openapi-original.yml\n  - openapi/hosted-onboarding-openapi-original.yml\n  - openapi/legal-entity-openapi-original.yml\n  - openapi/management-openapi-original.yml\n  - openapi/notification-configurations-openapi-original.yml\n  - openapi/notification-webhooks-openapi-original.yml\n  - openapi/payments-openapi-original.yml\n  - openapi/payouts-openapi-original.yml\n  - openapi/pos-terminal-openapi-original.yml\n  - openapi/recurring-openapi-original.yml\n  - openapi/stored-value-openapi-original.yml\n  - openapi/terminal-openapi-original.yml\n\
-  \  - openapi/test-cards-openapi-original.yml\n  - openapi/transfers-openapi-original.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/accounting-notifications-openapi-original.yml\n  - openapi/accounts-openapi-original.yml\n  - openapi/adyen-account-api-openapi.yml\n  - openapi/adyen-authentication-webhooks-api-openapi.yml\n  - openapi/adyen-balance-control-api-openapi.yml\n  - openapi/adyen-binlookup-api-openapi.yml\n  - openapi/adyen-checkout-api-openapi.yml\n  - openapi/adyen-configuration-api-openapi.yml\n  - openapi/adyen-configuration-webhooks-api-openapi.yml\n  - openapi/adyen-data-protection-api-openapi.yml\n  - openapi/authentication-webhooks-openapi-original.yml\n  - openapi/balance-control-openapi-original.yml\n  - openapi/binlookup-openapi-original.yml\n  - openapi/checkout-openapi-original.yml\n  - openapi/configuration-openapi-original.yml\n  - openapi/configuration-webhooks-openapi-original.yml\n  - openapi/data-protection-openapi-original.yml\n\
-  \  - openapi/disputes-openapi-original.yml\n  - openapi/funds-openapi-original.yml\n  - openapi/hosted-onboarding-openapi-original.yml\n  - openapi/legal-entity-openapi-original.yml\n  - openapi/management-openapi-original.yml\n  - openapi/management-webhooks-openapi-original.yml\n  - openapi/notification-configurations-openapi-original.yml\n  - openapi/notification-webhooks-openapi-original.yml\n  - openapi/notifications-openapi-original.yml\n  - openapi/payments-openapi-original.yml\n  - openapi/payouts-openapi-original.yml\n  - openapi/pos-terminal-openapi-original.yml\n  - openapi/recurring-openapi-original.yml\n  - openapi/report-webhooks-openapi-original.yml\n  - openapi/stored-value-openapi-original.yml\n  - openapi/terminal-openapi-original.yml\n  - openapi/test-cards-openapi-original.yml\n  - openapi/transaction-webhooks-openapi-original.yml\n  - openapi/transfer-webhooks-openapi-original.yml\n  - openapi/transfers-openapi-original.yml\n  - openapi/webhooks-openapi-original.yml\n\
-  - name: clientKey\n  type: apiKey\n  in: query\n  parameter: clientKey\n  sources:\n  - openapi/adyen-configuration-api-openapi.yml\n  - openapi/configuration-openapi-original.yml\n  - openapi/transfers-openapi-original.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/adyen-acceptdispute-api-openapi.yml, openapi/adyen-account-api-openapi.yml,\n  openapi/adyen-accountholderbalance-api-openapi.yml, openapi/adyen-accountholdertransactionlist-api-openapi.yml,\n  openapi/adyen-accounts-api-openapi.yml, openapi/adyen-adjustauthorisation-api-openapi.yml,\n  openapi/adyen-admin-api-openapi.yml, openapi/adyen-amount-api-openapi.yml, openapi/adyen-apple-api-openapi.yml,\n  openapi/adyen-assignterminals-api-openapi.yml, openapi/adyen-authorise-api-openapi.yml, openapi/adyen-authorise3d-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/adyen-acceptdispute-api-openapi.yml\n  - openapi/adyen-account-api-openapi.yml\n  - openapi/adyen-accountholderbalance-api-openapi.yml\n  - openapi/adyen-accountholdertransactionlist-api-openapi.yml\n\
+  \  - openapi/adyen-accounts-api-openapi.yml\n  - openapi/adyen-adjustauthorisation-api-openapi.yml\n  - openapi/adyen-admin-api-openapi.yml\n  - openapi/adyen-amount-api-openapi.yml\n  - openapi/adyen-apple-api-openapi.yml\n  - openapi/adyen-assignterminals-api-openapi.yml\n  - openapi/adyen-authorise-api-openapi.yml\n  - openapi/adyen-authorise3d-api-openapi.yml\n  - openapi/adyen-authorise3ds2-api-openapi.yml\n  - openapi/adyen-availability-api-openapi.yml\n  - openapi/adyen-balance-api-openapi.yml\n  - openapi/adyen-balanceinquiry-api-openapi.yml\n  - openapi/adyen-businesslines-api-openapi.yml\n  - openapi/adyen-calculate-api-openapi.yml\n  - openapi/adyen-cancel-api-openapi.yml\n  - openapi/adyen-cancelorrefund-api-openapi.yml\n  - openapi/adyen-cancels-api-openapi.yml\n  - openapi/adyen-capture-api-openapi.yml\n  - openapi/adyen-captures-api-openapi.yml\n  - openapi/adyen-card-api-openapi.yml\n  - openapi/adyen-card-orders-api-openapi.yml\n  - openapi/adyen-cardacquisition-api-openapi.yml\n\
+  \  - openapi/adyen-cardreaderapdu-api-openapi.yml\n  - openapi/adyen-changes-api-openapi.yml\n  - openapi/adyen-changestatus-api-openapi.yml\n  - openapi/adyen-check-balance-api-openapi.yml\n  - openapi/adyen-checkaccountholder-api-openapi.yml\n  - openapi/adyen-closeaccount-api-openapi.yml\n  - openapi/adyen-closeaccountholder-api-openapi.yml\n  - openapi/adyen-closestores-api-openapi.yml\n  - openapi/adyen-companies-api-openapi.yml\n  - openapi/adyen-confirmthirdparty-api-openapi.yml\n  - openapi/adyen-cost-api-openapi.yml\n  - openapi/adyen-createaccount-api-openapi.yml\n  - openapi/adyen-createaccountholder-api-openapi.yml\n  - openapi/adyen-createnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-createpermit-api-openapi.yml\n  - openapi/adyen-createtestcardranges-api-openapi.yml\n  - openapi/adyen-debitaccountholder-api-openapi.yml\n  - openapi/adyen-declinethirdparty-api-openapi.yml\n  - openapi/adyen-defenddispute-api-openapi.yml\n  - openapi/adyen-deletebankaccounts-api-openapi.yml\n\
+  \  - openapi/adyen-deletedisputedefensedocument-api-openapi.yml\n  - openapi/adyen-deletelegalarrangements-api-openapi.yml\n  - openapi/adyen-deletenotificationconfigurations-api-openapi.yml\n  - openapi/adyen-deletepayoutmethods-api-openapi.yml\n  - openapi/adyen-deleteshareholders-api-openapi.yml\n  - openapi/adyen-deletesignatories-api-openapi.yml\n  - openapi/adyen-diagnosis-api-openapi.yml\n  - openapi/adyen-disable-api-openapi.yml\n  - openapi/adyen-disablepermit-api-openapi.yml\n  - openapi/adyen-display-api-openapi.yml\n  - openapi/adyen-documents-api-openapi.yml\n  - openapi/adyen-donate-api-openapi.yml\n  - openapi/adyen-donations-api-openapi.yml\n  - openapi/adyen-enableservice-api-openapi.yml\n  - openapi/adyen-erasure-api-openapi.yml\n  - openapi/adyen-findterminal-api-openapi.yml\n  - openapi/adyen-getaccountholder-api-openapi.yml\n  - openapi/adyen-getauthenticationresult-api-openapi.yml\n  - openapi/adyen-getnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-getnotificationconfigurationlist-api-openapi.yml\n\
+  \  - openapi/adyen-getonboardingurl-api-openapi.yml\n  - openapi/adyen-getpciquestionnaireurl-api-openapi.yml\n  - openapi/adyen-getstoresunderaccount-api-openapi.yml\n  - openapi/adyen-gettaxform-api-openapi.yml\n  - openapi/adyen-getterminaldetails-api-openapi.yml\n  - openapi/adyen-getterminalsunderaccount-api-openapi.yml\n  - openapi/adyen-gettotals-api-openapi.yml\n  - openapi/adyen-getuploadeddocuments-api-openapi.yml\n  - openapi/adyen-grants-api-openapi.yml\n  - openapi/adyen-input-api-openapi.yml\n  - openapi/adyen-instruments-api-openapi.yml\n  - openapi/adyen-issue-api-openapi.yml\n  - openapi/adyen-keys-api-openapi.yml\n  - openapi/adyen-legal-entities-api-openapi.yml\n  - openapi/adyen-links-api-openapi.yml\n  - openapi/adyen-listrecurringdetails-api-openapi.yml\n  - openapi/adyen-load-api-openapi.yml\n  - openapi/adyen-login-api-openapi.yml\n  - openapi/adyen-logout-api-openapi.yml\n  - openapi/adyen-loyalty-api-openapi.yml\n  - openapi/adyen-me-api-openapi.yml\n  - openapi/adyen-merchants-api-openapi.yml\n\
+  \  - openapi/adyen-mergebalance-api-openapi.yml\n  - openapi/adyen-method-api-openapi.yml\n  - openapi/adyen-methods-api-openapi.yml\n  - openapi/adyen-networks-api-openapi.yml\n  - openapi/adyen-notifyshopper-api-openapi.yml\n  - openapi/adyen-offer-api-openapi.yml\n  - openapi/adyen-offers-api-openapi.yml\n  - openapi/adyen-orders-api-openapi.yml\n  - openapi/adyen-payment-api-openapi.yml\n  - openapi/adyen-payments-api-openapi.yml\n  - openapi/adyen-payout-api-openapi.yml\n  - openapi/adyen-payoutaccountholder-api-openapi.yml\n  - openapi/adyen-pins-api-openapi.yml\n  - openapi/adyen-print-api-openapi.yml\n  - openapi/adyen-reconciliation-api-openapi.yml\n  - openapi/adyen-refund-api-openapi.yml\n  - openapi/adyen-refundfundstransfer-api-openapi.yml\n  - openapi/adyen-refundnotpaidouttransfers-api-openapi.yml\n  - openapi/adyen-retrieve3ds2result-api-openapi.yml\n  - openapi/adyen-retrieveapplicabledefensereasons-api-openapi.yml\n  - openapi/adyen-reversal-api-openapi.yml\n  - openapi/adyen-rules-api-openapi.yml\n\
+  \  - openapi/adyen-scheduleaccountupdater-api-openapi.yml\n  - openapi/adyen-session-api-openapi.yml\n  - openapi/adyen-sessions-api-openapi.yml\n  - openapi/adyen-setupbeneficiary-api-openapi.yml\n  - openapi/adyen-storedetail-api-openapi.yml\n  - openapi/adyen-storedetailandsubmitthirdparty-api-openapi.yml\n  - openapi/adyen-storedvalue-api-openapi.yml\n  - openapi/adyen-stores-api-openapi.yml\n  - openapi/adyen-submitthirdparty-api-openapi.yml\n  - openapi/adyen-supplydefensedocument-api-openapi.yml\n  - openapi/adyen-suspendaccountholder-api-openapi.yml\n  - openapi/adyen-technicalcancel-api-openapi.yml\n  - openapi/adyen-terminals-api-openapi.yml\n  - openapi/adyen-testnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-themes-api-openapi.yml\n  - openapi/adyen-transaction-status-api-openapi.yml\n  - openapi/adyen-transactions-api-openapi.yml\n  - openapi/adyen-transferfunds-api-openapi.yml\n  - openapi/adyen-transferinstruments-api-openapi.yml\n  - openapi/adyen-transfers-api-openapi.yml\n\
+  \  - openapi/adyen-unsuspendaccountholder-api-openapi.yml\n  - openapi/adyen-update-notification-configuration-api-openapi.yml\n  - openapi/adyen-updateaccount-api-openapi.yml\n  - openapi/adyen-updateaccountholder-api-openapi.yml\n  - openapi/adyen-updateaccountholderstate-api-openapi.yml\n  - openapi/adyen-uploaddocument-api-openapi.yml\n  - openapi/adyen-voidpendingrefund-api-openapi.yml\n  - openapi/adyen-voidtransaction-api-openapi.yml\n- name: BasicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/adyen-acceptdispute-api-openapi.yml\n  - openapi/adyen-account-api-openapi.yml\n  - openapi/adyen-accountholderbalance-api-openapi.yml\n  - openapi/adyen-accountholdertransactionlist-api-openapi.yml\n  - openapi/adyen-accounts-api-openapi.yml\n  - openapi/adyen-adjustauthorisation-api-openapi.yml\n  - openapi/adyen-admin-api-openapi.yml\n  - openapi/adyen-amount-api-openapi.yml\n  - openapi/adyen-apple-api-openapi.yml\n  - openapi/adyen-assignterminals-api-openapi.yml\n  - openapi/adyen-authorise-api-openapi.yml\n\
+  \  - openapi/adyen-authorise3d-api-openapi.yml\n  - openapi/adyen-authorise3ds2-api-openapi.yml\n  - openapi/adyen-availability-api-openapi.yml\n  - openapi/adyen-balance-api-openapi.yml\n  - openapi/adyen-balanceinquiry-api-openapi.yml\n  - openapi/adyen-businesslines-api-openapi.yml\n  - openapi/adyen-calculate-api-openapi.yml\n  - openapi/adyen-cancel-api-openapi.yml\n  - openapi/adyen-cancelorrefund-api-openapi.yml\n  - openapi/adyen-cancels-api-openapi.yml\n  - openapi/adyen-capture-api-openapi.yml\n  - openapi/adyen-captures-api-openapi.yml\n  - openapi/adyen-card-api-openapi.yml\n  - openapi/adyen-card-orders-api-openapi.yml\n  - openapi/adyen-cardacquisition-api-openapi.yml\n  - openapi/adyen-cardreaderapdu-api-openapi.yml\n  - openapi/adyen-changes-api-openapi.yml\n  - openapi/adyen-changestatus-api-openapi.yml\n  - openapi/adyen-check-balance-api-openapi.yml\n  - openapi/adyen-checkaccountholder-api-openapi.yml\n  - openapi/adyen-closeaccount-api-openapi.yml\n  - openapi/adyen-closeaccountholder-api-openapi.yml\n\
+  \  - openapi/adyen-closestores-api-openapi.yml\n  - openapi/adyen-companies-api-openapi.yml\n  - openapi/adyen-confirmthirdparty-api-openapi.yml\n  - openapi/adyen-cost-api-openapi.yml\n  - openapi/adyen-createaccount-api-openapi.yml\n  - openapi/adyen-createaccountholder-api-openapi.yml\n  - openapi/adyen-createnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-createpermit-api-openapi.yml\n  - openapi/adyen-createtestcardranges-api-openapi.yml\n  - openapi/adyen-debitaccountholder-api-openapi.yml\n  - openapi/adyen-declinethirdparty-api-openapi.yml\n  - openapi/adyen-defenddispute-api-openapi.yml\n  - openapi/adyen-deletebankaccounts-api-openapi.yml\n  - openapi/adyen-deletedisputedefensedocument-api-openapi.yml\n  - openapi/adyen-deletelegalarrangements-api-openapi.yml\n  - openapi/adyen-deletenotificationconfigurations-api-openapi.yml\n  - openapi/adyen-deletepayoutmethods-api-openapi.yml\n  - openapi/adyen-deleteshareholders-api-openapi.yml\n  - openapi/adyen-deletesignatories-api-openapi.yml\n\
+  \  - openapi/adyen-diagnosis-api-openapi.yml\n  - openapi/adyen-disable-api-openapi.yml\n  - openapi/adyen-disablepermit-api-openapi.yml\n  - openapi/adyen-display-api-openapi.yml\n  - openapi/adyen-documents-api-openapi.yml\n  - openapi/adyen-donate-api-openapi.yml\n  - openapi/adyen-donations-api-openapi.yml\n  - openapi/adyen-enableservice-api-openapi.yml\n  - openapi/adyen-erasure-api-openapi.yml\n  - openapi/adyen-findterminal-api-openapi.yml\n  - openapi/adyen-getaccountholder-api-openapi.yml\n  - openapi/adyen-getauthenticationresult-api-openapi.yml\n  - openapi/adyen-getnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-getnotificationconfigurationlist-api-openapi.yml\n  - openapi/adyen-getonboardingurl-api-openapi.yml\n  - openapi/adyen-getpciquestionnaireurl-api-openapi.yml\n  - openapi/adyen-getstoresunderaccount-api-openapi.yml\n  - openapi/adyen-gettaxform-api-openapi.yml\n  - openapi/adyen-getterminaldetails-api-openapi.yml\n  - openapi/adyen-getterminalsunderaccount-api-openapi.yml\n\
+  \  - openapi/adyen-gettotals-api-openapi.yml\n  - openapi/adyen-getuploadeddocuments-api-openapi.yml\n  - openapi/adyen-grants-api-openapi.yml\n  - openapi/adyen-input-api-openapi.yml\n  - openapi/adyen-instruments-api-openapi.yml\n  - openapi/adyen-issue-api-openapi.yml\n  - openapi/adyen-keys-api-openapi.yml\n  - openapi/adyen-legal-entities-api-openapi.yml\n  - openapi/adyen-links-api-openapi.yml\n  - openapi/adyen-listrecurringdetails-api-openapi.yml\n  - openapi/adyen-load-api-openapi.yml\n  - openapi/adyen-login-api-openapi.yml\n  - openapi/adyen-logout-api-openapi.yml\n  - openapi/adyen-loyalty-api-openapi.yml\n  - openapi/adyen-me-api-openapi.yml\n  - openapi/adyen-merchants-api-openapi.yml\n  - openapi/adyen-mergebalance-api-openapi.yml\n  - openapi/adyen-method-api-openapi.yml\n  - openapi/adyen-methods-api-openapi.yml\n  - openapi/adyen-networks-api-openapi.yml\n  - openapi/adyen-notifyshopper-api-openapi.yml\n  - openapi/adyen-offer-api-openapi.yml\n  - openapi/adyen-offers-api-openapi.yml\n\
+  \  - openapi/adyen-orders-api-openapi.yml\n  - openapi/adyen-payment-api-openapi.yml\n  - openapi/adyen-payments-api-openapi.yml\n  - openapi/adyen-payout-api-openapi.yml\n  - openapi/adyen-payoutaccountholder-api-openapi.yml\n  - openapi/adyen-pins-api-openapi.yml\n  - openapi/adyen-print-api-openapi.yml\n  - openapi/adyen-reconciliation-api-openapi.yml\n  - openapi/adyen-refund-api-openapi.yml\n  - openapi/adyen-refundfundstransfer-api-openapi.yml\n  - openapi/adyen-refundnotpaidouttransfers-api-openapi.yml\n  - openapi/adyen-retrieve3ds2result-api-openapi.yml\n  - openapi/adyen-retrieveapplicabledefensereasons-api-openapi.yml\n  - openapi/adyen-reversal-api-openapi.yml\n  - openapi/adyen-rules-api-openapi.yml\n  - openapi/adyen-scheduleaccountupdater-api-openapi.yml\n  - openapi/adyen-session-api-openapi.yml\n  - openapi/adyen-sessions-api-openapi.yml\n  - openapi/adyen-setupbeneficiary-api-openapi.yml\n  - openapi/adyen-storedetail-api-openapi.yml\n  - openapi/adyen-storedetailandsubmitthirdparty-api-openapi.yml\n\
+  \  - openapi/adyen-storedvalue-api-openapi.yml\n  - openapi/adyen-stores-api-openapi.yml\n  - openapi/adyen-submitthirdparty-api-openapi.yml\n  - openapi/adyen-supplydefensedocument-api-openapi.yml\n  - openapi/adyen-suspendaccountholder-api-openapi.yml\n  - openapi/adyen-technicalcancel-api-openapi.yml\n  - openapi/adyen-terminals-api-openapi.yml\n  - openapi/adyen-testnotificationconfiguration-api-openapi.yml\n  - openapi/adyen-themes-api-openapi.yml\n  - openapi/adyen-transaction-status-api-openapi.yml\n  - openapi/adyen-transactions-api-openapi.yml\n  - openapi/adyen-transferfunds-api-openapi.yml\n  - openapi/adyen-transferinstruments-api-openapi.yml\n  - openapi/adyen-transfers-api-openapi.yml\n  - openapi/adyen-unsuspendaccountholder-api-openapi.yml\n  - openapi/adyen-update-notification-configuration-api-openapi.yml\n  - openapi/adyen-updateaccount-api-openapi.yml\n  - openapi/adyen-updateaccountholder-api-openapi.yml\n  - openapi/adyen-updateaccountholderstate-api-openapi.yml\n\
+  \  - openapi/adyen-uploaddocument-api-openapi.yml\n  - openapi/adyen-voidpendingrefund-api-openapi.yml\n  - openapi/adyen-voidtransaction-api-openapi.yml\n- name: clientKey\n  type: apiKey\n  in: query\n  parameter: clientKey\n  sources:\n  - openapi/adyen-account-api-openapi.yml\n  - openapi/adyen-accounts-api-openapi.yml\n  - openapi/adyen-balance-api-openapi.yml\n  - openapi/adyen-calculate-api-openapi.yml\n  - openapi/adyen-card-orders-api-openapi.yml\n  - openapi/adyen-changes-api-openapi.yml\n  - openapi/adyen-grants-api-openapi.yml\n  - openapi/adyen-instruments-api-openapi.yml\n  - openapi/adyen-keys-api-openapi.yml\n  - openapi/adyen-networks-api-openapi.yml\n  - openapi/adyen-offer-api-openapi.yml\n  - openapi/adyen-offers-api-openapi.yml\n  - openapi/adyen-pins-api-openapi.yml\n  - openapi/adyen-rules-api-openapi.yml\n  - openapi/adyen-transactions-api-openapi.yml\n  - openapi/adyen-transfers-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/authentication/adyen-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

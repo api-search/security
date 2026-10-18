@@ -34,7 +34,7 @@ tags:
 - Biopharma
 - Neuroscience
 - Schizophrenia
-- ClinicalTrials
+- Clinical Trials
 - Novartis
 - Company
 ---

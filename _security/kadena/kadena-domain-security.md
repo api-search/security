@@ -140,12 +140,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Smart Contracts
 - Proof of Work
 - Layer 1
-- Web3
 - Cryptocurrency
 - Developer Tools
 - Decentralized

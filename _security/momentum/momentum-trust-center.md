@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: momentum-openapi-generated.yml
+- filename: momentum-meeting-api-openapi.yml
   format: yaml
-  label: Momentum API
-  slug: momentum-api
+  label: Momentum Meeting API
+  slug: momentum-meeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/heads/main/openapi/_ae-authored/momentum-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/heads/main/openapi/momentum-meeting-api-openapi.yml
+- filename: momentum-momentum-api-api-openapi.yml
+  format: yaml
+  label: Momentum Momentum API
+  slug: momentum-momentum-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/heads/main/openapi/momentum-momentum-api-api-openapi.yml
+- filename: momentum-signals-api-openapi.yml
+  format: yaml
+  label: Momentum Signals API
+  slug: momentum-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/heads/main/openapi/momentum-signals-api-openapi.yml
+- filename: momentum-user-provided-meeting-api-openapi.yml
+  format: yaml
+  label: Momentum User Provided Meeting API
+  slug: momentum-user-provided-meeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/heads/main/openapi/momentum-user-provided-meeting-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -27,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momentum/refs/
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Revenue
 - Automation
 - Salesforce

@@ -58,9 +58,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company
-- Access Management
+- Identity and Access Management
 - Identity Governance
-- IGA
 - AI Agents
 - Security
 - Access Control

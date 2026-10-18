@@ -1,29 +1,17 @@
 ---
 api_specs:
-- filename: stellantis-data-treatment-openapi.yml
+- filename: stellantis-grouping-api-openapi.yml
   format: yaml
-  label: Stellantis Data Treatment API
-  slug: stellantis-data-treatment-api
+  label: Stellantis Grouping API
+  slug: stellantis-grouping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/_original/stellantis-data-treatment-openapi.yml
-- filename: stellantis-data-treatment-system-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/stellantis-grouping-api-openapi.yml
+- filename: stellantis-data-stream-api-openapi.yml
   format: yaml
-  label: Stellantis Data Treatment System API
-  slug: stellantis-data-treatment-system-api
+  label: Stellantis Data Stream API
+  slug: stellantis-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/_original/stellantis-data-treatment-system-openapi.yml
-- filename: stellantis-data-treatment-openapi.yml
-  format: yaml
-  label: Stellantis Data Treatment API
-  slug: stellantis-data-treatment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/_original/stellantis-data-treatment-openapi.yml
-- filename: stellantis-data-treatment-system-openapi.yml
-  format: yaml
-  label: Stellantis Data Treatment System API
-  slug: stellantis-data-treatment-system-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/_original/stellantis-data-treatment-system-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stellantis/refs/heads/main/openapi/stellantis-data-stream-api-openapi.yml
 description: ''
 domains:
 - caa: []

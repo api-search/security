@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: precoro-openapi-generated.yml
+- filename: precoro-invoices-api-openapi.yml
   format: yaml
-  label: Precoro API
-  slug: precoro-api
+  label: Precoro Invoices API
+  slug: precoro-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/_ae-authored/precoro-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-invoices-api-openapi.yml
+- filename: precoro-items-api-openapi.yml
+  format: yaml
+  label: Precoro Items API
+  slug: precoro-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-items-api-openapi.yml
+- filename: precoro-legalentities-api-openapi.yml
+  format: yaml
+  label: Precoro Legalentities API
+  slug: precoro-legalentities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-legalentities-api-openapi.yml
+- filename: precoro-locations-api-openapi.yml
+  format: yaml
+  label: Precoro Locations API
+  slug: precoro-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-locations-api-openapi.yml
+- filename: precoro-purchaseorders-api-openapi.yml
+  format: yaml
+  label: Precoro Purchaseorders API
+  slug: precoro-purchaseorders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-purchaseorders-api-openapi.yml
+- filename: precoro-purchaserequisitions-api-openapi.yml
+  format: yaml
+  label: Precoro Purchaserequisitions API
+  slug: precoro-purchaserequisitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-purchaserequisitions-api-openapi.yml
+- filename: precoro-receipts-api-openapi.yml
+  format: yaml
+  label: Precoro Receipts API
+  slug: precoro-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-receipts-api-openapi.yml
+- filename: precoro-suppliers-api-openapi.yml
+  format: yaml
+  label: Precoro Suppliers API
+  slug: precoro-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-suppliers-api-openapi.yml
+- filename: precoro-taxes-api-openapi.yml
+  format: yaml
+  label: Precoro Taxes API
+  slug: precoro-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-taxes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +89,7 @@ tags:
 - Procurement
 - Spend Management
 - Vendor Management
-- Purchase-to-Pay
+- Purchase-To-Pay
 - AP Automation
 - Contract Management
 - AI Procurement

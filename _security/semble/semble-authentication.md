@@ -35,7 +35,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Healthcare
 - United Kingdom
-- EHR
+- Electronic Health Records
 - Practice Management
 - GraphQL
 - Patient Records

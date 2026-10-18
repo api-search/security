@@ -26,7 +26,7 @@ summary_line: SOC 2, ISO 27001, ISO 27017, PCI DSS, FedRAMP, GDPR, CSA STAR
 tags:
 - Cybersecurity
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Intelligence
 - Cloud Security
 - Identity Protection

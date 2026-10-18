@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dreams-technol
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Cloud
 - Development
 - Services

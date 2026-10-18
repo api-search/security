@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tele2/refs/hea
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Telecom
+- Telecommunications
 - Mobile
 - Broadband
 - Europe

@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/head
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Banking
 - Payments
 - Stablecoins

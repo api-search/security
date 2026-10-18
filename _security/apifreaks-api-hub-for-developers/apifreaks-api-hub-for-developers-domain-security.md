@@ -219,7 +219,7 @@ tags:
 - Screenshots
 - PDF Processing
 - Currency
-- Forex
+- Foreign Exchange
 - Commodities
 - financial validation
 - ZIP Codes

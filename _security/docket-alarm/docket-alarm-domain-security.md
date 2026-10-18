@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docket-alarm/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- LegalTech
+- Legal Tech
 - Litigation
-- API
 - Data
 ---

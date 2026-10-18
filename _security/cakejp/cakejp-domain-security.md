@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakejp/refs/he
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Japan
 - Confectionery
 - Online Retail

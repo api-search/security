@@ -1,53 +1,53 @@
 ---
 api_specs:
-- filename: parallel-chat-api-beta-api-openapi.yml
+- filename: parallel-ai-chat-api-beta-api-openapi.yml
   format: yaml
   label: Parallel Chat API (Beta) API
   slug: parallel-ai-chat-api-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-chat-api-beta-api-openapi.yml
-- filename: parallel-extract-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-chat-api-beta-api-openapi.yml
+- filename: parallel-ai-extract-api-openapi.yml
   format: yaml
   label: Parallel Extract API
   slug: parallel-ai-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-extract-api-openapi.yml
-- filename: parallel-findall-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-extract-api-openapi.yml
+- filename: parallel-ai-findall-api-openapi.yml
   format: yaml
-  label: Parallel FindAll API
+  label: Parallel Find All API
   slug: parallel-ai-findall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-findall-api-openapi.yml
-- filename: parallel-monitor-api-openapi.yml
-  format: yaml
-  label: Parallel Monitor API
-  slug: parallel-ai-monitor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-monitor-api-openapi.yml
-- filename: parallel-search-api-openapi.yml
-  format: yaml
-  label: Parallel Search API
-  slug: parallel-ai-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-search-api-openapi.yml
-- filename: parallel-tasks-api-openapi.yml
-  format: yaml
-  label: Parallel Tasks API
-  slug: parallel-ai-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-tasks-api-openapi.yml
-- filename: parallel-memory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-findall-api-openapi.yml
+- filename: parallel-ai-memory-api-openapi.yml
   format: yaml
   label: Parallel Memory API
   slug: parallel-ai-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-memory-api-openapi.yml
-- filename: parallel-responses-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-memory-api-openapi.yml
+- filename: parallel-ai-monitor-api-openapi.yml
+  format: yaml
+  label: Parallel Monitor API
+  slug: parallel-ai-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-monitor-api-openapi.yml
+- filename: parallel-ai-responses-api-api-openapi.yml
   format: yaml
   label: Parallel Responses API
   slug: parallel-ai-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-responses-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-responses-api-api-openapi.yml
+- filename: parallel-ai-search-api-openapi.yml
+  format: yaml
+  label: Parallel Search API
+  slug: parallel-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-search-api-openapi.yml
+- filename: parallel-ai-tasks-api-openapi.yml
+  format: yaml
+  label: Parallel Tasks API
+  slug: parallel-ai-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parallel-ai/refs/heads/main/openapi/parallel-ai-tasks-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type I
@@ -79,7 +79,6 @@ tags:
 - Web Monitoring
 - LLM Tools
 - A2A
-- Ai Ml
 - AI Agents
 - MCP
 - Agent Skills

@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celltivity-scientific/refs/heads/main/security/celltivity-scientific-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- MedTech
+- Medical Technology
 - CancerDiagnostics
 - BiopsyImaging
 - RealTimeImaging

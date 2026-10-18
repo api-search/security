@@ -35,5 +35,5 @@ tags:
 - Insurance
 - Nordic
 - Digital
-- Financial
+- Finance
 ---

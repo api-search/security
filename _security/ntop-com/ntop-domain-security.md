@@ -34,7 +34,7 @@ tags:
 - Company
 - Manufacturing
 - Computational Design
-- Additive Manufacturing
+- 3D Printing
 - Engineering Software
 - 3D Modeling
 - CAD

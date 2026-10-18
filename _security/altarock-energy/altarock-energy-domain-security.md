@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
 - Geothermal
-- CleanTech
+- Cleantech
 - RenewableEnergy
 - Technology
 - Company

@@ -6,12 +6,6 @@ api_specs:
   slug: saviynt-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
-- filename: saviynt-connections-api-openapi.yml
-  format: yaml
-  label: Saviynt Connections API
-  slug: saviynt-connections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-connections-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,9 +56,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Identity Governance
 - Identity Administration
-- Access Management
+- Identity and Access Management
 - Privileged Access Management
 - Segregation of Duties
-- IGA
 - Security
 ---

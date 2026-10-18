@@ -138,7 +138,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Search
 - Web Search
-- AI
+- Artificial Intelligence
 - LLM
 - Embeddings
 - Content Extraction

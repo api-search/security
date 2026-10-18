@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Animation
-- VR
-- AR
+- Virtual Reality
+- Augmented Reality
 - Interactive Media
 - Entertainment
 ---

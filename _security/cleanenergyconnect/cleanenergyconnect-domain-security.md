@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Clean Energy
 - Marketplace
-- Renewable
+- Renewables
 - Platform
 - Energy
 ---

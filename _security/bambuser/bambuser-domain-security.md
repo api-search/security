@@ -34,6 +34,6 @@ tags:
 - Video Commerce
 - Live Shopping
 - Shoppable Video
-- E-commerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 ---

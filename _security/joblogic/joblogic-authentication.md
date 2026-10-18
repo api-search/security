@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/joblogic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/authentication/joblogic-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - Scheduling
 - Maintenance

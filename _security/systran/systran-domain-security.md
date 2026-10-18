@@ -99,7 +99,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Machine Translation
 - Translation
-- NLP
+- Natural Language Processing
 - Neural Machine Translation
 - Localization
 - Language Detection

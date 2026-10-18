@@ -37,7 +37,7 @@ tags:
 - Insurance
 - Artificial Intelligence
 - AI Agents
-- Brokers
+- Brokerage
 - Back Office Automation
 - Germany
 ---

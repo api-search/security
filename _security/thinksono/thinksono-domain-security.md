@@ -37,6 +37,6 @@ tags:
 - Artificial Intelligence
 - Ultrasound
 - Diagnostics
-- MedTech
+- Medical Technology
 - Digital Health
 ---

@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: healthchecks-io-openapi-generated.yml
+- filename: healthchecks-io-5bf66975-d4c7-4bf5-bcc8-b8d8a82ea278-api-openapi.yml
   format: yaml
-  label: Healthchecks.io API
-  slug: healthchecks-io-api
+  label: Healthchecks.io 5Bf66975 D4C7 4Bf5 Bcc8 B8D8A82Ea278 API
+  slug: healthchecks-io-5bf66975-d4c7-4bf5-bcc8-b8d8a82ea278-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/_ae-authored/healthchecks-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-5bf66975-d4c7-4bf5-bcc8-b8d8a82ea278-api-openapi.yml
+- filename: healthchecks-io-badges-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Badges API
+  slug: healthchecks-io-badges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-badges-api-openapi.yml
+- filename: healthchecks-io-channels-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Channels API
+  slug: healthchecks-io-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-channels-api-openapi.yml
+- filename: healthchecks-io-checks-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Checks API
+  slug: healthchecks-io-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-checks-api-openapi.yml
+- filename: healthchecks-io-fqood6-f4mmnucenztu01w-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Fqood6 F4Mmnucenztu01W API
+  slug: healthchecks-io-fqood6-f4mmnucenztu01w-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-fqood6-f4mmnucenztu01w-api-openapi.yml
+- filename: healthchecks-io-healthchecks-io-api-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Healthchecks.io API
+  slug: healthchecks-io-healthchecks-io-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-healthchecks-io-api-api-openapi.yml
+- filename: healthchecks-io-status-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Status API
+  slug: healthchecks-io-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-status-api-openapi.yml
+- filename: healthchecks-io-your-uuid-here-api-openapi.yml
+  format: yaml
+  label: Healthchecks.io Your Uuid Here API
+  slug: healthchecks-io-your-uuid-here-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthchecks-io/refs/heads/main/openapi/healthchecks-io-your-uuid-here-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -43,6 +85,6 @@ tags:
 - Monitoring
 - Cron
 - DevOps
-- OpenSource
-- SaaS
+- Open Source
+- Software-as-a-Service
 ---

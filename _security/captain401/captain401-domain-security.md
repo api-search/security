@@ -34,5 +34,5 @@ tags:
 - Finance
 - Retirement
 - 401k
-- HRTech
+- Human Resources
 ---

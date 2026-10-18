@@ -241,5 +241,5 @@ tags:
 - Email Intelligence
 - Identity
 - Number Masking
-- Accounts
+- Account
 ---

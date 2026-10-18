@@ -29,10 +29,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dot-product/re
 summary_line: DNSSEC
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Voice Agents
-- Customer Support
+- Customer Service
 - AI Agents
 - Conversational AI
 ---

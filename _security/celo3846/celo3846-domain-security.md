@@ -46,5 +46,4 @@ tags:
 - Finance
 - Blockchain
 - Payments
-- API
 ---

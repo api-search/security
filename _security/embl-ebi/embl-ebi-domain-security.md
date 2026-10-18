@@ -35,6 +35,6 @@ tags:
 - Bioinformatics
 - Data
 - Research
-- OpenScience
+- Open Science
 - Europe
 ---

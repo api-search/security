@@ -80,10 +80,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Access
-- Access Management
+- Identity and Access Management
 - Compliance
 - Credentials
-- Privileged Access
+- Privileged Access Management
 - Security
 - Secrets
 - Zero Trust

@@ -115,5 +115,5 @@ tags:
 - Small Business Insurance
 - Underwriting
 - Direct to Consumer
-- Brokers
+- Brokerage
 ---

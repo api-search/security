@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: monitly-openapi-generated.yml
+- filename: monitly-charts-api-openapi.yml
   format: yaml
-  label: Monitly API
-  slug: monitly-api
+  label: Monitly Charts API
+  slug: monitly-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/_ae-authored/monitly-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-charts-api-openapi.yml
+- filename: monitly-datasets-api-openapi.yml
+  format: yaml
+  label: Monitly Datasets API
+  slug: monitly-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-datasets-api-openapi.yml
+- filename: monitly-mcp-api-openapi.yml
+  format: yaml
+  label: Monitly MCP API
+  slug: monitly-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monitly/refs/heads/main/openapi/monitly-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +52,5 @@ tags:
 - Company
 - Data
 - Statistics
-- API
-- Dashboard
+- Dashboards
 ---

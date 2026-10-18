@@ -181,7 +181,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Exchange
 - On-Off Ramp
 - Payments

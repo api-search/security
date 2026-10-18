@@ -34,7 +34,7 @@ tags:
 - Entertainment
 - Media
 - Audio
-- Connected Car
+- Connected Vehicles
 - Consumer Electronics
 - Streaming
 - Television

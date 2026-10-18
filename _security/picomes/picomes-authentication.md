@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: picomes-openapi-generated.yml
+- filename: picomes-graph-api-openapi.yml
   format: yaml
-  label: Picomes API
-  slug: picomes-api
+  label: Picomes Graph API
+  slug: picomes-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/_ae-authored/picomes-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-graph-api-openapi.yml
+- filename: picomes-pico-webhooks-api-openapi.yml
+  format: yaml
+  label: Picomes Pico Webhooks API
+  slug: picomes-pico-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-pico-webhooks-api-openapi.yml
+- filename: picomes-uploads-api-openapi.yml
+  format: yaml
+  label: Picomes Uploads API
+  slug: picomes-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picomes/refs/heads/main/openapi/picomes-uploads-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Picomes API
 kind: authentication

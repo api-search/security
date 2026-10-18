@@ -34,6 +34,6 @@ tags:
 - Company
 - Crowdfunding
 - Animal Welfare
-- Nonprofit
-- E-commerce
+- Non-Profit
+- E-Commerce
 ---

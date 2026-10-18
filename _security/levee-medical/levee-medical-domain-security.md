@@ -32,7 +32,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medical Technology
 - Urology
 - Prostate Cancer
 - Clinical Trials

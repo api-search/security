@@ -39,7 +39,7 @@ tags:
 - Company
 - Brokerage
 - Trading
-- Forex
+- Foreign Exchange
 - CFDs
 - Cryptocurrency
 - Financial Services

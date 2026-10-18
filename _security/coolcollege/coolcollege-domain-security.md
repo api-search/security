@@ -54,6 +54,6 @@ tags:
 - Talent Development
 - Human Resources
 - Software-as-a-Service
-- Learning Management
+- LMS
 - China
 ---

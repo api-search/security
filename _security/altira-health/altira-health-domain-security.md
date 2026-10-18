@@ -37,7 +37,7 @@ tags:
 - Clinical
 - Artificial Intelligence
 - Patient Engagement
-- EMR
+- Electronic Health Records
 - Voice
 - SMS
 ---

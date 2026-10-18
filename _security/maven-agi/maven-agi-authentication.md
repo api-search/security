@@ -87,7 +87,7 @@ summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Agents
-- Customer Support
+- Customer Service
 - Customer Experience
 - Conversational AI
 - Knowledge

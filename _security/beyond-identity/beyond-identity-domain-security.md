@@ -145,7 +145,7 @@ tags:
 - Passkeys
 - MFA
 - Device Security
-- OIDC
+- OpenID Connect
 - SCIM
 - Identity Federation
 ---

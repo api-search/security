@@ -249,7 +249,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comp-ai/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Compliance
-- AI
+- Artificial Intelligence
 - SOC 2
 - ISO 27001
 - HIPAA

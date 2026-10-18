@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dabba/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DePIN
 - Wireless
 - Connectivity
@@ -41,5 +41,4 @@ tags:
 - Tokens
 - Emerging Markets
 - India
-- Web3
 ---

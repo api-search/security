@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: airouter-openapi-generated.yml
+- filename: airouter-ai-router-api-api-openapi.yml
   format: yaml
-  label: AI Router API
-  slug: airouter-api
+  label: AI Router AI Router API
+  slug: airouter-ai-router-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/_ae-authored/airouter-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-ai-router-api-api-openapi.yml
+- filename: airouter-chat-completions-api-openapi.yml
+  format: yaml
+  label: AI Router Chat Completions API
+  slug: airouter-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airouter/refs/heads/main/openapi/airouter-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,5 +47,5 @@ tags:
 - LLM Cost Optimization
 - Model Routing
 - Enterprise AI
-- Data Privacy
+- Privacy
 ---

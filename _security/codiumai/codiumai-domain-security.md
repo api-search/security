@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: codiumai-openapi-openapi.json
-  format: json
-  label: Qodo API Openapi API
-  slug: qodo-api-openapi-api
+- filename: codiumai-api-reference-api-openapi.yml
+  format: yaml
+  label: Codiumai API reference API
+  slug: codiumai-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codiumai/refs/heads/main/openapi/_original/codiumai-openapi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/codiumai/refs/heads/main/openapi/codiumai-api-reference-api-openapi.yml
 description: ''
 domains:
 - caa:

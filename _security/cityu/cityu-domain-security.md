@@ -46,5 +46,5 @@ tags:
 - OAI-PMH
 - Identity Federation
 - Research Data
-- Learning Management
+- LMS
 ---

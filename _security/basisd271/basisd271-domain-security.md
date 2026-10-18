@@ -33,5 +33,4 @@ tags:
 - Company
 - Data
 - Technology
-- Stub
 ---

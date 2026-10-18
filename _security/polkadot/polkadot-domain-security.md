@@ -393,6 +393,6 @@ tags:
 - Polkadot
 - Parachain
 - Substrate
-- Crypto
+- Cryptocurrency
 - Web3
 ---

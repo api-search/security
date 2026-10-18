@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/
 summary_line: SOC 2, ISO 27001, FedRAMP
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Compliance
 - Sanctions

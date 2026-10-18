@@ -279,6 +279,12 @@ api_specs:
   slug: revolut-webhooks-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/openapi/revolut-webhooks-v2-api-openapi.yml
+- filename: revolut-wallet-partner-api-openapi.yml
+  format: yaml
+  label: Revolut Wallet Partner API
+  slug: revolut-wallet-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/openapi/revolut-wallet-partner-api-openapi.yml
 auth_types:
 - apiKey
 - http

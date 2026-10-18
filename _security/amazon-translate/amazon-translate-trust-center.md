@@ -44,7 +44,7 @@ tags:
 - Language Processing
 - Localization
 - Machine Translation
-- NLP
+- Natural Language Processing
 - Translation
 trust_url: https://aws.amazon.com/compliance/
 ---

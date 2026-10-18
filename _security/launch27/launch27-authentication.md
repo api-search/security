@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/launch27
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/authentication/launch27-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Field Service Management
+- Field Service
 - Home Services
 - Cleaning Services
 - Booking

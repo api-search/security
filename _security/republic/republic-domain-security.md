@@ -36,5 +36,5 @@ tags:
 - Crowdfunding
 - Private Markets
 - Startups
-- Crypto
+- Cryptocurrency
 ---

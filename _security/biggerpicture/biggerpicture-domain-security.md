@@ -35,5 +35,5 @@ tags:
 - Analytics
 - DataVisualization
 - MarketIntelligence
-- AI
+- Artificial Intelligence
 ---

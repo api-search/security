@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ex-libris-openapi-generated.yml
+- filename: ex-libris-almaws-api-openapi.yml
   format: yaml
-  label: Ex Libris API
-  slug: ex-libris-api
+  label: Ex Libris Almaws API
+  slug: ex-libris-almaws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ex-libris/refs/heads/main/openapi/_ae-authored/ex-libris-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ex-libris/refs/heads/main/openapi/ex-libris-almaws-api-openapi.yml
+- filename: ex-libris-rapido-api-openapi.yml
+  format: yaml
+  label: Ex Libris Rapido API
+  slug: ex-libris-rapido-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-libris/refs/heads/main/openapi/ex-libris-rapido-api-openapi.yml
 description: ''
 domains:
 - caa: []

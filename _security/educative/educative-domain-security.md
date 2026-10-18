@@ -34,7 +34,7 @@ tags:
 - Courses
 - Education
 - Learning
-- Online Learning
+- E-Learning
 - Developer Training
 - Interview Preparation
 - EdTech

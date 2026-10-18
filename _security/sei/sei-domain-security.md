@@ -106,7 +106,7 @@ tags:
 - Layer 1
 - EVM
 - DeFi
-- DEX
+- Decentralized Exchange
 - Trading
 - Cosmos
 - Web3

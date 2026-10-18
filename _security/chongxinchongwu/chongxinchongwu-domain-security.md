@@ -34,5 +34,5 @@ tags:
 - Finance
 - Investment
 - Pre-IPO
-- Startup
+- Startups
 ---

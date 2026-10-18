@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: sprite-ai-openapi-generated.yml
+- filename: sprite-ai-cancel-api-openapi.yml
   format: yaml
-  label: Sprite AI API
-  slug: sprite-ai-api
+  label: Sprite AI Cancel API
+  slug: sprite-ai-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/_ae-authored/sprite-ai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-cancel-api-openapi.yml
+- filename: sprite-ai-palettes-api-openapi.yml
+  format: yaml
+  label: Sprite AI Palettes API
+  slug: sprite-ai-palettes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-palettes-api-openapi.yml
+- filename: sprite-ai-sprite-ai-api-api-openapi.yml
+  format: yaml
+  label: Sprite AI Sprite AI API
+  slug: sprite-ai-sprite-ai-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-sprite-ai-api-api-openapi.yml
+- filename: sprite-ai-sprites-api-openapi.yml
+  format: yaml
+  label: Sprite AI Sprites API
+  slug: sprite-ai-sprites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs/heads/main/openapi/sprite-ai-sprites-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprite-ai/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Gaming
 - Graphics
 - REST API

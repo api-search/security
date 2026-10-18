@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: predoc-authentication-api-openapi.yml
+  format: yaml
+  label: Predoc Authentication API
+  slug: predoc-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-authentication-api-openapi.yml
+- filename: predoc-documents-api-openapi.yml
+  format: yaml
+  label: Predoc Documents API
+  slug: predoc-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-documents-api-openapi.yml
+- filename: predoc-events-api-openapi.yml
+  format: yaml
+  label: Predoc Events API
+  slug: predoc-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-events-api-openapi.yml
+- filename: predoc-patient-api-openapi.yml
+  format: yaml
+  label: Predoc Patient API
+  slug: predoc-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-patient-api-openapi.yml
+- filename: predoc-record-request-api-openapi.yml
+  format: yaml
+  label: Predoc Record Request API
+  slug: predoc-record-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-request-api-openapi.yml
+- filename: predoc-record-upload-api-openapi.yml
+  format: yaml
+  label: Predoc Record Upload API
+  slug: predoc-record-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-record-upload-api-openapi.yml
+- filename: predoc-retrieval-api-openapi.yml
+  format: yaml
+  label: Predoc Retrieval API
+  slug: predoc-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/predoc/refs/heads/main/openapi/predoc-retrieval-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II

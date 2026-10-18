@@ -32,6 +32,6 @@ tags:
 - Insurance
 - Underwriting
 - Risk Technology
-- Property & Casualty
+- Property and Casualty
 - Scientific Underwriting
 ---

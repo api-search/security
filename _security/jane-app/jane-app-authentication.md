@@ -147,8 +147,7 @@ tags:
 - Healthcare
 - Canada
 - Practice Management
-- EHR
-- EMR
+- Electronic Health Records
 - Scheduling
 - Clinical Documentation
 - Telehealth

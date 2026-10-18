@@ -34,6 +34,6 @@ tags:
 - Company
 - Health
 - Brazil
-- Telemedicine
-- Clinic
+- Telehealth
+- Clinics
 ---

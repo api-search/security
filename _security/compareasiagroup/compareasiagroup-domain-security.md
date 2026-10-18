@@ -39,5 +39,5 @@ tags:
 - Finance
 - Comparison
 - Asia
-- FinTech
+- Fintech
 ---

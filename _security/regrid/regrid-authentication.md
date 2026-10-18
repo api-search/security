@@ -63,7 +63,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/regrid-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/authentication/regrid-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Parcel
 - Land Data
 - Property Data
 - GeoJSON
@@ -73,4 +72,5 @@ tags:
 - Geospatial
 - Mapping
 - Tiles
+- Land Parcels
 ---

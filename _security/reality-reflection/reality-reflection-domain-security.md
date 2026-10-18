@@ -33,5 +33,4 @@ tags:
 - Metaverse
 - Blockchain
 - Artificial Intelligence
-- Venture Backed
 ---

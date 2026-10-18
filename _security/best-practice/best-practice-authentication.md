@@ -82,8 +82,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Healthcare
 - Australia
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

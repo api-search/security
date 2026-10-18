@@ -67,13 +67,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Lending
 - Borrowing
 - Liquidity Pools
 - Fixed Income
 - Blockchain
-- Web3
 - Cryptocurrency
 ---

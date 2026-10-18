@@ -164,7 +164,7 @@ summary_line: SOC 2 Type II, ISO 27001, ISO 27018, GDPR, UK GDPR, CSA STAR
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - E-Learning
 - Training
 - Collaborative Learning

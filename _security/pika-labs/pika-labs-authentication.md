@@ -59,7 +59,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
 - Video Generation
-- Text-to-Video
 - Multi-Modal
 - Generative
 ---

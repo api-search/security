@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clicoh/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Logistics
-- E-commerce
-- AI
+- E-Commerce
+- Artificial Intelligence
 - Fulfillment
 - Shipping
 - Warehouse

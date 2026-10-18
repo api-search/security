@@ -76,7 +76,7 @@ tags:
 - Fintech
 - Cross-Border
 - Payments
-- FX
+- Foreign Exchange
 - Mobile Money
 - Cross-Border Payments
 ---

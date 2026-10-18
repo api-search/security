@@ -66,7 +66,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance
 - United Kingdom
-- Brokers
+- Brokerage
 - Agency Management
 - Policy Administration
 - Claims

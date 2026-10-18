@@ -38,7 +38,7 @@ tags:
 - Agentic Payments
 - x402
 - Base
-- Crypto
+- Cryptocurrency
 - Lead Generation
 - Healthcare
 - Compliance

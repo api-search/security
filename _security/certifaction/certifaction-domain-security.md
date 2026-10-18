@@ -70,9 +70,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ai Enterprise Software
-- Electronic Signature
+- E-Signature
 - Digital Signature
-- Document Signing
 - Qualified Electronic Signature
 - eIDAS
 - Privacy

@@ -35,7 +35,7 @@ tags:
 - Ad Quality
 - Privacy
 - Publishers
-- Platforms
+- Platform
 - Digital Advertising
 - Malvertising
 ---

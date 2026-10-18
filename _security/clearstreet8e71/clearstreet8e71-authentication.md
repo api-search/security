@@ -98,8 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e7
 summary_line: http · 1 scheme
 tags:
 - Company
-- FinTech
+- Fintech
 - Brokerage
-- API
 - Institutional
 ---

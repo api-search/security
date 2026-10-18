@@ -33,6 +33,6 @@ tags:
 - Company
 - Integration
 - ERP
-- eCommerce
+- E-Commerce
 - Automation
 ---

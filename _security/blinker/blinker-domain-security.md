@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blinker/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - AutoWarranty
-- Call Center
+- CallCenter
 - Software-as-a-Service
 - Platform
 - Insurance

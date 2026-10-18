@@ -262,7 +262,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
 - Identity
-- Access Management
+- Identity and Access Management
 - Workload Identity
 - Non-Human Identity
 - Secrets Management

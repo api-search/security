@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: vertex-openapi-generated.yml
+- filename: vertex-documents-api-openapi.yml
   format: yaml
-  label: Vertex API
-  slug: vertex-api
+  label: Vertex Documents API
+  slug: vertex-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/_ae-authored/vertex-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-documents-api-openapi.yml
+- filename: vertex-problems-api-openapi.yml
+  format: yaml
+  label: Vertex Problems API
+  slug: vertex-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-problems-api-openapi.yml
+- filename: vertex-project-api-openapi.yml
+  format: yaml
+  label: Vertex Project API
+  slug: vertex-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-project-api-openapi.yml
+- filename: vertex-reports-api-openapi.yml
+  format: yaml
+  label: Vertex Reports API
+  slug: vertex-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-reports-api-openapi.yml
+- filename: vertex-schedules-api-openapi.yml
+  format: yaml
+  label: Vertex Schedules API
+  slug: vertex-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-schedules-api-openapi.yml
+- filename: vertex-templates-api-openapi.yml
+  format: yaml
+  label: Vertex Templates API
+  slug: vertex-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-templates-api-openapi.yml
+- filename: vertex-vertex-api-api-openapi.yml
+  format: yaml
+  label: Vertex Vertex API
+  slug: vertex-vertex-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-vertex-api-api-openapi.yml
+- filename: vertex-vertex-ws-api-openapi.yml
+  format: yaml
+  label: Vertex Vertex Ws API
+  slug: vertex-vertex-ws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vertex/refs/heads/main/openapi/vertex-vertex-ws-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -34,7 +76,6 @@ tags:
 - Company
 - Tax
 - Compliance
-- API
 - Automation
 trust_url: https://trust.vertexinc.com/
 ---

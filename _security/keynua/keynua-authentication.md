@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keynua/refs/he
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Electronic Signature
+- E-Signature
 - Digital Signature
 - Identity Verification
 - Biometrics

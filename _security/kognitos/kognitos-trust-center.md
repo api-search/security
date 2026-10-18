@@ -69,12 +69,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Automation
 - Workflow Automation
 - Finance Automation
 - Accounts Payable
-- Neurosymbolic AI
+- Neuro-Symbolic AI
 - Enterprise
 trust_url: https://trust.kognitos.com/
 ---

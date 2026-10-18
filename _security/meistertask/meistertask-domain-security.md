@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meistertask/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Project Management
 - Collaboration
 - Productivity

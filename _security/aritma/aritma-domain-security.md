@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: aritma-openapi-generated.yml
+- filename: aritma-accounts-api-openapi.yml
   format: yaml
-  label: Aritma API
-  slug: aritma-api
+  label: Aritma Accounts API
+  slug: aritma-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/_ae-authored/aritma-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-accounts-api-openapi.yml
+- filename: aritma-aritma-api-api-openapi.yml
+  format: yaml
+  label: Aritma Aritma API
+  slug: aritma-aritma-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-aritma-api-api-openapi.yml
+- filename: aritma-banks-api-openapi.yml
+  format: yaml
+  label: Aritma Banks API
+  slug: aritma-banks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-banks-api-openapi.yml
+- filename: aritma-bulk-payments-api-openapi.yml
+  format: yaml
+  label: Aritma Bulk Payments API
+  slug: aritma-bulk-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-bulk-payments-api-openapi.yml
+- filename: aritma-companies-api-openapi.yml
+  format: yaml
+  label: Aritma Companies API
+  slug: aritma-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-companies-api-openapi.yml
+- filename: aritma-consents-api-openapi.yml
+  format: yaml
+  label: Aritma Consents API
+  slug: aritma-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-consents-api-openapi.yml
+- filename: aritma-events-api-openapi.yml
+  format: yaml
+  label: Aritma Events API
+  slug: aritma-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-events-api-openapi.yml
+- filename: aritma-mock-api-openapi.yml
+  format: yaml
+  label: Aritma Mock API
+  slug: aritma-mock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aritma/refs/heads/main/openapi/aritma-mock-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,7 +32,6 @@ summary_line: 1 scheme
 tags:
 - Business
 - IdentityVerification
-- RiskManagement
-- FinTech
-- API
+- Risk Management
+- Fintech
 ---

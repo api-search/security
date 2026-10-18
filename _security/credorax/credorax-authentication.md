@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: credorax-openapi-generated.yml
+- filename: credorax-charges-api-openapi.yml
   format: yaml
-  label: Credorax API
-  slug: credorax-api
+  label: Credorax Charges API
+  slug: credorax-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/_ae-authored/credorax-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-charges-api-openapi.yml
+- filename: credorax-customers-api-openapi.yml
+  format: yaml
+  label: Credorax Customers API
+  slug: credorax-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-customers-api-openapi.yml
+- filename: credorax-events-api-openapi.yml
+  format: yaml
+  label: Credorax Events API
+  slug: credorax-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-events-api-openapi.yml
+- filename: credorax-plans-api-openapi.yml
+  format: yaml
+  label: Credorax Plans API
+  slug: credorax-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-plans-api-openapi.yml
+- filename: credorax-tokens-api-openapi.yml
+  format: yaml
+  label: Credorax Tokens API
+  slug: credorax-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/credorax/refs/heads/main/openapi/credorax-tokens-api-openapi.yml
 auth_types: []
 description: Authentication
 kind: authentication

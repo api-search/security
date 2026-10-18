@@ -37,7 +37,6 @@ tags:
 - Biosciences
 - Life Sciences
 - Biotechnology
-- Venture Backed
 - DCVC Portfolio
 - Drug Discovery
 - Machine Learning

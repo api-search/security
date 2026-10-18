@@ -37,7 +37,7 @@ tags:
 - Operational Technology
 - Industrial Control Systems
 - Critical Infrastructure
-- Endpoint Protection
+- Endpoint Security
 - Network Security
 - Vulnerability Management
 - Manufacturing

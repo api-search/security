@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/security/digio-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
-- eSign
+- E-Signature
 - KYC
 - eNACH
 - eMandate

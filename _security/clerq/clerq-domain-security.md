@@ -38,6 +38,5 @@ tags:
 - Payments
 - Fintech
 - Banking
-- API
 - B2B
 ---

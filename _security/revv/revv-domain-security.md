@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Document Automation
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Sales Enablement
 - Workflow Automation

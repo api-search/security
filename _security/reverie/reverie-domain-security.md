@@ -31,11 +31,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reverie/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Venture Capital
 - Blockchain
 - DeFi
 - Investing
-- Web3
 - Cryptocurrency
 ---

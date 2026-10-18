@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: corraldata-openapi-generated.yml
+- filename: corraldata-kb-api-openapi.yml
   format: yaml
-  label: CorralData API
-  slug: corraldata-api
+  label: CorralData Kb API
+  slug: corraldata-kb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corraldata/refs/heads/main/openapi/_ae-authored/corraldata-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corraldata/refs/heads/main/openapi/corraldata-kb-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,6 +42,6 @@ tags:
 - Data
 - Analytics
 - Healthcare
-- AI
+- Artificial Intelligence
 - Platform
 ---

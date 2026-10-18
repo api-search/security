@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Construction
-- Construction Tech
+- Construction Technology
 - Field Service
 - Site Management
 - Project Management

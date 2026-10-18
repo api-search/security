@@ -41,5 +41,5 @@ tags:
 - Bakery
 - Catering
 - Cookies
-- E-commerce
+- E-Commerce
 ---

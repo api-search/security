@@ -2,12 +2,96 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: threatconnect-openapi-generated.yml
+- filename: threatconnect-apps-api-openapi.yml
   format: yaml
-  label: ThreatConnect API
-  slug: threatconnect-api
+  label: ThreatConnect Apps API
+  slug: threatconnect-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/_ae-authored/threatconnect-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-apps-api-openapi.yml
+- filename: threatconnect-batch-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Batch API
+  slug: threatconnect-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-batch-api-openapi.yml
+- filename: threatconnect-cases-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Cases API
+  slug: threatconnect-cases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-cases-api-openapi.yml
+- filename: threatconnect-custommetrics-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Custommetrics API
+  slug: threatconnect-custommetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-custommetrics-api-openapi.yml
+- filename: threatconnect-groups-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Groups API
+  slug: threatconnect-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-groups-api-openapi.yml
+- filename: threatconnect-indicators-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Indicators API
+  slug: threatconnect-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-indicators-api-openapi.yml
+- filename: threatconnect-notes-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Notes API
+  slug: threatconnect-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-notes-api-openapi.yml
+- filename: threatconnect-notifications-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Notifications API
+  slug: threatconnect-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-notifications-api-openapi.yml
+- filename: threatconnect-services-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Services API
+  slug: threatconnect-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-services-api-openapi.yml
+- filename: threatconnect-tasks-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Tasks API
+  slug: threatconnect-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-tasks-api-openapi.yml
+- filename: threatconnect-tc-taxii-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Tc Taxii API
+  slug: threatconnect-tc-taxii-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-tc-taxii-api-openapi.yml
+- filename: threatconnect-threatconnect-api-api-openapi.yml
+  format: yaml
+  label: ThreatConnect ThreatConnect API
+  slug: threatconnect-threatconnect-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-threatconnect-api-api-openapi.yml
+- filename: threatconnect-token-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Token API
+  slug: threatconnect-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-token-api-openapi.yml
+- filename: threatconnect-types-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Types API
+  slug: threatconnect-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-types-api-openapi.yml
+- filename: threatconnect-victims-api-openapi.yml
+  format: yaml
+  label: ThreatConnect Victims API
+  slug: threatconnect-victims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/threatconnect/refs/heads/main/openapi/threatconnect-victims-api-openapi.yml
 auth_types: []
 description: Authentication methods for ThreatConnect API
 kind: authentication

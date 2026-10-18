@@ -46,7 +46,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Claims
-- Brokers
+- Brokerage
 - MGA
 - Artificial Intelligence
 - Quoting

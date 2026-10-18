@@ -34,7 +34,7 @@ tags:
 - Company
 - Security
 - Non-Human Identity
-- Identity Management
+- Identity and Access Management
 - AI Agents
 - Cloud Security
 - Cybersecurity

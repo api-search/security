@@ -92,7 +92,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/security/100ms-live-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- Live Video
 - Live Streaming
 - Video Conferencing
 - WebRTC

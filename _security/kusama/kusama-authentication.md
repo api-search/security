@@ -155,7 +155,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kusama/refs/he
 summary_line: 0 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - Polkadot

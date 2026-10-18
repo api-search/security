@@ -36,9 +36,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bytechef/refs/
 summary_line: 2 schemes
 tags:
 - Automation
-- AI
-- Open-Source
-- Workflow
+- Artificial Intelligence
+- Open Source
+- Workflows
 - Integration
 - Company
 ---

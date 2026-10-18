@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kundo/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Service
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Ticketing
 - Knowledge Management
 - Sweden

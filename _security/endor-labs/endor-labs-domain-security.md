@@ -93,7 +93,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security
 - Software Supply Chain
-- SCA
+- Software Composition Analysis
 - Reachability
 - AppSec
 - AI Security

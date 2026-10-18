@@ -48,8 +48,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
-- SaaS
+- Software-as-a-Service
 - PaloAlto
 ---

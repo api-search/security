@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: chronoloq-openapi-generated.yml
+- filename: chronoloq-scans-api-openapi.yml
   format: yaml
-  label: Chronoloq API
-  slug: chronoloq-api
+  label: Chronoloq Scans API
+  slug: chronoloq-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs/heads/main/openapi/_ae-authored/chronoloq-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs/heads/main/openapi/chronoloq-scans-api-openapi.yml
 certification_count: 2
 certifications:
 - PCI DSS
@@ -27,7 +27,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronoloq/refs
 summary_line: PCI DSS, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - RiskAssessment
 - Enterprise

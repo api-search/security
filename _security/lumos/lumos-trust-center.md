@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://trust.l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/security/lumos-trust-center.yml
 summary_line: trust center published
 tags:
-- Access Management
+- Identity and Access Management
 - Access Reviews
 - Deprovisioning
 - Identity Governance

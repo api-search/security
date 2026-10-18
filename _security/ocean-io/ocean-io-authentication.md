@@ -117,7 +117,7 @@ summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Lookalike
 - Account Based Marketing
 - Prospecting

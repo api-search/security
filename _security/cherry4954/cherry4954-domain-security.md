@@ -31,8 +31,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherry4954/ref
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Stub
-- API
 - Data
 - Placeholder
 ---

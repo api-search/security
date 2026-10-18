@@ -30,7 +30,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inherent/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Machine Learning
 - AI Research

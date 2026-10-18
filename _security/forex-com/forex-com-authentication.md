@@ -82,11 +82,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/authentication/forex-com-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
-- Forex
+- Foreign Exchange
 - FX Trading
 - CFD Trading
 - Algorithmic Trading
 - Financial Services
 - Trading APIs
-- Currency Exchange
 ---

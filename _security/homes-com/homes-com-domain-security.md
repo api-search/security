@@ -42,7 +42,7 @@ tags:
 - Marketplace
 - Residential Real Estate
 - Real Estate Agents
-- Brokers
+- Brokerage
 - Listings Syndication
 - CoStar Group
 ---

@@ -20,8 +20,8 @@ summary_line: SOC 2
 tags:
 - Company
 - Photography
-- SaaS
-- Workflow
+- Software-as-a-Service
+- Workflows
 - Imaging
 trust_url: https://trust.captura.io/
 ---

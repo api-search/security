@@ -69,7 +69,7 @@ tags:
 - Science Education
 - STEM
 - Simulation
-- Learning Management System
+- LMS
 - LTI
 - Higher Education
 ---

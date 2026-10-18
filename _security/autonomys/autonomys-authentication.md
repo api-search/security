@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autonomys/refs
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - Decentralized Storage

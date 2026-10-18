@@ -151,6 +151,5 @@ tags:
 - Image Editing
 - Machine Learning
 - Stable Diffusion
-- Text-to-Image
 - Video Generation
 ---

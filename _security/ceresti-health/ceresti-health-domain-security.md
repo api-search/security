@@ -35,5 +35,5 @@ tags:
 - Healthcare
 - Dementia
 - CaregiverSupport
-- HealthTech
+- Health Tech
 ---

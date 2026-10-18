@@ -115,6 +115,6 @@ tags:
 - Developer-First
 - IaC Scanning
 - SAST
-- SCA
+- Software Composition Analysis
 - Secret Detection
 ---

@@ -69,7 +69,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - OpenID Connect
 - Security
 - SSO

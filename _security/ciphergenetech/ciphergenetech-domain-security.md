@@ -33,6 +33,6 @@ tags:
 - Biotechnology
 - Genomics
 - Bioinformatics
-- PrecisionMedicine
+- Precision Medicine
 - Healthcare
 ---

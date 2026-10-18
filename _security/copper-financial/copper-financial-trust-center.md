@@ -87,7 +87,7 @@ summary_line: GDPR
 tags:
 - Company
 - CRM
-- SaaS
+- Software-as-a-Service
 - Sales
 - Marketing
 trust_url: https://trust.copper.com/

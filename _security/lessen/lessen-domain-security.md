@@ -54,7 +54,7 @@ tags:
 - Real Estate
 - Property Management
 - Facilities Management
-- Field Service Management
+- Field Service
 - Work Order Management
 - Maintenance
 - Marketplace

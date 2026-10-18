@@ -34,6 +34,6 @@ tags:
 - Education
 - EdTech
 - Social Learning
-- Online Learning
+- E-Learning
 - Tutoring
 ---

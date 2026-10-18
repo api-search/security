@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: agentkey-openapi-generated.yml
+- filename: agentkey-install-api-openapi.yml
   format: yaml
-  label: AgentKey (Data API Layer) API
-  slug: agentkey-api
+  label: AgentKey (Data API Layer) Install API
+  slug: agentkey-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/_ae-authored/agentkey-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/agentkey-install-api-openapi.yml
 auth_types: []
 description: Authentication schemes for AgentKey
 kind: authentication
@@ -35,9 +35,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Data
 - Integration
-- AI
+- Artificial Intelligence
 - Automation
 ---

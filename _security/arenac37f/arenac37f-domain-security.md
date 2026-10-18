@@ -33,5 +33,4 @@ tags:
 - Company
 - Data
 - Placeholder
-- Stub
 ---

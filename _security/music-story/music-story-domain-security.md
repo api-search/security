@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: music-story-openapi-generated.yml
+- filename: music-story-artist-api-openapi.yml
   format: yaml
-  label: Music Story API
-  slug: music-story-api
+  label: Music Story Artist API
+  slug: music-story-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/openapi/_ae-authored/music-story-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/openapi/music-story-artist-api-openapi.yml
+- filename: music-story-music-story-api-api-openapi.yml
+  format: yaml
+  label: Music Story Music Story API
+  slug: music-story-music-story-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/openapi/music-story-music-story-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,6 +46,5 @@ tags:
 - Company
 - Music
 - Metadata
-- API
 - Services
 ---

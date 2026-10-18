@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: equativ-openapi-generated.yml
+- filename: equativ-deals-api-openapi.yml
   format: yaml
-  label: Equativ API
-  slug: equativ-api
+  label: Equativ Deals API
+  slug: equativ-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/_ae-authored/equativ-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-deals-api-openapi.yml
+- filename: equativ-regions-api-openapi.yml
+  format: yaml
+  label: Equativ Regions API
+  slug: equativ-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-regions-api-openapi.yml
+- filename: equativ-semanticsegmentproviders-api-openapi.yml
+  format: yaml
+  label: Equativ Semanticsegmentproviders API
+  slug: equativ-semanticsegmentproviders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-semanticsegmentproviders-api-openapi.yml
+- filename: equativ-semanticsegments-api-openapi.yml
+  format: yaml
+  label: Equativ Semanticsegments API
+  slug: equativ-semanticsegments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-semanticsegments-api-openapi.yml
+- filename: equativ-states-api-openapi.yml
+  format: yaml
+  label: Equativ States API
+  slug: equativ-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-states-api-openapi.yml
+- filename: equativ-videoadbreaktypes-api-openapi.yml
+  format: yaml
+  label: Equativ Videoadbreaktypes API
+  slug: equativ-videoadbreaktypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-videoadbreaktypes-api-openapi.yml
+- filename: equativ-videoplacementtypes-api-openapi.yml
+  format: yaml
+  label: Equativ Videoplacementtypes API
+  slug: equativ-videoplacementtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-videoplacementtypes-api-openapi.yml
 description: ''
 domains:
 - caa: []

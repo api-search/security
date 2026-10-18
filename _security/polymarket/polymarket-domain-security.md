@@ -84,7 +84,7 @@ tags:
 - DeFi
 - Polygon
 - Order Book
-- Crypto
+- Cryptocurrency
 - Markets
 - Polymarket
 - Real-Time

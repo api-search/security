@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cypherium/refs
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Layer 1
 - JSON-RPC

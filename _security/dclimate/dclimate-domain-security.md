@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dclimate/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Climate Data
 - Weather Data
 - Geospatial
@@ -41,5 +41,4 @@ tags:
 - Data Marketplace
 - Zarr
 - STAC
-- Web3
 ---

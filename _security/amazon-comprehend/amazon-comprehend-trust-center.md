@@ -31,7 +31,6 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Machine Learning
 - Natural Language Processing
-- NLP
 - Text Analysis
 trust_url: https://aws.amazon.com/compliance/
 ---

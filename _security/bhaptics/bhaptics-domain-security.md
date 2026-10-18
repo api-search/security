@@ -35,6 +35,6 @@ tags:
 - Haptics
 - Wearables
 - Gaming
-- VR
+- Virtual Reality
 - Developer Tools
 ---

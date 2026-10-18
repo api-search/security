@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Authentication
-- Azure
+- Microsoft Azure
 - Backend
 - Backend-as-a-Service
 - CloudScript

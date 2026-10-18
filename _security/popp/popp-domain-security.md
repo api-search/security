@@ -1,4 +1,113 @@
 ---
+api_specs:
+- filename: popp-agents-api-openapi.yml
+  format: yaml
+  label: Popp Agents API
+  slug: popp-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-agents-api-openapi.yml
+- filename: popp-analysis-api-openapi.yml
+  format: yaml
+  label: Popp Analysis API
+  slug: popp-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-analysis-api-openapi.yml
+- filename: popp-ats-api-openapi.yml
+  format: yaml
+  label: Popp ATS API
+  slug: popp-ats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-ats-api-openapi.yml
+- filename: popp-campaigns-api-openapi.yml
+  format: yaml
+  label: Popp Campaigns API
+  slug: popp-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-campaigns-api-openapi.yml
+- filename: popp-candidate-lists-api-openapi.yml
+  format: yaml
+  label: Popp Candidate Lists API
+  slug: popp-candidate-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-candidate-lists-api-openapi.yml
+- filename: popp-candidates-api-openapi.yml
+  format: yaml
+  label: Popp Candidates API
+  slug: popp-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-candidates-api-openapi.yml
+- filename: popp-conversations-api-openapi.yml
+  format: yaml
+  label: Popp Conversations API
+  slug: popp-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-conversations-api-openapi.yml
+- filename: popp-custom-fields-beta-api-openapi.yml
+  format: yaml
+  label: Popp Custom Fields (Beta) API
+  slug: popp-custom-fields-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-custom-fields-beta-api-openapi.yml
+- filename: popp-document-credentials-api-openapi.yml
+  format: yaml
+  label: Popp Document Credentials API
+  slug: popp-document-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-document-credentials-api-openapi.yml
+- filename: popp-documents-api-openapi.yml
+  format: yaml
+  label: Popp Documents API
+  slug: popp-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-documents-api-openapi.yml
+- filename: popp-organization-configuration-api-openapi.yml
+  format: yaml
+  label: Popp Organization Configuration API
+  slug: popp-organization-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-organization-configuration-api-openapi.yml
+- filename: popp-organizations-api-openapi.yml
+  format: yaml
+  label: Popp Organizations API
+  slug: popp-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-organizations-api-openapi.yml
+- filename: popp-scheduling-api-openapi.yml
+  format: yaml
+  label: Popp Scheduling API
+  slug: popp-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-scheduling-api-openapi.yml
+- filename: popp-tags-api-openapi.yml
+  format: yaml
+  label: Popp Tags API
+  slug: popp-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-tags-api-openapi.yml
+- filename: popp-templates-api-openapi.yml
+  format: yaml
+  label: Popp Templates API
+  slug: popp-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-templates-api-openapi.yml
+- filename: popp-users-api-openapi.yml
+  format: yaml
+  label: Popp Users API
+  slug: popp-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-users-api-openapi.yml
+- filename: popp-webhooks-api-openapi.yml
+  format: yaml
+  label: Popp Webhooks API
+  slug: popp-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-webhooks-api-openapi.yml
+- filename: popp-workflows-api-openapi.yml
+  format: yaml
+  label: Popp Workflows API
+  slug: popp-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/popp/refs/heads/main/openapi/popp-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []

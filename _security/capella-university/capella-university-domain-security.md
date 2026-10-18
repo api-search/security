@@ -34,7 +34,7 @@ tags:
 - Company
 - Education
 - Higher Education
-- Online Learning
+- E-Learning
 - University
 - Competency-Based Education
 - EdTech

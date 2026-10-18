@@ -34,5 +34,5 @@ tags:
 - Analytics
 - Media
 - CustomerEngagement
-- DataPlatform
+- Data Platform
 ---

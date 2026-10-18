@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celer-network/
 summary_line: none/signature · 2 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Interoperability
 - Cross-Chain

@@ -49,8 +49,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Australia
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Interoperability
 - Practice Management

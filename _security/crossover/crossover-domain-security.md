@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossover/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Recruitment
-- RemoteWork
-- AI
+- Recruiting
+- Remote Work
+- Artificial Intelligence
 - TalentMarketplace
 ---

@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ethena-labs/re
 summary_line: ip-allowlist/wallet-allowlist/signature · 4 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - DeFi
 - Synthetic Dollar

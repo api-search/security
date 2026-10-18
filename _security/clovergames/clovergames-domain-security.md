@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clovergames/refs/heads/main/security/clovergames-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- mobile
-- gaming
-- anime
+- Mobile
+- Gaming
+- Anime
 - rpg
 - ios
 ---

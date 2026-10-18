@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: fcsapi-openapi-generated.yml
+- filename: fcsapi-forex-api-openapi.yml
   format: yaml
-  label: FCS API API
-  slug: fcsapi-api
+  label: FCS API Forex API
+  slug: fcsapi-forex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fcsapi/refs/heads/main/openapi/_ae-authored/fcsapi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fcsapi/refs/heads/main/openapi/fcsapi-forex-api-openapi.yml
+- filename: fcsapi-raw-api-openapi.yml
+  format: yaml
+  label: FCS API Raw API
+  slug: fcsapi-raw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcsapi/refs/heads/main/openapi/fcsapi-raw-api-openapi.yml
+- filename: fcsapi-stock-api-openapi.yml
+  format: yaml
+  label: FCS API Stock API
+  slug: fcsapi-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fcsapi/refs/heads/main/openapi/fcsapi-stock-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fcsapi/refs/he
 summary_line: TLSv1.3 · HSTS
 tags:
 - Finance
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Stocks
 - DataAPI

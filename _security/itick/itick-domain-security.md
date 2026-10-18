@@ -38,8 +38,8 @@ tags:
 - Financial Data
 - Market Data
 - Stocks
-- Forex
-- Crypto
+- Foreign Exchange
+- Cryptocurrency
 - Indices
 - Futures
 - Fund

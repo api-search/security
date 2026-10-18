@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colorescience/refs/heads/main/security/colorescience-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- skincare
+- Skincare
 - sunscreen
-- cosmetics
-- health
-- ecommerce
+- Cosmetics
+- Health
+- E-Commerce
 ---

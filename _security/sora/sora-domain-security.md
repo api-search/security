@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - K-12
 - EdTech
 - Project-Based Learning

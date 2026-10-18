@@ -33,7 +33,6 @@ tags:
 - Data Extraction
 - HTML Parsing
 - Python
-- Scraping
 - Web Scraping
 - XML Parsing
 ---

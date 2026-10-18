@@ -32,7 +32,7 @@ tags:
 - Company
 - Blockchain
 - Digital Content
-- Podcasting
+- Podcasts
 - Cryptocurrency
 - Content Distribution
 - Payments

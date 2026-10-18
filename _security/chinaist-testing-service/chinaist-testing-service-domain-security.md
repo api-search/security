@@ -34,5 +34,5 @@ tags:
 - HighTech
 - Testing
 - Reliability
-- Semiconductor
+- Semiconductors
 ---

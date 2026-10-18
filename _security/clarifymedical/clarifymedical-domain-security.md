@@ -160,7 +160,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- DataAnalytics
-- HealthTech
-- API
+- Data Analytics
+- Health Tech
 ---

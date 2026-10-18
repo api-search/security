@@ -105,5 +105,5 @@ tags:
 - Indexing
 - Monitoring
 - Developer Tools
-- Crypto
+- Cryptocurrency
 ---

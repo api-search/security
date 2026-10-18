@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quadrata/refs/
 summary_line: apiKey/http-basic/ecdsa-request-signature/jwt-access-token · 4 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Identity
 - Digital Identity
 - KYC
@@ -79,6 +79,5 @@ tags:
 - Compliance
 - Wallet Screening
 - Blockchain
-- Web3
 - Decentralized Identity
 ---

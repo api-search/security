@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Gaming
-- VideoGames
+- Video Games
 - Cooperative
 - Sweden
 - Studio

@@ -37,7 +37,7 @@ tags:
 - Software-as-a-Service
 - Property Management
 - Rental Management
-- Electronic Signature
+- E-Signature
 - Insurance
 - Brazil
 - Fintech

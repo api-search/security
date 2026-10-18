@@ -62,7 +62,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DeFi
 - Perpetuals
-- DEX
+- Decentralized Exchange
 - Layer 1
 - Trading
 - Order Book

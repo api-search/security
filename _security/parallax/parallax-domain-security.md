@@ -33,7 +33,7 @@ tags:
 - Payments
 - Cross-Border Payments
 - Stablecoins
-- Crypto
+- Cryptocurrency
 - Fintech
 - Remittances
 - B2B Payments

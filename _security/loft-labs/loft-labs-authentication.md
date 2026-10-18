@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: loft-labs-platform-openapi-generated.yml
+- filename: loft-labs-healthz-api-openapi.yml
   format: yaml
-  label: Loft Labs vCluster Platform API
-  slug: platform-api
+  label: Loft Labs Healthz API
+  slug: loft-labs-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/_ae-authored/loft-labs-platform-openapi-generated.yml
-- filename: loft-labs-vcluster-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/loft-labs-healthz-api-openapi.yml
+- filename: loft-labs-kubernetes-api-openapi.yml
   format: yaml
-  label: Loft Labs vCluster API
-  slug: vcluster-api
+  label: Loft Labs Kubernetes API
+  slug: loft-labs-kubernetes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/_ae-authored/loft-labs-vcluster-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/loft-labs-kubernetes-api-openapi.yml
+- filename: loft-labs-loft-labs-api-api-openapi.yml
+  format: yaml
+  label: Loft Labs Loft Labs API
+  slug: loft-labs-loft-labs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/loft-labs-loft-labs-api-api-openapi.yml
+- filename: loft-labs-loft-sh-api-openapi.yml
+  format: yaml
+  label: Loft Labs Loft Sh API
+  slug: loft-labs-loft-sh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/loft-labs-loft-sh-api-openapi.yml
+- filename: loft-labs-node-api-openapi.yml
+  format: yaml
+  label: Loft Labs Node API
+  slug: loft-labs-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/openapi/loft-labs-node-api-openapi.yml
 auth_types: []
 description: Authentication schemes published for Loft Labs vCluster
 kind: authentication
@@ -40,9 +58,9 @@ source_yaml: "generated: '2026-10-13'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loft-labs/refs/heads/main/authentication/loft-labs-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Kubernetes
-- Multi-tenant
+- Multi-Tenant
 - Infrastructure
 ---

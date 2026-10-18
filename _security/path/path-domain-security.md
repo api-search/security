@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/path/refs/heads/main/security/path-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Crypto
+- Cryptocurrency
 - Financial Services
 - Investment
 - Portfolio Management

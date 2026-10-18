@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cowbellcyberin
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cyber Insurance
-- AI
+- Artificial Intelligence
 - Adaptive
-- SME
+- Small Business
 - Specialty
 ---

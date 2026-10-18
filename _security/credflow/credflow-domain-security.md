@@ -34,6 +34,6 @@ tags:
 - Company
 - Fintech
 - Healthcare
-- AI
+- Artificial Intelligence
 - Credentialing
 ---

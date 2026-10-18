@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ermeo/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Field Service Management
+- Field Service
 - Connected Operator
 - Field Operations
 - Industrial

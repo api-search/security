@@ -110,7 +110,6 @@ summary_line: 3 schemes
 tags:
 - Company
 - Sports Betting
-- Real-time Data
-- API
+- Real-Time Data
 - Gambling
 ---

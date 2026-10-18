@@ -39,7 +39,7 @@ tags:
 - Company
 - Education
 - Higher Education
-- Online Learning
+- E-Learning
 - Community College
 - EdTech
 - Accredited Degrees

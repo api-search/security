@@ -32,7 +32,7 @@ tags:
 - Company
 - Data
 - Registry
-- OpenScience
+- Open Science
 - Metadata
 - Research
 ---

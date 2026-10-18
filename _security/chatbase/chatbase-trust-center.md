@@ -53,7 +53,7 @@ tags:
 - Artificial Intelligence
 - Chatbots
 - AI Agents
-- Customer Support
+- Customer Service
 - Conversational AI
 trust_url: https://www.chatbase.co/security
 ---

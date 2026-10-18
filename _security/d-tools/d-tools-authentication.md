@@ -194,8 +194,8 @@ tags:
 - Project Management
 - Estimation
 - Quoting
-- Field Service Management
-- Construction Tech
+- Field Service
+- Construction Technology
 - low-voltage
 - Product Catalog
 - ERP Integration

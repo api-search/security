@@ -183,7 +183,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - E-Learning
 - Training
 - Collaborative Learning

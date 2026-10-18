@@ -32,7 +32,7 @@ tags:
 - Company
 - EdTech
 - Education
-- Online Learning
+- E-Learning
 - Mathematics
 - Early Childhood Education
 - China

@@ -39,6 +39,6 @@ tags:
 - India
 - IIT
 - Identity Federation
-- Learning Management
+- LMS
 - Artificial Intelligence
 ---

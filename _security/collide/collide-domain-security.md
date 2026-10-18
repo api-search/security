@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collide/refs/heads/main/security/collide-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Oil & Gas
+- Oil and Gas
 - Energy Software
 - AI Operations
 - Regulatory Filings

@@ -254,7 +254,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/h
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Agent Enablement
 - Agentic Development
 - Developer Tools

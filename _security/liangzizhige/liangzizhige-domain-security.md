@@ -70,9 +70,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Consumer
 - Personal Finance
 - China
-- Venture Backed
 ---

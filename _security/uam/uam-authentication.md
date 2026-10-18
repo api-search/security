@@ -124,7 +124,7 @@ tags:
 - Open Access
 - OAI-PMH
 - Identity Federation
-- Learning Management
+- LMS
 - DSpace
 - Open Journal Systems
 - Shibboleth

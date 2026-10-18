@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/security/zuper-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- Field Service Management
+- Field Service
 - Scheduling
 - Dispatching
 - Invoicing

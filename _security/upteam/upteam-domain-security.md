@@ -34,5 +34,4 @@ tags:
 - Luxury Resale
 - B2B
 - Pre-owned Goods
-- Portfolio Company
 ---

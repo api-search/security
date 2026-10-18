@@ -33,8 +33,6 @@ tags:
 - Company
 - Food and Beverage
 - Food
-- Portfolio Company
-- Venture Backed
 - General Catalyst
 - Pre-Launch
 ---

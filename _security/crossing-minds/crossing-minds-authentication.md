@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossing-minds
 summary_line: http · 1 scheme
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Recommendations
 - Personalization
 - Machine Learning

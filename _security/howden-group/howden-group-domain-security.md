@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - United Kingdom
-- Brokers
+- Brokerage
 - Insurance Broking
 - Reinsurance
 - Specialty Insurance

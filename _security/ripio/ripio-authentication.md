@@ -109,7 +109,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/hea
 summary_line: apiToken · 1 scheme
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Exchange
 - Trading

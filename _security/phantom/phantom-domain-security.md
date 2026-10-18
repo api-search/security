@@ -50,7 +50,6 @@ tags:
 - Base
 - Bitcoin
 - Blockchain
-- Crypto
 - Cryptocurrency
 - Deep Links
 - Embedded Wallets

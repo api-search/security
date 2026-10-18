@@ -96,7 +96,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mesh/refs/head
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Payments
 - Digital Assets

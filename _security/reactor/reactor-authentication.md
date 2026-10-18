@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reactor/refs/h
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Video
 - Generative AI
 - Real-Time

@@ -34,6 +34,6 @@ tags:
 - Company
 - Shipping
 - Logistics
-- Courier
+- Couriers
 - Freight
 ---

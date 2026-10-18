@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Mobility
-- Ridesharing
+- Ride Hailing
 - Carpooling
 - Bikepool
 - Taxi

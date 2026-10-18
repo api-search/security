@@ -35,5 +35,5 @@ tags:
 - Attractions
 - Museums
 - Tours
-- Experiences
+- Experience
 ---

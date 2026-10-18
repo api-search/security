@@ -34,6 +34,6 @@ tags:
 - Company
 - Fishing
 - Subscription
-- E-commerce
+- E-Commerce
 - Outdoors
 ---

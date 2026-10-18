@@ -35,5 +35,5 @@ tags:
 - Dermatology
 - Immunology
 - Ionic Liquids
-- Clinical-stage
+- Clinical Stage
 ---

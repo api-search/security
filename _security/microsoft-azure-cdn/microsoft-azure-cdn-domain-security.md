@@ -165,7 +165,7 @@ tags:
 - Cloud Infrastructure
 - Networking
 - Web Performance
-- Azure
+- Microsoft Azure
 - Content Delivery
 - Web Application Firewall
 ---

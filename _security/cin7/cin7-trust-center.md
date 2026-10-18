@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cin7/refs/head
 summary_line: SOC 2
 tags:
 - Company
-- Inventory Management
+- Inventory
 - ERP
 - Retail
 - Integration

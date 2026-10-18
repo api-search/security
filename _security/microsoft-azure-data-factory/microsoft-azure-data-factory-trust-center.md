@@ -179,7 +179,7 @@ tags:
 - Change Data Capture
 - Integration Runtime
 - Cloud
-- Azure
+- Microsoft Azure
 - Data Factory
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

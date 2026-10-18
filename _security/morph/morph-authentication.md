@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morph/refs/hea
 summary_line: none/jwt/wallet-signature · 4 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Layer 2
 - Ethereum

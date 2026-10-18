@@ -36,7 +36,7 @@ tags:
 - Video Editing
 - Live Streaming
 - Content Creation
-- Podcasting
+- Podcasts
 - Media
 - Artificial Intelligence
 ---

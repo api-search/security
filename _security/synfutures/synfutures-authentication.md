@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synfutures/ref
 summary_line: apiKey/hmac · 6 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Derivatives

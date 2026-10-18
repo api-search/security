@@ -33,5 +33,4 @@ tags:
 - Company
 - Ai Apps
 - Artificial Intelligence
-- Venture Backed
 ---

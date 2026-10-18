@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: clawdbot-openapi-generated.yml
+- filename: clawdbot-clawdbot-api-api-openapi.yml
   format: yaml
-  label: Clawdbot API
-  slug: clawdbot-api
+  label: Clawdbot Clawdbot API
+  slug: clawdbot-clawdbot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/_ae-authored/clawdbot-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-clawdbot-api-api-openapi.yml
+- filename: clawdbot-npm-api-openapi.yml
+  format: yaml
+  label: Clawdbot Npm API
+  slug: clawdbot-npm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-npm-api-openapi.yml
+- filename: clawdbot-packages-api-openapi.yml
+  format: yaml
+  label: Clawdbot Packages API
+  slug: clawdbot-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-packages-api-openapi.yml
+- filename: clawdbot-plugins-api-openapi.yml
+  format: yaml
+  label: Clawdbot Plugins API
+  slug: clawdbot-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-plugins-api-openapi.yml
+- filename: clawdbot-skills-api-openapi.yml
+  format: yaml
+  label: Clawdbot Skills API
+  slug: clawdbot-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-skills-api-openapi.yml
+- filename: clawdbot-transfers-api-openapi.yml
+  format: yaml
+  label: Clawdbot Transfers API
+  slug: clawdbot-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-transfers-api-openapi.yml
+- filename: clawdbot-users-api-openapi.yml
+  format: yaml
+  label: Clawdbot Users API
+  slug: clawdbot-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/heads/main/openapi/clawdbot-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +74,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clawdbot/refs/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - PersonalAssistant
 - Automation
 ---

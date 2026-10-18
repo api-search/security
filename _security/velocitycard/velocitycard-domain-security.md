@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: velocitycard-openapi-generated.yml
+- filename: velocitycard-cards-api-openapi.yml
   format: yaml
-  label: VelocityCard Card Issuing API
-  slug: velocitycard-api
+  label: VelocityCard Card Issuing Cards API
+  slug: velocitycard-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/velocitycard/refs/heads/main/openapi/_ae-authored/velocitycard-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/velocitycard/refs/heads/main/openapi/velocitycard-cards-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/velocitycard/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Card Issuing
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Finance
 - Commercial Cards
 - Payments

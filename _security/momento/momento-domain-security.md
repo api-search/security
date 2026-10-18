@@ -52,7 +52,7 @@ tags:
 - Caching
 - Serverless
 - Cache
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Event Bus
 - Leaderboards

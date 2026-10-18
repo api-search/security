@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: agentkey-openapi-generated.yml
+- filename: agentkey-install-api-openapi.yml
   format: yaml
-  label: AgentKey (Data API Layer) API
-  slug: agentkey-api
+  label: AgentKey (Data API Layer) Install API
+  slug: agentkey-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/_ae-authored/agentkey-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/heads/main/openapi/agentkey-install-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,9 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentkey/refs/
 summary_line: TLSv1.3
 tags:
 - Company
-- API
 - Data
 - Integration
-- AI
+- Artificial Intelligence
 - Automation
 ---

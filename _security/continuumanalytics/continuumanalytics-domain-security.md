@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/continuumanaly
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- DataAnalytics
-- RealTime
-- APIs
+- Data Analytics
+- Real-Time
 - Cloud
 ---

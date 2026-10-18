@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Medical Devices
-- MedTech
+- Medical Technology
 - Healthcare
 - Dialysis
 - Vascular Access

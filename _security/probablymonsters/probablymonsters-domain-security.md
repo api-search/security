@@ -34,7 +34,6 @@ tags:
 - Video Games
 - Game Development
 - Game Studios
-- Interactive Entertainment
 - Entertainment
 - Media
 ---

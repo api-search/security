@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elyza/refs/hea
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- NLP
+- Artificial Intelligence
+- Natural Language Processing
 - Enterprise
 - Platform
 ---

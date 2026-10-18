@@ -133,7 +133,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorsolution
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Training
-- Learning Management
+- LMS
 - Compliance
 - Public Safety
 - Workforce Management

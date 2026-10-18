@@ -41,7 +41,6 @@ tags:
 - Knowledge Base
 - Knowledge Management
 - Customer Service
-- Customer Support
 - Self-Service
 - Help Center
 - AI Chatbot

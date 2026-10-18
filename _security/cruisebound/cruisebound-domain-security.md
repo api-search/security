@@ -51,5 +51,4 @@ tags:
 - Travel
 - Cruise
 - Booking
-- API
 ---

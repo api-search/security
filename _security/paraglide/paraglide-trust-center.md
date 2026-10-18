@@ -18,7 +18,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paraglide/refs
 summary_line: trust center published
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Agents
 - Accounts Receivable
 - Fintech

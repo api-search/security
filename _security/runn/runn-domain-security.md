@@ -234,5 +234,4 @@ tags:
 - Resource-Management
 - Capacity-Planning
 - Project-Management
-- API
 ---

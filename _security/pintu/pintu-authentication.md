@@ -46,7 +46,7 @@ summary_line: apiKey/hmac · 1 scheme
 tags:
 - Company
 - Cryptocurrency
-- Crypto Exchange
+- Cryptocurrency Exchange
 - Trading
 - Fintech
 - Digital Assets

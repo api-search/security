@@ -87,7 +87,6 @@ tags:
 - Text Analysis
 - Readability
 - Natural Language Processing
-- NLP
 - Text Summarization
 - Language Detection
 ---

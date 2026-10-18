@@ -56,10 +56,4 @@ summary_line: 4 schemes
 tags:
 - Integration
 - iPaaS
-- API Management
-- Workflow Automation
-- Enterprise Automation
-- AI Orchestration
-- Data Integration
-- Hybrid Deployment - Integration - iPaaS
 ---

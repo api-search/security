@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Assessment
 - PartnerEnablement
-- Skills Development
+- SkillsDevelopment
 - Platform
 ---

@@ -67,9 +67,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/security/suggix-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- SaaS
+- Software-as-a-Service
 - Feedback
-- Roadmap
+- Roadmaps
 - Changelog
 - Product Management
 ---

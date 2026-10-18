@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: bridgestackapi-openapi-generated.yml
+- filename: bridgestackapi-bridgestackapi-api-api-openapi.yml
   format: yaml
-  label: BridgeStackAPI API
-  slug: bridgestackapi-api
+  label: BridgeStackAPI BridgeStackAPI API
+  slug: bridgestackapi-bridgestackapi-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgestackapi/refs/heads/main/openapi/_ae-authored/bridgestackapi-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bridgestackapi/refs/heads/main/openapi/bridgestackapi-bridgestackapi-api-api-openapi.yml
 description: ''
 domains:
 - caa: []

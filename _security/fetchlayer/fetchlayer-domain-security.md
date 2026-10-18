@@ -1,11 +1,47 @@
 ---
 api_specs:
-- filename: fetchlayer-openapi-generated.yml
+- filename: fetchlayer-airbnb-api-openapi.yml
   format: yaml
-  label: HootCodes API
-  slug: fetchlayer-api
+  label: HootCodes Airbnb API
+  slug: fetchlayer-airbnb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/_ae-authored/fetchlayer-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-airbnb-api-openapi.yml
+- filename: fetchlayer-bing-api-openapi.yml
+  format: yaml
+  label: HootCodes Bing API
+  slug: fetchlayer-bing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-bing-api-openapi.yml
+- filename: fetchlayer-douyin-api-openapi.yml
+  format: yaml
+  label: HootCodes Douyin API
+  slug: fetchlayer-douyin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-douyin-api-openapi.yml
+- filename: fetchlayer-duckduckgo-api-openapi.yml
+  format: yaml
+  label: HootCodes Duckduckgo API
+  slug: fetchlayer-duckduckgo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-duckduckgo-api-openapi.yml
+- filename: fetchlayer-ebay-api-openapi.yml
+  format: yaml
+  label: HootCodes eBay API
+  slug: fetchlayer-ebay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-ebay-api-openapi.yml
+- filename: fetchlayer-temu-api-openapi.yml
+  format: yaml
+  label: HootCodes Temu API
+  slug: fetchlayer-temu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-temu-api-openapi.yml
+- filename: fetchlayer-weibo-api-openapi.yml
+  format: yaml
+  label: HootCodes Weibo API
+  slug: fetchlayer-weibo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fetchlayer/refs/heads/main/openapi/fetchlayer-weibo-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +77,5 @@ tags:
 - Company
 - Social Media
 - Data Extraction
-- API
-- SaaS
+- Software-as-a-Service
 ---

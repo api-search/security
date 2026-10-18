@@ -2480,7 +2480,7 @@ slug: optimizely-trust-center
 source_filename: optimizely-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.optimizely.com/trust-center/compliance\nurl: https://www.optimizely.com/trust-center/compliance\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\nevidence:\n- source: https://www.optimizely.com/trust-center/compliance\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - trust center\n"
+source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://www.optimizely.com/trust-center/compliance\nurl: https://www.optimizely.com/trust-center/compliance\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\nevidence:\n- source: https://www.optimizely.com/trust-center/compliance\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - trust center\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/security/optimizely-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA
 tags:

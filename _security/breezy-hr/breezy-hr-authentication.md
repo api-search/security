@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: breezy-hr-openapi-generated.yml
+- filename: breezy-hr-breezy-hr-api-api-openapi.yml
   format: yaml
-  label: Breezy HR API
-  slug: breezy-hr-api
+  label: Breezy HR Breezy HR API
+  slug: breezy-hr-breezy-hr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/_ae-authored/breezy-hr-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-breezy-hr-api-api-openapi.yml
+- filename: breezy-hr-sign-in-api-openapi.yml
+  format: yaml
+  label: Breezy HR Sign In API
+  slug: breezy-hr-sign-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs/heads/main/openapi/breezy-hr-sign-in-api-openapi.yml
 auth_types: []
 description: Breezy HR API authentication
 kind: authentication
@@ -44,8 +50,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breezy-hr/refs
 summary_line: 2 schemes
 tags:
 - Hiring
-- ATS
-- Recruitment
-- SaaS
-- HRTech
+- Applicant Tracking
+- Recruiting
+- Software-as-a-Service
+- Human Resources
 ---

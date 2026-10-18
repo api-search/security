@@ -33,5 +33,5 @@ tags:
 - HighEnergyPhysics
 - Research
 - Data
-- OpenScience
+- Open Science
 ---

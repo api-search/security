@@ -33,5 +33,5 @@ tags:
 - DataCenter
 - BitcoinMining
 - PowerInfrastructure
-- AI
+- Artificial Intelligence
 ---

@@ -2,6 +2,37 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: skyfire-agents-api-openapi.yml
+  format: yaml
+  label: Skyfire Agents API
+  slug: skyfire-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-agents-api-openapi.yml
+- filename: skyfire-auth-api-openapi.yml
+  format: yaml
+  label: Skyfire Auth API
+  slug: skyfire-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-auth-api-openapi.yml
+- filename: skyfire-directory-api-openapi.yml
+  format: yaml
+  label: Skyfire Directory API
+  slug: skyfire-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-directory-api-openapi.yml
+- filename: skyfire-organizations-api-openapi.yml
+  format: yaml
+  label: Skyfire Organizations API
+  slug: skyfire-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-organizations-api-openapi.yml
+- filename: skyfire-tokens-api-openapi.yml
+  format: yaml
+  label: Skyfire Tokens API
+  slug: skyfire-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/openapi/skyfire-tokens-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

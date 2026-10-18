@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance
 - Small Business
-- API
-- FinTech
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Company
 ---

@@ -48,7 +48,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Authentication
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - User Management
 - Federated Identity

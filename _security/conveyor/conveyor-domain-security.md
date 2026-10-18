@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: conveyor-openapi-generated.yml
+- filename: conveyor-single-question-api-openapi.yml
   format: yaml
-  label: Conveyor API
-  slug: conveyor-api
+  label: Conveyor Single Question API
+  slug: conveyor-single-question-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/_ae-authored/conveyor-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/openapi/conveyor-single-question-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conveyor/refs/heads/main/security/conveyor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Security Questionnaire Automation
 - RFP Automation
 - Trust Center

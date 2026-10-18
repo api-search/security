@@ -34,9 +34,9 @@ summary_line: 2 schemes
 tags:
 - Software Escrow
 - Continuity
-- SaaS
+- Software-as-a-Service
 - Backup
-- AI
+- Artificial Intelligence
 - Compliance
 - Vendor Risk
 ---

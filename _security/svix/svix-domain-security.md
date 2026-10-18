@@ -219,7 +219,7 @@ tags:
 - Event-Driven
 - Eventing
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Streaming
 - Ingest
 - Integration

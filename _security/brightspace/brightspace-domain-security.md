@@ -130,7 +130,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightspace/re
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - LMS
-- Learning Management System
 - EdTech
 - Education
 - Valence

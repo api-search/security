@@ -210,7 +210,7 @@ tags:
 - Climate
 - Solar
 - Construction
-- Field Service Management
+- Field Service
 - Project Management
 - Contractors
 - CRM

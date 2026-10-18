@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Social
 - Community
-- SaaS
+- Software-as-a-Service
 - LGBTQ+
-- SanFrancisco
+- San Francisco
 ---

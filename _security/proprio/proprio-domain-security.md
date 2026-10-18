@@ -35,7 +35,7 @@ tags:
 - Surgery
 - Surgical Navigation
 - Medical Devices
-- MedTech
+- Medical Technology
 - Artificial Intelligence
 - Computer Vision
 - Light Field Imaging

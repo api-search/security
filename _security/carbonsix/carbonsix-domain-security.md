@@ -36,5 +36,5 @@ tags:
 - Physical-AI
 - Manufacturing
 - Automation
-- AI
+- Artificial Intelligence
 ---

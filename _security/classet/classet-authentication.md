@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-09'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classet/refs/heads/main/authentication/classet-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Recruiting
-- ATS
+- Applicant Tracking
 - Automation
 - Enterprise
 ---

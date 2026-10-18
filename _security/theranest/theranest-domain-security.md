@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Behavioral Health
 - Mental Health
-- EHR
+- Electronic Health Records
 - Practice Management
 - Healthcare
 - HIPAA

@@ -41,6 +41,5 @@ tags:
 - Company
 - Data-Standards
 - Marketing
-- SaaS
-- API
+- Software-as-a-Service
 ---

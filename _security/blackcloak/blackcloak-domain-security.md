@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Security
 - Cybersecurity
-- Executive Protection
+- ExecutiveProtection
 - PersonalSafety
 - Digital Identity
 ---

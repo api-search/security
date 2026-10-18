@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buzzybfd9/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Technology
 - Platform
-- Service
+- Services
 ---

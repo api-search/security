@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aymo/refs/head
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - Team Collaboration
-- Large Language Models
-- SaaS
+- LLM
+- Software-as-a-Service
 ---

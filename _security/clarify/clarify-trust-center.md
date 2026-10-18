@@ -136,7 +136,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - CRM
-- AI
+- Artificial Intelligence
 - Automation
 - Sales
 trust_url: https://trust.clarify.ai/

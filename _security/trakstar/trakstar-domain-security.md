@@ -130,7 +130,7 @@ tags:
 - Performance Management
 - Talent Management
 - Applicant Tracking
-- Learning Management
+- LMS
 - 360 Feedback
 - Goal Management
 - Employee Development

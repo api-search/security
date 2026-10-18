@@ -2,12 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: carta-fa464-openapi-generated.yml
+- filename: carta-fa464-v1alpha1-api-openapi.yml
   format: yaml
-  label: Carta Fa464 API
-  slug: carta-fa464-api
+  label: Carta Fa464 V1Alpha1 API
+  slug: carta-fa464-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carta-fa464/refs/heads/main/openapi/_ae-authored/carta-fa464-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carta-fa464/refs/heads/main/openapi/carta-fa464-v1alpha1-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Carta API
 kind: authentication
@@ -42,7 +42,7 @@ tags:
 - Fund Administration
 - Legal Compliance
 - Cap Table
-- Valuations
+- Valuation
 - Private Capital
 - CRM Integration
 - AI Automation

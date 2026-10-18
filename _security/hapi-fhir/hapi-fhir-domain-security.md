@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: hapi-fhir-openapi-generated.yml
+- filename: hapi-fhir-fhir-api-openapi.yml
   format: yaml
-  label: HAPI FHIR API
-  slug: hapi-fhir-api
+  label: HAPI FHIR Fhir API
+  slug: hapi-fhir-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hapi-fhir/refs/heads/main/openapi/_ae-authored/hapi-fhir-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hapi-fhir/refs/heads/main/openapi/hapi-fhir-fhir-api-openapi.yml
+- filename: hapi-fhir-patient-api-openapi.yml
+  format: yaml
+  label: HAPI FHIR Patient API
+  slug: hapi-fhir-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hapi-fhir/refs/heads/main/openapi/hapi-fhir-patient-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Healthcare
 - Interoperability
-- OpenSource
+- Open Source
 - Java
 - FHIR
 ---

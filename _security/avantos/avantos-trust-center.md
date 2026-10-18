@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avantos/refs/h
 summary_line: SOC 2
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Financial Services
 - Wealth Management
 - Client Management

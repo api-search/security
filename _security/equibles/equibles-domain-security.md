@@ -1,11 +1,59 @@
 ---
 api_specs:
-- filename: equibles-openapi-generated.yml
+- filename: equibles-equibles-api-api-openapi.yml
   format: yaml
-  label: Equibles API
-  slug: equibles-api
+  label: Equibles Equibles API
+  slug: equibles-equibles-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/_ae-authored/equibles-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-equibles-api-api-openapi.yml
+- filename: equibles-etfs-api-openapi.yml
+  format: yaml
+  label: Equibles Etfs API
+  slug: equibles-etfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-etfs-api-openapi.yml
+- filename: equibles-fda-api-openapi.yml
+  format: yaml
+  label: Equibles Fda API
+  slug: equibles-fda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-fda-api-openapi.yml
+- filename: equibles-funds-api-openapi.yml
+  format: yaml
+  label: Equibles Funds API
+  slug: equibles-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-funds-api-openapi.yml
+- filename: equibles-investment-advisers-api-openapi.yml
+  format: yaml
+  label: Equibles Investment Advisers API
+  slug: equibles-investment-advisers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-investment-advisers-api-openapi.yml
+- filename: equibles-ipos-api-openapi.yml
+  format: yaml
+  label: Equibles Ipos API
+  slug: equibles-ipos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-ipos-api-openapi.yml
+- filename: equibles-short-interest-api-openapi.yml
+  format: yaml
+  label: Equibles Short Interest API
+  slug: equibles-short-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-short-interest-api-openapi.yml
+- filename: equibles-short-volume-api-openapi.yml
+  format: yaml
+  label: Equibles Short Volume API
+  slug: equibles-short-volume-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-short-volume-api-openapi.yml
+- filename: equibles-stocks-api-openapi.yml
+  format: yaml
+  label: Equibles Stocks API
+  slug: equibles-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equibles/refs/heads/main/openapi/equibles-stocks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +89,5 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - Stocks
 ---

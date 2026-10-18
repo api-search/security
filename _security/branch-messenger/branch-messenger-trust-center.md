@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/branch-messeng
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Mobile
-- Deep Linking
+- DeepLinking
 - Attribution
 - Marketing
 - Analytics

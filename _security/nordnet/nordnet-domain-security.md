@@ -39,5 +39,5 @@ tags:
 - Brokerage
 - WealthManagement
 - Sweden
-- Nordics
+- Nordic
 ---

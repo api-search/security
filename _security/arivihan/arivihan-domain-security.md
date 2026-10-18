@@ -35,7 +35,6 @@ tags:
 - Education
 - EdTech
 - E-Learning
-- Online Learning
 - Tutoring
 - India
 ---

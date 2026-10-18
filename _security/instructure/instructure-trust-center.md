@@ -111,6 +111,5 @@ tags:
 - Discussions
 - GraphQL
 - LTI
-- Learning Management
 trust_url: https://trust.instructure.com/
 ---

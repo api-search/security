@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity
-- Access Management
+- Identity and Access Management
 - SSO
 - Multi-Factor Authentication
 - SAML

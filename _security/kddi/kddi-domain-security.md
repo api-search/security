@@ -44,7 +44,7 @@ tags:
 - Consent Management
 - Mini App
 - au PAY
-- XR
+- Extended Reality
 - MEC
 - Edge Computing
 - 5G

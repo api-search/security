@@ -30,8 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copilotkit/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- DeveloperTools
+- Artificial Intelligence
+- Developer Tools
 - Platform
 - Automation
 ---

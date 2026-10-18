@@ -40,7 +40,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avora-agent-fo
 summary_line: none · 0 schemes
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Solana
 - Token Risk
 - Due Diligence

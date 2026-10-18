@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/
 summary_line: apiKey · 1 scheme
 tags:
 - Bills
-- Crypto
+- Cryptocurrency
 - Fintech
 - Gift Cards
 - Payments

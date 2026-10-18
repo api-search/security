@@ -79,7 +79,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/
 summary_line: http · 1 scheme
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Exchange
 - Trading

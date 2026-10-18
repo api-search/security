@@ -75,7 +75,7 @@ tags:
 - Company
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Language Learning
 - English Language Teaching
 - Tutoring

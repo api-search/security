@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conversionpoint-technologies/refs/heads/main/security/conversionpoint-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- eCommerce
+- E-Commerce
 - Marketing Technology
-- AI
+- Artificial Intelligence
 - Media Optimization
 - CRM
 - Post‑Purchase

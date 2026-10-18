@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: azuga-openapi-generated.yml
+- filename: azuga-azuga-ws-oauth-api-openapi.yml
   format: yaml
-  label: Azuga API
-  slug: azuga-api
+  label: Azuga Azuga Ws Oauth API
+  slug: azuga-azuga-ws-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuga/refs/heads/main/openapi/_ae-authored/azuga-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azuga/refs/heads/main/openapi/azuga-azuga-ws-oauth-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -30,6 +30,6 @@ tags:
 - Fleet Management
 - GPS Tracking
 - Telematics
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.azuga.com/security
 ---

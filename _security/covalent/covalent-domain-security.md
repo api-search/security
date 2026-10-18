@@ -149,7 +149,7 @@ tags:
 - Web3
 - Multi-Chain
 - Data Infrastructure
-- Crypto
+- Cryptocurrency
 - DeFi
 - NFT
 - Hyperliquid

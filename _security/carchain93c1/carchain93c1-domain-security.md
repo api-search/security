@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Ride‑hailing
 - Blockchain
-- Token
+- Tokens
 - ICO
 - Payments
 - Decentralized

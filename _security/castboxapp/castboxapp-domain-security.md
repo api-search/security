@@ -35,7 +35,6 @@ tags:
 - Audio
 - Media
 - Streaming
-- Podcasting
 - Content
 - Consumer
 ---

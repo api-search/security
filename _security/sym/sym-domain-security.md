@@ -40,7 +40,7 @@ tags:
 - Company
 - Cybersecurity
 - Authorization
-- Access Management
+- Identity and Access Management
 - Identity
 - Infrastructure
 - Terraform

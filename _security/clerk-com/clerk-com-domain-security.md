@@ -508,7 +508,7 @@ tags:
 - Authorization
 - B2B SaaS
 - CIAM
-- Identity Management
+- Identity and Access Management
 - MFA
 - OpenID Connect
 - Organization

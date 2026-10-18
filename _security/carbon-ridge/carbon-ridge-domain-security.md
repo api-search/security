@@ -34,5 +34,5 @@ tags:
 - Maritime
 - Carbon Capture
 - Sustainability
-- CleanTech
+- Cleantech
 ---

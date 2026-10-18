@@ -37,7 +37,7 @@ tags:
 - Travel
 - Transportation
 - Car Rental
-- Connected Car
+- Connected Vehicles
 - Automotive
 - Hosts
 - Trips

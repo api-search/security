@@ -159,7 +159,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - CRM
-- AI
+- Artificial Intelligence
 - Automation
 - Sales
 ---

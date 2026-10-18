@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/h
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Document Processing
-- IDP
+- Intelligent Document Processing
 - OCR
 - Data Extraction
 - Artificial Intelligence

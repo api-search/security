@@ -290,11 +290,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/forgeroc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/authentication/forgerock-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Identity Governance
-- Identity Management
 - OpenID Connect
 - Identity Federation
 ---

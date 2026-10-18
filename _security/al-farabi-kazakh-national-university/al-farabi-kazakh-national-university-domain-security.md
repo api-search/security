@@ -333,7 +333,7 @@ tags:
 - Kazakhstan
 - Central Asia
 - Course Catalog
-- Learning Management
+- LMS
 - Open edX
 - MOOC
 - Scholarly Publishing

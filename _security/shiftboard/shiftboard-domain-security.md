@@ -34,6 +34,6 @@ tags:
 - Company
 - Workforce
 - Scheduling
-- HRTech
+- Human Resources
 - UKG
 ---

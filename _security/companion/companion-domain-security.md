@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/companion/refs/heads/main/security/companion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
-- communication
+- Artificial Intelligence
+- Communications
 - interface
-- intelligence
-- platform
+- Intelligence
+- Platform
 ---

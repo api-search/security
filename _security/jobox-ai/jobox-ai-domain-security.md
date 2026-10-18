@@ -218,7 +218,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Home Services
-- Field Service Management
+- Field Service
 - Marketplace
 - Payments
 - Fintech

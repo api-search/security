@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Construction
-- ConTech
+- Construction Technology
 - Inspection
 - Quality Assurance
 - Field Service

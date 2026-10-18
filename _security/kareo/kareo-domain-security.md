@@ -99,7 +99,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Healthcare
 - Medical Software
-- EHR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - Patient Scheduling

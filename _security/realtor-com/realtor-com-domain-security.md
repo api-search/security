@@ -37,7 +37,7 @@ tags:
 - Home Search
 - Rentals
 - Real Estate Agents
-- Brokers
+- Brokerage
 - Lead Generation
 - Listings Syndication
 - Housing Market Data

@@ -34,5 +34,5 @@ tags:
 - Investment
 - Startups
 - Digital Platform
-- Alternative Investments
+- AlternativeInvestments
 ---

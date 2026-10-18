@@ -48,6 +48,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Access Control
 - Authentication
-- Identity Management
+- Identity and Access Management
 - SSO
 ---

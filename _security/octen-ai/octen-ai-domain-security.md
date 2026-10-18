@@ -135,7 +135,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Search
 - Web Search
-- AI
+- Artificial Intelligence
 - LLM
 - Embeddings
 - Content Extraction

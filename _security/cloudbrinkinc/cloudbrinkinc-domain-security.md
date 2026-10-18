@@ -33,6 +33,6 @@ tags:
 - Security
 - Networking
 - Cloud
-- ZeroTrust
-- SaaS
+- Zero Trust
+- Software-as-a-Service
 ---

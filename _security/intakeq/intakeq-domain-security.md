@@ -77,7 +77,7 @@ tags:
 - Intake Forms
 - Scheduling
 - Health and Wellness
-- EHR
+- Electronic Health Records
 - Telehealth
 - HIPAA
 ---

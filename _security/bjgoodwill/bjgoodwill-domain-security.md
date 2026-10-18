@@ -32,8 +32,7 @@ tags:
 - Company
 - Healthcare
 - Health IT
-- Electronic Medical Records
-- EMR
+- Electronic Health Records
 - Hospital Information Systems
 - Medical Big Data
 - China

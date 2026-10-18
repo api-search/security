@@ -67,7 +67,7 @@ tags:
 - Ai Apps
 - Contact Center
 - Conversation Intelligence
-- Customer Support
+- Customer Service
 - AI Agents
 - Voice AI
 - Quality Assurance

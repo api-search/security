@@ -66,6 +66,5 @@ tags:
 - Company
 - EmailVerification
 - BusinessTools
-- API
 - EUHosted
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complete-farme
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Agritech
+- AgTech
 - Marketplace
 - Africa
 - Agriculture

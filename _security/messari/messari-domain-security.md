@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messari/refs/h
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Research
 - Analytics
 - Asset Data

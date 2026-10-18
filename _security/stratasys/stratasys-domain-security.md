@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Hardware
 - CAD

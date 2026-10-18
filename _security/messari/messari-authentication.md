@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messari/refs/h
 summary_line: apiKey · 1 scheme
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Research
 - Analytics
 - Asset Data

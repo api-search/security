@@ -35,7 +35,7 @@ tags:
 - Personalization
 - Promotions
 - Retail
-- AI
+- Artificial Intelligence
 - Omnichannel
-- GiftCards
+- Gift Cards
 ---

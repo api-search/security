@@ -36,5 +36,5 @@ tags:
 - Cardiology
 - Pacing
 - Menlo Park
-- Venture Backed
+- Venture-backed
 ---

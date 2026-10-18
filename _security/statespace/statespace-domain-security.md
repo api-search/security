@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statespace/ref
 summary_line: TLSv1.3
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Gaming
 - Esports
 - Aim Training

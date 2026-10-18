@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sorare/refs/he
 summary_line: http/oauth2/apiKey · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - GraphQL
 - Fantasy Sports
 - NFT

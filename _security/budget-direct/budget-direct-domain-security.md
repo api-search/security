@@ -34,7 +34,7 @@ tags:
 - Australia
 - Property and Casualty
 - Direct to Consumer Insurance
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Travel Insurance
 - Life Insurance

@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/h
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Infotainment
 - IoT
 - Fortune 500

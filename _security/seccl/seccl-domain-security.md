@@ -34,6 +34,5 @@ tags:
 - Fintech
 - Investment Platform
 - Embedded Banking
-- API
 - B2B
 ---

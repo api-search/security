@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\ndocs: https://docs.ambe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/authentication/amberdata-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Market Data
 - Digital Assets

@@ -146,7 +146,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
-- Customer Support
+- Customer Service
 - Application
 - Help Desk
 - Ticketing

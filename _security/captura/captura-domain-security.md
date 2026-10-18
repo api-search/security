@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Photography
-- SaaS
-- Workflow
+- Software-as-a-Service
+- Workflows
 - Imaging
 ---

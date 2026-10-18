@@ -25,7 +25,7 @@ tags:
 - Student Transportation
 - Education
 - Mobility
-- Ridesharing
+- Ride Hailing
 - School Districts
 - Logistics
 - Routing

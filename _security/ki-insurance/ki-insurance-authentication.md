@@ -171,7 +171,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Insurtech
-- Brokers
+- Brokerage
 - Algorithmic Underwriting
 - Reinsurance
 ---

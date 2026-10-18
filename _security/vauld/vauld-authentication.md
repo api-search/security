@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vauld/refs/hea
 summary_line: hmac · 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Lending
 - Borrowing
 - Trading

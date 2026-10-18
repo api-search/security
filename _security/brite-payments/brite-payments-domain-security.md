@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: brite-payments-openapi-generated.yml
+- filename: brite-payments-assets-api-openapi.yml
   format: yaml
-  label: Brite Payments API
-  slug: brite-payments-api
+  label: Brite Payments Assets API
+  slug: brite-payments-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/_ae-authored/brite-payments-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-assets-api-openapi.yml
+- filename: brite-payments-bank-account-api-openapi.yml
+  format: yaml
+  label: Brite Payments Bank Account API
+  slug: brite-payments-bank-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-bank-account-api-openapi.yml
+- filename: brite-payments-brite-payments-api-api-openapi.yml
+  format: yaml
+  label: Brite Payments Brite Payments API
+  slug: brite-payments-brite-payments-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-brite-payments-api-api-openapi.yml
+- filename: brite-payments-callback-api-openapi.yml
+  format: yaml
+  label: Brite Payments Callback API
+  slug: brite-payments-callback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-callback-api-openapi.yml
+- filename: brite-payments-session-api-openapi.yml
+  format: yaml
+  label: Brite Payments Session API
+  slug: brite-payments-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-session-api-openapi.yml
+- filename: brite-payments-transaction-api-openapi.yml
+  format: yaml
+  label: Brite Payments Transaction API
+  slug: brite-payments-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +69,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Europe
 - OnlinePayments
 ---

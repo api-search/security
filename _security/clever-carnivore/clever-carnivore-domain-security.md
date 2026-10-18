@@ -31,8 +31,8 @@ summary_line: TLSv1.2
 tags:
 - cultivated-meat
 - food-tech
-- sustainability
-- biotech
-- startup
+- Sustainability
+- Biotechnology
+- Startups
 - Company
 ---

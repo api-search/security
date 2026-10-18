@@ -21,7 +21,7 @@ tags:
 - Company
 - Restaurant
 - Management
-- POS
-- SaaS
+- Point-of-Sale
+- Software-as-a-Service
 trust_url: https://www.restroworks.com/security-compliance/
 ---

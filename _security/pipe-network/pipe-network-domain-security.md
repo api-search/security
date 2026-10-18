@@ -31,12 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipe-network/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Storage
 - Decentralized Storage
 - CDN
 - Solana
 - Encryption
 - AI Agents
-- Web3
 ---

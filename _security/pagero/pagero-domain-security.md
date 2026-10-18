@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pagero/refs/he
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- e-invoicing
+- E-Invoicing
 - AP Automation
 - Compliance
 - B2B

@@ -152,7 +152,6 @@ summary_line: http · 1 scheme
 tags:
 - E-Learning
 - LMS
-- Learning Management System
 - Training
 - Courses
 - Enrollment

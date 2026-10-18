@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galxe/refs/hea
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Digital Identity
 - Credentials
 - Quests
@@ -66,5 +66,4 @@ tags:
 - GraphQL
 - Authentication
 - Blockchain
-- Web3
 ---

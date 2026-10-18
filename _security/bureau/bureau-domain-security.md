@@ -35,5 +35,5 @@ tags:
 - Identity Verification
 - KYC
 - AML
-- FinTech
+- Fintech
 ---

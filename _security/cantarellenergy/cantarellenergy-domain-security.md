@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cantarellenerg
 summary_line: TLSv1.3 · HSTS
 tags:
 - Energy
-- Renewable
+- Renewables
 - Technology
-- Startup
-- CleanTech
+- Startups
+- Cleantech
 - Company
 ---

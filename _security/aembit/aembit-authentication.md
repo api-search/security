@@ -298,7 +298,7 @@ summary_line: http · 2 schemes
 tags:
 - Security
 - Identity
-- Access Management
+- Identity and Access Management
 - Workload Identity
 - Non-Human Identity
 - Secrets Management

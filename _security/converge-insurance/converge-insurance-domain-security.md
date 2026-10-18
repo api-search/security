@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cyber Insurance
 - MGA
-- AI
+- Artificial Intelligence
 - New York
 - Technology
 ---

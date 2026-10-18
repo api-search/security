@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: claritymovement-openapi-generated.yml
+- filename: claritymovement-report-requests-api-openapi.yml
   format: yaml
-  label: Claritymovement API
-  slug: claritymovement-api
+  label: Claritymovement Report Requests API
+  slug: claritymovement-report-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claritymovement/refs/heads/main/openapi/_ae-authored/claritymovement-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/claritymovement/refs/heads/main/openapi/claritymovement-report-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claritymovemen
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AirQuality
+- Air Quality
 - IoT
 - Sensors
-- DataAnalytics
+- Data Analytics
 ---

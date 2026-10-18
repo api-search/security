@@ -63,7 +63,7 @@ tags:
 - Elasticsearch
 - Employee Data
 - Employees
-- Enrichment
+- Data Enrichment
 - Firmographics
 - Job Postings
 - Job

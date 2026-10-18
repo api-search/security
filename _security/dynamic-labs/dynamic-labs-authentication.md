@@ -272,5 +272,5 @@ tags:
 - Wallets
 - MPC
 - Onboarding
-- Crypto
+- Cryptocurrency
 ---

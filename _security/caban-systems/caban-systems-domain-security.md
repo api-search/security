@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Marketplace
-- Private-Equity
+- Private Equity
 - Trading
 ---

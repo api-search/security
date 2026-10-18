@@ -35,5 +35,4 @@ tags:
 - Payments
 - Banking
 - Sweden
-- API
 ---

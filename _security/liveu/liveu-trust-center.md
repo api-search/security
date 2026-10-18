@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveu/refs/hea
 summary_line: SOC 2 Type 2, ISO 27001
 tags:
 - Company
-- Live Video
+- Live Streaming
 - Video Streaming
 - Broadcast
 - Bonded Cellular

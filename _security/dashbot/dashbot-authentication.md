@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/h
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Conversational Analytics
 - Chatbots
 - Voice Assistant

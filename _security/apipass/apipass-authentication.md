@@ -169,8 +169,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apipass/refs/h
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketplace
-- API
 - Pricing
 ---

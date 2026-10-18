@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buybox/refs/he
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- GiftCards
+- Gift Cards
 - B2B
-- B2C
+- Consumer
 - Europe
 ---

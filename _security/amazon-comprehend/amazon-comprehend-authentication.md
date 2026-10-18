@@ -41,6 +41,5 @@ summary_line: apiKey · 1 scheme
 tags:
 - Machine Learning
 - Natural Language Processing
-- NLP
 - Text Analysis
 ---

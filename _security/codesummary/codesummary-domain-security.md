@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Documentation
-- AI
+- Artificial Intelligence
 - Knowledge
 - Platform
 ---

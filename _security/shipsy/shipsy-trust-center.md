@@ -29,10 +29,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipsy/refs/he
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Logistics
-- AI
+- Artificial Intelligence
 - Transportation
 - Warehouse
-- SaaS
+- Software-as-a-Service
 - Company
 trust_url: https://trust.shipsy.io/
 ---

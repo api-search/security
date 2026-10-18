@@ -22,7 +22,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abacusai/refs/
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Machine Learning
 - Generative AI

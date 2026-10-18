@@ -34,5 +34,5 @@ tags:
 - Technology
 - Data
 - Analytics
-- AI
+- Artificial Intelligence
 ---

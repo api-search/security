@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mobula-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/authentication/mobula-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Crypto
+- Cryptocurrency
 - Web3
 - Market Data
 - Blockchain

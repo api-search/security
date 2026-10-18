@@ -31,9 +31,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chipletz/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Advanced Packaging
-- Semiconductor
-- AI
+- Semiconductors
+- Artificial Intelligence
 - HPC
 - Compute
-- Interconnects
+- Interconnect
 ---

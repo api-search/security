@@ -36,7 +36,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alongside/refs
 summary_line: DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Compliance
 - KYC
 - AML

@@ -34,5 +34,5 @@ tags:
 - Industrial AI
 - Process Optimization
 - Manufacturing
-- Real-Time Analytics
+- Real-time Analytics
 ---

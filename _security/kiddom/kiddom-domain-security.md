@@ -44,7 +44,7 @@ tags:
 - Education
 - K-12
 - Curriculum
-- Learning Management
+- LMS
 - Assessment
 - EdTech
 - Rostering

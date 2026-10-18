@@ -35,7 +35,7 @@ tags:
 - Post-Trade
 - Settlement
 - Payments
-- FX
+- Foreign Exchange
 - Liquidity
 - Collateral
 - DLT

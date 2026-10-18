@@ -1,11 +1,71 @@
 ---
 api_specs:
-- filename: seven-io-openapi-generated.yml
+- filename: seven-io-events-api-openapi.yml
   format: yaml
-  label: seven.io API
-  slug: seven-io-api
+  label: seven.io Events API
+  slug: seven-io-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/_ae-authored/seven-io-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-events-api-openapi.yml
+- filename: seven-io-journal-api-openapi.yml
+  format: yaml
+  label: seven.io Journal API
+  slug: seven-io-journal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-journal-api-openapi.yml
+- filename: seven-io-lookup-api-openapi.yml
+  format: yaml
+  label: seven.io Lookup API
+  slug: seven-io-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-lookup-api-openapi.yml
+- filename: seven-io-messages-api-openapi.yml
+  format: yaml
+  label: seven.io Messages API
+  slug: seven-io-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-messages-api-openapi.yml
+- filename: seven-io-numbers-api-openapi.yml
+  format: yaml
+  label: seven.io Numbers API
+  slug: seven-io-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-numbers-api-openapi.yml
+- filename: seven-io-rcs-api-openapi.yml
+  format: yaml
+  label: seven.io Rcs API
+  slug: seven-io-rcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-rcs-api-openapi.yml
+- filename: seven-io-revoke-api-openapi.yml
+  format: yaml
+  label: seven.io Revoke API
+  slug: seven-io-revoke-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-revoke-api-openapi.yml
+- filename: seven-io-seven-io-api-api-openapi.yml
+  format: yaml
+  label: seven.io Seven.io API
+  slug: seven-io-seven-io-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-seven-io-api-api-openapi.yml
+- filename: seven-io-token-api-openapi.yml
+  format: yaml
+  label: seven.io Token API
+  slug: seven-io-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-token-api-openapi.yml
+- filename: seven-io-voice-api-openapi.yml
+  format: yaml
+  label: seven.io Voice API
+  slug: seven-io-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-voice-api-openapi.yml
+- filename: seven-io-waba-api-openapi.yml
+  format: yaml
+  label: seven.io Waba API
+  slug: seven-io-waba-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seven-io/refs/heads/main/openapi/seven-io-waba-api-openapi.yml
 description: ''
 domains:
 - caa:

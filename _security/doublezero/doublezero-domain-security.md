@@ -32,7 +32,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doublezero/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DePIN
 - Blockchain
 - Networking
@@ -41,5 +41,4 @@ tags:
 - Low Latency
 - Fiber Network
 - CLI
-- Web3
 ---

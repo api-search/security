@@ -25,7 +25,6 @@ tags:
 - Payments
 - Cross-Border Payments
 - Foreign Exchange
-- FX
 - International Payments
 - B2B Payments
 - Financial Services

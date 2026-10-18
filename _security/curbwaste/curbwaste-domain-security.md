@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: curbwaste-catalog-api-openapi.yml
+  format: yaml
+  label: Curbwaste Catalog API
+  slug: curbwaste-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-catalog-api-openapi.yml
+- filename: curbwaste-customers-api-openapi.yml
+  format: yaml
+  label: Curbwaste Customers API
+  slug: curbwaste-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-customers-api-openapi.yml
+- filename: curbwaste-locations-api-openapi.yml
+  format: yaml
+  label: Curbwaste Locations API
+  slug: curbwaste-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-locations-api-openapi.yml
+- filename: curbwaste-zones-api-openapi.yml
+  format: yaml
+  label: Curbwaste Zones API
+  slug: curbwaste-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curbwaste/refs/heads/main/openapi/curbwaste-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +58,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Waste
 - Software
-- SaaS
+- Software-as-a-Service
 - Logistics
 - Haulers
 ---

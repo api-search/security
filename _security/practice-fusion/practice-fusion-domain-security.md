@@ -39,7 +39,6 @@ tags:
 - Company
 - Healthcare
 - Electronic Health Records
-- EHR
 - FHIR
 - Interoperability
 - Medical

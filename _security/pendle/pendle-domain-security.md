@@ -112,7 +112,7 @@ tags:
 - Web3
 - DeFi
 - Yield Tokenization
-- Crypto
+- Cryptocurrency
 - Principal Tokens
 - Yield Tokens
 - AMM

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: cruxinformatics-openapi-generated.yml
+- filename: cruxinformatics-ops-api-openapi.yml
   format: yaml
-  label: Cruxinformatics API
-  slug: cruxinformatics-api
+  label: Cruxinformatics Ops API
+  slug: cruxinformatics-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cruxinformatics/refs/heads/main/openapi/_ae-authored/cruxinformatics-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cruxinformatics/refs/heads/main/openapi/cruxinformatics-ops-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cruxinformatic
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration
-- AI
+- Artificial Intelligence
 - Financial Services
 - Managed Service
 - Self-Service

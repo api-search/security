@@ -20,7 +20,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keelvar/refs/h
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Procurement
 - Sourcing
 - Automation

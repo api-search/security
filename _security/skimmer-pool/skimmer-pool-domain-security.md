@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/r
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pool Service
-- Field Service Management
+- Field Service
 - Pool Maintenance
 - Scheduling
 - Routes

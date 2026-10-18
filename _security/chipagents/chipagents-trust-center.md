@@ -19,7 +19,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chipagents/ref
 summary_line: SOC 2 Type II
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Semiconductors
 - Chip Design
 - EDA

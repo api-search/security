@@ -34,6 +34,6 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - RetinalDisease
-- ClinicalTrials
+- Clinical Trials
 - VisionHealth
 ---

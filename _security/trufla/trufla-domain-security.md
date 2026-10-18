@@ -35,7 +35,7 @@ tags:
 - Canada
 - Property and Casualty
 - Insurtech
-- Brokers
+- Brokerage
 - Agency Management
 - CSIO
 - Policy Administration

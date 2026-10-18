@@ -46,7 +46,7 @@ tags:
 - Education
 - EdTech
 - Language Learning
-- Learning Management
+- LMS
 - LTI
 - OneRoster
 - Rostering

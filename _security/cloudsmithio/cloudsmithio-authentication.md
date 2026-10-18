@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cloudsmithio-openapi-generated.yml
+- filename: cloudsmithio-metadata-api-openapi.yml
   format: yaml
-  label: Cloudsmithio API
-  slug: cloudsmithio-api
+  label: Cloudsmithio Metadata API
+  slug: cloudsmithio-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsmithio/refs/heads/main/openapi/_ae-authored/cloudsmithio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsmithio/refs/heads/main/openapi/cloudsmithio-metadata-api-openapi.yml
+- filename: cloudsmithio-package-api-openapi.yml
+  format: yaml
+  label: Cloudsmithio Package API
+  slug: cloudsmithio-package-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsmithio/refs/heads/main/openapi/cloudsmithio-package-api-openapi.yml
+- filename: cloudsmithio-user-api-openapi.yml
+  format: yaml
+  label: Cloudsmithio User API
+  slug: cloudsmithio-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudsmithio/refs/heads/main/openapi/cloudsmithio-user-api-openapi.yml
 auth_types: []
 description: Authentication methods supported by Cloudsmith as described in the documentation.
 kind: authentication

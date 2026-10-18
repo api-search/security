@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: apipj-api-openapi.json
-  format: json
-  label: apipj API
-  slug: apipj-api
+- filename: apipj-billing-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Billing API
+  slug: apipj-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/_original/apipj-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-billing-api-openapi.yml
+- filename: apipj-chaves-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Chaves API
+  slug: apipj-chaves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-chaves-api-openapi.yml
+- filename: apipj-consulta-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Consulta API
+  slug: apipj-consulta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-consulta-api-openapi.yml
+- filename: apipj-conta-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Conta API
+  slug: apipj-conta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-conta-api-openapi.yml
+- filename: apipj-interno-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Interno API
+  slug: apipj-interno-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-interno-api-openapi.yml
+- filename: apipj-p-blico-api-openapi.yml
+  format: yaml
+  label: apipj (MASTER BI TECNOLOGIA LTDA) Público API
+  slug: apipj-p-blico-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-p-blico-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,5 +71,5 @@ tags:
 - Brazil
 - CNPJ
 - Registry
-- Public API
+- Public APIs
 ---

@@ -37,6 +37,6 @@ tags:
 - Employee Benefits
 - Benefits Placement
 - Insurance Technology
-- Brokers
+- Brokerage
 - Carrier
 ---

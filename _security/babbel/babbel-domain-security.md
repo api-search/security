@@ -34,7 +34,7 @@ tags:
 - Language Learning
 - Education
 - EdTech
-- Online Learning
+- E-Learning
 - Mobile Learning
 - Subscription
 - Consumer

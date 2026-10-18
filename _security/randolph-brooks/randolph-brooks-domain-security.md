@@ -38,6 +38,6 @@ tags:
 - Banking
 - United States
 - Credit Union
-- Retail Banking
+- Consumer Banking
 - Open Finance
 ---

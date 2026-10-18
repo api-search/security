@@ -75,7 +75,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Cybersecurity
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Intelligence
 - Cloud Security
 - Identity Protection

@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbonbioscien
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology
-- GeneTherapy
+- Gene Therapy
 - Boston
-- Biotech
 - Healthcare
 ---

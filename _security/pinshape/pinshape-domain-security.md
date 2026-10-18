@@ -42,5 +42,4 @@ tags:
 - Design
 - Community
 - Maker
-- Additive Manufacturing
 ---

@@ -2,12 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: volumental-openapi-generated.yml
+- filename: volumental-auth-api-openapi.yml
   format: yaml
-  label: Volumental API
-  slug: volumental-api
+  label: Volumental Auth API
+  slug: volumental-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/_ae-authored/volumental-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-auth-api-openapi.yml
+- filename: volumental-oauth-api-openapi.yml
+  format: yaml
+  label: Volumental OAuth API
+  slug: volumental-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-oauth-api-openapi.yml
+- filename: volumental-recommendations-api-openapi.yml
+  format: yaml
+  label: Volumental Recommendations API
+  slug: volumental-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-recommendations-api-openapi.yml
+- filename: volumental-scans-api-openapi.yml
+  format: yaml
+  label: Volumental Scans API
+  slug: volumental-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-scans-api-openapi.yml
+- filename: volumental-some-endpoint-api-openapi.yml
+  format: yaml
+  label: Volumental Some Endpoint API
+  slug: volumental-some-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-some-endpoint-api-openapi.yml
+- filename: volumental-v1alpha-api-openapi.yml
+  format: yaml
+  label: Volumental V1Alpha API
+  slug: volumental-v1alpha-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-v1alpha-api-openapi.yml
+- filename: volumental-v1beta-api-openapi.yml
+  format: yaml
+  label: Volumental V1Beta API
+  slug: volumental-v1beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-v1beta-api-openapi.yml
+- filename: volumental-volumental-api-api-openapi.yml
+  format: yaml
+  label: Volumental Volumental API
+  slug: volumental-volumental-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/volumental/refs/heads/main/openapi/volumental-volumental-api-api-openapi.yml
 auth_types: []
 description: Authentication to Volumental API is performed using a bearer token.
 kind: authentication
@@ -41,5 +83,5 @@ tags:
 - Retail
 - Footwear
 - 3DScanning
-- AI
+- Artificial Intelligence
 ---

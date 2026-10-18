@@ -19,9 +19,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/
 summary_line: ISO 27001:2022
 tags:
 - Company
-- Access Management
+- Identity and Access Management
 - Identity Governance
-- IGA
 - AI Agents
 - Security
 - Access Control

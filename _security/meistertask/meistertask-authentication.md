@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meistertask/re
 summary_line: 1 scheme
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Project Management
 - Collaboration
 - Productivity

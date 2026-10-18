@@ -182,7 +182,7 @@ tags:
 - Cloud Infrastructure
 - Sovereignty
 - Europe
-- Open Standards
+- Open Standard
 - Multi-Cloud
 - Interoperability
 - OpenAPI

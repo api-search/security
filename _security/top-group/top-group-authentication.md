@@ -189,7 +189,7 @@ tags:
 - Blockchain
 - TON
 - Telegram
-- Crypto
+- Cryptocurrency
 - Wallets
 - Web3
 - NFT

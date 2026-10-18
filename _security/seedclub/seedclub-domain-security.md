@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Web3
-- Crypto
+- Cryptocurrency
 - Accelerator
 - Community
 - Venture Capital

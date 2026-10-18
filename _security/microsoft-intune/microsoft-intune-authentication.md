@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-intu
 summary_line: oauth2 · 1 scheme
 tags:
 - App Protection
-- Azure
+- Microsoft Azure
 - Compliance
 - Device Configuration
 - Endpoint Management

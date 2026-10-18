@@ -181,7 +181,7 @@ summary_line: apiKey · 2 schemes
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Exchange
 - On-Off Ramp
 - Payments

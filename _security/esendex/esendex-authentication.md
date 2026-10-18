@@ -53,6 +53,5 @@ tags:
 - SMS
 - Messaging
 - Communications
-- API
 - Business
 ---

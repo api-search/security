@@ -56,8 +56,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
 - XDR
-- EDR
-- Endpoint Protection
+- Endpoint Detection and Response
+- Endpoint Security
 - Threat Detection
 - Incident Response
 - Cloud Security

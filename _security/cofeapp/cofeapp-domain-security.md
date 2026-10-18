@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Platform
-- AI
+- Artificial Intelligence
 - Commerce
 - Procurement
 - MENA

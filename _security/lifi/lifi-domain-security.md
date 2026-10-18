@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/head
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Cross-Chain
 - Bridge
@@ -163,6 +163,5 @@ tags:
 - Yield
 - Intents
 - Agents
-- Web3
 - Cryptocurrency
 ---

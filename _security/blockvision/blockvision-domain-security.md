@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: blockvision-monad-api-openapi.yml
+  format: yaml
+  label: BlockVision Monad API
+  slug: blockvision-monad-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/openapi/blockvision-monad-api-openapi.yml
+- filename: blockvision-sui-api-openapi.yml
+  format: yaml
+  label: BlockVision Sui API
+  slug: blockvision-sui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockvision/refs/heads/main/openapi/blockvision-sui-api-openapi.yml
 description: ''
 domains:
 - caa: []

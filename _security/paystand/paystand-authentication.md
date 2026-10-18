@@ -2,6 +2,55 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: paystand-balances-api-openapi.yml
+  format: yaml
+  label: PayStand Balances API
+  slug: paystand-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-balances-api-openapi.yml
+- filename: paystand-banks-api-openapi.yml
+  format: yaml
+  label: PayStand Banks API
+  slug: paystand-banks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-banks-api-openapi.yml
+- filename: paystand-oauth-api-openapi.yml
+  format: yaml
+  label: PayStand OAuth API
+  slug: paystand-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-oauth-api-openapi.yml
+- filename: paystand-payers-api-openapi.yml
+  format: yaml
+  label: PayStand Payers API
+  slug: paystand-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payers-api-openapi.yml
+- filename: paystand-payments-api-openapi.yml
+  format: yaml
+  label: PayStand Payments API
+  slug: paystand-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payments-api-openapi.yml
+- filename: paystand-refunds-api-openapi.yml
+  format: yaml
+  label: PayStand Refunds API
+  slug: paystand-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-refunds-api-openapi.yml
+- filename: paystand-transfers-api-openapi.yml
+  format: yaml
+  label: PayStand Transfers API
+  slug: paystand-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-transfers-api-openapi.yml
+- filename: paystand-withdrawals-api-openapi.yml
+  format: yaml
+  label: PayStand Withdrawals API
+  slug: paystand-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-withdrawals-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

@@ -101,8 +101,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicef
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/authentication/servicefusion-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
-- Field Service Management
-- FSM
+- Field Service
 - Home Services
 - Contractors
 - Scheduling

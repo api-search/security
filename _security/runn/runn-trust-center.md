@@ -221,6 +221,5 @@ tags:
 - Resource-Management
 - Capacity-Planning
 - Project-Management
-- API
 trust_url: https://trust.runn.io/
 ---

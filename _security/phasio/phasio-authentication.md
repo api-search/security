@@ -231,7 +231,6 @@ summary_line: http/oauth2 · 1 scheme
 tags:
 - Company
 - Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - CNC Machining
 - Quoting

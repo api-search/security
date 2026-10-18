@@ -213,7 +213,7 @@ tags:
 - A2A
 - AI Visibility
 - Generative Engine Optimization
-- Crypto
+- Cryptocurrency
 - Blockchain
 - On-Chain Data
 - Web Search

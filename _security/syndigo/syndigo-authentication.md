@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: syndigo-openapi-generated.yml
+- filename: syndigo-auth-api-openapi.yml
   format: yaml
-  label: Syndigo API
-  slug: syndigo-api
+  label: Syndigo Auth API
+  slug: syndigo-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/_ae-authored/syndigo-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-auth-api-openapi.yml
+- filename: syndigo-natural-api-openapi.yml
+  format: yaml
+  label: Syndigo Natural API
+  slug: syndigo-natural-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syndigo/refs/heads/main/openapi/syndigo-natural-api-openapi.yml
 auth_types: []
 description: Syndigo Integration APIs utilize a bearer token authentication scheme.
 kind: authentication
@@ -40,7 +46,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Data
-- MasterDataManagement
+- Master Data Management
 - ProductInformationManagement
 - Syndication
 ---

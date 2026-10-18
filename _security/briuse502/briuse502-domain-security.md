@@ -33,7 +33,7 @@ tags:
 - Healthcare
 - Orthodontics
 - Medical-Device
-- AI
-- Data-Analytics
+- Artificial Intelligence
+- Data Analytics
 - Company
 ---

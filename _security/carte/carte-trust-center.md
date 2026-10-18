@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: carte-openapi-generated.yml
+- filename: carte-v1alpha1-api-openapi.yml
   format: yaml
-  label: Carte API
-  slug: carte-api
+  label: Carte V1Alpha1 API
+  slug: carte-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/openapi/_ae-authored/carte-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carte/refs/heads/main/openapi/carte-v1alpha1-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -31,6 +31,5 @@ tags:
 - Finance
 - Equity
 - FundManagement
-- API
 trust_url: https://trust.carta.com/
 ---

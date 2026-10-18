@@ -35,7 +35,7 @@ tags:
 - MCP
 - AI Agents
 - Identity
-- Access Management
+- Identity and Access Management
 - Governance
 - Security
 ---

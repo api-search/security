@@ -96,5 +96,5 @@ tags:
 - Token Analytics
 - On-Chain Data
 - Web3
-- Crypto
+- Cryptocurrency
 ---

@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain-7/r
 summary_line: SOC 2, ISO 27001, PCI DSS, FIPS 140
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Wallets
 - Data
 trust_url: https://www.blockchain.com/security

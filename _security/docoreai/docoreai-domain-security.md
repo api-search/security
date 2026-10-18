@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: docoreai-openapi-generated.yml
+- filename: docoreai-chat-completions-api-openapi.yml
   format: yaml
-  label: DoCoreAI API
-  slug: docoreai-api
+  label: DoCoreAI Chat Completions API
+  slug: docoreai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docoreai/refs/heads/main/openapi/_ae-authored/docoreai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docoreai/refs/heads/main/openapi/docoreai-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -42,5 +42,5 @@ tags:
 - AI Governance
 - Cost Management
 - LLM
-- SaaS
+- Software-as-a-Service
 ---

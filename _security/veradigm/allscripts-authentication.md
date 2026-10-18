@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veradigm/refs/
 summary_line: 0 schemes
 tags:
 - Healthcare IT
-- EHR
+- Electronic Health Records
 - FHIR
 - Clinical Data
 - Practice Management

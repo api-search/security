@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/khan-academy/r
 summary_line: TLSv1.3 · DMARC
 tags:
 - EdTech
-- Online Learning
+- E-Learning
 - Non-Profit
 - K-12
 ---

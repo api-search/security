@@ -34,7 +34,7 @@ tags:
 - Company
 - Education
 - Coding Education
-- Online Learning
+- E-Learning
 - Developer Training
 - Bootcamp
 - EdTech

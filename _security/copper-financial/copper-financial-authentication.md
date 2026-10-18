@@ -107,7 +107,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - CRM
-- SaaS
+- Software-as-a-Service
 - Sales
 - Marketing
 ---

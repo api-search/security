@@ -25,7 +25,7 @@ tags:
 - Vertical Software
 - Regulatory
 - Medical Devices
-- MedTech
+- Medical Technology
 - Regulatory Information Management
 - UDI
 - Compliance

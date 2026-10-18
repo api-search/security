@@ -34,5 +34,4 @@ tags:
 - Fleet Management
 - Telematics
 - GPS Tracking
-- API
 ---

@@ -27,7 +27,7 @@ tags:
 - Contact Center
 - Automotive
 - ASR
-- NLU
+- Natural Language Understanding
 - TTS
 trust_url: https://mihup.ai/privacy-policy
 ---

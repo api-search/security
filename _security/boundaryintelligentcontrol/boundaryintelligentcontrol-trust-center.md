@@ -22,7 +22,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Artificial Intelligence
 - Governance
-- Privacy
+- DataPrivacy
 - Enterprise
 - Platform
 trust_url: https://www.boundarycontrol.com/trust

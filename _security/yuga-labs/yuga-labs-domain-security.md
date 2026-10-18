@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yuga-labs/refs
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - NFT
 - Blockchain
 - Web3

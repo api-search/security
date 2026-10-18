@@ -78,7 +78,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - IoT
-- AI
+- Artificial Intelligence
 - Industrial
 - Platform
 ---

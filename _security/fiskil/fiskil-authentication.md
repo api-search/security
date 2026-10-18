@@ -1,6 +1,55 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: fiskil-auth-api-openapi.yml
+  format: yaml
+  label: FISKIL Auth API
+  slug: fiskil-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-auth-api-openapi.yml
+- filename: fiskil-banking-api-openapi.yml
+  format: yaml
+  label: FISKIL Banking API
+  slug: fiskil-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-banking-api-openapi.yml
+- filename: fiskil-common-api-openapi.yml
+  format: yaml
+  label: FISKIL Common API
+  slug: fiskil-common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-common-api-openapi.yml
+- filename: fiskil-consent-api-openapi.yml
+  format: yaml
+  label: FISKIL Consent API
+  slug: fiskil-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-consent-api-openapi.yml
+- filename: fiskil-end-users-api-openapi.yml
+  format: yaml
+  label: FISKIL End users API
+  slug: fiskil-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-end-users-api-openapi.yml
+- filename: fiskil-energy-api-openapi.yml
+  format: yaml
+  label: FISKIL Energy API
+  slug: fiskil-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-energy-api-openapi.yml
+- filename: fiskil-institutions-api-openapi.yml
+  format: yaml
+  label: FISKIL Institutions API
+  slug: fiskil-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-institutions-api-openapi.yml
+- filename: fiskil-transactions-api-openapi.yml
+  format: yaml
+  label: FISKIL Transactions API
+  slug: fiskil-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiskil/refs/heads/main/openapi/fiskil-transactions-api-openapi.yml
 auth_types: []
 description: Fiskil uses OAuth2 client‑credentials flow to obtain a bearer token which must be sent in the Authorization header.
 kind: authentication

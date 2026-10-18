@@ -347,7 +347,7 @@ tags:
 - DevSecOps
 - Vulnerability Management
 - Application Security
-- SCA
+- Software Composition Analysis
 - SAST
 - Container Security
 - IaC

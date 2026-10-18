@@ -35,7 +35,7 @@ tags:
 - Life Insurance
 - Annuities
 - Health Insurance
-- Property Casualty
+- Property and Casualty
 - Pensions
 - Financial Services
 - Fortune 1000

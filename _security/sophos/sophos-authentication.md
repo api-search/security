@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/he
 summary_line: apiKey/http · 2 schemes
 tags:
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - SIEM
 - Threat Detection

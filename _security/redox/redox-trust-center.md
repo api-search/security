@@ -23,7 +23,7 @@ tags:
 - Healthcare
 - Interoperability
 - FHIR
-- EHR
+- Electronic Health Records
 - Health Data
 - Integration
 - HL7

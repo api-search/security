@@ -37,9 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinmarketcap/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Market Data
 - Rankings
-- DEX
-- Cryptocurrency
+- Decentralized Exchange
 ---

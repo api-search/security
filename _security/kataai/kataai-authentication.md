@@ -90,7 +90,6 @@ tags:
 - Chatbots
 - AI Agents
 - Natural Language Understanding
-- NLU
 - Customer Experience
 - Messaging
 - Indonesia

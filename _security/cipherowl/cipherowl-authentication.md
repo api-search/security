@@ -52,7 +52,7 @@ summary_line: http · 1 scheme
 tags:
 - Blockchain
 - Compliance
-- Crypto
+- Cryptocurrency
 - Security
 - Risk Management
 - Sanctions Screening

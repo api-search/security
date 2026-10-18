@@ -57,5 +57,4 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - EdTech
 - LMS
-- Learning Management
 ---

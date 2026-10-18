@@ -153,19 +153,35 @@ schemes:
   name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/fintecture-ais-api-openapi.yml
+  - openapi/fintecture-accounts-api-openapi.yml
+  - openapi/fintecture-applications-api-openapi.yml
+  - openapi/fintecture-authentication-api-openapi.yml
+  - openapi/fintecture-bank-accounts-api-openapi.yml
+  - openapi/fintecture-companies-api-openapi.yml
   - openapi/fintecture-customers-api-openapi.yml
-  - openapi/fintecture-emandates-api-openapi.yml
-  - openapi/fintecture-oac-api-openapi.yml
-  - openapi/fintecture-pis-api-openapi.yml
-  - openapi/fintecture-resources-api-openapi.yml
+  - openapi/fintecture-e-mandates-api-openapi.yml
+  - openapi/fintecture-memberships-api-openapi.yml
+  - openapi/fintecture-oauth-api-openapi.yml
+  - openapi/fintecture-organisation-nodes-api-openapi.yml
+  - openapi/fintecture-payments-api-openapi.yml
+  - openapi/fintecture-payouts-api-openapi.yml
+  - openapi/fintecture-providers-api-openapi.yml
+  - openapi/fintecture-refunds-api-openapi.yml
+  - openapi/fintecture-request-to-pay-api-openapi.yml
+  - openapi/fintecture-sandbox-api-openapi.yml
+  - openapi/fintecture-settlements-api-openapi.yml
+  - openapi/fintecture-test-accounts-api-openapi.yml
   - openapi/fintecture-transactions-api-openapi.yml
+  - openapi/fintecture-users-api-openapi.yml
+  - openapi/fintecture-verification-api-openapi.yml
+  - openapi/fintecture-verifications-api-openapi.yml
   type: http
 slug: fintecture-authentication
 source_filename: fintecture-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fintecture-ais-api-openapi.yml, openapi/fintecture-customers-api-openapi.yml,\n  openapi/fintecture-emandates-api-openapi.yml, openapi/fintecture-oac-api-openapi.yml, openapi/fintecture-pis-api-openapi.yml,\n  openapi/fintecture-resources-api-openapi.yml, openapi/fintecture-transactions-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/fintecture-ais-api-openapi.yml\n  - openapi/fintecture-customers-api-openapi.yml\n  - openapi/fintecture-emandates-api-openapi.yml\n  - openapi/fintecture-oac-api-openapi.yml\n  - openapi/fintecture-pis-api-openapi.yml\n  - openapi/fintecture-resources-api-openapi.yml\n  - openapi/fintecture-transactions-api-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: derived\nsource: openapi/fintecture-accounts-api-openapi.yml, openapi/fintecture-applications-api-openapi.yml,\n  openapi/fintecture-authentication-api-openapi.yml, openapi/fintecture-bank-accounts-api-openapi.yml,\n  openapi/fintecture-companies-api-openapi.yml, openapi/fintecture-customers-api-openapi.yml,\n  openapi/fintecture-e-mandates-api-openapi.yml, openapi/fintecture-memberships-api-openapi.yml,\n  openapi/fintecture-oauth-api-openapi.yml, openapi/fintecture-organisation-nodes-api-openapi.yml,\n  openapi/fintecture-payments-api-openapi.yml, openapi/fintecture-payouts-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/fintecture-accounts-api-openapi.yml\n  - openapi/fintecture-applications-api-openapi.yml\n  - openapi/fintecture-authentication-api-openapi.yml\n  - openapi/fintecture-bank-accounts-api-openapi.yml\n  - openapi/fintecture-companies-api-openapi.yml\n\
+  \  - openapi/fintecture-customers-api-openapi.yml\n  - openapi/fintecture-e-mandates-api-openapi.yml\n  - openapi/fintecture-memberships-api-openapi.yml\n  - openapi/fintecture-oauth-api-openapi.yml\n  - openapi/fintecture-organisation-nodes-api-openapi.yml\n  - openapi/fintecture-payments-api-openapi.yml\n  - openapi/fintecture-payouts-api-openapi.yml\n  - openapi/fintecture-providers-api-openapi.yml\n  - openapi/fintecture-refunds-api-openapi.yml\n  - openapi/fintecture-request-to-pay-api-openapi.yml\n  - openapi/fintecture-sandbox-api-openapi.yml\n  - openapi/fintecture-settlements-api-openapi.yml\n  - openapi/fintecture-test-accounts-api-openapi.yml\n  - openapi/fintecture-transactions-api-openapi.yml\n  - openapi/fintecture-users-api-openapi.yml\n  - openapi/fintecture-verification-api-openapi.yml\n  - openapi/fintecture-verifications-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/authentication/fintecture-authentication.yml
 summary_line: http · 1 scheme
 tags:

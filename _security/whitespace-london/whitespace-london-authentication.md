@@ -185,7 +185,7 @@ tags:
 - Reinsurance
 - Property and Casualty
 - Insurtech
-- Brokers
+- Brokerage
 - Underwriting
 - Placing Platform
 - London Market

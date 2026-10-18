@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/h
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Git
-- Source Code Management
+- Version Control
 - Self-Hosted
 - DevOps
 - CI/CD

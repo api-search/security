@@ -40,7 +40,7 @@ tags:
 - Messaging
 - WhatsApp
 - CRM
-- Customer Support
+- Customer Service
 - E-Commerce
 - AI Agents
 ---

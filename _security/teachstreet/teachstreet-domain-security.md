@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Marketplace
 - Classes
 - Defunct

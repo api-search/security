@@ -101,7 +101,7 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Company
 - Cryptocurrency
-- Exchanges
+- Exchange
 - Trading
 - Derivatives
 ---

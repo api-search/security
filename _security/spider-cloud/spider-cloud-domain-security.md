@@ -96,7 +96,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/r
 summary_line: TLSv1.3 · HSTS
 tags:
 - Crawling
-- Scraping
+- Web Scraping
 - Data Extraction
 - URLs
 - Artificial Intelligence

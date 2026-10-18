@@ -36,7 +36,7 @@ tags:
 - Digital Insurance
 - Insurance Distribution
 - Broker Platform
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Liability Insurance
 - Life Insurance

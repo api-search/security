@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: recruitee-c-api-openapi.yml
+  format: yaml
+  label: Recruitee C API
+  slug: recruitee-c-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-c-api-openapi.yml
+- filename: recruitee-i-api-openapi.yml
+  format: yaml
+  label: Recruitee I API
+  slug: recruitee-i-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-i-api-openapi.yml
+- filename: recruitee-offers-api-openapi.yml
+  format: yaml
+  label: Recruitee Offers API
+  slug: recruitee-offers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-offers-api-openapi.yml
+- filename: recruitee-p-api-openapi.yml
+  format: yaml
+  label: Recruitee P API
+  slug: recruitee-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-p-api-openapi.yml
 description: ''
 domains:
 - caa: []

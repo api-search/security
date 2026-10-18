@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - Sexual Health
-- Online Learning
+- E-Learning
 - Courses
 - AdultEducation
 ---

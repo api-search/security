@@ -45,6 +45,6 @@ tags:
 - Disability Insurance
 - Group Benefits
 - Voluntary Benefits
-- Brokers
+- Brokerage
 - Financial Services
 ---

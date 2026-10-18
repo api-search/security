@@ -301,7 +301,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - API Gateway
 - API Management
-- Access Management
+- Identity and Access Management
 - Identity
 - Event-Driven
 - Kafka Gateway

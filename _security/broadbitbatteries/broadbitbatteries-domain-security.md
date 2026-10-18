@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Battery
 - Energy
-- CleanTech
+- Cleantech
 - Technology
 - Finland
 ---

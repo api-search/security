@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Natural Language Processing
-- NLP
 - Speech Recognition
 - Speech-to-Text
 - Text-to-Speech

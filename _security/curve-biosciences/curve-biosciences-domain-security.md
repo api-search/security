@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Biotechnology
-- HealthTech
+- Health Tech
 - Diagnostics
 - Whole-Body Intelligence
 ---

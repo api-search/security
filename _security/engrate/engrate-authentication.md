@@ -142,5 +142,5 @@ tags:
 - Energy
 - Platform
 - Integration
-- Market
+- Markets
 ---

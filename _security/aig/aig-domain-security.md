@@ -37,7 +37,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Financial Services
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Enterprise
 - Fortune 100

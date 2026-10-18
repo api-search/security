@@ -160,7 +160,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Finance
 - Market Data
-- Crypto
+- Cryptocurrency
 - Blockchain
 - On-Chain Data
 - Index

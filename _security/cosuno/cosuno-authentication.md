@@ -135,7 +135,7 @@ summary_line: http · 1 scheme
 tags:
 - Construction
 - Marketplace
-- AI
+- Artificial Intelligence
 - Tendering
 - Germany
 ---

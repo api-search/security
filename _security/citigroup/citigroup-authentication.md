@@ -62,7 +62,7 @@ tags:
 - Treasury and Trade Solutions
 - CitiConnect
 - Payments
-- FX
+- Foreign Exchange
 - Corporate Banking
 - Fortune 100
 ---

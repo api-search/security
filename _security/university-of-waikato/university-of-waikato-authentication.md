@@ -176,6 +176,6 @@ tags:
 - OAI-PMH
 - Identity Federation
 - SAML
-- Learning Management
+- LMS
 - Machine Learning
 ---

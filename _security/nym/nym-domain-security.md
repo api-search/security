@@ -32,11 +32,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nym/refs/heads
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Healthcare
 - Medical Coding
 - Revenue Cycle Management
 - Health IT
-- Artificial Intelligence
 - Clinical NLP
 ---

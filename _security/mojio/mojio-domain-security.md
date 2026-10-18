@@ -37,7 +37,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mojio/refs/hea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Connected Car
+- Connected Vehicles
 - Telematics
 - Mobility
 - Automotive

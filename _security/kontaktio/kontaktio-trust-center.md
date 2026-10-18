@@ -180,29 +180,28 @@ api_specs:
   slug: kontaktio-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/openapi/kontaktio-telemetry-api-openapi.yml
-certification_count: 4
+certification_count: 3
 certifications:
 - SOC 2 Type II
 - HIPAA Security Rule / HITECH
 - GDPR
-- ISO 27001
 description: ''
 kind: trust-center
 layout: security
 name: Kontaktio Trust Center
 name_suffix: Trust Center
-overview: Kontakt.io maintains a public trust center documenting SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR, and ISO 27001 compliance.
+overview: Kontakt.io maintains a public trust center documenting SOC 2 Type II, HIPAA Security Rule / HITECH, and GDPR compliance.
 provider_name: Kontakt.io
 provider_slug: kontaktio
 slug: kontaktio-trust-center
 source_filename: kontaktio-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://trust.kontakt.io/ and https://kontakt.io/legal-documents/security/\ntrust_center:\n  url: https://trust.kontakt.io/\n  platform: Vanta\n  http_status: 200\n  probed: '2026-08-23'\n  note: Canonical Vanta-hosted trust center (canonical link rel points at https://trust.kontakt.io;\n    assets served from assets.vanta.com). Document access is request-gated behind Vanta,\n    which is normal for this platform — the certification claims below are read from\n    Kontakt.io's own public security page, not from gated Vanta artifacts.\nsecurity_page: https://kontakt.io/legal-documents/security/\nsecurity_officer: Lemlem Kentiba, Security & Compliance Officer\ncertifications:\n- name: SOC 2 Type II\n  status: compliant\n  source: https://kontakt.io/legal-documents/security/\n- name: HIPAA Security Rule / HITECH\n  status: compliant\n  source: https://kontakt.io/legal-documents/security/\n- name: GDPR\n  status: aligned\n  source:\
-  \ https://kontakt.io/legal-documents/security/\n- name: ISO 27001\n  status: not-claimed\n  source: Absent from the security page and the trust center landing page.\ncontrols:\n  encryption_in_transit: TLS 1.2+ across all external and internal communications.\n  encryption_at_rest: AWS S3 encryption, encrypted EBS volumes, encrypted RDS/Aurora\n    databases and encrypted backups.\n  key_management: AWS KMS with FIPS 140-2 validated hardware security modules; key\n    access is role-restricted and monitored.\n  penetration_testing: External penetration tests conducted regularly by independent\n    third parties; findings undergo formal tracking and remediation.\nvulnerability_disclosure:\n  program: false\n  note: 'No vulnerability disclosure program, bug bounty, or responsible-disclosure\n    contact was found. There is no /.well-known/security.txt on any Kontakt.io host,\n    no HackerOne/Bugcrowd/Intigriti presence, and the public security page names a\n    Security & Compliance Officer\
-  \ but publishes no security contact address. The only\n    reporting route is general support at https://support.kontakt.io/hc/en-gb/requests/new.\n    This is the single clearest security-posture gap for a vendor holding SOC 2 Type\n    II and HIPAA. No Security / VulnerabilityDisclosure pointer is emitted.'\n  evidence:\n  - url: https://kontakt.io/.well-known/security.txt\n    status: 404\n  - url: https://developer.kontakt.io/.well-known/security.txt\n    status: 404\n  - url: https://kontakt.io/legal-documents/security/\n    status: 200\n"
+source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://trust.kontakt.io/ and https://kontakt.io/legal-documents/security/\ntrust_center:\n  url: https://trust.kontakt.io/\n  platform: Vanta\n  http_status: 200\n  probed: '2026-08-23'\n  note: Canonical Vanta-hosted trust center (canonical link rel points at https://trust.kontakt.io;\n    assets served from assets.vanta.com). Document access is request-gated behind\n    Vanta, which is normal for this platform — the certification claims below are\n    read from Kontakt.io's own public security page, not from gated Vanta artifacts.\nsecurity_page: https://kontakt.io/legal-documents/security/\nsecurity_officer: Lemlem Kentiba, Security & Compliance Officer\ncertifications:\n- SOC 2 Type II\n- HIPAA Security Rule / HITECH\n- GDPR\ncontrols:\n  encryption_in_transit: TLS 1.2+ across all external and internal communications.\n  encryption_at_rest: AWS S3 encryption, encrypted EBS volumes, encrypted RDS/Aurora\n    databases and\
+  \ encrypted backups.\n  key_management: AWS KMS with FIPS 140-2 validated hardware security modules; key\n    access is role-restricted and monitored.\n  penetration_testing: External penetration tests conducted regularly by independent\n    third parties; findings undergo formal tracking and remediation.\nvulnerability_disclosure:\n  program: false\n  note: No vulnerability disclosure program, bug bounty, or responsible-disclosure\n    contact was found. There is no /.well-known/security.txt on any Kontakt.io host,\n    no HackerOne/Bugcrowd/Intigriti presence, and the public security page names a\n    Security & Compliance Officer but publishes no security contact address. The only\n    reporting route is general support at https://support.kontakt.io/hc/en-gb/requests/new.\n    This is the single clearest security-posture gap for a vendor holding SOC 2 Type\n    II and HIPAA. No Security / VulnerabilityDisclosure pointer is emitted.\n  evidence:\n  - url: https://kontakt.io/.well-known/security.txt\n\
+  \    status: 404\n  - url: https://developer.kontakt.io/.well-known/security.txt\n    status: 404\n  - url: https://kontakt.io/legal-documents/security/\n    status: 200\ncertification_details:\n- name: SOC 2 Type II\n  status: compliant\n  source: https://kontakt.io/legal-documents/security/\n- name: HIPAA Security Rule / HITECH\n  status: compliant\n  source: https://kontakt.io/legal-documents/security/\n- name: GDPR\n  status: aligned\n  source: https://kontakt.io/legal-documents/security/\n- name: ISO 27001\n  status: not-claimed\n  source: Absent from the security page and the trust center landing page.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kontaktio/refs/heads/main/security/kontaktio-trust-center.yml
-summary_line: SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR, ISO 27001
+summary_line: SOC 2 Type II, HIPAA Security Rule / HITECH, GDPR
 tags:
 - Company
 - IoT

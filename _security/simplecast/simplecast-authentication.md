@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/simpleca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/authentication/simplecast-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Podcast Distribution
 - Podcast Analytics

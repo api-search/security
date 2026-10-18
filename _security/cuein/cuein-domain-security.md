@@ -53,7 +53,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer Service
 - Conversation Intelligence
 - Generative AI
 - Insights

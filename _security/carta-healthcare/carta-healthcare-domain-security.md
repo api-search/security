@@ -37,7 +37,7 @@ tags:
 - Artificial Intelligence
 - Data Abstraction
 - Clinical Registries
-- Electronic Medical Records
+- Electronic Health Records
 - Analytics
 - HIPAA
 - Company

@@ -76,7 +76,7 @@ tags:
 - Markets
 - Sentiment
 - Stocks
-- Crypto
+- Cryptocurrency
 - Finance
 - Trading
 - Social Data

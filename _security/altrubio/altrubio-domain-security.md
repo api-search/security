@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Immunology
 - Therapeutics
-- ClinicalTrials
+- Clinical Trials
 ---

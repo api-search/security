@@ -57,7 +57,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Gaming
-- Crypto
 - Cryptocurrency
 - Payments
 - Withdrawals

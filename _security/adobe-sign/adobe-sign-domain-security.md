@@ -53,7 +53,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/security/adobe-sign-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Electronic Signature
 - E-Signature
 - Document Workflow
 - Digital Signature

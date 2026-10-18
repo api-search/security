@@ -340,7 +340,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wise/refs/head
 summary_line: http · 2 schemes
 tags:
 - Payments
-- FX
+- Foreign Exchange
 - Cross-Border
 - Banking
 - Multi-Currency

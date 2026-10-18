@@ -67,7 +67,6 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Prototyping
 - Hardware

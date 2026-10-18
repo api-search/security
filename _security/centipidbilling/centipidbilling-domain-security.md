@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: centipidbilling-openapi-generated.yml
+- filename: centipidbilling-async-api-openapi.yml
   format: yaml
-  label: Centipid Technologies API
-  slug: centipidbilling-api
+  label: Centipid Technologies Async API
+  slug: centipidbilling-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/_ae-authored/centipidbilling-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-async-api-openapi.yml
+- filename: centipidbilling-collections-api-openapi.yml
+  format: yaml
+  label: Centipid Technologies Collections API
+  slug: centipidbilling-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-collections-api-openapi.yml
+- filename: centipidbilling-interface-api-openapi.yml
+  format: yaml
+  label: Centipid Technologies Interface API
+  slug: centipidbilling-interface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-interface-api-openapi.yml
+- filename: centipidbilling-mcp-api-openapi.yml
+  format: yaml
+  label: Centipid Technologies MCP API
+  slug: centipidbilling-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centipidbilling/refs/heads/main/openapi/centipidbilling-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []

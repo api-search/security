@@ -33,7 +33,7 @@ tags:
 - Company
 - Healthcare
 - ChronicCare
-- RemoteMonitoring
+- Remote Monitoring
 - ValueBased
-- SaaS
+- Software-as-a-Service
 ---

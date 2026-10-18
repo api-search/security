@@ -85,7 +85,7 @@ tags:
 - FHIR
 - HL7
 - Interoperability
-- EHR
+- Electronic Health Records
 - Practice Management
 - Primary Care
 - AU Base

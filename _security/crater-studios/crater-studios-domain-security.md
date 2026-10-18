@@ -49,5 +49,4 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Live Operations
-- Venture Backed
 ---

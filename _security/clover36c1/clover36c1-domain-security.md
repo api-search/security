@@ -33,6 +33,5 @@ tags:
 - Company
 - Technology
 - Finance
-- Startup
-- API
+- Startups
 ---

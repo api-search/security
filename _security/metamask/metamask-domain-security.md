@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: metamask-openapi-generated.yml
+- filename: metamask-token-api-openapi.yml
   format: yaml
-  label: MetaMask API
-  slug: metamask-api
+  label: MetaMask Token API
+  slug: metamask-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamask/refs/heads/main/openapi/_ae-authored/metamask-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metamask/refs/heads/main/openapi/metamask-token-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +39,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metamask/refs/
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
-- Wallet
+- Cryptocurrency
+- Wallets
 - Web3
-- DeveloperTools
+- Developer Tools
 ---

@@ -22,7 +22,7 @@ tags:
 - Company
 - Finance
 - Investment
-- AI
+- Artificial Intelligence
 - Analytics
 - Private-Market
 trust_url: https://security.canarytechnologies.com/

@@ -32,6 +32,6 @@ tags:
 - Data Quality
 - Professional Services
 - Sales
-- Enrichment
+- Data Enrichment
 trust_url: https://trust.introhive.com/
 ---

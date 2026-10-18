@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heygo/refs/hea
 summary_line: TLSv1.3
 tags:
 - Company
-- Live Video
+- Live Streaming
 - Virtual Tours
 - Travel
 - Streaming

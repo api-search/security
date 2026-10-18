@@ -38,8 +38,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
-- FinTech
-- POS
-- E‑commerce
+- Fintech
+- Point-of-Sale
+- E-Commerce
 - Security
 ---

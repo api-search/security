@@ -213,7 +213,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/h
 summary_line: apiKey · 3 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Cryptocurrency Exchange
 - Payments
 - Fintech

@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: symphonyos-openapi-generated.yml
+- filename: symphonyos-campaigns-api-openapi.yml
   format: yaml
-  label: SymphonyOS API
-  slug: symphonyos-api
+  label: SymphonyOS Campaigns API
+  slug: symphonyos-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/openapi/_ae-authored/symphonyos-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/openapi/symphonyos-campaigns-api-openapi.yml
+- filename: symphonyos-sym-api-openapi.yml
+  format: yaml
+  label: SymphonyOS Sym API
+  slug: symphonyos-sym-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/symphonyos/refs/heads/main/openapi/symphonyos-sym-api-openapi.yml
 auth_types: []
 description: Authentication schemes for SymphonyOS APIs
 kind: authentication
@@ -44,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symphonyos/ref
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Music
 - Platform
 - Agents

@@ -43,6 +43,6 @@ tags:
 - Mobile
 - Wallets
 - Gasless Transactions
-- Crypto
+- Cryptocurrency
 - Developer Tools
 ---

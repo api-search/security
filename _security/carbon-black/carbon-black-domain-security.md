@@ -50,7 +50,7 @@ tags:
 - Company
 - Security
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Detection
 - Cybersecurity
 - Cloud Security

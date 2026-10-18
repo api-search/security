@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domestika/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Creative Education
-- Online Learning
+- E-Learning
 - Courses
 - Design
 - Photography

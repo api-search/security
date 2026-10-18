@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainflip/refs
 summary_line: none/node-operated · 4 schemes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - DeFi
 - Cross-Chain

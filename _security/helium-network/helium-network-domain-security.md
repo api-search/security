@@ -54,5 +54,5 @@ tags:
 - 5G
 - DePIN
 - Solana
-- Crypto
+- Cryptocurrency
 ---

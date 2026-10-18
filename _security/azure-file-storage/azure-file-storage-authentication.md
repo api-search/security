@@ -83,6 +83,6 @@ tags:
 - File Shares
 - NFS
 - Cloud
-- Azure
+- Microsoft Azure
 - Server Message Block
 ---

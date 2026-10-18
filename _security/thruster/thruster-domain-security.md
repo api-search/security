@@ -27,9 +27,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thruster/refs/
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DEX
+- Decentralized Exchange
 - BLAST
 - AMM
 - Ethereum

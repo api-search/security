@@ -37,8 +37,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanitix/refs
 summary_line: TLSv1.3 · DMARC
 tags:
 - Ticketing
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Platform
 - Social Impact
 - Company

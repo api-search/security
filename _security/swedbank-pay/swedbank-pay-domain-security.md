@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: swedbank-pay-openapi-generated.yml
+- filename: swedbank-pay-psp-api-openapi.yml
   format: yaml
-  label: Swedbank Pay API
-  slug: swedbank-pay-api
+  label: Swedbank Pay Psp API
+  slug: swedbank-pay-psp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/openapi/_ae-authored/swedbank-pay-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swedbank-pay/refs/heads/main/openapi/swedbank-pay-psp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
-- FinTech
-- API
+- Fintech
 - Nordic
 ---

@@ -599,7 +599,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Datahub
+- Data Hub
 - Metering
 - Open Data
 - Norway

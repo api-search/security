@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/authentication/microsoft-entra-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Azure AD
 - Entra

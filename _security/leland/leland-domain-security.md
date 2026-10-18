@@ -37,7 +37,7 @@ tags:
 - Admissions
 - Test Preparation
 - Marketplace
-- Online Learning
+- E-Learning
 - Talent
 - Artificial Intelligence
 ---

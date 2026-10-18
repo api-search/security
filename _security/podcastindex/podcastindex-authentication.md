@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podcasti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/authentication/podcastindex-authentication.yml
 summary_line: apiKey · 4 schemes
 tags:
-- Podcasting
+- Podcasts
 - Podcast Index
 - Discovery
 - Open Data

@@ -33,9 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Field Service Management
+- Field Service
 - No-Code
 - Workflow Automation
-- Field Service
 - Enterprise Software
 ---

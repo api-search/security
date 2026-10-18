@@ -354,6 +354,12 @@ api_specs:
   slug: openai-webhook-event-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-webhook-event-types-api-openapi.yml
+- filename: openai-decisions-api-openapi.yml
+  format: yaml
+  label: OpenAI Decisions API
+  slug: openai-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-decisions-api-openapi.yml
 - filename: openai-chat-completions-api-openapi.yml
   format: yaml
   label: OpenAI Chat Completions API

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
 - Renters Insurance
-- Homeowners Insurance
+- Home Insurance
 - Embedded Insurance
 - Property and Casualty
 ---

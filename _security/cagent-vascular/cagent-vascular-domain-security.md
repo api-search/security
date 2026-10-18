@@ -38,5 +38,5 @@ tags:
 - Peripheral Artery Disease
 - Endovascular
 - Angioplasty
-- MedTech
+- Medical Technology
 ---

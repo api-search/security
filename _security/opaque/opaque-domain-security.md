@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opaque/refs/he
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Confidential Computing
-- confidential-ai
+- Confidential AI
 - AI Governance
 - Privacy
 - Trusted Execution Environment

@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crystallinesem
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Materials
 - Technology
 - Innovation

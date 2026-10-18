@@ -93,10 +93,9 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://fhir4.e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/authentication/eclinicalworks-authentication.yml
 summary_line: oauth2/openIdConnect/http · 7 schemes
 tags:
-- EHR
+- Electronic Health Records
 - FHIR
 - Healthcare
-- Electronic Health Records
 - Practice Management
 - Clinical Data
 - Health Information Exchange

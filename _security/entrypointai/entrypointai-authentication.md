@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: entrypointai-openapi-generated.yml
+- filename: entrypointai-collaborators-api-openapi.yml
   format: yaml
-  label: Entry Point AI API
-  slug: entrypointai-api
+  label: Entry Point AI Collaborators API
+  slug: entrypointai-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/_ae-authored/entrypointai-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-collaborators-api-openapi.yml
+- filename: entrypointai-entry-point-ai-api-api-openapi.yml
+  format: yaml
+  label: Entry Point AI Entry Point AI API
+  slug: entrypointai-entry-point-ai-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-entry-point-ai-api-api-openapi.yml
+- filename: entrypointai-websites-api-openapi.yml
+  format: yaml
+  label: Entry Point AI Websites API
+  slug: entrypointai-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/openapi/entrypointai-websites-api-openapi.yml
 auth_types: []
 description: Authentication schemes for Entry Point AI (as documented).
 kind: authentication
@@ -34,9 +46,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entrypointai/refs/heads/main/authentication/entrypointai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Machine Learning
 - Data Engineering
-- SaaS
+- Software-as-a-Service
 ---

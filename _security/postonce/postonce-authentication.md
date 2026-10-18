@@ -2,12 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: postonce-api-openapi.json
-  format: json
-  label: PostOnce Public API API
-  slug: postonce-public-api-api
+- filename: postonce-accounts-api-openapi.yml
+  format: yaml
+  label: PostOnce Accounts API
+  slug: postonce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/_original/postonce-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-accounts-api-openapi.yml
+- filename: postonce-drafts-api-openapi.yml
+  format: yaml
+  label: PostOnce Drafts API
+  slug: postonce-drafts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-drafts-api-openapi.yml
+- filename: postonce-media-api-openapi.yml
+  format: yaml
+  label: PostOnce Media API
+  slug: postonce-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-media-api-openapi.yml
+- filename: postonce-posts-api-openapi.yml
+  format: yaml
+  label: PostOnce Posts API
+  slug: postonce-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-posts-api-openapi.yml
+- filename: postonce-workflows-api-openapi.yml
+  format: yaml
+  label: PostOnce Workflows API
+  slug: postonce-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postonce/refs/heads/main/openapi/postonce-workflows-api-openapi.yml
 auth_types: []
 description: Authentication for the PostOnce Public API uses dashboard‑generated API keys sent as a bearer token.
 kind: authentication
@@ -50,5 +74,4 @@ tags:
 - Social Media
 - Automation
 - Marketing
-- API
 ---

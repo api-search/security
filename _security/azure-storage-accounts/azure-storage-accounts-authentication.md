@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-st
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/authentication/azure-storage-accounts-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- Azure
+- Microsoft Azure
 - Blob Storage
 - Cloud Storage
 - File Storage

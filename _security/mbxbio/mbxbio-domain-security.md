@@ -38,5 +38,4 @@ tags:
 - Metabolic
 - Peptide Therapeutics
 - Clinical Stage
-- No API Surface
 ---

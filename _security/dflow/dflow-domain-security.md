@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/hea
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Solana
 - Trading API
 - DeFi
@@ -94,6 +94,5 @@ tags:
 - Prediction Markets
 - Agent Ready
 - Real-Time
-- Web3
 - Cryptocurrency
 ---

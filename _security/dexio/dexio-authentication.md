@@ -2,12 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dexio-openapi-generated.yml
+- filename: dexio-dexio-api-api-openapi.yml
   format: yaml
-  label: Dexio API
-  slug: dexio-api
+  label: Dexio Dexio API
+  slug: dexio-dexio-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/_ae-authored/dexio-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-dexio-api-api-openapi.yml
+- filename: dexio-install-api-openapi.yml
+  format: yaml
+  label: Dexio Install API
+  slug: dexio-install-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-install-api-openapi.yml
+- filename: dexio-mcp-api-openapi.yml
+  format: yaml
+  label: Dexio MCP API
+  slug: dexio-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/openapi/dexio-mcp-api-openapi.yml
 auth_types: []
 description: Dexio authentication uses an API key sent as a Bearer token in the Authorization header.
 kind: authentication
@@ -36,9 +48,9 @@ source_yaml: "generated: '2026-10-05'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dexio/refs/heads/main/authentication/dexio-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Wiki
-- Knowledge-Management
+- Knowledge Management
 - Agent-Integration
-- Open-Source
+- Open Source
 ---

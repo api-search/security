@@ -34,6 +34,6 @@ tags:
 - Company
 - Medical
 - Retail
-- E-commerce
+- E-Commerce
 - Healthcare
 ---

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: comarch-api-openapi.yml
+- filename: comarch-global-api-openapi.yml
   format: yaml
-  label: Comarch Portal API API
-  slug: comarch-portal-api-api
+  label: Comarch Global API
+  slug: comarch-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comarch/refs/heads/main/openapi/_original/comarch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/comarch/refs/heads/main/openapi/comarch-global-api-openapi.yml
 description: ''
 domains:
 - caa: []

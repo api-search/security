@@ -321,8 +321,7 @@ summary_line: oauth2/openIdConnect/apiKey/http · 7 schemes
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - FHIR

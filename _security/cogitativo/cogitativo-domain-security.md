@@ -32,8 +32,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogitativo/ref
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - Healthcare
 - Analytics
 ---

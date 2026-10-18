@@ -48,5 +48,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data/refs/head
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 ---

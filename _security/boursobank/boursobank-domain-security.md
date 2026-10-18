@@ -36,6 +36,6 @@ tags:
 - Company
 - Banking
 - Fintech
-- Online Banking
+- OnlineBanking
 - France
 ---

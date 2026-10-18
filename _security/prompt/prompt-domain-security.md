@@ -67,7 +67,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- Electronic Medical Records
+- Electronic Health Records
 - Practice Management
 - Physical Therapy
 - Rehabilitation Therapy

@@ -22,7 +22,7 @@ summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Voice-of-Customer
-- AI
+- Artificial Intelligence
 - Feedback
 - Sentiment
 trust_url: https://www.cxindex.com/
