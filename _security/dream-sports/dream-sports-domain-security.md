@@ -374,17 +374,17 @@ domains:
   domain: guardianhq.io
   spf: false
 hosts:
-- cert_expires: Feb  5 23:59:59 2027 GMT
+- cert_expires: Feb 26 23:59:59 2027 GMT
   host: www.dreamsports.group
-  hsts: null
+  hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 30 03:24:20 2026 GMT
+- cert_expires: Dec 29 05:12:55 2026 GMT
   host: guardianhq.io
-  hsts: null
+  hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 26 23:59:59 2026 GMT
+- cert_expires: Mar 18 23:59:59 2027 GMT
   host: auth.dream11.com
   hsts: null
   https: true
@@ -402,7 +402,7 @@ slug: dream-sports-domain-security
 source_filename: dream-sports-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dreamsports.group\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\n- host: guardianhq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 03:24:20 2026 GMT\n  hsts: null\n- host: auth.dream11.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dreamsports.group\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: guardianhq.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dreamsports.group\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 26 23:59:59 2027 GMT\n  hsts: false\n- host: guardianhq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 29 05:12:55 2026 GMT\n  hsts: false\n- host: auth.dream11.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 18 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: dreamsports.group\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: guardianhq.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/security/dream-sports-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

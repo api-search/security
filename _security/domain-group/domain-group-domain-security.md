@@ -162,6 +162,24 @@ api_specs:
   slug: domain-group-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-webhooks-api-openapi.yml
+- filename: domain-group-avmhistory-api-openapi.yml
+  format: yaml
+  label: Domain Group Avm History API
+  slug: domain-group-avmhistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-avmhistory-api-openapi.yml
+- filename: domain-group-auctioncollection-api-openapi.yml
+  format: yaml
+  label: Domain Group Auction Collection API
+  slug: domain-group-auctioncollection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-auctioncollection-api-openapi.yml
+- filename: domain-group-agentsearch-api-openapi.yml
+  format: yaml
+  label: Domain Group Agent Search API
+  slug: domain-group-agentsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-agentsearch-api-openapi.yml
 - filename: domain-group-property-search-api-openapi.yml
   format: yaml
   label: Domain Group Property Search API
@@ -177,17 +195,17 @@ domains:
   domain: domain.com.au
   spf: true
 hosts:
-- cert_expires: Aug 20 19:01:42 2026 GMT
+- cert_expires: Dec 30 15:32:18 2026 GMT
   host: www.domain.com.au
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug  3 23:59:59 2026 GMT
+- cert_expires: Feb  6 23:59:59 2027 GMT
   host: developer.domain.com.au
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 16 15:49:35 2026 GMT
+- cert_expires: Nov 21 13:57:41 2026 GMT
   host: api.domain.com.au
   hsts: null
   https: true
@@ -205,7 +223,7 @@ slug: domain-group-domain-security
 source_filename: domain-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 19:01:42 2026 GMT\n  hsts: null\n- host: developer.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  3 23:59:59 2026 GMT\n  hsts: false\n- host: api.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:49:35 2026 GMT\n  hsts: null\ndomains:\n- domain: domain.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 15:32:18 2026 GMT\n  hsts: null\n- host: developer.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.domain.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 13:57:41 2026 GMT\n  hsts: null\ndomains:\n- domain: domain.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/security/domain-group-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: jama-software-openapi-generated.yml
+  format: yaml
+  label: Jama Connect REST API
+  slug: jama-connect-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jama-software/refs/heads/main/openapi/_ae-authored/jama-software-openapi-generated.yml
 auth_types:
 - http
 - oauth2

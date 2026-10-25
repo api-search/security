@@ -1,41 +1,17 @@
 ---
 api_specs:
-- filename: envato-author-api-openapi.yml
+- filename: envato-market-api-openapi.yml
   format: yaml
-  label: Envato Author API
-  slug: envato-author-api
+  label: Envato Market API
+  slug: envato-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-author-api-openapi.yml
-- filename: envato-catalog-api-openapi.yml
-  format: yaml
-  label: Envato Catalog API
-  slug: envato-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-catalog-api-openapi.yml
-- filename: envato-downloads-api-openapi.yml
-  format: yaml
-  label: Envato Downloads API
-  slug: envato-downloads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-downloads-api-openapi.yml
-- filename: envato-items-api-openapi.yml
-  format: yaml
-  label: Envato Items API
-  slug: envato-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-items-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-market-api-openapi.yml
 - filename: envato-search-api-openapi.yml
   format: yaml
   label: Envato Search API
   slug: envato-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-search-api-openapi.yml
-- filename: envato-user-api-openapi.yml
-  format: yaml
-  label: Envato User API
-  slug: envato-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,18 +21,18 @@ domains:
   domain: envato.com
   spf: true
 hosts:
-- cert_expires: Aug 24 03:27:01 2026 GMT
+- cert_expires: Dec 20 07:23:15 2026 GMT
   host: envato.com
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 14:32:05 2026 GMT
+- cert_expires: Dec 19 16:14:21 2026 GMT
   host: build.envato.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 23 13:04:55 2026 GMT
+- cert_expires: Dec 19 14:32:55 2026 GMT
   host: api.envato.com
   hsts: null
   https: true
@@ -74,7 +50,7 @@ slug: envato-domain-security
 source_filename: envato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 03:27:01 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: build.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 14:32:05 2026 GMT\n  hsts: false\n- host: api.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 13:04:55 2026 GMT\n  hsts: null\ndomains:\n- domain: envato.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 07:23:15 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: build.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 16:14:21 2026 GMT\n  hsts: false\n- host: api.envato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 14:32:55 2026 GMT\n  hsts: null\ndomains:\n- domain: envato.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/security/envato-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

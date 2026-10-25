@@ -57,6 +57,12 @@ api_specs:
   slug: optus-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-templates-api-openapi.yml
+- filename: optus-healthz-api-openapi.yml
+  format: yaml
+  label: Optus Healthz API
+  slug: optus-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-healthz-api-openapi.yml
 auth_types:
 - apiKey
 - http

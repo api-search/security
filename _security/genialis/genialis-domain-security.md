@@ -273,7 +273,7 @@ domains:
   domain: genialis.com
   spf: true
 hosts:
-- cert_expires: Oct 24 16:41:27 2026 GMT
+- cert_expires: Dec 22 20:29:25 2026 GMT
   host: www.genialis.com
   hsts: false
   https: true
@@ -302,7 +302,7 @@ slug: genialis-domain-security
 source_filename: genialis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 16:41:27 2026 GMT\n  hsts: false\n- host: docs.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\n- host: app.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: genialis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 20:29:25 2026 GMT\n  hsts: false\n- host: docs.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: false\n- host: app.genialis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: genialis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/security/genialis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

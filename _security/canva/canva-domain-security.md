@@ -1,59 +1,5 @@
 ---
 api_specs:
-- filename: canva-assets-api-openapi.yml
-  format: yaml
-  label: Canva Assets API
-  slug: canva-assets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-assets-api-openapi.yml
-- filename: canva-autofills-api-openapi.yml
-  format: yaml
-  label: Canva Autofills API
-  slug: canva-autofills-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-autofills-api-openapi.yml
-- filename: canva-brand-templates-api-openapi.yml
-  format: yaml
-  label: Canva Brand Templates API
-  slug: canva-brand-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-brand-templates-api-openapi.yml
-- filename: canva-comments-api-openapi.yml
-  format: yaml
-  label: Canva Comments API
-  slug: canva-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-comments-api-openapi.yml
-- filename: canva-designs-api-openapi.yml
-  format: yaml
-  label: Canva Designs API
-  slug: canva-designs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-designs-api-openapi.yml
-- filename: canva-exports-api-openapi.yml
-  format: yaml
-  label: Canva Exports API
-  slug: canva-exports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-exports-api-openapi.yml
-- filename: canva-folders-api-openapi.yml
-  format: yaml
-  label: Canva Folders API
-  slug: canva-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-folders-api-openapi.yml
-- filename: canva-resizes-api-openapi.yml
-  format: yaml
-  label: Canva Resizes API
-  slug: canva-resizes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-resizes-api-openapi.yml
-- filename: canva-users-api-openapi.yml
-  format: yaml
-  label: Canva Users API
-  slug: canva-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-users-api-openapi.yml
 - filename: canva-connect-api-openapi.yml
   format: yaml
   label: Canva Connect API
@@ -150,33 +96,118 @@ api_specs:
   slug: canva-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oauth-api-openapi.yml
+- filename: canva-design-generation-api-openapi.yml
+  format: yaml
+  label: Canva Design Generation API
+  slug: canva-design-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-generation-api-openapi.yml
+- filename: canva-image-generation-api-openapi.yml
+  format: yaml
+  label: Canva Image Generation API
+  slug: canva-image-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-image-generation-api-openapi.yml
+- filename: canva-image-transformation-api-openapi.yml
+  format: yaml
+  label: Canva Image Transformation API
+  slug: canva-image-transformation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-image-transformation-api-openapi.yml
+- filename: canva-api-specification-api-openapi.yml
+  format: yaml
+  label: Canva API Specification API
+  slug: canva-api-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-api-specification-api-openapi.yml
+- filename: canva-audit-event-api-openapi.yml
+  format: yaml
+  label: Canva Audit Event API
+  slug: canva-audit-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-audit-event-api-openapi.yml
+- filename: canva-group-api-openapi.yml
+  format: yaml
+  label: Canva Group API
+  slug: canva-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-group-api-openapi.yml
+- filename: canva-group-member-api-openapi.yml
+  format: yaml
+  label: Canva Group Member API
+  slug: canva-group-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-group-member-api-openapi.yml
+- filename: canva-invitation-api-openapi.yml
+  format: yaml
+  label: Canva Invitation API
+  slug: canva-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-invitation-api-openapi.yml
+- filename: canva-key-api-openapi.yml
+  format: yaml
+  label: Canva Key API
+  slug: canva-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-key-api-openapi.yml
+- filename: canva-order-cost-api-openapi.yml
+  format: yaml
+  label: Canva Order Cost API
+  slug: canva-order-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-order-cost-api-openapi.yml
+- filename: canva-order-event-api-openapi.yml
+  format: yaml
+  label: Canva Order Event API
+  slug: canva-order-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-order-event-api-openapi.yml
+- filename: canva-organization-api-openapi.yml
+  format: yaml
+  label: Canva Organization API
+  slug: canva-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-organization-api-openapi.yml
+- filename: canva-team-api-openapi.yml
+  format: yaml
+  label: Canva Team API
+  slug: canva-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-team-api-openapi.yml
+- filename: canva-team-member-api-openapi.yml
+  format: yaml
+  label: Canva Team Member API
+  slug: canva-team-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-team-member-api-openapi.yml
 description: ''
 domains:
-- caa: []
-  dmarc: true
-  dmarc_policy: reject
-  dnssec: true
-  domain: canva.com
-  spf: true
 - caa: []
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: canva.dev
   spf: true
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: true
+  domain: canva.com
+  spf: true
 hosts:
+- cert_expires: Dec  6 10:56:45 2026 GMT
+  host: canva.dev
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
 - cert_expires: Dec 19 23:59:59 2026 GMT
   host: www.canva.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
 - cert_expires: Dec 19 23:59:59 2026 GMT
   host: api.canva.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct  8 07:04:18 2026 GMT
-  host: www.canva.dev
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -186,16 +217,16 @@ layout: security
 method: probed
 name: Canva Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Canva, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Canva, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Canva
 provider_slug: canva
 slug: canva-domain-security
 source_filename: canva-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.canva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: null\n- host: api.canva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: null\n- host: www.canva.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 07:04:18 2026 GMT\n  hsts: null\ndomains:\n- domain: canva.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: canva.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: canva.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 10:56:45 2026 GMT\n  hsts: null\n- host: www.canva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.canva.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: canva.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: canva.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/security/canva-domain-security.yml
-summary_line: TLSv1.3 · DNSSEC · DMARC
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Application
 - Automation

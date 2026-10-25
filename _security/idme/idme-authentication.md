@@ -1,6 +1,31 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: idme-applications-openapi-generated.yml
+  format: yaml
+  label: ID.me applications API
+  slug: applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-applications-openapi-generated.yml
+- filename: idme-core-openapi-generated.yml
+  format: yaml
+  label: ID.me core API
+  slug: core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-core-openapi-generated.yml
+- filename: idme-document-passback-openapi-generated.yml
+  format: yaml
+  label: ID.me document passback API
+  slug: document-passback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-document-passback-openapi-generated.yml
+- filename: idme-services-openapi-generated.yml
+  format: yaml
+  label: ID.me services API
+  slug: services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-services-openapi-generated.yml
 auth_types:
 - oauth2
 - openIdConnect

@@ -57,7 +57,7 @@ domains:
   domain: delx.ai
   spf: true
 hosts:
-- cert_expires: Nov 12 21:05:40 2026 GMT
+- cert_expires: Jan 12 07:42:05 2027 GMT
   host: delx.ai
   hsts: true
   hsts_max_age: 63072000
@@ -69,7 +69,7 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  4 21:19:57 2026 GMT
+- cert_expires: Jan  3 20:23:15 2027 GMT
   host: api.delx.ai
   hsts: true
   hsts_max_age: 31536000
@@ -88,7 +88,7 @@ slug: delx-ai-domain-security
 source_filename: delx-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 21:05:40 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ontology.delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 22:37:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 21:19:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: delx.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 07:42:05 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ontology.delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 22:37:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.delx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 20:23:15 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: delx.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/security/delx-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

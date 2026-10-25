@@ -243,19 +243,19 @@ domains:
   domain: eliq.com
   spf: true
 hosts:
-- cert_expires: Nov 25 11:59:37 2026 GMT
+- cert_expires: Jan 16 15:10:35 2027 GMT
   host: eliq.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 14 15:00:19 2026 GMT
+- cert_expires: Dec 12 16:42:01 2026 GMT
   host: developer.eliq.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 10 04:26:54 2026 GMT
+- cert_expires: Jan 12 04:26:54 2027 GMT
   host: auth-api.eliq.com
   hsts: null
   https: true
@@ -273,7 +273,7 @@ slug: eliq-domain-security
 source_filename: eliq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 11:59:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 15:00:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth-api.eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 04:26:54 2026 GMT\n  hsts: null\ndomains:\n- domain: eliq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 15:10:35 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 16:42:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: auth-api.eliq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 04:26:54 2027 GMT\n  hsts: null\ndomains:\n- domain: eliq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/security/eliq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

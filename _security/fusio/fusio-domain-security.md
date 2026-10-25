@@ -261,17 +261,17 @@ domains:
   domain: fusio-project.org
   spf: true
 hosts:
-- cert_expires: Nov  7 04:47:51 2026 GMT
-  host: docs.fusio-project.org
-  hsts: false
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Nov  4 11:14:03 2026 GMT
+- cert_expires: Jan  3 14:32:31 2027 GMT
   host: www.fusio-project.org
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  6 13:34:38 2026 GMT
+- cert_expires: Jan  6 10:20:51 2027 GMT
+  host: docs.fusio-project.org
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Jan  5 17:28:13 2027 GMT
   host: demo.fusio-project.org
   hsts: false
   https: true
@@ -289,7 +289,7 @@ slug: fusio-domain-security
 source_filename: fusio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 04:47:51 2026 GMT\n  hsts: false\n- host: www.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 11:14:03 2026 GMT\n  hsts: false\n- host: demo.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 13:34:38 2026 GMT\n  hsts: false\ndomains:\n- domain: fusio-project.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 14:32:31 2027 GMT\n  hsts: false\n- host: docs.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 10:20:51 2027 GMT\n  hsts: false\n- host: demo.fusio-project.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 17:28:13 2027 GMT\n  hsts: false\ndomains:\n- domain: fusio-project.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/security/fusio-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

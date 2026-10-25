@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: npp-australia-openapi-generated.yml
+  format: yaml
+  label: NPP Australia (AP+) API
+  slug: npp-australia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/openapi/_ae-authored/npp-australia-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +15,7 @@ domains:
   domain: auspayplus.com.au
   spf: true
 hosts:
-- cert_expires: Oct 17 17:10:00 2026 GMT
+- cert_expires: Dec 15 19:18:04 2026 GMT
   host: www.auspayplus.com.au
   hsts: true
   hsts_max_age: 10886400
@@ -27,7 +34,7 @@ slug: npp-australia-domain-security
 source_filename: npp-australia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.auspayplus.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 17:10:00 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: auspayplus.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.auspayplus.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 19:18:04 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: auspayplus.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/security/npp-australia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -37,7 +44,7 @@ tags:
 - Account-to-Account
 - ISO 20022
 - Payment Scheme
-- Rails
+- Payment Rails
 - PayTo
 - PayID
 - Open Banking

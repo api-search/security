@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: data-gov-au-openapi-generated.yml
+  format: yaml
+  label: data.gov.au Federal API
+  slug: data-gov-au-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/data-gov-au/refs/heads/main/openapi/_ae-authored/data-gov-au-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -8,9 +15,9 @@ domains:
   domain: data.gov.au
   spf: true
 hosts:
-- cert_expires: Nov 12 23:59:59 2026 GMT
+- cert_expires: Mar 30 23:59:59 2027 GMT
   host: data.gov.au
-  hsts: false
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -26,7 +33,7 @@ slug: data-gov-au-domain-security
 source_filename: data-gov-au-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: data.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: data.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-gov-au/refs/heads/main/security/data-gov-au-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -37,4 +44,6 @@ tags:
 - Government Data
 - National Government
 - Australia
+- Federal Government
+- Public Sector
 ---

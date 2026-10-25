@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: postman_collection.quickstreamapi.json
+  format: json
+  label: Westpac QuickStream REST API
+  slug: westpac-quickstream-rest-api
+  spec_type: Postman
+  url: https://quickstream.westpac.com.au/docs/downloads/postman_collection.quickstreamapi.json
 - filename: westpac-banking-account-balances-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Balances API
@@ -45,43 +51,54 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "amazonaws.com"
-  - 0 issue "amazontrust.com"
-  - 0 issue "awstrust.com"
   - 0 issue "digicert.com"
   - 0 issue "entrust.net"
   - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: westpac.com.au
   spf: true
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: payway.com.au
+  spf: true
 hosts:
-- cert_expires: Oct  3 23:59:59 2026 GMT
+- cert_expires: Mar 19 23:59:59 2027 GMT
   host: www.westpac.com.au
   hsts: true
-  hsts_max_age: 16070400
+  hsts_max_age: 31557600
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  3 23:59:59 2026 GMT
-  host: digital-api.westpac.com.au
+- cert_expires: Apr  6 23:59:59 2027 GMT
+  host: www.payway.com.au
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+- cert_expires: Apr  6 23:59:59 2027 GMT
+  host: api.payway.com.au
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Westpac Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Westpac, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Westpac, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Westpac
 provider_slug: westpac
 slug: westpac-domain-security
 source_filename: westpac-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.westpac.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: digital-api.westpac.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: westpac.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.westpac.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: www.payway.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\n- host: api.payway.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: westpac.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: payway.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/security/westpac-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

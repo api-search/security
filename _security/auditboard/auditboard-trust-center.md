@@ -1,34 +1,27 @@
 ---
-certification_count: 13
+certification_count: 6
 certifications:
+- SOC 2
 - ISO 27001
-- SOC 1 Type II
-- SOC 2 Type II
-- NIST 800-53
-- SSAE-18
-- Cloud Security Alliance STAR
 - HIPAA
-- FedRAMP (Moderate)
+- FedRAMP
 - GDPR
-- CCPA
-- HECVAT
-- TX-RAMP
-- VPAT
+- CSA STAR
 description: ''
 kind: trust-center
 layout: security
 name: Auditboard Trust Center
 name_suffix: Trust Center
-overview: AuditBoard maintains a public trust center documenting ISO 27001, SOC 1 Type II, SOC 2 Type II, NIST 800-53, SSAE-18, Cloud Security Alliance STAR, HIPAA, FedRAMP (Moderate), GDPR, CCPA, HECVAT, TX-RAMP, and VPAT compliance.
+overview: AuditBoard maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: AuditBoard
 provider_slug: auditboard
 slug: auditboard-trust-center
 source_filename: auditboard-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nurl: https://trust.optro.ai/\ntitle: Optro | Trust Center\nnote: AuditBoard rebranded to Optro; trust center now hosted at trust.optro.ai (formerly trust.auditboard.com).\ncertifications:\n  - ISO 27001\n  - SOC 1 Type II\n  - SOC 2 Type II\n  - NIST 800-53\n  - SSAE-18\n  - Cloud Security Alliance STAR\n  - HIPAA\n  - FedRAMP (Moderate)\n  - GDPR\n  - CCPA\n  - HECVAT\n  - TX-RAMP\n  - VPAT\nevidence:\n  - source: https://trust.optro.ai/\n    keywords: [trust center, iso 27001, soc 2 type ii, fedramp, hipaa, csa star]\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.optro.ai/\nurl: https://trust.optro.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.optro.ai/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/security/auditboard-trust-center.yml
-summary_line: ISO 27001, SOC 1 Type II, SOC 2 Type II, NIST 800-53, SSAE-18, Cloud Security Alliance STAR, HIPAA, FedRAMP (Moderate), GDPR, CCPA, HECVAT, TX-RAMP, VPAT
+summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, CSA STAR
 tags:
 - Company
 - GRC

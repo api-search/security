@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: macropoint-telematics
+- filename: descartes-3rd-party-tms-integration-api-openapi.yml
   format: yaml
-  label: Descartes MacroPoint Carrier Integration API
-  slug: descartes-macropoint-carrier-api
-  spec_type: Postman
-  url: https://www.postman.com/macropoint-telematics
+  label: Descartes Systems Group 3rd Party TMS Integration API
+  slug: descartes-3rd-party-tms-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-3rd-party-tms-integration-api-openapi.yml
+- filename: descartes-api-xml-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group API - XML API
+  slug: descartes-api-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-api-xml-api-openapi.yml
+- filename: descartes-carrier-data-connection-and-communication-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Carrier Data Connection and Communication API
+  slug: descartes-carrier-data-connection-and-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-carrier-data-connection-and-communication-api-openapi.yml
+- filename: descartes-custom-integration-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Custom Integration API
+  slug: descartes-custom-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-custom-integration-api-openapi.yml
+- filename: descartes-export-api-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Export API
+  slug: descartes-export-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-export-api-api-openapi.yml
+- filename: descartes-fraudguard-carrier-and-load-lookup-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group FraudGuard Carrier and Load Lookup API
+  slug: descartes-fraudguard-carrier-and-load-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-fraudguard-carrier-and-load-lookup-api-openapi.yml
+- filename: descartes-import-api-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Import API
+  slug: descartes-import-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-import-api-api-openapi.yml
+- filename: descartes-load-visibility-order-creation-xml-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Load Visibility Order Creation - XML API
+  slug: descartes-load-visibility-order-creation-xml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-load-visibility-order-creation-xml-api-openapi.yml
+- filename: descartes-load-visibility-url-and-data-export-retrieval-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Load Visibility URL and Data Export Retrieval API
+  slug: descartes-load-visibility-url-and-data-export-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-load-visibility-url-and-data-export-retrieval-api-openapi.yml
+- filename: descartes-search-api-api-openapi.yml
+  format: yaml
+  label: Descartes Systems Group Search API
+  slug: descartes-search-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/openapi/descartes-search-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -27,7 +81,7 @@ hosts:
   hsts_max_age: 300
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 19 07:24:44 2026 GMT
+- cert_expires: Dec 17 08:22:36 2026 GMT
   host: docs.macropoint.com
   hsts: true
   hsts_max_age: 31536000
@@ -51,7 +105,7 @@ slug: descartes-domain-security
 source_filename: descartes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.descartes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: docs.macropoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 07:24:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: macropoint-lite.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: descartes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: macropoint.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.descartes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: docs.macropoint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 08:22:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: macropoint-lite.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: descartes.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: macropoint.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/security/descartes-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

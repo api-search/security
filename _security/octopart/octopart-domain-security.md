@@ -8,7 +8,7 @@ domains:
   domain: octopart.com
   spf: true
 hosts:
-- cert_expires: Aug 16 15:14:11 2026 GMT
+- cert_expires: Dec 12 14:58:55 2026 GMT
   host: octopart.com
   hsts: null
   https: true
@@ -26,7 +26,7 @@ slug: octopart-domain-security
 source_filename: octopart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octopart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 15:14:11 2026 GMT\n  hsts: null\ndomains:\n- domain: octopart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: octopart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 14:58:55 2026 GMT\n  hsts: null\ndomains:\n- domain: octopart.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octopart/refs/heads/main/security/octopart-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

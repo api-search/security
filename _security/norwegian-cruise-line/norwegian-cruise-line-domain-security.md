@@ -7,7 +7,7 @@ domains:
   domain: nclhltd.com
   spf: true
 hosts:
-- cert_expires: Sep  9 08:02:00 2026 GMT
+- cert_expires: Jan  7 08:02:04 2027 GMT
   host: www.nclhltd.com
   hsts: true
   hsts_max_age: 31536000
@@ -26,7 +26,7 @@ slug: norwegian-cruise-line-domain-security
 source_filename: norwegian-cruise-line-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nclhltd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 08:02:00 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nclhltd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nclhltd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 08:02:04 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nclhltd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/norwegian-cruise-line/refs/heads/main/security/norwegian-cruise-line-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:

@@ -9,30 +9,30 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
-  - 0 issue "sectigo.com"
-  - 0 issue "amazon.com"
   - 0 issue "amazonaws.com"
   - 0 issue "amazontrust.com"
   - 0 issue "awstrust.com"
+  - 0 issue "digicert.com"
+  - 0 issue "entrust.net"
+  - 0 issue "godaddy.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: auspost.com.au
   spf: true
 hosts:
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Apr 15 23:59:59 2027 GMT
   host: auspost.com.au
   hsts: true
-  hsts_max_age: 15552001
+  hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Apr 15 23:59:59 2027 GMT
   host: digitalapi.auspost.com.au
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Apr 15 23:59:59 2027 GMT
   host: developers.auspost.com.au
   hsts: false
   https: true
@@ -50,7 +50,7 @@ slug: australia-post-domain-security
 source_filename: australia-post-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552001\n- host: digitalapi.auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\n- host: developers.auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: auspost.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: digitalapi.auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 15 23:59:59 2027 GMT\n  hsts: null\n- host: developers.auspost.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 15 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: auspost.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/security/australia-post-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

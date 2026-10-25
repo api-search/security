@@ -14,12 +14,6 @@ api_specs:
   slug: certifyos-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-auth-api-openapi.yml
-- filename: certifyos-auth-tokens-api-openapi.yml
-  format: yaml
-  label: Certifyos Auth Tokens API
-  slug: certifyos-auth-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-auth-tokens-api-openapi.yml
 - filename: certifyos-contracts-api-openapi.yml
   format: yaml
   label: Certifyos Contracts API
@@ -32,12 +26,6 @@ api_specs:
   slug: certifyos-credentialing-outreach-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-credentialing-outreach-resource-api-openapi.yml
-- filename: certifyos-credentialing-workflows-api-openapi.yml
-  format: yaml
-  label: Certifyos Credentialing Workflows API
-  slug: certifyos-credentialing-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-credentialing-workflows-api-openapi.yml
 - filename: certifyos-credentialingworkflow-api-openapi.yml
   format: yaml
   label: Certifyos Credentialing Workflow API
@@ -110,24 +98,12 @@ api_specs:
   slug: certifyos-flagcalculator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-flagcalculator-api-openapi.yml
-- filename: certifyos-flags-api-openapi.yml
-  format: yaml
-  label: Certifyos Flags API
-  slug: certifyos-flags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-flags-api-openapi.yml
 - filename: certifyos-form-submissions-api-openapi.yml
   format: yaml
   label: Certifyos Form Submissions API
   slug: certifyos-form-submissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-form-submissions-api-openapi.yml
-- filename: certifyos-forms-api-openapi.yml
-  format: yaml
-  label: Certifyos Forms API
-  slug: certifyos-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-forms-api-openapi.yml
 - filename: certifyos-group-api-openapi.yml
   format: yaml
   label: Certifyos Group API
@@ -140,24 +116,12 @@ api_specs:
   slug: certifyos-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-locations-api-openapi.yml
-- filename: certifyos-monitoringrun-api-openapi.yml
-  format: yaml
-  label: Certifyos Monitoring Run API
-  slug: certifyos-monitoringrun-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-monitoringrun-api-openapi.yml
 - filename: certifyos-monitoringworkflow-api-openapi.yml
   format: yaml
   label: Certifyos Monitoring Workflow API
   slug: certifyos-monitoringworkflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-monitoringworkflow-api-openapi.yml
-- filename: certifyos-monitoringworkflownote-api-openapi.yml
-  format: yaml
-  label: Certifyos Monitoring Workflow Note API
-  slug: certifyos-monitoringworkflownote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-monitoringworkflownote-api-openapi.yml
 - filename: certifyos-network-api-openapi.yml
   format: yaml
   label: Certifyos Network API
@@ -206,12 +170,6 @@ api_specs:
   slug: certifyos-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-practitioner-api-openapi.yml
-- filename: certifyos-providers-api-openapi.yml
-  format: yaml
-  label: Certifyos Providers API
-  slug: certifyos-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-providers-api-openapi.yml
 - filename: certifyos-role-api-openapi.yml
   format: yaml
   label: Certifyos Role API
@@ -284,54 +242,6 @@ api_specs:
   slug: certifyos-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-user-api-openapi.yml
-- filename: certifyos-v2-credentialing-workflows-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/credentialing Workflows API
-  slug: certifyos-v2-credentialing-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-credentialing-workflows-api-openapi.yml
-- filename: certifyos-v2-facilities-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/facilities API
-  slug: certifyos-v2-facilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-facilities-api-openapi.yml
-- filename: certifyos-v2-facility-credentialing-workflows-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/facility Credentialing Workflows API
-  slug: certifyos-v2-facility-credentialing-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-facility-credentialing-workflows-api-openapi.yml
-- filename: certifyos-v2-flags-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/flags API
-  slug: certifyos-v2-flags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-flags-api-openapi.yml
-- filename: certifyos-v2-groups-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/groups API
-  slug: certifyos-v2-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-groups-api-openapi.yml
-- filename: certifyos-v2-provider-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/provider API
-  slug: certifyos-v2-provider-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-provider-api-openapi.yml
-- filename: certifyos-v2-provider-with-groups-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/provider With Groups API
-  slug: certifyos-v2-provider-with-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-provider-with-groups-api-openapi.yml
-- filename: certifyos-v2-providers-api-openapi.yml
-  format: yaml
-  label: Certifyos V2/providers API
-  slug: certifyos-v2-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-v2-providers-api-openapi.yml
 - filename: certifyos-webhook-api-openapi.yml
   format: yaml
   label: Certifyos Webhook API
@@ -344,6 +254,120 @@ api_specs:
   slug: certifyos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-webhooks-api-openapi.yml
+- filename: certifyos-agentruns-api-openapi.yml
+  format: yaml
+  label: Certifyos Agent Runs API
+  slug: certifyos-agentruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-agentruns-api-openapi.yml
+- filename: certifyos-anchorgroup-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Group API
+  slug: certifyos-anchorgroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorgroup-api-openapi.yml
+- filename: certifyos-anchorgroupoutreachsettings-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Group Outreach Settings API
+  slug: certifyos-anchorgroupoutreachsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorgroupoutreachsettings-api-openapi.yml
+- filename: certifyos-anchorgrouppractitioner-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Group Practitioner API
+  slug: certifyos-anchorgrouppractitioner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorgrouppractitioner-api-openapi.yml
+- filename: certifyos-anchorgrouptenant-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Group Tenant API
+  slug: certifyos-anchorgrouptenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorgrouptenant-api-openapi.yml
+- filename: certifyos-anchoroverride-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Override API
+  slug: certifyos-anchoroverride-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchoroverride-api-openapi.yml
+- filename: certifyos-anchorrecomputation-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Recomputation API
+  slug: certifyos-anchorrecomputation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorrecomputation-api-openapi.yml
+- filename: certifyos-anchorrecomputationworker-api-openapi.yml
+  format: yaml
+  label: Certifyos Anchor Recomputation Worker API
+  slug: certifyos-anchorrecomputationworker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-anchorrecomputationworker-api-openapi.yml
+- filename: certifyos-atc-api-openapi.yml
+  format: yaml
+  label: Certifyos ATC API
+  slug: certifyos-atc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-atc-api-openapi.yml
+- filename: certifyos-caqh-credentialing-snapshots-api-openapi.yml
+  format: yaml
+  label: Certifyos CAQH Credentialing Snapshots API
+  slug: certifyos-caqh-credentialing-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-caqh-credentialing-snapshots-api-openapi.yml
+- filename: certifyos-documentworker-api-openapi.yml
+  format: yaml
+  label: Certifyos Document Worker API
+  slug: certifyos-documentworker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-documentworker-api-openapi.yml
+- filename: certifyos-flag-bulk-job-api-openapi.yml
+  format: yaml
+  label: Certifyos Flag Bulk Job API
+  slug: certifyos-flag-bulk-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-flag-bulk-job-api-openapi.yml
+- filename: certifyos-provider-outreach-portal-resource-api-openapi.yml
+  format: yaml
+  label: Certifyos Provider Outreach Portal Resource API
+  slug: certifyos-provider-outreach-portal-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-provider-outreach-portal-resource-api-openapi.yml
+- filename: certifyos-sharedcredentialingpractitionerstatus-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Credentialing Practitioner Status API
+  slug: certifyos-sharedcredentialingpractitionerstatus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedcredentialingpractitionerstatus-api-openapi.yml
+- filename: certifyos-sharedcredentialingsections-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Credentialing Sections API
+  slug: certifyos-sharedcredentialingsections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedcredentialingsections-api-openapi.yml
+- filename: certifyos-sharedcredentialingworkflow-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Credentialing Workflow API
+  slug: certifyos-sharedcredentialingworkflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedcredentialingworkflow-api-openapi.yml
+- filename: certifyos-sharedmemberstatuschange-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Member Status Change API
+  slug: certifyos-sharedmemberstatuschange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedmemberstatuschange-api-openapi.yml
+- filename: certifyos-sharedoutreachrecipients-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Outreach Recipients API
+  slug: certifyos-sharedoutreachrecipients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedoutreachrecipients-api-openapi.yml
+- filename: certifyos-sharedtimelineevent-api-openapi.yml
+  format: yaml
+  label: Certifyos Shared Timeline Event API
+  slug: certifyos-sharedtimelineevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/openapi/certifyos-sharedtimelineevent-api-openapi.yml
 auth_types:
 - http
 description: ''

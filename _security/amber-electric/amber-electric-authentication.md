@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: amber-electric-sites-api-openapi.yml
+- filename: amber-electric-amber-api-openapi.yml
   format: yaml
-  label: Amber Electric Sites API
-  slug: amber-electric-sites-api
+  label: Amber Electric Amber API
+  slug: amber-electric-amber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/openapi/amber-electric-sites-api-openapi.yml
-- filename: amber-electric-state-api-openapi.yml
-  format: yaml
-  label: Amber Electric State API
-  slug: amber-electric-state-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/openapi/amber-electric-state-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/openapi/amber-electric-amber-api-openapi.yml
 auth_types:
 - http
 - openIdConnect

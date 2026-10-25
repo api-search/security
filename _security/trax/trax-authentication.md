@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: trax-openapi-generated.yml
+  format: yaml
+  label: Trax API
+  slug: trax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trax/refs/heads/main/openapi/_ae-authored/trax-openapi-generated.yml
 auth_types:
 - http
 - oauth2

@@ -8,7 +8,7 @@ domains:
   domain: safegraph.com
   spf: true
 hosts:
-- cert_expires: Aug 29 14:49:04 2026 GMT
+- cert_expires: Dec 25 23:32:06 2026 GMT
   host: www.safegraph.com
   hsts: false
   https: true
@@ -26,7 +26,7 @@ slug: safegraph-domain-security
 source_filename: safegraph-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.safegraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 14:49:04 2026 GMT\n  hsts: false\ndomains:\n- domain: safegraph.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.safegraph.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:32:06 2026 GMT\n  hsts: false\ndomains:\n- domain: safegraph.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safegraph/refs/heads/main/security/safegraph-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

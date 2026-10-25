@@ -8,7 +8,7 @@ domains:
   domain: ecolab.com
   spf: true
 hosts:
-- cert_expires: Oct  8 23:59:59 2026 GMT
+- cert_expires: Feb 24 23:59:59 2027 GMT
   host: www.ecolab.com
   hsts: null
   https: true
@@ -26,7 +26,7 @@ slug: ecolab-domain-security
 source_filename: ecolab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ecolab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ecolab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ecolab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: ecolab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/security/ecolab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

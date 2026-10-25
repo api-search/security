@@ -186,6 +186,84 @@ api_specs:
   slug: adro1b33-verifier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-verifier-api-openapi.yml
+- filename: adro1b33-agent-api-openapi.yml
+  format: yaml
+  label: ADRO Agent API
+  slug: adro1b33-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-agent-api-openapi.yml
+- filename: adro1b33-comment-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Notifications API
+  slug: adro1b33-comment-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-notifications-api-openapi.yml
+- filename: adro1b33-comment-threads-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Threads API
+  slug: adro1b33-comment-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-threads-api-openapi.yml
+- filename: adro1b33-comments-api-openapi.yml
+  format: yaml
+  label: ADRO Comments API
+  slug: adro1b33-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comments-api-openapi.yml
+- filename: adro1b33-cwt-api-openapi.yml
+  format: yaml
+  label: ADRO Cwt API
+  slug: adro1b33-cwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-cwt-api-openapi.yml
+- filename: adro1b33-geometry-cleaning-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Cleaning API
+  slug: adro1b33-geometry-cleaning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-cleaning-api-openapi.yml
+- filename: adro1b33-geometry-versions-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Versions API
+  slug: adro1b33-geometry-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-versions-api-openapi.yml
+- filename: adro1b33-internal-api-openapi.yml
+  format: yaml
+  label: ADRO Internal API
+  slug: adro1b33-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-internal-api-openapi.yml
+- filename: adro1b33-landing-announcements-api-openapi.yml
+  format: yaml
+  label: ADRO Landing Announcements API
+  slug: adro1b33-landing-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-landing-announcements-api-openapi.yml
+- filename: adro1b33-marine-api-openapi.yml
+  format: yaml
+  label: ADRO Marine API
+  slug: adro1b33-marine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-marine-api-openapi.yml
+- filename: adro1b33-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Notifications API
+  slug: adro1b33-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-notifications-api-openapi.yml
+- filename: adro1b33-special-offer-api-openapi.yml
+  format: yaml
+  label: ADRO Special Offer API
+  slug: adro1b33-special-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-special-offer-api-openapi.yml
+- filename: adro1b33-student-team-api-openapi.yml
+  format: yaml
+  label: ADRO Student Team API
+  slug: adro1b33-student-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-student-team-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -201,7 +279,7 @@ domains:
   domain: aoxlabs.com
   spf: true
 hosts:
-- cert_expires: Nov  5 20:12:35 2026 GMT
+- cert_expires: Jan  4 02:48:01 2027 GMT
   host: adro.com
   hsts: true
   hsts_max_age: 7889238
@@ -215,7 +293,6 @@ hosts:
 - cert_expires: Feb  2 23:59:59 2027 GMT
   host: api.aoxlabs.com
   hsts: null
-  hsts_correction: 'The automated probe recorded null, but api.aoxlabs.com DOES return `strict-transport-security: max-age=31536000; includeSubDomains; preload` on live responses (observed 2026-09-07 on GET /board/, GET /health/ and POST /accounts/login/). The host also returns x-frame-options DENY, x-content-type-options nosniff, referrer-policy same-origin and cross-origin-opener-policy same-origin — the Django security-middleware defaults, correctly on.'
   https: true
   tls_version: TLSv1.2
 hosts_probed: 3
@@ -231,8 +308,7 @@ slug: adro1b33-domain-security
 source_filename: adro1b33-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 20:12:35 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: aoxlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: false\n- host: api.aoxlabs.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: null\n  hsts_correction: >-\n    The automated probe recorded null, but api.aoxlabs.com DOES return\n    `strict-transport-security: max-age=31536000; includeSubDomains; preload` on live responses\n    (observed 2026-09-07 on GET /board/, GET /health/ and POST /accounts/login/). The host also\n    returns x-frame-options DENY, x-content-type-options nosniff, referrer-policy same-origin and\n    cross-origin-opener-policy same-origin — the Django security-middleware defaults, correctly on.\ndomains:\n- domain:\
-  \ adro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: aoxlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 02:48:01 2027 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: aoxlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: false\n- host: api.aoxlabs.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: aoxlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/security/adro1b33-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

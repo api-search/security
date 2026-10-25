@@ -1,6 +1,73 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: armis-alerts-api-openapi.yml
+  format: yaml
+  label: Armis Alerts API
+  slug: armis-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-alerts-api-openapi.yml
+- filename: armis-arp-api-openapi.yml
+  format: yaml
+  label: Armis ARP API
+  slug: armis-arp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-arp-api-openapi.yml
+- filename: armis-assets-api-openapi.yml
+  format: yaml
+  label: Armis Assets API
+  slug: armis-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-assets-api-openapi.yml
+- filename: armis-authentication-api-openapi.yml
+  format: yaml
+  label: Armis Authentication API
+  slug: armis-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-authentication-api-openapi.yml
+- filename: armis-boundaries-api-openapi.yml
+  format: yaml
+  label: Armis Boundaries API
+  slug: armis-boundaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-boundaries-api-openapi.yml
+- filename: armis-collectors-api-openapi.yml
+  format: yaml
+  label: Armis Collectors API
+  slug: armis-collectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-collectors-api-openapi.yml
+- filename: armis-data-export-api-openapi.yml
+  format: yaml
+  label: Armis Data Export API
+  slug: armis-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-data-export-api-openapi.yml
+- filename: armis-device-custom-properties-api-openapi.yml
+  format: yaml
+  label: Armis Device Custom Properties API
+  slug: armis-device-custom-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-device-custom-properties-api-openapi.yml
+- filename: armis-integrations-api-openapi.yml
+  format: yaml
+  label: Armis Integrations API
+  slug: armis-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-integrations-api-openapi.yml
+- filename: armis-policies-api-openapi.yml
+  format: yaml
+  label: Armis Policies API
+  slug: armis-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-policies-api-openapi.yml
+- filename: armis-sites-api-openapi.yml
+  format: yaml
+  label: Armis Sites API
+  slug: armis-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-sites-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

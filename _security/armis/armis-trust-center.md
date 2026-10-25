@@ -1,36 +1,94 @@
 ---
-certification_count: 15
+api_specs:
+- filename: armis-alerts-api-openapi.yml
+  format: yaml
+  label: Armis Alerts API
+  slug: armis-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-alerts-api-openapi.yml
+- filename: armis-arp-api-openapi.yml
+  format: yaml
+  label: Armis ARP API
+  slug: armis-arp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-arp-api-openapi.yml
+- filename: armis-assets-api-openapi.yml
+  format: yaml
+  label: Armis Assets API
+  slug: armis-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-assets-api-openapi.yml
+- filename: armis-authentication-api-openapi.yml
+  format: yaml
+  label: Armis Authentication API
+  slug: armis-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-authentication-api-openapi.yml
+- filename: armis-boundaries-api-openapi.yml
+  format: yaml
+  label: Armis Boundaries API
+  slug: armis-boundaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-boundaries-api-openapi.yml
+- filename: armis-collectors-api-openapi.yml
+  format: yaml
+  label: Armis Collectors API
+  slug: armis-collectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-collectors-api-openapi.yml
+- filename: armis-data-export-api-openapi.yml
+  format: yaml
+  label: Armis Data Export API
+  slug: armis-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-data-export-api-openapi.yml
+- filename: armis-device-custom-properties-api-openapi.yml
+  format: yaml
+  label: Armis Device Custom Properties API
+  slug: armis-device-custom-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-device-custom-properties-api-openapi.yml
+- filename: armis-integrations-api-openapi.yml
+  format: yaml
+  label: Armis Integrations API
+  slug: armis-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-integrations-api-openapi.yml
+- filename: armis-policies-api-openapi.yml
+  format: yaml
+  label: Armis Policies API
+  slug: armis-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-policies-api-openapi.yml
+- filename: armis-sites-api-openapi.yml
+  format: yaml
+  label: Armis Sites API
+  slug: armis-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-sites-api-openapi.yml
+certification_count: 6
 certifications:
 - SOC 2
-- ISO/IEC 27001
-- ISO/IEC 27001 SoA
-- ISO/IEC 27017:2015
-- ISO/IEC 27018:2019
-- ISO/IEC 42001:2023
-- FedRAMP Certified (Class C)
-- DoD IL5
-- TX-RAMP Level 2
-- CSA STAR Level 1
-- C5
-- Cyber Essentials
-- ENS
-- TISAX
-- VPAT
+- ISO 27001
+- ISO 27017
+- ISO 27018
+- FedRAMP
+- CSA STAR
 description: ''
 kind: trust-center
 layout: security
 name: Armis Trust Center
 name_suffix: Trust Center
-overview: Armis maintains a public trust center documenting SOC 2, ISO/IEC 27001, ISO/IEC 27001 SoA, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 42001:2023, FedRAMP Certified (Class C), DoD IL5, TX-RAMP Level 2, CSA STAR Level 1, C5, Cyber Essentials, ENS, TISAX, and VPAT compliance.
+overview: Armis maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, FedRAMP, and CSA STAR compliance.
 provider_name: Armis
 provider_slug: armis
 slug: armis-trust-center
 source_filename: armis-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://trust.armis.com/\nurl: https://trust.armis.com/\ncertifications:\n- SOC 2\n- ISO/IEC 27001\n- ISO/IEC 27001 SoA\n- ISO/IEC 27017:2015\n- ISO/IEC 27018:2019\n- ISO/IEC 42001:2023\n- FedRAMP Certified (Class C)\n- DoD IL5\n- TX-RAMP Level 2\n- CSA STAR Level 1\n- C5\n- Cyber Essentials\n- ENS\n- TISAX\n- VPAT\ncompliance_programs:\n- SOC 2\n- ISO/IEC 27001\n- FedRAMP\n- CSA STAR\nevidence:\n- source: https://trust.armis.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - iso/iec 27017\n  - iso/iec 27018\n  - iso/iec 42001\n  - fedramp\n  - dod il5\n  - csa star\n  - trust center\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.armis.com/\nurl: https://trust.armis.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- FedRAMP\n- CSA STAR\nevidence:\n- source: https://trust.armis.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - fedramp\n  - trust center\n  - csa star\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/security/armis-trust-center.yml
-summary_line: SOC 2, ISO/IEC 27001, ISO/IEC 27001 SoA, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 42001:2023, FedRAMP Certified (Class C), DoD IL5, TX-RAMP Level 2, CSA STAR Level 1, C5, Cyber Essentials, ENS, TISAX, VPAT
+summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, FedRAMP, CSA STAR
 tags:
 - Company
 - Defense Government

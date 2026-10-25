@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: forcepoint-openapi-generated.yml
+  format: yaml
+  label: Forcepoint DLP REST API
+  slug: forcepoint-dlp-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/openapi/_ae-authored/forcepoint-openapi-generated.yml
 auth_types:
 - oauth2
 - apiKey

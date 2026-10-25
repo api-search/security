@@ -8,13 +8,13 @@ domains:
   domain: 75f.io
   spf: true
 hosts:
-- cert_expires: Nov  6 16:13:48 2026 GMT
+- cert_expires: Jan  5 17:43:49 2027 GMT
   host: www.75f.io
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 22 23:42:27 2026 GMT
+- cert_expires: Dec 21 23:41:57 2026 GMT
   host: support.75f.io
   hsts: true
   hsts_max_age: 259200
@@ -38,7 +38,7 @@ slug: 75f-domain-security
 source_filename: 75f-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 16:13:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:42:27 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: 75f.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 17:43:49 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:41:57 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.75f.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: 75f.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/75f/refs/heads/main/security/75f-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

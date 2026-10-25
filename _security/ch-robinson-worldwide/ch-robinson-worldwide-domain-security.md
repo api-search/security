@@ -64,25 +64,25 @@ domains:
   spf: true
 - caa: []
   dmarc: true
-  dmarc_policy: quarantine
+  dmarc_policy: reject
   dnssec: false
   domain: navisphere.com
   spf: true
 hosts:
-- cert_expires: Oct  7 03:48:53 2026 GMT
+- cert_expires: Dec  5 04:38:06 2026 GMT
   host: www.chrobinson.com
   hsts: true
   hsts_max_age: 16070400
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  7 03:24:35 2026 GMT
+- cert_expires: Dec  5 04:05:14 2026 GMT
   host: developer.chrobinson.com
   hsts: true
   hsts_max_age: 16070400
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 10 16:45:44 2026 GMT
-  host: sandbox-api.navisphere.com
+- cert_expires: Feb 11 06:00:08 2027 GMT
+  host: api.navisphere.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -99,7 +99,7 @@ slug: ch-robinson-worldwide-domain-security
 source_filename: ch-robinson-worldwide-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:48:53 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: developer.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 03:24:35 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: sandbox-api.navisphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 16:45:44 2026 GMT\n  hsts: null\ndomains:\n- domain: chrobinson.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: navisphere.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:38:06 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: developer.chrobinson.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 04:05:14 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: api.navisphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 06:00:08 2027 GMT\n  hsts: null\ndomains:\n- domain: chrobinson.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: navisphere.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/security/ch-robinson-worldwide-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

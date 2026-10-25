@@ -99,7 +99,7 @@ slug: whiteclover-ai-domain-security
 source_filename: whiteclover-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: whiteclover.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 16:57:37 2026 GMT\n  hsts: false\ndomains:\n- domain: whiteclover.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: whiteclover.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 16:57:37 2026 GMT\n  hsts: false\ndomains:\n- domain: whiteclover.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whiteclover-ai/refs/heads/main/security/whiteclover-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

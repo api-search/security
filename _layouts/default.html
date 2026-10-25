@@ -233,6 +233,28 @@
       });
     </script>
 
+    <!-- First-touch source (2026-10-19). Records HOW someone first reached APIs.io — the
+         referring HOST (never the full URL), utm_source/medium/campaign, the landing path,
+         the date — in a first-party cookie, ONCE, never overwritten. The sign-in Lambda copies
+         it onto a new account as `signup_source` so signups can be counted by channel. No IDs,
+         nothing sent anywhere else; internal navigation and our own sites are not a source. -->
+    <script>
+      (function () {
+        try {
+          if (document.cookie.indexOf('apisio_src=') !== -1) return;
+          var ref = '';
+          try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+          if (/(^|\.)(apis\.io|apievangelist\.com|apis\.how|apicommons\.org|apisjson\.org)$/.test(ref)) ref = '';
+          var q = new URLSearchParams(location.search), utm = [q.get('utm_source'), q.get('utm_medium'), q.get('utm_campaign')]
+            .map(function (v) { return (v || '').replace(/[^\w.\-+ ]/g, '').slice(0, 40); }).join('/').replace(/\/+$/, '');
+          if (!ref && !utm) return;   // direct / internal: leave it unset; the Lambda records direct/unknown
+          var v = 'ref=' + ref + '|utm=' + utm + '|land=' + location.pathname.replace(/[^\w.\-\/]/g, '').slice(0, 80) +
+                  '|d=' + new Date().toISOString().slice(0, 10);
+          document.cookie = 'apisio_src=' + encodeURIComponent(v) + '; Domain=apis.io; Path=/; Max-Age=7776000; SameSite=Lax; Secure';
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H4KFSEF6P"></script>
     <script>

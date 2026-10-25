@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: campaignmonitor-openapi-generated.yml
+  format: yaml
+  label: Campaign Monitor API
+  slug: campaignmonitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/openapi/_ae-authored/campaignmonitor-openapi-generated.yml
 auth_types:
 - oauth2
 - http

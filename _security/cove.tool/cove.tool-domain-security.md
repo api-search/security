@@ -57,17 +57,17 @@ domains:
   domain: covetool.com
   spf: true
 hosts:
-- cert_expires: Nov  6 23:03:07 2026 GMT
+- cert_expires: Jan  5 22:05:49 2027 GMT
   host: cove.inc
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 23 12:34:42 2026 GMT
+- cert_expires: Nov 21 13:38:40 2026 GMT
   host: developers.covetool.com
   hsts: false
   https: true
   tls_version: TLSv1.2
-- cert_expires: Sep  3 23:59:59 2026 GMT
+- cert_expires: Mar 20 23:59:59 2027 GMT
   host: app.covetool.com
   hsts: false
   https: true
@@ -85,7 +85,7 @@ slug: cove.tool-domain-security
 source_filename: cove.tool-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cove.inc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:03:07 2026 GMT\n  hsts: false\n- host: developers.covetool.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 23 12:34:42 2026 GMT\n  hsts: false\n- host: app.covetool.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep  3 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: cove.inc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: covetool.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cove.inc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 22:05:49 2027 GMT\n  hsts: false\n- host: developers.covetool.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 13:38:40 2026 GMT\n  hsts: false\n- host: app.covetool.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: cove.inc\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: covetool.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/security/cove.tool-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

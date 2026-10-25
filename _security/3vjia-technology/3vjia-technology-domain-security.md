@@ -132,10 +132,11 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.2
-- host: open-gateway.3vjia.com
+- cert_expires: Jan 27 23:59:59 2027 GMT
+  host: open-gateway.3vjia.com
   hsts: false
   https: true
-  note: 'The automated probe recorded https:false because the host is INTERMITTENTLY UNREACHABLE from a United States vantage point — roughly one attempt in three timed out at 15-25s on 2026-09-05. When it does answer it serves HTTP/2 over valid TLS (verified 2026-09-05, ssl_verify_result 0, response headers serve-vendor: ali). Corrected by hand from a repeated manual probe; this is a cross-border reachability characteristic, not a missing TLS configuration.'
+  tls_version: TLSv1.2
 hosts_probed: 3
 kind: domain-security
 layout: security
@@ -149,7 +150,7 @@ slug: 3vjia-technology-domain-security
 source_filename: 3vjia-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.3vjia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: false\n- host: dev.3vjia.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: false\n- host: open-gateway.3vjia.com\n  https: true\n  note: >-\n    The automated probe recorded https:false because the host is INTERMITTENTLY UNREACHABLE from a\n    United States vantage point — roughly one attempt in three timed out at 15-25s on 2026-09-05.\n    When it does answer it serves HTTP/2 over valid TLS (verified 2026-09-05, ssl_verify_result 0,\n    response headers serve-vendor: ali). Corrected by hand from a repeated manual probe; this is a\n    cross-border reachability characteristic, not a missing TLS configuration.\n  hsts: false\ndomains:\n- domain: 3vjia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.3vjia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: false\n- host: dev.3vjia.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: false\n- host: open-gateway.3vjia.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: 3vjia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/security/3vjia-technology-domain-security.yml
 summary_line: TLSv1.3
 tags:

@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: openspace-custom-field-notes-api-openapi.yml
+  format: yaml
+  label: OpenSpace Custom Field Notes API
+  slug: openspace-custom-field-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-custom-field-notes-api-openapi.yml
+- filename: openspace-external-executive-view-controller-api-openapi.yml
+  format: yaml
+  label: OpenSpace External Executive View Controller API
+  slug: openspace-external-executive-view-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-external-executive-view-controller-api-openapi.yml
+- filename: openspace-field-notes-api-openapi.yml
+  format: yaml
+  label: OpenSpace Field notes API
+  slug: openspace-field-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-field-notes-api-openapi.yml
+- filename: openspace-global-config-api-openapi.yml
+  format: yaml
+  label: OpenSpace Global config API
+  slug: openspace-global-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-global-config-api-openapi.yml
+- filename: openspace-images-api-openapi.yml
+  format: yaml
+  label: OpenSpace Images API
+  slug: openspace-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-images-api-openapi.yml
+- filename: openspace-organizations-api-openapi.yml
+  format: yaml
+  label: OpenSpace Organizations API
+  slug: openspace-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-organizations-api-openapi.yml
+- filename: openspace-progress-tracking-api-openapi.yml
+  format: yaml
+  label: OpenSpace Progress Tracking API
+  slug: openspace-progress-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-progress-tracking-api-openapi.yml
+- filename: openspace-reports-api-openapi.yml
+  format: yaml
+  label: OpenSpace Reports API
+  slug: openspace-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-reports-api-openapi.yml
+- filename: openspace-sites-api-openapi.yml
+  format: yaml
+  label: OpenSpace Sites API
+  slug: openspace-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-sites-api-openapi.yml
+- filename: openspace-webhook-deliveries-api-openapi.yml
+  format: yaml
+  label: OpenSpace Webhook Deliveries API
+  slug: openspace-webhook-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-webhook-deliveries-api-openapi.yml
+- filename: openspace-webhook-headers-api-openapi.yml
+  format: yaml
+  label: OpenSpace Webhook Headers API
+  slug: openspace-webhook-headers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-webhook-headers-api-openapi.yml
+- filename: openspace-webhook-rules-api-openapi.yml
+  format: yaml
+  label: OpenSpace Webhook Rules API
+  slug: openspace-webhook-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-webhook-rules-api-openapi.yml
+- filename: openspace-webhooks-api-openapi.yml
+  format: yaml
+  label: OpenSpace Webhooks API
+  slug: openspace-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/openapi/openspace-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,7 +87,7 @@ domains:
   domain: openspace.ai
   spf: true
 hosts:
-- cert_expires: Sep 27 02:26:20 2026 GMT
+- cert_expires: Nov 26 02:57:28 2026 GMT
   host: www.openspace.ai
   hsts: true
   hsts_max_age: 31622400
@@ -27,7 +106,7 @@ slug: openspace-domain-security
 source_filename: openspace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openspace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 02:26:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: openspace.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openspace.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 02:57:28 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\ndomains:\n- domain: openspace.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openspace/refs/heads/main/security/openspace-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

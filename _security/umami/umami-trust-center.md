@@ -6,18 +6,6 @@ api_specs:
   slug: umami-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-authentication-api-openapi.yml
-- filename: umami-events-api-openapi.yml
-  format: yaml
-  label: Umami Events API
-  slug: umami-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-events-api-openapi.yml
-- filename: umami-sessions-api-openapi.yml
-  format: yaml
-  label: Umami Sessions API
-  slug: umami-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-sessions-api-openapi.yml
 - filename: umami-teams-api-openapi.yml
   format: yaml
   label: Umami Teams API
@@ -30,18 +18,84 @@ api_specs:
   slug: umami-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-users-api-openapi.yml
-- filename: umami-website-statistics-api-openapi.yml
-  format: yaml
-  label: Umami Website Statistics API
-  slug: umami-website-statistics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-website-statistics-api-openapi.yml
 - filename: umami-websites-api-openapi.yml
   format: yaml
   label: Umami Websites API
   slug: umami-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-websites-api-openapi.yml
+- filename: umami-account-api-openapi.yml
+  format: yaml
+  label: Umami Account API
+  slug: umami-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-account-api-openapi.yml
+- filename: umami-administration-api-openapi.yml
+  format: yaml
+  label: Umami Administration API
+  slug: umami-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-administration-api-openapi.yml
+- filename: umami-boards-api-openapi.yml
+  format: yaml
+  label: Umami Boards API
+  slug: umami-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-boards-api-openapi.yml
+- filename: umami-collection-api-openapi.yml
+  format: yaml
+  label: Umami Collection API
+  slug: umami-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-collection-api-openapi.yml
+- filename: umami-dashboard-api-openapi.yml
+  format: yaml
+  label: Umami Dashboard API
+  slug: umami-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-dashboard-api-openapi.yml
+- filename: umami-links-api-openapi.yml
+  format: yaml
+  label: Umami Links API
+  slug: umami-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-links-api-openapi.yml
+- filename: umami-pixels-api-openapi.yml
+  format: yaml
+  label: Umami Pixels API
+  slug: umami-pixels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-pixels-api-openapi.yml
+- filename: umami-realtime-api-openapi.yml
+  format: yaml
+  label: Umami Realtime API
+  slug: umami-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-realtime-api-openapi.yml
+- filename: umami-scripts-api-openapi.yml
+  format: yaml
+  label: Umami Scripts API
+  slug: umami-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-scripts-api-openapi.yml
+- filename: umami-shares-api-openapi.yml
+  format: yaml
+  label: Umami Shares API
+  slug: umami-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-shares-api-openapi.yml
+- filename: umami-system-api-openapi.yml
+  format: yaml
+  label: Umami System API
+  slug: umami-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-system-api-openapi.yml
+- filename: umami-two-factor-authentication-api-openapi.yml
+  format: yaml
+  label: Umami Two-factor authentication API
+  slug: umami-two-factor-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/openapi/umami-two-factor-authentication-api-openapi.yml
 certification_count: 0
 certifications: []
 description: Umami publishes a detailed security page covering privacy-by-design, encryption, access control, secure development, infrastructure, incident response, data retention/deletion and responsible disclosure. It also publishes an unusually honest assurance table that states plainly what it has NOT certified.

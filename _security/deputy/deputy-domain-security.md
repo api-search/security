@@ -204,12 +204,6 @@ api_specs:
   slug: deputy-department-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-department-api-openapi.yml
-- filename: deputy-departments-api-openapi.yml
-  format: yaml
-  label: Deputy Departments API
-  slug: deputy-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-departments-api-openapi.yml
 - filename: deputy-deputy-reports-api-openapi.yml
   format: yaml
   label: Deputy Deputy Reports API
@@ -678,24 +672,6 @@ api_specs:
   slug: deputy-location-setting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-location-setting-api-openapi.yml
-- filename: deputy-locations-api-openapi.yml
-  format: yaml
-  label: Deputy Locations API
-  slug: deputy-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-locations-api-openapi.yml
-- filename: deputy-logged-in-user-details-api-openapi.yml
-  format: yaml
-  label: Deputy Logged in User Details API
-  slug: deputy-logged-in-user-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-logged-in-user-details-api-openapi.yml
-- filename: deputy-management-api-openapi.yml
-  format: yaml
-  label: Deputy Management API
-  slug: deputy-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-management-api-openapi.yml
 - filename: deputy-me-tab-api-openapi.yml
   format: yaml
   label: Deputy Me Tab API
@@ -786,12 +762,6 @@ api_specs:
   slug: deputy-pay-comparison-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-comparison-api-openapi.yml
-- filename: deputy-pay-rates-api-openapi.yml
-  format: yaml
-  label: Deputy Pay Rates API
-  slug: deputy-pay-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-rates-api-openapi.yml
 - filename: deputy-payperiod-api-openapi.yml
   format: yaml
   label: Deputy Pay Period API
@@ -906,12 +876,6 @@ api_specs:
   slug: deputy-rosteropen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosteropen-api-openapi.yml
-- filename: deputy-rosters-api-openapi.yml
-  format: yaml
-  label: Deputy Rosters API
-  slug: deputy-rosters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosters-api-openapi.yml
 - filename: deputy-rosterswap-api-openapi.yml
   format: yaml
   label: Deputy Roster Swap API
@@ -924,12 +888,6 @@ api_specs:
   slug: deputy-rostertemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rostertemplate-api-openapi.yml
-- filename: deputy-sales-api-openapi.yml
-  format: yaml
-  label: Deputy Sales API
-  slug: deputy-sales-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-sales-api-openapi.yml
 - filename: deputy-salesdata-api-openapi.yml
   format: yaml
   label: Deputy Sales Data API
@@ -1254,12 +1212,6 @@ api_specs:
   slug: deputy-user-sso-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-user-sso-link-api-openapi.yml
-- filename: deputy-utility-request-api-openapi.yml
-  format: yaml
-  label: Deputy Utility request API
-  slug: deputy-utility-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-utility-request-api-openapi.yml
 - filename: deputy-weather-api-openapi.yml
   format: yaml
   label: Deputy Weather API
@@ -1278,18 +1230,66 @@ api_specs:
   slug: deputy-webhook-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhook-triggers-api-openapi.yml
-- filename: deputy-webhooks-api-openapi.yml
-  format: yaml
-  label: Deputy Webhooks API
-  slug: deputy-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhooks-api-openapi.yml
 - filename: deputy-widget-api-openapi.yml
   format: yaml
   label: Deputy Widget API
   slug: deputy-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-widget-api-openapi.yml
+- filename: deputy-departments-api-openapi.yml
+  format: yaml
+  label: Deputy Departments API
+  slug: deputy-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-departments-api-openapi.yml
+- filename: deputy-locations-api-openapi.yml
+  format: yaml
+  label: Deputy Locations API
+  slug: deputy-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-locations-api-openapi.yml
+- filename: deputy-logged-in-user-details-api-openapi.yml
+  format: yaml
+  label: Deputy Logged in User Details API
+  slug: deputy-logged-in-user-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-logged-in-user-details-api-openapi.yml
+- filename: deputy-management-api-openapi.yml
+  format: yaml
+  label: Deputy Management API
+  slug: deputy-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-management-api-openapi.yml
+- filename: deputy-pay-rates-api-openapi.yml
+  format: yaml
+  label: Deputy Pay Rates API
+  slug: deputy-pay-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-rates-api-openapi.yml
+- filename: deputy-rosters-api-openapi.yml
+  format: yaml
+  label: Deputy Rosters API
+  slug: deputy-rosters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosters-api-openapi.yml
+- filename: deputy-sales-api-openapi.yml
+  format: yaml
+  label: Deputy Sales API
+  slug: deputy-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-sales-api-openapi.yml
+- filename: deputy-utility-request-api-openapi.yml
+  format: yaml
+  label: Deputy Utility request API
+  slug: deputy-utility-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-utility-request-api-openapi.yml
+- filename: deputy-webhooks-api-openapi.yml
+  format: yaml
+  label: Deputy Webhooks API
+  slug: deputy-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhooks-api-openapi.yml
 - filename: deputy-custom-field-api-openapi.yml
   format: yaml
   label: Deputy Custom Field API
@@ -1299,25 +1299,25 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 iodef "mailto:devops.admin@deputy.com"
-  - 0 issue "amazon.com"
   - 0 issue "amazonaws.com"
   - 0 issue "amazontrust.com"
   - 0 issue "awstrust.com"
   - 0 issue "certainly.com"
+  - 0 issue "cloudflaressl.com"
+  - 0 issue "digicert.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: deputy.com
   spf: true
 hosts:
-- cert_expires: Oct  9 16:52:48 2026 GMT
+- cert_expires: Dec  7 22:36:25 2026 GMT
   host: www.deputy.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 22 05:55:47 2026 GMT
+- cert_expires: Dec 18 07:04:19 2026 GMT
   host: developer.deputy.com
   hsts: null
   https: true
@@ -1335,7 +1335,7 @@ slug: deputy-domain-security
 source_filename: deputy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deputy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:52:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.deputy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 05:55:47 2026 GMT\n  hsts: null\ndomains:\n- domain: deputy.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:devops.admin@deputy.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"certainly.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deputy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 22:36:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.deputy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 07:04:19 2026 GMT\n  hsts: null\ndomains:\n- domain: deputy.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"cloudflaressl.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/security/deputy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

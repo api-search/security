@@ -30,6 +30,12 @@ api_specs:
   slug: cello-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-token-api-openapi.yml
+- filename: cello-events-v2-api-openapi.yml
+  format: yaml
+  label: Cello Events v2 API
+  slug: cello-events-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,19 +45,19 @@ domains:
   domain: cello.so
   spf: true
 hosts:
-- cert_expires: Oct  1 11:33:35 2026 GMT
+- cert_expires: Nov 20 12:34:50 2026 GMT
+  host: www.cello.so
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec  2 09:42:43 2026 GMT
   host: docs.cello.so
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 10 23:59:59 2026 GMT
+- cert_expires: Mar 12 23:59:59 2027 GMT
   host: api.cello.so
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 10 23:59:59 2026 GMT
-  host: api.sandbox.cello.so
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -68,7 +74,7 @@ slug: cello-domain-security
 source_filename: cello-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:33:35 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: api.sandbox.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cello.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 12:34:50 2026 GMT\n  hsts: false\n- host: docs.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 09:42:43 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cello.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: cello.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/security/cello-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

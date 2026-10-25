@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: afterpay-openapi-generated.yml
+  format: yaml
+  label: Afterpay API
+  slug: afterpay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/afterpay/refs/heads/main/openapi/_ae-authored/afterpay-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -8,19 +15,19 @@ domains:
   domain: afterpay.com
   spf: true
 hosts:
-- cert_expires: Oct  8 05:01:12 2026 GMT
+- cert_expires: Dec  6 05:48:25 2026 GMT
   host: www.afterpay.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 24 05:05:50 2026 GMT
+- cert_expires: Nov 27 16:24:57 2026 GMT
   host: developers.afterpay.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  8 05:01:12 2026 GMT
+- cert_expires: Dec  6 05:48:25 2026 GMT
   host: api.afterpay.com
   hsts: null
   https: true
@@ -38,7 +45,7 @@ slug: afterpay-domain-security
 source_filename: afterpay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:01:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 05:05:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:01:12 2026 GMT\n  hsts: null\ndomains:\n- domain: afterpay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 05:48:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 16:24:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.afterpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 05:48:25 2026 GMT\n  hsts: null\ndomains:\n- domain: afterpay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afterpay/refs/heads/main/security/afterpay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

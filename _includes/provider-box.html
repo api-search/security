@@ -39,7 +39,7 @@
   <div class="item-card"{% if include.color %} style="border-left: 3px solid {{ include.color }};"{% endif %}>
     {%- if item.name %}
     <h4>{% if include.path %}<a href="https://apis.io/{{ include.path }}/{{ include.provider_slug }}/{{ item.slug }}/">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h4>
-    {%- if item.summary_line %}<p>{{ item.summary_line | truncate: 180 }}</p>{% elsif item.description %}<p>{{ item.description | truncate: 180 }}</p>{% endif %}
+    {%- if item.summary_line %}<p>{{ item.summary_line | strip_html | strip_newlines | truncate: 180 | escape }}</p>{% elsif item.description %}<p>{{ item.description | strip_html | strip_newlines | truncate: 180 | escape }}</p>{% endif %}
     {%- if item.class_count %}<p class="card-meta">{{ item.class_count }} classes &middot; {{ item.property_count | default: 0 }} properties</p>
     {%- elsif item.property_count %}<p class="card-meta">{{ item.property_count }} properties</p>
     {%- elsif item.scope_count %}<p class="card-meta">{{ item.scope_count }} scopes</p>

@@ -1,6 +1,43 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: tourradar-bookings-api-openapi.yml
+  format: yaml
+  label: TourRadar Bookings API
+  slug: tourradar-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bookings-api-openapi.yml
+- filename: tourradar-bulk-api-openapi.yml
+  format: yaml
+  label: TourRadar Bulk API
+  slug: tourradar-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bulk-api-openapi.yml
+- filename: tourradar-operators-api-openapi.yml
+  format: yaml
+  label: TourRadar Operators API
+  slug: tourradar-operators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-operators-api-openapi.yml
+- filename: tourradar-pricing-availability-api-openapi.yml
+  format: yaml
+  label: TourRadar Pricing & Availability API
+  slug: tourradar-pricing-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-pricing-availability-api-openapi.yml
+- filename: tourradar-taxonomy-api-openapi.yml
+  format: yaml
+  label: TourRadar Taxonomy API
+  slug: tourradar-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-taxonomy-api-openapi.yml
+- filename: tourradar-tours-api-openapi.yml
+  format: yaml
+  label: TourRadar Tours API
+  slug: tourradar-tours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-tours-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect

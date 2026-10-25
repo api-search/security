@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: addepar-openapi-generated.yml
+  format: yaml
+  label: Addepar API
+  slug: addepar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/addepar/refs/heads/main/openapi/_ae-authored/addepar-openapi-generated.yml
 auth_types: []
 description: ''
 kind: authentication

@@ -10,7 +10,7 @@ domains:
 hosts:
 - cert_expires: Nov 25 04:29:25 2026 GMT
   host: sparxsystems.com
-  hsts: null
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -26,7 +26,7 @@ slug: sparx-enterprise-architect-domain-security
 source_filename: sparx-enterprise-architect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sparxsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 04:29:25 2026 GMT\n  hsts: null\ndomains:\n- domain: sparxsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sparxsystems.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 04:29:25 2026 GMT\n  hsts: false\ndomains:\n- domain: sparxsystems.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/security/sparx-enterprise-architect-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

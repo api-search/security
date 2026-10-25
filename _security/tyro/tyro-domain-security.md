@@ -137,10 +137,11 @@ domains:
 hosts:
 - cert_expires: Dec  2 23:59:59 2026 GMT
   host: www.tyro.com
-  hsts: false
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 23 08:22:26 2026 GMT
+- cert_expires: Nov 22 04:57:21 2026 GMT
   host: docs.connect.tyro.com
   hsts: false
   https: true
@@ -156,16 +157,16 @@ layout: security
 method: probed
 name: Tyro Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Tyro Payments, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Tyro Payments, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Tyro Payments
 provider_slug: tyro
 slug: tyro-domain-security
 source_filename: tyro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tyro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: false\n- host: docs.connect.tyro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 08:22:26 2026 GMT\n  hsts: false\n- host: api.tyro.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tyro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tyro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.connect.tyro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 04:57:21 2026 GMT\n  hsts: false\n- host: api.tyro.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tyro.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/security/tyro-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Australia

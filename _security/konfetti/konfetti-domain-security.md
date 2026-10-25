@@ -39,17 +39,17 @@ domains:
   domain: gokonfetti.com
   spf: true
 hosts:
-- cert_expires: Oct 19 23:59:59 2026 GMT
+- cert_expires: Mar  6 23:59:59 2027 GMT
   host: gokonfetti.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 19 23:59:59 2026 GMT
+- cert_expires: Mar  6 23:59:59 2027 GMT
   host: backoffice.gokonfetti.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: api.gokonfetti.com
   hsts: false
   https: true
@@ -67,7 +67,7 @@ slug: konfetti-domain-security
 source_filename: konfetti-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\n- host: backoffice.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\n- host: api.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: gokonfetti.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n- host: backoffice.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\n- host: api.gokonfetti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: gokonfetti.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/security/konfetti-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

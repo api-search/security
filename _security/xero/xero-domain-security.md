@@ -54,6 +54,24 @@ api_specs:
   slug: xero-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
+- filename: xero-accountdata-api-openapi.yml
+  format: yaml
+  label: Xero Account Data API
+  slug: xero-accountdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accountdata-api-openapi.yml
+- filename: xero-feedconnections-api-openapi.yml
+  format: yaml
+  label: Xero Feed Connections API
+  slug: xero-feedconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-feedconnections-api-openapi.yml
+- filename: xero-app-store-api-openapi.yml
+  format: yaml
+  label: Xero App Store API
+  slug: xero-app-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-app-store-api-openapi.yml
 - filename: xero-bank-feeds-api-openapi.yml
   format: yaml
   label: Xero Bank Feeds API
@@ -69,19 +87,19 @@ domains:
   domain: xero.com
   spf: true
 hosts:
-- cert_expires: Aug  2 22:00:00 2026 GMT
+- cert_expires: Apr 13 23:59:59 2027 GMT
+  host: www.xero.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 20 21:07:47 2026 GMT
   host: developer.xero.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 19 23:59:59 2026 GMT
+- cert_expires: Apr 13 23:59:59 2027 GMT
   host: api.xero.com
   hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 24 23:59:59 2026 GMT
-  host: identity.xero.com
-  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -97,7 +115,7 @@ slug: xero-domain-security
 source_filename: xero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  2 22:00:00 2026 GMT\n  hsts: false\n- host: api.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: null\n- host: identity.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: xero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 13 23:59:59 2027 GMT\n  hsts: false\n- host: developer.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 21:07:47 2026 GMT\n  hsts: false\n- host: api.xero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 13 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: xero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/security/xero-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

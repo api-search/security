@@ -84,6 +84,12 @@ api_specs:
   slug: leonardo-ai-variation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-api-openapi.yml
+- filename: leonardo-ai-generations-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Generations API
+  slug: leonardo-ai-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-generations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,20 +99,19 @@ domains:
   domain: leonardo.ai
   spf: true
 hosts:
-- cert_expires: Oct  4 03:33:35 2026 GMT
+- cert_expires: Dec  2 04:08:50 2026 GMT
   host: leonardo.ai
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 11 09:13:55 2026 GMT
+- cert_expires: Dec 13 08:10:04 2026 GMT
   host: app.leonardo.ai
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  4 02:24:11 2026 GMT
+- cert_expires: Dec  2 11:17:03 2026 GMT
   host: docs.leonardo.ai
-  hsts: true
-  hsts_max_age: 31536000
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -115,16 +120,16 @@ layout: security
 method: probed
 name: Leonardo Ai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Leonardo.AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Leonardo.AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Leonardo.AI
 provider_slug: leonardo-ai
 slug: leonardo-ai-domain-security
 source_filename: leonardo-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 03:33:35 2026 GMT\n  hsts: null\n- host: app.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 09:13:55 2026 GMT\n  hsts: null\n- host: docs.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 02:24:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: leonardo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 04:08:50 2026 GMT\n  hsts: null\n- host: app.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 08:10:04 2026 GMT\n  hsts: null\n- host: docs.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 11:17:03 2026 GMT\n  hsts: null\ndomains:\n- domain: leonardo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/security/leonardo-ai-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence
 - Image Generation
@@ -132,6 +137,6 @@ tags:
 - Generative AI
 - Creative
 - 3D
-- Diffusion
+- Diffusion Models
 - Canva
 ---

@@ -8,19 +8,18 @@ domains:
   domain: strangeworks.com
   spf: true
 hosts:
-- cert_expires: Oct 28 10:37:03 2026 GMT
+- cert_expires: Dec 28 11:48:46 2026 GMT
   host: strangeworks.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 17 16:58:18 2026 GMT
+- cert_expires: Dec  8 18:55:40 2026 GMT
   host: docs.strangeworks.com
-  hsts: true
-  hsts_max_age: 31556952
+  hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 07:48:58 2026 GMT
+- cert_expires: Jan  7 06:46:14 2027 GMT
   host: api.strangeworks.com
   hsts: null
   https: true
@@ -31,14 +30,14 @@ layout: security
 method: probed
 name: Strangeworks Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Strangeworks, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Strangeworks, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Strangeworks
 provider_slug: strangeworks
 slug: strangeworks-domain-security
 source_filename: strangeworks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 10:37:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 16:58:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: api.strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:48:58 2026 GMT\n  hsts: null\ndomains:\n- domain: strangeworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 11:48:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 18:55:40 2026 GMT\n  hsts: false\n- host: api.strangeworks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 06:46:14 2027 GMT\n  hsts: null\ndomains:\n- domain: strangeworks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strangeworks/refs/heads/main/security/strangeworks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: campaignmonitor-openapi-generated.yml
+  format: yaml
+  label: Campaign Monitor API
+  slug: campaignmonitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/openapi/_ae-authored/campaignmonitor-openapi-generated.yml
 certification_count: 2
 certifications:
 - SOC 2

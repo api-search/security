@@ -144,6 +144,54 @@ api_specs:
   slug: babyblueviper-com-waternova-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-waternova-api-openapi.yml
+- filename: babyblueviper-com-admission-chain-api-openapi.yml
+  format: yaml
+  label: invinoveritas Admission Chain API
+  slug: babyblueviper-com-admission-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-admission-chain-api-openapi.yml
+- filename: babyblueviper-com-check-api-openapi.yml
+  format: yaml
+  label: invinoveritas Check API
+  slug: babyblueviper-com-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-check-api-openapi.yml
+- filename: babyblueviper-com-embed-api-openapi.yml
+  format: yaml
+  label: invinoveritas Embed API
+  slug: babyblueviper-com-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-embed-api-openapi.yml
+- filename: babyblueviper-com-keys-api-openapi.yml
+  format: yaml
+  label: invinoveritas Keys API
+  slug: babyblueviper-com-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-keys-api-openapi.yml
+- filename: babyblueviper-com-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Media API
+  slug: babyblueviper-com-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-media-api-openapi.yml
+- filename: babyblueviper-com-register-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Register Media API
+  slug: babyblueviper-com-register-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-register-media-api-openapi.yml
+- filename: babyblueviper-com-verify-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Verify Media API
+  slug: babyblueviper-com-verify-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-verify-media-api-openapi.yml
+- filename: babyblueviper-com-work-acceptance-api-openapi.yml
+  format: yaml
+  label: invinoveritas Work Acceptance API
+  slug: babyblueviper-com-work-acceptance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-work-acceptance-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -178,7 +226,7 @@ slug: babyblueviper-com-domain-security
 source_filename: babyblueviper-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: babyblueviper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 15:08:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.babyblueviper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 20:44:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: babyblueviper.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: babyblueviper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 15:08:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.babyblueviper.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 20:44:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: babyblueviper.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/security/babyblueviper-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

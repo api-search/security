@@ -1,23 +1,83 @@
 ---
 api_specs:
+- filename: go1-categories-api-openapi.yml
+  format: yaml
+  label: Go1 Categories API
+  slug: go1-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-categories-api-openapi.yml
+- filename: go1-collections-api-openapi.yml
+  format: yaml
+  label: Go1 Collections API
+  slug: go1-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-collections-api-openapi.yml
+- filename: go1-compliance-api-openapi.yml
+  format: yaml
+  label: Go1 Compliance API
+  slug: go1-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-compliance-api-openapi.yml
 - filename: go1-enrollments-api-openapi.yml
   format: yaml
   label: Go1 Enrollments API
   slug: go1-enrollments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-enrollments-api-openapi.yml
+- filename: go1-files-api-openapi.yml
+  format: yaml
+  label: Go1 Files API
+  slug: go1-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-files-api-openapi.yml
 - filename: go1-learning-objects-api-openapi.yml
   format: yaml
   label: Go1 Learning objects API
   slug: go1-learning-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-learning-objects-api-openapi.yml
+- filename: go1-plans-api-openapi.yml
+  format: yaml
+  label: Go1 Plans API
+  slug: go1-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-plans-api-openapi.yml
+- filename: go1-play-links-api-openapi.yml
+  format: yaml
+  label: Go1 Play links API
+  slug: go1-play-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-play-links-api-openapi.yml
+- filename: go1-playlists-api-openapi.yml
+  format: yaml
+  label: Go1 Playlists API
+  slug: go1-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-playlists-api-openapi.yml
 - filename: go1-portals-api-openapi.yml
   format: yaml
   label: Go1 Portals API
   slug: go1-portals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-portals-api-openapi.yml
+- filename: go1-restrictions-api-openapi.yml
+  format: yaml
+  label: Go1 Restrictions API
+  slug: go1-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-restrictions-api-openapi.yml
+- filename: go1-scim-api-openapi.yml
+  format: yaml
+  label: Go1 SCIM API
+  slug: go1-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-scim-api-openapi.yml
+- filename: go1-user-accounts-api-openapi.yml
+  format: yaml
+  label: Go1 User accounts API
+  slug: go1-user-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-user-accounts-api-openapi.yml
 - filename: go1-webhooks-api-openapi.yml
   format: yaml
   label: Go1 Webhooks API
@@ -33,19 +93,19 @@ domains:
   domain: go1.com
   spf: true
 hosts:
-- cert_expires: Sep 14 21:00:56 2026 GMT
+- cert_expires: Jan 10 20:46:53 2027 GMT
   host: www.go1.com
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 21:00:56 2026 GMT
+- cert_expires: Jan 10 20:46:53 2027 GMT
   host: developers.go1.com
   hsts: true
   hsts_max_age: 15552000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 21:00:56 2026 GMT
+- cert_expires: Jan 10 20:46:53 2027 GMT
   host: gateway.go1.com
   hsts: true
   hsts_max_age: 15552000
@@ -64,7 +124,7 @@ slug: go1-domain-security
 source_filename: go1-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:00:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:00:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: gateway.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 21:00:56 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: go1.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 20:46:53 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 20:46:53 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: gateway.go1.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 20:46:53 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: go1.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/security/go1-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

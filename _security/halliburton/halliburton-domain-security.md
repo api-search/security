@@ -8,7 +8,7 @@ domains:
   domain: halliburton.com
   spf: true
 hosts:
-- cert_expires: Sep 19 23:59:59 2026 GMT
+- cert_expires: Dec  3 13:35:39 2026 GMT
   host: www.halliburton.com
   hsts: true
   hsts_max_age: 63072000
@@ -27,7 +27,7 @@ slug: halliburton-domain-security
 source_filename: halliburton-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.halliburton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: halliburton.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.halliburton.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 13:35:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: halliburton.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halliburton/refs/heads/main/security/halliburton-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -35,4 +35,7 @@ tags:
 - Fortune 500
 - Oil and Gas
 - Oilfield Services
+- Software
+- Data Platforms
+- OSDU
 ---

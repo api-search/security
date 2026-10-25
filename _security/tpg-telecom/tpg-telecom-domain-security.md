@@ -19,9 +19,9 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.2
-- cert_expires: Oct 18 23:59:59 2026 GMT
+- cert_expires: Mar  6 23:59:59 2027 GMT
   host: contactsapiv1tgp.docs.apiary.io
-  hsts: false
+  hsts: null
   https: true
   tls_version: TLSv1.3
 - cert_expires: Jan  9 23:59:59 2027 GMT
@@ -42,7 +42,7 @@ slug: tpg-telecom-domain-security
 source_filename: tpg-telecom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tpgtelecom.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: false\n- host: contactsapiv1tgp.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: api.messaging.tpgtelecom.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: tpgtelecom.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tpgtelecom.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: false\n- host: contactsapiv1tgp.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: null\n- host: api.messaging.tpgtelecom.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: tpgtelecom.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/security/tpg-telecom-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:

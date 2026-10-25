@@ -8,7 +8,7 @@ domains:
   domain: hcf.com.au
   spf: true
 hosts:
-- cert_expires: Aug 18 07:27:27 2026 GMT
+- cert_expires: Jan  5 06:18:13 2027 GMT
   host: www.hcf.com.au
   hsts: false
   https: true
@@ -26,7 +26,7 @@ slug: hcf-domain-security
 source_filename: hcf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hcf.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 07:27:27 2026 GMT\n  hsts: false\ndomains:\n- domain: hcf.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hcf.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 06:18:13 2027 GMT\n  hsts: false\ndomains:\n- domain: hcf.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hcf/refs/heads/main/security/hcf-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

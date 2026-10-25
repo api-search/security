@@ -85,7 +85,7 @@ slug: aquant-trust-center
 source_filename: aquant-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-31'\nmethod: searched\nprobe: true\nsource: https://security.aquant.ai/\nurl: https://security.aquant.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://security.aquant.ai/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://security.aquant.ai/\nurl: https://security.aquant.ai/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://security.aquant.ai/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/security/aquant-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 tags:

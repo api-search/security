@@ -104,6 +104,12 @@ api_specs:
   slug: anchor-x402-tldr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-tldr-api-openapi.yml
+- filename: anchor-x402-feedback-api-openapi.yml
+  format: yaml
+  label: anchor-x402 Feedback API
+  slug: anchor-x402-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/openapi/anchor-x402-feedback-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

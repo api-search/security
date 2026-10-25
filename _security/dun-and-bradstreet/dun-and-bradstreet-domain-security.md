@@ -57,20 +57,22 @@ domains:
   domain: dnb.com
   spf: true
 hosts:
-- cert_expires: Oct 19 16:48:45 2026 GMT
+- cert_expires: Dec 19 07:54:50 2026 GMT
   host: www.dnb.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 12 17:17:14 2026 GMT
-  host: directplus.documentation.dnb.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 28 23:59:59 2026 GMT
-  host: plus.dnb.com
-  hsts: null
+- cert_expires: Dec  2 05:58:54 2026 GMT
+  host: agents.riskanalytics.dnb.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 10 16:43:52 2026 GMT
+  host: directplus.documentation.dnb.com
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -79,14 +81,14 @@ layout: security
 method: probed
 name: Dun And Bradstreet Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Dun & Bradstreet, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Dun & Bradstreet, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Dun & Bradstreet
 provider_slug: dun-and-bradstreet
 slug: dun-and-bradstreet-domain-security
 source_filename: dun-and-bradstreet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 16:48:45 2026 GMT\n  hsts: null\n- host: directplus.documentation.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 17:17:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: plus.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: dnb.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 07:54:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: agents.riskanalytics.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 05:58:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: directplus.documentation.dnb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 16:43:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: dnb.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/security/dun-and-bradstreet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

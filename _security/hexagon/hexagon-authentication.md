@@ -8,6 +8,12 @@ api_specs:
   slug: nexus-api
   spec_type: OpenAPI
   url: https://nexus.hexagon.com/developerportal
+- filename: hexagon-eam-ion-api-openapi.yml
+  format: yaml
+  label: HxGN EAM REST API
+  slug: hxgn-eam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/openapi/hexagon-eam-ion-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication

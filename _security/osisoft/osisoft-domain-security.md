@@ -8,7 +8,7 @@ domains:
   domain: osisoft.com
   spf: true
 hosts:
-- cert_expires: Oct 18 18:07:13 2026 GMT
+- cert_expires: Dec 16 19:45:10 2026 GMT
   host: www.osisoft.com
   hsts: true
   hsts_max_age: 15638400
@@ -27,7 +27,7 @@ slug: osisoft-domain-security
 source_filename: osisoft-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.osisoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 18:07:13 2026 GMT\n  hsts: true\n  hsts_max_age: 15638400\ndomains:\n- domain: osisoft.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.osisoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 19:45:10 2026 GMT\n  hsts: true\n  hsts_max_age: 15638400\ndomains:\n- domain: osisoft.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osisoft/refs/heads/main/security/osisoft-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

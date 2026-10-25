@@ -1,32 +1,39 @@
 ---
+api_specs:
+- filename: carta-openapi-generated.yml
+  format: yaml
+  label: Carta API
+  slug: carta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/openapi/_ae-authored/carta-openapi-generated.yml
 description: ''
 domains:
 - caa:
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  - 0 issuewild "amazon.com"
+  - 0 issuewild "comodoca.com"
   - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
   - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
-  - 0 issuewild "ssl.com"
-  - 0 iodef "mailto:administrator@carta.com"
-  - 0 issue "amazon.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: carta.com
   spf: true
 hosts:
-- cert_expires: Aug 16 10:01:24 2026 GMT
+- cert_expires: Dec 12 09:28:07 2026 GMT
   host: carta.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  4 22:06:08 2026 GMT
+- cert_expires: Dec  9 08:48:32 2026 GMT
   host: docs.carta.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 13 19:46:23 2026 GMT
+- cert_expires: Dec  9 08:48:32 2026 GMT
   host: api.carta.com
   hsts: null
   https: true
@@ -44,7 +51,7 @@ slug: carta-domain-security
 source_filename: carta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 10:01:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 22:06:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 19:46:23 2026 GMT\n  hsts: null\ndomains:\n- domain: carta.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:administrator@carta.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 09:28:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 08:48:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.carta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 08:48:32 2026 GMT\n  hsts: null\ndomains:\n- domain: carta.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/security/carta-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -20,13 +20,13 @@ hosts:
   hsts_max_age: 31557600
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 15 17:47:07 2026 GMT
+- cert_expires: Jan 11 16:58:26 2027 GMT
   host: developer.devops.chvac.trane.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  8 23:59:59 2026 GMT
+- cert_expires: Apr  6 23:59:59 2027 GMT
   host: www.trane.com
   hsts: true
   hsts_max_age: 31557600
@@ -45,7 +45,7 @@ slug: trane-technologies-domain-security
 source_filename: trane-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tranetechnologies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.devops.chvac.trane.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 17:47:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.trane.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: tranetechnologies.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trane.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tranetechnologies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.devops.chvac.trane.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 16:58:26 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.trane.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: tranetechnologies.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: trane.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trane-technologies/refs/heads/main/security/trane-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

@@ -86,13 +86,19 @@ api_specs:
   slug: leonardo-ai-variation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-api-openapi.yml
+- filename: leonardo-ai-generations-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Generations API
+  slug: leonardo-ai-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-generations-api-openapi.yml
 auth_types:
 - http
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 1
-method: derived
+method: searched
 name: Leonardo Ai Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -125,8 +131,9 @@ slug: leonardo-ai-authentication
 source_filename: leonardo-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/leonardo-ai-3d-model-assets-openapi.json, openapi/leonardo-ai-blueprints-openapi.json,\n  openapi/leonardo-ai-datasets-openapi.json, openapi/leonardo-ai-elements-openapi.json, openapi/leonardo-ai-image-generation-openapi.json,\n  openapi/leonardo-ai-init-images-openapi.json, openapi/leonardo-ai-media-openapi.json, openapi/leonardo-ai-models-openapi.json,\n  openapi/leonardo-ai-pricing-calculator-openapi.json, openapi/leonardo-ai-prompt-openapi.json,\n  openapi/leonardo-ai-realtime-canvas-openapi.json, openapi/leonardo-ai-user-openapi.json ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: auth-scheme\n  description: 'Bearer HTTP authentication. Allowed headers `Authorization: Bearer <api_key>`'\n  sources:\n  - openapi/leonardo-ai-3d-model-assets-openapi.json\n  - openapi/leonardo-ai-blueprints-openapi.json\n  - openapi/leonardo-ai-datasets-openapi.json\n\
-  \  - openapi/leonardo-ai-elements-openapi.json\n  - openapi/leonardo-ai-image-generation-openapi.json\n  - openapi/leonardo-ai-init-images-openapi.json\n  - openapi/leonardo-ai-media-openapi.json\n  - openapi/leonardo-ai-models-openapi.json\n  - openapi/leonardo-ai-pricing-calculator-openapi.json\n  - openapi/leonardo-ai-prompt-openapi.json\n  - openapi/leonardo-ai-realtime-canvas-openapi.json\n  - openapi/leonardo-ai-user-openapi.json\n  - openapi/leonardo-ai-variation-openapi.json\n  - openapi/leonardo-ai-video-generation-openapi.json\n"
+source_yaml: "generated: '2026-10-21'\nmethod: searched\nsource: https://docs.leonardo.ai/docs/getting-started.md\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: auth-scheme\n  description: 'Bearer HTTP authentication. Allowed headers `Authorization: Bearer <api_key>`'\n  sources:\n  - openapi/leonardo-ai-3d-model-assets-openapi.json\n  - openapi/leonardo-ai-blueprints-openapi.json\n  - openapi/leonardo-ai-datasets-openapi.json\n  - openapi/leonardo-ai-elements-openapi.json\n  - openapi/leonardo-ai-image-generation-openapi.json\n  - openapi/leonardo-ai-init-images-openapi.json\n  - openapi/leonardo-ai-media-openapi.json\n  - openapi/leonardo-ai-models-openapi.json\n  - openapi/leonardo-ai-pricing-calculator-openapi.json\n  - openapi/leonardo-ai-prompt-openapi.json\n  - openapi/leonardo-ai-realtime-canvas-openapi.json\n  - openapi/leonardo-ai-user-openapi.json\n  - openapi/leonardo-ai-variation-openapi.json\n  - openapi/leonardo-ai-video-generation-openapi.json\n\
+  derived_from: openapi/leonardo-ai-3d-model-assets-openapi.json, openapi/leonardo-ai-blueprints-openapi.json, openapi/leonardo-ai-datasets-openapi.json, openapi/leonardo-ai-elements-openapi.json, openapi/leonardo-ai-image-generation-openapi.json,\n  openapi/leonardo-ai-init-images-openapi.json, openapi/leonardo-ai-media-openapi.json, openapi/leonardo-ai-models-openapi.json, openapi/leonardo-ai-pricing-calculator-openapi.json, openapi/leonardo-ai-prompt-openapi.json,\n  openapi/leonardo-ai-realtime-canvas-openapi.json, openapi/leonardo-ai-user-openapi.json ...\ndocs: https://docs.leonardo.ai/docs/getting-started\nnotes:\n- 'Production API key, created on the web app API Access page (\"Create New Key\"); sent as `authorization: Bearer <YOUR_API_KEY>`. \"Keep your API key secure. Do not embed it in client-side code.\" (getting-started)'\n- API keys are UUIDs; malformed keys yield \"Invalid response from authorization hook\" (https://docs.leonardo.ai/docs/api-error-messages).\n- The User API\
+  \ key is deprecated and replaced by the Production API key; limit of 10 API keys per account (https://docs.leonardo.ai/docs/api-faq).\n- 'Webhook callbacks authenticate to the receiver with `authorization: Bearer <webhook callback API key>` (https://docs.leonardo.ai/docs/guide-to-the-webhook-callback-feature).'\n- API plans are distinct from web app plans. No OAuth is documented.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/authentication/leonardo-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -136,6 +143,6 @@ tags:
 - Generative AI
 - Creative
 - 3D
-- Diffusion
+- Diffusion Models
 - Canva
 ---

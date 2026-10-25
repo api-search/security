@@ -32,6 +32,12 @@ api_specs:
   slug: cello-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-token-api-openapi.yml
+- filename: cello-events-v2-api-openapi.yml
+  format: yaml
+  label: Cello Events v2 API
+  slug: cello-events-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-v2-api-openapi.yml
 auth_types:
 - http
 - oauth2

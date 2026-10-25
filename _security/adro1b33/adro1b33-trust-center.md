@@ -186,6 +186,84 @@ api_specs:
   slug: adro1b33-verifier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-verifier-api-openapi.yml
+- filename: adro1b33-agent-api-openapi.yml
+  format: yaml
+  label: ADRO Agent API
+  slug: adro1b33-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-agent-api-openapi.yml
+- filename: adro1b33-comment-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Notifications API
+  slug: adro1b33-comment-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-notifications-api-openapi.yml
+- filename: adro1b33-comment-threads-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Threads API
+  slug: adro1b33-comment-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-threads-api-openapi.yml
+- filename: adro1b33-comments-api-openapi.yml
+  format: yaml
+  label: ADRO Comments API
+  slug: adro1b33-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comments-api-openapi.yml
+- filename: adro1b33-cwt-api-openapi.yml
+  format: yaml
+  label: ADRO Cwt API
+  slug: adro1b33-cwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-cwt-api-openapi.yml
+- filename: adro1b33-geometry-cleaning-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Cleaning API
+  slug: adro1b33-geometry-cleaning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-cleaning-api-openapi.yml
+- filename: adro1b33-geometry-versions-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Versions API
+  slug: adro1b33-geometry-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-versions-api-openapi.yml
+- filename: adro1b33-internal-api-openapi.yml
+  format: yaml
+  label: ADRO Internal API
+  slug: adro1b33-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-internal-api-openapi.yml
+- filename: adro1b33-landing-announcements-api-openapi.yml
+  format: yaml
+  label: ADRO Landing Announcements API
+  slug: adro1b33-landing-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-landing-announcements-api-openapi.yml
+- filename: adro1b33-marine-api-openapi.yml
+  format: yaml
+  label: ADRO Marine API
+  slug: adro1b33-marine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-marine-api-openapi.yml
+- filename: adro1b33-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Notifications API
+  slug: adro1b33-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-notifications-api-openapi.yml
+- filename: adro1b33-special-offer-api-openapi.yml
+  format: yaml
+  label: ADRO Special Offer API
+  slug: adro1b33-special-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-special-offer-api-openapi.yml
+- filename: adro1b33-student-team-api-openapi.yml
+  format: yaml
+  label: ADRO Student Team API
+  slug: adro1b33-student-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-student-team-api-openapi.yml
 certification_count: 2
 certifications:
 - ISO/IEC 27001:2022
@@ -202,9 +280,9 @@ slug: adro1b33-trust-center
 source_filename: adro1b33-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://aoxlabs.com/\ntrust_center_url: null\ntrust_center_note: >-\n  ADRO runs no dedicated trust center or security portal — no trust.adro.com, no trust.aoxlabs.com, no\n  compliance page. The certifications below are published as a section on the AOX landing page, with\n  the TISAX assessment document served directly from the site.\ncertifications:\n- name: ISO/IEC 27001:2022\n  status: certified\n  scope: Adro Digital Service Development and Operation\n  valid_from: '2026-06-24'\n  valid_to: '2029-06-23'\n  document: https://static.aoxlabs.com/_static/landing/images/certifications/iso-iec-27001-adro.png\n  document_status: 200\n- name: TISAX\n  status: assessment completed\n  scope_id: S8PP81\n  objectives:\n  - High Availability\n  - Confidential\n  valid_to: '2029-05-26'\n  document: https://aoxlabs.com/documents/certifications/tisax-assessment-s8pp81.pdf\n  document_status: 200\n  detailed_results_access: Authorized\
-  \ TISAX participants only.\npublished_statement: >-\n  \"Security is built into how AOX is developed and operated. ADRO's digital service development and\n  operations are certified to ISO/IEC 27001:2022. ADRO has also completed a TISAX assessment covering\n  its automotive information-security scope.\" — https://aoxlabs.com/\nnot_found:\n  soc2: false\n  iso27017: false\n  iso27018: false\n  pci_dss: false\n  hipaa: false\n  fedramp: false\n  gdpr_dpa_published: false\n  subprocessor_list: false\n  pentest_report: false\nvulnerability_disclosure:\n  published: false\n  detail: >-\n    No security.txt on any host, no /security or /vulnerability-disclosure page, and no bug-bounty\n    program on HackerOne, Bugcrowd or Intigriti. probe-security-programs.py returned vdp=none.\n    Consequently NO `Security` pointer is emitted in apis.yml — there is no disclosure surface to\n    point at. The only published security contact of any kind is the general support address\n    support@adro.com.\n\
-  infrastructure:\n  hosting: AWS\n  hosting_evidence: '\"Powered by AWS infrastructure\" — https://aoxlabs.com/ footer.'\n  meshing_partners:\n  - HELYX\n  - CF-MESH+\n"
+source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://aoxlabs.com/\ntrust_center_url: null\ntrust_center_note: ADRO runs no dedicated trust center or security portal — no trust.adro.com, no trust.aoxlabs.com,\n  no compliance page. The certifications below are published as a section on the AOX landing page, with the TISAX\n  assessment document served directly from the site.\ncertifications:\n- ISO/IEC 27001:2022\n- TISAX\npublished_statement: '\"Security is built into how AOX is developed and operated. ADRO''s digital service development\n  and operations are certified to ISO/IEC 27001:2022. ADRO has also completed a TISAX assessment covering its automotive\n  information-security scope.\" — https://aoxlabs.com/'\nnot_found:\n  soc2: false\n  iso27017: false\n  iso27018: false\n  pci_dss: false\n  hipaa: false\n  fedramp: false\n  gdpr_dpa_published: false\n  subprocessor_list: false\n  pentest_report: false\nvulnerability_disclosure:\n  published: false\n  detail: No\
+  \ security.txt on any host, no /security or /vulnerability-disclosure page, and no bug-bounty program\n    on HackerOne, Bugcrowd or Intigriti. probe-security-programs.py returned vdp=none. Consequently NO `Security`\n    pointer is emitted in apis.yml — there is no disclosure surface to point at. The only published security contact\n    of any kind is the general support address support@adro.com.\ninfrastructure:\n  hosting: AWS\n  hosting_evidence: '\"Powered by AWS infrastructure\" — https://aoxlabs.com/ footer.'\n  meshing_partners:\n  - HELYX\n  - CF-MESH+\ncertification_details:\n- name: ISO/IEC 27001:2022\n  status: certified\n  scope: Adro Digital Service Development and Operation\n  valid_from: '2026-06-24'\n  valid_to: '2029-06-23'\n  document: https://static.aoxlabs.com/_static/landing/images/certifications/iso-iec-27001-adro.png\n  document_status: 200\n- name: TISAX\n  status: assessment completed\n  scope_id: S8PP81\n  objectives:\n  - High Availability\n  - Confidential\n\
+  \  valid_to: '2029-05-26'\n  document: https://aoxlabs.com/documents/certifications/tisax-assessment-s8pp81.pdf\n  document_status: 200\n  detailed_results_access: Authorized TISAX participants only.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/security/adro1b33-trust-center.yml
 summary_line: ISO/IEC 27001:2022, TISAX
 tags:

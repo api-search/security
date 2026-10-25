@@ -25,33 +25,39 @@ domains:
   dmarc_policy: none
   dnssec: true
   domain: nthusa.tw
-  spf: false
+  spf: true
 hosts:
-- host: www.nthu.edu.tw
+- cert_expires: Apr 30 15:59:59 2027 GMT
+  host: www.nthu.edu.tw
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
+- cert_expires: Dec 12 15:59:59 2026 GMT
+  host: nthu-en.site.nthu.edu.tw
   hsts: null
   https: true
-  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1082)'
-- cert_expires: Aug 25 02:04:51 2026 GMT
+  tls_version: TLSv1.2
+- cert_expires: Dec  9 12:41:44 2026 GMT
   host: api.nthusa.tw
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Nthu Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for National Tsing Hua University, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for National Tsing Hua University, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: National Tsing Hua University
 provider_slug: nthu
 slug: nthu-domain-security
 source_filename: nthu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "# method: derived\n# x-source-url: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\ngenerated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nthu.edu.tw\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject\n    Key Identifier (_ssl.c:1082)'\n  hsts: null\n- host: api.nthusa.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 02:04:51 2026 GMT\n  hsts: null\ndomains:\n- domain: nthu.edu.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nthusa.tw\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nthu.edu.tw\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 30 15:59:59 2027 GMT\n  hsts: false\n- host: nthu-en.site.nthu.edu.tw\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 15:59:59 2026 GMT\n  hsts: null\n- host: api.nthusa.tw\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 12:41:44 2026 GMT\n  hsts: null\ndomains:\n- domain: nthu.edu.tw\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: nthusa.tw\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/security/nthu-domain-security.yml
-summary_line: TLSv1.3 · DNSSEC · DMARC
+summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Education
 - Higher Education

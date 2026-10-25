@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: ispottv-openapi-generated.yml
+  format: yaml
+  label: iSpot.tv API
+  slug: ispottv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/openapi/_ae-authored/ispottv-openapi-generated.yml
 auth_types:
 - oauth2
 description: ''

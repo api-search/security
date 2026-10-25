@@ -81,13 +81,13 @@ hosts:
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 14 19:00:40 2026 GMT
-  host: api.broke2builtai.com
+- cert_expires: Dec 15 17:16:59 2026 GMT
+  host: aiim.broke2builtai.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 26 03:51:00 2026 GMT
-  host: zero.broke2builtai.com
+- cert_expires: Dec 14 19:00:40 2026 GMT
+  host: api.broke2builtai.com
   hsts: false
   https: true
   tls_version: TLSv1.3
@@ -104,7 +104,7 @@ slug: broke2builtai-com-domain-security
 source_filename: broke2builtai-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 03:13:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 19:00:40 2026 GMT\n  hsts: false\n- host: zero.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 03:51:00 2026 GMT\n  hsts: false\ndomains:\n- domain: broke2builtai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 03:13:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: aiim.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 17:16:59 2026 GMT\n  hsts: false\n- host: api.broke2builtai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 19:00:40 2026 GMT\n  hsts: false\ndomains:\n- domain: broke2builtai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broke2builtai-com/refs/heads/main/security/broke2builtai-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

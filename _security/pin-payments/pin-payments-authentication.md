@@ -32,7 +32,7 @@ description: ''
 kind: authentication
 layout: security
 mechanism_count: 1
-method: derived
+method: searched
 name: Pin Payments Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -41,17 +41,30 @@ provider_name: Pin Payments
 provider_slug: pin-payments
 scheme_count: 1
 schemes:
-- description: HTTP Basic with the API key as the username and an empty password.
+- description: HTTP basic access authentication, with your API key as the username and an empty string as the password.
+  environments:
+    live: api.pinpayments.com
+    test: test-api.pinpayments.com
+  failure:
+    body:
+      error: unauthenticated
+      error_description: Not authorised. (Check API Key).
+    status: 401
+  key_types:
+    publishable: Your publishable keys only have the ability to store payment card details (with the cards API ) and bank account details (with the bank accounts API ).
+    secret: Your secret keys have the ability to use all of the API. This means they can create charges, refunds, and bank transfers.
   name: basicAuth
   scheme: basic
   sources:
   - openapi/pin-payments-openapi.yaml
+  transport: You must use HTTPS ... We recommend using TLS 1.2.
   type: http
 slug: pin-payments-authentication
 source_filename: pin-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pin-payments-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with the API key as the username and an empty password.\n  sources:\n  - openapi/pin-payments-openapi.yaml\n"
+source_yaml: "generated: '2026-10-21'\nmethod: searched\nsource: https://pinpayments.com/developers/api-reference\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP basic access authentication, with your API key as the username and an empty string as the password.\n  sources:\n  - openapi/pin-payments-openapi.yaml\n  key_types:\n    secret: Your secret keys have the ability to use all of the API. This means they can create charges, refunds,\n      and bank transfers.\n    publishable: Your publishable keys only have the ability to store payment card details (with the cards API )\n      and bank account details (with the bank accounts API ).\n  environments:\n    live: api.pinpayments.com\n    test: test-api.pinpayments.com\n  failure:\n    status: 401\n    body:\n      error: unauthenticated\n      error_description: Not authorised. (Check API Key).\n  transport: You must use HTTPS ... We recommend using TLS 1.2.\ndocs: https://pinpayments.com/developers/api-reference\n\
+  webhook_signing:\n  header: Pin-Signature\n  algorithm: HMAC-SHA256 over \"<t>.<body>\" with the endpoint signing key\n  format: t=1500452255,v1=f07f5d147c613d85b9607d1c6b8c15fc342eca4d2cfaaf546f8dded19a30c350\n  docs: https://pinpayments.com/developers/integration-guides/webhooks\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/authentication/pin-payments-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -59,4 +72,8 @@ tags:
 - Cards
 - Subscription
 - Refunds
+- Payment Gateway
+- Recurring Payments
+- Ecommerce
+- Australia
 ---

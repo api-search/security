@@ -27,13 +27,13 @@ domains:
   domain: frayt.com
   spf: true
 hosts:
-- cert_expires: Oct  2 20:45:43 2026 GMT
+- cert_expires: Nov 30 23:27:01 2026 GMT
   host: www.frayt.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:18:53 2026 GMT
+- cert_expires: Jan 10 14:55:23 2027 GMT
   host: api.frayt.com
   hsts: true
   hsts_max_age: 31536000
@@ -52,7 +52,7 @@ slug: frayt-domain-security
 source_filename: frayt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.frayt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 20:45:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.frayt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:18:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: frayt.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.frayt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:27:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.frayt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 14:55:23 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: frayt.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frayt/refs/heads/main/security/frayt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

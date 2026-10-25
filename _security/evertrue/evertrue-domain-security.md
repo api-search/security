@@ -8,7 +8,7 @@ domains:
   domain: evertrue.com
   spf: true
 hosts:
-- cert_expires: Sep 25 23:24:59 2026 GMT
+- cert_expires: Nov 24 03:18:26 2026 GMT
   host: www.evertrue.com
   hsts: false
   https: true
@@ -26,7 +26,7 @@ slug: evertrue-domain-security
 source_filename: evertrue-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evertrue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:24:59 2026 GMT\n  hsts: false\ndomains:\n- domain: evertrue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evertrue.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 03:18:26 2026 GMT\n  hsts: false\ndomains:\n- domain: evertrue.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evertrue/refs/heads/main/security/evertrue-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

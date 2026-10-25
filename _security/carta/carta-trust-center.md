@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: carta-openapi-generated.yml
+  format: yaml
+  label: Carta API
+  slug: carta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/openapi/_ae-authored/carta-openapi-generated.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -16,7 +23,7 @@ slug: carta-trust-center
 source_filename: carta-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.carta.com/\nurl: https://trust.carta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.carta.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.carta.com/\nurl: https://trust.carta.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.carta.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/security/carta-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:

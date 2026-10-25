@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: npp-australia-openapi-generated.yml
+  format: yaml
+  label: NPP Australia (AP+) API
+  slug: npp-australia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/openapi/_ae-authored/npp-australia-openapi-generated.yml
 auth_types:
 - openIdConnect
 - oauth2
@@ -60,7 +67,7 @@ tags:
 - Account-to-Account
 - ISO 20022
 - Payment Scheme
-- Rails
+- Payment Rails
 - PayTo
 - PayID
 - Open Banking

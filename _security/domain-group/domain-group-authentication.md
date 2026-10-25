@@ -165,6 +165,24 @@ api_specs:
   slug: domain-group-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-webhooks-api-openapi.yml
+- filename: domain-group-avmhistory-api-openapi.yml
+  format: yaml
+  label: Domain Group Avm History API
+  slug: domain-group-avmhistory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-avmhistory-api-openapi.yml
+- filename: domain-group-auctioncollection-api-openapi.yml
+  format: yaml
+  label: Domain Group Auction Collection API
+  slug: domain-group-auctioncollection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-auctioncollection-api-openapi.yml
+- filename: domain-group-agentsearch-api-openapi.yml
+  format: yaml
+  label: Domain Group Agent Search API
+  slug: domain-group-agentsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/openapi/domain-group-agentsearch-api-openapi.yml
 - filename: domain-group-property-search-api-openapi.yml
   format: yaml
   label: Domain Group Property Search API

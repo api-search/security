@@ -375,10 +375,9 @@ domains:
   domain: nemweb.com.au
   spf: true
 hosts:
-- cert_expires: Aug  7 23:59:59 2026 GMT
+- cert_expires: Feb 10 23:59:59 2027 GMT
   host: aemo.com.au
-  hsts: true
-  hsts_max_age: 63072000
+  hsts: null
   https: true
   tls_version: TLSv1.3
 - cert_expires: Dec 17 23:59:59 2026 GMT
@@ -388,8 +387,7 @@ hosts:
   tls_version: TLSv1.2
 - cert_expires: Jan 12 23:59:59 2027 GMT
   host: nemweb.com.au
-  hsts: true
-  hsts_max_age: 63072000
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -398,16 +396,16 @@ layout: security
 method: probed
 name: Aemo Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for AEMO, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for AEMO, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AEMO
 provider_slug: aemo
 slug: aemo-domain-security
 source_filename: aemo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aemo.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: visualisations.aemo.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: false\n- host: nemweb.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: aemo.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nemweb.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aemo.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: null\n- host: visualisations.aemo.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: false\n- host: nemweb.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: aemo.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: nemweb.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/security/aemo-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Energy
 - Australia

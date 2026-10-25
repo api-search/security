@@ -80,32 +80,49 @@ domains:
   dnssec: false
   domain: uwaterloo.ca
   spf: true
+- caa:
+  - 0 issuewild "digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c"
+  - 0 issue "amazon.com"
+  - 0 issue "digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c"
+  - 0 issuewild "amazon.com"
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: atlassian.net
+  spf: true
 hosts:
-- cert_expires: Aug  3 00:36:52 2026 GMT
+- cert_expires: Nov 10 20:02:56 2026 GMT
   host: uwaterloo.ca
   hsts: true
   hsts_max_age: 31622400
   https: true
   tls_version: TLSv1.2
-- cert_expires: Dec 13 23:59:59 2026 GMT
+- cert_expires: Apr  5 23:59:59 2027 GMT
   host: openapi.data.uwaterloo.ca
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+- cert_expires: Feb  6 23:59:59 2027 GMT
+  host: uwaterloo.atlassian.net
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: University Of Waterloo Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for University of Waterloo, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for University of Waterloo, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: University of Waterloo
 provider_slug: university-of-waterloo
 slug: university-of-waterloo-domain-security
 source_filename: university-of-waterloo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uwaterloo.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  3 00:36:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: openapi.data.uwaterloo.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: uwaterloo.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uwaterloo.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 10 20:02:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: openapi.data.uwaterloo.ca\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  5 23:59:59 2027 GMT\n  hsts: null\n- host: uwaterloo.atlassian.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: uwaterloo.ca\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: atlassian.net\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc:\
+  \ true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/security/university-of-waterloo-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

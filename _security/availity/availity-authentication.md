@@ -44,6 +44,60 @@ api_specs:
   slug: availity-service-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-api-openapi.yml
+- filename: availity-availity-payer-list-api-openapi.yml
+  format: yaml
+  label: Availity Availity Payer List API
+  slug: availity-availity-payer-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-availity-payer-list-api-openapi.yml
+- filename: availity-claim-statuses-api-openapi.yml
+  format: yaml
+  label: Availity Claim Statuses API
+  slug: availity-claim-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-statuses-api-openapi.yml
+- filename: availity-configurations-api-openapi.yml
+  format: yaml
+  label: Availity Configurations API
+  slug: availity-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-configurations-api-openapi.yml
+- filename: availity-coverages-api-openapi.yml
+  format: yaml
+  label: Availity Coverages API
+  slug: availity-coverages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-coverages-api-openapi.yml
+- filename: availity-dental-claims-api-openapi.yml
+  format: yaml
+  label: Availity Dental Claims API
+  slug: availity-dental-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dental-claims-api-openapi.yml
+- filename: availity-dfs-api-openapi.yml
+  format: yaml
+  label: Availity Dfs API
+  slug: availity-dfs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dfs-api-openapi.yml
+- filename: availity-institutional-claims-api-openapi.yml
+  format: yaml
+  label: Availity Institutional Claims API
+  slug: availity-institutional-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-institutional-claims-api-openapi.yml
+- filename: availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
+  format: yaml
+  label: Availity Patient Cost Estimator 2.0.0 Professional API
+  slug: availity-patient-cost-estimator-2-0-0-professional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
+- filename: availity-professional-claims-api-openapi.yml
+  format: yaml
+  label: Availity Professional Claims API
+  slug: availity-professional-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-professional-claims-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

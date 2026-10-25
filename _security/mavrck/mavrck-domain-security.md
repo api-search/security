@@ -1095,18 +1095,22 @@ domains:
   domain: mavrck.co
   spf: true
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: reject
   dnssec: false
-  domain: splashscore.com
+  domain: later.com
   spf: true
 hosts:
-- host: mavrck.co
-  hsts: null
+- cert_expires: Jan 11 20:59:36 2027 GMT
+  host: www.mavrck.co
+  hsts: true
+  hsts_max_age: 2592000
   https: true
-  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)'
-- cert_expires: Dec 25 23:59:59 2026 GMT
-  host: app.splashscore.com
-  hsts: null
+  tls_version: TLSv1.3
+- cert_expires: Dec 20 23:41:30 2026 GMT
+  host: help-influence.later.com
+  hsts: true
+  hsts_max_age: 259200
   https: true
   tls_version: TLSv1.3
 - cert_expires: Dec 25 23:59:59 2026 GMT
@@ -1120,16 +1124,16 @@ layout: security
 method: probed
 name: Mavrck Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Mavrck, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Mavrck, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Mavrck
 provider_slug: mavrck
 slug: mavrck-domain-security
 source_filename: mavrck-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mavrck.co\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has\n    expired (_ssl.c:1082)'\n  hsts: null\n- host: app.splashscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: null\n- host: api.mavrck.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mavrck.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: splashscore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mavrck.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 20:59:36 2027 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: help-influence.later.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:41:30 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\n- host: api.mavrck.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: mavrck.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: later.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/security/mavrck-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Influencer Marketing

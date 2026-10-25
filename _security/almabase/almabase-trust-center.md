@@ -1,4 +1,101 @@
 ---
+api_specs:
+- filename: almabase-bought-ticket-api-openapi.yml
+  format: yaml
+  label: Almabase Bought Ticket API
+  slug: almabase-bought-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-bought-ticket-api-openapi.yml
+- filename: almabase-event-agenda-api-openapi.yml
+  format: yaml
+  label: Almabase Event Agenda API
+  slug: almabase-event-agenda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-agenda-api-openapi.yml
+- filename: almabase-event-announcement-api-openapi.yml
+  format: yaml
+  label: Almabase Event Announcement API
+  slug: almabase-event-announcement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-announcement-api-openapi.yml
+- filename: almabase-event-api-openapi.yml
+  format: yaml
+  label: Almabase Event API
+  slug: almabase-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-api-openapi.yml
+- filename: almabase-event-auction-bidder-api-openapi.yml
+  format: yaml
+  label: Almabase Event Auction Bidder API
+  slug: almabase-event-auction-bidder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-auction-bidder-api-openapi.yml
+- filename: almabase-event-auction-statistic-api-openapi.yml
+  format: yaml
+  label: Almabase Event Auction Statistic API
+  slug: almabase-event-auction-statistic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-auction-statistic-api-openapi.yml
+- filename: almabase-event-contact-person-api-openapi.yml
+  format: yaml
+  label: Almabase Event Contact Person API
+  slug: almabase-event-contact-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-contact-person-api-openapi.yml
+- filename: almabase-event-discount-api-openapi.yml
+  format: yaml
+  label: Almabase Event Discount API
+  slug: almabase-event-discount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-discount-api-openapi.yml
+- filename: almabase-event-guest-api-openapi.yml
+  format: yaml
+  label: Almabase Event Guest API
+  slug: almabase-event-guest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-guest-api-openapi.yml
+- filename: almabase-event-image-api-openapi.yml
+  format: yaml
+  label: Almabase Event Image API
+  slug: almabase-event-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-image-api-openapi.yml
+- filename: almabase-event-invitee-api-openapi.yml
+  format: yaml
+  label: Almabase Event Invitee API
+  slug: almabase-event-invitee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-invitee-api-openapi.yml
+- filename: almabase-event-itinerary-api-openapi.yml
+  format: yaml
+  label: Almabase Event Itinerary API
+  slug: almabase-event-itinerary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-itinerary-api-openapi.yml
+- filename: almabase-event-registration-api-openapi.yml
+  format: yaml
+  label: Almabase Event Registration API
+  slug: almabase-event-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-registration-api-openapi.yml
+- filename: almabase-event-ticket-api-openapi.yml
+  format: yaml
+  label: Almabase Event Ticket API
+  slug: almabase-event-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-event-ticket-api-openapi.yml
+- filename: almabase-gift-api-openapi.yml
+  format: yaml
+  label: Almabase Gift API
+  slug: almabase-gift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-gift-api-openapi.yml
+- filename: almabase-guest-re-gift-api-openapi.yml
+  format: yaml
+  label: Almabase Guest Re Gift API
+  slug: almabase-guest-re-gift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/openapi/almabase-guest-re-gift-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type 2

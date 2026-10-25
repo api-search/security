@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: football-charts-openapi-generated.yml
+  format: yaml
+  label: Football Charts API
+  slug: football-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/openapi/_ae-authored/football-charts-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -8,30 +15,30 @@ domains:
   domain: football-charts.com
   spf: true
 - caa:
-  - 0 issuewild "letsencrypt.org"
-  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
   - 0 iodef "mailto:security+caafailure@render.com"
   - 0 issue "digicert.com"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issuewild "digicert.com"
+  - 0 issuewild "letsencrypt.org"
   dmarc: true
   dmarc_policy: none
   dnssec: false
   domain: onrender.com
   spf: false
 hosts:
-- cert_expires: Oct 26 15:29:17 2026 GMT
+- cert_expires: Dec 27 15:31:26 2026 GMT
   host: www.football-charts.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 22 21:54:17 2026 GMT
+- cert_expires: Dec 20 23:04:28 2026 GMT
   host: footballcharts-backend.onrender.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 17 13:36:21 2026 GMT
+- cert_expires: Jan 15 13:47:38 2027 GMT
   host: mcp.football-charts.com
   hsts: false
   https: true
@@ -49,8 +56,8 @@ slug: football-charts-domain-security
 source_filename: football-charts-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.football-charts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 15:29:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: footballcharts-backend.onrender.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 21:54:17 2026 GMT\n  hsts: false\n- host: mcp.football-charts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 13:36:21 2026 GMT\n  hsts: false\ndomains:\n- domain: football-charts.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: onrender.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:security+caafailure@render.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: false\n  dmarc:\
-  \ true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.football-charts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 15:31:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: footballcharts-backend.onrender.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:04:28 2026 GMT\n  hsts: false\n- host: mcp.football-charts.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 13:47:38 2027 GMT\n  hsts: false\ndomains:\n- domain: football-charts.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: onrender.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:security+caafailure@render.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: false\n  dmarc: true\n  dmarc_policy:\
+  \ none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/security/football-charts-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

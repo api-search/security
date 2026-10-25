@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: national-australia-bank-gateway-payments-api-openapi.yml
+  format: yaml
+  label: National Australia Bank (NAB) Gateway Payments API
+  slug: national-australia-bank-gateway-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-gateway-payments-api-openapi.yml
 - filename: national-australia-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Account Balances API

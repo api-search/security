@@ -51,12 +51,12 @@ domains:
   domain: judo.bank
   spf: true
 hosts:
-- cert_expires: Oct 16 02:24:30 2026 GMT
+- cert_expires: Dec 14 03:11:39 2026 GMT
   host: www.judo.bank
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 24 23:59:59 2026 GMT
+- cert_expires: Mar 26 23:59:59 2027 GMT
   host: public.open.judo.bank
   hsts: null
   https: true
@@ -74,7 +74,7 @@ slug: judo-bank-domain-security
 source_filename: judo-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.judo.bank\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 02:24:30 2026 GMT\n  hsts: null\n- host: public.open.judo.bank\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: judo.bank\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.judo.bank\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 03:11:39 2026 GMT\n  hsts: null\n- host: public.open.judo.bank\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 26 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: judo.bank\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judo-bank/refs/heads/main/security/judo-bank-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

@@ -51,14 +51,14 @@ domains:
   domain: boq.com.au
   spf: true
 hosts:
-- cert_expires: Aug 16 23:59:59 2026 GMT
+- cert_expires: Feb 10 23:59:59 2027 GMT
   host: www.boq.com.au
   hsts: true
   hsts_max_age: 31557600
   https: true
   tls_version: TLSv1.2
-- cert_expires: Feb 17 23:59:59 2027 GMT
-  host: secure.api.boq.com.au
+- cert_expires: Apr 30 23:59:59 2027 GMT
+  host: api.cds.boq.com.au
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -75,7 +75,7 @@ slug: bank-of-queensland-domain-security
 source_filename: bank-of-queensland-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boq.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: secure.api.boq.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: boq.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boq.com.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: api.cds.boq.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 30 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: boq.com.au\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/security/bank-of-queensland-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:

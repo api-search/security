@@ -2,6 +2,25 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: revnu-api-reference-api-openapi.yml
+  format: yaml
+  label: Revnu API Reference API
+  slug: revnu-api-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-api-reference-api-openapi.yml
+- filename: revnu-content-api-api-openapi.yml
+  format: yaml
+  label: Revnu Content API
+  slug: revnu-content-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-content-api-api-openapi.yml
+- filename: revnu-measurement-api-openapi.yml
+  format: yaml
+  label: Revnu Measurement API
+  slug: revnu-measurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-measurement-api-openapi.yml
 auth_types:
 - http
 - apiKey

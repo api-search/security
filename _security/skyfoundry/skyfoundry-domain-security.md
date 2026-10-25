@@ -8,7 +8,7 @@ domains:
   domain: skyfoundry.com
   spf: true
 hosts:
-- cert_expires: Aug 31 13:12:45 2026 GMT
+- cert_expires: Dec 27 13:58:40 2026 GMT
   host: skyfoundry.com
   hsts: null
   https: true
@@ -26,7 +26,7 @@ slug: skyfoundry-domain-security
 source_filename: skyfoundry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: skyfoundry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 13:12:45 2026 GMT\n  hsts: null\ndomains:\n- domain: skyfoundry.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: skyfoundry.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 13:58:40 2026 GMT\n  hsts: null\ndomains:\n- domain: skyfoundry.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyfoundry/refs/heads/main/security/skyfoundry-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

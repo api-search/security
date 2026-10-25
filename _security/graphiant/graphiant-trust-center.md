@@ -412,7 +412,7 @@ slug: graphiant-trust-center
 source_filename: graphiant-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-01'\nmethod: searched\nprobe: true\nsource: https://trust.graphiant.com/\nurl: https://trust.graphiant.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.graphiant.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - compliance certification\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: https://trust.graphiant.com/\nurl: https://trust.graphiant.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.graphiant.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - compliance certification\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/security/graphiant-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:

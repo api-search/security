@@ -3,6 +3,13 @@ anonymous_access: false
 api_key_in:
 - header
 - path
+api_specs:
+- filename: football-charts-openapi-generated.yml
+  format: yaml
+  label: Football Charts API
+  slug: football-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/football-charts/refs/heads/main/openapi/_ae-authored/football-charts-openapi-generated.yml
 auth_types:
 - apiKey
 description: ''
