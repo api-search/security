@@ -53,10 +53,21 @@
         {% when 'channel-provider' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
       {% endcase %}
     {% endif %}
-    <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
-    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% comment %} SEARCH-FACING TITLES (2026-10-26, from Search Console): provider pages ran
+       0.96% CTR on 420K impressions as "Wikidata | APIs.io Providers", and API pages used
+       Jekyll's slug-derived page.title ("Govinfo Api"). Lead with what people type —
+       "<name> API" — and say what the page holds. {% endcomment %}
+    {% assign _seo_title = '' %}{% assign _nd = page.name | downcase %}
+    {% if page.collection == 'providers' and page.name %}
+      {% capture _seo_title %}{{ page.name }}{% unless _nd contains 'api' %} API{% endunless %} — Docs, OpenAPI &amp; Kin Score | APIs.io{% endcapture %}
+    {% elsif page.collection == 'apis' and page.name %}
+      {% assign _pd = page.provider_name | downcase %}
+      {% capture _seo_title %}{{ page.name }}{% unless _nd contains 'api' %} API{% endunless %}{% if page.provider_name and page.provider_name != page.name %}{% unless _nd contains _pd %} ({{ page.provider_name }}){% endunless %}{% endif %} — OpenAPI &amp; Docs | APIs.io{% endcapture %}
+    {% endif %}
+    <title>{% if page.meta_title %}{{ page.meta_title }}{% if paginator.page and paginator.page > 1 %} — Page {{ paginator.page }}{% endif %}{% elsif _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }}{% if paginator.page and paginator.page > 1 %} — Page {{ paginator.page }}{% endif %} | {{ site.name }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
+    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% if paginator.page and paginator.page > 1 %} Page {{ paginator.page }}{% endif %}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.keywords | join: ', ' }}">
-    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% elsif page.url contains "/plugin/apis-io/skills/" %}{{ page.url | replace_first: "/plugin/apis-io/skills/", "/skills/" | prepend: site.url }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
     <link rel="api-catalog" href="https://apis.io/.well-known/api-catalog" type="application/linkset+json">
     <link rel="agent-skills" href="https://apis.io/skills/">
     {%- comment -%}
@@ -101,8 +112,8 @@
     {% if page.layout == "post" %}{% assign _og_type = "article" %}{% else %}{% assign _og_type = "website" %}{% endif %}
 
     <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
-    <meta property="og:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:title" content="{% if _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 200 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.name }}">
     <meta property="og:type" content="{{ _og_type }}">
@@ -118,8 +129,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ _og_image }}">
     <meta name="twitter:image:alt" content="{{ _og_alt | escape }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:title" content="{% if _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 200 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
 
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
